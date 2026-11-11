@@ -25,3 +25,5 @@ This is a **curated entity extraction**, not a verified transcription of every h
 ## Character card artwork
 
 [View the labeled party card gallery](artwork/player-cards/README.md) for Theron Ashvale, Garrick Vale, Nyx Thorne, and Lyra Moonvale.
+
+[Browse all campaign artwork](artwork/README.md), including family, animal companions, Vaeltharion, and location concepts.
