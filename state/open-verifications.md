@@ -6,3 +6,4 @@
 - Missing historical companion numbers: mark unknown; don't replace current values with old snapshots.
 - Untraveled route lengths: assign prospectively when relevant.
 - White sword custody, A-07 signature agency, Fifth Bell conspiracy: deliberate mysteries; use established clues.
+- Historical custody funds: 38 gp 2 sp seized in the Day 12 record; disposition unverified (v1.5 X-08). Keep separate from the Day 46 spendable total of 495 gp 2 sp. Do not award or invent a transfer/release. See `entities/mechanics/party-finances.md` and `archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md`.

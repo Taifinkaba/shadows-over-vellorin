@@ -612,6 +612,58 @@
       "status": "user-locked",
       "visibility": "gm-reference",
       "tags": []
+    },
+    {
+      "id": "theron-abilities",
+      "type": "mechanics",
+      "title": "Theron: verified abilities",
+      "path": "entities/mechanics/theron-abilities.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "theron",
+        "abilities",
+        "mechanics"
+      ]
+    },
+    {
+      "id": "theron-skills",
+      "type": "mechanics",
+      "title": "Theron: verified skills",
+      "path": "entities/mechanics/theron-skills.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "theron",
+        "skills",
+        "progression"
+      ]
+    },
+    {
+      "id": "theron-spells",
+      "type": "mechanics",
+      "title": "Theron: verified spells",
+      "path": "entities/mechanics/theron-spells.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "theron",
+        "spells",
+        "mana"
+      ]
+    },
+    {
+      "id": "party-finances",
+      "type": "mechanics",
+      "title": "Party finances and custody boundaries",
+      "path": "entities/mechanics/party-finances.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "money",
+        "custody",
+        "checkpoint"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
