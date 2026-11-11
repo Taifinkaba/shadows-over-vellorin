@@ -3,6 +3,18 @@ id: theron-ashvale
 type: characters
 status: canon
 visibility: gm-reference
+checkpoint_values:
+  date: Year 847 Day 46
+  time: 09:15
+  location: Mount Vaelspire
+  status: PAUSED
+  theron.hp: 100
+  theron.hp_max: 100
+  theron.mp: 376
+  theron.mp_max: 400
+  theron.defense: 26
+  theron.rank: S+
+  money.theron_gp_sp: 91gp 8sp
 source_refs:
   - "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md"
   - "archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md"
@@ -20,3 +32,5 @@ source_refs:
 - Current location Mount Vaelspire. Individual finances: 91 gp 8 sp.
 - Legendary black Runeblade, matched white sword, Oathbearer Token, Dragonveil Mask, staff, three previously gifted scales, two moonstones, empty crystal housing; no mana draughts or stored mana. Third Bell clapper custody remains unverified; do not silently assign it.
 - Theron's **in-character knowledge** excludes GM-only sword donor/forging secrets until discovered.
+
+Verified mechanics: `entities/mechanics/theron-abilities.md`, `entities/mechanics/theron-skills.md`, and `entities/mechanics/theron-spells.md`.

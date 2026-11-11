@@ -3,6 +3,10 @@ id: vaeltharion
 type: creatures
 status: canon
 visibility: gm-reference
+checkpoint_values:
+  world.vaeltharion_chains_attached: 7
+  world.junctions_tested: 1
+  world.junctions_untested: 6
 source_refs:
   - "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md"
   - "archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md"

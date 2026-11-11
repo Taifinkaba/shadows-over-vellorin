@@ -3,6 +3,8 @@ id: lyra-moonvale
 type: characters
 status: canon
 visibility: gm-reference
+checkpoint_values:
+  money.lyra_gp_sp: 92gp 8sp
 source_refs:
   - "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md"
   - "archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md"
