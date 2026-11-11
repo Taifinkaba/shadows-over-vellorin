@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "path": "archive/legacy-modules/world/00-shadows-over-vellorin-world-bible-v1-0.md",
+      "title": "SHADOWS OVER VELLORIN \u2014 WORLD BIBLE v1.0",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/01-1-immutable-current-checkpoint.md",
+      "title": "1. IMMUTABLE CURRENT CHECKPOINT [CANON]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/02-2-rules-of-the-world.md",
+      "title": "2. RULES OF THE WORLD [LOCKED DESIGN]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/03-3-world-map-and-regions.md",
+      "title": "3. WORLD MAP AND REGIONS [LOCKED DESIGN, anchored to established names]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/04-4-government-law-and-justice.md",
+      "title": "4. GOVERNMENT, LAW AND JUSTICE [LOCKED DESIGN]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/05-5-economy-and-prices.md",
+      "title": "5. ECONOMY AND PRICES [LOCKED DESIGN]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md",
+      "title": "6. GUILDS, FACTIONS AND LOCAL OPERATIONS [LOCKED DESIGN unless noted]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/07-7-the-ashvale-family.md",
+      "title": "7. THE ASHVALE FAMILY [CANON + bounded design]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md",
+      "title": "8. THE TWO SWORDS \u2014 ORIGIN DOSSIER",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/09-9-main-campaign-the-first-oath-conspiracy.md",
+      "title": "9. MAIN CAMPAIGN \u2014 THE FIRST OATH CONSPIRACY",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/10-10-vaeltharion-s-freedom-engineering-roadmap.md",
+      "title": "10. VAELTHARION'S FREEDOM \u2014 ENGINEERING ROADMAP [CANON + LOCKED DESIGN]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/11-11-npc-autonomy-and-faction-clocks.md",
+      "title": "11. NPC AUTONOMY AND FACTION CLOCKS [LOCKED DESIGN]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/12-12-quest-board-by-region.md",
+      "title": "12. QUEST BOARD BY REGION [LOCKED DESIGN]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/13-13-session-engine-how-to-run-this-world.md",
+      "title": "13. SESSION ENGINE / HOW TO RUN THIS WORLD [LOCKED DESIGN]",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/14-14-unresolved-items-and-reconciliation-queue.md",
+      "title": "14. UNRESOLVED ITEMS AND RECONCILIATION QUEUE",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/world/15-15-change-log.md",
+      "title": "15. CHANGE LOG",
+      "source": "Shadows_Over_Vellorin_World_Bible_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/00-shadows-over-vellorin-npc-settlement-registry-v1-0.md",
+      "title": "SHADOWS OVER VELLORIN \u2014 NPC & SETTLEMENT REGISTRY v1.0",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/01-reading-key-and-canon-policy.md",
+      "title": "READING KEY AND CANON POLICY",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md",
+      "title": "I. CHARACTER REGISTRY \u2014 PARTY, FAMILY, WOLVES",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/03-ii-major-public-antagonist-historical-npcs.md",
+      "title": "II. MAJOR PUBLIC / ANTAGONIST / HISTORICAL NPCS",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/04-iii-settlement-operating-rules.md",
+      "title": "III. SETTLEMENT OPERATING RULES",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/05-iv-reputation-rumors-and-knowledge.md",
+      "title": "IV. REPUTATION, RUMORS AND KNOWLEDGE",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/06-v-economic-guild-and-legal-behavior.md",
+      "title": "V. ECONOMIC, GUILD AND LEGAL BEHAVIOR",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/07-vi-offscreen-npc-actions-and-settlement-turns.md",
+      "title": "VI. OFFSCREEN NPC ACTIONS AND SETTLEMENT TURNS",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/08-vii-npc-relationship-information-graph.md",
+      "title": "VII. NPC RELATIONSHIP / INFORMATION GRAPH",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/09-viii-quest-service-seeds-by-settlement.md",
+      "title": "VIII. QUEST / SERVICE SEEDS BY SETTLEMENT",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/10-ix-live-tracker-templates.md",
+      "title": "IX. LIVE TRACKER TEMPLATES",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/11-x-open-slots-must-not-be-improvised-as-past-fact.md",
+      "title": "X. OPEN SLOTS \u2014 MUST NOT BE IMPROVISED AS PAST FACT",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/people/12-xi-starting-status-and-change-log.md",
+      "title": "XI. STARTING STATUS AND CHANGE LOG",
+      "source": "Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/00-shadows-over-vellorin-campaign-continuity-codex-v1-4.md",
+      "title": "SHADOWS OVER VELLORIN \u2014 CAMPAIGN CONTINUITY CODEX v1.4",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/01-system-1-canon-retcon-ledger.md",
+      "title": "SYSTEM 1 \u2014 CANON & RETCON LEDGER",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md",
+      "title": "SYSTEM 2 \u2014 CHARACTER, INVENTORY & MECHANICS LEDGER",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md",
+      "title": "SYSTEM 3 \u2014 QUESTS, CONSEQUENCES & FACTION CLOCKS",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md",
+      "title": "SYSTEM 4 \u2014 GEOGRAPHY & TRAVEL ATLAS",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/05-system-5-world-timeline-event-calendar.md",
+      "title": "SYSTEM 5 \u2014 WORLD TIMELINE & EVENT CALENDAR",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/06-system-6-gm-secrets-mystery-evidence-matrix.md",
+      "title": "SYSTEM 6 \u2014 GM SECRETS & MYSTERY EVIDENCE MATRIX",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/07-7-reconciliation-audit-requires-user-review.md",
+      "title": "7. RECONCILIATION AUDIT \u2014 REQUIRES USER REVIEW",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/08-8-live-campaign-handoff-copy-into-a-new-chat.md",
+      "title": "8. LIVE CAMPAIGN HANDOFF \u2014 COPY INTO A NEW CHAT",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md",
+      "title": "v1.3 \u2014 Reconciliation and DM Operating Rules (approved Day 46 pause; supersedes contradictory older entries)",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md",
+      "title": "v1.4 \u2014 RECONCILIATION OF ROSTER, ROUTES AND EVIDENCE (OUT OF WORLD)",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    },
+    {
+      "path": "archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md",
+      "title": "v1.5 \u2014 FINAL CROSS-SESSION VERIFICATION AUDIT (OUT-OF-WORLD; NO GAMEPLAY ADVANCE)",
+      "source": "Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md",
+      "authority": "archival-only"
+    }
+  ]
+}

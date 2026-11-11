@@ -1,0 +1,618 @@
+{
+  "schema_version": 2,
+  "project": "Shadows Over Vellorin",
+  "authoritative_root": "entities/",
+  "entries": [
+    {
+      "id": "theron-ashvale",
+      "type": "characters",
+      "title": "Theron Ashvale / Blackscale",
+      "path": "entities/characters/theron-ashvale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "player",
+        "magic",
+        "checkpoint"
+      ]
+    },
+    {
+      "id": "garrick-vale",
+      "type": "characters",
+      "title": "Garrick Vale",
+      "path": "entities/characters/garrick-vale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "nyx-thorne",
+      "type": "characters",
+      "title": "Nyx Thorne",
+      "path": "entities/characters/nyx-thorne.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "lyra-moonvale",
+      "type": "characters",
+      "title": "Lyra Moonvale",
+      "path": "entities/characters/lyra-moonvale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "aric-ashvale",
+      "type": "characters",
+      "title": "Aric Ashvale",
+      "path": "entities/characters/aric-ashvale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "lyanna-ashvale",
+      "type": "characters",
+      "title": "Lyanna Ashvale",
+      "path": "entities/characters/lyanna-ashvale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "caelan-ashvale",
+      "type": "characters",
+      "title": "Caelan Ashvale",
+      "path": "entities/characters/caelan-ashvale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "mara-vey",
+      "type": "characters",
+      "title": "Lieutenant Mara Vey",
+      "path": "entities/characters/mara-vey.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "tomas",
+      "type": "characters",
+      "title": "Tomas",
+      "path": "entities/characters/tomas.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "aldric-voss",
+      "type": "characters",
+      "title": "Commander Aldric Voss",
+      "path": "entities/characters/aldric-voss.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "malrec",
+      "type": "characters",
+      "title": "Malrec",
+      "path": "entities/characters/malrec.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "corven",
+      "type": "characters",
+      "title": "Corven",
+      "path": "entities/characters/corven.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc"
+      ]
+    },
+    {
+      "id": "shade",
+      "type": "creatures",
+      "title": "Shade",
+      "path": "entities/creatures/shade.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "ember",
+      "type": "creatures",
+      "title": "Ember",
+      "path": "entities/creatures/ember.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "alpha",
+      "type": "creatures",
+      "title": "Alpha",
+      "path": "entities/creatures/alpha.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "frostmoon",
+      "type": "creatures",
+      "title": "Frostmoon",
+      "path": "entities/creatures/frostmoon.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "aurelion",
+      "type": "creatures",
+      "title": "Aurelion",
+      "path": "entities/creatures/aurelion.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "hounds-tomas",
+      "type": "creatures",
+      "title": "Tomas\u2019s hunting hounds",
+      "path": "entities/creatures/hounds-tomas.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "bracken",
+      "type": "creatures",
+      "title": "Bracken",
+      "path": "entities/creatures/bracken.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "morrow",
+      "type": "creatures",
+      "title": "Morrow",
+      "path": "entities/creatures/morrow.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "vaeltharion",
+      "type": "creatures",
+      "title": "Vaeltharion",
+      "path": "entities/creatures/vaeltharion.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragon"
+      ]
+    },
+    {
+      "id": "black-runeblade",
+      "type": "items",
+      "title": "Black Dragon-Scale Runeblade",
+      "path": "entities/items/black-runeblade.md",
+      "status": "gm-secret-locked",
+      "visibility": "gm-secret",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "white-runeblade",
+      "type": "items",
+      "title": "White matched blade",
+      "path": "entities/items/white-runeblade.md",
+      "status": "gm-secret-locked",
+      "visibility": "gm-secret",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "oathbearer-token",
+      "type": "items",
+      "title": "Oathbearer Token",
+      "path": "entities/items/oathbearer-token.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "third-bell-clapper",
+      "type": "items",
+      "title": "Third Bell clapper",
+      "path": "entities/items/third-bell-clapper.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "fifth-bell",
+      "type": "items",
+      "title": "Fifth Bell",
+      "path": "entities/items/fifth-bell.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "ashvale-wagon",
+      "type": "items",
+      "title": "Ashvale supply wagon",
+      "path": "entities/items/ashvale-wagon.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dragon-scales-stock",
+      "type": "items",
+      "title": "Vaeltharion\u2019s scale stock",
+      "path": "entities/items/dragon-scales-stock.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "empty-crystal-housing",
+      "type": "items",
+      "title": "Empty crystal housing",
+      "path": "entities/items/empty-crystal-housing.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "ashvale-estate",
+      "type": "locations",
+      "title": "Ashvale Estate",
+      "path": "entities/locations/ashvale-estate.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "blackthorn-watch",
+      "type": "locations",
+      "title": "Blackthorn Watch",
+      "path": "entities/locations/blackthorn-watch.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "mount-vaelspire",
+      "type": "locations",
+      "title": "Mount Vaelspire",
+      "path": "entities/locations/mount-vaelspire.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "greyhaven-mill",
+      "type": "locations",
+      "title": "Greyhaven Mill",
+      "path": "entities/locations/greyhaven-mill.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "eastrun",
+      "type": "locations",
+      "title": "Eastrun",
+      "path": "entities/locations/eastrun.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "briarfall-crossing",
+      "type": "locations",
+      "title": "Briarfall Crossing",
+      "path": "entities/locations/briarfall-crossing.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "caelthorne",
+      "type": "locations",
+      "title": "Caelthorne",
+      "path": "entities/locations/caelthorne.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "ninth-vault",
+      "type": "locations",
+      "title": "Ninth Vault",
+      "path": "entities/locations/ninth-vault.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "mirror-foundation",
+      "type": "locations",
+      "title": "Mirror Foundation",
+      "path": "entities/locations/mirror-foundation.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "frostspire-peaks",
+      "type": "locations",
+      "title": "Frostspire Peaks",
+      "path": "entities/locations/frostspire-peaks.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "hollow-veil",
+      "type": "locations",
+      "title": "Hollow Veil sanctuary",
+      "path": "entities/locations/hollow-veil.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "vaeltharion-freedom",
+      "type": "quests",
+      "title": "Vaeltharion\u2019s freedom",
+      "path": "entities/quests/vaeltharion-freedom.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "bulwark",
+      "type": "quests",
+      "title": "Dragon-scale Bulwark",
+      "path": "entities/quests/bulwark.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "return-gate",
+      "type": "quests",
+      "title": "Guardian Return Gate",
+      "path": "entities/quests/return-gate.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "first-oath-conspiracy",
+      "type": "quests",
+      "title": "First Oath / Crown conspiracy",
+      "path": "entities/quests/first-oath-conspiracy.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "lyanna-rescue",
+      "type": "quests",
+      "title": "Lyanna rescue",
+      "path": "entities/quests/lyanna-rescue.md",
+      "status": "completed",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "caelan-rescue",
+      "type": "quests",
+      "title": "Caelan rescue",
+      "path": "entities/quests/caelan-rescue.md",
+      "status": "completed",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "artificial-witness",
+      "type": "quests",
+      "title": "Counterfeit Witness",
+      "path": "entities/quests/artificial-witness.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "v9-memories",
+      "type": "quests",
+      "title": "V-9 stolen memories",
+      "path": "entities/quests/v9-memories.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "fifth-bell-threat",
+      "type": "quests",
+      "title": "Fifth Bell threat",
+      "path": "entities/quests/fifth-bell-threat.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "twin-sword-origin",
+      "type": "quests",
+      "title": "Twin swords origin",
+      "path": "entities/quests/twin-sword-origin.md",
+      "status": "active",
+      "visibility": "gm-secret",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "malrec-corven",
+      "type": "quests",
+      "title": "Malrec and Corven",
+      "path": "entities/quests/malrec-corven.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "a07-signature",
+      "type": "quests",
+      "title": "A-07 signature",
+      "path": "entities/quests/a07-signature.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest"
+      ]
+    },
+    {
+      "id": "wardens",
+      "type": "factions",
+      "title": "Original Wardens and successors",
+      "path": "entities/factions/wardens.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "crown-black-ledger",
+      "type": "factions",
+      "title": "Crown / Black Ledger",
+      "path": "entities/factions/crown-black-ledger.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "story-mode",
+      "type": "rules",
+      "title": "Story Mode \u2014 Favored Protagonist",
+      "path": "entities/rules/story-mode.md",
+      "status": "user-locked",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "knowledge-boundaries",
+      "type": "rules",
+      "title": "Canon and knowledge boundaries",
+      "path": "entities/rules/knowledge-boundaries.md",
+      "status": "user-locked",
+      "visibility": "gm-reference",
+      "tags": []
+    }
+  ],
+  "archive_index": "archive/legacy-index.json"
+}

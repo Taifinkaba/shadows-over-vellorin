@@ -1,0 +1,28 @@
+{
+  "date": "Year 847 Day 46",
+  "time": "09:15",
+  "location": "Mount Vaelspire",
+  "theron": {
+    "hp": 100,
+    "hp_max": 100,
+    "mp": 376,
+    "mp_max": 400,
+    "defense": 26,
+    "rank": "S+"
+  },
+  "money": {
+    "theron_gp_sp": "91gp 8sp",
+    "garrick_gp_sp": "95gp 8sp",
+    "nyx_gp_sp": "94gp 8sp",
+    "lyra_gp_sp": "92gp 8sp",
+    "reserve_gp_sp": "120gp",
+    "total_gp_sp": "495gp 2sp"
+  },
+  "world": {
+    "vaeltharion_chains_attached": 7,
+    "junctions_tested": 1,
+    "junctions_untested": 6
+  },
+  "status": "PAUSED",
+  "source": "Codex v1.5 checkpoint; no simulation performed"
+}
