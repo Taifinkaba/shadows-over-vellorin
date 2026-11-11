@@ -6,3 +6,5 @@
 - **Retrieval and provenance maintenance:** Index verified Theron abilities, skills and spells plus party financial boundaries; cite A-07's 17-day evidence; add unresolved custody-fund disposition to the verification queue; document archive source resolution. Historical evidence and checkpoint bytes are unchanged; no time, HP, MP, money, quest, mystery, knowledge or relationship change.
 
 - **Character card artwork:** Add labeled PNG cards and a gallery for Theron Ashvale (with Shade), Garrick Vale, Nyx Thorne (with Ember), and Lyra Moonvale. Unspecified appearances are artistic interpretations. No gameplay or canon changes.
+
+- **Expanded artwork:** Add 15 labeled illustrations for the Ashvale family, Tomas and two hounds, six animal companions, Vaeltharion, the hidden woodland lodge, Ashvale Estate, and Wayfarers’ Guild. Add categorized galleries with source links and interpretation notes. No canon or checkpoint changes.
