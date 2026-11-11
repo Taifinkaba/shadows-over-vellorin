@@ -21,3 +21,7 @@ Year 847, Day 46, 09:15, Mount Vaelspire; Theron HP 100/100 MP 376/400 DEF 26; t
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.
+
+## Character card artwork
+
+[View the labeled party card gallery](artwork/player-cards/README.md) for Theron Ashvale, Garrick Vale, Nyx Thorne, and Lyra Moonvale.
