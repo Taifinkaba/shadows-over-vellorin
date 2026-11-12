@@ -1,53 +1,41 @@
 # Validation and structured snapshot facts
 
-Install the pinned development dependency and run the same checks as CI:
+Use the pinned `requirements-dev.txt` dependency (PyYAML6.0.3), then run CI checks:
 
 ```sh
-python -m pip install -r requirements-dev.txt
 python scripts/validate.py
 python -m unittest discover -s tests -v
 python -O scripts/validate.py
 ```
 
-Python 3.12 is used in GitHub Actions. Tests copy campaign data into temporary directories and mutate only those copies. The validator reads files without changing them; failures exit with status 1 and an explicit error. `--root PATH` validates an alternate snapshot. No check depends on Python `assert`.
+Python3.12 is used in CI. Tests mutate disposable copies only. The validator is read-only, fails with exit1 and explicit messages, supports `--root PATH`, and does not rely on Python assertions.
 
 ## Entity schema and routing
 
-`index.json` schema version 2 indexes every file under `entities/`. IDs and paths must be unique; each path must be `entities/<type>/<id>.md`. Supported types are characters, creatures, items, locations, quests, factions, rules, and mechanics. Index ID/type/status/visibility must match the entity frontmatter.
+`index.json` schema2 indexes every file under `entities/`; IDs and paths unique, path `entities/<type>/<id>.md`. Types: characters, creatures, items, locations, quests, factions, rules, mechanics. Frontmatter: `id`, `type`, `status`, `visibility`, nonempty unique `source_refs`, optional `checkpoint_values`. Metadata must agree with the index. Status: canon, last-verified, gm-secret-locked, active, research, completed, user-locked; visibility: gm-reference/gm-secret. Locked secrets require gm-secret.
 
-Every entity starts with a YAML mapping between `---` delimiters. Required fields:
+Safe YAML supports quoted/unquoted values; duplicate keys, unsafe types and unknown metadata fields rejected. Source refs must be normalized root-relative existing file paths, with no traversal or escaping symlinks. The preserved cumulative handoff under `archive/session-handoffs/` is valid evidence; original legacy archives retain their own index and original basename resolution.
 
-- `id`: nonempty lowercase slug, matching its filename and index ID.
-- `type`: one of the supported types above.
-- `status`: canon, last-verified, gm-secret-locked, active, research, completed, or user-locked.
-- `visibility`: gm-reference or gm-secret. A gm-secret-locked record must have gm-secret visibility.
-- `source_refs`: nonempty list of unique file paths resolved from the repository root.
+## Checkpoint schema2
 
-Single-quoted, double-quoted and unquoted YAML strings are supported. Duplicate mapping keys, unsafe YAML object tags, missing fields and unknown fields are rejected. Paths must be normalized repository-relative POSIX paths, name existing files, and remain inside the repository after symlink resolution. Frontmatter ends at its closing delimiter; text in the Markdown body cannot supply missing metadata.
+Day153 is the first explicitly versioned checkpoint. Required keys: `schema_version` (integer2), date (`Year N Day N`), 24-hour time (`HH:MM`), location, theron, money, world, status (`PAUSED`), source (existing root-relative file), context. The prior unversioned Day46 snapshot is preserved unchanged under `archive/checkpoints/`; it is historical, not silently rewritten to schema2.
 
-`checkpoint_values` is the optional structured snapshot mapping described below. New metadata fields or enum values require an explicit schema update with tests.
+- `theron`: integer hp/hp_max, mp/mp_max, defense, level, str/dex/con/int/wis/cha and unspent_attributes; nonempty rank. Nonnegative values (positive maxima); HP/MP within maxima.
+- `money`: central_gp_sp, emergency_gp_sp, reserve_gp_sp, operating_gp_sp, development_gp_sp, total_gp_sp. Exact integer-copper accounting; no floating values. Five cash accounts sum to total. Former companion personal balances are historical after voluntary consolidation; they must not be re-added.
+- `world`: integer vaeltharion_chains_attached and protective_anchors_retained. Distinct counts; old junction testing is historical and is not a release/anchor count.
+- `context`: safety text, companions_present IDs, party_roles keyed by IDs, projects text mapping, academy mapping, outstanding_clues list, recent_mp_costs mapping, mp_before_recent_casts integer. IDs must resolve. Recent starting MP minus summed costs must equal current MP; the Day153 starting400 is arithmetic from337+63, not evidence of an invented rest.
+- Academy mapping: entity ID, latest_reported_cash_gp_sp, refundable_lease_deposit_gp_sp, balance_date note, included_in_party_total (must be false).34gp cash and15gp deposit are latest reported earlier values with unknown report date; no newly verified later balance implied. Deposit remains separate noncash. No academy amount enters party cash.
 
-## Checkpoint agreement
+## Structured entity agreement
 
-The checkpoint remains the current campaign snapshot. The following entities now also expose their already-established current facts in `checkpoint_values` for mechanical comparison:
-
-| Entity | Dotted checkpoint keys |
+| Owner | Required checkpoint facts |
 |---|---|
-| theron-ashvale | date, time, location, status, theron.hp, theron.hp_max, theron.mp, theron.mp_max, theron.defense, theron.rank, money.theron_gp_sp |
-| garrick-vale | money.garrick_gp_sp |
-| nyx-thorne | money.nyx_gp_sp |
-| lyra-moonvale | money.lyra_gp_sp |
-| vaeltharion | world.vaeltharion_chains_attached, world.junctions_tested, world.junctions_untested |
-| party-finances | money.reserve_gp_sp, money.total_gp_sp |
+| theron-ashvale | date, time, location, status, every theron field |
+| vaeltharion | both world counts |
+| party-finances | every money field |
 
-Values were transcribed from existing records without advancing the campaign. The validator declares ownership of these keys, requires every owned value, and compares it with the checkpoint. It does not hardcode today's numerical canon as permanent limits. For an actual approved scene, update the checkpoint, authoritative structured values, explanatory entity prose and changelog together. A disagreement is an error to investigate, not permission to choose or invent a replacement value.
+Owned values must match current checkpoint exactly (currency by integer copper). Other entities may not add undeclared snapshot ownership. Changing canon requires updating snapshot, structured entity values, prose and changelog together. Validator rules do not freeze specific numerical canon permanently.
 
-HP, MP, maxima, defense and world counts require integers (booleans do not qualify); HP/MP must remain within positive maxima. Date/time formatting and paused status are checked. Currency uses exact integer copper: 1 gp = 100 cp, 1 sp = 10 cp. Whole gp/sp/cp components are accepted; fractional, negative, repeated or unknown units are rejected. Equivalent denominations compare equally. Personal shares plus shared reserve must equal the spendable accounting total.
+Regression checks cover metadata, paths, archival coverage, account sums/separation, recent MP spending, new schema, entity agreement and the current core/new spell costs. Unknown companion numerical HP/MP, missing transaction details and chronological gaps stay unknown. Historical custody38gp2sp, merchant goods, evidence and noncash estimates remain excluded.
 
-The historical 38 gp 2 sp custody funds are excluded from spendable totals. Unknown current companion HP/MP remain unknown; old values are not promoted to current facts. No money, chain count, time or other campaign value changed in this maintenance.
-
-These checks validate structured facts, metadata and declared file references. They do not infer numerical facts from arbitrary Markdown prose, prove historical claims, resolve mysteries, or decide what Theron knows. Human review must keep prose and evidence aligned. Source paths establish findability, not proof of a claim's content.
-
-## Archive routing
-
-Every module path in `archive/legacy-index.json` is checked, including modules not cited by an entity. Every archived module must also be indexed. Each original-document `source` basename resolves beneath `archive/`; see `archive/README.md`. Historical originals and split modules are preserved unchanged.
+The validator checks declared facts and references; it does not infer truth from arbitrary prose, prove testimony, determine guilt, expose GM secrets, resolve concentration timing or interpret artwork. Human review preserves those distinctions. Source path existence establishes findability, not independent historical verification.

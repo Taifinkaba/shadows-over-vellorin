@@ -5,11 +5,12 @@ status: canon
 visibility: gm-reference
 source_refs:
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
+- archive/session-handoffs/year847-day153-user-handoff.txt
 ---
 
 # Theron: verified abilities
 
-Verified Day 46 reference extracted from the mechanics ledger, sections 2.1 and 2.3. No progression or resources changed. Current HP/MP, rank, location and finances remain in Theron's character record and the checkpoint.
+Core abilities from the mechanics ledger, reconciled through Day153. Current HP/MP, rank, location and finances remain in Theron's character record and the checkpoint.
 
 | Ability | Value |
 |---|---:|
@@ -24,7 +25,11 @@ Verified Day 46 reference extracted from the mechanics ledger, sections 2.1 and 
 - Staff reduces ordinary spell costs by 20%; Mana Efficiency adds 10%; total discount 30%, rounded up. Full-cost procedures are exempt.
 - Spirit Mana Assimilation restores 12 MP per uninterrupted 20 minutes, capped at 400 MP.
 - Raze performs analysis/simulation; Aegis performs defense. Neither grants free casting or mana.
-- Draconic Resonance is 1/5. Chronos Eye is locked at approximately 10% research; Dragon Slayer is locked.
+- Draconic Resonance is 1/5. Chronos Eye is locked at about19% theory; Dragon Slayer is locked.
 - Legendary black Runeblade damage is 1d8+3. This record conveys no GM-only origin information.
 
 Related records: `entities/characters/theron-ashvale.md`, `entities/mechanics/theron-skills.md`, `entities/mechanics/theron-spells.md`.
+
+## Through Day 153
+
+Level5; core attributes unchanged,0 unspent. Latest mana337/400; no unplayed restoration. Guardian Links warnings are limited tests, not healing, teleport or unlimited shield capabilities.

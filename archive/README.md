@@ -9,3 +9,7 @@ Path conventions:
 - Bare original-document filenames inside historical text use that same `archive/` base, regardless of the historical module's own directory. They are provenance names, not root-level files.
 
 The validator checks module paths and each original `source` using these conventions. This documentation adds explicit resolution without rewriting historical evidence. Secrets in historical material remain GM knowledge; fetching evidence does not reveal it to Theron.
+
+## Cumulative session evidence
+
+`session-handoffs/year847-day153-user-handoff.txt` preserves the user’s exact cumulative update through Year847 Day153 22:05. It reports played developments, testimony and unresolved questions; it is not a full transcript. Referenced entity records and confidence-labeled chronicles apply those distinctions. `checkpoints/year847-day046-0915.json` preserves the prior checkpoint byte for byte. Legacy originals/modules remain unchanged.

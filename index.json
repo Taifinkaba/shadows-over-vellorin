@@ -186,7 +186,7 @@
       "type": "creatures",
       "title": "Aurelion",
       "path": "entities/creatures/aurelion.md",
-      "status": "last-verified",
+      "status": "canon",
       "visibility": "gm-reference",
       "tags": [
         "animal"
@@ -195,7 +195,7 @@
     {
       "id": "hounds-tomas",
       "type": "creatures",
-      "title": "Tomas\u2019s hunting hounds",
+      "title": "Tomas’s hunting hounds",
       "path": "entities/creatures/hounds-tomas.md",
       "status": "last-verified",
       "visibility": "gm-reference",
@@ -305,7 +305,7 @@
     {
       "id": "dragon-scales-stock",
       "type": "items",
-      "title": "Vaeltharion\u2019s scale stock",
+      "title": "Vaeltharion’s scale stock",
       "path": "entities/items/dragon-scales-stock.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -448,9 +448,9 @@
     {
       "id": "vaeltharion-freedom",
       "type": "quests",
-      "title": "Vaeltharion\u2019s freedom",
+      "title": "Vaeltharion’s freedom",
       "path": "entities/quests/vaeltharion-freedom.md",
-      "status": "active",
+      "status": "completed",
       "visibility": "gm-reference",
       "tags": [
         "quest"
@@ -598,7 +598,7 @@
     {
       "id": "story-mode",
       "type": "rules",
-      "title": "Story Mode \u2014 Favored Protagonist",
+      "title": "Story Mode — Favored Protagonist",
       "path": "entities/rules/story-mode.md",
       "status": "user-locked",
       "visibility": "gm-reference",
@@ -664,6 +664,177 @@
         "custody",
         "checkpoint"
       ]
+    },
+    {
+      "id": "bren",
+      "type": "characters",
+      "title": "Bren",
+      "path": "entities/characters/bren.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "elias-renn",
+      "type": "characters",
+      "title": "Elias Renn",
+      "path": "entities/characters/elias-renn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "mira-thorne",
+      "type": "characters",
+      "title": "Mira Thorne",
+      "path": "entities/characters/mira-thorne.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "maera",
+      "type": "characters",
+      "title": "Maera",
+      "path": "entities/characters/maera.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "master-beren",
+      "type": "characters",
+      "title": "Master Beren",
+      "path": "entities/characters/master-beren.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "rellan-sorn",
+      "type": "characters",
+      "title": "Rellan Sorn",
+      "path": "entities/characters/rellan-sorn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "varric-dellen",
+      "type": "characters",
+      "title": "Varric Dellen",
+      "path": "entities/characters/varric-dellen.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "corvin-halbrecht",
+      "type": "characters",
+      "title": "Corvin Halbrecht",
+      "path": "entities/characters/corvin-halbrecht.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "roderic-mael",
+      "type": "characters",
+      "title": "Captain Roderic Mael",
+      "path": "entities/characters/roderic-mael.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "karel",
+      "type": "characters",
+      "title": "Karel",
+      "path": "entities/characters/karel.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "marcell-duren",
+      "type": "characters",
+      "title": "Lord Marcell Duren",
+      "path": "entities/characters/marcell-duren.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "guardian-links",
+      "type": "items",
+      "title": "Guardian Links collars and bracelets",
+      "path": "entities/items/guardian-links.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "ashvale-lodge",
+      "type": "locations",
+      "title": "Ashvale Lodge",
+      "path": "entities/locations/ashvale-lodge.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "northern-freight-enclosure",
+      "type": "locations",
+      "title": "Northern freight enclosure near Greyhaven",
+      "path": "entities/locations/northern-freight-enclosure.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "greyhaven-valley",
+      "type": "locations",
+      "title": "Greyhaven Valley",
+      "path": "entities/locations/greyhaven-valley.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "dragon-slayer-academy",
+      "type": "factions",
+      "title": "Dragon Slayer Academy / Initiative",
+      "path": "entities/factions/dragon-slayer-academy.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "northern-provisioning-consortium",
+      "type": "factions",
+      "title": "Northern Provisioning Consortium",
+      "path": "entities/factions/northern-provisioning-consortium.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "wayfarers-guild",
+      "type": "factions",
+      "title": "Wayfarers’ Guild",
+      "path": "entities/factions/wayfarers-guild.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": []
+    },
+    {
+      "id": "freight-ward-conspiracy",
+      "type": "quests",
+      "title": "Freight routing and ward sabotage investigation",
+      "path": "entities/quests/freight-ward-conspiracy.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": []
     }
   ],
   "archive_index": "archive/legacy-index.json"
