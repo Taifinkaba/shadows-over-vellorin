@@ -8,3 +8,5 @@
 - **Character card artwork:** Add labeled PNG cards and a gallery for Theron Ashvale (with Shade), Garrick Vale, Nyx Thorne (with Ember), and Lyra Moonvale. Unspecified appearances are artistic interpretations. No gameplay or canon changes.
 
 - **Expanded artwork:** Add 15 labeled illustrations for the Ashvale family, Tomas and two hounds, six animal companions, Vaeltharion, the hidden woodland lodge, Ashvale Estate, and Wayfarers’ Guild. Add categorized galleries with source links and interpretation notes. No canon or checkpoint changes.
+
+- **Year847 Day153 22:05 cumulative canon sync:** Preserve exact user handoff and Day46 checkpoint. Reconcile reported freedom/consent covenant, academy and lodge development, treasury consolidation, creature links/bonds, learned spells and specialized research, Caelan’s limited rehabilitation, and freight evidence chain. Add confidence-labeled chronicles and explicit unresolved timeline/accounting questions. Current HP100/100 MP337/400 DEF26 S+ Level5; party/lodge cash555gp; academy separate. Update checkpoint schema and regression checks without rewriting legacy archives or merging the PR.

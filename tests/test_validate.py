@@ -90,27 +90,28 @@ class RepositoryValidationTests(unittest.TestCase):
         self.fails("currency total differs")
 
     def test_custody_funds_cannot_be_added_to_spendable_total(self):
-        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(total_gp_sp="533gp 4sp"))
+        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(total_gp_sp="593gp 2sp"))
         self.fails("currency total differs")
 
-    def test_balanced_but_changed_personal_money(self):
-        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(theron_gp_sp="90gp 8sp", total_gp_sp="494gp 2sp"))
-        self.fails("checkpoint/entity mismatch: theron-ashvale money")
+    def test_balanced_but_changed_central_money(self):
+        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(central_gp_sp="307gp", total_gp_sp="554gp"))
+        self.fails("checkpoint/entity mismatch: party-finances money")
 
     def test_balanced_but_changed_reserve(self):
-        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(reserve_gp_sp="121gp", total_gp_sp="496gp 2sp"))
+        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(reserve_gp_sp="156gp 2sp", total_gp_sp="556gp"))
         self.fails("checkpoint/entity mismatch: party-finances money")
 
     def test_equivalent_integer_currency_forms_pass(self):
-        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(total_gp_sp="49520cp"))
+        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(total_gp_sp="55500cp"))
         self.assertIn("checkpoint valid", validate(self.root))
 
     def test_every_theron_stat_must_match_entity(self):
         state = json.loads((self.root / "state/checkpoint.json").read_text())
-        for field in ("hp", "hp_max", "mp", "mp_max", "defense", "rank"):
+        for field in state["theron"]:
             with self.subTest(field=field):
-                value = "S" if field == "rank" else state["theron"][field] + (1 if field.endswith("max") or field == "defense" else -1)
+                value = "S" if field == "rank" else state["theron"][field] + (-1 if field in {"hp", "mp"} else 1)
                 changed = json.loads(json.dumps(state)); changed["theron"][field] = value
+                if field == "mp": changed["context"]["mp_before_recent_casts"] -= 1
                 (self.root / "state/checkpoint.json").write_text(json.dumps(changed))
                 self.fails("checkpoint/entity mismatch")
         (self.root / "state/checkpoint.json").write_text(json.dumps(state))
@@ -119,7 +120,7 @@ class RepositoryValidationTests(unittest.TestCase):
         self.metadata_edit(THERON, lambda x: x["checkpoint_values"].update({"theron.hp": 99}))
         self.fails("checkpoint/entity mismatch")
 
-    def test_chain_and_junction_counts_must_match_entity(self):
+    def test_chain_and_anchor_counts_must_match_entity(self):
         state = json.loads((self.root / "state/checkpoint.json").read_text())
         for field in state["world"]:
             with self.subTest(field=field):
@@ -128,7 +129,7 @@ class RepositoryValidationTests(unittest.TestCase):
                 self.fails("checkpoint/entity mismatch: vaeltharion")
 
     def test_entity_chain_change_must_match_checkpoint(self):
-        self.metadata_edit(VAELTHARION, lambda x: x["checkpoint_values"].update({"world.vaeltharion_chains_attached": 0}))
+        self.metadata_edit(VAELTHARION, lambda x: x["checkpoint_values"].update({"world.vaeltharion_chains_attached": 1}))
         self.fails("checkpoint/entity mismatch")
 
     def test_date_time_location_must_match_entity(self):
@@ -199,14 +200,14 @@ class RepositoryValidationTests(unittest.TestCase):
         p = self.root / THERON; original = p.read_text()
         for quote in ("'", '"'):
             with self.subTest(quote=quote):
-                p.write_text(original.replace(f'"{SOURCE}"', f"{quote}{SOURCE}{quote}"))
+                p.write_text(original.replace(SOURCE, f"{quote}{SOURCE}{quote}"))
                 self.assertIn("checkpoint valid", validate(self.root))
 
     def test_missing_source_with_both_yaml_quote_styles_fails(self):
         p = self.root / THERON; original = p.read_text()
         for quote in ("'", '"'):
             with self.subTest(quote=quote):
-                p.write_text(original.replace(f'"{SOURCE}"', f"{quote}missing.md{quote}"))
+                p.write_text(original.replace(SOURCE, f"{quote}missing.md{quote}"))
                 self.fails("missing file missing.md")
 
     def test_source_path_escape(self):
@@ -253,6 +254,73 @@ class RepositoryValidationTests(unittest.TestCase):
         self.assertEqual(result.returncode, 1)
         self.assertIn("ERROR:", result.stderr)
         self.assertNotIn("Traceback", result.stderr)
+
+
+    def test_checkpoint_schema_rejects_unversioned_and_wrong_version(self):
+        original = json.loads((self.root / "state/checkpoint.json").read_text())
+        for value in (None, 1, True, 3):
+            changed = dict(original)
+            if value is None: changed.pop("schema_version")
+            else: changed["schema_version"] = value
+            (self.root / "state/checkpoint.json").write_text(json.dumps(changed))
+            self.fails("expected keys|unsupported schema_version")
+
+    def test_mana_cannot_restore_without_reconciled_expenditure(self):
+        self.json_edit("state/checkpoint.json", lambda x: x["theron"].update(mp=400))
+        self.fails("recent MP expenditure")
+
+    def test_omitted_spell_cost_fails_mana_reconciliation(self):
+        self.json_edit("state/checkpoint.json", lambda x: x["context"]["recent_mp_costs"].pop("Shadow Mantle"))
+        self.fails("recent MP expenditure")
+
+    def test_academy_cannot_be_marked_as_pooled(self):
+        self.json_edit("state/checkpoint.json", lambda x: x["context"]["academy"].update(included_in_party_total=True))
+        self.fails("academy funds must remain separate")
+
+    def test_academy_cash_or_deposit_cannot_inflate_total(self):
+        for extra in (34, 15, 49):
+            self.json_edit("state/checkpoint.json", lambda x: x["money"].update(total_gp_sp=f"{555+extra}gp"))
+            self.fails("currency total differs")
+
+    def test_context_entity_references_must_resolve(self):
+        self.json_edit("state/checkpoint.json", lambda x: x["context"]["companions_present"].append("invented-companion"))
+        self.fails("unknown companion/role entity")
+
+    def test_checkpoint_source_cannot_be_missing(self):
+        self.json_edit("state/checkpoint.json", lambda x: x.update(source="missing.md"))
+        self.fails("checkpoint.source: missing file")
+
+    def test_old_personal_accounts_cannot_be_reintroduced(self):
+        self.json_edit("state/checkpoint.json", lambda x: x["money"].update(garrick_gp_sp="95gp 8sp"))
+        self.fails("checkpoint.money: expected keys")
+
+    def test_current_snapshot_matches_handoff_totals(self):
+        state = json.loads((self.root / "state/checkpoint.json").read_text())
+        self.assertEqual((state["date"],state["time"]), ("Year 847 Day 153","22:05"))
+        self.assertEqual(state["theron"]["mp"],337)
+        self.assertEqual(sum(state["context"]["recent_mp_costs"].values()),63)
+        self.assertEqual(copper(state["money"]["total_gp_sp"]),55500)
+        self.assertEqual(state["world"], {"vaeltharion_chains_attached":0,"protective_anchors_retained":7})
+        self.assertEqual(state["context"]["companions_present"], ["nyx-thorne","shade"])
+
+    def test_core_and_new_spell_costs_are_preserved(self):
+        text = (self.root / "entities/mechanics/theron-spells.md").read_text()
+        costs = {}
+        for line in text.splitlines():
+            cells = [cell.strip() for cell in line.split("|")[1:-1]]
+            for i in range(0, len(cells)-1, 2):
+                if cells[i+1].isdigit(): costs[cells[i]] = int(cells[i+1])
+        expected = {
+            "Frost Lance":6,"Umbral Bolt":7,"Rune Barrier":9,"Minor Restoration":11,
+            "Spatial Step":9,"Runic Edge":6,"Ward Sense":5,"Mental Probe":13,"Mental Link":9,
+            "Controlled Memory Resonance":11,"Mirror Mind":6,"Vital Resonance":14,
+            "Arcane Disruption":11,"Communication Spoof":7,"Extended Spatial Transfer":21,
+            "Greater Rune Barrier":28,"Veiled Memory Trace":13,"Perceptual Interception":7,
+            "Dreamfall Mastered":21,"Oath Sight":8,"Frost Veil":11,"Umbral Murmur":9,
+            "Glacial Step":12,"Rime Snare":14,"Shadow Mantle":16,"Phantom Procession":18}
+        self.assertEqual(costs,expected)
+        self.assertEqual({k:costs[k] for k in json.loads((self.root / "state/checkpoint.json").read_text())["context"]["recent_mp_costs"]},
+                         json.loads((self.root / "state/checkpoint.json").read_text())["context"]["recent_mp_costs"])
 
 
 class CurrencyTests(unittest.TestCase):

@@ -12,3 +12,5 @@ Ancient black-steel/silver-frost dragon with amber eyes, depicted with seven att
 
 Sources: [vaeltharion](../../entities/creatures/vaeltharion.md)
 
+
+**Historical phase:** Vaeltharion’s illustration shows the earlier attached-chain state. The Day153 written record supersedes it: all seven coercive chains removed, seven protective anchors retained. The image does not override current canon.

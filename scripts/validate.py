@@ -36,17 +36,14 @@ STATUSES = {"canon", "last-verified", "gm-secret-locked", "active", "research", 
 VISIBILITIES = {"gm-reference", "gm-secret"}
 REQUIRED = {"id", "type", "status", "visibility", "source_refs"}
 ID = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
-MONEY_FIELDS = {"theron_gp_sp", "garrick_gp_sp", "nyx_gp_sp", "lyra_gp_sp", "reserve_gp_sp", "total_gp_sp"}
-STATS = {"hp", "hp_max", "mp", "mp_max", "defense", "rank"}
-WORLD = {"vaeltharion_chains_attached", "junctions_tested", "junctions_untested"}
+MONEY_FIELDS = {"central_gp_sp", "emergency_gp_sp", "reserve_gp_sp", "operating_gp_sp", "development_gp_sp", "total_gp_sp"}
+STATS = {"hp", "hp_max", "mp", "mp_max", "defense", "rank", "level", "str", "dex", "con", "int", "wis", "cha", "unspent_attributes"}
+WORLD = {"vaeltharion_chains_attached", "protective_anchors_retained"}
 # Owners of structured snapshot facts; values live in entity frontmatter, not here.
 OWNERS = {
-    "theron-ashvale": {"date", "time", "location", "status", "money.theron_gp_sp"} | {f"theron.{k}" for k in STATS},
-    "garrick-vale": {"money.garrick_gp_sp"},
-    "nyx-thorne": {"money.nyx_gp_sp"},
-    "lyra-moonvale": {"money.lyra_gp_sp"},
+    "theron-ashvale": {"date", "time", "location", "status"} | {f"theron.{k}" for k in STATS},
     "vaeltharion": {f"world.{k}" for k in WORLD},
-    "party-finances": {"money.reserve_gp_sp", "money.total_gp_sp"},
+    "party-finances": {f"money.{k}" for k in MONEY_FIELDS},
 }
 
 
@@ -140,7 +137,8 @@ def copper(value, label="currency"):
 
 
 def validate_state(state):
-    keys(state, {"date", "time", "location", "theron", "money", "world", "status", "source"}, "checkpoint")
+    keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"}, "checkpoint")
+    require(type(state["schema_version"]) is int and state["schema_version"] == 2, "checkpoint: unsupported schema_version")
     for field in ("date", "time", "location", "status", "source"):
         string(state[field], f"checkpoint.{field}")
     require(re.fullmatch(r"Year \d+ Day \d+", state["date"]) is not None, "checkpoint: invalid date")
@@ -156,11 +154,37 @@ def validate_state(state):
     keys(state["money"], MONEY_FIELDS, "checkpoint.money")
     balances = {k: copper(v, f"checkpoint.money.{k}") for k, v in state["money"].items()}
     require(sum(v for k, v in balances.items() if k != "total_gp_sp") == balances["total_gp_sp"],
-            "checkpoint: currency total differs from personal shares plus reserve")
+            "checkpoint: currency total differs from consolidated account balances")
     keys(state["world"], WORLD, "checkpoint.world")
     for field, value in state["world"].items():
         integer(value, f"checkpoint.world.{field}")
-    # Exact counts are checked against Vaeltharion's authoritative entity below.
+    # Chains and anchors are separate facts, compared with the entity below.
+    context = state["context"]
+    keys(context, {"safety", "companions_present", "party_roles", "projects", "academy", "outstanding_clues", "recent_mp_costs", "mp_before_recent_casts"}, "checkpoint.context")
+    string(context["safety"], "context.safety")
+    for field in ("companions_present", "outstanding_clues"):
+        require(isinstance(context[field], list) and bool(context[field]), f"context.{field}: expected a nonempty list")
+        for value in context[field]:
+            string(value, f"context.{field}")
+    for field in ("party_roles", "projects"):
+        mapping(context[field], f"context.{field}")
+        require(bool(context[field]), f"context.{field}: expected entries")
+        for key, value in context[field].items():
+            string(key, field); string(value, field)
+    academy = context["academy"]
+    keys(academy, {"entity", "latest_reported_cash_gp_sp", "refundable_lease_deposit_gp_sp", "balance_date", "included_in_party_total"}, "context.academy")
+    for key in ("entity", "balance_date"):
+        string(academy[key], f"academy.{key}")
+    for key in ("latest_reported_cash_gp_sp", "refundable_lease_deposit_gp_sp"):
+        copper(academy[key], f"academy.{key}")
+    require(academy["included_in_party_total"] is False, "academy funds must remain separate")
+    costs = mapping(context["recent_mp_costs"], "context.recent_mp_costs")
+    require(bool(costs), "context.recent_mp_costs: expected entries")
+    for spell, cost in costs.items():
+        string(spell, "spell name"); integer(cost, f"spell cost: {spell}")
+    integer(context["mp_before_recent_casts"], "context.mp_before_recent_casts")
+    require(context["mp_before_recent_casts"] <= stats["mp_max"], "recent starting MP exceeds maximum")
+    require(context["mp_before_recent_casts"] - sum(costs.values()) == stats["mp"], "recent MP expenditure does not match checkpoint")
 
 
 def validate(root):
@@ -216,6 +240,10 @@ def validate(root):
 
     state = read_json(root / "state/checkpoint.json")
     validate_state(state)
+    repository_file(root, state["source"], "checkpoint.source")
+    for ident in state["context"]["companions_present"] + list(state["context"]["party_roles"]):
+        require(ident in records, f"context: unknown companion/role entity {ident}")
+    require(state["context"]["academy"]["entity"] in records, "context: missing academy entity")
     flat = {}
     for key, value in state.items():
         if isinstance(value, dict):
