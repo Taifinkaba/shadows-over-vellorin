@@ -527,7 +527,7 @@
       "type": "quests",
       "title": "V-9 stolen memories",
       "path": "entities/quests/v9-memories.md",
-      "status": "active",
+      "status": "completed",
       "visibility": "gm-reference",
       "tags": [
         "quest"
@@ -835,6 +835,237 @@
       "status": "active",
       "visibility": "gm-reference",
       "tags": []
+    },
+    {
+      "id": "caldra-venn",
+      "type": "characters",
+      "title": "Sister Caldra Venn",
+      "path": "entities/characters/caldra-venn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "edran-vell",
+      "type": "characters",
+      "title": "Brother Edran Vell",
+      "path": "entities/characters/edran-vell.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "sera-dovain",
+      "type": "characters",
+      "title": "Sera Dovain",
+      "path": "entities/characters/sera-dovain.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "corvin-hale",
+      "type": "characters",
+      "title": "Corvin Hale",
+      "path": "entities/characters/corvin-hale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "severin-valcrest",
+      "type": "characters",
+      "title": "High Chancellor Severin Valcrest",
+      "path": "entities/characters/severin-valcrest.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "elian-voss",
+      "type": "characters",
+      "title": "Elian Voss",
+      "path": "entities/characters/elian-voss.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "caelrix",
+      "type": "characters",
+      "title": "Caelrix",
+      "path": "entities/characters/caelrix.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "aeloryn",
+      "type": "creatures",
+      "title": "Aeloryn",
+      "path": "entities/creatures/aeloryn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "hollow-first-hour",
+      "type": "locations",
+      "title": "Hollow of the First Hour",
+      "path": "entities/locations/hollow-first-hour.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "prisoner-custody",
+      "type": "mechanics",
+      "title": "Five-prisoner custody register",
+      "path": "entities/mechanics/prisoner-custody.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "first-hour-restoration",
+      "type": "quests",
+      "title": "First Hand / First Hour restoration",
+      "path": "entities/quests/first-hour-restoration.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "first-hours-accord",
+      "type": "items",
+      "title": "First Hour's Accord",
+      "path": "entities/items/first-hours-accord.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "sovereign-nexus",
+      "type": "items",
+      "title": "Sovereign Nexus",
+      "path": "entities/items/sovereign-nexus.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "frostguard-bracers",
+      "type": "items",
+      "title": "Frostguard Bracers",
+      "path": "entities/items/frostguard-bracers.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "sovereign-expedition-wagon",
+      "type": "items",
+      "title": "Sovereign Expedition Wagon",
+      "path": "entities/items/sovereign-expedition-wagon.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "frost",
+      "type": "creatures",
+      "title": "Frost",
+      "path": "entities/creatures/frost.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "guild-animal-registry",
+      "type": "mechanics",
+      "title": "Guild animal registry",
+      "path": "entities/mechanics/guild-animal-registry.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "shady-salvage",
+      "type": "mechanics",
+      "title": "Shady Salvage registry",
+      "path": "entities/mechanics/shady-salvage.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "launder",
+      "type": "mechanics",
+      "title": "Launder processing ledger",
+      "path": "entities/mechanics/launder.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "outstanding-projects",
+      "type": "mechanics",
+      "title": "Outstanding equipment and projects",
+      "path": "entities/mechanics/outstanding-projects.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
+    },
+    {
+      "id": "open-quests",
+      "type": "quests",
+      "title": "Open quest continuity",
+      "path": "entities/quests/open-quests.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day472"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

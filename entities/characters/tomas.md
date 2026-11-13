@@ -9,8 +9,13 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
 
 # Tomas
 
 Historically cooperating witness/caretaker; two hunting hounds historically under his care. Later established as Ashvale Lodge steward and accountant. Manages the restricted development chest subject to Theron override and maintains separate operating accounts. Theron’s private30gp emergency chest is accessible only to Theron. Bren handles construction/maintenance. Historical Day46 custody uncertainty is not the latest role; no unsupported release scene is invented.
+
+## Authoritative update — Year 847 Day 472, 16:10, session ENDED
+
+Runs Ashvale Estate independently: autonomous daily operations, weekly reporting. No estate income posted without verified accounting. Current operating policies and surplus allocation in [estate](../locations/ashvale-estate.md).

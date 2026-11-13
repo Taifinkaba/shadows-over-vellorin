@@ -6,6 +6,7 @@ visibility: gm-reference
 source_refs:
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
 
 # Theron: verified abilities
@@ -33,3 +34,7 @@ Related records: `entities/characters/theron-ashvale.md`, `entities/mechanics/th
 ## Through Day 153
 
 Level5; core attributes unchanged,0 unspent. Latest mana337/400; no unplayed restoration. Guardian Links warnings are limited tests, not healing, teleport or unlimited shield capabilities.
+
+## Authoritative update — Year 847 Day 472, 16:10, session ENDED
+
+Current ordinary discount **40%**, replacing older30%; Sovereign Nexus finite156/180, wagon60/60. Draconic Resonance3/5, Defensive Synchronization5/5; Caelrix independent bond5/5. Personal MP312/400; base DEF46, equipped49 with bracers. Chronos Eye approximately19% LOCKED; Dragon Slayer deliberately LOCKED. Older assimilation rate and full-cost exceptions remain established; no unplayed recharge. First Hour’s Accord is recognition/limited communication only.

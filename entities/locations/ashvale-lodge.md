@@ -5,6 +5,7 @@ status: canon
 visibility: gm-reference
 source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
 
 # Ashvale Lodge
@@ -16,3 +17,7 @@ Tomas: steward/accounting; Bren: construction/maintenance. Adult housekeeper, ki
 Youth helpers from Briarfall children’s home: **Mira15, Joren16, Elsi14**, retained here as staff to avoid confusing Mira with academy student Mira Thorne. Tasks optional, supervised, safe, light and paid; shelter, meals and schooling not conditional on work. No hazardous, forge or night work.
 
 Restricted development chest under Tomas with Theron override:0gp, approved construction paid. Separate operating till61gp8sp; private emergency chest30gp accessible only to Theron; expedition reserve155gp2sp separately earmarked. See [party finances](../mechanics/party-finances.md). The handoff does not explicitly identify this developed lodge with the older hidden woodland lodge; no exact site equivalence, new route or relocation is inferred.
+
+## Authoritative update — Year 847 Day 472, 16:10, session ENDED
+
+Estate commercial lodge and natural Healing Springs operate under Tomas; see [estate](ashvale-estate.md) for current policy. Historical completed construction remains preserved; no newly posted revenue, expansion payment or guaranteed profit.

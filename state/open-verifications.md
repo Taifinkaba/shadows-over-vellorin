@@ -1,3 +1,20 @@
+# Current verification queue — Day472 session end
+
+Day472 [source](../archive/session-handoffs/year847-day472-user-handoff.txt) supersedes the historical queue below where explicit. Unknowns remain unverified, without invented scenes.
+
+- Day153→472: full intervening transcripts, precise dates/travel/training/costs not supplied. No fabricated bridges.
+- Cash673gp9sp authoritative; known components112gp and9gp1sp. Remaining552gp8sp is arithmetic only, not an account. Historical allocations do not establish current balances; no verified Tomas report or new estate income.
+- Final mana312/400, staff156/180, wagon60/60 verified. Exact starting mana and spell-by-spell release expenditures unverified. Older known spell costs preserved; current40% repricing requires base costs/approval, not inversion of rounded costs.
+- Main-party Day458 maxima verified; current pools otherwise remain last verified, not automatically filled. Lyra latest recorded178/190. Shade bond3/5 supersedes old5/5; collar v3.1 warnings do not certify revival/teleport/healing.
+- Bracken/Morrow vs Velmir/Arcthel/numbered horses unresolved; no double-count. Sovereign Expedition Wagon identity relative to historical salvaged wagon unresolved; Vanguard blueprint not built. Frostmoon/Ember/Frost identities not equated. Aurelion inspection/numeric certification pending.
+- Prior Malrec Voss now captured at Hollow; Corven remains unresolved. Corvin Hale, Corvin Halbrecht and Corven are distinct. No unsupported kinship or identity for Elian/Aldric/Malrec Voss.
+- Five prisoners’ positions verified, no transfer/release. Valcrest captured alive separately; current exact custody location unverified. Three registers protected; exact container/custodian unspecified.
+- Annex goods’ title, storage and per-item processing/dispositions unverified.1gp2sp processing expense verified; no sale or invented provenance.
+- No earlier dedicated salvage registry found in indexed entities/legacy modules; older noncash salvage/custody entries retained. Historical custody38gp2sp and Third Bell clapper remain unresolved. Other indexed quests remain open unless explicitly resolved by supplied source.
+- Repository is currently public although governance requests privacy; no visibility change made by this archival PR. GM-secret knowledge boundaries still apply.
+
+## Historical verification queue through Day153 (not current assertions)
+
 # Open verification queue (not retcons)
 - Day 44 → Day 46: wagon transfer from Greyhaven Mill to Mount Vaelspire and +8 gp accounting. The Day46 snapshot remains authoritative for that historical point; the current checkpoint is Day153.
 - Third Bell clapper: verify custody; do not conflate with Fifth Bell.

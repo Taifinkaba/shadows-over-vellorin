@@ -5,7 +5,14 @@ status: canon
 visibility: gm-reference
 source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+# Guardian Links collars and bracelets
+
+Companion Collars v3.1: identity, limited-range communication, short-range tracking, tested vital warnings and limited protective ward. Automatic healing experimental; emergency teleport and revival not certified. Shade bond3/5 supersedes older5/5; Ember5/5. Alpha not bound/collared. Dragon guardian collar prototype3/5, unattached to Vaeltharion. No guaranteed life-saving ability or unlimited shields.
+
+## Historical record through Day 153 (superseded where corrected above)
 
 # Guardian Links collars and bracelets
 

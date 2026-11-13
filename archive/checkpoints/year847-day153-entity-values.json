@@ -1,0 +1,30 @@
+{
+  "theron-ashvale": {
+    "date": "Year 847 Day 153",
+    "time": "22:05",
+    "location": "Woodland north of the northern freight enclosure near Greyhaven",
+    "status": "PAUSED",
+    "theron.hp": 100,
+    "theron.hp_max": 100,
+    "theron.mp": 337,
+    "theron.mp_max": 400,
+    "theron.defense": 26,
+    "theron.rank": "S+",
+    "theron.level": 5,
+    "theron.str": 12,
+    "theron.dex": 20,
+    "theron.con": 16,
+    "theron.int": 20,
+    "theron.wis": 19,
+    "theron.cha": 19,
+    "theron.unspent_attributes": 0
+  },
+  "party-finances": {
+    "money.central_gp_sp": "308gp",
+    "money.emergency_gp_sp": "30gp",
+    "money.reserve_gp_sp": "155gp 2sp",
+    "money.operating_gp_sp": "61gp 8sp",
+    "money.development_gp_sp": "0gp",
+    "money.total_gp_sp": "555gp"
+  }
+}

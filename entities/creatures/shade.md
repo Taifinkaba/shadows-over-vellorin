@@ -9,7 +9,14 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+# Shade
+
+Gray wolf B+; HP max58, MP max45, DEF24; bond3/5 (supersedes earlier5/5). Accompanies expedition; immediate Hollow security with Garrick.
+
+## Historical record through Day 153 (superseded where corrected above)
 
 # Shade
 

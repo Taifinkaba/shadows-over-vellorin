@@ -9,7 +9,16 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+# Nyx Thorne
+
+Guild measurements established Day 458: Rank A+, Level 5; HP max 70, MP max 160, base DEF 28; STR/DEX/CON/INT/WIS/CHA 12/20/15/16/17/15. Giant-Foe Evasion 4/5. With the main expedition; exact station unverified. Ember accompanies the expedition, bond 5/5.
+
+Independent judgment preserved. Maxima are not current pool values. Other current HP/MP values remain at their last verified values, with no extrapolation from old or conflicting maxima.
+
+## Historical record through Day 153 (superseded where corrected above)
 
 # Nyx Thorne
 

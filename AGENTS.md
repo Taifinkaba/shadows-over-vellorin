@@ -7,3 +7,5 @@ No invented historical travel, finances, animal identities, NPC whereabouts or o
 Edit on `lore/*`, `session/*` or `reconcile/*` branches; open PR with evidence. Do not merge without user approval.
 When a session ends, update entity records, checkpoint, and changelog together; maintenance never advances in-game time or resources.
 Run `python scripts/validate.py` before PR. For new entities, add an index entry with a unique ID and accurate `source_refs`.
+
+Read [permanent narration rules](docs/narration-format.md) before any campaign response. Attribute every spoken line as **Speaker:** "Dialogue"; use functioning independently closed collapsible controls for detailed bookkeeping. END SESSION produces checkpoint and [next-chat handoff](state/next-chat-handoff.md), never further play. Day472 source supersedes older snapshots; preserve unverified gaps.

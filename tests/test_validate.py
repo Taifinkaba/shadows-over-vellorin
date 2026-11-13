@@ -25,6 +25,16 @@ class RepositoryValidationTests(unittest.TestCase):
         for name in ("entities", "archive", "state"):
             shutil.copytree(ROOT / name, self.root / name)
         shutil.copy2(ROOT / "index.json", self.root / "index.json")
+        if self.__class__ is RepositoryValidationTests:
+            shutil.copy2(ROOT / "archive/checkpoints/year847-day153-2205.json", self.root / "state/checkpoint.json")
+            historical = json.loads((ROOT / "archive/checkpoints/year847-day153-entity-values.json").read_text())
+            for ident, values in historical.items():
+                path = next((self.root / "entities").rglob(ident + ".md"))
+                meta = frontmatter(path)
+                body = path.read_text().split("---", 2)[2]
+                meta["checkpoint_values"] = values
+                path.write_text("---\n" + yaml.safe_dump(meta, sort_keys=False) + "---" + body)
+
 
     def json_edit(self, path, change):
         p = self.root / path
@@ -258,7 +268,7 @@ class RepositoryValidationTests(unittest.TestCase):
 
     def test_checkpoint_schema_rejects_unversioned_and_wrong_version(self):
         original = json.loads((self.root / "state/checkpoint.json").read_text())
-        for value in (None, 1, True, 3):
+        for value in (None, 1, True, 4):
             changed = dict(original)
             if value is None: changed.pop("schema_version")
             else: changed["schema_version"] = value
@@ -322,6 +332,70 @@ class RepositoryValidationTests(unittest.TestCase):
         self.assertEqual({k:costs[k] for k in json.loads((self.root / "state/checkpoint.json").read_text())["context"]["recent_mp_costs"]},
                          json.loads((self.root / "state/checkpoint.json").read_text())["context"]["recent_mp_costs"])
 
+
+
+class CurrentCheckpointTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory(prefix="vellorin-current-")
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        for name in ("entities", "archive", "state"):
+            shutil.copytree(ROOT / name, self.root / name)
+        shutil.copy2(ROOT / "index.json", self.root / "index.json")
+
+    def change(self, edit):
+        p = self.root / "state/checkpoint.json"
+        state = json.loads(p.read_text()); edit(state)
+        p.write_text(json.dumps(state))
+
+    def test_current_checkpoint(self):
+        self.assertIn("checkpoint valid", validate(self.root))
+        s = json.loads((self.root / "state/checkpoint.json").read_text())
+        self.assertEqual((s["schema_version"], s["date"], s["time"], s["status"]), (3, "Year 847 Day 472", "16:10", "ENDED"))
+        self.assertEqual((s["theron"]["defense"], s["resources"]["equipped_defense"], s["theron"]["mp"]), (46, 49, 312))
+        self.assertEqual(copper(s["money"]["total_gp_sp"]), 67390)
+        self.assertEqual(copper(s["money"]["excluded_lyanna_gp_sp"]), 1260)
+        self.assertIsNone(s["context"]["mp_before_recent_casts"])
+
+    def test_final_cash_reconciliation(self):
+        self.change(lambda s: s["money"].update(total_gp_sp="686gp 5sp"))
+        with self.assertRaisesRegex(ValidationError, "currency total differs"):
+            validate(self.root)
+
+    def test_no_fake_account_allocation(self):
+        self.change(lambda s: s["money"].update(central_gp_sp="552gp 8sp"))
+        with self.assertRaisesRegex(ValidationError, "expected keys"):
+            validate(self.root)
+
+    def test_known_components_cannot_exceed_total(self):
+        self.change(lambda s: s["money"].update(blackscale_private_gp_sp="700gp"))
+        with self.assertRaisesRegex(ValidationError, "components exceed"):
+            validate(self.root)
+
+    def test_no_invented_mana_log(self):
+        self.change(lambda s: s["context"].update(recent_mp_costs={"Invented release": 88}, mp_before_recent_casts=400))
+        with self.assertRaisesRegex(ValidationError, "unverified"):
+            validate(self.root)
+
+    def test_finite_staff_mana(self):
+        self.change(lambda s: s["resources"].update(staff_mp=181))
+        with self.assertRaisesRegex(ValidationError, "mana exceeds"):
+            validate(self.root)
+
+    def test_base_and_equipped_defense_separate(self):
+        self.change(lambda s: s["theron"].update(defense=49))
+        with self.assertRaisesRegex(ValidationError, "equipped Defense"):
+            validate(self.root)
+
+    def test_locks_preserved(self):
+        self.change(lambda s: s["resources"].update(chronos_eye_locked=False))
+        with self.assertRaisesRegex(ValidationError, "must remain locked"):
+            validate(self.root)
+
+    def test_current_mp_must_match_entity(self):
+        self.change(lambda s: s["theron"].update(mp=400))
+        with self.assertRaisesRegex(ValidationError, "checkpoint/entity mismatch"):
+            validate(self.root)
 
 class CurrencyTests(unittest.TestCase):
     def test_exact_integer_conversion(self):

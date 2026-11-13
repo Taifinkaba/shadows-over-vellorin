@@ -9,7 +9,16 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+# Lyra Moonvale
+
+Guild measurements established Day 458: Rank A+, Level 5; HP max 68, MP max 190, base DEF 27; STR/DEX/CON/INT/WIS/CHA 10/15/14/19/20/17. Coordinated Barrier Casting 4/5. Supervised Lyanna's voluntary restoration. Latest specifically recorded MP 178/190 after restoration; no later expenditure or recharge supplied. Astral Conduit unfinished; calibration pending. With the main expedition; exact station unverified.
+
+Independent judgment preserved. Maxima are not current pool values. Other current HP/MP values remain at their last verified values, with no extrapolation from old or conflicting maxima.
+
+## Historical record through Day 153 (superseded where corrected above)
 
 # Lyra Moonvale
 
