@@ -1,0 +1,79 @@
+{
+  "schema_version": 2,
+  "date": "Year 847 Day 153",
+  "time": "22:05",
+  "location": "Woodland north of the northern freight enclosure near Greyhaven",
+  "theron": {
+    "hp": 100,
+    "hp_max": 100,
+    "mp": 337,
+    "mp_max": 400,
+    "defense": 26,
+    "rank": "S+",
+    "level": 5,
+    "str": 12,
+    "dex": 20,
+    "con": 16,
+    "int": 20,
+    "wis": 19,
+    "cha": 19,
+    "unspent_attributes": 0
+  },
+  "money": {
+    "central_gp_sp": "308gp",
+    "emergency_gp_sp": "30gp",
+    "reserve_gp_sp": "155gp 2sp",
+    "operating_gp_sp": "61gp 8sp",
+    "development_gp_sp": "0gp",
+    "total_gp_sp": "555gp"
+  },
+  "world": {
+    "vaeltharion_chains_attached": 0,
+    "protective_anchors_retained": 7
+  },
+  "status": "PAUSED",
+  "source": "archive/session-handoffs/year847-day153-user-handoff.txt",
+  "context": {
+    "safety": "Safe; not in combat. No pursuers caught Theron, Nyx and Shade before the checkpoint.",
+    "companions_present": [
+      "nyx-thorne",
+      "shade"
+    ],
+    "party_roles": {
+      "theron-ashvale": "Player-controlled battlemage, Eighth Witness, treasury manager, academy cofounder",
+      "nyx-thorne": "Independent scout; present with Theron; bonded to Ember",
+      "garrick-vale": "Independent warrior; traced supply to Greymere Fittings; exact current position unverified",
+      "lyra-moonvale": "Independent healer; exact current position unverified",
+      "tomas": "Lodge steward and accounting",
+      "bren": "Lodge construction and maintenance"
+    },
+    "projects": {
+      "lodge": "Phase I, forge/workshop, research room and training courtyard completed, paid and accepted by Day 137",
+      "guardian_links": "Limited warning/shield tests only; Wearable Runic Enchantments 4/5",
+      "sanctuary": "Consent covenant; functions without continuous Theron mana under observed conditions",
+      "academy": "Greyhaven Valley pilot day school; finances separate"
+    },
+    "academy": {
+      "entity": "dragon-slayer-academy",
+      "latest_reported_cash_gp_sp": "34gp",
+      "refundable_lease_deposit_gp_sp": "15gp",
+      "balance_date": "Unspecified earlier report; no later verified ledger in repository",
+      "included_in_party_total": false
+    },
+    "outstanding_clues": [
+      "Certified restricted correspondence from Duren; his office authorized late manifest amendments under restricted Voss-authorized instruction",
+      "N-17: Northern Provisioning Consortium routing authority; does not establish theft or sabotage guilt",
+      "Greymere Fittings supply and irregular completion records; precise sabotage, saboteur unknown",
+      "Rellan Sorn: 7gp estimated noncash tools/fittings transferred; approximately 4gp disputed",
+      "CROWN-07, V-9, Witness/Mirror Foundation, Fifth Bell and sword provenance unresolved"
+    ],
+    "recent_mp_costs": {
+      "Shadow Mantle": 16,
+      "Umbral Murmur": 9,
+      "Phantom Procession": 18,
+      "Frost Veil": 11,
+      "Spatial Step": 9
+    },
+    "mp_before_recent_casts": 400
+  }
+}

@@ -4,15 +4,15 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 847 Day 153
-  time: '22:05'
-  location: Woodland north of the northern freight enclosure near Greyhaven
-  status: PAUSED
+  date: Year 847 Day 472
+  time: '16:10'
+  location: Hollow of the First Hour
+  status: ENDED
   theron.hp: 100
   theron.hp_max: 100
-  theron.mp: 337
+  theron.mp: 312
   theron.mp_max: 400
-  theron.defense: 26
+  theron.defense: 46
   theron.rank: S+
   theron.level: 5
   theron.str: 12
@@ -22,13 +22,34 @@ checkpoint_values:
   theron.wis: 19
   theron.cha: 19
   theron.unspent_attributes: 0
+  resources.equipped_defense: 49
+  resources.bracers_defense_bonus: 3
+  resources.staff_mp: 156
+  resources.staff_mp_max: 180
+  resources.wagon_mp: 60
+  resources.wagon_mp_max: 60
+  resources.chronos_eye_locked: true
+  resources.dragon_slayer_locked: true
 source_refs:
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
 - archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md
 - archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+# Theron Ashvale / Blackscale
+
+Elf Battlemage / Advanced Runecrafter; Guild S+, Level 5, Eighth Witness. At the Hollow of the First Hour; session ended at Year 847 Day 472, 4:10 PM. HP **100/100**, personal MP **312/400**. Permanent base DEF **46** (reconciled from 26); equipped DEF **49** with [Frostguard Bracers](../items/frostguard-bracers.md), +3 equipment only. STR/DEX/CON/INT/WIS/CHA **12/20/16/20/19/19**, zero unspent points.
+
+[Sovereign Nexus](../items/sovereign-nexus.md) mana **156/180**, ordinary discount **40%**; Sovereign Expedition Wagon mana **60/60**. Caelrix bond **5/5**, Defensive Synchronization **5/5**. Chronos Eye approximately **19%, LOCKED**; Dragon Slayer **LOCKED BY PLAYER CHOICE**. One intact shed Vaeltharion scale remains after bracer forging.
+
+[First Hour's Accord](../items/first-hours-accord.md) newly acquired by Aeloryn's voluntary grant: peaceful recognition and limited communication, no command authority or unlimited time magic. Finite defensive magic stabilized the release; exact individual expenditures and starting pools are unverified. No inferred rest, free casting, reward, unlock or extra stat change. Preserve all older skill and spell records; [training](../mechanics/theron-skills.md), [finances](../mechanics/party-finances.md), [handoff](../../state/next-chat-handoff.md).
+
+Blackscale retains eerie, generally nonlethal tactics, independent companions and player choice. GM sword-origin secrets remain outside Theron's knowledge.
+
+## Historical record through Day 153 (superseded where corrected above)
 
 # Theron Ashvale / Blackscale
 

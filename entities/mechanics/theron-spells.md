@@ -6,6 +6,7 @@ visibility: gm-reference
 source_refs:
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
 
 # Theron: verified spells
@@ -42,3 +43,7 @@ Learned ordinary costs below already include the existing30% discount, rounded u
 | Phantom Procession | 18 | Up to5 moving non-damaging shadow duplicates within40ft for up to2min, concentration |
 
 Blackscale Phantasm is a rehearsed combination, not a free or newly costed spell. Existing concentration/dual-casting constraints remain; no new stacking permission inferred. Day153 most recent spell expenditure:16+9+18+11+9=63MP, leaving337/400. No unplayed recharge.
+
+## Authoritative update — Year 847 Day 472, 16:10, session ENDED
+
+Ordinary discount is now40%. Preserve every listed established spell cost and full-cost exception; older tables document confirmed costs under the prior30% arrangement. Updated per-spell costs under40% are **unverified** without original base costs/approved repricing. Do not reverse-engineer rounded costs, apply the discount twice or silently replace the inventory. Confirm current costs before future casting. Final release used finite defensive magic; exact spell-by-spell cost and starting pools unverified. Current personal312/400, staff156/180, wagon60/60; no inferred rest or free magic.

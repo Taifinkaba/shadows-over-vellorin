@@ -1,0 +1,439 @@
+# CODEX TASK — Shadows Over Vellorin: Session-End Canon and Narration Update
+
+Repository:
+https://github.com/Taifinkaba/shadows-over-vellorin
+
+## Goal
+
+Prepare a new pull request that updates the campaign continuity records through **Year 847, Day 472, 4:10 PM**, and permanently records the approved narration format.
+
+This is an END SESSION archival update. Do not advance the story, invent new encounters, issue rewards, or edit stats beyond the checkpoint supplied here.
+
+**Important:** The repository may still contain old checkpoints (possibly as early as Day 153). Later ChatGPT campaign continuity supersedes stale files. Preserve earlier history and do not silently promote stale data into current canon.
+
+## 1. Repository workflow
+
+1. Inspect `AGENTS.md`, repository governance, the checkpoint, entity schemas, mechanics rules, validation scripts, and existing narration conventions.
+2. Create a feature branch, for example `canon/day-472-first-hour-and-narration`.
+3. Update existing canonical entities rather than creating duplicates.
+4. Add new entities only when none already exist for the subject.
+5. Preserve historical states and previous session records.
+6. Update cross-references, indexes and current checkpoint.
+7. Run available validation scripts and tests.
+8. Open a PR against `main`.
+9. Do not push directly to protected `main`.
+10. Report all changed files, validation results, unresolved historical gaps and the PR URL.
+
+If previously established data cannot be verified from repository files or this supplied checkpoint, mark it as **unverified**, not invented.
+
+## 2. NEW PERMANENT NARRATION RULES — HIGH PRIORITY
+
+These rules are approved by the player and apply to future campaign responses.
+
+### Dialogue formatting
+
+Every spoken line must identify its speaker:
+
+**Theron:** "Before we do anything, I want answers."
+
+**Lyanna:** "And nobody uses my memories without permission."
+
+**Caelrix:** "That's a remarkably sensible plan."
+
+Do not use unattributed quotations when the line is spoken by a character.
+
+Use the same format for Raze, Aegis, Guardians, dragons, prisoners and NPCs.
+
+Keep speaker names consistent. Narrative descriptions should remain ordinary prose.
+
+### Collapsible bookkeeping
+
+The main reading experience must prioritize immersive storytelling.
+
+Keep the following detailed information inside **clickable, collapsible dropdown boxes**, closed by default:
+
+- Independent party assignments.
+- Loot and recovered inventory.
+- Shady Salvage locations and status.
+- Launder inventory and processing results.
+- Quest requirements and technical conditions.
+- Guardian-chain status.
+- Guild statistics and detailed skill records.
+- Mana expenditure tables.
+- Treasury ledgers and account balances.
+- Long prisoner or settlement registers.
+- Large progress and task-tracking tables.
+
+Show concise summaries outside the dropdowns only when needed.
+
+**IMPORTANT:** The user approved actual expand/collapse controls, NOT popovers, tooltips, or merely italicized headings.
+
+In a DIL-compatible ChatGPT response, use state and `pressable` with conditional content, or an equivalent functioning collapsible component available in the current renderer.
+
+Conceptual DIL example:
+
+```jsx
+{@body const [lootOpen,setLootOpen]=DIL.useState(false)}
+
+<box border radius="lg" gap={0}>
+  <pressable padding={3} onClick={()=>setLootOpen(!lootOpen)}>
+    <row align="center" justify="between">
+      **Recovered Items & Launder**
+      <icon name={lootOpen?"chevron-up":"chevron-down"}/>
+    </row>
+  </pressable>
+  {#if lootOpen}
+    <box padding={3}>
+      | Item | Quantity |
+      |---|---:|
+      | Old coinage | 6 gp 8 sp |
+      | Rune-setting tools | 2 |
+    </box>
+  {/if}
+</box>
+```
+
+This is a rendering example, not a request to force DIL source into Markdown campaign entity files. Store these rules in the repository's appropriate narration/style configuration or guidance document. If there is no suitable existing file, create a dedicated narration-format document and reference it from `AGENTS.md`.
+
+Each dropdown must:
+- Be closed initially.
+- Open when clicked.
+- Close when clicked again.
+- Have its own state.
+- Retain readable table formatting.
+- Avoid disrupting the chapter's narration.
+
+### Storytelling style
+
+- Keep a few substantial atmospheric scenes.
+- Clearly identify locations and in-world times.
+- Use concise, natural conversations.
+- Preserve distinct personalities and independent NPC decisions.
+- Avoid repeated disclaimers, duplicated summaries and lengthy mechanical interruptions.
+- Preserve medieval high fantasy: swords, sorcery, dragons, ancient runes, mystical wards, and no modern or science-fiction technology.
+- Preserve nonlethal, eerie Blackscale tactics where appropriate.
+- Maintain player choice and meaningful consequences.
+- Show suitable fantasy scene illustrations when available and requested by campaign convention.
+- Finish active scenes with relevant selectable choices.
+- Never award abilities or stats merely because the narration sounds impressive.
+- Never silently resolve an ongoing quest offscreen.
+- For END SESSION, produce a checkpoint and Codex/next-chat handoff instead of continuing the story.
+
+## 3. CURRENT AUTHORITATIVE CHECKPOINT
+
+**Date:** Year 847, Day 472  
+**Time:** 4:10 PM  
+**Location:** Hollow of the First Hour  
+**Session status:** ENDED
+
+**Theron Ashvale / Blackscale**
+- Race: Elf
+- Class: Battlemage / Advanced Runecrafter
+- Guild Rank: S+
+- Character Level: 5
+- HP: 100/100
+- Personal MP: 312/400
+- Permanent base Defense: 46
+- Equipped Defense: 49, while wearing Frostguard Bracers
+- STR 12
+- DEX 20
+- CON 16
+- INT 20
+- WIS 19
+- CHA 19
+- Unspent attribute points: 0
+- Sovereign Nexus staff mana: 156/180
+- Sovereign Expedition Wagon mana: 60/60
+- Caelrix bond: 5/5
+- Chronos Eye: approximately 19% development, LOCKED
+- Dragon Slayer: LOCKED BY PLAYER CHOICE
+- One intact shed Vaeltharion dragon scale remains after forging Frostguard Bracers.
+- First Hour's Accord newly acquired: peaceful recognition and limited communication with Aeloryn; no command authority or unlimited time magic.
+
+The earlier permanent Defense reconciliation increased Theron's base Defense from 26 to 46. Frostguard Bracers add +3 while equipped. Do not revert this.
+
+### Verified dragon training
+
+- Dragon Anatomy: 5/5
+- Dragon Attack Recognition: 5/5
+- Defensive Dragon Combat: 5/5
+- Coordinated Anti-Dragon Defense: 4/5
+- Draconic Resonance: 3/5
+- Breath Deflection: learned/refined
+- Guardian's Instinct: trained defensive technique
+- Dragon Slayer: deliberately not obtained
+
+Preserve older mastered tracks, spell costs, runecrafting specializations and previous training history. Do not replace the full skill inventory with only these recent entries.
+
+### Sovereign Nexus and magic
+
+- Ordinary spell cost discount: 40%.
+- Staff has finite independent mana and normal ambient recharge.
+- Caelrix is an independent, voluntarily bonded time spirit.
+- Defensive Synchronization: 5/5.
+- Raze analyzes and simulates; Aegis assists with defenses within established restrictions.
+- Neither Raze nor Aegis grants free casting or unlimited mana.
+- Do not grant Chronos Eye use while locked.
+
+## 4. GUILD-CERTIFIED MAIN PARTY
+
+Guild measurements were established on Day 458.
+
+| Character | Rank | Level | HP max | MP max | Base DEF |
+|---|---|---:|---:|---:|---:|
+| Theron | S+ | 5 | 100 | 400 | 46 |
+| Lyanna Ashvale | A+ | 5 | 72 | 110 | 29 |
+| Garrick Vale | A+ | 5 | 94 | 80 | 34 |
+| Nyx Thorne | A+ | 5 | 70 | 160 | 28 |
+| Lyra Moonvale | A+ | 5 | 68 | 190 | 27 |
+
+Attributes, in order STR/DEX/CON/INT/WIS/CHA:
+
+- Theron: 12/20/16/20/19/19
+- Lyanna: 15/19/15/17/16/17
+- Garrick: 19/14/19/12/16/14
+- Nyx: 12/20/15/16/17/15
+- Lyra: 10/15/14/19/20/17
+
+Recent individual training:
+- Garrick: Bulwark Formation 4/5.
+- Nyx: Giant-Foe Evasion 4/5.
+- Lyra: Coordinated Barrier Casting 4/5.
+- Lyanna: Guardian Sword Formation 4/5.
+- All companions exercise independent judgment.
+
+Latest specifically recorded Lyra MP after the restoration: 178/190. Other companions' current values should remain at their last verified values unless a later event establishes a change.
+
+## 5. ANIMAL COMPANIONS AND GUILD REGISTRY
+
+- Alpha: independent Frostfang Alpha, Rank A, HP max 88, MP max 95, DEF 29. NOT bound, NOT collared, NOT automatically summoned.
+- Shade: gray wolf, B+, HP max 58, MP max 45, DEF 24, bond 3/5.
+- Ember: companion, B+, HP max 44, MP max 85, DEF 21, established bond 5/5.
+- Frost: young frost hound, C+, HP max 34, MP max 35, DEF 18.
+- Hunting Hound I: C, HP max 30, MP 0, DEF 17.
+- Hunting Hound II: C, HP max 32, MP 0, DEF 18.
+- Velmir: C+, HP max 42, DEF 16.
+- Arcthel: C+, HP max 44, DEF 17.
+- Expedition Horse III: C, HP max 40, DEF 15.
+- Expedition Horse IV: C, HP max 41, DEF 15.
+- Bracken and Morrow: historical identity reconciliation pending; do not double-count.
+- Aurelion the eagle: current physical guild inspection and numeric certification still pending.
+
+Shade and Ember accompany the current expedition. Frost and the ordinary hounds are at Ashvale. Alpha is independent and has no forced location.
+
+Companion Collars v3.1:
+- Identity, limited-range communication, short-range tracking and tested vital warnings.
+- Limited protective ward.
+- Automatic healing experimental.
+- Emergency teleport and revival not certified.
+- Dragon guardian collar prototype separately at 3/5, unattached to Vaeltharion.
+- Do not invent guaranteed life-saving abilities.
+
+## 6. RECENT MAIN QUEST — FIRST HAND / FIRST HOUR
+
+The campaign began with Crown/Witness corruption, the stolen Ashvale memories, artificial Witness authority, damaged Guardian chains, and threats surrounding the Fifth Bell.
+
+Major recent developments:
+
+1. Lyanna's three stolen Ashvale memory vessels were recovered from V-9. Her intact memories were restored voluntarily under Lyra's supervision.
+2. High Chancellor Severin Valcrest was identified as Crown-07.
+3. The Citadel of Seven Bells was infiltrated; Valcrest captured alive; Fifth Bell activation prevented; original safeguards preserved.
+4. The First Hand's seal led to the Abbey of the First Dawn.
+5. The Nine-Star Shrine and Hall of Unwritten Hours were explored.
+6. The Abbey's Prior Malrec Voss and Sister Caldra Venn were captured alive.
+7. All three missing Witness registers were recovered and authenticated.
+8. The Empty Seat was found to be issuing old Keeper-imprint authority commands.
+9. The Hollow of the First Hour was located beneath Mount Elarion.
+10. Elian Voss was identified as the original First Hand.
+11. His incomplete succession left behind a persistent protective imprint whose interpretation had become corrupted.
+12. Aeloryn, Guardian of the First Hour, was contacted and found to be conscious and willing to complete its original oath.
+
+### FINAL SESSION EVENTS — YEAR 847 DAY 472
+
+- Prior Malrec Voss was questioned and confessed to continuing improper Witness custody after learning of the abuses.
+- Elian Voss's final memory was recovered. He and Aeloryn originally suspended the First Hour to protect ancient Witnesses.
+- The memory established that Elian wanted the Hour returned when legitimate Witnesses reappeared.
+- The original Holder/First Hand's succession was never completed.
+- Theron, Lyanna, Caelrix, Raze and Aeloryn examined the original oath.
+- Elian's surviving imprint voluntarily surrendered its claim.
+- Lyanna acknowledged rightful custody of testimony.
+- Theron acknowledged the surrender as the Eighth Witness.
+- Aeloryn voluntarily accepted the return of the First Hour.
+- The release surged; Theron and Caelrix used finite defensive magic to stabilize it.
+- The First Hour resumed safely.
+- Aeloryn's original restraints dissolved.
+- Elian's Keeper-imprint dissolved peacefully.
+- The Empty Seat's false authority ceased functioning.
+- The original Guardian protections were not destroyed.
+- Aeloryn remains an independent Guardian, not Theron's servant.
+- Aeloryn voluntarily granted the First Hour's Accord.
+- Other Guardian channels remain damaged; the wider Guardian restoration quest continues.
+- No Fifth Bell toll occurred.
+- No Chronos Eye or Dragon Slayer unlock occurred.
+
+### Three Witness registers
+
+1. Testimony of the Unfinished Hour.
+2. Guardian Custody of the Ninth Star.
+3. The First Hand's Succession.
+
+All three are recovered, authenticated and protected.
+
+### Five prisoners — NO TRANSFER
+
+- Prior Malrec Voss — guarded at the Hollow, cooperating.
+- Sister Caldra Venn — guarded at the Hollow, cooperating.
+- Brother Edran Vell — fortified wagon camp.
+- Sera Dovain — fortified wagon camp.
+- Corvin Hale — fortified wagon camp.
+
+All five remain alive and detained. None has been transferred or released.
+
+Two contracted guards were previously paid to reinforce custody at the wagon camp. Garrick and Shade oversee immediate Hollow security with party assistance.
+
+Do not skip custody consequences or teleport prisoners.
+
+## 7. FINANCES — END SESSION
+
+**Total controlled cash: 673 gp 9 sp.**
+
+Known component balances:
+- Blackscale private reserve: 112 gp.
+- Expedition reserve: 9 gp 1 sp.
+- Lyanna separate personal funds: 12 gp 6 sp, EXCLUDED from Theron's total.
+
+Last scene:
+- Opening: 668 gp 3 sp.
+- Hollow supply annex salvage: +6 gp 8 sp.
+- Launder expenses: −1 gp 2 sp.
+- Closing: 673 gp 9 sp.
+
+Historical account allocations exist, but some older checkpoints do not reconcile perfectly across individual account balances. Audit them instead of inventing a balanced ledger. Keep the verified overall cash total and separately verified balances. Document any discrepancy until independently resolved from records.
+
+Do not add estate income without a verified Tomas accounting report.
+
+## 8. ASHVALE ESTATE
+
+Theron owns Ashvale Estate and its commercial buildings, including the lodge and additional 120-acre expansion. The new acreage was acquired at a recorded cost of 252 gp.
+
+The estate is operated as a privately managed commercial settlement, not a separately chartered municipality.
+
+Tomas runs operations independently.
+
+Established operations:
+- Lodge and natural Healing Springs.
+- 22% contractual fee on participating merchants' on-site gross sales.
+- Twenty merchant storage bays.
+- Rental cottages.
+- Bakery, market, nighttime entertainment and caravan facilities.
+- Lantern Exchange for paid intelligence, verified trade reports and private business meetings.
+- Guards, warehouse staff, overnight security and public facilities.
+- Operating till floor: 100 gp.
+
+Verified distributable free surplus is allocated:
+- General treasury 25%.
+- Emergency reserve 15%.
+- Monthly operating reserve 15%.
+- Savings 10%.
+- Expedition reserve 10%.
+- Development 10%.
+- Research 5%.
+- Theron's purse 5%.
+- Blackscale private reserve 5%.
+
+Tomas handles autonomous daily activity and weekly reporting. Do not invent revenue or imply guaranteed profit.
+
+## 9. OTHER PROJECTS
+
+- Lyanna's Dawnbreaker's Promise: 58 gp construction prepaid, in final fitting/enchantment phase at last report; not delivered. Her remaining personal funds are separate.
+- Lyra's Astral Conduit: unfinished, calibration pending.
+- Theron's twin Eclipse Sovereigns: further development pending.
+- Frostguard Bracers: completed/equipped, +3 equipment DEF.
+- One intact shed Vaeltharion scale remains.
+- Ashvale Vanguard Wagon blueprint: completed, construction estimate 137 gp; not yet built.
+- Vaeltharion's Dragon Slayer Academy: founding phase, farm expanded, six hens, grain cellar, repaired defenses, instructors and trainees. Theron is a cofounder but has not chosen Dragon Slayer certification.
+- Vaeltharion: independent dragon, consenting research participant, free.
+- Rusk and the Greyhaven Mill older couple checked; watchtower supplies and mill roof quotation/inspection remain open.
+- Winter Warden visited; Pale Devourer remains contained.
+- Guild animal records and unverified Aurelion status remain pending where specified.
+
+## 10. SHADY SALVAGE AND LAUNDER
+
+Maintain distinct, persistent records.
+
+**Shady Salvage:** Identify locations, explored/unexplored status, recovery, ownership uncertainty and physical inventory.
+
+**Launder:** Appraise, clean, repair, preserve, discreetly sell when authorized, store materials, record costs and final disposition. Do not fabricate provenance or assume stolen goods become lawful property merely by processing.
+
+Recent Hollow supply annex:
+- 6 gp 8 sp old coinage.
+- 2 silver rune-setting tools.
+- 3 clear crystals.
+- 4 damaged lantern frames.
+- 2 rolls preservation cloth.
+- 1 fragmentary Keeper route chart.
+- Launder cost 1 gp 2 sp.
+- Net cash increase 5 gp 6 sp.
+
+Persist previously identified locations including:
+- Hollow western gallery — unexplored.
+- Hollow Keeper quarters — protected.
+- Abbey bellkeeper residence — searched.
+- Nine-Star Shrine accessible rooms — searched.
+- Vaelspire observatory lower rooms — unexplored.
+- Seven Bells lower foundations — partially explored.
+- Northwatch old aqueduct — unexplored.
+- Western roadside fortress — unexplored.
+- Whisperstone Hollow — partially explored.
+- Frostglass western ridge — partially explored.
+- Old Copperworks — visited.
+- Ravencrest waystation — visited.
+- Any additional previously recorded locations found in the repository.
+
+Do not discard older registry entries.
+
+## 11. OPEN QUESTS
+
+- Restore remaining damaged Guardian channels.
+- Investigate surviving Crown agents and conspiracy branches.
+- Study the First Hour's Accord safely.
+- Explore the Hollow's sealed western gallery.
+- Resolve the five prisoners' eventual custody.
+- Finish outstanding equipment and companion collar projects.
+- Continue the Dragon Slayer Academy without awarding Theron Dragon Slayer.
+- Advance Chronos Eye training only through earned progression.
+- Seek Halvek the runesmith.
+- Explore new kingdoms and ancient dragon history.
+- Develop Ashvale Estate and verified economic operations.
+- Maintain weekly mail and Tomas reports.
+- Continue Shady Salvage followed by Launder.
+- Preserve all other existing outstanding quests.
+
+## 12. VALIDATION AND PR
+
+Before opening the PR:
+
+- Check all canonical entity links.
+- Verify chronology and final checkpoint.
+- Check mana and cash calculations.
+- Ensure no double-counted revenue or rewards.
+- Confirm prisoners, companions and animals have consistent locations.
+- Preserve permanent versus equipped Defense.
+- Keep Dragon Slayer and Chronos Eye locked.
+- Confirm narration rules are discoverable by future assistants.
+- Run repository validation and tests.
+- Do not fabricate missing intermediate historical events.
+
+PR title suggestion:
+
+`canon: restore First Hour and adopt collapsible narration format`
+
+The PR summary must include:
+1. Narrative and canon updates.
+2. Updated entities and checkpoint.
+3. New narration-format rules.
+4. Financial reconciliation and any unresolved discrepancies.
+5. Tests and validation results.
+6. Remaining quests and known continuity gaps.
+
+**Stop after opening the PR and providing the link. Do not merge automatically.**

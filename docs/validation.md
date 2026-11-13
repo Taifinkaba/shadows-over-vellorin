@@ -16,7 +16,7 @@ Python3.12 is used in CI. Tests mutate disposable copies only. The validator is 
 
 Safe YAML supports quoted/unquoted values; duplicate keys, unsafe types and unknown metadata fields rejected. Source refs must be normalized root-relative existing file paths, with no traversal or escaping symlinks. The preserved cumulative handoff under `archive/session-handoffs/` is valid evidence; original legacy archives retain their own index and original basename resolution.
 
-## Checkpoint schema2
+## Historical checkpoint schema2 (preserved Day153)
 
 Day153 is the first explicitly versioned checkpoint. Required keys: `schema_version` (integer2), date (`Year N Day N`), 24-hour time (`HH:MM`), location, theron, money, world, status (`PAUSED`), source (existing root-relative file), context. The prior unversioned Day46 snapshot is preserved unchanged under `archive/checkpoints/`; it is historical, not silently rewritten to schema2.
 
@@ -26,7 +26,7 @@ Day153 is the first explicitly versioned checkpoint. Required keys: `schema_vers
 - `context`: safety text, companions_present IDs, party_roles keyed by IDs, projects text mapping, academy mapping, outstanding_clues list, recent_mp_costs mapping, mp_before_recent_casts integer. IDs must resolve. Recent starting MP minus summed costs must equal current MP; the Day153 starting400 is arithmetic from337+63, not evidence of an invented rest.
 - Academy mapping: entity ID, latest_reported_cash_gp_sp, refundable_lease_deposit_gp_sp, balance_date note, included_in_party_total (must be false).34gp cash and15gp deposit are latest reported earlier values with unknown report date; no newly verified later balance implied. Deposit remains separate noncash. No academy amount enters party cash.
 
-## Structured entity agreement
+## Historical schema2 structured entity agreement
 
 | Owner | Required checkpoint facts |
 |---|---|
@@ -39,3 +39,14 @@ Owned values must match current checkpoint exactly (currency by integer copper).
 Regression checks cover metadata, paths, archival coverage, account sums/separation, recent MP spending, new schema, entity agreement and the current core/new spell costs. Unknown companion numerical HP/MP, missing transaction details and chronological gaps stay unknown. Historical custody38gp2sp, merchant goods, evidence and noncash estimates remain excluded.
 
 The validator checks declared facts and references; it does not infer truth from arbitrary prose, prove testimony, determine guilt, expose GM secrets, resolve concentration timing or interpret artwork. Human review preserves those distinctions. Source path existence establishes findability, not independent historical verification.
+
+## Current checkpoint schema3 — Day472 END SESSION
+
+Schema3 retains date/time/location, Theron base stats, world counts, source and context; session status is `ENDED`. Schema2 remains supported for historical snapshots and regression fixtures. The index schema remains2.
+
+- `resources`: nonnegative integer equipped_defense/bracers_defense_bonus, staff_mp/staff_mp_max, wagon_mp/wagon_mp_max; positive maxima; pools cannot exceed maxima. Equipped DEF must equal Theron permanent base plus equipment bonus. Boolean chronos_eye_locked and dragon_slayer_locked must remain true under the supplied player ruling.
+- `money`: exact-copper total_gp_sp, blackscale_private_gp_sp, expedition_gp_sp, excluded_lyanna_gp_sp, scene_opening_gp_sp, scene_recovery_gp_sp, scene_cost_gp_sp, plus nonempty allocation_status beginning `unverified`. Known controlled components cannot exceed total. Opening + recovery − cost equals total. Lyanna is excluded, never added. There is no invented residual account or requirement to balance stale allocations.
+- `context.recent_mp_costs` is empty and `mp_before_recent_casts` null because individual final-release costs/starting mana are unavailable. This does not authorize free casting or future recharge: final personal MP and resource pools must agree with authoritative entity values. Other context keys retain schema2 shape; academy values explicitly remain earlier reports, not newly verified balances.
+- Theron owns schema2 Theron/date/time/location/status fields plus every `resources.*` value. Party-finances owns every schema3 monetary currency field. Vaeltharion retains the two last-verified world counts; Aeloryn's restraint release does not change them.
+
+Day153 mutation tests load the unchanged archived snapshot and saved historical entity values; separate current-checkpoint tests cover schema3 partial allocations, excluded cash, finite pools, locks, defense separation, missing mana history and entity agreement. Unknown chronology and exact spell repricing remain human-review limits, not fabricated data.

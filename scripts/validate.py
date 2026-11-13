@@ -37,6 +37,8 @@ VISIBILITIES = {"gm-reference", "gm-secret"}
 REQUIRED = {"id", "type", "status", "visibility", "source_refs"}
 ID = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 MONEY_FIELDS = {"central_gp_sp", "emergency_gp_sp", "reserve_gp_sp", "operating_gp_sp", "development_gp_sp", "total_gp_sp"}
+MONEY_FIELDS_V3 = {"total_gp_sp", "blackscale_private_gp_sp", "expedition_gp_sp", "excluded_lyanna_gp_sp", "scene_opening_gp_sp", "scene_recovery_gp_sp", "scene_cost_gp_sp"}
+RESOURCES = {"equipped_defense", "bracers_defense_bonus", "staff_mp", "staff_mp_max", "wagon_mp", "wagon_mp_max", "chronos_eye_locked", "dragon_slayer_locked"}
 STATS = {"hp", "hp_max", "mp", "mp_max", "defense", "rank", "level", "str", "dex", "con", "int", "wis", "cha", "unspent_attributes"}
 WORLD = {"vaeltharion_chains_attached", "protective_anchors_retained"}
 # Owners of structured snapshot facts; values live in entity frontmatter, not here.
@@ -137,13 +139,15 @@ def copper(value, label="currency"):
 
 
 def validate_state(state):
-    keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"}, "checkpoint")
-    require(type(state["schema_version"]) is int and state["schema_version"] == 2, "checkpoint: unsupported schema_version")
+    version = state.get("schema_version")
+    v3 = type(version) is int and version == 3
+    keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"} | ({"resources"} if v3 else set()), "checkpoint")
+    require(type(state["schema_version"]) is int and state["schema_version"] in {2, 3}, "checkpoint: unsupported schema_version")
     for field in ("date", "time", "location", "status", "source"):
         string(state[field], f"checkpoint.{field}")
     require(re.fullmatch(r"Year \d+ Day \d+", state["date"]) is not None, "checkpoint: invalid date")
     require(re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d", state["time"]) is not None, "checkpoint: invalid time")
-    require(state["status"] == "PAUSED", "checkpoint: expected PAUSED")
+    require(state["status"] == ("ENDED" if v3 else "PAUSED"), "checkpoint: invalid session status")
     stats = state["theron"]
     keys(stats, STATS, "checkpoint.theron")
     for field in STATS - {"rank"}:
@@ -151,10 +155,29 @@ def validate_state(state):
     string(stats["rank"], "checkpoint.theron.rank")
     require(stats["hp"] <= stats["hp_max"], "checkpoint: HP exceeds maximum")
     require(stats["mp"] <= stats["mp_max"], "checkpoint: MP exceeds maximum")
-    keys(state["money"], MONEY_FIELDS, "checkpoint.money")
-    balances = {k: copper(v, f"checkpoint.money.{k}") for k, v in state["money"].items()}
-    require(sum(v for k, v in balances.items() if k != "total_gp_sp") == balances["total_gp_sp"],
-            "checkpoint: currency total differs from consolidated account balances")
+    money_fields = MONEY_FIELDS_V3 if v3 else MONEY_FIELDS
+    keys(state["money"], money_fields | ({"allocation_status"} if v3 else set()), "checkpoint.money")
+    balances = {k: copper(state["money"][k], f"checkpoint.money.{k}") for k in money_fields}
+    if v3:
+        string(state["money"]["allocation_status"], "money.allocation_status")
+        require(state["money"]["allocation_status"].startswith("unverified"), "money: allocation must remain explicitly unverified")
+        require(balances["blackscale_private_gp_sp"] + balances["expedition_gp_sp"] <= balances["total_gp_sp"],
+                "checkpoint: verified components exceed controlled cash")
+        require(balances["scene_opening_gp_sp"] + balances["scene_recovery_gp_sp"] - balances["scene_cost_gp_sp"] == balances["total_gp_sp"],
+                "checkpoint: currency total differs from final scene reconciliation")
+        resources = state["resources"]
+        keys(resources, RESOURCES, "checkpoint.resources")
+        for field in RESOURCES - {"chronos_eye_locked", "dragon_slayer_locked"}:
+            integer(resources[field], f"resources.{field}", 1 if field.endswith("_max") else 0)
+        for pool in ("staff", "wagon"):
+            require(resources[f"{pool}_mp"] <= resources[f"{pool}_mp_max"], f"resources: {pool} mana exceeds maximum")
+        require(resources["equipped_defense"] == stats["defense"] + resources["bracers_defense_bonus"],
+                "resources: equipped Defense must equal permanent base plus equipment bonus")
+        for field in ("chronos_eye_locked", "dragon_slayer_locked"):
+            require(resources[field] is True, f"resources: {field} must remain locked by player ruling")
+    else:
+        require(sum(v for k, v in balances.items() if k != "total_gp_sp") == balances["total_gp_sp"],
+                "checkpoint: currency total differs from consolidated account balances")
     keys(state["world"], WORLD, "checkpoint.world")
     for field, value in state["world"].items():
         integer(value, f"checkpoint.world.{field}")
@@ -179,6 +202,10 @@ def validate_state(state):
         copper(academy[key], f"academy.{key}")
     require(academy["included_in_party_total"] is False, "academy funds must remain separate")
     costs = mapping(context["recent_mp_costs"], "context.recent_mp_costs")
+    if v3:
+        require(not costs and context["mp_before_recent_casts"] is None,
+                "context: final-scene individual mana costs and starting MP remain unverified")
+        return
     require(bool(costs), "context.recent_mp_costs: expected entries")
     for spell, cost in costs.items():
         string(spell, "spell name"); integer(cost, f"spell cost: {spell}")
@@ -250,7 +277,11 @@ def validate(root):
             flat.update({f"{key}.{k}": v for k, v in value.items()})
         elif key != "source":
             flat[key] = value
-    for entity_id, expected in OWNERS.items():
+    owners = {k: set(v) for k, v in OWNERS.items()}
+    if state["schema_version"] == 3:
+        owners["party-finances"] = {f"money.{k}" for k in MONEY_FIELDS_V3}
+        owners["theron-ashvale"] |= {f"resources.{k}" for k in RESOURCES}
+    for entity_id, expected in owners.items():
         require(entity_id in records, f"missing authoritative snapshot entity: {entity_id}")
         values = records[entity_id].get("checkpoint_values")
         keys(values, expected, f"{entity_id}.checkpoint_values")

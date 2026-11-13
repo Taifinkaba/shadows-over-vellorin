@@ -1,14 +1,14 @@
 {
-  "schema_version": 2,
-  "date": "Year 847 Day 153",
-  "time": "22:05",
-  "location": "Woodland north of the northern freight enclosure near Greyhaven",
+  "schema_version": 3,
+  "date": "Year 847 Day 472",
+  "time": "16:10",
+  "location": "Hollow of the First Hour",
   "theron": {
     "hp": 100,
     "hp_max": 100,
-    "mp": 337,
+    "mp": 312,
     "mp_max": 400,
-    "defense": 26,
+    "defense": 46,
     "rank": "S+",
     "level": 5,
     "str": 12,
@@ -20,38 +20,49 @@
     "unspent_attributes": 0
   },
   "money": {
-    "central_gp_sp": "308gp",
-    "emergency_gp_sp": "30gp",
-    "reserve_gp_sp": "155gp 2sp",
-    "operating_gp_sp": "61gp 8sp",
-    "development_gp_sp": "0gp",
-    "total_gp_sp": "555gp"
+    "total_gp_sp": "673gp 9sp",
+    "blackscale_private_gp_sp": "112gp",
+    "expedition_gp_sp": "9gp 1sp",
+    "excluded_lyanna_gp_sp": "12gp 6sp",
+    "allocation_status": "unverified; other current account balances and intermediate transfers unavailable",
+    "scene_opening_gp_sp": "668gp 3sp",
+    "scene_recovery_gp_sp": "6gp 8sp",
+    "scene_cost_gp_sp": "1gp 2sp"
   },
   "world": {
     "vaeltharion_chains_attached": 0,
     "protective_anchors_retained": 7
   },
-  "status": "PAUSED",
-  "source": "archive/session-handoffs/year847-day153-user-handoff.txt",
+  "status": "ENDED",
+  "source": "archive/session-handoffs/year847-day472-user-handoff.txt",
   "context": {
-    "safety": "Safe; not in combat. No pursuers caught Theron, Nyx and Shade before the checkpoint.",
+    "safety": "Session ENDED after safe First Hour restoration; custody remains guarded, no new action.",
     "companions_present": [
+      "lyanna-ashvale",
+      "garrick-vale",
       "nyx-thorne",
-      "shade"
+      "lyra-moonvale",
+      "shade",
+      "ember",
+      "caelrix"
     ],
     "party_roles": {
-      "theron-ashvale": "Player-controlled battlemage, Eighth Witness, treasury manager, academy cofounder",
-      "nyx-thorne": "Independent scout; present with Theron; bonded to Ember",
-      "garrick-vale": "Independent warrior; traced supply to Greymere Fittings; exact current position unverified",
-      "lyra-moonvale": "Independent healer; exact current position unverified",
-      "tomas": "Lodge steward and accounting",
-      "bren": "Lodge construction and maintenance"
+      "theron-ashvale": "Eighth Witness; at Hollow",
+      "lyanna-ashvale": "Testimony custody acknowledged at Hollow",
+      "garrick-vale": "Immediate Hollow security with Shade",
+      "nyx-thorne": "Independent expedition scout; exact station unverified",
+      "lyra-moonvale": "Independent healer; latest recorded MP178/190",
+      "tomas": "Autonomous estate operations and weekly reporting"
     },
     "projects": {
-      "lodge": "Phase I, forge/workshop, research room and training courtyard completed, paid and accepted by Day 137",
-      "guardian_links": "Limited warning/shield tests only; Wearable Runic Enchantments 4/5",
-      "sanctuary": "Consent covenant; functions without continuous Theron mana under observed conditions",
-      "academy": "Greyhaven Valley pilot day school; finances separate"
+      "nexus_mana": "156/180; finite independent staff mana",
+      "wagon_mana": "60/60",
+      "equipped_defense": "49; base46 plus Frostguard Bracers3",
+      "chronos_eye": "approximately19%, LOCKED",
+      "dragon_slayer": "LOCKED BY PLAYER CHOICE",
+      "accord": "Peaceful recognition and limited communication only",
+      "custody": "Malrec/Caldra at Hollow; Edran/Sera/Corvin Hale at wagon camp; no transfer",
+      "guardian_channels": "Other channels damaged; original protections preserved"
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -61,19 +72,20 @@
       "included_in_party_total": false
     },
     "outstanding_clues": [
-      "Certified restricted correspondence from Duren; his office authorized late manifest amendments under restricted Voss-authorized instruction",
-      "N-17: Northern Provisioning Consortium routing authority; does not establish theft or sabotage guilt",
-      "Greymere Fittings supply and irregular completion records; precise sabotage, saboteur unknown",
-      "Rellan Sorn: 7gp estimated noncash tools/fittings transferred; approximately 4gp disputed",
-      "CROWN-07, V-9, Witness/Mirror Foundation, Fifth Bell and sword provenance unresolved"
+      "See entities/quests/open-quests.md; all other outstanding quests preserved",
+      "Day153 to Day472 intermediate chronology/account allocation unverified"
     ],
-    "recent_mp_costs": {
-      "Shadow Mantle": 16,
-      "Umbral Murmur": 9,
-      "Phantom Procession": 18,
-      "Frost Veil": 11,
-      "Spatial Step": 9
-    },
-    "mp_before_recent_casts": 400
+    "recent_mp_costs": {},
+    "mp_before_recent_casts": null
+  },
+  "resources": {
+    "equipped_defense": 49,
+    "bracers_defense_bonus": 3,
+    "staff_mp": 156,
+    "staff_mp_max": 180,
+    "wagon_mp": 60,
+    "wagon_mp_max": 60,
+    "chronos_eye_locked": true,
+    "dragon_slayer_locked": true
   }
 }

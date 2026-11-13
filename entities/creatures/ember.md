@@ -9,7 +9,14 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+# Ember
+
+Companion B+; HP max44, MP max85, DEF21; established bond5/5. Accompanies current expedition.
+
+## Historical record through Day 153 (superseded where corrected above)
 
 # Ember
 

@@ -9,7 +9,16 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
+- archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+# Garrick Vale
+
+Guild measurements established Day 458: Rank A+, Level 5; HP max 94, MP max 80, base DEF 34; STR/DEX/CON/INT/WIS/CHA 19/14/19/12/16/14. Bulwark Formation 4/5. Oversees immediate Hollow security with Shade and party assistance.
+
+Independent judgment preserved. Maxima are not current pool values. Other current HP/MP values remain at their last verified values, with no extrapolation from old or conflicting maxima.
+
+## Historical record through Day 153 (superseded where corrected above)
 
 # Garrick Vale
 
