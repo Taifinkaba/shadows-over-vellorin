@@ -7,6 +7,7 @@ source_refs:
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Theron: verified spells
@@ -47,3 +48,7 @@ Blackscale Phantasm is a rehearsed combination, not a free or newly costed spell
 ## Authoritative update — Year 847 Day 472, 16:10, session ENDED
 
 Ordinary discount is now40%. Preserve every listed established spell cost and full-cost exception; older tables document confirmed costs under the prior30% arrangement. Updated per-spell costs under40% are **unverified** without original base costs/approved repricing. Do not reverse-engineer rounded costs, apply the discount twice or silently replace the inventory. Confirm current costs before future casting. Final release used finite defensive magic; exact spell-by-spell cost and starting pools unverified. Current personal312/400, staff156/180, wagon60/60; no inferred rest or free magic.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+This expedition confirms Shadow Mantle16MP and Umbral Murmur9MP used for non-attacking Blackscale intimidation. Earlier369→400 recovery and those costs already yielded375MP. One Mental Probe on Corven cost13MP; resisted connection ended, surface thoughts only, no memory extraction/alteration. Then10 uninterrupted minutes of Assimilation II restored24 personal MP:375−13+24=386. Other historical expenditure details remain unknown; do not double-discount or infer free Rune Barrier casting from missing older logs.

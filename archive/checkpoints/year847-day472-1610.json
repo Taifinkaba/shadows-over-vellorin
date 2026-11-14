@@ -1,0 +1,91 @@
+{
+  "schema_version": 3,
+  "date": "Year 847 Day 472",
+  "time": "16:10",
+  "location": "Hollow of the First Hour",
+  "theron": {
+    "hp": 100,
+    "hp_max": 100,
+    "mp": 312,
+    "mp_max": 400,
+    "defense": 46,
+    "rank": "S+",
+    "level": 5,
+    "str": 12,
+    "dex": 20,
+    "con": 16,
+    "int": 20,
+    "wis": 19,
+    "cha": 19,
+    "unspent_attributes": 0
+  },
+  "money": {
+    "total_gp_sp": "673gp 9sp",
+    "blackscale_private_gp_sp": "112gp",
+    "expedition_gp_sp": "9gp 1sp",
+    "excluded_lyanna_gp_sp": "12gp 6sp",
+    "allocation_status": "unverified; other current account balances and intermediate transfers unavailable",
+    "scene_opening_gp_sp": "668gp 3sp",
+    "scene_recovery_gp_sp": "6gp 8sp",
+    "scene_cost_gp_sp": "1gp 2sp"
+  },
+  "world": {
+    "vaeltharion_chains_attached": 0,
+    "protective_anchors_retained": 7
+  },
+  "status": "ENDED",
+  "source": "archive/session-handoffs/year847-day472-user-handoff.txt",
+  "context": {
+    "safety": "Session ENDED after safe First Hour restoration; custody remains guarded, no new action.",
+    "companions_present": [
+      "lyanna-ashvale",
+      "garrick-vale",
+      "nyx-thorne",
+      "lyra-moonvale",
+      "shade",
+      "ember",
+      "caelrix"
+    ],
+    "party_roles": {
+      "theron-ashvale": "Eighth Witness; at Hollow",
+      "lyanna-ashvale": "Testimony custody acknowledged at Hollow",
+      "garrick-vale": "Immediate Hollow security with Shade",
+      "nyx-thorne": "Independent expedition scout; exact station unverified",
+      "lyra-moonvale": "Independent healer; latest recorded MP178/190",
+      "tomas": "Autonomous estate operations and weekly reporting"
+    },
+    "projects": {
+      "nexus_mana": "156/180; finite independent staff mana",
+      "wagon_mana": "60/60",
+      "equipped_defense": "49; base46 plus Frostguard Bracers3",
+      "chronos_eye": "approximately19%, LOCKED",
+      "dragon_slayer": "LOCKED BY PLAYER CHOICE",
+      "accord": "Peaceful recognition and limited communication only",
+      "custody": "Malrec/Caldra at Hollow; Edran/Sera/Corvin Hale at wagon camp; no transfer",
+      "guardian_channels": "Other channels damaged; original protections preserved"
+    },
+    "academy": {
+      "entity": "dragon-slayer-academy",
+      "latest_reported_cash_gp_sp": "34gp",
+      "refundable_lease_deposit_gp_sp": "15gp",
+      "balance_date": "Unspecified earlier report; no later verified ledger in repository",
+      "included_in_party_total": false
+    },
+    "outstanding_clues": [
+      "See entities/quests/open-quests.md; all other outstanding quests preserved",
+      "Day153 to Day472 intermediate chronology/account allocation unverified"
+    ],
+    "recent_mp_costs": {},
+    "mp_before_recent_casts": null
+  },
+  "resources": {
+    "equipped_defense": 49,
+    "bracers_defense_bonus": 3,
+    "staff_mp": 156,
+    "staff_mp_max": 180,
+    "wagon_mp": 60,
+    "wagon_mp_max": 60,
+    "chronos_eye_locked": true,
+    "dragon_slayer_locked": true
+  }
+}

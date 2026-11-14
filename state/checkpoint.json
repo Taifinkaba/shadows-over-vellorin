@@ -1,12 +1,12 @@
 {
-  "schema_version": 3,
-  "date": "Year 847 Day 472",
-  "time": "16:10",
-  "location": "Hollow of the First Hour",
+  "schema_version": 4,
+  "date": "Year 848 Day 124",
+  "time": "01:45",
+  "location": "North Return House",
   "theron": {
     "hp": 100,
     "hp_max": 100,
-    "mp": 312,
+    "mp": 386,
     "mp_max": 400,
     "defense": 46,
     "rank": "S+",
@@ -20,39 +20,36 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "673gp 9sp",
-    "blackscale_private_gp_sp": "112gp",
-    "expedition_gp_sp": "9gp 1sp",
-    "excluded_lyanna_gp_sp": "12gp 6sp",
-    "allocation_status": "unverified; other current account balances and intermediate transfers unavailable",
-    "scene_opening_gp_sp": "668gp 3sp",
-    "scene_recovery_gp_sp": "6gp 8sp",
-    "scene_cost_gp_sp": "1gp 2sp"
+    "total_gp_sp": "545gp 9sp",
+    "provisional_historic_gp_sp": "9gp 1sp 14cp",
+    "office_petty_gp_sp": "6gp 4sp",
+    "allocation_status": "unverified; intervening transactions and current account allocations unavailable",
+    "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
+    "office_status": "separately held house funds; excluded from expedition income and controlled cash"
   },
   "world": {
     "vaeltharion_chains_attached": 0,
     "protective_anchors_retained": 7
   },
-  "status": "ENDED",
-  "source": "archive/session-handoffs/year847-day472-user-handoff.txt",
+  "status": "PAUSED",
+  "source": "archive/session-handoffs/year848-day124-user-handoff.txt",
   "context": {
-    "safety": "Session ENDED after safe First Hour restoration; custody remains guarded, no new action.",
+    "safety": "Paused at North Return House; no deaths or party injuries. Perrin, Dask and lodge supervisor Corven alive and unharmed under Garrick’s nonlethal guard. No punishment, execution or transfer.",
     "companions_present": [
-      "lyanna-ashvale",
       "garrick-vale",
       "nyx-thorne",
       "lyra-moonvale",
+      "lyanna-ashvale",
       "shade",
-      "ember",
-      "caelrix"
+      "ember"
     ],
     "party_roles": {
-      "theron-ashvale": "Eighth Witness; at Hollow",
-      "lyanna-ashvale": "Testimony custody acknowledged at Hollow",
-      "garrick-vale": "Immediate Hollow security with Shade",
-      "nyx-thorne": "Independent expedition scout; exact station unverified",
-      "lyra-moonvale": "Independent healer; latest recorded MP178/190",
-      "tomas": "Autonomous estate operations and weekly reporting"
+      "theron-ashvale": "Eighth Witness; at North Return House",
+      "garrick-vale": "Nonlethal guard of Perrin, Dask and lodge supervisor Corven",
+      "nyx-thorne": "Independent expedition scout; exact station unspecified",
+      "lyra-moonvale": "Independent healer; observed supervised assimilation trials; current MP not supplied",
+      "lyanna-ashvale": "Separately recognized custodial standing for limited eastern receiving-chamber review",
+      "tomas": "Independent Ashvale Estate finances and departments"
     },
     "projects": {
       "nexus_mana": "156/180; finite independent staff mana",
@@ -61,8 +58,8 @@
       "chronos_eye": "approximately19%, LOCKED",
       "dragon_slayer": "LOCKED BY PLAYER CHOICE",
       "accord": "Peaceful recognition and limited communication only",
-      "custody": "Malrec/Caldra at Hollow; Edran/Sera/Corvin Hale at wagon camp; no transfer",
-      "guardian_channels": "Other channels damaged; original protections preserved"
+      "custody": "Three current expedition detainees at North Return House; older Day472 prisoners’ current whereabouts/dispositions unverified, no inferred transfers",
+      "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified"
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -72,11 +69,21 @@
       "included_in_party_total": false
     },
     "outstanding_clues": [
-      "See entities/quests/open-quests.md; all other outstanding quests preserved",
-      "Day153 to Day472 intermediate chronology/account allocation unverified"
+      "Seventh Office/Vennick and western aqueduct workshop/Osric are unverified leads, not proven guilt",
+      "Northern Witness Index, anonymous correspondent/watcher identities and Halden Marr fate unresolved",
+      "Day472 to Year848 Day124 chronology, treasury change and old detainee dispositions unverified; see state/open-verifications.md"
     ],
-    "recent_mp_costs": {},
-    "mp_before_recent_casts": null
+    "recent_mp_costs": {
+      "Mental Probe": 13
+    },
+    "mp_before_recent_casts": 375,
+    "recent_mp_recovery": {
+      "ability": "Spirit Mana Assimilation II",
+      "amount": 24,
+      "uninterrupted_minutes": 10,
+      "ambient_source_usable": true,
+      "personal_only": true
+    }
   },
   "resources": {
     "equipped_defense": 49,
@@ -87,5 +94,23 @@
     "wagon_mp_max": 60,
     "chronos_eye_locked": true,
     "dragon_slayer_locked": true
+  },
+  "calendar": {
+    "season": "Suncrest",
+    "day_of_season": 4
+  },
+  "custody": {
+    "detainees": [
+      "perrin",
+      "dask",
+      "corven-north-return-house"
+    ],
+    "guard": "garrick-vale",
+    "free_people": [
+      "sella",
+      "orenic"
+    ],
+    "fatalities": 0,
+    "party_injuries": 0
   }
 }

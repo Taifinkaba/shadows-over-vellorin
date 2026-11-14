@@ -10,6 +10,7 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Lyra Moonvale
@@ -25,3 +26,7 @@ Independent judgment preserved. Maxima are not current pool values. Other curren
 Independent healer; exact Day153 location unverified.
 
 Voluntarily agreed to consolidate personal campaign balance into the Theron-managed party treasury. This transfer is neither income nor expense. Needs and allowances supported from central funds; old personal balances are historical, not extra current cash. Historical Day10 38/38 HP, 80/80 MP is not current numeric status.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Traveled with Seven Bells expedition; observed repeated supervised Assimilation II trials with Raze analysis. Astral Conduit basic sustained operation now certified; other features pending. Prior178/190 is last-recorded historical MP, not a newly verified current pool; no party injuries.

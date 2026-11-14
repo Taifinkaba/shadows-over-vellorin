@@ -7,6 +7,7 @@ source_refs:
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Theron: verified skills
@@ -14,7 +15,7 @@ source_refs:
 Core mastered skills preserved from the Day46 mechanics ledger; later specializations are separate tracks.
 
 ## 2.6 Skill progression
-**Mastered:** Mental Magic 5/5; Advanced Runecrafting 5/5; Independent Dual-Mind 3/3; Spirit Mana Assimilation 5/5; Mana Efficiency 5/5; Guardian Interposition 3/3; Dual-casting 5/5; Sacred Healing Theory 3/3; Mana Siphoning 5/5.
+**Mastered:** Mental Magic 5/5; Advanced Runecrafting 5/5; Independent Dual-Mind 3/3; Spirit Mana Assimilation 5/5 (now extended by mastered Assimilation II; see latest update); Mana Efficiency 5/5; Guardian Interposition 3/3; Dual-casting 5/5; Sacred Healing Theory 3/3; Mana Siphoning 5/5.
 **Locked:** Chronos Eye (theory about19%, still locked), Dragon Slayer; no draconic essence accepted.
 **Progress updates:** `skill | old progress | training/trial | time | MP/materials | roll/DC | new progress | ability unlocked?`.
 
@@ -39,3 +40,7 @@ Preserve all mastered tracks and prior specializations above. Verified dragon tr
 | Dragon Slayer | Deliberately not obtained |
 
 Chronos Eye approximately19% development remains LOCKED. First Hour’s Accord acquired without command or unlimited temporal powers. No narration-based progression or fabricated training dates/costs.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Spirit Mana Assimilation II mastered through repeated supervised dual-mind parallel intake/refinement trials, Raze analyzing and Lyra observing. Standing recovery24 personal MP per uninterrupted10 minutes with usable ambient mana, capped400. Old mastered skills remain; no invented trial costs/dates, retroactive recovery or unlock of Chronos Eye/Dragon Slayer.

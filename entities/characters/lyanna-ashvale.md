@@ -9,6 +9,7 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Lyanna Ashvale
@@ -22,3 +23,7 @@ Independent judgment preserved. Maxima are not current pool values. Other curren
 # Lyanna Ashvale
 
 Theron’s younger sister; previously abducted and rescued; last verified safe at Blackthorn Watch. Independent agency; A-07 case bears her signature but authenticity and circumstances are unproven.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Traveled with Seven Bells expedition; her custodial standing was separately recognized for limited eastern receiving-chamber review. Original Witness records preserved. Latest party checkpoint North Return House; independent choices retained.

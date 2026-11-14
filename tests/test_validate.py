@@ -268,7 +268,7 @@ class RepositoryValidationTests(unittest.TestCase):
 
     def test_checkpoint_schema_rejects_unversioned_and_wrong_version(self):
         original = json.loads((self.root / "state/checkpoint.json").read_text())
-        for value in (None, 1, True, 4):
+        for value in (None, 1, True, 5):
             changed = dict(original)
             if value is None: changed.pop("schema_version")
             else: changed["schema_version"] = value
@@ -342,6 +342,15 @@ class CurrentCheckpointTests(unittest.TestCase):
         for name in ("entities", "archive", "state"):
             shutil.copytree(ROOT / name, self.root / name)
         shutil.copy2(ROOT / "index.json", self.root / "index.json")
+
+        shutil.copy2(ROOT / "archive/checkpoints/year847-day472-1610.json", self.root / "state/checkpoint.json")
+        historical = json.loads((ROOT / "archive/checkpoints/year847-day472-entity-values.json").read_text())
+        for ident, values in historical.items():
+            path = next((self.root / "entities").rglob(ident + ".md"))
+            meta = frontmatter(path)
+            body = path.read_text().split("---", 2)[2]
+            meta["checkpoint_values"] = values
+            path.write_text("---\n" + yaml.safe_dump(meta, sort_keys=False) + "---" + body)
 
     def change(self, edit):
         p = self.root / "state/checkpoint.json"

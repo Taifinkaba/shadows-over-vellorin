@@ -1,3 +1,11 @@
+# Year848 Suncrest4 Day124 — North Return House
+
+- Adopt supplied checkpoint at01:45, PAUSED: HP100/100, MP386/400, staff156/180, wagon60/60, DEF46/49, controlled545gp9sp. Preserve exact payload and prior Day472 checkpoint/structured values.
+- Record confirmed Seven Bells investigation, independent repaired Return Custodian Seven, original third-leaf custody, false-receipt evidence, three unharmed detainees and free cooperating civilians. No invented mastermind, identity, transfer or historical bridge.
+- Master Assimilation II prospectively; reconcile375−13+24=386 without changing prior costs/recoveries. Separate excluded provisional coinage, office cash and untested salvage/evidence; one material register, no duplicate awards.
+- Update affected party/project/quest records, index, README and handoff together. Preserve unresolved old custody/accounting/name identity and public/private governance conflict.
+- Schema4 represents calendar, unallocated segregated funds and verified personal recovery; schema2/3 remain supported with preserved historical regression fixtures.
+
 # Day472 END SESSION canon and narration update
 
 - Archived the exact supplied Day472 checkpoint and preserved Day153 snapshot and structured values.
