@@ -10,6 +10,7 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Nyx Thorne
@@ -25,3 +26,7 @@ Independent judgment preserved. Maxima are not current pool values. Other curren
 Independent rogue/scout; with Theron and Shade at the Day153 woodland checkpoint. Ember’s bonded companion5/5; Ember’s precise current location is unverified.
 
 Voluntarily agreed to consolidate personal campaign balance into the Theron-managed party treasury. This transfer is neither income nor expense. Needs and allowances supported from central funds; old personal balances are historical, not extra current cash. Historical Day10 32/32 HP, 23/120 MP is not current numeric status.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Traveled from Ashvale Estate toward Seven Bells with the expedition; latest party checkpoint North Return House. Independent scout; exact station and current pools unspecified.

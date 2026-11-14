@@ -10,6 +10,7 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Shade
@@ -21,3 +22,7 @@ Gray wolf B+; HP max58, MP max45, DEF24; bond3/5 (supersedes earlier5/5). Accomp
 # Shade
 
 Theron’s bonded gray wolf5/5; with Theron and Nyx at Day153 woodland checkpoint. Guardian Links protective collar/bracelet system has limited tested warning functions; see [Guardian Links](../items/guardian-links.md). No unverified recall, healing or extended-range abilities.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Traveled with Seven Bells expedition; latest party checkpoint North Return House. No new injury, bond progression or exact guard assignment supplied.

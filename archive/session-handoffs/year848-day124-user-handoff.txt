@@ -1,0 +1,249 @@
+# CODEX PR PAYLOAD — Shadows Over Vellorin
+
+Repository: `Taifinkaba/shadows-over-vellorin`
+
+## Objective
+
+Update campaign canon through:
+
+**Year 848, Suncrest 4, Day 124, 1:45 AM — North Return House**
+
+Perform a continuity-preserving update to the repository and create a new pull request.
+
+Do not rewrite unrelated history, overwrite newer repository decisions, or invent events that did not occur.
+
+## Instructions
+
+1. Read `AGENTS.md`, campaign governance instructions, the latest checkpoint, applicable mechanics files, and affected character, location, faction, quest, and inventory records.
+2. Determine the actual latest committed checkpoint. Reconcile the chronological gap with the updates below without duplicating anything already present.
+3. Preserve established character autonomy, finite mana, magic rules, cash ledgers, lore, and original Witness custody protections.
+4. Update or create the smallest appropriate set of entity and state files.
+5. Run the repository's available canon validators and regression checks.
+6. Create a focused branch and pull request; do not directly push to protected main.
+7. Return the PR link, changed-file summary, validation results, and any unresolved continuity conflicts.
+
+## Final checkpoint
+
+- Calendar: Year 848, Suncrest 4, Day 124, 1:45 AM.
+- Location: North Return House, northern Seven Bells region.
+- Theron HP: 100/100.
+- Theron personal MP: 386/400.
+- Sovereign Nexus staff: 156/180.
+- Sovereign Expedition Wagon: 60/60.
+- Defense: 46 base / 49 with Frostguard Bracers.
+- Controlled spendable treasury: 545 gp 9 sp.
+- Provisional historic coinage: approximately 9 gp 1 sp 14 cp, unreconciled and excluded from spendable cash.
+- North Return House office petty cash: 6 gp 4 sp, separately held as house funds, not expedition income.
+- No deaths or party injuries.
+- Three current expedition detainees: Perrin, Dask, Corven.
+- GitHub has not been updated by this conversation.
+
+## New mastered ability — Spirit Mana Assimilation II
+
+Old rule: 12 MP per uninterrupted 20 minutes.
+
+New standing rule: **24 personal MP per uninterrupted 10 minutes**, achieved through parallel intake and refinement using Theron's established dual-mind capabilities.
+
+- Demonstrated in repeated supervised trials with Raze analysis and Lyra observing.
+- Requires uninterrupted concentration and a usable ambient mana source.
+- Personal MP capped at 400.
+- Does not automatically restore staff mana, wagon mana, allied mana, or crystals.
+- No free casting or mana generation by Raze or Aegis.
+- Historical costs and recovery records must not be retroactively altered.
+
+Latest personal mana calculation:
+
+375 MP starting this latest confrontation
+−13 MP Mental Probe on Corven
++24 MP accelerated assimilation over 10 uninterrupted minutes
+= **386/400 MP**.
+
+Earlier in this arc, Theron assimilated from 369 to 400 before using Shadow Mantle (16 MP) and Umbral Murmur (9 MP). These costs were already accounted for in the 375 MP starting point.
+
+## Major events — Seven Bells expedition
+
+### Travel and Waykeeper investigation
+
+- Theron traveled from Ashvale Estate toward Seven Bells with Garrick, Nyx, Lyra, Lyanna, Shade, Ember, and established spirit/construct support.
+- Four horses pulled the existing Sovereign Expedition Wagon. The separate Vanguard Wagon remained under construction.
+- An anonymous Witness letter indicated an eastern independent passage but its sender remains unidentified.
+- Hessa Vale, a Waykeeper repair worker, identified markings associated with a discontinued sealed archive correspondence circuit.
+- Orven Pell permitted examination of public archive indexes at an old Waykeeper records store.
+- Entries described three sealed leaves: two received and the third returned without acknowledgment.
+- A missing page and disputed receiving authority were identified.
+- A strange road traffic marker was documented but never definitively attributed.
+
+### Eastern receiving chamber
+
+- The independent Witness entry was found beneath the eastern Seven Bells foundations.
+- Theron entered as the Eighth Witness.
+- Lyanna's custodial standing was separately recognized for limited review.
+- Original records revealed an unauthenticated Keeper substitute acknowledgment.
+- A corrupted fractured-seventh-seat command fitting contained partial designation `E-R-7`.
+- Temporary isolation was performed earlier, but its ongoing effectiveness is unverified.
+- The E-R-7 fitting remains installed.
+- Original Witness records were preserved.
+
+### Return Custodian Seven
+
+- An ancient bronze-and-stone guardian, originally Custodian of Returned Testimony, was found damaged.
+- Its foreign violet Keeper command was isolated and mechanically removed with its willing cooperation.
+- The guardian's original recognition and record-preservation instructions resumed.
+- An original spare knee brace was found and successfully installed.
+- The guardian can walk and maintains its independent archival duties.
+- It is NOT Theron's property, servant, summoned construct or automatically recruited companion.
+- The removed hostile fitting marked `VII / R` is separately contained as dangerous evidence.
+- Its full integrity and possible hidden instructions have not been certified.
+
+### Northern Depository
+
+- The Seventh Underpass was accessed using the historical silver return key.
+- The original **third sealed leaf** was located inside a protected enclosure and reviewed.
+- The document explicitly refused Keeper custody without separate, freely given independent Witness acknowledgment.
+- The signature is damaged, ending approximately `...ven`.
+- The original leaf remains in its protected enclosure; an exact transcription was made.
+- Northern Witness Index is referenced but not yet found.
+- A black-metal counterfeit command plate was removed from a concealed chamber, isolated and preserved.
+- Residual magic discharged against Theron's Rune Barrier without injury.
+- An ancient bronze tapping mechanism produced the three-and-one rhythm.
+- Halden Marr's identification plate and probable notes were found; his survival and final location remain unconfirmed.
+- A hidden northern watercourse led toward the surface.
+- An unidentified hooded watcher later signaled three-and-one and left a map toward North Return House.
+- The watcher remains unidentified and free.
+
+### North Return House
+
+- Historically a Waykeeper document-transfer lodge near a broken northern bridge and fallen bell tower.
+- The party confirmed current occupancy and received evidence of false-receipt concealment.
+- Blackscale used Shadow Mantle and Umbral Murmur to intimidate rear guards without attacking them.
+- Perrin and Dask cooperatively surrendered and were secured unharmed.
+- Corven, the lodge supervisor, was confronted and surrendered. Theron cast one Mental Probe at 13 MP.
+- Limited surface thoughts concerned the cellar ledger, blue case, western workshop's lack of response, and a duplicate Corven retained.
+- The mental connection ended when resisted; no deeper memories extracted or altered.
+- Corven identified the blue case behind the southern cellar shelf.
+- Blue case recovered: duplicate delivery ledger, unsigned receipt template, and an Acting Receiver instruction to withhold substitute receipts and delay independent inspection.
+- A WA-17 crate contained an empty silver fitting housing with violet residue.
+- Ordinary inventory recorded silver fittings, seal housings, and receiving-office duplicates.
+- Sella, clerk, cooperated voluntarily and remains free.
+- Orenic, stable worker, remains free; no established involvement.
+- No additional prisoners found in the inspected cellar.
+- Garrick holds Perrin, Dask, Corven under nonlethal guard at the latest checkpoint.
+- Detainees are alive and unharmed; no punishment, execution or transfer has occurred.
+
+## Current leads
+
+1. **Seventh Office:** receiving rooms west of Seventh Bell's lower foundations, near covered stairs below fallen aqueduct. A clerk named Vennick allegedly handles messages from the unknown Acting Receiver. His identity and involvement are not independently verified.
+2. **Western Aqueduct workshop:** alleged fitting workshop beneath the broken waterwheel and western aqueduct span. A fitter named Osric reportedly handled ward housings. Latest delivery was returned without acknowledgment; workshop stopped responding approximately three days before Corven's questioning.
+3. **North Return House:** established suspect transfer site. Corven's exact responsibility for creating the counterfeit documents remains uncertain.
+4. **E-R-7 fractured-seat fitting:** still installed and not permanently neutralized.
+5. **Northern Witness Index:** referenced, still unrecovered.
+6. **Anonymous Witness correspondent and hooded watcher:** identities unconfirmed.
+7. **Halden Marr:** fate unresolved.
+
+Treat the evidence as establishing a plausible organized counter-command network, not as proving the unknown mastermind's identity.
+
+## Salvage and financial segregation
+
+Previously recovered provisional materials include:
+
+- 2 silver-inlaid rune chisels.
+- 3 clear crystals.
+- 2 dark lens blanks.
+- 5 brass lantern components.
+- 1 leather sealing bundle.
+- 3 mechanical release springs.
+- 2 likely amethyst gemstones.
+- 4 silver ward clasps.
+- 3 bronze rune plates.
+- 2 crystal lamp housings.
+- 1 small brass key.
+- 2 silver crystal-binding rings.
+- 1 dark-purple mineral shard.
+- 1 black-metal faceplate blank.
+- 3 violet crystal shards.
+- 2 silver wire coils.
+- 2 crystal mounting sockets.
+- 4 brass precision hinges.
+- 2 black-metal reinforcement strips.
+- 4 silver mounting brackets.
+- 6 precision fastening pins.
+- 1 corroded fastener.
+- 1 contaminated violet sliver, isolated.
+- 2 silver rune-setting needles.
+- 1 incomplete iron tool roll.
+- 1 brass lantern reflector.
+- 2 additional brass lantern frames.
+- 3 worn copper hinge fittings.
+- 1 silver-inlaid latch.
+
+New North Return House cellar items in provisional custody:
+
+- 2 rejected silver rune housings.
+- 3 black-metal reinforcement bands.
+- 4 empty crystal sockets.
+- 1 dull purple crystal.
+
+Additional distinct protected evidence includes the original archives, copied receiving indexes, returned-leaf transcription, Halden notes and identification plate, Waykeeper scroll-case documents, route tally, false-receipt instructions, blue case, WA-17 housing, and captured counterfeit command components.
+
+Do NOT add provisional coinage to 545 gp 9 sp controlled spendable cash.
+
+Do NOT classify office petty cash as loot or party income.
+
+Do NOT certify materials for crafting merely because they look useful.
+
+Do NOT duplicate objects when creating consolidated inventory records.
+
+Unverified ownership or custody of salvaged objects should remain flagged.
+
+## Night Sovereign project
+
+- Secret legendary dragon-themed mask, blueprint progress **1/5**.
+- Full staged estimate approximately **687 gp** before possible rare-material costs.
+- No mask purchases, construction, or certification completed in this expedition.
+- Several recovered gemstones, crystals, lens blanks, metal fittings and faceplate components are untested candidates only.
+- Theron's intact owned dragon scale remains reserved and unused.
+- Vaeltharion's voluntary shed-scale request is pending; no reply has been received.
+- Existing Dragonveil mask was used for Blackscale's intimidation. Night Sovereign has not been built.
+
+## Independent background activities
+
+Retain prior verified statuses without inventing results:
+
+- Aric researching the twin Eclipse Sovereigns' smith and dragon-scale origins.
+- Eclipse Sovereigns regulator refinement pending.
+- Vanguard Wagon suspension correction pending.
+- Tomas managing Ashvale Estate finances and departments.
+- Beren managing the independent Dragon Slayer Initiative Academy.
+- DSI Guild preliminary assessment opportunity offered, not completed.
+- Astral Conduit basic sustained operation certified; other features pending.
+- Vaeltharion remains a free, independent dragon and academy cofounder.
+
+## Next session
+
+Begin at **Year 848 Suncrest 4 Day 124, 1:45 AM, North Return House**.
+
+Three prisoners are secured, with Sella and Orenic free.
+
+Primary decisions available:
+- secure prisoners and records, rest;
+- investigate the western aqueduct workshop;
+- investigate the Seventh Office and Vennick;
+- question Corven further;
+- reconcile salvage and establish a safe transport plan;
+- combine these priorities as Theron chooses.
+
+Do not advance time, spend resources, transfer prisoners, or create remote project results before the next player action.
+
+## PR acceptance criteria
+
+- Every chronological change is reflected in the relevant entity/state record.
+- Checkpoint HP, MP, staff, wagon and cash exactly match this payload.
+- Spirit Mana Assimilation II is recorded without retroactive resource modification.
+- Three detainees, zero fatalities.
+- Salvage, office cash and controlled treasury remain separate.
+- The original third leaf stays protected in the Northern Depository.
+- Return Custodian Seven remains independent and mobile.
+- Future mysteries remain unresolved unless already established in repository canon.
+- Repository validation and regression tests pass, or failures are explicitly reported.
+
+Create the pull request and return its URL and summary. Do not claim a merge or successful validation unless actually performed.

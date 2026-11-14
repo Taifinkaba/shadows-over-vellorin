@@ -1066,6 +1066,114 @@
       "tags": [
         "day472"
       ]
+    },
+    {
+      "id": "perrin",
+      "type": "characters",
+      "title": "Perrin",
+      "path": "entities/characters/perrin.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "dask",
+      "type": "characters",
+      "title": "Dask",
+      "path": "entities/characters/dask.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "corven-north-return-house",
+      "type": "characters",
+      "title": "Corven — North Return House supervisor",
+      "path": "entities/characters/corven-north-return-house.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "sella",
+      "type": "characters",
+      "title": "Sella",
+      "path": "entities/characters/sella.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "orenic",
+      "type": "characters",
+      "title": "Orenic",
+      "path": "entities/characters/orenic.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "return-custodian-seven",
+      "type": "characters",
+      "title": "Return Custodian Seven",
+      "path": "entities/characters/return-custodian-seven.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "north-return-house",
+      "type": "locations",
+      "title": "North Return House",
+      "path": "entities/locations/north-return-house.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "seven-bells-investigation",
+      "type": "quests",
+      "title": "Seven Bells receiving and counter-command investigation",
+      "path": "entities/quests/seven-bells-investigation.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
+    },
+    {
+      "id": "seven-bells-inventory",
+      "type": "mechanics",
+      "title": "Seven Bells provisional inventory and protected evidence",
+      "path": "entities/mechanics/seven-bells-inventory.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "seven-bells",
+        "day124"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

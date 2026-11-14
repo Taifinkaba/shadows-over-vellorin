@@ -38,6 +38,7 @@ REQUIRED = {"id", "type", "status", "visibility", "source_refs"}
 ID = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 MONEY_FIELDS = {"central_gp_sp", "emergency_gp_sp", "reserve_gp_sp", "operating_gp_sp", "development_gp_sp", "total_gp_sp"}
 MONEY_FIELDS_V3 = {"total_gp_sp", "blackscale_private_gp_sp", "expedition_gp_sp", "excluded_lyanna_gp_sp", "scene_opening_gp_sp", "scene_recovery_gp_sp", "scene_cost_gp_sp"}
+MONEY_FIELDS_V4 = {"total_gp_sp", "provisional_historic_gp_sp", "office_petty_gp_sp"}
 RESOURCES = {"equipped_defense", "bracers_defense_bonus", "staff_mp", "staff_mp_max", "wagon_mp", "wagon_mp_max", "chronos_eye_locked", "dragon_slayer_locked"}
 STATS = {"hp", "hp_max", "mp", "mp_max", "defense", "rank", "level", "str", "dex", "con", "int", "wis", "cha", "unspent_attributes"}
 WORLD = {"vaeltharion_chains_attached", "protective_anchors_retained"}
@@ -140,9 +141,11 @@ def copper(value, label="currency"):
 
 def validate_state(state):
     version = state.get("schema_version")
+    v4 = type(version) is int and version == 4
+    modern = type(version) is int and version in {3, 4}
     v3 = type(version) is int and version == 3
-    keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"} | ({"resources"} if v3 else set()), "checkpoint")
-    require(type(state["schema_version"]) is int and state["schema_version"] in {2, 3}, "checkpoint: unsupported schema_version")
+    keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"} | ({"resources"} if modern else set()) | ({"calendar", "custody"} if v4 else set()), "checkpoint")
+    require(type(state["schema_version"]) is int and state["schema_version"] in {2, 3, 4}, "checkpoint: unsupported schema_version")
     for field in ("date", "time", "location", "status", "source"):
         string(state[field], f"checkpoint.{field}")
     require(re.fullmatch(r"Year \d+ Day \d+", state["date"]) is not None, "checkpoint: invalid date")
@@ -155,16 +158,20 @@ def validate_state(state):
     string(stats["rank"], "checkpoint.theron.rank")
     require(stats["hp"] <= stats["hp_max"], "checkpoint: HP exceeds maximum")
     require(stats["mp"] <= stats["mp_max"], "checkpoint: MP exceeds maximum")
-    money_fields = MONEY_FIELDS_V3 if v3 else MONEY_FIELDS
-    keys(state["money"], money_fields | ({"allocation_status"} if v3 else set()), "checkpoint.money")
+    money_fields = MONEY_FIELDS_V4 if v4 else MONEY_FIELDS_V3 if v3 else MONEY_FIELDS
+    keys(state["money"], money_fields | ({"allocation_status"} if modern else set()) | ({"provisional_status", "office_status"} if v4 else set()), "checkpoint.money")
     balances = {k: copper(state["money"][k], f"checkpoint.money.{k}") for k in money_fields}
-    if v3:
+    if modern:
         string(state["money"]["allocation_status"], "money.allocation_status")
         require(state["money"]["allocation_status"].startswith("unverified"), "money: allocation must remain explicitly unverified")
-        require(balances["blackscale_private_gp_sp"] + balances["expedition_gp_sp"] <= balances["total_gp_sp"],
-                "checkpoint: verified components exceed controlled cash")
-        require(balances["scene_opening_gp_sp"] + balances["scene_recovery_gp_sp"] - balances["scene_cost_gp_sp"] == balances["total_gp_sp"],
-                "checkpoint: currency total differs from final scene reconciliation")
+        if v3:
+            require(balances["blackscale_private_gp_sp"] + balances["expedition_gp_sp"] <= balances["total_gp_sp"],
+                    "checkpoint: verified components exceed controlled cash")
+            require(balances["scene_opening_gp_sp"] + balances["scene_recovery_gp_sp"] - balances["scene_cost_gp_sp"] == balances["total_gp_sp"],
+                    "checkpoint: currency total differs from final scene reconciliation")
+        else:
+            for field in ("provisional_status", "office_status"):
+                string(state["money"][field], f"money.{field}")
         resources = state["resources"]
         keys(resources, RESOURCES, "checkpoint.resources")
         for field in RESOURCES - {"chronos_eye_locked", "dragon_slayer_locked"}:
@@ -183,7 +190,7 @@ def validate_state(state):
         integer(value, f"checkpoint.world.{field}")
     # Chains and anchors are separate facts, compared with the entity below.
     context = state["context"]
-    keys(context, {"safety", "companions_present", "party_roles", "projects", "academy", "outstanding_clues", "recent_mp_costs", "mp_before_recent_casts"}, "checkpoint.context")
+    keys(context, {"safety", "companions_present", "party_roles", "projects", "academy", "outstanding_clues", "recent_mp_costs", "mp_before_recent_casts"} | ({"recent_mp_recovery"} if v4 else set()), "checkpoint.context")
     string(context["safety"], "context.safety")
     for field in ("companions_present", "outstanding_clues"):
         require(isinstance(context[field], list) and bool(context[field]), f"context.{field}: expected a nonempty list")
@@ -201,6 +208,22 @@ def validate_state(state):
     for key in ("latest_reported_cash_gp_sp", "refundable_lease_deposit_gp_sp"):
         copper(academy[key], f"academy.{key}")
     require(academy["included_in_party_total"] is False, "academy funds must remain separate")
+    if v4:
+        calendar = state["calendar"]
+        keys(calendar, {"season", "day_of_season"}, "checkpoint.calendar")
+        string(calendar["season"], "calendar.season")
+        integer(calendar["day_of_season"], "calendar.day_of_season", 1)
+        custody = state["custody"]
+        keys(custody, {"detainees", "guard", "free_people", "fatalities", "party_injuries"}, "checkpoint.custody")
+        for field in ("detainees", "free_people"):
+            require(isinstance(custody[field], list) and bool(custody[field]), f"custody.{field}: expected entries")
+            for ident in custody[field]:
+                string(ident, f"custody.{field}")
+            require(len(custody[field]) == len(set(custody[field])), f"custody.{field}: duplicate person")
+        string(custody["guard"], "custody.guard")
+        require(not set(custody["detainees"]) & set(custody["free_people"]), "custody: free people cannot be detainees")
+        for field in ("fatalities", "party_injuries"):
+            integer(custody[field], f"custody.{field}")
     costs = mapping(context["recent_mp_costs"], "context.recent_mp_costs")
     if v3:
         require(not costs and context["mp_before_recent_casts"] is None,
@@ -211,7 +234,21 @@ def validate_state(state):
         string(spell, "spell name"); integer(cost, f"spell cost: {spell}")
     integer(context["mp_before_recent_casts"], "context.mp_before_recent_casts")
     require(context["mp_before_recent_casts"] <= stats["mp_max"], "recent starting MP exceeds maximum")
-    require(context["mp_before_recent_casts"] - sum(costs.values()) == stats["mp"], "recent MP expenditure does not match checkpoint")
+    recovery_amount = 0
+    if v4:
+        recovery = context["recent_mp_recovery"]
+        keys(recovery, {"ability", "amount", "uninterrupted_minutes", "ambient_source_usable", "personal_only"}, "context.recent_mp_recovery")
+        require(recovery["ability"] == "Spirit Mana Assimilation II", "recovery: unverified ability")
+        integer(recovery["amount"], "recovery.amount")
+        integer(recovery["uninterrupted_minutes"], "recovery.uninterrupted_minutes", 10)
+        require(recovery["uninterrupted_minutes"] % 10 == 0, "recovery: incomplete uninterrupted interval")
+        require(recovery["ambient_source_usable"] is True and recovery["personal_only"] is True,
+                "recovery: usable ambient source and personal-only restoration required")
+        require(recovery["amount"] == 24 * (recovery["uninterrupted_minutes"] // 10), "recovery: incorrect Assimilation II rate")
+        recovery_amount = recovery["amount"]
+    after_costs = context["mp_before_recent_casts"] - sum(costs.values())
+    require(after_costs >= 0, "recent MP expenditure exceeds starting pool")
+    require(min(stats["mp_max"], after_costs + recovery_amount) == stats["mp"], "recent MP expenditure/recovery does not match checkpoint")
 
 
 def validate(root):
@@ -271,6 +308,10 @@ def validate(root):
     for ident in state["context"]["companions_present"] + list(state["context"]["party_roles"]):
         require(ident in records, f"context: unknown companion/role entity {ident}")
     require(state["context"]["academy"]["entity"] in records, "context: missing academy entity")
+    if state["schema_version"] == 4:
+        custody = state["custody"]
+        for ident in custody["detainees"] + custody["free_people"] + [custody["guard"]]:
+            require(ident in records and records[ident]["type"] == "characters", f"custody: unknown character {ident}")
     flat = {}
     for key, value in state.items():
         if isinstance(value, dict):
@@ -278,8 +319,9 @@ def validate(root):
         elif key != "source":
             flat[key] = value
     owners = {k: set(v) for k, v in OWNERS.items()}
-    if state["schema_version"] == 3:
-        owners["party-finances"] = {f"money.{k}" for k in MONEY_FIELDS_V3}
+    if state["schema_version"] in {3, 4}:
+        money_fields = MONEY_FIELDS_V4 if state["schema_version"] == 4 else MONEY_FIELDS_V3
+        owners["party-finances"] = {f"money.{k}" for k in money_fields}
         owners["theron-ashvale"] |= {f"resources.{k}" for k in RESOURCES}
     for entity_id, expected in owners.items():
         require(entity_id in records, f"missing authoritative snapshot entity: {entity_id}")

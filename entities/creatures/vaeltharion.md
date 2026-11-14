@@ -13,6 +13,7 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Vaeltharion
@@ -24,3 +25,7 @@ Dragon Master and cofounder of the [Dragon Slayer Academy/Initiative](../faction
 ## Authoritative update — Year 847 Day 472, 16:10, session ENDED
 
 Independent dragon, free and consenting research participant; not a servant. Dragon collar prototype3/5 remains unattached. Academy founding phase continues. Earlier zero coercive chains/seven retained protective anchors remain last verified; do not confuse Aeloryn’s dissolved restraints with Vaeltharion’s anchors.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Voluntary shed-scale request pending, no reply received. Remains free, independent academy cofounder. No new gift, essence acceptance or remote result; zero coercive chains/seven anchors retained as last verified.

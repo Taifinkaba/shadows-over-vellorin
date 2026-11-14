@@ -9,6 +9,7 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
 
 # Vaeltharion’s scale stock
@@ -18,3 +19,7 @@ In cavern: 40 unused mature scales, 122 fragments, 7 elder scales, plus 1 experi
 ## Authoritative update — Year 847 Day 472, 16:10, session ENDED
 
 Theron has **one intact shed Vaeltharion dragon scale** after Frostguard Bracers forging. Earlier three carried scales are a historical holding, not three additional current scales. Cavern stock figures above are last-verified historical counts; no new stocktake or consumption history supplied.
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Theron’s one intact owned scale is reserved and unused for Night Sovereign; no scale expenditure. Voluntary request to Vaeltharion pending without reply. No new stocktake.

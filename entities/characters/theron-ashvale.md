@@ -4,13 +4,13 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 847 Day 472
-  time: '16:10'
-  location: Hollow of the First Hour
-  status: ENDED
+  date: Year 848 Day 124
+  time: 01:45
+  location: North Return House
+  status: PAUSED
   theron.hp: 100
   theron.hp_max: 100
-  theron.mp: 312
+  theron.mp: 386
   theron.mp_max: 400
   theron.defense: 46
   theron.rank: S+
@@ -37,7 +37,14 @@ source_refs:
 - archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Update — Year 848 Suncrest 4 Day 124, 01:45
+
+Current checkpoint supersedes earlier snapshots: Year848 Suncrest4 Day124 01:45, North Return House, PAUSED. HP100/100, personal MP386/400; base DEF46/equipped49, staff156/180, wagon60/60. Controlled spendable cash545gp9sp; excluded funds in the finance record. Mastered Spirit Mana Assimilation II: 24 personal MP per uninterrupted10 minutes with usable ambient mana, capped400. Latest375−13 Mental Probe+24 recovery=386. Earlier369→400 assimilation, Shadow Mantle16 and Umbral Murmur9 are already reflected in375; do not deduct again. Existing Dragonveil Mask used for Blackscale intimidation; Night Sovereign remains blueprint1/5, unbuilt. No deaths or party injuries. Latest state replaces Hollow location; older outcomes remain history.
+
+## Historical record through Year847 Day472 (superseded snapshot)
 
 # Theron Ashvale / Blackscale
 

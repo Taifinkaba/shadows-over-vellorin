@@ -8,15 +8,28 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- archive/session-handoffs/year848-day124-user-handoff.txt
 checkpoint_values:
-  money.total_gp_sp: 673gp 9sp
-  money.blackscale_private_gp_sp: 112gp
-  money.expedition_gp_sp: 9gp 1sp
-  money.excluded_lyanna_gp_sp: 12gp 6sp
-  money.scene_opening_gp_sp: 668gp 3sp
-  money.scene_recovery_gp_sp: 6gp 8sp
-  money.scene_cost_gp_sp: 1gp 2sp
+  money.total_gp_sp: 545gp 9sp
+  money.provisional_historic_gp_sp: 9gp 1sp 14cp
+  money.office_petty_gp_sp: 6gp 4sp
 ---
+
+# Party finances and custody boundaries
+
+**Year848 Suncrest4 Day124 01:45: controlled spendable treasury545gp9sp.** Current account allocations and intervening transactions from Day472’s673gp9sp are unverified; do not invent a128gp expense or balancing transfer.
+
+| Separate holding | Amount | Treatment |
+|---|---|---|
+| Provisional historic coinage | approximately9gp1sp14cp | Unreconciled; excluded from controlled spendable cash |
+| North Return House office petty cash | 6gp4sp | Separately held house funds; not loot or expedition income |
+
+Earlier Blackscale112gp, expedition9gp1sp and Lyanna12gp6sp are historical account reports, not newly certified current balances. In particular the provisional historic9gp1sp14cp is not equated with the old expedition reserve. No double counting, invented income, sale or ownership clearance. Academy funds and refundable deposit remain independent. Noncash salvage/evidence are recorded once in [Seven Bells custody inventory](seven-bells-inventory.md).
+
+Historical finance record and exact structured values remain in `archive/checkpoints/year847-day472-1610.json` and `archive/checkpoints/year847-day472-entity-values.json`; Day472 opening668gp3sp+6gp8sp−1gp2sp=673gp9sp remains unchanged historical arithmetic. Day153 consolidated555gp accounts, former personal balances, historical custody38gp2sp, merchant goods and noncash Rellan fittings remain historical with their ownership exclusions; no re-award. Original source references remain evidence.
+
+## Historical record through Year847 Day472 (not current balances)
+
 
 # Party finances and custody boundaries
 

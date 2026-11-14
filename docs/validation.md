@@ -50,3 +50,14 @@ Schema3 retains date/time/location, Theron base stats, world counts, source and 
 - Theron owns schema2 Theron/date/time/location/status fields plus every `resources.*` value. Party-finances owns every schema3 monetary currency field. Vaeltharion retains the two last-verified world counts; Aeloryn's restraint release does not change them.
 
 Day153 mutation tests load the unchanged archived snapshot and saved historical entity values; separate current-checkpoint tests cover schema3 partial allocations, excluded cash, finite pools, locks, defense separation, missing mana history and entity agreement. Unknown chronology and exact spell repricing remain human-review limits, not fabricated data.
+
+## Current checkpoint schema4 — Year848 Suncrest4 Day124
+
+Schema4 preserves schema2/3 validation for archived checkpoints and structured owner fixtures. The current session is `PAUSED`; `date` remains `Year 848 Day 124` with `calendar.season`/`day_of_season` recording Suncrest4, without assuming a year length or inventing dates across the gap.
+
+- Resources and Theron/world structured ownership retain schema3 rules.
+- Money has `total_gp_sp`, `provisional_historic_gp_sp`, `office_petty_gp_sp`, plus nonempty `allocation_status`, `provisional_status` and `office_status`. Party-finances owns the three currency values. Total is controlled spendable only; provisional approximately9gp1sp14cp and house6gp4sp are excluded, never summed into total. Unknown transactions/account allocations remain explicit; no invented opening/cost fields to force a reconciliation. Exact copper conversion preserves the supplied unnormalized14cp denomination while the text retains its approximate status.
+- `context.recent_mp_recovery` records ability, amount, uninterrupted minutes, usable ambient source and personal-only scope. Assimilation II requires24MP per complete uninterrupted10 minutes; reject partial intervals, missing source or other-pool recovery. Latest starting375 minus Mental Probe13 plus24 equals386, capped at personal maximum400. No inference about earlier unspecified expenditure logs or concentration overlap.
+- `custody` records unique character IDs for current detainees/free people, guard, fatalities and party injuries. References must resolve; free people cannot simultaneously be detained. Regression checks pin this supplied snapshot to three detainees, Sella/Orenic free and zero deaths/injuries. Older custody is historical, not a current location assertion.
+
+Validators do not infer guilt, prove same-name identities, certify recovered materials, verify arbitrary status prose, or fill missing historical events. New regression cases exercise mana recovery prerequisites/arithmetic/cap, segregated money, finite pools, custody references and current exact snapshot. Historical schema2/3 regression suites use their preserved checkpoints and structured entity values.

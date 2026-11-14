@@ -1,3 +1,17 @@
+# Current verification queue — Year848 Suncrest4 Day124 01:45
+
+- Latest prior committed checkpoint:46a5706, Year847 Day472 16:10 Hollow of the First Hour. Full intervening chronology, travel/training sequence and transactions absent. New supplied outcomes supersede snapshots only where explicit; no invented bridge.
+- Controlled545gp9sp vs prior673gp9sp:128gp arithmetic difference is not a verified expense. Old112gp/9gp1sp/12gp6sp account reports are not current allocations. Historic approximately9gp1sp14cp excluded/unreconciled; office6gp4sp remains house funds.
+- Latest375−13+24=386 personal MP verified; earlier369→400, Shadow Mantle16/Umbral Murmur9 already included in375. No retroactive recovery; other expedition costs/timing unverified. Staff156/180/wagon60/60 unchanged.
+- Three current expedition detainees only; five Day472 detainees’ later dispositions/current whereabouts unknown, no invented release/transfer/death. Lodge supervisor Corven’s identity with older `corven` unverified; distinct records pending evidence.
+- E-R-7 installed, temporary isolation effectiveness unknown. VII/R integrity/hidden commands uncertified. Northern Witness Index absent; signature ...ven unidentified. Halden survival/location, watcher/correspondent identities and link, traffic marker attribution unresolved.
+- Vennick/Osric/Acting Receiver allegations unverified; network plausible, mastermind unknown. Corven authorship uncertain, no deep memory extraction.
+- Consolidated salvage custody/title and relation to older Hollow goods unverified; no duplicate batch, sale or crafting certification. Original third leaf remains in protected enclosure.
+- Horse identities, wagon historical equivalence, older creature/companion pool gaps remain unresolved. No invented remote project result. Vaeltharion scale request unanswered.
+- Repository remains public although governance requests privacy; existing visibility conflict retained, no settings change or GM-secret expansion in this PR.
+
+## Historical verification queues (not current snapshot assertions)
+
 # Current verification queue — Day472 session end
 
 Day472 [source](../archive/session-handoffs/year847-day472-user-handoff.txt) supersedes the historical queue below where explicit. Unknowns remain unverified, without invented scenes.
