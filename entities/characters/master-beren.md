@@ -27,3 +27,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Faded navy scholar's robe over practical layers, patched elbows, sturdy shoes; chalk and notes pouch.
 - **Personality, mannerisms and speech:** Deliberate, attentive, dry humor. Pauses before answering, folds hands behind back, explains with ordinary objects.
 - **Historical gaps and boundaries:** Surname, qualifications, specialty, lineage and actual magical capabilities. Title establishes none of these.
+
+
+## Character portrait
+
+![Master Beren — approved character reference portrait](../../artwork/character-references/master-beren.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Plain travel-worn gray robe, simple shoes; no invented religious emblem or order insignia.
 - **Personality, mannerisms and speech:** Formal, restrained. Folds hands, chooses words carefully, measured speaking rhythm under pressure.
 - **Historical gaps and boundaries:** Meaning of Brother, affiliation, detention grounds, testimony and later disposition.
+
+
+## Character portrait
+
+![Brother Edran Vell — approved character reference portrait](../../artwork/character-references/edran-vell.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

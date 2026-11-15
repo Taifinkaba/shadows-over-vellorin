@@ -23,3 +23,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Comfortable forest-green and cream layers, embroidered cuffs, practical shawl, small herb pouch; no unestablished holy insignia.
 - **Personality, mannerisms and speech:** Warm, steady, perceptive. Gives people time to speak, careful movement around pain; unusually precise wording when displeased.
 - **Historical gaps and boundaries:** Name, chronological age, ancestry details, training, exact healing capabilities and history. Elven appearance is approved design, not recovered maternal genealogy.
+
+
+## Character portrait
+
+![Theron's mother — approved character reference portrait](../../artwork/character-references/therons-mother.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

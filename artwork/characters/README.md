@@ -22,6 +22,8 @@ Sources: [aric-ashvale](../../entities/characters/aric-ashvale.md)
 
 ## Theron’s Mother
 
+[Latest portrait based on the approved character design](../character-references/therons-mother.png) · [Character sheet](../../entities/characters/therons-mother.md). The image below remains the earlier artistic interpretation.
+
 Theron’s unnamed mother, rare sacred healer. Name remains unknown; appearance and depiction of healing are interpreted. The current Aric record supersedes older uncertainty about her whereabouts.
 
 ![Theron’s Mother artwork](therons-mother.png)

@@ -1,5 +1,7 @@
 # Campaign artwork gallery
 
+[26 approved character reference portraits](character-references/README.md), each linked to its individual character sheet.
+
 [Original party cards](player-cards/README.md) · [Family and Tomas](characters/README.md) · [Animal companions](companions/README.md) · [Dragons](dragons/README.md) · [Places](places/README.md)
 
 This collection contains AI-generated artistic interpretations based on the linked campaign records. Unspecified faces, family resemblance, ancestry details, clothing, animal markings, building layouts, furnishings and symbols are visual proposals, not additions to canon. Portrait backgrounds do not establish new travel, custody, whereabouts or events. No campaign state is advanced.

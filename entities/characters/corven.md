@@ -30,3 +30,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Restrained charcoal clothing, high-collared wool coat, worn gloves; no confirmed faction emblem.
 - **Personality, mannerisms and speech:** Controlled, watchful, spare expression. Turns whole head toward speaker; allows silence before replying.
 - **Historical gaps and boundaries:** Later whereabouts, exact activities and identity relative to North Return House Corven. Visual distinction does not resolve identity.
+
+
+## Character portrait
+
+![Corven — original adversary — approved character reference portrait](../../artwork/character-references/corven.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

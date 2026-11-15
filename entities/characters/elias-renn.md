@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Carefully mended charcoal tunic, plain trousers, secondhand blue-gray cloak. Ink-stained fingers and battered notebook.
 - **Personality, mannerisms and speech:** Earnest, observant, slightly self-conscious about adult learning. Leans forward during explanations, writes margin questions, rehearses unfamiliar terms under his breath.
 - **Historical gaps and boundaries:** Previous occupation, magical aptitude and reason for joining.
+
+
+## Character portrait
+
+![Elias Renn — approved character reference portrait](../../artwork/character-references/elias-renn.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

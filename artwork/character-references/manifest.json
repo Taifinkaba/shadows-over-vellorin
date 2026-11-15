@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "description": "Original generated portraits paired with approved character sheets; no gameplay advancement.",
+  "design_source": "changes/chronicles/character-reference-design-approval.md",
+  "portraits": [
+    {
+      "entity_id": "bren",
+      "name": "Bren",
+      "entity_path": "entities/characters/bren.md",
+      "image_path": "artwork/character-references/bren.png",
+      "generation_batch": 1,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2783960,
+      "sha256": "171a9273e50c82fe70520e573e86fe7d9d68d116183dcd80cc0ba86fca9ac870"
+    },
+    {
+      "entity_id": "elias-renn",
+      "name": "Elias Renn",
+      "entity_path": "entities/characters/elias-renn.md",
+      "image_path": "artwork/character-references/elias-renn.png",
+      "generation_batch": 1,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2750844,
+      "sha256": "3945f38270e311a306e8b41881e8656b64e90d73dfb468636bdea245b14edeaf"
+    },
+    {
+      "entity_id": "mira-thorne",
+      "name": "Mira Thorne",
+      "entity_path": "entities/characters/mira-thorne.md",
+      "image_path": "artwork/character-references/mira-thorne.png",
+      "generation_batch": 1,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2638040,
+      "sha256": "ecd66127ad6109d09ea82180c9385c4eb5cb52e37367af43594d5ed79f316824"
+    },
+    {
+      "entity_id": "maera",
+      "name": "Maera",
+      "entity_path": "entities/characters/maera.md",
+      "image_path": "artwork/character-references/maera.png",
+      "generation_batch": 1,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2694784,
+      "sha256": "3e37b41f179e4f262f32cd323c814ed56e90acf65dbc779a99018d975c3e7f20"
+    },
+    {
+      "entity_id": "master-beren",
+      "name": "Master Beren",
+      "entity_path": "entities/characters/master-beren.md",
+      "image_path": "artwork/character-references/master-beren.png",
+      "generation_batch": 1,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2671350,
+      "sha256": "ef916795c6f070cccfe541bec95eee1adce6275e2e7b1d02e07e09ea5a19f29e"
+    },
+    {
+      "entity_id": "mira-lodge-helper",
+      "name": "Mira \u2014 lodge helper",
+      "entity_path": "entities/characters/mira-lodge-helper.md",
+      "image_path": "artwork/character-references/mira-lodge-helper.png",
+      "generation_batch": 2,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2781808,
+      "sha256": "7ef6309b11f80bc7b7c946bf4b236e4fd327456f93efa38fbb0512faec5a0911"
+    },
+    {
+      "entity_id": "joren",
+      "name": "Joren",
+      "entity_path": "entities/characters/joren.md",
+      "image_path": "artwork/character-references/joren.png",
+      "generation_batch": 2,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2717825,
+      "sha256": "e98877cba456afb2e9096a8b1d61f1631fd58b6e10ba584261d90ff4a69ba589"
+    },
+    {
+      "entity_id": "elsi",
+      "name": "Elsi",
+      "entity_path": "entities/characters/elsi.md",
+      "image_path": "artwork/character-references/elsi.png",
+      "generation_batch": 2,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2869021,
+      "sha256": "d63264d512c702f44b4a04df55a2bed73f5d61ac2f3757ba676d7757c57cd8f4"
+    },
+    {
+      "entity_id": "dalmor",
+      "name": "Dalmor",
+      "entity_path": "entities/characters/dalmor.md",
+      "image_path": "artwork/character-references/dalmor.png",
+      "generation_batch": 2,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2773411,
+      "sha256": "aec5a1658c3e2d74ea6601aebbc8501029585a03264f6925450e493119e15e8d"
+    },
+    {
+      "entity_id": "halvek",
+      "name": "Halvek",
+      "entity_path": "entities/characters/halvek.md",
+      "image_path": "artwork/character-references/halvek.png",
+      "generation_batch": 2,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2784961,
+      "sha256": "d5c8bd3a3f02a592abcaa44dec05c96d6b8f4c623383964197b6622f2a62857c"
+    },
+    {
+      "entity_id": "edran-vell",
+      "name": "Brother Edran Vell",
+      "entity_path": "entities/characters/edran-vell.md",
+      "image_path": "artwork/character-references/edran-vell.png",
+      "generation_batch": 3,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2759650,
+      "sha256": "8ab9b5cb21cdddd0d72b8dfeb0a7c488118a444cbc5358ef893166429211850e"
+    },
+    {
+      "entity_id": "sera-dovain",
+      "name": "Sera Dovain",
+      "entity_path": "entities/characters/sera-dovain.md",
+      "image_path": "artwork/character-references/sera-dovain.png",
+      "generation_batch": 3,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2696967,
+      "sha256": "af13ba9cf7945d716457381ce4bbfd695df9cd715fa9068d6092468b58ef8d2b"
+    },
+    {
+      "entity_id": "corvin-hale",
+      "name": "Corvin Hale",
+      "entity_path": "entities/characters/corvin-hale.md",
+      "image_path": "artwork/character-references/corvin-hale.png",
+      "generation_batch": 3,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2751768,
+      "sha256": "ccc9f73f68b0a5c9982fdc938a6aee949a0a9c66f60ba95e296bb35aab3670ef"
+    },
+    {
+      "entity_id": "corven",
+      "name": "Corven \u2014 original adversary",
+      "entity_path": "entities/characters/corven.md",
+      "image_path": "artwork/character-references/corven.png",
+      "generation_batch": 3,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2562880,
+      "sha256": "c7f69032fab47a8cfd5f28c22625a0c23af255d3e9724fa0c3a6550af2a6ab8c"
+    },
+    {
+      "entity_id": "corven-north-return-house",
+      "name": "Corven \u2014 North Return House supervisor",
+      "entity_path": "entities/characters/corven-north-return-house.md",
+      "image_path": "artwork/character-references/corven-north-return-house.png",
+      "generation_batch": 3,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2462101,
+      "sha256": "dfe14ee9a098915af023eeacefbb4febf027193d88dda55aa7f1ee07dbfe2410"
+    },
+    {
+      "entity_id": "perrin",
+      "name": "Perrin",
+      "entity_path": "entities/characters/perrin.md",
+      "image_path": "artwork/character-references/perrin.png",
+      "generation_batch": 4,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2726808,
+      "sha256": "222b9bcec86534909f3dd75bd1504eb5e3177fec8a8ff225acb621e1b5fdb692"
+    },
+    {
+      "entity_id": "dask",
+      "name": "Dask",
+      "entity_path": "entities/characters/dask.md",
+      "image_path": "artwork/character-references/dask.png",
+      "generation_batch": 4,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2718638,
+      "sha256": "a8ec71fc5e8a370106f8da348cc76aef6eea3724460f98d5229343d17cbeb277"
+    },
+    {
+      "entity_id": "sella",
+      "name": "Sella",
+      "entity_path": "entities/characters/sella.md",
+      "image_path": "artwork/character-references/sella.png",
+      "generation_batch": 4,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2787356,
+      "sha256": "b591858a40b6fced3cae00286defa3464235920c91a19e088797c7d947c3b597"
+    },
+    {
+      "entity_id": "orenic",
+      "name": "Orenic",
+      "entity_path": "entities/characters/orenic.md",
+      "image_path": "artwork/character-references/orenic.png",
+      "generation_batch": 4,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2913814,
+      "sha256": "624eff5267683b9113610b12a6c9a8148565b521e0dac638120ad60a14c784e5"
+    },
+    {
+      "entity_id": "hessa-vale",
+      "name": "Hessa Vale",
+      "entity_path": "entities/characters/hessa-vale.md",
+      "image_path": "artwork/character-references/hessa-vale.png",
+      "generation_batch": 4,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 3068049,
+      "sha256": "cddc3e4d56230f5bf4887af721c9c3661941e719b3f90b01179f67c269905c6c"
+    },
+    {
+      "entity_id": "orven-pell",
+      "name": "Orven Pell",
+      "entity_path": "entities/characters/orven-pell.md",
+      "image_path": "artwork/character-references/orven-pell.png",
+      "generation_batch": 5,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2667306,
+      "sha256": "d9bda5a193676fcb24ec298cc3bf67d15f372fc0544d18a90a0566c63ec34ebf"
+    },
+    {
+      "entity_id": "vennick",
+      "name": "Vennick",
+      "entity_path": "entities/characters/vennick.md",
+      "image_path": "artwork/character-references/vennick.png",
+      "generation_batch": 5,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2602874,
+      "sha256": "09db21bc11df850da8509c02b57244a112e27c398cb556b87dace79ab9cdf3e7"
+    },
+    {
+      "entity_id": "osric",
+      "name": "Osric",
+      "entity_path": "entities/characters/osric.md",
+      "image_path": "artwork/character-references/osric.png",
+      "generation_batch": 5,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2783371,
+      "sha256": "99ec18ab434e4ca021e77d55594559632dd6b86fcb2151754c522ef9c5389f43"
+    },
+    {
+      "entity_id": "halden-marr",
+      "name": "Halden Marr",
+      "entity_path": "entities/characters/halden-marr.md",
+      "image_path": "artwork/character-references/halden-marr.png",
+      "generation_batch": 5,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2927742,
+      "sha256": "75568920d80d0b94f17e2a7873c4cbfa4eef056c2eb3f28d389ea7297cd569b4"
+    },
+    {
+      "entity_id": "serrik-vale",
+      "name": "Serrik Vale",
+      "entity_path": "entities/characters/serrik-vale.md",
+      "image_path": "artwork/character-references/serrik-vale.png",
+      "generation_batch": 5,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2640449,
+      "sha256": "1ccbb247c958cf854b2011457be8c73466d9a264166df23c7421dd95371e68e5"
+    },
+    {
+      "entity_id": "therons-mother",
+      "name": "Theron's mother",
+      "entity_path": "entities/characters/therons-mother.md",
+      "image_path": "artwork/character-references/therons-mother.png",
+      "generation_batch": 6,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2908378,
+      "sha256": "9cf5e7ab6bd9a8a8b54813373f0a391f11695df7681b029c810aae02809c8880"
+    }
+  ]
+}

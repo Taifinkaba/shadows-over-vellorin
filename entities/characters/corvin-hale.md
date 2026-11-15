@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Plain brown wool coat, dark trousers, serviceable boots; no unverified insignia.
 - **Personality, mannerisms and speech:** Reserved, physically controlled. Rubs heel of hand with thumb; short sentences and direct attention to questioner.
 - **Historical gaps and boundaries:** Background, affiliation, detention grounds and later outcome.
+
+
+## Character portrait
+
+![Corvin Hale — approved character reference portrait](../../artwork/character-references/corvin-hale.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

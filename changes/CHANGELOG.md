@@ -1,3 +1,9 @@
+# Generated character reference portrait collection
+
+- Add all26 original generated PNG portraits from six chat batches in artwork/character-references/, paired by entity ID with the26 approved character sheets. Preserve the similarly named Mira/Corven identities and original artwork.
+- Add a browsable gallery, per-character image embeds, root navigation, approval provenance and manifest with image dimensions, byte sizes and SHA-256 checksums. Keep the earlier mother illustration as a separate interpretation.
+- No archive, checkpoint, financial ledger, abilities, custody, identity or gameplay changes; incidental artwork details do not add canon.
+
 # Player-approved character reference sheets
 
 - Add approved appearance, sex/ancestry, ages, supplied height/weight, body build, facial features, hair/eyes, clothing, personality, speech and mannerisms to 26 character sheets. Preserve historical facts separately from new reference design and leave unsupplied measurements unspecified.

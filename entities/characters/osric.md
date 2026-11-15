@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Dark work tunic, reinforced apron, fingerless work gloves, small fitting tools.
 - **Personality, mannerisms and speech:** Concentrated, taciturn, sensitive to imprecise workmanship. Rotates parts while listening; brushes metal dust from palms before documents.
 - **Historical gaps and boundaries:** Identity, role, involvement, whereabouts and workshop silence unverified. Reference design is not an authenticated description.
+
+
+## Character portrait
+
+![Osric — approved character reference portrait](../../artwork/character-references/osric.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
