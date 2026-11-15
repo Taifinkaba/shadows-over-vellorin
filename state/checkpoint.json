@@ -1,12 +1,12 @@
 {
-  "schema_version": 4,
-  "date": "Year 848 Day 124",
-  "time": "01:45",
-  "location": "North Return House",
+  "schema_version": 5,
+  "date": "Year 848 Day 137",
+  "time": "09:30",
+  "location": "Ashvale Estate",
   "theron": {
     "hp": 100,
     "hp_max": 100,
-    "mp": 386,
+    "mp": 400,
     "mp_max": 400,
     "defense": 46,
     "rank": "S+",
@@ -20,10 +20,10 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "545gp 9sp",
+    "total_gp_sp": "1034gp 9sp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
-    "allocation_status": "unverified; intervening transactions and current account allocations unavailable",
+    "allocation_status": "approved reconstruction; new allocations certified; legacy 494gp 9sp older allocations unresolved",
     "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
     "office_status": "separately held house funds; excluded from expedition income and controlled cash"
   },
@@ -31,25 +31,17 @@
     "vaeltharion_chains_attached": 0,
     "protective_anchors_retained": 7
   },
-  "status": "PAUSED",
-  "source": "archive/session-handoffs/year848-day124-user-handoff.txt",
+  "status": "ENDED",
+  "source": "changes/chronicles/year848-day137-end-session.md",
   "context": {
-    "safety": "Paused at North Return House; no deaths or party injuries. Perrin, Dask and lodge supervisor Corven alive and unharmed under Garrick’s nonlethal guard. No punishment, execution or transfer.",
+    "safety": "Session ENDED at Ashvale Estate. Halden Marr rescued, free and voluntarily protected. Theron returned alone from Eastrun; privacy maintained. No further gameplay.",
     "companions_present": [
-      "garrick-vale",
-      "nyx-thorne",
-      "lyra-moonvale",
-      "lyanna-ashvale",
-      "shade",
-      "ember"
+      "lyra-moonvale"
     ],
     "party_roles": {
-      "theron-ashvale": "Eighth Witness; at North Return House",
-      "garrick-vale": "Nonlethal guard of Perrin, Dask and lodge supervisor Corven",
-      "nyx-thorne": "Independent expedition scout; exact station unspecified",
-      "lyra-moonvale": "Independent healer; observed supervised assimilation trials; current MP not supplied",
-      "lyanna-ashvale": "Separately recognized custodial standing for limited eastern receiving-chamber review",
-      "tomas": "Independent Ashvale Estate finances and departments"
+      "theron-ashvale": "Returned alone from Eastrun to Ashvale Estate; session ended",
+      "tomas": "Independently manages estate operations and accounting",
+      "lyra-moonvale": "Continues Halden care and Healing Springs research"
     },
     "projects": {
       "nexus_mana": "156/180; finite independent staff mana",
@@ -58,8 +50,10 @@
       "chronos_eye": "approximately19%, LOCKED",
       "dragon_slayer": "LOCKED BY PLAYER CHOICE",
       "accord": "Peaceful recognition and limited communication only",
-      "custody": "Three current expedition detainees at North Return House; older Day472 prisoners’ current whereabouts/dispositions unverified, no inferred transfers",
-      "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified"
+      "custody": "Immediate Greyvein four-prisoner review complete: two released, one retained under documented proceedings, one medically transferred with hearing pending; identities not supplied.",
+      "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
+      "halden": "Rescued, free and voluntarily protected at Ashvale Estate",
+      "independent_assignments": "Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -69,21 +63,14 @@
       "included_in_party_total": false
     },
     "outstanding_clues": [
-      "Seventh Office/Vennick and western aqueduct workshop/Osric are unverified leads, not proven guilt",
-      "Northern Witness Index, anonymous correspondent/watcher identities and Halden Marr fate unresolved",
-      "Day472 to Year848 Day124 chronology, treasury change and old detainee dispositions unverified; see state/open-verifications.md"
+      "V-9 is a custody authorization designation; individual controller unknown",
+      "Original Crown bounty contracts and monetary amounts unverified",
+      "Serrik Vale supplied distribution records and agreed to corrections; no additional payment inferred",
+      "128 gp historical difference remains open; no current adjustment",
+      "Other deferred investigations and independent assignments preserved; see open-verifications.md"
     ],
-    "recent_mp_costs": {
-      "Mental Probe": 13
-    },
-    "mp_before_recent_casts": 375,
-    "recent_mp_recovery": {
-      "ability": "Spirit Mana Assimilation II",
-      "amount": 24,
-      "uninterrupted_minutes": 10,
-      "ambient_source_usable": true,
-      "personal_only": true
-    }
+    "recent_mp_costs": {},
+    "mp_before_recent_casts": null
   },
   "resources": {
     "equipped_defense": 49,
@@ -97,20 +84,15 @@
   },
   "calendar": {
     "season": "Suncrest",
-    "day_of_season": 4
+    "day_of_season": 17
   },
   "custody": {
-    "detainees": [
-      "perrin",
-      "dask",
-      "corven-north-return-house"
-    ],
-    "guard": "garrick-vale",
-    "free_people": [
-      "sella",
-      "orenic"
-    ],
-    "fatalities": 0,
-    "party_injuries": 0
+    "reviewed": 4,
+    "released": 2,
+    "retained": 1,
+    "medically_transferred": 1,
+    "hearing_pending": true,
+    "identities_status": "Not supplied; do not map onto earlier detainees",
+    "halden_status": "Free, voluntarily protected at Ashvale Estate"
   }
 }

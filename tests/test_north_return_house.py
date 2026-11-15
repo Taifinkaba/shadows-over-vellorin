@@ -5,15 +5,30 @@ from pathlib import Path
 import shutil
 import tempfile
 import unittest
+import yaml
 
-from scripts.validate import ValidationError, copper, validate, validate_state
+from scripts.validate import ValidationError, copper, validate, validate_state, frontmatter
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class NorthReturnHouseTests(unittest.TestCase):
     def setUp(self):
-        self.state = json.loads((ROOT / 'state/checkpoint.json').read_text())
+        self.temp = tempfile.TemporaryDirectory(prefix='vellorin-day124-')
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        for name in ('entities', 'archive', 'state', 'changes'):
+            shutil.copytree(ROOT/name, self.root/name)
+        shutil.copy2(ROOT/'index.json', self.root/'index.json')
+        shutil.copy2(ROOT/'archive/checkpoints/year848-day124-0145.json', self.root/'state/checkpoint.json')
+        historical = json.loads((ROOT/'archive/checkpoints/year848-day124-entity-values.json').read_text())
+        for ident, values in historical.items():
+            path = next((self.root/'entities').rglob(ident+'.md'))
+            meta = frontmatter(path)
+            body = path.read_text().split('---', 2)[2]
+            meta['checkpoint_values'] = values
+            path.write_text('---\n'+yaml.safe_dump(meta, sort_keys=False)+'---'+body)
+        self.state = json.loads((self.root/'state/checkpoint.json').read_text())
 
     def invalid(self, edit, message):
         state = copy.deepcopy(self.state)
@@ -23,7 +38,7 @@ class NorthReturnHouseTests(unittest.TestCase):
 
     def test_exact_supplied_snapshot(self):
         s = self.state
-        self.assertIn('checkpoint valid', validate(ROOT))
+        self.assertIn('checkpoint valid', validate(self.root))
         self.assertEqual((s['schema_version'], s['date'], s['calendar'], s['time'], s['location'], s['status']),
                          (4, 'Year 848 Day 124', {'season': 'Suncrest', 'day_of_season': 4}, '01:45', 'North Return House', 'PAUSED'))
         self.assertEqual((s['theron']['hp'], s['theron']['hp_max'], s['theron']['mp'], s['theron']['mp_max']), (100,100,386,400))
@@ -84,9 +99,9 @@ class NorthReturnHouseTests(unittest.TestCase):
         for field, amount in [('total_gp_sp','552gp 3sp'), ('total_gp_sp','555gp 1sp 4cp'), ('office_petty_gp_sp','0gp'), ('provisional_historic_gp_sp','0gp')]:
             with self.subTest(field=field, amount=amount), tempfile.TemporaryDirectory() as temp:
                 root = Path(temp)
-                for name in ('entities','archive','state'):
-                    shutil.copytree(ROOT/name,root/name)
-                shutil.copy2(ROOT/'index.json',root/'index.json')
+                for name in ('entities','archive','state','changes'):
+                    shutil.copytree(self.root/name,root/name)
+                shutil.copy2(self.root/'index.json',root/'index.json')
                 state = copy.deepcopy(self.state);state['money'][field]=amount
                 (root/'state/checkpoint.json').write_text(json.dumps(state))
                 with self.assertRaisesRegex(ValidationError,'checkpoint/entity mismatch: party-finances'):
@@ -95,9 +110,9 @@ class NorthReturnHouseTests(unittest.TestCase):
     def test_unknown_custody_reference(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            for name in ('entities','archive','state'):
-                shutil.copytree(ROOT/name,root/name)
-            shutil.copy2(ROOT/'index.json',root/'index.json')
+            for name in ('entities','archive','state','changes'):
+                shutil.copytree(self.root/name,root/name)
+            shutil.copy2(self.root/'index.json',root/'index.json')
             state = copy.deepcopy(self.state);state['custody']['detainees'].append('invented-prisoner')
             (root/'state/checkpoint.json').write_text(json.dumps(state))
             with self.assertRaisesRegex(ValidationError,'custody: unknown character'):

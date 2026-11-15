@@ -1,3 +1,10 @@
+# Year848 Suncrest17 Day137 — END SESSION at Ashvale Estate
+
+- Adopt explicit final09:30 ENDED checkpoint and neutral approved-ruling chronicle; preserve Day124 checkpoint/structured values as historical fixtures. No gameplay advance.
+- Record Halden free/voluntarily protected, Greyvein aggregate review outcomes, V-9 designation/controller uncertainty, Serrik records and unverified Crown bounty originals/amounts; preserve deferred quests/independent assignments and privacy.
+- Adopt player-approved eight-period continuity reconstruction (not discovered receipts):2160gp receipts−1640gp costs=520gp distributed once;514gp9sp baseline→1034gp9sp. Add authoritative integer-copper ledger linked from current finance entity; exclude other property and track128gp historical discrepancy without adjustment. No repeat expenses or automatic future income.
+- Schema5 supports ENDED calendar checkpoint, aggregate custody without invented identities and unknown intermediate mana history; maintains schema2/3/4 historical validation. Add ledger arithmetic/invariant validation and mutation tests; synchronize current entities, README, handoff and verification queue.
+
 # Year848 Suncrest4 Day124 — North Return House
 
 - Adopt supplied checkpoint at01:45, PAUSED: HP100/100, MP386/400, staff156/180, wagon60/60, DEF46/49, controlled545gp9sp. Preserve exact payload and prior Day472 checkpoint/structured values.

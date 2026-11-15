@@ -9,11 +9,41 @@ source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day137-end-session.md
 checkpoint_values:
-  money.total_gp_sp: 545gp 9sp
+  money.total_gp_sp: 1034gp 9sp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+# Current finances — Year848 Suncrest17 Day137, 09:30
+
+Controlled cash **1,034 gp 9 sp**. Authoritative machine-readable accounts, business revenue, category expenses, distributions, excluded property and verification status: [finance ledger](../../state/finance-ledger.json). All values use integer copper (100 cp = 1 gp).
+
+This is an explicit player-approved **continuity reconstruction**, not independently discovered historical receipts. Eight operating periods yield estate receipts 2,160 gp minus expenses 1,640 gp = net distributable surplus 520 gp. Eligible merchant gross sales 250 gp per period belong to merchants; only the 22% commission (55 gp) enters estate receipts. Future actual periods need Tomas's receipts and expense records or another explicit player-approved accounting ruling; never automatically award 65 gp monthly.
+
+| Current account | Balance |
+|---|---:|
+| Personal purse | 46 gp |
+| Legacy secured funds — older allocations unresolved | 494 gp 9 sp |
+| General treasury — new | 130 gp |
+| Emergency reserve — new | 78 gp |
+| Operating reserve — new | 78 gp |
+| Savings — new | 52 gp |
+| Expedition reserve — new | 52 gp |
+| Development — new | 52 gp |
+| Research — new | 26 gp |
+| Blackscale private — new | 26 gp |
+| **Controlled cash** | **1,034 gp 9 sp** |
+
+Baseline 514 gp 9 sp already includes 20 gp purse and 494 gp 9 sp secured funds. Apply the 520 gp distribution once; purse receives 26 gp. Historical emergency, expedition and Blackscale balances are not additional current assets. Earlier 545 gp 9 sp minus Private venue expense 12 gp = 533 gp 9 sp; minus Private venue expense 19 gp, all charges included = 514 gp 9 sp. Both expenses already deducted; never deduct again. Internal 19 gp purse refill has zero effect on total.
+
+The Day472 673 gp 9 sp to Day124 545 gp 9 sp difference of **128 gp remains OPEN**, unsupported by an itemized transaction. No refund, deduction or fabricated balancing transaction.
+
+Excluded: approximately 9 gp 1 sp 14 cp provisional historic coinage; 6 gp 4 sp office petty cash; Lyanna's separate funds (current unverified); academy earlier cash/deposit reports; historical seized custody funds (ownership unresolved); merchant property; unreconciled salvage; estate noncash property. The historical 120-acre purchase cost 252 gp and is already paid. Proposed 317 gp expansion remains unspent. Approximately 687 gp Night Sovereign estimate is not a payable invoice.
+
+## Historical record through Day124 (superseded where explicit above)
+
 
 # Party finances and custody boundaries
 

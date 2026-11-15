@@ -10,7 +10,15 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- changes/chronicles/year848-day137-end-session.md
 ---
+
+## Day137 accounting ruling
+
+Independently manages estate operations. The explicit player-approved eight-period continuity reconstruction is adopted in [current finances](../mechanics/party-finances.md); it is not a discovery of historical receipts. Future actual periods require Tomas receipts and expense records or another explicit player-approved accounting ruling. Older emergency chest allocations are historical, not additional current assets.
+
+## Historical record through Day124 (superseded where explicit above)
+
 
 # Tomas
 

@@ -13,7 +13,8 @@
       "tags": [
         "player",
         "magic",
-        "checkpoint"
+        "checkpoint",
+        "day137"
       ]
     },
     {
@@ -46,7 +47,8 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "npc"
+        "npc",
+        "day137"
       ]
     },
     {
@@ -101,7 +103,8 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "npc"
+        "npc",
+        "day137"
       ]
     },
     {
@@ -195,7 +198,7 @@
     {
       "id": "hounds-tomas",
       "type": "creatures",
-      "title": "Tomas’s hunting hounds",
+      "title": "Tomas\u2019s hunting hounds",
       "path": "entities/creatures/hounds-tomas.md",
       "status": "last-verified",
       "visibility": "gm-reference",
@@ -305,7 +308,7 @@
     {
       "id": "dragon-scales-stock",
       "type": "items",
-      "title": "Vaeltharion’s scale stock",
+      "title": "Vaeltharion\u2019s scale stock",
       "path": "entities/items/dragon-scales-stock.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -332,7 +335,8 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "geography"
+        "geography",
+        "day137"
       ]
     },
     {
@@ -448,7 +452,7 @@
     {
       "id": "vaeltharion-freedom",
       "type": "quests",
-      "title": "Vaeltharion’s freedom",
+      "title": "Vaeltharion\u2019s freedom",
       "path": "entities/quests/vaeltharion-freedom.md",
       "status": "completed",
       "visibility": "gm-reference",
@@ -530,7 +534,8 @@
       "status": "completed",
       "visibility": "gm-reference",
       "tags": [
-        "quest"
+        "quest",
+        "day137"
       ]
     },
     {
@@ -598,7 +603,7 @@
     {
       "id": "story-mode",
       "type": "rules",
-      "title": "Story Mode — Favored Protagonist",
+      "title": "Story Mode \u2014 Favored Protagonist",
       "path": "entities/rules/story-mode.md",
       "status": "user-locked",
       "visibility": "gm-reference",
@@ -662,7 +667,8 @@
       "tags": [
         "money",
         "custody",
-        "checkpoint"
+        "checkpoint",
+        "day137"
       ]
     },
     {
@@ -821,7 +827,7 @@
     {
       "id": "wayfarers-guild",
       "type": "factions",
-      "title": "Wayfarers’ Guild",
+      "title": "Wayfarers\u2019 Guild",
       "path": "entities/factions/wayfarers-guild.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -943,7 +949,8 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "day472"
+        "day472",
+        "day137"
       ]
     },
     {
@@ -1064,7 +1071,8 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "day472"
+        "day472",
+        "day137"
       ]
     },
     {
@@ -1094,7 +1102,7 @@
     {
       "id": "corven-north-return-house",
       "type": "characters",
-      "title": "Corven — North Return House supervisor",
+      "title": "Corven \u2014 North Return House supervisor",
       "path": "entities/characters/corven-north-return-house.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -1160,7 +1168,10 @@
       "visibility": "gm-reference",
       "tags": [
         "seven-bells",
-        "day124"
+        "day124",
+        "day137",
+        "halden-marr",
+        "serrik-vale"
       ]
     },
     {

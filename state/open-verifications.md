@@ -1,3 +1,17 @@
+# Current verification queue — Year848 Suncrest17 Day137,09:30
+
+- **128 gp historical discrepancy OPEN:** Year847 Day472673gp9sp → Year848 Day124545gp9sp; no itemized transaction. No refund, deduction or fabricated balancing entry. Current1034gp9sp does not resolve this history.
+- Eight-period approved operating reconstruction is continuity accounting, not independently discovered receipts. Future actual periods need Tomas receipts/expense records or another explicit player-approved ruling. No automatic65gp/month. Legacy494gp9sp older allocations unresolved; historical accounts not extra cash. Both private expenses already deducted.
+- Excluded historic coinage/office cash, Lyanna funds, academy older reports, custody funds, merchant property, salvage and estate assets stay separate.120-acre purchase paid;317gp expansion unspent;~687gp Night Sovereign estimate not payable.
+- Halden rescue/free voluntary protection confirmed at Ashvale; earlier fate uncertainty superseded. Rescue sequence not supplied; no invented bridge.
+- Greyvein four-prisoner review complete: two released, one retained under documented proceedings, one medically transferred/hearing pending. Individual identities, precise locations and relationship to older detainees unverified; do not infer mappings or resolve unrelated custody.
+- V-9 is a custody authorization designation; individual controller unknown. Original Crown bounty contracts/amounts unverified. Serrik distribution records supplied/corrections agreed; no invented monetary award.
+- Final personalMP400/400 explicitly supplied; intermediate expenditure/recovery history unverified. Nexus156/180,wagon60/60 unchanged; Chronos Eye~19% and Dragon Slayer locked. No fabricated recharge/rest.
+- Other unresolved chronology, evidence custody/title, E-R-7/VII/R safety, Northern Witness Index, watcher/correspondent identities, identity gaps and deferred quests/independent assignments remain per historical queue where not explicitly superseded. No new construction/combat/loot/abilities.
+- Existing public/private repository governance conflict remains; no visibility settings changed or GM secrets expanded.
+
+## Historical queues — superseded only where explicit above
+
 # Current verification queue — Year848 Suncrest4 Day124 01:45
 
 - Latest prior committed checkpoint:46a5706, Year847 Day472 16:10 Hollow of the First Hour. Full intervening chronology, travel/training sequence and transactions absent. New supplied outcomes supersede snapshots only where explicit; no invented bridge.

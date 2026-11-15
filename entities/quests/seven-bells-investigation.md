@@ -5,7 +5,15 @@ status: active
 visibility: gm-reference
 source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day137-end-session.md
 ---
+
+## Day137 latest confirmed continuity
+
+Halden Marr rescued, free and voluntarily protected at Ashvale Estate; Lyra continues his care. This supersedes earlier uncertainty about his survival/location, without inventing the rescue sequence. V-9 confirmed as a custody authorization designation; individual controller unknown. Serrik Vale supplied distribution records and agreed to corrections; original Crown bounty contracts and monetary amounts remain unverified. Immediate Greyvein review outcomes are in the custody register; identities not supplied. Theron returned alone from Eastrun to Ashvale, privacy maintained. Remaining leads, protected evidence and deferred investigation remain unresolved unless explicitly superseded here.
+
+## Historical record through Day124 (superseded where explicit above)
+
 
 # Seven Bells receiving and counter-command investigation
 
