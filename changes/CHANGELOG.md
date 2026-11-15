@@ -1,3 +1,10 @@
+# Player-approved character reference sheets
+
+- Add approved appearance, sex/ancestry, ages, supplied height/weight, body build, facial features, hair/eyes, clothing, personality, speech and mannerisms to 26 character sheets. Preserve historical facts separately from new reference design and leave unsupplied measurements unspecified.
+- Extend 14 existing sheets and promote 12 previously mentioned people into indexed entities with historical source references: lodge Mira/Joren/Elsi, Dalmor, Halvek, Hessa, Orven, Vennick, Osric, Halden, Serrik and Theron's mother. No duplicate people or invented surnames.
+- Record four anonymous depiction directions without assigning identities or physical traits; retain testimony, custody, genealogy and culpability uncertainties. No new dragon/animal designs.
+- Add approval provenance and retrieval links. Preserve archive bytes, gameplay checkpoint, resources, cash ledger and independent NPC agency.
+
 # Year848 Suncrest17 Day137 — END SESSION at Ashvale Estate
 
 - Adopt explicit final09:30 ENDED checkpoint and neutral approved-ruling chronicle; preserve Day124 checkpoint/structured values as historical fixtures. No gameplay advance.

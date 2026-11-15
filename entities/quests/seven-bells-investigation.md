@@ -36,3 +36,8 @@ At North Return House Blackscale used existing Dragonveil Mask, Shadow Mantle16M
 - Anonymous Witness correspondent, hooded watcher, Halden fate unresolved; correspondent and watcher not equated.
 
 Evidence supports a plausible organized counter-command network, not a proven mastermind or automatic identity with older resolved Crown/Empty Seat channels. Original Witness custody protections intact. See `north-return-house`, `return-custodian-seven` and `seven-bells-inventory`. Next action belongs to Theron; no travel/rest/questioning/transfer or remote outcome yet.
+
+
+## Character reference retrieval
+
+Player-approved reference sheets: [Hessa Vale](../characters/hessa-vale.md), [Orven Pell](../characters/orven-pell.md), [Vennick](../characters/vennick.md), [Osric](../characters/osric.md), [Halden Marr](../characters/halden-marr.md), [Serrik Vale](../characters/serrik-vale.md). Vennick/Osric depictions are not verified sightings or evidence of culpability. [Anonymous reference directions](../../changes/chronicles/character-reference-design-approval.md#unresolved-identities--preserve-anonymity) preserve the correspondent, watcher, Acting Receiver and V-9 controller uncertainties.

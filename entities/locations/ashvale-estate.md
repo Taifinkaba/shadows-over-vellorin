@@ -34,3 +34,8 @@ Verified distributable free surplus allocation: general treasury25%, emergency15
 # Ashvale Estate
 
 Aric and Theron’s mother at home; legitimate family contact and smith commission records. Ashvale Estate to Eastrun historically a little over two hours by road.
+
+
+## Character reference retrieval
+
+Character references: [Theron's mother](../characters/therons-mother.md), [Halden Marr](../characters/halden-marr.md), [Serrik Vale](../characters/serrik-vale.md). New visual design does not establish genealogy, an additional arrival or a financial event.
