@@ -26,6 +26,10 @@ Read [permanent narration rules](docs/narration-format.md): every spoken line id
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.
 
+## Character reference sheets
+
+[Approved character-design directory](changes/chronicles/character-reference-design-approval.md) routes to 26 character sheets and anonymous-reference directions. Sheets separate recorded facts from player-approved appearance, clothing and mannerisms; historical and mystery gaps remain explicit. Use these descriptions for consistent image generation.
+
 ## Character card artwork
 
 [View the labeled party card gallery](artwork/player-cards/README.md) for Theron Ashvale, Garrick Vale, Nyx Thorne, and Lyra Moonvale.

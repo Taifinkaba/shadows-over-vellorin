@@ -137,7 +137,9 @@
       "status": "last-verified",
       "visibility": "gm-reference",
       "tags": [
-        "npc"
+        "npc",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -678,7 +680,10 @@
       "path": "entities/characters/bren.md",
       "status": "canon",
       "visibility": "gm-reference",
-      "tags": []
+      "tags": [
+        "character-reference",
+        "approved-design"
+      ]
     },
     {
       "id": "elias-renn",
@@ -687,7 +692,10 @@
       "path": "entities/characters/elias-renn.md",
       "status": "canon",
       "visibility": "gm-reference",
-      "tags": []
+      "tags": [
+        "character-reference",
+        "approved-design"
+      ]
     },
     {
       "id": "mira-thorne",
@@ -696,7 +704,10 @@
       "path": "entities/characters/mira-thorne.md",
       "status": "canon",
       "visibility": "gm-reference",
-      "tags": []
+      "tags": [
+        "character-reference",
+        "approved-design"
+      ]
     },
     {
       "id": "maera",
@@ -705,7 +716,10 @@
       "path": "entities/characters/maera.md",
       "status": "canon",
       "visibility": "gm-reference",
-      "tags": []
+      "tags": [
+        "character-reference",
+        "approved-design"
+      ]
     },
     {
       "id": "master-beren",
@@ -714,7 +728,10 @@
       "path": "entities/characters/master-beren.md",
       "status": "canon",
       "visibility": "gm-reference",
-      "tags": []
+      "tags": [
+        "character-reference",
+        "approved-design"
+      ]
     },
     {
       "id": "rellan-sorn",
@@ -861,7 +878,9 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "day472"
+        "day472",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -872,7 +891,9 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "day472"
+        "day472",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -883,7 +904,9 @@
       "status": "canon",
       "visibility": "gm-reference",
       "tags": [
-        "day472"
+        "day472",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -1084,7 +1107,9 @@
       "visibility": "gm-reference",
       "tags": [
         "seven-bells",
-        "day124"
+        "day124",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -1096,7 +1121,9 @@
       "visibility": "gm-reference",
       "tags": [
         "seven-bells",
-        "day124"
+        "day124",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -1108,7 +1135,9 @@
       "visibility": "gm-reference",
       "tags": [
         "seven-bells",
-        "day124"
+        "day124",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -1120,7 +1149,9 @@
       "visibility": "gm-reference",
       "tags": [
         "seven-bells",
-        "day124"
+        "day124",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -1132,7 +1163,9 @@
       "visibility": "gm-reference",
       "tags": [
         "seven-bells",
-        "day124"
+        "day124",
+        "character-reference",
+        "approved-design"
       ]
     },
     {
@@ -1184,6 +1217,162 @@
       "tags": [
         "seven-bells",
         "day124"
+      ]
+    },
+    {
+      "id": "mira-lodge-helper",
+      "type": "characters",
+      "title": "Mira \u2014 lodge helper",
+      "path": "entities/characters/mira-lodge-helper.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "joren",
+      "type": "characters",
+      "title": "Joren",
+      "path": "entities/characters/joren.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "elsi",
+      "type": "characters",
+      "title": "Elsi",
+      "path": "entities/characters/elsi.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "dalmor",
+      "type": "characters",
+      "title": "Dalmor",
+      "path": "entities/characters/dalmor.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "halvek",
+      "type": "characters",
+      "title": "Halvek",
+      "path": "entities/characters/halvek.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "hessa-vale",
+      "type": "characters",
+      "title": "Hessa Vale",
+      "path": "entities/characters/hessa-vale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "orven-pell",
+      "type": "characters",
+      "title": "Orven Pell",
+      "path": "entities/characters/orven-pell.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "vennick",
+      "type": "characters",
+      "title": "Vennick",
+      "path": "entities/characters/vennick.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "osric",
+      "type": "characters",
+      "title": "Osric",
+      "path": "entities/characters/osric.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "halden-marr",
+      "type": "characters",
+      "title": "Halden Marr",
+      "path": "entities/characters/halden-marr.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "serrik-vale",
+      "type": "characters",
+      "title": "Serrik Vale",
+      "path": "entities/characters/serrik-vale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "therons-mother",
+      "type": "characters",
+      "title": "Theron's mother",
+      "path": "entities/characters/therons-mother.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "npc",
+        "character-reference",
+        "approved-design"
       ]
     }
   ],

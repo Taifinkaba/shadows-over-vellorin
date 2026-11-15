@@ -21,3 +21,8 @@ Restricted development chest under Tomas with Theron override:0gp, approved cons
 ## Authoritative update — Year 847 Day 472, 16:10, session ENDED
 
 Estate commercial lodge and natural Healing Springs operate under Tomas; see [estate](ashvale-estate.md) for current policy. Historical completed construction remains preserved; no newly posted revenue, expansion payment or guaranteed profit.
+
+
+## Character reference retrieval
+
+Player-approved visual/personality reference sheets: [Bren](../characters/bren.md), [Mira — lodge helper](../characters/mira-lodge-helper.md), [Joren](../characters/joren.md), [Elsi](../characters/elsi.md). These designs do not change staffing terms, wages or historical ages.
