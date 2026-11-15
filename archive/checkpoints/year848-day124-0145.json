@@ -1,0 +1,116 @@
+{
+  "schema_version": 4,
+  "date": "Year 848 Day 124",
+  "time": "01:45",
+  "location": "North Return House",
+  "theron": {
+    "hp": 100,
+    "hp_max": 100,
+    "mp": 386,
+    "mp_max": 400,
+    "defense": 46,
+    "rank": "S+",
+    "level": 5,
+    "str": 12,
+    "dex": 20,
+    "con": 16,
+    "int": 20,
+    "wis": 19,
+    "cha": 19,
+    "unspent_attributes": 0
+  },
+  "money": {
+    "total_gp_sp": "545gp 9sp",
+    "provisional_historic_gp_sp": "9gp 1sp 14cp",
+    "office_petty_gp_sp": "6gp 4sp",
+    "allocation_status": "unverified; intervening transactions and current account allocations unavailable",
+    "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
+    "office_status": "separately held house funds; excluded from expedition income and controlled cash"
+  },
+  "world": {
+    "vaeltharion_chains_attached": 0,
+    "protective_anchors_retained": 7
+  },
+  "status": "PAUSED",
+  "source": "archive/session-handoffs/year848-day124-user-handoff.txt",
+  "context": {
+    "safety": "Paused at North Return House; no deaths or party injuries. Perrin, Dask and lodge supervisor Corven alive and unharmed under Garrick’s nonlethal guard. No punishment, execution or transfer.",
+    "companions_present": [
+      "garrick-vale",
+      "nyx-thorne",
+      "lyra-moonvale",
+      "lyanna-ashvale",
+      "shade",
+      "ember"
+    ],
+    "party_roles": {
+      "theron-ashvale": "Eighth Witness; at North Return House",
+      "garrick-vale": "Nonlethal guard of Perrin, Dask and lodge supervisor Corven",
+      "nyx-thorne": "Independent expedition scout; exact station unspecified",
+      "lyra-moonvale": "Independent healer; observed supervised assimilation trials; current MP not supplied",
+      "lyanna-ashvale": "Separately recognized custodial standing for limited eastern receiving-chamber review",
+      "tomas": "Independent Ashvale Estate finances and departments"
+    },
+    "projects": {
+      "nexus_mana": "156/180; finite independent staff mana",
+      "wagon_mana": "60/60",
+      "equipped_defense": "49; base46 plus Frostguard Bracers3",
+      "chronos_eye": "approximately19%, LOCKED",
+      "dragon_slayer": "LOCKED BY PLAYER CHOICE",
+      "accord": "Peaceful recognition and limited communication only",
+      "custody": "Three current expedition detainees at North Return House; older Day472 prisoners’ current whereabouts/dispositions unverified, no inferred transfers",
+      "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified"
+    },
+    "academy": {
+      "entity": "dragon-slayer-academy",
+      "latest_reported_cash_gp_sp": "34gp",
+      "refundable_lease_deposit_gp_sp": "15gp",
+      "balance_date": "Unspecified earlier report; no later verified ledger in repository",
+      "included_in_party_total": false
+    },
+    "outstanding_clues": [
+      "Seventh Office/Vennick and western aqueduct workshop/Osric are unverified leads, not proven guilt",
+      "Northern Witness Index, anonymous correspondent/watcher identities and Halden Marr fate unresolved",
+      "Day472 to Year848 Day124 chronology, treasury change and old detainee dispositions unverified; see state/open-verifications.md"
+    ],
+    "recent_mp_costs": {
+      "Mental Probe": 13
+    },
+    "mp_before_recent_casts": 375,
+    "recent_mp_recovery": {
+      "ability": "Spirit Mana Assimilation II",
+      "amount": 24,
+      "uninterrupted_minutes": 10,
+      "ambient_source_usable": true,
+      "personal_only": true
+    }
+  },
+  "resources": {
+    "equipped_defense": 49,
+    "bracers_defense_bonus": 3,
+    "staff_mp": 156,
+    "staff_mp_max": 180,
+    "wagon_mp": 60,
+    "wagon_mp_max": 60,
+    "chronos_eye_locked": true,
+    "dragon_slayer_locked": true
+  },
+  "calendar": {
+    "season": "Suncrest",
+    "day_of_season": 4
+  },
+  "custody": {
+    "detainees": [
+      "perrin",
+      "dask",
+      "corven-north-return-house"
+    ],
+    "guard": "garrick-vale",
+    "free_people": [
+      "sella",
+      "orenic"
+    ],
+    "fatalities": 0,
+    "party_injuries": 0
+  }
+}

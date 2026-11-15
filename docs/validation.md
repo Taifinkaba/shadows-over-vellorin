@@ -61,3 +61,39 @@ Schema4 preserves schema2/3 validation for archived checkpoints and structured o
 - `custody` records unique character IDs for current detainees/free people, guard, fatalities and party injuries. References must resolve; free people cannot simultaneously be detained. Regression checks pin this supplied snapshot to three detainees, Sella/Orenic free and zero deaths/injuries. Older custody is historical, not a current location assertion.
 
 Validators do not infer guilt, prove same-name identities, certify recovered materials, verify arbitrary status prose, or fill missing historical events. New regression cases exercise mana recovery prerequisites/arithmetic/cap, segregated money, finite pools, custody references and current exact snapshot. Historical schema2/3 regression suites use their preserved checkpoints and structured entity values.
+
+## Current checkpoint schema5 — Year848 Suncrest17 Day137 END SESSION
+
+Schema5 retains schema4 money fields and structured ownership. `status` is ENDED;
+calendar records Suncrest17 and checkpoint date/time are Year848 Day137,09:30.
+Allocation status now records the approved reconstruction and unresolved legacy split.
+`context.recent_mp_costs` is empty and `mp_before_recent_casts` null, with no
+`recent_mp_recovery`: final personalMP400 is explicitly supplied, intermediate
+expenditures/recoveries are unknown. The historical schema4 recovery rules still apply
+to its preserved Day124 fixture; no guessed recovery or free casting is implied.
+
+`custody` records aggregate `reviewed`, `released`, `retained`, and
+`medically_transferred` nonnegative integer counts, a boolean `hearing_pending`,
+plus `identities_status` and `halden_status` text. Counts must sum; no mapping to
+older detainees is invented. Current supplied counts are4/2/1/1, hearing pending.
+
+`entities/mechanics/party-finances.md` routes to **state/finance-ledger.json**, the
+separate authoritative detailed financial record (ledger schema1). No duplicate
+finance entity or index schema change. The ledger uses integer copper (100cp/gp,
+10cp/sp), distinguishes cash ownership/accounts, category revenue and expenses,
+net surplus/distribution, excluded property/assets/deposits/estimates and open
+historical discrepancies. Its date, source, total and excluded amounts must agree
+with the checkpoint; the finance entity's three money values remain exact owners.
+
+Validation enforces category sums, merchant commission separation, eight-period
+multiplication, net-only percentages totaling100%, one distribution, baseline
+purse/legacy inclusion, account totals, neutral expense-history arithmetic, zero
+internal-transfer cash effect, excluded holdings, already-paid land and unspent
+estimates. The128gp historical gap stays open without a current adjustment.
+No automatic future65gp award; future actual periods require Tomas receipts and
+expense records or another explicit player-approved accounting ruling.
+
+Day124 snapshot and structured owner values are preserved under archive/checkpoints/;
+its tests restore those fixtures in disposable copies. Schema2/3 fixtures remain
+unchanged. Day137 mutation tests exercise double-counting, exclusions, commission,
+percentages, repeat expenses/distributions, estimates, locks, mana and custody.

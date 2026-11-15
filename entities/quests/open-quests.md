@@ -6,7 +6,15 @@ visibility: gm-reference
 source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day137-end-session.md
 ---
+
+## Day137 session end override
+
+Halden rescued, free and voluntarily protected at Ashvale Estate; his fate is no longer an open rescue question. V-9 designation confirmed, individual controller unknown. Immediate Greyvein review completed (two released, one retained, one medically transferred with hearing pending); do not infer identities or close unrelated custody matters. Crown bounty originals/amounts unverified; Serrik supplied distribution records and agreed to corrections. Every other deferred quest and independent companion assignment remains in force. No combat, loot, ability or construction completion. Session ENDED; no action before player instruction.
+
+## Historical record through Day124 (superseded where explicit above)
+
 
 # Open quest continuity
 

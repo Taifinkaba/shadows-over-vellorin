@@ -4,13 +4,13 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 848 Day 124
-  time: 01:45
-  location: North Return House
-  status: PAUSED
+  date: Year 848 Day 137
+  time: 09:30
+  location: Ashvale Estate
+  status: ENDED
   theron.hp: 100
   theron.hp_max: 100
-  theron.mp: 386
+  theron.mp: 400
   theron.mp_max: 400
   theron.defense: 46
   theron.rank: S+
@@ -38,7 +38,17 @@ source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day137-end-session.md
 ---
+
+# Theron Ashvale / Blackscale — final checkpoint
+
+**Year848 Suncrest17 Day137, 09:30 — Ashvale Estate; ENDED.** Elf male, age25, height5'5", weight400 lb; canonically very fat and heavyset. S+, Level5; HP100/100, personal MP400/400; base DEF46/equipped49. STR12 DEX20 CON16 INT20 WIS19 CHA19; unspent0. Sovereign Nexus156/180; Sovereign Expedition Wagon60/60. Chronos Eye approximately19%, LOCKED; Dragon Slayer LOCKED. Spirit Mana Assimilation II remains mastered:24 personal MP per uninterrupted10 minutes with usable ambient mana, capped400; no free restoration to other pools.
+
+Returned alone from Eastrun to Ashvale with privacy maintained. Controlled cash1,034gp9sp per authoritative finance ledger. No new combat, loot, abilities or construction completion. Final MP is explicitly supplied; intermediate expenditure/recovery sequence not provided, no fabricated rest or casting log. Session ended; no further in-game action.
+
+## Historical record through Day124 (superseded where explicit above)
+
 
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 

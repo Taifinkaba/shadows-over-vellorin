@@ -11,7 +11,15 @@ source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day137-end-session.md
 ---
+
+## Day137 current assignment
+
+At Ashvale Estate, continues rescued Halden Marr's care and Healing Springs research. Halden is free and voluntarily protected. Current personal resource pools remain unverified; no research completion or additional ability awarded.
+
+## Historical record through Day124 (superseded where explicit above)
+
 
 # Lyra Moonvale
 

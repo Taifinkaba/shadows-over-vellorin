@@ -9,7 +9,17 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- changes/chronicles/year848-day137-end-session.md
 ---
+
+# Ashvale Estate — Day137 session end
+
+Year848 Suncrest17 Day137,09:30: Theron at Ashvale Estate; session ENDED. Halden Marr rescued, free and voluntarily protected here. Lyra continues his care and Healing Springs research. Tomas independently manages estate operations. No construction completion supplied.
+
+The player-approved eight-period operating reconstruction is current financial canon, qualified as a continuity reconstruction rather than discovered receipts. [Current finances](../mechanics/party-finances.md) and [integer-copper ledger](../../state/finance-ledger.json) contain revenue270gp/period, expenses205gp/period, surplus65gp/period and the once-only520gp distribution. Future actual periods require Tomas receipts and expense records or another explicit player-approved accounting ruling. No automatic monthly65gp award. Historical120 acres/252gp purchase is already paid; proposed317gp expansion remains unspent. Operating till100gp remains policy, not additional cash.
+
+## Historical record through Day124 (superseded where explicit above)
+
 
 # Ashvale Estate
 
