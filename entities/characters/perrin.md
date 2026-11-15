@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Worn padded jack, plain wool layers, scuffed boots. Historical guard depiction may include simple spear and belt knife.
 - **Personality, mannerisms and speech:** Practical, responsive to clear danger. Shifts weight, checks colleagues before committing, visibly relaxes with clear instructions.
 - **Historical gaps and boundaries:** Employer details, background, individual culpability and later disposition. Depiction equipment does not grant current inventory or rearm a detainee.
+
+
+## Character portrait
+
+![Perrin — approved character reference portrait](../../artwork/character-references/perrin.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

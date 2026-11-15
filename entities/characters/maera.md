@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Russet dress, cream sleeves, practical apron; dark shawl with plain bronze pin.
 - **Personality, mannerisms and speech:** Warm, composed, protective without overbearing behavior. Straightens objects while thinking, meets children at eye level; becomes very still when a boundary is crossed.
 - **Historical gaps and boundaries:** Surname, previous occupation and whether Mira's relative or another appointed guardian.
+
+
+## Character portrait
+
+![Maera — approved character reference portrait](../../artwork/character-references/maera.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

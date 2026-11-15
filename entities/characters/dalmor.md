@@ -23,3 +23,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Plain travel-worn brown layers, weatherproof cloak; no unverified affiliation insignia.
 - **Personality, mannerisms and speech:** Guarded, deliberate, hard to read. Studies exits, pauses before answers, keeps hands visible in tense conversations.
 - **Historical gaps and boundaries:** Actual role, loyalties, resources, whereabouts and earlier confrontation details. Caution is not evidence of guilt.
+
+
+## Character portrait
+
+![Dalmor — approved character reference portrait](../../artwork/character-references/dalmor.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

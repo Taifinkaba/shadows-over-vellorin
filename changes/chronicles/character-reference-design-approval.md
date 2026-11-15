@@ -57,3 +57,7 @@ Historical source references: [Day124 handoff](../../archive/session-handoffs/ye
 Day472 detainee locations and Day124 North Return House custody are historical. Day137 Greyvein's four-prisoner review has no supplied named mapping. Neither the design ages nor the new sheets identify who was released, retained or medically transferred. Original Corven, supervisor Corven, Corvin Hale and Corvin Halbrecht remain distinct records unless evidence resolves identity. Sella is not established as dockmaster Sella Reed; Orven Pell is not established as stablemaster Oren Pell. No kinship is inferred from Vale or Thorne surnames.
 
 The earlier dragon and animal audit remains unchanged; this approval applies to the 26 people and four anonymous-reference directions actually drafted, not new dragon or animal designs. Existing public/private governance discrepancy remains tracked; no repository settings or GM secrets are changed.
+
+## Generated portrait delivery
+
+After reviewing the six generation batches, the player instructed: "send all of them to the repo with the person they belong to(like we did the other time)". All 26 generated originals are preserved in [the reference portrait gallery](../../artwork/character-references/README.md), with bidirectional links to the corresponding sheets and checksums in its manifest. Existing illustrations are retained. This upload authorizes no additional character facts or gameplay outcomes.

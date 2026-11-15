@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Weatherproof work coat, rolled cuffs, leather gloves, compact repair satchel.
 - **Personality, mannerisms and speech:** Technically curious, attentive to wear/workmanship. Crouches to examine markings, traces shapes in air, separates observation from guess.
 - **Historical gaps and boundaries:** Rank, training, history and whereabouts. No kinship with Garrick or Serrik established.
+
+
+## Character portrait
+
+![Hessa Vale — approved character reference portrait](../../artwork/character-references/hessa-vale.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

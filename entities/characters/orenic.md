@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Rough flax shirt, patched vest, sturdy trousers, muddy boots; grooming brush in belt.
 - **Personality, mannerisms and speech:** Patient with animals, reserved with strangers. Slow approach, low voice; checks nearby animals before conversation.
 - **Historical gaps and boundaries:** Surname, history and later whereabouts.
+
+
+## Character portrait
+
+![Orenic — approved character reference portrait](../../artwork/character-references/orenic.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Moss-green wool dress over leggings, sturdy ankle boots; small satchel with oversized wooden fastening.
 - **Personality, mannerisms and speech:** Inquisitive, precise, reluctant to admit confusion. Tilts head while studying; counts on fingers; raises hand before finding words.
 - **Historical gaps and boundaries:** Historical exact age, parents, earlier history, abilities and precise relationship to Maera. Age 12 is approved design, not a recovered historical age.
+
+
+## Character portrait
+
+![Mira Thorne — approved character reference portrait](../../artwork/character-references/mira-thorne.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

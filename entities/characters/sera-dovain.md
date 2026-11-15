@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Plain slate-blue tunic, brown trousers, worn dark cloak; practical rather than ornamental.
 - **Personality, mannerisms and speech:** Self-contained, attentive, economical speech. Steady gaze, presses lips before disagreement; sits upright when tired.
 - **Historical gaps and boundaries:** Occupation, affiliation, detention grounds, testimony and later disposition.
+
+
+## Character portrait
+
+![Sera Dovain — approved character reference portrait](../../artwork/character-references/sera-dovain.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

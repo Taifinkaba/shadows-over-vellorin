@@ -23,3 +23,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Soot-darkened linen, heavy leather apron, reinforced boots, simple copper beard clasps; fine chisels and magnifying lens.
 - **Personality, mannerisms and speech:** Exacting, reserved, interested in function. Turns objects toward light before judging; taps material with fingernail while considering it.
 - **Historical gaps and boundaries:** Historical species/age were unspecified; dwarf and 112 are approved design. Location, specialties, reputation and prior Theron contact remain unknown.
+
+
+## Character portrait
+
+![Halvek — approved character reference portrait](../../artwork/character-references/halvek.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

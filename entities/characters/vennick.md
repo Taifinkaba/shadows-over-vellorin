@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Unremarkable dark green clerk's tunic, brown coat, document wallet.
 - **Personality, mannerisms and speech:** Precise, professionally impersonal. Repeats names/dates for confirmation, keeps papers close, rarely interrupts.
 - **Historical gaps and boundaries:** Reported role, identity, involvement and location independently unverified. Reference design is not a confirmed sighting.
+
+
+## Character portrait
+
+![Vennick — approved character reference portrait](../../artwork/character-references/vennick.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

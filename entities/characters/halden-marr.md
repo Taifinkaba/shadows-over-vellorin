@@ -23,3 +23,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Clean loose linen shirt, soft trousers, warm brown robe or blanket. No restraints.
 - **Personality, mannerisms and speech:** Observant, deliberate, room to regain confidence. Takes time before answers, appreciates direct address; keeps belongings within reach.
 - **Historical gaps and boundaries:** Occupation, biography, diagnosis, testimony and rescue details. Probable notes are not authenticated authorship. Visual condition establishes no specific injury or psychological diagnosis.
+
+
+## Character portrait
+
+![Halden Marr — approved character reference portrait](../../artwork/character-references/halden-marr.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

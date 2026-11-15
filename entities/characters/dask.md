@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Faded green tunic, ill-fitting padded vest, patched trousers, practical boots.
 - **Personality, mannerisms and speech:** Alert, cautious, visibly nervous. Swallows before speech, grips objects tightly, looks quickly toward sudden sounds.
 - **Historical gaps and boundaries:** Background, employer details, testimony, culpability and later disposition.
+
+
+## Character portrait
+
+![Dask — approved character reference portrait](../../artwork/character-references/dask.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

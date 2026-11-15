@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Well-maintained brown wool coat, muted burgundy tunic, leather document case, practical boots.
 - **Personality, mannerisms and speech:** Businesslike, articulate, accuracy-conscious. Checks figures before defending them, arranges documents sequentially; restrained formal acceptance of corrections.
 - **Historical gaps and boundaries:** Formal occupation, earlier history, exact records/corrections and whether corrections completed. No kinship with other Vales established.
+
+
+## Character portrait
+
+![Serrik Vale — approved character reference portrait](../../artwork/character-references/serrik-vale.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

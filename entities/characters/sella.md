@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Muted plum dress, cream sleeves, practical waist pouch; ink-stained fingertips.
 - **Personality, mannerisms and speech:** Methodical, observant, composed. Aligns papers before explaining; remembers discrepancies and requests clarification.
 - **Historical gaps and boundaries:** Surname, background, complete testimony and later whereabouts. Not established as dockmaster Sella Reed.
+
+
+## Character portrait
+
+![Sella — approved character reference portrait](../../artwork/character-references/sella.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

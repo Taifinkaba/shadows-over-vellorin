@@ -24,3 +24,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Historical gaps and boundaries:** Surname, family history, individual duties and ambitions. Recorded age is not automatically advanced.
 
 Shelter, meals and schooling remain unconditional. Work is optional, supervised, safe, light and paid; no hazardous, forge or night work. Reference clothing does not assign a new job.
+
+
+## Character portrait
+
+![Joren — approved character reference portrait](../../artwork/character-references/joren.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.

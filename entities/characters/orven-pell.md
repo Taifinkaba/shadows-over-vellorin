@@ -22,3 +22,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 - **Clothing and image-reference equipment:** Faded olive robe, brown sleeveless overcoat; small reading lens on cord.
 - **Personality, mannerisms and speech:** Courteous, orderly, protective of records. Supports book spines, marks places carefully; firm about handling rules.
 - **Historical gaps and boundaries:** Formal position, authority, history and whereabouts. Identity with stablemaster Oren Pell is not established.
+
+
+## Character portrait
+
+![Orven Pell — approved character reference portrait](../../artwork/character-references/orven-pell.png)
+
+[Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
