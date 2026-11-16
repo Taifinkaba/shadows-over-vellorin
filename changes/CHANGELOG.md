@@ -47,3 +47,8 @@
 - **Expanded artwork:** Add 15 labeled illustrations for the Ashvale family, Tomas and two hounds, six animal companions, Vaeltharion, the hidden woodland lodge, Ashvale Estate, and Wayfarers’ Guild. Add categorized galleries with source links and interpretation notes. No canon or checkpoint changes.
 
 - **Year847 Day153 22:05 cumulative canon sync:** Preserve exact user handoff and Day46 checkpoint. Reconcile reported freedom/consent covenant, academy and lodge development, treasury consolidation, creature links/bonds, learned spells and specialized research, Caelan’s limited rehabilitation, and freight evidence chain. Add confidence-labeled chronicles and explicit unresolved timeline/accounting questions. Current HP100/100 MP337/400 DEF26 S+ Level5; party/lodge cash555gp; academy separate. Update checkpoint schema and regression checks without rewriting legacy archives or merging the PR.
+
+
+## Year848 Suncrest36 Day156 END SESSION
+
+Applied explicit final player checkpoint and later scene corrections; preserved Day137 checkpoint/owners/ledger fixtures and verbatim Day156 source. Updated relevant characters, bounty factions, quests, items, Brackenford/Briarstone residents, finance ledger schema2, handoff, verification queue and index. Added compatible ledger validation and mutation coverage; historical rules remain tested. No gameplay or settings change.

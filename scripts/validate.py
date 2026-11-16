@@ -266,6 +266,8 @@ def validate_state(state):
 def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
+    if type(ledger.get("schema_version")) is int and ledger["schema_version"] == 2:
+        return validate_finance_ledger_v2(root, state, ledger)
     keys(ledger, {"schema_version", "as_of", "source", "qualification", "currency", "controlled_cash", "operating_reconstruction", "distributions", "expense_history", "excluded_property", "assets_deposits_liabilities", "historical_discrepancies"}, "ledger")
     require(type(ledger["schema_version"]) is int and ledger["schema_version"] == 1, "ledger: unsupported schema_version")
     repository_file(root, ledger["source"], "ledger.source")
@@ -358,6 +360,79 @@ def validate_finance_ledger(root, state):
     gap = ledger["historical_discrepancies"][0]
     require(gap["earlier_cp"] == 67390 and gap["later_cp"] == 54590 and gap["earlier_cp"] - gap["later_cp"] == gap["difference_cp"] == 12800, "ledger: historical discrepancy differs")
     require(gap["status"].startswith("OPEN") and gap["current_cash_adjustment_cp"] == 0, "ledger: historical discrepancy must stay open without adjustment")
+
+
+def validate_finance_ledger_v2(root, state, ledger):
+    """Day156 player-approved accounts; historical schema1 remains supported."""
+    keys(ledger, {"schema_version", "as_of", "source", "qualification", "currency", "controlled_cash", "arc_reconciliation", "restitution", "commitments", "excluded_property", "historical_reconstruction", "historical_discrepancies"}, "ledger")
+    def amounts(value):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if key.endswith("_cp") and item is not None:
+                    if isinstance(item, dict):
+                        for amount in item.values(): integer(amount, "ledger copper")
+                    else: integer(item, "ledger copper", -10**12 if key == "delta_cp" else 0)
+                amounts(item)
+        elif isinstance(value, list):
+            for item in value: amounts(item)
+    amounts(ledger)
+    repository_file(root, ledger["source"], "ledger.source")
+    require(ledger["source"] == state["source"], "ledger: source differs")
+    require(ledger["as_of"] == dict(date=state["date"], season=state["calendar"]["season"], day_of_season=state["calendar"]["day_of_season"], time=state["time"], location=state["location"], session_status=state["status"]), "ledger: checkpoint date/status mismatch")
+    require(ledger["currency"] == dict(unit="cp", cp_per_gp=100, cp_per_sp=10), "ledger: currency units differ")
+    require("not independently discovered historical receipts" in ledger["qualification"], "ledger: provenance qualification required")
+    cash=ledger["controlled_cash"]
+    keys(cash, {"total_cp", "accounts"}, "ledger.controlled_cash")
+    accounts={}
+    for a in cash["accounts"]:
+        keys(a, {"id", "owner", "balance_cp", "basis"}, "ledger.account")
+        for field in ("id", "owner", "basis"): string(a[field], "ledger.account."+field)
+        require(a["id"] not in accounts, "ledger: duplicate cash account")
+        accounts[a["id"]]=a["balance_cp"]
+    require(set(accounts) == {"personal_purse", "legacy_secured", "general_treasury", "emergency_reserve", "operating_reserve", "savings", "expedition_reserve", "development", "research", "blackscale_private", "ashvale_restitution"}, "ledger: account coverage differs")
+    require(sum(accounts.values()) == cash["total_cp"] == copper(state["money"]["total_gp_sp"]), "ledger: account total differs")
+    arc=ledger["arc_reconciliation"]
+    keys(arc, {"opening_cp", "events", "closing_cp", "automatic_future_income", "day137_bridge"}, "ledger.arc")
+    require(arc["automatic_future_income"] is False, "ledger: automatic future income forbidden")
+    string(arc["day137_bridge"], "ledger.day137_bridge")
+    expected={"night_sovereign":-51500,"vanguard_remaining":-9400,"new_operating_surplus":6900,"provisions":-200,"sorn_cash_restitution":15400}
+    require(len(arc["events"]) == len(expected), "ledger: duplicate or missing arc event")
+    seen=set()
+    for event in arc["events"]:
+        keys(event, {"id", "delta_cp", "application_count"}, "ledger.event")
+        require(event["id"] in expected and event["id"] not in seen, "ledger: duplicate or unknown arc event")
+        seen.add(event["id"])
+        require(type(event["application_count"]) is int and event["application_count"] == 1, "ledger: event must apply once")
+        require(event["delta_cp"] == expected[event["id"]], "ledger: arc event amount differs")
+    require(arc["opening_cp"] + sum(e["delta_cp"] for e in arc["events"]) == arc["closing_cp"] == cash["total_cp"], "ledger: arc reconciliation differs")
+    rest=ledger["restitution"]
+    keys(rest, {"cash_components_cp", "cash_cp", "noncash_appraisal_cp", "combined_cp", "noncash_entity", "liens_recorded", "personal_transferable_holdings_exhausted", "future_legal_review_possible", "crown_and_third_party_property_excluded"}, "ledger.restitution")
+    require(rest["cash_components_cp"] == dict(strongbox=6340,private_savings=4760,horse_and_tack_sale=2200,furniture=1200,jewelry=900), "ledger: restitution components differ")
+    require(sum(rest["cash_components_cp"].values()) == rest["cash_cp"] == accounts["ashvale_restitution"] == 15400, "ledger: restitution cash differs")
+    require(rest["noncash_appraisal_cp"] == 5500 and rest["combined_cp"] == rest["cash_cp"]+rest["noncash_appraisal_cp"], "ledger: restitution noncash separation differs")
+    require(rest["noncash_entity"] == "briarstone-cottage" and rest["liens_recorded"] is False, "ledger: property identity/liens differ")
+    for field in ("personal_transferable_holdings_exhausted", "future_legal_review_possible", "crown_and_third_party_property_excluded"):
+        require(rest[field] is True, "ledger: settlement limits differ")
+    commit=ledger["commitments"]
+    keys(commit, {"expansion_committed_cp", "expansion_paid_cp", "uncommitted_cp", "construction_started"}, "ledger.commitments")
+    require(commit["expansion_committed_cp"] == 31700 and commit["expansion_paid_cp"] == 0 and commit["construction_started"] is False, "ledger: expansion must remain unpaid/unbuilt")
+    require(cash["total_cp"]-commit["expansion_committed_cp"] == commit["uncommitted_cp"], "ledger: uncommitted cash differs")
+    excluded={a["id"]:a for a in ledger["excluded_property"]}
+    require(len(excluded)==len(ledger["excluded_property"]) and set(excluded)=={"provisional_historic_coinage","office_petty_cash","lyanna_personal","academy_cash","academy_refundable_deposit","seized_custody_funds","merchant_property","unreconciled_salvage","estate_property","briarstone_cottage"}, "ledger: exclusions coverage differs")
+    for a in excluded.values():
+        require(a["included_in_controlled_cash"] is False, "ledger: excluded property cannot enter cash")
+        string(a["status"], "ledger.excluded.status")
+    require(excluded["briarstone_cottage"]["amount_cp"] == rest["noncash_appraisal_cp"], "ledger: cottage appraisal differs")
+    for ident, amount in (("provisional_historic_coinage", copper(state["money"]["provisional_historic_gp_sp"])), ("office_petty_cash", copper(state["money"]["office_petty_gp_sp"])), ("academy_cash", copper(state["context"]["academy"]["latest_reported_cash_gp_sp"])), ("academy_refundable_deposit", copper(state["context"]["academy"]["refundable_lease_deposit_gp_sp"]))):
+        require(excluded[ident]["amount_cp"] == amount, "ledger: excluded holdings differ")
+    historical=ledger["historical_reconstruction"]
+    keys(historical, {"ledger", "surplus_cp", "application_count"}, "ledger.historical_reconstruction")
+    repository_file(root,historical["ledger"],"ledger.historical_reconstruction")
+    require(historical["surplus_cp"] == 52000 and type(historical["application_count"]) is int and historical["application_count"] == 1, "ledger: historical distribution must apply once")
+    require(len(ledger["historical_discrepancies"]) == 1, "ledger: historical ruling required")
+    gap=ledger["historical_discrepancies"][0]
+    keys(gap, {"id", "difference_cp", "status", "discovered_receipts", "current_cash_adjustment_cp"}, "ledger.discrepancy")
+    require(gap["id"] == "day472-to-day124" and gap["difference_cp"] == 12800 and gap["status"] == "RESOLVED BY PLAYER-APPROVED RULING" and gap["discovered_receipts"] is False and gap["current_cash_adjustment_cp"] == 0, "ledger: discrepancy requires player ruling without invented receipts/adjustment")
 
 
 def validate(root):

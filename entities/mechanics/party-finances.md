@@ -10,11 +10,20 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
+- changes/chronicles/year848-day156-end-session.md
 checkpoint_values:
-  money.total_gp_sp: 1034gp 9sp
+  money.total_gp_sp: 771gp 9sp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+# Party finances — Day156 current canon
+
+Current controlled cash771gp9sp (77190cp), per [ledger](../../state/finance-ledger.json). Final allocations are explicit player rulings, not inferred transfers. Pre-arc1159gp9sp−515gp Night Sovereign−94gp Vanguard+69gp operating surplus−2gp provisions+154gp restitution=771gp9sp. Prior520gp modeled surplus distributed once;69gp posted once, no automatic income. Expansion317gp committed/unpaid;454gp9sp uncommitted. Sorn209gp restitution consists of154gp cash and55gp noncash cottage. Earlier128gp discrepancy resolved by player-approved ruling, never discovered receipts or a new cash award. Day137→pre-arc125gp bridge is unitemized. All prior excluded holdings stay separate.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Current finances — Year848 Suncrest17 Day137, 09:30
 

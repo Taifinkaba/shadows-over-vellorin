@@ -9,7 +9,16 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Fifth Bell — Day156 current canon
+
+Never sounded through Day156. Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven. No automatically discovered secret or completed threat resolution.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Fifth Bell
 

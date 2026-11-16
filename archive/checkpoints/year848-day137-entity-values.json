@@ -1,0 +1,39 @@
+{
+  "theron-ashvale": {
+    "date": "Year 848 Day 137",
+    "time": "09:30",
+    "location": "Ashvale Estate",
+    "status": "ENDED",
+    "theron.hp": 100,
+    "theron.hp_max": 100,
+    "theron.mp": 400,
+    "theron.mp_max": 400,
+    "theron.defense": 46,
+    "theron.rank": "S+",
+    "theron.level": 5,
+    "theron.str": 12,
+    "theron.dex": 20,
+    "theron.con": 16,
+    "theron.int": 20,
+    "theron.wis": 19,
+    "theron.cha": 19,
+    "theron.unspent_attributes": 0,
+    "resources.equipped_defense": 49,
+    "resources.bracers_defense_bonus": 3,
+    "resources.staff_mp": 156,
+    "resources.staff_mp_max": 180,
+    "resources.wagon_mp": 60,
+    "resources.wagon_mp_max": 60,
+    "resources.chronos_eye_locked": true,
+    "resources.dragon_slayer_locked": true
+  },
+  "party-finances": {
+    "money.total_gp_sp": "1034gp 9sp",
+    "money.provisional_historic_gp_sp": "9gp 1sp 14cp",
+    "money.office_petty_gp_sp": "6gp 4sp"
+  },
+  "vaeltharion": {
+    "world.vaeltharion_chains_attached": 0,
+    "world.protective_anchors_retained": 7
+  }
+}

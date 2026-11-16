@@ -4,13 +4,13 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 848 Day 137
-  time: 09:30
-  location: Ashvale Estate
+  date: Year 848 Day 156
+  time: '20:15'
+  location: Ashvale Estate family sitting room
   status: ENDED
   theron.hp: 100
   theron.hp_max: 100
-  theron.mp: 400
+  theron.mp: 378
   theron.mp_max: 400
   theron.defense: 46
   theron.rank: S+
@@ -39,7 +39,16 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Theron Ashvale / Blackscale — Day156 current canon
+
+Year848 Suncrest36 Day156,20:15; Ashvale Estate family sitting room, ENDED. HP100/100 MP378/400; permanent baseDEF46, Frostguard Bracers+3 = normal equipped49. Night Sovereign carried, not equipped;51 only while worn. Nexus156/180; existing Sovereign Expedition Wagon60/60. Chronos Eye~19% locked; Dragon Slayer locked. Maternal Healing Mastery5/5, prior limits/no resurrection. Controlled cash771gp9sp; expansion317gp committed/unpaid. No injuries/deaths, party home; intermediate mana history unverified.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Theron Ashvale / Blackscale — final checkpoint
 

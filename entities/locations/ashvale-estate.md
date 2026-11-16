@@ -10,7 +10,16 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Ashvale Estate — Day156 current canon
+
+Final checkpoint Year848 Suncrest36 Day156,20:15 in family sitting room; session ENDED. Party home, family safe, no injuries/deaths. Aric and mother informed on return. Expansion317gp committed/unpaid; no construction or cash transfer on commitment. House Ashvale separately owns Briarstone Cottage since Day154; no rent yet. New operating surplus69gp posted once; no automatic income.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Ashvale Estate — Day137 session end
 

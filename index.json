@@ -1374,6 +1374,259 @@
         "character-reference",
         "approved-design"
       ]
+    },
+    {
+      "id": "maelor-thane",
+      "type": "characters",
+      "title": "Keeper Maelor Thane",
+      "path": "entities/characters/maelor-thane.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "edrick-sorn",
+      "type": "characters",
+      "title": "Captain Edrick Sorn",
+      "path": "entities/characters/edrick-sorn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "halric-dene",
+      "type": "characters",
+      "title": "Lieutenant Halric Dene",
+      "path": "entities/characters/halric-dene.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "varian-morthal",
+      "type": "characters",
+      "title": "Varian Morthal",
+      "path": "entities/characters/varian-morthal.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "corvin-dareth",
+      "type": "characters",
+      "title": "Corvin Dareth",
+      "path": "entities/characters/corvin-dareth.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "selvar-renn",
+      "type": "characters",
+      "title": "Selvar Renn",
+      "path": "entities/characters/selvar-renn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "damaris-keld",
+      "type": "characters",
+      "title": "Damaris Keld",
+      "path": "entities/characters/damaris-keld.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "oren-veyl",
+      "type": "characters",
+      "title": "Oren Veyl",
+      "path": "entities/characters/oren-veyl.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "evara-holt",
+      "type": "characters",
+      "title": "Evara Holt",
+      "path": "entities/characters/evara-holt.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "elsbeth-marrin",
+      "type": "characters",
+      "title": "Reeve Elsbeth Marrin",
+      "path": "entities/characters/elsbeth-marrin.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "borin-emberhand",
+      "type": "characters",
+      "title": "Borin Emberhand",
+      "path": "entities/characters/borin-emberhand.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "mara-fenwick",
+      "type": "characters",
+      "title": "Mara Fenwick",
+      "path": "entities/characters/mara-fenwick.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "seren-willowmere",
+      "type": "characters",
+      "title": "Seren Willowmere",
+      "path": "entities/characters/seren-willowmere.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "harlan-wicks",
+      "type": "characters",
+      "title": "Harlan Wicks",
+      "path": "entities/characters/harlan-wicks.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "ressa-vale",
+      "type": "characters",
+      "title": "Watch Captain Ressa Vale",
+      "path": "entities/characters/ressa-vale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "alda-perrin",
+      "type": "characters",
+      "title": "Alda Perrin",
+      "path": "entities/characters/alda-perrin.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "corin",
+      "type": "characters",
+      "title": "Corin",
+      "path": "entities/characters/corin.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "briarstone-cottage",
+      "type": "locations",
+      "title": "Briarstone Cottage",
+      "path": "entities/locations/briarstone-cottage.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "brackenford",
+      "type": "locations",
+      "title": "Brackenford",
+      "path": "entities/locations/brackenford.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "ashvale-lifeline",
+      "type": "items",
+      "title": "Ashvale Lifeline",
+      "path": "entities/items/ashvale-lifeline.md",
+      "status": "canon",
+      "visibility": "gm-secret",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "dawnbreakers-promise",
+      "type": "items",
+      "title": "Dawnbreaker's Promise",
+      "path": "entities/items/dawnbreakers-promise.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "night-sovereign",
+      "type": "items",
+      "title": "Night Sovereign",
+      "path": "entities/items/night-sovereign.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
+    },
+    {
+      "id": "vanguard-wagon",
+      "type": "items",
+      "title": "Ashvale Vanguard Wagon",
+      "path": "entities/items/vanguard-wagon.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "day156"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

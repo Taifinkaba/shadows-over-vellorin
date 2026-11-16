@@ -10,7 +10,16 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Dragon scale stock — Day156 current canon
+
+Previously reserved owned intact shed scale consumed once in completed Night Sovereign. No owned intact reserved scale remains from that holding. Earlier stocks and three gifted scales are historical, not an extra award; no new stocktake or granted Vaeltharion request.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Vaeltharion’s scale stock
 

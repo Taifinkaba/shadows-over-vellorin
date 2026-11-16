@@ -6,7 +6,16 @@ visibility: gm-reference
 source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Sovereign Expedition Wagon — Day156 current canon
+
+Existing separate wagon retains60/60 mana. New completed mundane Vanguard Wagon is a distinct physical vehicle, no added pool or merged identity.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Sovereign Expedition Wagon
 

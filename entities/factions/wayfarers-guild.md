@@ -6,7 +6,16 @@ visibility: gm-reference
 source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Wayfarers Guild — Day156 current canon
+
+SS-41 registry revoked. Specific Crown SS-41 apprehension instruction withdrawn by magistrate; independent other notices not automatically canceled. No new reward. Authority chain: Corvin Dareth → Varian Morthal exceptional countersignature → Selvar Renn receipt → Damaris Keld distribution.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Wayfarers’ Guild
 

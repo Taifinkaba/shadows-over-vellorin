@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "as_of": {
+    "date": "Year 848 Day 137",
+    "season": "Suncrest",
+    "day_of_season": 17,
+    "time": "09:30",
+    "location": "Ashvale Estate",
+    "session_status": "ENDED"
+  },
+  "source": "changes/chronicles/year848-day137-end-session.md",
+  "qualification": "Explicit player-approved continuity reconstruction; not independently discovered historical receipts.",
+  "currency": {
+    "unit": "cp",
+    "cp_per_gp": 100,
+    "cp_per_sp": 10
+  },
+  "controlled_cash": {
+    "baseline_cp": 51490,
+    "baseline_personal_purse_cp": 2000,
+    "baseline_legacy_secured_cp": 49490,
+    "total_cp": 103490,
+    "accounts": [
+      {
+        "id": "personal_purse",
+        "owner": "theron-ashvale",
+        "balance_cp": 4600,
+        "basis": "Existing 20 gp plus 26 gp distribution"
+      },
+      {
+        "id": "legacy_secured",
+        "owner": "theron-managed controlled funds",
+        "balance_cp": 49490,
+        "basis": "Older allocations unresolved; includes no additional historical accounts"
+      },
+      {
+        "id": "general_treasury",
+        "owner": "Theron-managed estate funds",
+        "balance_cp": 13000,
+        "basis": "New one-time allocation"
+      },
+      {
+        "id": "emergency_reserve",
+        "owner": "Theron-managed estate funds",
+        "balance_cp": 7800,
+        "basis": "New one-time allocation"
+      },
+      {
+        "id": "operating_reserve",
+        "owner": "Theron-managed estate funds",
+        "balance_cp": 7800,
+        "basis": "New one-time allocation"
+      },
+      {
+        "id": "savings",
+        "owner": "Theron-managed estate funds",
+        "balance_cp": 5200,
+        "basis": "New one-time allocation"
+      },
+      {
+        "id": "expedition_reserve",
+        "owner": "Theron-managed estate funds",
+        "balance_cp": 5200,
+        "basis": "New one-time allocation"
+      },
+      {
+        "id": "development",
+        "owner": "Theron-managed estate funds",
+        "balance_cp": 5200,
+        "basis": "New one-time allocation"
+      },
+      {
+        "id": "research",
+        "owner": "Theron-managed estate funds",
+        "balance_cp": 2600,
+        "basis": "New one-time allocation"
+      },
+      {
+        "id": "blackscale_private",
+        "owner": "theron-ashvale",
+        "balance_cp": 2600,
+        "basis": "New one-time allocation"
+      }
+    ]
+  },
+  "operating_reconstruction": {
+    "periods": 8,
+    "automatic_future_awards": false,
+    "future_authorization": "Future actual periods require Tomas receipts and expense records, or another explicit player-approved accounting ruling.",
+    "merchant_eligible_gross_cp_per_period": 25000,
+    "commission_percent": 22,
+    "revenue_cp_per_period": {
+      "merchant_commissions": 5500,
+      "lodge_rooms_and_meals": 4500,
+      "rental_cottages": 2500,
+      "merchant_storage_bays": 2500,
+      "forge_and_repairs": 3500,
+      "bakery": 4500,
+      "caravan_and_stables": 2500,
+      "healing_springs": 1500
+    },
+    "expenses_cp_per_period": {
+      "staff_wages": 9000,
+      "supplies_and_materials": 3500,
+      "maintenance": 2000,
+      "fodder_and_fuel": 1000,
+      "guards_and_security": 3500,
+      "taxes_and_transport": 1500
+    },
+    "estate_receipts_cp_per_period": 27000,
+    "expenses_total_cp_per_period": 20500,
+    "surplus_cp_per_period": 6500,
+    "gross_estate_receipts_cp": 216000,
+    "operating_expenses_cp": 164000,
+    "net_distributable_surplus_cp": 52000
+  },
+  "distributions": {
+    "application_count": 1,
+    "base": "net_distributable_surplus_cp",
+    "allocations": [
+      {
+        "account": "general_treasury",
+        "percent": 25,
+        "amount_cp": 13000
+      },
+      {
+        "account": "emergency_reserve",
+        "percent": 15,
+        "amount_cp": 7800
+      },
+      {
+        "account": "operating_reserve",
+        "percent": 15,
+        "amount_cp": 7800
+      },
+      {
+        "account": "savings",
+        "percent": 10,
+        "amount_cp": 5200
+      },
+      {
+        "account": "expedition_reserve",
+        "percent": 10,
+        "amount_cp": 5200
+      },
+      {
+        "account": "development",
+        "percent": 10,
+        "amount_cp": 5200
+      },
+      {
+        "account": "research",
+        "percent": 5,
+        "amount_cp": 2600
+      },
+      {
+        "account": "personal_purse",
+        "percent": 5,
+        "amount_cp": 2600
+      },
+      {
+        "account": "blackscale_private",
+        "percent": 5,
+        "amount_cp": 2600
+      }
+    ]
+  },
+  "expense_history": {
+    "earlier_checkpoint_cp": 54590,
+    "events": [
+      {
+        "description": "Private venue expense \u2014 12 gp, all charges included.",
+        "delta_cp": -1200,
+        "balance_cp": 53390
+      },
+      {
+        "description": "Private venue expense \u2014 19 gp, all charges included.",
+        "delta_cp": -1900,
+        "balance_cp": 51490
+      },
+      {
+        "description": "Internal purse refill; 19 gp secured funds to purse, no total change.",
+        "delta_cp": 0,
+        "transfer_cp": 1900,
+        "balance_cp": 51490
+      },
+      {
+        "description": "Approved eight-period reconstructed surplus, applied once.",
+        "delta_cp": 52000,
+        "balance_cp": 103490
+      }
+    ],
+    "private_expenses_already_deducted": true
+  },
+  "excluded_property": [
+    {
+      "id": "provisional_historic_coinage",
+      "amount_cp": 924,
+      "status": "Approximately 9 gp 1 sp 14 cp; unreconciled historic coinage",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "office_petty_cash",
+      "amount_cp": 640,
+      "status": "North Return House funds",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "lyanna_personal",
+      "amount_cp": null,
+      "status": "Separate personal funds; current balance unverified",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "academy_cash",
+      "amount_cp": 3400,
+      "status": "Earlier report only; not current certification",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "academy_refundable_deposit",
+      "amount_cp": 1500,
+      "status": "Noncash deposit; earlier report only",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "seized_custody_funds",
+      "amount_cp": 3820,
+      "status": "Historical custody; ownership/disposition unresolved",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "merchant_property",
+      "amount_cp": null,
+      "status": "Not estate-owned; eligible merchant gross sales excluded",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "unreconciled_salvage",
+      "amount_cp": null,
+      "status": "Title and valuation unresolved",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "estate_property",
+      "amount_cp": null,
+      "status": "Noncash land, buildings, inventory and equipment",
+      "included_in_controlled_cash": false
+    }
+  ],
+  "assets_deposits_liabilities": {
+    "land_purchase": {
+      "acres": 120,
+      "historical_cost_cp": 25200,
+      "already_paid": true,
+      "current_deduction_cp": 0
+    },
+    "proposed_expansion": {
+      "estimate_cp": 31700,
+      "spent_cp": 0,
+      "payable": false
+    },
+    "night_sovereign": {
+      "approximate_estimate_cp": 68700,
+      "current_payable": false
+    },
+    "other_current_liabilities": "No newly certified payable; do not invent a debt."
+  },
+  "historical_discrepancies": [
+    {
+      "id": "day472-to-day124",
+      "earlier_cp": 67390,
+      "later_cp": 54590,
+      "difference_cp": 12800,
+      "status": "OPEN \u2014 unsupported by itemized transaction",
+      "current_cash_adjustment_cp": 0,
+      "resolution": "Verify historical records; no refund, deduction or fabricated balancing transaction."
+    }
+  ]
+}

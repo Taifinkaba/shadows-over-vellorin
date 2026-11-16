@@ -97,3 +97,26 @@ Day124 snapshot and structured owner values are preserved under archive/checkpoi
 its tests restore those fixtures in disposable copies. Schema2/3 fixtures remain
 unchanged. Day137 mutation tests exercise double-counting, exclusions, commission,
 percentages, repeat expenses/distributions, estimates, locks, mana and custody.
+
+## Day156 ledger schema2
+
+The checkpoint retains compatible schema5 and structured ownership; the carried
+Night Sovereign leaves normal equipped DEF49. Conditional worn DEF51 and spell
+limits are recorded in its indexed item entity and checkpoint project notes.
+The existing wagon pool remains60/60; mundane Vanguard has its own item entity
+and no pool. Day137 custody aggregates remain historical, explicitly separate
+from the newly reviewed V-9 cases.
+
+Finance ledger schema2 replaces schema1's current-account assumptions while
+schema1 remains validated against preserved Day137 fixtures. It records exact
+integer-copper final allocations, the five once-only arc events,15400cp cash
+restitution separately from5500cp noncash appraisal,31700cp committed/unpaid
+expansion and45490cp uncommitted cash. The historical52000cp reconstruction
+is referenced once; the12800cp discrepancy is resolved by player ruling with
+no invented receipts or current adjustment. The103490cp→115990cp bridge remains
+unitemized. Tests reject duplicate postings, fractional/boolean copper,
+noncash awards, paid expansion, invented settlement finality and automatic income.
+
+Validation checks declared accounting and references; it does not independently
+substantiate the player's scene reconstruction, legal claims, NPC identities,
+conditional concentration behavior or unrecorded historical transactions.

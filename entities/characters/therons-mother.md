@@ -7,7 +7,16 @@ source_refs:
 - archive/legacy-modules/world/07-7-the-ashvale-family.md
 - archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md
 - changes/chronicles/character-reference-design-approval.md
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Theron's mother — Day156 current canon
+
+Informed on return Year848 Suncrest36 Day156; family safe at home. No invented intervening travel or additional outcome.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Theron's mother
 
