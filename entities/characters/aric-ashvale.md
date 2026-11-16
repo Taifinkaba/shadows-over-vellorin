@@ -9,7 +9,16 @@ source_refs:
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Aric Ashvale — Day156 current canon
+
+Informed on return Year848 Suncrest36 Day156; family safe at home. No invented intervening travel or additional outcome.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Aric Ashvale
 

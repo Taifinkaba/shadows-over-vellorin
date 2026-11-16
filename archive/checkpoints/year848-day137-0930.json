@@ -1,0 +1,98 @@
+{
+  "schema_version": 5,
+  "date": "Year 848 Day 137",
+  "time": "09:30",
+  "location": "Ashvale Estate",
+  "theron": {
+    "hp": 100,
+    "hp_max": 100,
+    "mp": 400,
+    "mp_max": 400,
+    "defense": 46,
+    "rank": "S+",
+    "level": 5,
+    "str": 12,
+    "dex": 20,
+    "con": 16,
+    "int": 20,
+    "wis": 19,
+    "cha": 19,
+    "unspent_attributes": 0
+  },
+  "money": {
+    "total_gp_sp": "1034gp 9sp",
+    "provisional_historic_gp_sp": "9gp 1sp 14cp",
+    "office_petty_gp_sp": "6gp 4sp",
+    "allocation_status": "approved reconstruction; new allocations certified; legacy 494gp 9sp older allocations unresolved",
+    "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
+    "office_status": "separately held house funds; excluded from expedition income and controlled cash"
+  },
+  "world": {
+    "vaeltharion_chains_attached": 0,
+    "protective_anchors_retained": 7
+  },
+  "status": "ENDED",
+  "source": "changes/chronicles/year848-day137-end-session.md",
+  "context": {
+    "safety": "Session ENDED at Ashvale Estate. Halden Marr rescued, free and voluntarily protected. Theron returned alone from Eastrun; privacy maintained. No further gameplay.",
+    "companions_present": [
+      "lyra-moonvale"
+    ],
+    "party_roles": {
+      "theron-ashvale": "Returned alone from Eastrun to Ashvale Estate; session ended",
+      "tomas": "Independently manages estate operations and accounting",
+      "lyra-moonvale": "Continues Halden care and Healing Springs research"
+    },
+    "projects": {
+      "nexus_mana": "156/180; finite independent staff mana",
+      "wagon_mana": "60/60",
+      "equipped_defense": "49; base46 plus Frostguard Bracers3",
+      "chronos_eye": "approximately19%, LOCKED",
+      "dragon_slayer": "LOCKED BY PLAYER CHOICE",
+      "accord": "Peaceful recognition and limited communication only",
+      "custody": "Immediate Greyvein four-prisoner review complete: two released, one retained under documented proceedings, one medically transferred with hearing pending; identities not supplied.",
+      "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
+      "halden": "Rescued, free and voluntarily protected at Ashvale Estate",
+      "independent_assignments": "Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion."
+    },
+    "academy": {
+      "entity": "dragon-slayer-academy",
+      "latest_reported_cash_gp_sp": "34gp",
+      "refundable_lease_deposit_gp_sp": "15gp",
+      "balance_date": "Unspecified earlier report; no later verified ledger in repository",
+      "included_in_party_total": false
+    },
+    "outstanding_clues": [
+      "V-9 is a custody authorization designation; individual controller unknown",
+      "Original Crown bounty contracts and monetary amounts unverified",
+      "Serrik Vale supplied distribution records and agreed to corrections; no additional payment inferred",
+      "128 gp historical difference remains open; no current adjustment",
+      "Other deferred investigations and independent assignments preserved; see open-verifications.md"
+    ],
+    "recent_mp_costs": {},
+    "mp_before_recent_casts": null
+  },
+  "resources": {
+    "equipped_defense": 49,
+    "bracers_defense_bonus": 3,
+    "staff_mp": 156,
+    "staff_mp_max": 180,
+    "wagon_mp": 60,
+    "wagon_mp_max": 60,
+    "chronos_eye_locked": true,
+    "dragon_slayer_locked": true
+  },
+  "calendar": {
+    "season": "Suncrest",
+    "day_of_season": 17
+  },
+  "custody": {
+    "reviewed": 4,
+    "released": 2,
+    "retained": 1,
+    "medically_transferred": 1,
+    "hearing_pending": true,
+    "identities_status": "Not supplied; do not map onto earlier detainees",
+    "halden_status": "Free, voluntarily protected at Ashvale Estate"
+  }
+}

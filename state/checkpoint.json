@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "date": "Year 848 Day 137",
-  "time": "09:30",
-  "location": "Ashvale Estate",
+  "date": "Year 848 Day 156",
+  "time": "20:15",
+  "location": "Ashvale Estate family sitting room",
   "theron": {
     "hp": 100,
     "hp_max": 100,
-    "mp": 400,
+    "mp": 378,
     "mp_max": 400,
     "defense": 46,
     "rank": "S+",
@@ -20,10 +20,10 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "1034gp 9sp",
+    "total_gp_sp": "771gp 9sp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
-    "allocation_status": "approved reconstruction; new allocations certified; legacy 494gp 9sp older allocations unresolved",
+    "allocation_status": "player-approved final allocations; see finance ledger schema2",
     "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
     "office_status": "separately held house funds; excluded from expedition income and controlled cash"
   },
@@ -32,28 +32,33 @@
     "protective_anchors_retained": 7
   },
   "status": "ENDED",
-  "source": "changes/chronicles/year848-day137-end-session.md",
+  "source": "changes/chronicles/year848-day156-end-session.md",
   "context": {
-    "safety": "Session ENDED at Ashvale Estate. Halden Marr rescued, free and voluntarily protected. Theron returned alone from Eastrun; privacy maintained. No further gameplay.",
+    "safety": "Session ENDED; party home, family safe, no injuries or deaths. No further gameplay.",
     "companions_present": [
-      "lyra-moonvale"
+      "aric-ashvale",
+      "therons-mother"
     ],
     "party_roles": {
-      "theron-ashvale": "Returned alone from Eastrun to Ashvale Estate; session ended",
-      "tomas": "Independently manages estate operations and accounting",
-      "lyra-moonvale": "Continues Halden care and Healing Springs research"
+      "theron-ashvale": "Home in family sitting room; session ENDED",
+      "aric-ashvale": "Informed on return; safe",
+      "therons-mother": "Informed on return; safe"
     },
     "projects": {
       "nexus_mana": "156/180; finite independent staff mana",
       "wagon_mana": "60/60",
-      "equipped_defense": "49; base46 plus Frostguard Bracers3",
+      "equipped_defense": "49 normally; 51 while completed Night Sovereign worn; mask carried, not equipped",
       "chronos_eye": "approximately19%, LOCKED",
       "dragon_slayer": "LOCKED BY PLAYER CHOICE",
       "accord": "Peaceful recognition and limited communication only",
-      "custody": "Immediate Greyvein four-prisoner review complete: two released, one retained under documented proceedings, one medically transferred with hearing pending; identities not supplied.",
+      "custody": "Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
       "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
       "halden": "Rescued, free and voluntarily protected at Ashvale Estate",
-      "independent_assignments": "Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion."
+      "independent_assignments": "Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion.",
+      "vanguard": "Completed mundane roadworthy Vanguard; no mana pool, distinct from Sovereign Expedition Wagon",
+      "night_sovereign": "Completed, tested, paid515gp; reserved scale consumed once",
+      "maternal_healing": "Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
+      "healing_springs": "2/5"
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -63,11 +68,11 @@
       "included_in_party_total": false
     },
     "outstanding_clues": [
-      "V-9 is a custody authorization designation; individual controller unknown",
-      "Original Crown bounty contracts and monetary amounts unverified",
-      "Serrik Vale supplied distribution records and agreed to corrections; no additional payment inferred",
-      "128 gp historical difference remains open; no current adjustment",
-      "Other deferred investigations and independent assignments preserved; see open-verifications.md"
+      "Halric Dene whereabouts unknown",
+      "Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven",
+      "Northern Witness Index and E-R-7 unresolved",
+      "One V-9 transferred case unverified; other documented cases remain separate",
+      "Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts"
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -84,7 +89,7 @@
   },
   "calendar": {
     "season": "Suncrest",
-    "day_of_season": 17
+    "day_of_season": 36
   },
   "custody": {
     "reviewed": 4,

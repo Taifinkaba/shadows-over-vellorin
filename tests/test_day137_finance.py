@@ -19,6 +19,17 @@ class Day137Tests(unittest.TestCase):
         for name in ('entities', 'archive', 'state', 'changes'):
             shutil.copytree(ROOT/name, self.root/name)
         shutil.copy2(ROOT/'index.json', self.root/'index.json')
+        shutil.copy2(ROOT/'archive/checkpoints/year848-day137-0930.json', self.root/'state/checkpoint.json')
+        shutil.copy2(ROOT/'archive/checkpoints/year848-day137-finance-ledger.json', self.root/'state/finance-ledger.json')
+        import yaml
+        from scripts.validate import frontmatter
+        historical = json.loads((ROOT/'archive/checkpoints/year848-day137-entity-values.json').read_text())
+        for ident, values in historical.items():
+            path = next((self.root/'entities').rglob(ident+'.md'))
+            meta = frontmatter(path)
+            body = path.read_text().split('---', 2)[2]
+            meta['checkpoint_values'] = values
+            path.write_text('---\n'+yaml.safe_dump(meta, sort_keys=False)+'---'+body)
         self.state = json.loads((self.root/'state/checkpoint.json').read_text())
         self.ledger = json.loads((self.root/'state/finance-ledger.json').read_text())
 

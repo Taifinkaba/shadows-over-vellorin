@@ -6,7 +6,16 @@ visibility: gm-reference
 source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Equipment and projects — Day156 current canon
+
+Night Sovereign completed/tested/paid515gp, reserved scale consumed once. Vanguard completed mundane/roadworthy, suspension corrected and road/load tested,94gp remainder paid; separate existing Sovereign Expedition Wagon60/60. Lyanna owns Dawnbreaker's Promise, no duplicate charge. Maternal Healing Mastery5/5; Healing Springs2/5. Eclipse Sovereigns regulator refinements pending. Chronos Eye~19% locked; Dragon Slayer locked. Expansion317gp committed/unpaid; no construction/cash transfer on commitment.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Outstanding equipment and projects
 

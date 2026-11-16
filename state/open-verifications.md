@@ -1,3 +1,16 @@
+# Current verification queue — Year848 Suncrest36 Day156,20:15
+
+- Latest explicit player checkpoint and scene revisions supersede older snapshots; source is in-session story established, not discovered historical evidence.
+- Day1371034gp9sp to pre-arc1159gp9sp lacks itemized125gp bridge. Earlier128gp discrepancy resolved by player-approved ruling, not receipts or new cash. Prior520gp and new69gp posted once, no future automatic income.
+- Expansion317gp committed/unpaid with no construction/transfer. Cottage55gp noncash; no rent yet, no municipal rights. Sorn transferable personal holdings exhausted under played settlement; future review possible, no invented assets/liens.
+- Thane alive/surrendered, independent review pending. Sorn military review pending; Halric Dene location unknown. One V-9 transferred case unverified; infirmary case subsequently released, Evara Holt released. Separate from older Greyvein aggregate and Lyanna's three vessels.
+- Fifth Bell never sounded; foreign layer/FB-5 unresolved, Ashvale resonance theory unproven. Northern Witness Index/E-R-7 unresolved. Empty cottage compartment inspected at transfer; marks/history uninvestigated; possible historic visitor/inn/miller lead grants no secret or income.
+- Intermediate event dates/order and personal mana spending/recovery remain unverified. Final378/400 explicit, no fabricated rest. Mask carried:DEF49 normally,51 only worn; Vanguard mundane and distinct from mana wagon60/60.
+- Other deferred quests, autonomous assignments, evidence boundaries and earlier identity gaps persist unless explicitly superseded. New figures distinct from older Crown/Voss; CROWN-07 remains Severin Valcrest.
+- Existing repository visibility/governance conflict remains; no settings changed.
+
+## Historical queues — superseded only where explicit above
+
 # Current verification queue — Year848 Suncrest17 Day137,09:30
 
 - **128 gp historical discrepancy OPEN:** Year847 Day472673gp9sp → Year848 Day124545gp9sp; no itemized transaction. No refund, deduction or fabricated balancing entry. Current1034gp9sp does not resolve this history.

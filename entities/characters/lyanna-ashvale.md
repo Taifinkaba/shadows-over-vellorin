@@ -10,7 +10,16 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Lyanna Ashvale — Day156 current canon
+
+Owns Dawnbreaker's Promise; no duplicate purchase or charge. Party home, family safe. Three restored memory vessels are Lyanna's, not three distinct people. Hidden protective information is separately GM-only and is not her knowledge.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Lyanna Ashvale
 

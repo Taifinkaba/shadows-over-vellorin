@@ -8,7 +8,16 @@ source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
+- changes/chronicles/year848-day156-end-session.md
 ---
+
+# Theron abilities — Day156 current canon
+
+Maternal Healing Mastery5/5. Deep Restoration36MP; Regenerative Weave32MP; Master Restoration Weave48MP. Previously established limits remain; no resurrection. Spirit Mana Assimilation II24 personal MP per uninterrupted10min to cap400; existing usable ambient source/concentration requirements remain. Personal MP378/400, Nexus156/180, separate Sovereign Expedition Wagon60/60. No automatic recharge.
+
+
+## Historical record before Day156 (superseded only where explicit above)
+
 
 # Theron: verified abilities
 
