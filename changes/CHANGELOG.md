@@ -1,3 +1,10 @@
+# Governments, courts and custody — chunk 4
+
+- Add scoped references for seven existing authority functions, a pending-approval crosswalk for seven Valedorn roles/twelve buildings/sixteen officials, and a justice lookup for all18 unchanged route records. No new location, character or faction entities and no enacted nationwide hierarchy.
+- Extend the existing prisoner-custody owner with source freshness links, workflow reference and empty new-event slots; preserve original historical text, separate groups and pending review boundaries. No duplicate custody register or invented destinations/receipts.
+- Add capture/handover/evidence procedure, proposed legal process and four detention categories; keep missing institutions, staff, powers, geography and capacity unknown. No new GM-secret material.
+- Add read-only validation, prospective transfer completeness tests, preservation hashes, index/README links and retrieval/schema documentation. No campaign time, state, finances, custody outcomes, inventory, assignments, quest progress, political control or visibility changed. No Day181 adoption, Chunk5 work or merge authorization.
+
 # Settlements, businesses and services — chunk 3
 
 - Add a retrieval-only directory for eleven existing settlement/site/property profiles, fourteen source-backed parent-scoped business/service records, and zero proposed business instances. No new location or NPC entities.

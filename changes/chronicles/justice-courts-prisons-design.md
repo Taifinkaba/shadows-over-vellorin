@@ -1,0 +1,7 @@
+# Chunk 4 justice maintenance design provenance
+
+Source: player-supplied “CODEX CHUNK 4 OF 10 — Governments, Law Enforcement, Courts & Prisons” request, after merged Chunks1–3. Baseline fe4d025d6e19423c4cc43e37a9069ad04f27d74b. The request authorizes an indexed justice framework, explicit proposals, custody workflow/source freshness, directories, validation and a PR. It does not enact the Valedorn framework, approve officials/buildings, establish borders, transfer anyone, decide guilt, change ownership or advance play.
+
+The request explicitly supplies seven institutional roles, twelve building candidates and sixteen officer candidates. Those names are proposal provenance only. Complete World Bible2.2 is not supplied; no inferred job-to-building pairing or geographic extent. Valedorn has no verified geography mapping in the existing index, and is not equated to Vellorin or every Crown region. Known equivalent authorities are referenced before new organizations are considered. Candidates remain scoped review records, not new character/location/faction entities.
+
+Public references contain ordinary offices, workflow and proposals only. Custody freshness is resolved by source routing in the existing custody owner, without copying hidden identities, conspiracy answers or case-status snapshots. Archived legal design remains proposed except independently confirmed authority/outcomes. No main-quest conclusion is introduced. Existing privacy inconsistency is retained; no visibility change. Only Chunk4 is implemented; no Concord/Chunk5 work.

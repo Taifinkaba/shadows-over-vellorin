@@ -2069,6 +2069,55 @@
         "services",
         "chunk3"
       ]
+    },
+    {
+      "id": "justice-authorities",
+      "type": "mechanics",
+      "title": "Existing justice authority references",
+      "path": "entities/mechanics/justice-authorities.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "justice",
+        "chunk4"
+      ]
+    },
+    {
+      "id": "justice-proposals",
+      "type": "mechanics",
+      "title": "Justice approval crosswalk and proposed institutions",
+      "path": "entities/mechanics/justice-proposals.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "justice",
+        "chunk4",
+        "proposed"
+      ]
+    },
+    {
+      "id": "justice-road-links",
+      "type": "mechanics",
+      "title": "Road jurisdiction lookup",
+      "path": "entities/mechanics/justice-road-links.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "justice",
+        "chunk4"
+      ]
+    },
+    {
+      "id": "justice-and-jurisdiction",
+      "type": "rules",
+      "title": "Custody destination and proposed legal procedure",
+      "path": "entities/rules/justice-and-jurisdiction.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "justice",
+        "chunk4"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

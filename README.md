@@ -24,6 +24,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [Settlement directory](docs/settlement-directory.md) routes eleven existing locality/property profiles and parent-scoped business/service records. Unknown owners, prices and stock stay unknown; no automatic income, purchases or NPC assignments.
 
+## Justice and custody
+
+[Justice/custody directory](docs/justice-and-custody-directory.md) links existing authorities, explicitly proposed institutions and the single custody register. Unknown jurisdictions, receiving officers and prison destinations stay unknown; no automatic transfers or legal outcomes.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 
