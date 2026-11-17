@@ -44,6 +44,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [NPC/assignment retrieval](docs/npc-autonomy-and-world-events.md) and [faction activity directory](docs/faction-activity-directory.md) route existing owners and historical chronicles. Manual communication/time-advance procedures preserve consent, resources and discovery boundaries; proposed clocks/categories create no events or automatic progress.
 
+## Main quest and completion design
+
+[Main quest directory](docs/main-quest-directory.md) routes original quest/evidence owners, protected achievements and unresolved questions. The five-chapter/14-scene ending plan remains proposed; unfilled answers and clue routes require approval and private storage. No story progress, new revelations or automatic completion.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 
