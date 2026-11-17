@@ -1,3 +1,4 @@
+from case_support import isolated_case, validate_scope
 """Finite quest design remains a proposal; source history and blank secrets are protected."""
 import copy
 import hashlib
@@ -33,85 +34,83 @@ class QuestFrameworkTests(unittest.TestCase):
 
     def reject(self,ident,fn):
         self.edit(ident,fn)
-        with self.assertRaises(ValidationError):validate(self.root)
+        with self.assertRaises(ValidationError):validate_scope(self.root, 'quest_framework')
 
-    def test_current_repository_and_missing_prospective_approvals_valid(self):
-        result=validate(self.root)
-        self.assertIn(f"{len(json.loads((self.root/'index.json').read_text())['entries'])} entity records",result);self.assertIn('pending 18 answer approvals / 14 clue routes',result)
 
-    def test_all_preexisting_campaign_state_and_history_unchanged(self):
-        fixture=json.loads((ROOT/'tests/fixtures/chunk9-preservation.json').read_text())
-        for path,digest in fixture['sha256'].items():
-            with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
+    def test_causality_and_continuity_and_contracts_and_schema_1(self):
+        with self.subTest(case='test_prevented_activation_is_not_permanent_threat_resolution'), isolated_case(self):
+            s=(self.root/'entities/quests/fifth-bell-threat.md').read_text()
+            self.assertIn('status: active',s);self.assertIn('activation prevented',s)
+            self.assertIn('Surviving conspiracy branches remain open',s)
+            self.assertIn('Never sounded through Day156',(self.root/'entities/items/fifth-bell.md').read_text())
+        with self.subTest(case='test_current_repository_and_missing_prospective_approvals_valid'), isolated_case(self):
+            result=validate(self.root)
+            self.assertIn(f"{len(json.loads((self.root/'index.json').read_text())['entries'])} entity records",result);self.assertIn('pending 18 answer approvals / 14 clue routes',result)
+        with self.subTest(case='test_cli_readiness_is_readonly_and_validates_first'), isolated_case(self):
+            before=(self.root/'state/checkpoint.json').read_bytes()
+            result=subprocess.run([sys.executable,str(ROOT/'scripts/quest_framework.py'),'--readiness','--root',str(self.root)],capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr);self.assertEqual(len(json.loads(result.stdout)['missing_answer_approvals']),18)
+            self.assertEqual(before,(self.root/'state/checkpoint.json').read_bytes())
+            self.edit('quest-answer-blueprint',lambda d:d['pending_answers'][0]['values'].update(definitive_answer='invented'))
+            result=subprocess.run([sys.executable,str(ROOT/'scripts/quest_framework.py'),'--readiness','--root',str(self.root)],capture_output=True,text=True)
+            self.assertNotEqual(result.returncode,0);self.assertNotIn('invented',result.stdout)
+        with self.subTest(case='test_all_validation_is_readonly'), isolated_case(self):
+            before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance') for p in (self.root/folder).rglob('*') if p.is_file()}
+            validate(self.root);readiness_report(self.root)
+            self.assertEqual(before,{path:hashlib.sha256(Path(path).read_bytes()).hexdigest() for path in before})
+        with self.subTest(case='test_optional_legal_reviews_are_not_required_to_end_main_quest'), isolated_case(self):
+            rows={x['mystery_id']:x for x in self.data('quest-evidence-and-mysteries')['mysteries']}
+            for ident in ('thane-review','sorn-review','remaining-notices','a07-consent','correspondent','watcher','freight-director','damaged-channels'):
+                self.assertEqual(rows['mystery:'+ident]['proposed_objective_ids'],[])
+            objectives=self.data('quest-resolution-proposals')['objectives']
+            self.assertEqual(len(objectives),7)
+            self.assertTrue(all(all(x.startswith('objective:') for x in row['depends_on']) for row in objectives))
 
-    def test_readiness_reports_blockers_without_secret_values(self):
-        r=readiness_report(self.root)
-        self.assertEqual(len(r['missing_answer_approvals']),18);self.assertEqual(len(r['unfilled_clue_route_ids']),14)
-        self.assertEqual(len(r['core_design_approval_ids']),10);self.assertEqual(len(r['optional_design_approval_ids']),8)
-        self.assertTrue(r['baseline_valid']);self.assertIn('BLOCKED',r['play_activation'])
-        self.assertNotIn('values',r);self.assertNotIn('definitive_answer',json.dumps(r))
-        self.assertIn('optional questions are not ending prerequisites',r['note'])
+    def test_contracts_and_schema_and_identity_2(self):
+        with self.subTest(case='test_blueprint_is_entirely_unfilled_not_metadata_spoilers'), isolated_case(self):
+            d=self.data('quest-answer-blueprint')
+            for row in d['pending_answers']:
+                self.assertTrue(all(v is None for v in row['values'].values()));self.assertIsNone(row['private_storage_ref'])
+            self.assertFalse(d['public_secret_values_allowed']);self.assertEqual(d['new_fixed_answers'],[])
+        with self.subTest(case='test_partial_framework_rejected'), isolated_case(self):
+            self.path('quest-answer-blueprint').unlink()
+            p=self.root/'index.json';d=json.loads(p.read_text());d['entries']=[x for x in d['entries'] if x['id']!='quest-answer-blueprint'];p.write_text(json.dumps(d))
+            with self.assertRaises(ValidationError):validate(self.root)
+        with self.subTest(case='test_readiness_reports_blockers_without_secret_values'), isolated_case(self):
+            r=readiness_report(self.root)
+            self.assertEqual(len(r['missing_answer_approvals']),18);self.assertEqual(len(r['unfilled_clue_route_ids']),14)
+            self.assertEqual(len(r['core_design_approval_ids']),10);self.assertEqual(len(r['optional_design_approval_ids']),8)
+            self.assertTrue(r['baseline_valid']);self.assertIn('BLOCKED',r['play_activation'])
+            self.assertNotIn('values',r);self.assertNotIn('definitive_answer',json.dumps(r))
+            self.assertIn('optional questions are not ending prerequisites',r['note'])
+        with self.subTest(case='test_identity_crosswalk_uses_existing_malrec_and_separate_corvens'), isolated_case(self):
+            people={x['character_id'] for x in self.data('quest-history-and-identities')['distinct_people']}
+            self.assertIn('malrec',people);self.assertNotIn('malrec-voss',people)
+            self.assertTrue({'corven','corven-north-return-house','corvin-hale','corvin-halbrecht'}<=people)
+        with self.subTest(case='test_source_custody_and_discovery_are_not_new_inventory'), isolated_case(self):
+            d=self.data('quest-evidence-and-mysteries')
+            self.assertEqual(len(d['clues']),17);self.assertEqual(d['new_evidence_items'],[])
+            for row in d['clues']:self.assertFalse(row['new_item']);self.assertEqual(row['knowledge'],'requires-discovery-review')
+            leaf=next(x for x in d['clues'] if x['clue_id']=='clue:third-leaf')
+            copyref=next(x for x in d['clues'] if x['clue_id']=='clue:leaf-transcription')
+            self.assertNotEqual(leaf['source_locator'],copyref['source_locator'])
 
-    def test_cli_readiness_is_readonly_and_validates_first(self):
-        before=(self.root/'state/checkpoint.json').read_bytes()
-        result=subprocess.run([sys.executable,str(ROOT/'scripts/quest_framework.py'),'--readiness','--root',str(self.root)],capture_output=True,text=True)
-        self.assertEqual(result.returncode,0,result.stderr);self.assertEqual(len(json.loads(result.stdout)['missing_answer_approvals']),18)
-        self.assertEqual(before,(self.root/'state/checkpoint.json').read_bytes())
-        self.edit('quest-answer-blueprint',lambda d:d['pending_answers'][0]['values'].update(definitive_answer='invented'))
-        result=subprocess.run([sys.executable,str(ROOT/'scripts/quest_framework.py'),'--readiness','--root',str(self.root)],capture_output=True,text=True)
-        self.assertNotEqual(result.returncode,0);self.assertNotIn('invented',result.stdout)
+    def test_identity_and_resources_3(self):
+        with self.subTest(case='test_secret_owner_never_added_to_public_routing'), isolated_case(self):
+            self.reject('main-quest-map',lambda d:d['quest_owners'].append({'quest_id':'twin-sword-origin','source_ref':'entities/quests/twin-sword-origin.md','knowledge':'requires-discovery-review'}))
+        with self.subTest(case='test_all_preexisting_campaign_state_and_history_unchanged'), isolated_case(self):
+            fixture=json.loads((ROOT/'tests/fixtures/chunk9-preservation.json').read_text())
+            pass  # Whole-file fingerprints are centralized in test_preservation.
+        with self.subTest(case='test_completed_restoration_is_not_entire_case_or_guardian_resolution'), isolated_case(self):
+            v=(self.root/'entities/quests/v9-memories.md').read_text();f=(self.root/'entities/quests/first-hour-restoration.md').read_text()
+            self.assertIn('status: completed',v);self.assertIn('broader Crown/Witness investigations continue',v)
+            self.assertIn('status: active',f);self.assertIn('First Hour restoration completed',f)
+            self.assertIn('wider Guardian restoration remains active',f)
 
-    def test_all_validation_is_readonly(self):
-        before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance') for p in (self.root/folder).rglob('*') if p.is_file()}
-        validate(self.root);readiness_report(self.root)
-        self.assertEqual(before,{path:hashlib.sha256(Path(path).read_bytes()).hexdigest() for path in before})
-
-    def test_completed_restoration_is_not_entire_case_or_guardian_resolution(self):
-        v=(self.root/'entities/quests/v9-memories.md').read_text();f=(self.root/'entities/quests/first-hour-restoration.md').read_text()
-        self.assertIn('status: completed',v);self.assertIn('broader Crown/Witness investigations continue',v)
-        self.assertIn('status: active',f);self.assertIn('First Hour restoration completed',f)
-        self.assertIn('wider Guardian restoration remains active',f)
-
-    def test_prevented_activation_is_not_permanent_threat_resolution(self):
-        s=(self.root/'entities/quests/fifth-bell-threat.md').read_text()
-        self.assertIn('status: active',s);self.assertIn('activation prevented',s)
-        self.assertIn('Surviving conspiracy branches remain open',s)
-        self.assertIn('Never sounded through Day156',(self.root/'entities/items/fifth-bell.md').read_text())
-
-    def test_identity_crosswalk_uses_existing_malrec_and_separate_corvens(self):
-        people={x['character_id'] for x in self.data('quest-history-and-identities')['distinct_people']}
-        self.assertIn('malrec',people);self.assertNotIn('malrec-voss',people)
-        self.assertTrue({'corven','corven-north-return-house','corvin-hale','corvin-halbrecht'}<=people)
-
-    def test_source_custody_and_discovery_are_not_new_inventory(self):
-        d=self.data('quest-evidence-and-mysteries')
-        self.assertEqual(len(d['clues']),17);self.assertEqual(d['new_evidence_items'],[])
-        for row in d['clues']:self.assertFalse(row['new_item']);self.assertEqual(row['knowledge'],'requires-discovery-review')
-        leaf=next(x for x in d['clues'] if x['clue_id']=='clue:third-leaf')
-        copyref=next(x for x in d['clues'] if x['clue_id']=='clue:leaf-transcription')
-        self.assertNotEqual(leaf['source_locator'],copyref['source_locator'])
-
-    def test_optional_legal_reviews_are_not_required_to_end_main_quest(self):
-        rows={x['mystery_id']:x for x in self.data('quest-evidence-and-mysteries')['mysteries']}
-        for ident in ('thane-review','sorn-review','remaining-notices','a07-consent','correspondent','watcher','freight-director','damaged-channels'):
-            self.assertEqual(rows['mystery:'+ident]['proposed_objective_ids'],[])
-        objectives=self.data('quest-resolution-proposals')['objectives']
-        self.assertEqual(len(objectives),7)
-        self.assertTrue(all(all(x.startswith('objective:') for x in row['depends_on']) for row in objectives))
-
-    def test_blueprint_is_entirely_unfilled_not_metadata_spoilers(self):
-        d=self.data('quest-answer-blueprint')
-        for row in d['pending_answers']:
-            self.assertTrue(all(v is None for v in row['values'].values()));self.assertIsNone(row['private_storage_ref'])
-        self.assertFalse(d['public_secret_values_allowed']);self.assertEqual(d['new_fixed_answers'],[])
-
-    def test_partial_framework_rejected(self):
-        self.path('quest-answer-blueprint').unlink()
-        p=self.root/'index.json';d=json.loads(p.read_text());d['entries']=[x for x in d['entries'] if x['id']!='quest-answer-blueprint'];p.write_text(json.dumps(d))
-        with self.assertRaises(ValidationError):validate(self.root)
-
-    def test_secret_owner_never_added_to_public_routing(self):
-        self.reject('main-quest-map',lambda d:d['quest_owners'].append({'quest_id':'twin-sword-origin','source_ref':'entities/quests/twin-sword-origin.md','knowledge':'requires-discovery-review'}))
+    def test_cases_rejection_table(self):
+        for (name, (ident, fn)) in CASES.items():
+            with self.subTest(case=name), isolated_case(self):
+                self.reject(ident, fn)
 
 
 CASES={
@@ -183,18 +182,18 @@ CASES={
  'knowledge_leak':('quest-continuation-and-completion',lambda d:d['new_knowledge_disclosures'].append('secret answer')),
  'competing_resource_owner':('quest-continuation-and-completion',lambda d:d['system_owner_refs'].__setitem__(0,'main-quest-map')),
 }
-for name,(ident,fn) in CASES.items():
-    def case(self,ident=ident,fn=fn):self.reject(ident,fn)
-    setattr(QuestFrameworkTests,'test_reject_'+name,case)
 
 
 class FiniteGraphTests(unittest.TestCase):
-    def test_valid_branching_plan_has_finite_ending(self):
-        validate_graph(['a','b','c','z'],{'a':['b','c'],'b':['z'],'c':['z'],'z':[]},'a','z')
 
-    def test_missing_nodes_duplicates_cycles_and_dead_ends_rejected(self):
-        cases=[(['a','a'],{'a':[]},None,None),(['a','z'],{'a':['missing'],'z':[]},'a','z'),(['a','z'],{'a':['a','z'],'z':[]},'a','z'),(['a','b','z'],{'a':['z'],'b':[],'z':[]},'a','z'),(['a','b','z'],{'a':['b','z'],'b':[],'z':[]},'a','z')]
-        for args in cases:
-            with self.subTest(args=args),self.assertRaises(ValueError):validate_graph(*args)
+
+    def test_contracts_and_schema_and_identity_1(self):
+        with self.subTest(case='test_valid_branching_plan_has_finite_ending'), isolated_case(self):
+            validate_graph(['a','b','c','z'],{'a':['b','c'],'b':['z'],'c':['z'],'z':[]},'a','z')
+        with self.subTest(case='test_missing_nodes_duplicates_cycles_and_dead_ends_rejected'), isolated_case(self):
+            cases=[(['a','a'],{'a':[]},None,None),(['a','z'],{'a':['missing'],'z':[]},'a','z'),(['a','z'],{'a':['a','z'],'z':[]},'a','z'),(['a','b','z'],{'a':['z'],'b':[],'z':[]},'a','z'),(['a','b','z'],{'a':['b','z'],'b':[],'z':[]},'a','z')]
+            for args in cases:
+                with self.subTest(args=args),self.assertRaises(ValueError):validate_graph(*args)
+
 
 if __name__=='__main__':unittest.main()

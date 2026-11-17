@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-07-autonomy-approval.md
 - changes/chronicles/phase2-03-government-approval.md
 ---
 
@@ -35,6 +36,53 @@ Approved fictional character design only. A title/age/biography is not a current
     "historical_decisions": [],
     "meetings_with_theron": [],
     "secret_facts": []
+  },
+  "autonomy_design": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-07-autonomy-approval.md",
+    "identity_owner_ref": "cassian-thornmere",
+    "age": 39,
+    "regional_association": "valedorn",
+    "role_design": "Noble-house political/property interest design; no actual estate, office or mandate assigned.",
+    "personality_traits": "Courteous, competitive and attentive to terms; prefers written commitments and measured bargaining.",
+    "values": "Household continuity, lawful property rights and reciprocal obligations.",
+    "public_motivations": "Seek recognized influence and economically sustainable household stewardship.",
+    "long_term_goals": "Build a reputation for competent negotiation without assuming a seat, fortune or alliance.",
+    "short_term_interests": "Compare prospective repair, tenancy and trade terms only after title/resources and local law are verified.",
+    "relationships_design": "Potential dialogue with household representatives, tenants and royal officials; no actual kinship, tenant, partnership or rivalry is created.",
+    "preferences_fears_and_ambitions": "Concern about avoidable household insolvency; ambition for political respect is public design, not a secret allegiance.",
+    "professional_obligations": "Prospective duties only within separately verified role, consent, competence, time and lawful authority; existing commitments take precedence.",
+    "decision_priorities": "Title, consent, enforceable terms and finite maintenance costs before expansion or prestige.",
+    "cooperation_conditions": "Cooperate where terms preserve lawful rights and offer an evidenced mutual benefit.",
+    "refusal_conditions": "Refuse unsupported seizure, unbounded spending or a demand for automatic allegiance; disagreement with an official need not be conspiracy.",
+    "potential_consequences": "Hard bargaining may produce a lawful dispute or missed opportunity; no current conspiracy or secret network exists in this design.",
+    "known_resources": [],
+    "unknown_resources": [
+      "funds",
+      "possessions",
+      "inventory",
+      "staff",
+      "available-time",
+      "physical-condition",
+      "current-location"
+    ],
+    "knowledge_limits": "No private plans, hidden identities, unsent messages or distant events without a supported source; rumor is not verified knowledge.",
+    "routine_design": "Prospective work/study, rest and willing social contact must fit finite resources, travel and actual obligations; no active schedule.",
+    "historical_source_refs": [
+      "changes/chronicles/phase2-03-government-approval.md"
+    ],
+    "current_location": null,
+    "current_job": null,
+    "current_office_id": null,
+    "actual_appointments": [],
+    "actual_relationship_changes": [],
+    "actual_schedules": [],
+    "actual_actions": [],
+    "secret_facts": []
   }
 }
 ```
+
+## Phase 2 autonomy design
+
+Public prospective character design extends the existing identity. Original PR3 fields and unverified office status remain intact; goals confer no completed act, current authority or Theron knowledge.

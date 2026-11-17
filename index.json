@@ -2916,6 +2916,45 @@
         "dungeon-design",
         "approved-design"
       ]
+    },
+    {
+      "id": "liora-thistlebloom",
+      "type": "characters",
+      "title": "Liora Thistlebloom",
+      "path": "entities/characters/liora-thistlebloom.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "autonomy",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "orrin-valecrest",
+      "type": "characters",
+      "title": "Orrin Valecrest",
+      "path": "entities/characters/orrin-valecrest.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "autonomy",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "mira-hearthwick",
+      "type": "characters",
+      "title": "Mira Hearthwick",
+      "path": "entities/characters/mira-hearthwick.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "autonomy",
+        "approved-design"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

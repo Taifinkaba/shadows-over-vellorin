@@ -1,0 +1,41 @@
+{
+  "baseline_count": 1000,
+  "baseline_seconds": 219.9843677200006,
+  "baseline_successful": true,
+  "baseline_by_file": {
+    "test_autonomy.py": 77,
+    "test_day137_finance.py": 21,
+    "test_day156.py": 11,
+    "test_day181.py": 69,
+    "test_day181_final.py": 77,
+    "test_dungeons.py": 61,
+    "test_economy.py": 67,
+    "test_gm_dashboard.py": 59,
+    "test_guilds.py": 56,
+    "test_justice.py": 52,
+    "test_north_return_house.py": 14,
+    "test_phase2_dungeons.py": 49,
+    "test_phase2_economy.py": 30,
+    "test_phase2_geography.py": 7,
+    "test_phase2_governments.py": 40,
+    "test_phase2_guild_underworld.py": 49,
+    "test_phase2_settlements.py": 37,
+    "test_quest_framework.py": 82,
+    "test_settlements.py": 46,
+    "test_travel.py": 35,
+    "test_validate.py": 61
+  },
+  "dispositions": {
+    "redundant hash wrapper removed": 4,
+    "consolidated": 704,
+    "generated wrappers consolidated into table": 285,
+    "retained standalone": 7
+  },
+  "current_count": 184,
+  "removed_discovered_cases": 816,
+  "reduction_percent": 81.6,
+  "centralized_whole_file_hash_loops": 11,
+  "coverage_note": "Discovery count is not assertion or scenario coverage. Four redundant hash-only method bodies are removed; remaining original scenarios are consolidated, including schema3/schema4 inheritance. Eleven repeated whole-file hash loops are centralized. JSON-only mutations now have narrower subsystem coverage; full schema/index/CLI/finance/dashboard integration still runs. No branch/line coverage equivalence is asserted.",
+  "final_seconds": 136.378,
+  "runtime_reduction_percent": 38.006
+}

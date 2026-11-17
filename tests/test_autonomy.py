@@ -1,3 +1,4 @@
+from case_support import isolated_case, validate_scope
 """Autonomy maintenance has no state engine; mutations stay in disposable copies."""
 import copy
 import hashlib
@@ -33,85 +34,79 @@ class AutonomyTests(unittest.TestCase):
 
     def reject(self,ident,fn):
         self.edit(ident,fn)
-        with self.assertRaises(ValidationError):validate(self.root)
+        with self.assertRaises(ValidationError):validate_scope(self.root, 'autonomy')
 
-    def test_current_repository_valid(self):self.assertIn(f"{len(json.loads((self.root/'index.json').read_text())['entries'])} entity records",validate(self.root))
 
-    def test_all_preexisting_campaign_owners_and_history_preserved(self):
-        fixture=json.loads((ROOT/'tests/fixtures/chunk8-preservation.json').read_text())
-        for path,digest in fixture['sha256'].items():
-            with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
+    def test_causality_and_continuity_and_contracts_and_schema_1(self):
+        with self.subTest(case='test_chronicles_are_document_pointers_not_new_timeline_events'), isolated_case(self):
+            d=self.data('world-event-references');self.assertEqual(len(d['chronicles']),6)
+            self.assertEqual(d['new_events'],[])
+            for row in d['chronicles']:
+                self.assertNotIn('outcome',row);self.assertNotIn('date',row);self.assertNotIn('participating_actors',row)
+        with self.subTest(case='test_missing_dated_assignment_observation_stays_a_contract_gap'), isolated_case(self):
+            d=self.data('independent-assignments')
+            self.assertIn('last_verified_date',d['owner_field_contract'])
+            self.assertTrue(all('last_verified_date' not in x for x in d['assignments']))
+        with self.subTest(case='test_current_repository_valid'), isolated_case(self):
+            self.assertIn(f"{len(json.loads((self.root / 'index.json').read_text())['entries'])} entity records", validate(self.root))
+        with self.subTest(case='test_validation_is_readonly'), isolated_case(self):
+            before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance') for p in (self.root/folder).rglob('*') if p.is_file()}
+            validate(self.root)
+            self.assertEqual(before,{path:hashlib.sha256(Path(path).read_bytes()).hexdigest() for path in before})
+        with self.subTest(case='test_scale_request_is_not_a_gift_or_reply'), isolated_case(self):
+            row=next(x for x in self.data('independent-assignments')['assignments'] if x['assignment_id']=='assignment:vaeltharion-request')
+            self.assertEqual(row['responsibility_ref']['quote'],'Voluntary shed-scale request pending, no reply received.')
+            self.assertNotIn('accepted',row);self.assertNotIn('completed',row)
 
-    def test_validation_is_readonly(self):
-        before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance') for p in (self.root/folder).rglob('*') if p.is_file()}
-        validate(self.root)
-        self.assertEqual(before,{path:hashlib.sha256(Path(path).read_bytes()).hexdigest() for path in before})
+    def test_contracts_and_schema_and_identity_2(self):
+        with self.subTest(case='test_lyra_care_and_research_are_distinct_scopes'), isolated_case(self):
+            rows=[x for x in self.data('independent-assignments')['assignments'] if x['actor_id']=='lyra-moonvale']
+            self.assertEqual(len(rows),2);self.assertNotEqual(rows[0]['responsibility_ref'],rows[1]['responsibility_ref'])
+            self.assertTrue(all('progress' not in x for x in rows))
+        with self.subTest(case='test_faction_directory_owns_no_leaders_members_or_intelligence'), isolated_case(self):
+            data=self.data('faction-activity')
+            for row in data['factions']:
+                self.assertEqual(set(row),{'faction_id','source_ref','classification','knowledge'})
+                self.assertEqual(row['knowledge'],'requires-discovery-review')
+            concord=next(x for x in data['factions'] if x['faction_id']=='continental-guild-concord')
+            self.assertEqual(concord['classification'],'PROPOSED')
+        with self.subTest(case='test_partial_framework_rejected'), isolated_case(self):
+            p=self.path('world-event-references');p.unlink()
+            index=self.root/'index.json';d=json.loads(index.read_text());d['entries']=[x for x in d['entries'] if x['id']!='world-event-references'];index.write_text(json.dumps(d))
+            with self.assertRaises(ValidationError):validate(self.root)
+        with self.subTest(case='test_constructs_are_ability_contexts_not_new_actor_ids'), isolated_case(self):
+            a=self.data('independent-assignments')
+            self.assertEqual({x['context_id'] for x in a['construct_contexts']},{'construct:raze','construct:aegis'})
+            self.assertNotIn('raze',{x['actor_id'] for x in a['actors']})
+            self.assertNotIn('aegis',{x['actor_id'] for x in a['actors']})
+        with self.subTest(case='test_bonds_and_independent_identities_remain_with_owners'), isolated_case(self):
+            self.assertIn('bond3/5 (supersedes earlier5/5)',(self.root/'entities/creatures/shade.md').read_text())
+            self.assertIn('bond4/5',(self.root/'entities/creatures/aurelion.md').read_text())
+            self.assertIn('not a raven',(self.root/'entities/creatures/aurelion.md').read_text().lower())
+            self.assertIn('Do not equate or duplicate',(self.root/'entities/creatures/frostmoon.md').read_text())
 
-    def test_routing_does_not_claim_current_positions_or_completion(self):
-        for row in self.data('independent-assignments')['assignments']:
-            self.assertNotIn('status',row);self.assertNotIn('location',row);self.assertNotIn('last_verified_date',row)
-            self.assertIn('state/checkpoint.json',row['freshness_refs'])
-        self.assertEqual(self.data('independent-assignments')['new_assignment_events'],[])
+    def test_identity_and_resources_3(self):
+        with self.subTest(case='test_secret_entity_cannot_enter_public_actor_routing'), isolated_case(self):
+            p=self.root/'entities/creatures/alpha.md';p.write_text(p.read_text().replace('visibility: gm-reference','visibility: gm-secret'))
+            index=self.root/'index.json';d=json.loads(index.read_text())
+            for row in d['entries']:
+                if row['id']=='alpha':row['visibility']='gm-secret'
+            index.write_text(json.dumps(d))
+            with self.assertRaises(ValidationError):validate(self.root)
+        with self.subTest(case='test_routing_does_not_claim_current_positions_or_completion'), isolated_case(self):
+            for row in self.data('independent-assignments')['assignments']:
+                self.assertNotIn('status',row);self.assertNotIn('location',row);self.assertNotIn('last_verified_date',row)
+                self.assertIn('state/checkpoint.json',row['freshness_refs'])
+            self.assertEqual(self.data('independent-assignments')['new_assignment_events'],[])
+        with self.subTest(case='test_alpha_has_no_imposed_assignment'), isolated_case(self):
+            a=self.data('independent-assignments');self.assertIn('alpha',{x['actor_id'] for x in a['actors']})
+            self.assertNotIn('alpha',{x['actor_id'] for x in a['assignments']})
+            self.assertIn('Current whereabouts unverified',(self.root/'entities/creatures/alpha.md').read_text())
 
-    def test_alpha_has_no_imposed_assignment(self):
-        a=self.data('independent-assignments');self.assertIn('alpha',{x['actor_id'] for x in a['actors']})
-        self.assertNotIn('alpha',{x['actor_id'] for x in a['assignments']})
-        self.assertIn('Current whereabouts unverified',(self.root/'entities/creatures/alpha.md').read_text())
-
-    def test_scale_request_is_not_a_gift_or_reply(self):
-        row=next(x for x in self.data('independent-assignments')['assignments'] if x['assignment_id']=='assignment:vaeltharion-request')
-        self.assertEqual(row['responsibility_ref']['quote'],'Voluntary shed-scale request pending, no reply received.')
-        self.assertNotIn('accepted',row);self.assertNotIn('completed',row)
-
-    def test_lyra_care_and_research_are_distinct_scopes(self):
-        rows=[x for x in self.data('independent-assignments')['assignments'] if x['actor_id']=='lyra-moonvale']
-        self.assertEqual(len(rows),2);self.assertNotEqual(rows[0]['responsibility_ref'],rows[1]['responsibility_ref'])
-        self.assertTrue(all('progress' not in x for x in rows))
-
-    def test_constructs_are_ability_contexts_not_new_actor_ids(self):
-        a=self.data('independent-assignments')
-        self.assertEqual({x['context_id'] for x in a['construct_contexts']},{'construct:raze','construct:aegis'})
-        self.assertNotIn('raze',{x['actor_id'] for x in a['actors']})
-        self.assertNotIn('aegis',{x['actor_id'] for x in a['actors']})
-
-    def test_bonds_and_independent_identities_remain_with_owners(self):
-        self.assertIn('bond3/5 (supersedes earlier5/5)',(self.root/'entities/creatures/shade.md').read_text())
-        self.assertIn('bond4/5',(self.root/'entities/creatures/aurelion.md').read_text())
-        self.assertIn('not a raven',(self.root/'entities/creatures/aurelion.md').read_text().lower())
-        self.assertIn('Do not equate or duplicate',(self.root/'entities/creatures/frostmoon.md').read_text())
-
-    def test_faction_directory_owns_no_leaders_members_or_intelligence(self):
-        data=self.data('faction-activity')
-        for row in data['factions']:
-            self.assertEqual(set(row),{'faction_id','source_ref','classification','knowledge'})
-            self.assertEqual(row['knowledge'],'requires-discovery-review')
-        concord=next(x for x in data['factions'] if x['faction_id']=='continental-guild-concord')
-        self.assertEqual(concord['classification'],'PROPOSED')
-
-    def test_chronicles_are_document_pointers_not_new_timeline_events(self):
-        d=self.data('world-event-references');self.assertEqual(len(d['chronicles']),6)
-        self.assertEqual(d['new_events'],[])
-        for row in d['chronicles']:
-            self.assertNotIn('outcome',row);self.assertNotIn('date',row);self.assertNotIn('participating_actors',row)
-
-    def test_missing_dated_assignment_observation_stays_a_contract_gap(self):
-        d=self.data('independent-assignments')
-        self.assertIn('last_verified_date',d['owner_field_contract'])
-        self.assertTrue(all('last_verified_date' not in x for x in d['assignments']))
-
-    def test_partial_framework_rejected(self):
-        p=self.path('world-event-references');p.unlink()
-        index=self.root/'index.json';d=json.loads(index.read_text());d['entries']=[x for x in d['entries'] if x['id']!='world-event-references'];index.write_text(json.dumps(d))
-        with self.assertRaises(ValidationError):validate(self.root)
-
-    def test_secret_entity_cannot_enter_public_actor_routing(self):
-        # Even a valid canonical ID must not be promoted from GM-only metadata.
-        p=self.root/'entities/creatures/alpha.md';p.write_text(p.read_text().replace('visibility: gm-reference','visibility: gm-secret'))
-        index=self.root/'index.json';d=json.loads(index.read_text())
-        for row in d['entries']:
-            if row['id']=='alpha':row['visibility']='gm-secret'
-        index.write_text(json.dumps(d))
-        with self.assertRaises(ValidationError):validate(self.root)
+    def test_cases_rejection_table(self):
+        for (name, (ident, fn)) in CASES.items():
+            with self.subTest(case=name), isolated_case(self):
+                self.reject(ident, fn)
 
 
 CASES={
@@ -163,9 +158,6 @@ CASES={
  'unlimited_magical_channel':('npc-autonomy-and-time',lambda d:d['communication_owner_refs'].append('world-event-references')),
  'competing_finance_authority':('npc-autonomy-and-time',lambda d:d['resource_owner_refs'].__setitem__(0,'world-event-references')),
 }
-for name,(ident,fn) in CASES.items():
-    def case(self,ident=ident,fn=fn):self.reject(ident,fn)
-    setattr(AutonomyTests,'test_reject_'+name,case)
 
 
 class CandidateTests(unittest.TestCase):
@@ -191,75 +183,69 @@ class CandidateTests(unittest.TestCase):
             trigger_refs=[],possible_consequences=[],visibility='public-reference',last_verified_date=None,
             approval_ref=None,classification='PROPOSED',automatic=False)
 
-    def test_proposed_event_can_have_unknown_dates_actors_and_sources(self):
-        validate_event_candidate(self.event(),ROOT,self.records)
 
-    def test_recorded_event_keeps_unknown_exact_date_without_fabrication(self):
-        validate_event_candidate(self.observed(),ROOT,self.records)
-        self.assertIsNone(self.observed()['date']);self.assertIsNone(self.observed()['time'])
+    def test_causality_1(self):
+        with self.subTest(case='test_recorded_event_keeps_unknown_exact_date_without_fabrication'), isolated_case(self):
+            validate_event_candidate(self.observed(),ROOT,self.records)
+            self.assertIsNone(self.observed()['date']);self.assertIsNone(self.observed()['time'])
+        with self.subTest(case='test_recorded_event_needs_actual_scene_and_outcome_evidence'), isolated_case(self):
+            for key in ('trigger_ref','action_ref','outcome_ref','time_advance_ref'):
+                with self.subTest(key=key),self.assertRaisesRegex(ValueError,'actual time-advance'):
+                    validate_event_candidate({**self.observed(),key:None},ROOT,self.records)
+        with self.subTest(case='test_proposal_cannot_force_outcome'), isolated_case(self):
+            with self.assertRaisesRegex(ValueError,'proposed event'):
+                validate_event_candidate({**self.event(),'outcome_ref':self.observed()['outcome_ref'],'source_refs':self.observed()['source_refs']},ROOT,self.records)
+        with self.subTest(case='test_gm_only_event_needs_safe_storage'), isolated_case(self):
+            with self.assertRaisesRegex(ValueError,'safe storage'):
+                validate_event_candidate({**self.event(),'knowledge':'gm-only'},ROOT,self.records)
+        with self.subTest(case='test_valid_unstarted_clock_has_no_effect'), isolated_case(self):
+            before=(ROOT/'state/checkpoint.json').read_bytes()
+            validate_public_clock_proposal(self.clock(),ROOT,self.records)
+            self.assertEqual((ROOT/'state/checkpoint.json').read_bytes(),before)
 
-    def test_recorded_event_needs_actual_scene_and_outcome_evidence(self):
-        for key in ('trigger_ref','action_ref','outcome_ref','time_advance_ref'):
-            with self.subTest(key=key),self.assertRaisesRegex(ValueError,'actual time-advance'):
-                validate_event_candidate({**self.observed(),key:None},ROOT,self.records)
+    def test_causality_and_identity_2(self):
+        with self.subTest(case='test_candidate_validators_have_no_write_or_apply_interface'), isolated_case(self):
+            import scripts.autonomy as module
+            self.assertFalse(any(hasattr(module,x) for x in ('advance_time','apply_event','tick_clock','write_state','send_message')))
+        with self.subTest(case='test_proposed_event_can_have_unknown_dates_actors_and_sources'), isolated_case(self):
+            validate_event_candidate(self.event(),ROOT,self.records)
+        with self.subTest(case='test_duplicate_historical_event_is_rejected'), isolated_case(self):
+            with self.assertRaisesRegex(ValueError,'duplicate historical'):
+                validate_event_candidate(self.observed(),ROOT,self.records,['synthetic-candidate'])
+        with self.subTest(case='test_unknown_location_actor_faction_and_quest_rejected'), isolated_case(self):
+            for key,value in [('location_id','new-location'),('initiator_id','new-person'),('affected_faction_ids',['tomas']),('participant_ids',['guardian-links']),('quest_ids',['ashvale-estate'])]:
+                with self.subTest(key=key),self.assertRaisesRegex(ValueError,'entity reference'):
+                    validate_event_candidate({**self.event(),key:value},ROOT,self.records)
+        with self.subTest(case='test_duplicate_participants_rejected'), isolated_case(self):
+            with self.assertRaisesRegex(ValueError,'duplicate'):
+                validate_event_candidate({**self.event(),'participant_ids':['tomas','tomas']},ROOT,self.records)
 
-    def test_duplicate_historical_event_is_rejected(self):
-        with self.assertRaisesRegex(ValueError,'duplicate historical'):
-            validate_event_candidate(self.observed(),ROOT,self.records,['synthetic-candidate'])
+    def test_identity_3(self):
+        with self.subTest(case='test_secret_actor_cannot_be_used_in_public_event'), isolated_case(self):
+            records=copy.deepcopy(self.records);records['tomas']['visibility']='gm-secret'
+            with self.assertRaisesRegex(ValueError,'secret entity'):
+                validate_event_candidate({**self.event(),'participant_ids':['tomas']},ROOT,records)
+        with self.subTest(case='test_public_knowledge_requires_discovery'), isolated_case(self):
+            with self.assertRaisesRegex(ValueError,'discovery evidence'):
+                validate_event_candidate({**self.event(),'knowledge':'player-known'},ROOT,self.records)
+        with self.subTest(case='test_resource_effects_link_authorities_not_balances'), isolated_case(self):
+            row={**self.observed(),'resource_effect_refs':['state/finance-ledger.json']}
+            validate_event_candidate(row,ROOT,self.records)
+            with self.assertRaisesRegex(ValueError,'never a new balance'):
+                validate_event_candidate({**row,'resource_effect_refs':['state/checkpoint.json']},ROOT,self.records)
+            with self.assertRaisesRegex(ValueError,'resource references'):
+                validate_event_candidate({**row,'resource_effect_refs':[{'amount_cp':100}]},ROOT,self.records)
+        with self.subTest(case='test_source_quote_and_normalized_path_required'), isolated_case(self):
+            for e in [{'source_ref':'../outside.md','quote':'x'},{'source_ref':'entities/characters/tomas.md','quote':'unrecorded work completed'},{'source_ref':'missing.md','quote':'x'}]:
+                with self.subTest(e=e),self.assertRaises(ValueError):evidence(ROOT,e)
+        with self.subTest(case='test_clock_cannot_be_active_or_secret'), isolated_case(self):
+            for key,value in [('classification','CONFIRMED CANON'),('visibility','gm-secret'),('owner_ref','tomas'),('source_refs',[])]:
+                with self.subTest(key=key),self.assertRaises(ValueError):validate_public_clock_proposal({**self.clock(),key:value},ROOT,self.records)
 
-    def test_proposal_cannot_force_outcome(self):
-        with self.assertRaisesRegex(ValueError,'proposed event'):
-            validate_event_candidate({**self.event(),'outcome_ref':self.observed()['outcome_ref'],'source_refs':self.observed()['source_refs']},ROOT,self.records)
+    def test_resources_4(self):
+        with self.subTest(case='test_clock_cannot_import_archived_progress_or_start_countdown'), isolated_case(self):
+            for key,value in [('current_verified_progress',3),('last_verified_date','Day181'),('approval_ref','approved'),('starting_condition_ref','archived clock'),('trigger_refs',['tomorrow']),('possible_consequences',['guaranteed discovery']),('automatic',True)]:
+                with self.subTest(key=key),self.assertRaises(ValueError):validate_public_clock_proposal({**self.clock(),key:value},ROOT,self.records)
 
-    def test_unknown_location_actor_faction_and_quest_rejected(self):
-        for key,value in [('location_id','new-location'),('initiator_id','new-person'),('affected_faction_ids',['tomas']),('participant_ids',['guardian-links']),('quest_ids',['ashvale-estate'])]:
-            with self.subTest(key=key),self.assertRaisesRegex(ValueError,'entity reference'):
-                validate_event_candidate({**self.event(),key:value},ROOT,self.records)
-
-    def test_duplicate_participants_rejected(self):
-        with self.assertRaisesRegex(ValueError,'duplicate'):
-            validate_event_candidate({**self.event(),'participant_ids':['tomas','tomas']},ROOT,self.records)
-
-    def test_secret_actor_cannot_be_used_in_public_event(self):
-        records=copy.deepcopy(self.records);records['tomas']['visibility']='gm-secret'
-        with self.assertRaisesRegex(ValueError,'secret entity'):
-            validate_event_candidate({**self.event(),'participant_ids':['tomas']},ROOT,records)
-
-    def test_public_knowledge_requires_discovery(self):
-        with self.assertRaisesRegex(ValueError,'discovery evidence'):
-            validate_event_candidate({**self.event(),'knowledge':'player-known'},ROOT,self.records)
-
-    def test_gm_only_event_needs_safe_storage(self):
-        with self.assertRaisesRegex(ValueError,'safe storage'):
-            validate_event_candidate({**self.event(),'knowledge':'gm-only'},ROOT,self.records)
-
-    def test_resource_effects_link_authorities_not_balances(self):
-        row={**self.observed(),'resource_effect_refs':['state/finance-ledger.json']}
-        validate_event_candidate(row,ROOT,self.records)
-        with self.assertRaisesRegex(ValueError,'never a new balance'):
-            validate_event_candidate({**row,'resource_effect_refs':['state/checkpoint.json']},ROOT,self.records)
-        with self.assertRaisesRegex(ValueError,'resource references'):
-            validate_event_candidate({**row,'resource_effect_refs':[{'amount_cp':100}]},ROOT,self.records)
-
-    def test_source_quote_and_normalized_path_required(self):
-        for e in [{'source_ref':'../outside.md','quote':'x'},{'source_ref':'entities/characters/tomas.md','quote':'unrecorded work completed'},{'source_ref':'missing.md','quote':'x'}]:
-            with self.subTest(e=e),self.assertRaises(ValueError):evidence(ROOT,e)
-
-    def test_valid_unstarted_clock_has_no_effect(self):
-        before=(ROOT/'state/checkpoint.json').read_bytes()
-        validate_public_clock_proposal(self.clock(),ROOT,self.records)
-        self.assertEqual((ROOT/'state/checkpoint.json').read_bytes(),before)
-
-    def test_clock_cannot_import_archived_progress_or_start_countdown(self):
-        for key,value in [('current_verified_progress',3),('last_verified_date','Day181'),('approval_ref','approved'),('starting_condition_ref','archived clock'),('trigger_refs',['tomorrow']),('possible_consequences',['guaranteed discovery']),('automatic',True)]:
-            with self.subTest(key=key),self.assertRaises(ValueError):validate_public_clock_proposal({**self.clock(),key:value},ROOT,self.records)
-
-    def test_clock_cannot_be_active_or_secret(self):
-        for key,value in [('classification','CONFIRMED CANON'),('visibility','gm-secret'),('owner_ref','tomas'),('source_refs',[])]:
-            with self.subTest(key=key),self.assertRaises(ValueError):validate_public_clock_proposal({**self.clock(),key:value},ROOT,self.records)
-
-    def test_candidate_validators_have_no_write_or_apply_interface(self):
-        import scripts.autonomy as module
-        self.assertFalse(any(hasattr(module,x) for x in ('advance_time','apply_event','tick_clock','write_state','send_message')))
 
 if __name__=='__main__':unittest.main()

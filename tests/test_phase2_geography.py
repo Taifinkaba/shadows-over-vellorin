@@ -1,3 +1,4 @@
+from case_support import isolated_case
 """Approved fictional topology must not become historical or operational evidence."""
 import hashlib
 import json
@@ -13,35 +14,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class Phase2GeographyTests(unittest.TestCase):
-    def test_untouched_canon_and_authorized_revision_provenance(self):
-        manifest = json.loads((ROOT/'tests/fixtures/phase2-01-preservation.json').read_text())
-        for path, digest in manifest['unchanged_sha256'].items():
-            self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), digest, path)
-        for path, revision in manifest['authorized_geography_revisions'].items():
-            self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), revision['after_sha256'], path)
-            self.assertNotEqual(revision['before_sha256'], revision['after_sha256'])
 
     def data(self, root, kind, ident):
         return json.loads(re.search(r'```json\n(.*?)\n```', (root/f'entities/{kind}/{ident}.md').read_text(), re.S)[1])
 
-    def test_approved_relationships_and_unplaced_marches(self):
-        nodes = {n['id']: n for n in self.data(ROOT, 'mechanics', 'world-geography')['nodes']}
-        for ident in ('valedorn', 'elyndor', 'ironhollow-holds', 'rivermere-league', 'frostmarch'):
-            self.assertEqual(nodes[ident]['classification'], 'APPROVED DESIGN')
-            self.assertEqual(nodes[ident]['parents'][0]['id'], 'vellorin')
-        self.assertEqual(nodes['northern-marches']['parents'][0]['id'], 'vellorin')
-        self.assertEqual(nodes['caelthorne']['parents'][0]['id'], 'valedorn')
-        self.assertEqual(nodes['vellorin']['parents'][0]['classification'], 'PROPOSED')
-
-    def test_region_corridors_have_no_survey_or_duration(self):
-        for ident in ('route-northern-marches-frostmarch', 'route-elyndor-woodland-passage'):
-            d = self.data(ROOT, 'locations', ident)
-            self.assertEqual(d['classification'], 'PROPOSED')
-            self.assertIsNone(d['distance'])
-            self.assertEqual(d['durations'], [])
-            self.assertTrue(all(v is None for v in d['accessibility'].values()))
-            self.assertIsNone(d['patrol_jurisdiction'])
-            self.assertIsNone(d['toll_requirements'])
 
     def mutate(self, ident, change, pattern, kind='mechanics'):
         with tempfile.TemporaryDirectory() as name:
@@ -56,14 +32,38 @@ class Phase2GeographyTests(unittest.TestCase):
             with self.assertRaisesRegex(ValidationError, pattern):
                 validate(root)
 
-    def test_approved_realm_cannot_become_historical_node(self):
-        self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='valedorn').update(classification='CONFIRMED CANON'), 'classification/metadata mismatch')
 
-    def test_approved_parent_requires_approval_evidence(self):
-        self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='valedorn')['parents'][0].update(source_refs=['entities/locations/brackenford.md']), 'approved containment/provenance')
+    def test_continuity_and_contracts_and_schema_1(self):
+        with self.subTest(case='test_approved_realm_cannot_become_historical_node'), isolated_case(self):
+            self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='valedorn').update(classification='CONFIRMED CANON'), 'classification/metadata mismatch')
+        with self.subTest(case='test_design_node_cannot_parent_historical_membership'), isolated_case(self):
+            self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='caelthorne')['parents'][0].update(classification='CONFIRMED CANON'), 'canonical containment through proposed')
+        with self.subTest(case='test_untouched_canon_and_authorized_revision_provenance'), isolated_case(self):
+            manifest = json.loads((ROOT/'tests/fixtures/phase2-01-preservation.json').read_text())
+            pass  # Whole-file fingerprints are centralized in test_preservation.
+            for path, revision in manifest['authorized_geography_revisions'].items():
+                self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), revision['after_sha256'], path)
+                self.assertNotEqual(revision['before_sha256'], revision['after_sha256'])
+        with self.subTest(case='test_approved_relationships_and_unplaced_marches'), isolated_case(self):
+            nodes = {n['id']: n for n in self.data(ROOT, 'mechanics', 'world-geography')['nodes']}
+            for ident in ('valedorn', 'elyndor', 'ironhollow-holds', 'rivermere-league', 'frostmarch'):
+                self.assertEqual(nodes[ident]['classification'], 'APPROVED DESIGN')
+                self.assertEqual(nodes[ident]['parents'][0]['id'], 'vellorin')
+            self.assertEqual(nodes['northern-marches']['parents'][0]['id'], 'vellorin')
+            self.assertEqual(nodes['caelthorne']['parents'][0]['id'], 'valedorn')
+            self.assertEqual(nodes['vellorin']['parents'][0]['classification'], 'PROPOSED')
+        with self.subTest(case='test_region_corridors_have_no_survey_or_duration'), isolated_case(self):
+            for ident in ('route-northern-marches-frostmarch', 'route-elyndor-woodland-passage'):
+                d = self.data(ROOT, 'locations', ident)
+                self.assertEqual(d['classification'], 'PROPOSED')
+                self.assertIsNone(d['distance'])
+                self.assertEqual(d['durations'], [])
+                self.assertTrue(all(v is None for v in d['accessibility'].values()))
+                self.assertIsNone(d['patrol_jurisdiction'])
+                self.assertIsNone(d['toll_requirements'])
 
-    def test_design_node_cannot_parent_historical_membership(self):
-        self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='caelthorne')['parents'][0].update(classification='CONFIRMED CANON'), 'canonical containment through proposed')
-
-    def test_road_cannot_use_geographic_approval_classification(self):
-        self.mutate('route-northern-marches-frostmarch', lambda d: d.update(classification='APPROVED DESIGN'), 'invalid classification', 'locations')
+    def test_contracts_and_schema_2(self):
+        with self.subTest(case='test_approved_parent_requires_approval_evidence'), isolated_case(self):
+            self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='valedorn')['parents'][0].update(source_refs=['entities/locations/brackenford.md']), 'approved containment/provenance')
+        with self.subTest(case='test_road_cannot_use_geographic_approval_classification'), isolated_case(self):
+            self.mutate('route-northern-marches-frostmarch', lambda d: d.update(classification='APPROVED DESIGN'), 'invalid classification', 'locations')
