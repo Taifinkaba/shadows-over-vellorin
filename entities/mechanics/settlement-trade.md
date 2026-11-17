@@ -1,0 +1,275 @@
+---
+id: settlement-trade
+type: mechanics
+status: canon
+visibility: gm-reference
+source_refs:
+- changes/chronicles/phase2-02-settlement-approval.md
+---
+
+# Settlement trade dependency proposals
+
+Proposed economic relationships, never evidence of an operational route, completed shipment, actual buyer or supply contract. Industry chains belong to settlement profiles; transport facts remain with route owners.
+
+```json
+{
+  "schema_version": 1,
+  "classification": "PROPOSED",
+  "road_owner_ref": "travel-routes",
+  "finance_owner_ref": "party-finances",
+  "relationships": [
+    {
+      "id": "trade:eastrun--caelthorne",
+      "classification": "PROPOSED",
+      "origin": "eastrun",
+      "destination": "caelthorne",
+      "goods_services": "Grain, flour and livestock market introductions",
+      "supplier_industry_id": "eastrun:industry-grain",
+      "supplier_type": "Farmers, independent millers, bakers and market growers",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "wagon",
+      "storage_handling": "Dry raised grain bins; flour pest control and fresh-food turnover",
+      "seasonality": "Sowing and harvest; wet grain must dry",
+      "route_dependencies": [
+        "route-caelthorne-eastrun"
+      ],
+      "unresolved_operational_details": "Existing route is only a corridor dependency; verify direction, complete geometry, mode/load, crossings, current conditions, willing carrier, lawful access, quote and storage before use.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "False measures, crop theft and exploitative harvest contracts",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:briarfall-crossing--eastrun",
+      "classification": "PROPOSED",
+      "origin": "briarfall-crossing",
+      "destination": "eastrun",
+      "goods_services": "Lawfully marked timber and wagon materials",
+      "supplier_industry_id": "briarfall-crossing:industry-wood",
+      "supplier_type": "Licensed or rights-holding cutters, gatherers and sawyers",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "wagon",
+      "storage_handling": "Seasoned covered timber stacks; fire separation",
+      "seasonality": "Wet ground and nesting/custom restrictions limit cutting",
+      "route_dependencies": [
+        "route-eastrun-briarfall"
+      ],
+      "unresolved_operational_details": "Existing route is only a corridor dependency; verify direction, complete geometry, mode/load, crossings, current conditions, willing carrier, lawful access, quote and storage before use.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Illegal felling, stolen marks and forced timber debts",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:ironhollow-hold--caelthorne",
+      "classification": "PROPOSED",
+      "origin": "ironhollow-hold",
+      "destination": "caelthorne",
+      "goods_services": "Tools, ironwork and commissioned weapons",
+      "supplier_industry_id": "ironhollow-hold:industry-metals",
+      "supplier_type": "Independent rights-holding miners, smelters and smiths",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "wagon",
+      "storage_handling": "Marked ore bins; dry tools and secured commissioned weapons",
+      "seasonality": "Snow closures and fuel supply limit output",
+      "route_dependencies": [
+        "route-caelthorne-ironhollow-hold"
+      ],
+      "unresolved_operational_details": "Existing route is only a corridor dependency; verify direction, complete geometry, mode/load, crossings, current conditions, willing carrier, lawful access, quote and storage before use.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Illicit mining, counterfeit metal and stolen tools",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:rivermere--caelthorne",
+      "classification": "PROPOSED",
+      "origin": "rivermere",
+      "destination": "caelthorne",
+      "goods_services": "Textiles and merchant carriage services",
+      "supplier_industry_id": "rivermere:industry-textiles",
+      "supplier_type": "Weavers, dyers and cloth finishers",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "wagon",
+      "storage_handling": "Dry cloth stores; separate dyes from food",
+      "seasonality": "Water supply and drying weather constrain finishing",
+      "route_dependencies": [
+        "route-caelthorne-rivermere"
+      ],
+      "unresolved_operational_details": "Existing route is only a corridor dependency; verify direction, complete geometry, mode/load, crossings, current conditions, willing carrier, lawful access, quote and storage before use.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Adulterated dyes, cloth theft and withheld wages",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:caelthorne--rivermere",
+      "classification": "PROPOSED",
+      "origin": "caelthorne",
+      "destination": "rivermere",
+      "goods_services": "Document copying, education and lawful commission services",
+      "supplier_industry_id": "caelthorne:industry-civic-services",
+      "supplier_type": "Independent clerks, teachers and existing institutions within their authority",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "mounted-courier",
+      "storage_handling": "Dry locked record chests; separate customer documents",
+      "seasonality": "Weather and school/work duties can delay attendance",
+      "route_dependencies": [
+        "route-caelthorne-rivermere"
+      ],
+      "unresolved_operational_details": "Existing route is only a corridor dependency; verify direction, complete geometry, mode/load, crossings, current conditions, willing carrier, lawful access, quote and storage before use.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Forged seals, bribery and exclusion from training",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:brackenford--eastrun",
+      "classification": "PROPOSED",
+      "origin": "brackenford",
+      "destination": "eastrun",
+      "goods_services": "Local flour and farm produce",
+      "supplier_industry_id": "brackenford:industry-farm-mill",
+      "supplier_type": "Independent farmers and millers; Harlan Wicks’s recorded profession does not assign a specific mill",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "wagon",
+      "storage_handling": "Dry grain and flour; clean shared containers",
+      "seasonality": "Harvest, stream flow and milling queues",
+      "route_dependencies": [],
+      "unresolved_operational_details": "No compatible surveyed road/river path is recorded. Local gates, complete route, carriers, current water/road conditions, load limits, permits and costs remain UNKNOWN.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "False measures, grain theft and disputed water access",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:silverbrook--briarfall-crossing",
+      "classification": "PROPOSED",
+      "origin": "silverbrook",
+      "destination": "briarfall-crossing",
+      "goods_services": "Honey, identified herbs and lawful timber",
+      "supplier_industry_id": "silverbrook:industry-woodland",
+      "supplier_type": "Independent beekeepers, herbal gatherers and rights-holding cutters",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "pack-animal",
+      "storage_handling": "Sealed honey pots, labeled dry herbs and seasoned timber",
+      "seasonality": "Flowering, herb season and winter hive care",
+      "route_dependencies": [],
+      "unresolved_operational_details": "No compatible surveyed road/river path is recorded. Local gates, complete route, carriers, current water/road conditions, load limits, permits and costs remain UNKNOWN.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Adulterated honey, restricted plants and illegal timber",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:stoneford--caelthorne",
+      "classification": "PROPOSED",
+      "origin": "stoneford",
+      "destination": "caelthorne",
+      "goods_services": "Dressed stone and masonry commissions",
+      "supplier_industry_id": "stoneford:industry-quarry",
+      "supplier_type": "Rights-holding quarry workers, stone dressers and masons",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "heavy-wagon",
+      "storage_handling": "Stable marked block stacks; dry mortar ingredients",
+      "seasonality": "Frost and saturated ground limit extraction",
+      "route_dependencies": [],
+      "unresolved_operational_details": "No compatible surveyed road/river path is recorded. Local gates, complete route, carriers, current water/road conditions, load limits, permits and costs remain UNKNOWN.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Illegal quarrying, stolen blocks and fraudulent contracts",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:southbank-landing--rivermere",
+      "classification": "PROPOSED",
+      "origin": "southbank-landing",
+      "destination": "rivermere",
+      "goods_services": "Fish, grain transport and ferry referrals",
+      "supplier_industry_id": "southbank-landing:industry-river-food",
+      "supplier_type": "Independent fishers, ferry crews, boat owners and grain handlers",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "river-boat",
+      "storage_handling": "Raised dry grain stores; rapid fish turnover and preserved-food separation",
+      "seasonality": "Water level, flood, ice and harvest timing",
+      "route_dependencies": [],
+      "unresolved_operational_details": "No compatible surveyed road/river path is recorded. Local gates, complete route, carriers, current water/road conditions, load limits, permits and costs remain UNKNOWN.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Cargo substitution, unsafe ferries, smuggling and debt collection",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:windmere--eastrun",
+      "classification": "PROPOSED",
+      "origin": "windmere",
+      "destination": "eastrun",
+      "goods_services": "Wool and preserved food",
+      "supplier_industry_id": "windmere:industry-pastoral",
+      "supplier_type": "Independent shepherds, spinners and lawful food preservers",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "pack-animal",
+      "storage_handling": "Dry graded wool, ventilated fodder and protected salted/dried food",
+      "seasonality": "Lambing, shearing, grazing migration and winter storage",
+      "route_dependencies": [],
+      "unresolved_operational_details": "No compatible surveyed road/river path is recorded. Local gates, complete route, carriers, current water/road conditions, load limits, permits and costs remain UNKNOWN.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Wool adulteration, livestock theft and coercive tied credit",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:eastrun--ironhollow-hold",
+      "classification": "PROPOSED",
+      "origin": "eastrun",
+      "destination": "ironhollow-hold",
+      "goods_services": "Food and animal feed",
+      "supplier_industry_id": "eastrun:industry-grain",
+      "supplier_type": "Farmers, independent millers, bakers and market growers",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "wagon",
+      "storage_handling": "Dry raised grain bins; flour pest control and fresh-food turnover",
+      "seasonality": "Sowing and harvest; wet grain must dry",
+      "route_dependencies": [],
+      "unresolved_operational_details": "No compatible surveyed road/river path is recorded. Local gates, complete route, carriers, current water/road conditions, load limits, permits and costs remain UNKNOWN.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "False measures, crop theft and exploitative harvest contracts",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    },
+    {
+      "id": "trade:rivermere--windmere",
+      "classification": "PROPOSED",
+      "origin": "rivermere",
+      "destination": "windmere",
+      "goods_services": "Finished cloth in exchange for prospective wool purchases",
+      "supplier_industry_id": "rivermere:industry-textiles",
+      "supplier_type": "Weavers, dyers and cloth finishers",
+      "buyer_type": "Independent households, merchants or workshops; named buyers and orders UNKNOWN",
+      "transport_method": "pack-animal",
+      "storage_handling": "Dry cloth stores; separate dyes from food",
+      "seasonality": "Water supply and drying weather constrain finishing",
+      "route_dependencies": [],
+      "unresolved_operational_details": "No compatible surveyed road/river path is recorded. Local gates, complete route, carriers, current water/road conditions, load limits, permits and costs remain UNKNOWN.",
+      "legal_risks": "Verify title, weights, resource/landing rights, local fees and contract authority; no license or treaty inferred.",
+      "criminal_risks": "Adulterated dyes, cloth theft and withheld wages",
+      "verification_status": "UNVERIFIED PROPOSAL",
+      "actual_shipments": [],
+      "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
+    }
+  ],
+  "actual_transactions": [],
+  "automatic_shipments": false
+}
+```

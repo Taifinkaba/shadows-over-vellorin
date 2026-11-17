@@ -20,7 +20,12 @@ def validate_settlements(root, records, require, repository_file, unique_json):
     require(helpers <= records.keys(), 'settlements: missing routing, price or activity framework')
 
     def shape(value, fields, label):
-        require(isinstance(value, dict) and set(value) == set(fields.split()), f'settlements: invalid {label} fields')
+        expected = set(fields.split())
+        extensions = {'profile': 'approved_design', 'routing': 'approved_design_location_ids',
+                      'price framework': 'approved_references'}
+        if isinstance(value, dict) and extensions.get(label) in value:
+            expected.add(extensions[label])
+        require(isinstance(value, dict) and set(value) == expected, f'settlements: invalid {label} fields')
 
     def text(value, label):
         require(isinstance(value, str) and value.strip(), f'settlements: invalid {label}')

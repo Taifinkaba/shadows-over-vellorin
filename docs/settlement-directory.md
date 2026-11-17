@@ -1,3 +1,9 @@
+# Phase 2 settlement retrieval update
+
+The [approved settlement and business inventory](phase2-settlements-and-services.md) and [trade/postal framework guide](phase2-trade-and-communications.md) supersede the old guide’s unapproved population/empty-business-design limitations below. The historical eleven localities and fourteen services remain distinct, with their evidence unchanged; they are not ten new towns or forty-one current operating businesses. The current directory owns only routing, while each location’s approved_design object owns its approved expansion. Existing person/property/business authority retains precedence. Geography remains with world-geography, routes with route owners, prices with service-price-references and cash with the sole finance ledger. No gameplay or current-condition verification occurs.
+
+---
+
 # Settlement, business and service directory — Chunk 3
 
 This is retrieval, not another source of truth. Resolve IDs through [index.json](../index.json); each location owns its `Settlement and business references — Chunk 3` section. [Settlement/service routing](../entities/mechanics/settlement-services.md) lists profile owners, not copied town facts. Business IDs are scoped as `parent-location:slug`; they are records within that parent, not separate locations or a new entity type.

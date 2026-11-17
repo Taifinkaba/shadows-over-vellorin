@@ -1,14 +1,14 @@
 {
   "baseline_commit": "cbd3bc23019faac01f7b5e42dadc2e70c7377913",
   "source_prefix_sha256": {
-    "entities/locations/eastrun.md": "e4cf5bf898c2d15ae4892f9a258f65174399edc39773d91aa333f7d4e6827b15",
-    "entities/locations/briarfall-crossing.md": "ac7a480a395fb0c429c7468e37ee0f29a01adfaf24bb60679868bff010b5f9ff",
+    "entities/locations/eastrun.md": "374b7042032352d1703d8c8f215fb75dab54ba084a14b340ce9e570a63f8bb1b",
+    "entities/locations/briarfall-crossing.md": "60808a826a0376f92bbe40486ad5820d54af5afd19b079b0a555bb0e36edbe99",
     "entities/locations/greyhaven-mill.md": "200b22122ce9f0cfe2262ea8973ce2936893cbff8de3702fff4050cfc22d702a",
     "entities/locations/greyhaven-valley.md": "a6915e59164126105a63846ac2360d84cde7c02c2220378c5b70ebc639936e8a",
     "entities/locations/northern-freight-enclosure.md": "b63b0cd7ecc8fc58d3fac16118d148b4dd021b86d2869514cf9ef727f16d6c1e",
     "entities/locations/blackthorn-watch.md": "dbd359d91521c415db8d686bfdf9c5afb695ad5df828299353835e0c994ae55c",
-    "entities/locations/caelthorne.md": "7b3512c0925f0f8b3bc785efbf88be6d4a2b99be30c103475768c979c95c4243",
-    "entities/locations/brackenford.md": "e99f00ce36f2c87b89479f8ae8896a597a0e3a39ce4ac49fc1f03eb5fbe6738d",
+    "entities/locations/caelthorne.md": "9572b14091f9911c2c40bf0501121467d71ec8231fb20e183457fe7820fe1667",
+    "entities/locations/brackenford.md": "feb07c28c82cfec12381f50f4a62aaa25aed8e06b6b557d891acb12c01a065c9",
     "entities/locations/ashvale-estate.md": "b86aa0ca63de49d3acb6fa02230939b909973e2749d544a945a84007a76c63f8",
     "entities/locations/ashvale-lodge.md": "0004235a6f0b60fb5a3e702045e28d2d304d81829eaa99acb93f2063de34ebcc",
     "entities/locations/briarstone-cottage.md": "99b322986cb8aa2969602c0ff711bd8a3cebcddc9d1e3cf0f1740c10719f3b40"

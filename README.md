@@ -22,7 +22,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Settlements and services
 
-[Settlement directory](docs/settlement-directory.md) routes eleven existing locality/property profiles and parent-scoped business/service records. Unknown owners, prices and stock stay unknown; no automatic income, purchases or NPC assignments.
+[Settlement directory](docs/settlement-directory.md) routes historical locality/property records and the [ten approved Phase 2 settlement designs](docs/phase2-settlements-and-services.md), with parent-scoped business/service records. Unknown owners, prices and stock stay unknown; no automatic income, purchases or NPC assignments.
 
 ## Justice and custody
 
