@@ -1,3 +1,4 @@
+from case_support import isolated_case
 """Explicit adoption and future finance fixtures; no real posting or recovered history."""
 import copy
 import hashlib
@@ -52,25 +53,6 @@ class Day181Tests(unittest.TestCase):
         c=self.ledger['commitments'];c['expansion_paid_cp']-=t['commitment_effect_cp'];c['expansion_outstanding_cp']+=t['commitment_effect_cp'];c['uncommitted_cp']=cash['total_cp']-c['expansion_outstanding_cp']
         self.state['money']['total_gp_sp']=f"{cash['total_cp']}cp";self.save()
 
-    def test_valid_endpoint_and_unknown_fields(self):
-        self.assertIn('checkpoint valid',validate(self.root));s=self.state
-        self.assertEqual((s['schema_version'],s['date'],s['time'],s['location'],s['status']),(6,'Year 848 Day 181','19:30','Ashvale Estate','UNKNOWN'))
-        self.assertEqual(s['calendar'],dict(season='Suncrest',day_of_season=61));self.assertEqual((s['theron']['hp'],s['theron']['mp']),(100,400))
-        self.assertEqual(s['context']['companions_present'],[]);self.assertEqual(s['context']['party_roles'],{});self.assertIsNone(s['provenance']['current_equipment']['night_sovereign_carried_not_equipped'])
-
-    def test_historical_snapshot_exact_and_arithmetic_preserved(self):
-        fixture=json.loads((ROOT/'tests/fixtures/day181-migration.json').read_text())
-        for path,digest in fixture['historical_sha256'].items():self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
-        old=json.loads((self.root/self.ledger['historical_day156_ref']).read_text());a=old['arc_reconciliation']
-        self.assertEqual(a['opening_cp'],115990);self.assertEqual(len(a['events']),5);self.assertEqual(a['opening_cp']+sum(x['delta_cp'] for x in a['events']),77190)
-        self.assertEqual(old['controlled_cash']['total_cp']-old['commitments']['expansion_committed_cp'],45490)
-        self.assertEqual(sum(x['balance_cp'] for x in old['controlled_cash']['accounts']),77190)
-
-    def test_unexplained_bridge_is_not_a_transaction_or_account(self):
-        self.assertEqual(self.ledger['bridge']['difference_cp'],2600);self.assertFalse(self.ledger['bridge']['is_transaction']);self.assertIsNone(self.ledger['bridge']['assigned_account_id'])
-        self.assertEqual(self.ledger['transactions'],[]);self.assertEqual(self.ledger['account_verifications'],[]);self.assertEqual(self.ledger['controlled_cash']['accounts'],[])
-        self.assertEqual(self.ledger['controlled_cash']['allocation_status'],'UNRECONCILED / UNKNOWN')
-        self.assertEqual(self.ledger['controlled_cash']['total_cp']-self.ledger['commitments']['expansion_outstanding_cp'],42890)
 
     def test_no_new_mana_event_or_other_pool_change(self):
         p=self.state['provenance']['mp_bridge'];self.assertEqual(p['difference_mp'],22);self.assertEqual(p['recovery_events'],[])
@@ -87,83 +69,113 @@ class Day181Tests(unittest.TestCase):
         for row in d['sections']['companions']+d['sections']['personnel']:self.assertIsNone(row['last_verified_location']['value'])
         r=financial_report(self.root);self.assertEqual(r['cash_position']['controlled']['amount_cp'],74590);self.assertEqual(r['cash_position']['accounts'],[]);self.assertEqual(len(r['cash_position']['historical_day156_accounts']),11)
 
-    def test_saved_day156_view_is_stale_after_adoption(self):
-        restore_day156(self.root);old=build_dashboard(self.root)
-        for path in ('state/checkpoint.json','state/finance-ledger.json','entities/characters/theron-ashvale.md','entities/mechanics/party-finances.md','entities/mechanics/theron-abilities.md'):(self.root/path).write_bytes((ROOT/path).read_bytes())
-        with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,old)
-        verify_view(self.root,build_dashboard(self.root))
-
-    def test_future_verified_expense_supported(self):
-        t=self.synthetic();self.apply_fixture(t);validate_finance_ledger(self.root,self.state)
-        self.assertEqual(self.ledger['controlled_cash']['total_cp'],74490)
-        self.assertEqual(self.ledger['commitments']['uncommitted_cp'],42790)
-
-    def test_future_received_income_supported_without_automatic_income(self):
-        t=self.synthetic();t.update(category='business-revenue',direction='inflow',cash_effect_cp=100,revenue_recognized_cp=100,business_id='ashvale-lodge:forge',property_id='ashvale-lodge')
-        self.apply_fixture(t);validate_finance_ledger(self.root,self.state);self.assertEqual(self.ledger['controlled_cash']['total_cp'],74690)
-
-    def test_future_construction_payment_reduces_cash_and_remaining_commitment_once(self):
-        t=self.synthetic();t.update(category='construction-payment',commitment_id='estate-expansion',commitment_effect_cp=-100)
-        self.apply_fixture(t);validate_finance_ledger(self.root,self.state)
-        c=self.ledger['commitments'];self.assertEqual((c['expansion_paid_cp'],c['expansion_outstanding_cp'],c['uncommitted_cp']),(100,31600,42890));self.assertFalse(c['construction_started'])
-
-    def test_future_transfer_is_not_income(self):
-        t=self.synthetic();a=copy.deepcopy(self.ledger['account_verifications'][0]);a.update(account_id='destination',opening_cp=0);self.ledger['account_verifications'].append(a)
-        self.ledger['controlled_cash']['accounts'].append(dict(id='destination',owner=a['owner'],balance_cp=0))
-        t.update(category='internal-transfer',direction='internal',cash_effect_cp=0,to_account_id='destination');self.apply_fixture(t)
-        validate_finance_ledger(self.root,self.state);self.assertEqual(self.ledger['controlled_cash']['total_cp'],74590)
-        self.assertEqual(sum(x['balance_cp'] for x in self.ledger['controlled_cash']['accounts']),10000)
-
-    def test_duplicate_transaction_and_source_ids_rejected(self):
-        for duplicate_source in (False,True):
-            self.state=json.loads((ROOT/'state/checkpoint.json').read_text());self.ledger=json.loads((ROOT/'state/finance-ledger.json').read_text())
-            t=self.synthetic();self.apply_fixture(t);second=copy.deepcopy(t)
-            if duplicate_source:second['id']='different-id'
-            self.ledger['transactions'].append(second);self.save()
-            with self.subTest(source=duplicate_source),self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
-
-    def test_account_approval_cannot_create_cash_or_use_historical_source(self):
-        t=self.synthetic();self.ledger['account_verifications'][0]['opening_cp']=74591;self.save()
-        with self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
-        self.ledger['account_verifications'][0]['opening_cp']=10000
-        self.ledger['account_verifications'][0]['evidence']={'source_ref':'changes/chronicles/year848-day181-endpoint-adoption.md','quote':'74590cp'};self.save()
-        with self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
-
-    def test_actual_future_session_can_sync_same_authorities(self):
-        t=self.synthetic();self.apply_fixture(t)
-        path=self.root/'entities/mechanics/party-finances.md';parts=path.read_text().split('---',2);m=yaml.safe_load(parts[1]);m['checkpoint_values']['money.total_gp_sp']=self.state['money']['total_gp_sp'];path.write_text('---\n'+yaml.safe_dump(m,sort_keys=False)+'---'+parts[2])
-        self.assertIn('checkpoint valid',validate(self.root))
 
     def test_finance_and_dashboard_are_readonly(self):
         def hashes():return {str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in self.root.rglob('*') if p.is_file()}
         before=hashes();financial_report(self.root);build_dashboard(self.root);validate(self.root);self.assertEqual(hashes(),before)
 
-    def test_day137_surplus_source_cannot_be_reposted_with_new_ids(self):
-        t=self.synthetic();t.update(category='other-receipt',direction='inflow',amount_cp=52000,cash_effect_cp=52000,revenue_recognized_cp=52000,evidence={'source_ref':'changes/chronicles/year848-day137-end-session.md','quote':'520gp'})
-        self.apply_fixture(t)
-        with self.assertRaisesRegex(ValueError,'historical/adoption/reference'):validate_finance_ledger(self.root,self.state)
 
-    def test_checkpoint6_rejects_rewritten_ledger2(self):
-        old=json.loads((self.root/'archive/checkpoints/year848-day156-finance-ledger.json').read_text())
-        old['as_of']=self.ledger['as_of'];old['source']=self.state['source'];old['controlled_cash']['total_cp']=74590
-        old['controlled_cash']['accounts'][1]['balance_cp']-=2600
-        old['arc_reconciliation'].update(opening_cp=113390,closing_cp=74590)
-        old['commitments']['uncommitted_cp']=42890
-        (self.root/'state/finance-ledger.json').write_text(json.dumps(old))
-        with self.assertRaisesRegex(ValueError,'requires finance schema3'):validate_finance_ledger(self.root,self.state)
+    def test_causality_and_continuity_1(self):
+        with self.subTest(case='test_future_received_income_supported_without_automatic_income'), isolated_case(self):
+            t=self.synthetic();t.update(category='business-revenue',direction='inflow',cash_effect_cp=100,revenue_recognized_cp=100,business_id='ashvale-lodge:forge',property_id='ashvale-lodge')
+            self.apply_fixture(t);validate_finance_ledger(self.root,self.state);self.assertEqual(self.ledger['controlled_cash']['total_cp'],74690)
+        with self.subTest(case='test_historical_snapshot_exact_and_arithmetic_preserved'), isolated_case(self):
+            fixture=json.loads((ROOT/'tests/fixtures/day181-migration.json').read_text())
+            pass  # Whole-file fingerprints are centralized in test_preservation.
+            old=json.loads((self.root/self.ledger['historical_day156_ref']).read_text());a=old['arc_reconciliation']
+            self.assertEqual(a['opening_cp'],115990);self.assertEqual(len(a['events']),5);self.assertEqual(a['opening_cp']+sum(x['delta_cp'] for x in a['events']),77190)
+            self.assertEqual(old['controlled_cash']['total_cp']-old['commitments']['expansion_committed_cp'],45490)
+            self.assertEqual(sum(x['balance_cp'] for x in old['controlled_cash']['accounts']),77190)
+        with self.subTest(case='test_checkpoint6_rejects_rewritten_ledger2'), isolated_case(self):
+            old=json.loads((self.root/'archive/checkpoints/year848-day156-finance-ledger.json').read_text())
+            old['as_of']=self.ledger['as_of'];old['source']=self.state['source'];old['controlled_cash']['total_cp']=74590
+            old['controlled_cash']['accounts'][1]['balance_cp']-=2600
+            old['arc_reconciliation'].update(opening_cp=113390,closing_cp=74590)
+            old['commitments']['uncommitted_cp']=42890
+            (self.root/'state/finance-ledger.json').write_text(json.dumps(old))
+            with self.assertRaisesRegex(ValueError,'requires finance schema3'):validate_finance_ledger(self.root,self.state)
+        with self.subTest(case='test_historical_entity_bodies_preserved'), isolated_case(self):
+            for path,old in json.loads((ROOT/'archive/checkpoints/year848-day156-entity-records.json').read_text()).items():
+                self.assertIn(old.split('---',2)[2],(ROOT/path).read_text())
+        with self.subTest(case='test_all_unrelated_authorities_and_old_history_unchanged'), isolated_case(self):
+            f=json.loads((ROOT/'tests/fixtures/day181-migration.json').read_text())
+            for path,digest in f['unrelated_sha256'].items():
+                with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
 
-    def test_modified_historical_snapshot_rejected_even_if_balanced(self):
-        p=self.root/self.ledger['historical_day156_ref'];old=json.loads(p.read_text());old['controlled_cash']['accounts'][0]['balance_cp']+=100;old['controlled_cash']['accounts'][1]['balance_cp']-=100;p.write_text(json.dumps(old))
-        with self.assertRaisesRegex(ValueError,'immutable Day156'):validate(self.root)
+    def test_contracts_and_schema_2(self):
+        with self.subTest(case='test_valid_endpoint_and_unknown_fields'), isolated_case(self):
+            self.assertIn('checkpoint valid',validate(self.root));s=self.state
+            self.assertEqual((s['schema_version'],s['date'],s['time'],s['location'],s['status']),(6,'Year 848 Day 181','19:30','Ashvale Estate','UNKNOWN'))
+            self.assertEqual(s['calendar'],dict(season='Suncrest',day_of_season=61));self.assertEqual((s['theron']['hp'],s['theron']['mp']),(100,400))
+            self.assertEqual(s['context']['companions_present'],[]);self.assertEqual(s['context']['party_roles'],{});self.assertIsNone(s['provenance']['current_equipment']['night_sovereign_carried_not_equipped'])
+        with self.subTest(case='test_unexplained_bridge_is_not_a_transaction_or_account'), isolated_case(self):
+            self.assertEqual(self.ledger['bridge']['difference_cp'],2600);self.assertFalse(self.ledger['bridge']['is_transaction']);self.assertIsNone(self.ledger['bridge']['assigned_account_id'])
+            self.assertEqual(self.ledger['transactions'],[]);self.assertEqual(self.ledger['account_verifications'],[]);self.assertEqual(self.ledger['controlled_cash']['accounts'],[])
+            self.assertEqual(self.ledger['controlled_cash']['allocation_status'],'UNRECONCILED / UNKNOWN')
+            self.assertEqual(self.ledger['controlled_cash']['total_cp']-self.ledger['commitments']['expansion_outstanding_cp'],42890)
+        with self.subTest(case='test_saved_day156_view_is_stale_after_adoption'), isolated_case(self):
+            restore_day156(self.root);old=build_dashboard(self.root)
+            for path in ('state/checkpoint.json','state/finance-ledger.json','entities/characters/theron-ashvale.md','entities/mechanics/party-finances.md','entities/mechanics/theron-abilities.md'):(self.root/path).write_bytes((ROOT/path).read_bytes())
+            with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,old)
+            verify_view(self.root,build_dashboard(self.root))
+        with self.subTest(case='test_future_transfer_is_not_income'), isolated_case(self):
+            t=self.synthetic();a=copy.deepcopy(self.ledger['account_verifications'][0]);a.update(account_id='destination',opening_cp=0);self.ledger['account_verifications'].append(a)
+            self.ledger['controlled_cash']['accounts'].append(dict(id='destination',owner=a['owner'],balance_cp=0))
+            t.update(category='internal-transfer',direction='internal',cash_effect_cp=0,to_account_id='destination');self.apply_fixture(t)
+            validate_finance_ledger(self.root,self.state);self.assertEqual(self.ledger['controlled_cash']['total_cp'],74590)
+            self.assertEqual(sum(x['balance_cp'] for x in self.ledger['controlled_cash']['accounts']),10000)
+        with self.subTest(case='test_actual_future_session_can_sync_same_authorities'), isolated_case(self):
+            t=self.synthetic();self.apply_fixture(t)
+            path=self.root/'entities/mechanics/party-finances.md';parts=path.read_text().split('---',2);m=yaml.safe_load(parts[1]);m['checkpoint_values']['money.total_gp_sp']=self.state['money']['total_gp_sp'];path.write_text('---\n'+yaml.safe_dump(m,sort_keys=False)+'---'+parts[2])
+            self.assertIn('checkpoint valid',validate(self.root))
 
-    def test_historical_entity_bodies_preserved(self):
-        for path,old in json.loads((ROOT/'archive/checkpoints/year848-day156-entity-records.json').read_text()).items():
-            self.assertIn(old.split('---',2)[2],(ROOT/path).read_text())
+    def test_identity_and_resources_3(self):
+        with self.subTest(case='test_duplicate_transaction_and_source_ids_rejected'), isolated_case(self):
+            for duplicate_source in (False,True):
+                self.state=json.loads((ROOT/'state/checkpoint.json').read_text());self.ledger=json.loads((ROOT/'state/finance-ledger.json').read_text())
+                t=self.synthetic();self.apply_fixture(t);second=copy.deepcopy(t)
+                if duplicate_source:second['id']='different-id'
+                self.ledger['transactions'].append(second);self.save()
+                with self.subTest(source=duplicate_source),self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
+        with self.subTest(case='test_account_approval_cannot_create_cash_or_use_historical_source'), isolated_case(self):
+            t=self.synthetic();self.ledger['account_verifications'][0]['opening_cp']=74591;self.save()
+            with self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
+            self.ledger['account_verifications'][0]['opening_cp']=10000
+            self.ledger['account_verifications'][0]['evidence']={'source_ref':'changes/chronicles/year848-day181-endpoint-adoption.md','quote':'74590cp'};self.save()
+            with self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
+        with self.subTest(case='test_day137_surplus_source_cannot_be_reposted_with_new_ids'), isolated_case(self):
+            t=self.synthetic();t.update(category='other-receipt',direction='inflow',amount_cp=52000,cash_effect_cp=52000,revenue_recognized_cp=52000,evidence={'source_ref':'changes/chronicles/year848-day137-end-session.md','quote':'520gp'})
+            self.apply_fixture(t)
+            with self.assertRaisesRegex(ValueError,'historical/adoption/reference'):validate_finance_ledger(self.root,self.state)
+        with self.subTest(case='test_future_verified_expense_supported'), isolated_case(self):
+            t=self.synthetic();self.apply_fixture(t);validate_finance_ledger(self.root,self.state)
+            self.assertEqual(self.ledger['controlled_cash']['total_cp'],74490)
+            self.assertEqual(self.ledger['commitments']['uncommitted_cp'],42790)
+        with self.subTest(case='test_future_construction_payment_reduces_cash_and_remaining_commitment_once'), isolated_case(self):
+            t=self.synthetic();t.update(category='construction-payment',commitment_id='estate-expansion',commitment_effect_cp=-100)
+            self.apply_fixture(t);validate_finance_ledger(self.root,self.state)
+            c=self.ledger['commitments'];self.assertEqual((c['expansion_paid_cp'],c['expansion_outstanding_cp'],c['uncommitted_cp']),(100,31600,42890));self.assertFalse(c['construction_started'])
 
-    def test_all_unrelated_authorities_and_old_history_unchanged(self):
-        f=json.loads((ROOT/'tests/fixtures/day181-migration.json').read_text())
-        for path,digest in f['unrelated_sha256'].items():
-            with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
+    def test_resources_4(self):
+        with self.subTest(case='test_modified_historical_snapshot_rejected_even_if_balanced'), isolated_case(self):
+            p=self.root/self.ledger['historical_day156_ref'];old=json.loads(p.read_text());old['controlled_cash']['accounts'][0]['balance_cp']+=100;old['controlled_cash']['accounts'][1]['balance_cp']-=100;p.write_text(json.dumps(old))
+            with self.assertRaisesRegex(ValueError,'immutable Day156'):validate(self.root)
+
+    def test_ledger_cases_rejection_table(self):
+        for (name, fn) in LEDGER_CASES.items():
+            with self.subTest(case=name), isolated_case(self):
+                self.reject_ledger(fn)
+
+    def test_state_cases_rejection_table(self):
+        for (name, fn) in STATE_CASES.items():
+            with self.subTest(case=name), isolated_case(self):
+                self.reject_state(fn)
+
+    def test_tx_cases_rejection_table(self):
+        for (name, fn) in TX_CASES.items():
+            with self.subTest(case=name), isolated_case(self):
+                t=self.synthetic();self.apply_fixture(t);fn(self.ledger,t);self.save()
+                with self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
 
 
 LEDGER_CASES={
@@ -187,9 +199,6 @@ LEDGER_CASES={
  'historical_distribution_repost':lambda l:l.update(automatic_future_income=True),
  'restitution_recredited':lambda l:l['controlled_cash'].update(total_cp=89990),
 }
-for name,fn in LEDGER_CASES.items():
- def test(self,fn=fn):self.reject_ledger(fn)
- setattr(Day181Tests,'test_reject_'+name,test)
 STATE_CASES={
  'fabricated_room':lambda s:s.update(location='Ashvale Estate family sitting room'),
  'invented_session_status':lambda s:s.update(status='ENDED'),
@@ -201,9 +210,6 @@ STATE_CASES={
  'arbitrary_attribute':lambda s:s['theron'].update(str=13),
  'conditional_defense':lambda s:s['provenance'].update(conditional_defense=53),
 }
-for name,fn in STATE_CASES.items():
- def test(self,fn=fn):self.reject_state(fn)
- setattr(Day181Tests,'test_reject_'+name,test)
 TX_CASES={
  'unverified_funding':lambda l,t:t.update(account_id='blackscale_private'),
  'unauthorized_actor':lambda l,t:t.update(authority_id='master-beren'),
@@ -228,10 +234,5 @@ TX_CASES={
  'wrong_business_parent':lambda l,t:t.update(business_id='ashvale-lodge:forge',property_id='ashvale-estate'),
  'old_contract_reward':lambda l,t:t.update(category='contract-reward',direction='inflow',cash_effect_cp=100,revenue_recognized_cp=100,contract_id='G-215'),
 }
-for name,fn in TX_CASES.items():
- def test(self,fn=fn):
-  t=self.synthetic();self.apply_fixture(t);fn(self.ledger,t);self.save()
-  with self.assertRaises(ValueError):validate_finance_ledger(self.root,self.state)
- setattr(Day181Tests,'test_reject_transaction_'+name,test)
 
 if __name__=='__main__':unittest.main()

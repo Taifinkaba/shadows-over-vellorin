@@ -1,3 +1,4 @@
+from case_support import isolated_case
 """Dashboard projections are read-only, source-bound, conservative and disposable."""
 import copy
 import hashlib
@@ -36,164 +37,153 @@ class DashboardTests(unittest.TestCase):
         self.edit_payload(path,fn)
         with self.assertRaises(ValidationError):validate(self.root)
 
-    def test_current_repository_valid_dynamic_entity_total(self):
-        count=len(json.loads((self.root/'index.json').read_text())['entries'])
-        self.assertIn(f'{count} entity records',validate(self.root))
-
-    def test_every_protected_campaign_record_byte_preserved(self):
-        f=json.loads((ROOT/'tests/fixtures/chunk10-preservation.json').read_text())
-        for path,digest in f['sha256'].items():
-            with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
 
     def test_generation_and_validation_write_nothing(self):
         def hashes():return {str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in self.root.rglob('*') if p.is_file()}
         before=hashes();v=build_dashboard(self.root);render_markdown(v);verify_view(self.root,v)
         self.assertEqual(before,hashes());self.assertFalse((self.root/'state/world-state.json').exists())
 
-    def test_current_scene_and_finite_resource_snapshot(self):
-        d=build_dashboard(self.root)['sections'];scene=d['current_scene'];h=d['theron']
-        self.assertEqual(scene['date']['value'],'Year 848 Day 156');self.assertEqual(scene['calendar']['value'],{'season':'Suncrest','day_of_season':36})
-        self.assertEqual(scene['time']['value'],'20:15');self.assertEqual(scene['location']['value'],'Ashvale Estate family sitting room');self.assertEqual(scene['status']['value'],'ENDED')
-        expected={'hp':100,'hp_max':100,'mp':378,'mp_max':400,'defense':46,'equipped_defense':49,'staff_mp':156,'staff_mp_max':180,'wagon_mp':60,'wagon_mp_max':60,'defense_if_night_sovereign_worn':51,'night_sovereign_worn_bonus':2}
-        for key,value in expected.items():self.assertEqual(h[key]['value'],value)
-        self.assertTrue(h['night_sovereign_carried_not_equipped']['value']);self.assertTrue(h['chronos_eye_locked']['value']);self.assertTrue(h['dragon_slayer_locked']['value'])
 
-    def test_money_commitments_and_exclusions_are_not_added_twice(self):
-        f=build_dashboard(self.root)['sections']['finances']
-        self.assertEqual([f[x]['value'] for x in ('controlled_cp','committed_unpaid_cp','uncommitted_cp')],[77190,31700,45490])
-        self.assertEqual(sum(x['balance_cp']['value'] for x in f['accounts']),77190)
-        self.assertEqual(f['controlled_display']['value'],'771 gp 9 sp 0 cp');self.assertEqual(f['committed_unpaid_display']['value'],'317 gp 0 sp 0 cp')
-        self.assertEqual(f['currency']['value'],{'unit':'cp','cp_per_gp':100,'cp_per_sp':10})
-        self.assertFalse(f['construction_started']['value']);self.assertIsNone(f['accounting_gaps']['value'])
-        cottage=next(x for x in f['excluded_holdings'] if x['holding_id']['value']=='briarstone_cottage')
-        self.assertEqual(cottage['amount_cp']['value'],5500);self.assertIsNone(cottage['amount_cp']['as_of'])
+    def test_continuity_and_contracts_and_schema_1(self):
+        with self.subTest(case='test_current_repository_valid_dynamic_entity_total'), isolated_case(self):
+            count=len(json.loads((self.root/'index.json').read_text())['entries'])
+            self.assertIn(f'{count} entity records',validate(self.root))
+        with self.subTest(case='test_only_explicit_checkpoint_presence_is_current'), isolated_case(self):
+            d=build_dashboard(self.root)['sections'];rows=d['companions']+d['personnel']
+            known={x['person']['value'] for x in rows if x['last_verified_location']['value'] is not None}
+            self.assertEqual(known,{'aric-ashvale','therons-mother'})
+            for ident in ('alpha','garrick-vale','nyx-thorne','master-beren','tomas'):
+                row=next(x for x in rows if x['person']['value']==ident)
+                self.assertIsNone(row['last_verified_location']['value']);self.assertIsNone(row['source_date']['value'])
+            self.assertNotIn('tomas',{x['person']['value'] for x in d['companions']})
+        with self.subTest(case='test_stale_or_edited_view_rejected_and_regeneration_current'), isolated_case(self):
+            old=build_dashboard(self.root);verify_view(self.root,old)
+            p=self.root/'entities/creatures/alpha.md';p.write_text(p.read_text()+'\nSource freshness test; no changed outcome.\n')
+            with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,old)
+            fresh=build_dashboard(self.root);verify_view(self.root,fresh)
+            changed=copy.deepcopy(fresh);changed['sections']['finances']['controlled_cp']['value']=74590
+            with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,changed)
+        with self.subTest(case='test_saved_view_cannot_substitute_float_or_boolean_for_integer'), isolated_case(self):
+            view=build_dashboard(self.root)
+            for section,key,bad in [('finances','controlled_cp',77190.0),('theron','chronos_eye_locked',1)]:
+                candidate=copy.deepcopy(view);candidate['sections'][section][key]['value']=bad
+                with self.subTest(key=key),self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,candidate)
+        with self.subTest(case='test_unadopted_snapshot_cannot_override_repository_authority'), isolated_case(self):
+            d=build_dashboard(self.root)['sections'];self.assertIn('UNADOPTED',d['verification_warnings']['later_supplied_snapshot']['value'])
+            self.assertEqual(d['theron']['mp']['value'],378);self.assertEqual(d['finances']['controlled_cp']['value'],77190)
 
-    def test_only_explicit_checkpoint_presence_is_current(self):
-        d=build_dashboard(self.root)['sections'];rows=d['companions']+d['personnel']
-        known={x['person']['value'] for x in rows if x['last_verified_location']['value'] is not None}
-        self.assertEqual(known,{'aric-ashvale','therons-mother'})
-        for ident in ('alpha','garrick-vale','nyx-thorne','master-beren','tomas'):
-            row=next(x for x in rows if x['person']['value']==ident)
-            self.assertIsNone(row['last_verified_location']['value']);self.assertIsNone(row['source_date']['value'])
-        self.assertNotIn('tomas',{x['person']['value'] for x in d['companions']})
+    def test_contracts_and_schema_2(self):
+        with self.subTest(case='test_markdown_has_independent_closed_controls_and_personnel_columns'), isolated_case(self):
+            text=render_markdown(build_dashboard(self.root))
+            self.assertGreaterEqual(text.count('<details>'),9);self.assertEqual(text.count('<details>'),text.count('</details>'))
+            self.assertNotRegex(text,r'<details\s+open');self.assertIn('| Person | Assignment | Status |',text)
+            self.assertIn('<summary>Personnel</summary>',text);self.assertIn('<summary>Dungeon Sections</summary>',text)
+        with self.subTest(case='test_cli_json_markdown_and_check_view'), isolated_case(self):
+            command=[sys.executable,str(ROOT/'scripts/gm_dashboard.py'),'--root',str(self.root)]
+            result=subprocess.run(command,capture_output=True,text=True);self.assertEqual(result.returncode,0,result.stderr)
+            viewfile=Path(self.temp.name)/'saved-view.json';viewfile.write_text(result.stdout)
+            checkresult=subprocess.run(command+['--check-view',str(viewfile)],capture_output=True,text=True);self.assertEqual(checkresult.returncode,0,checkresult.stderr)
+            result=subprocess.run(command+['--format','markdown'],capture_output=True,text=True);self.assertEqual(result.returncode,0,result.stderr);self.assertIn('<details>',result.stdout)
+            view=json.loads(viewfile.read_text());view['sections']['current_scene']['status']['value']='ACTIVE';viewfile.write_text(json.dumps(view))
+            result=subprocess.run(command+['--check-view',str(viewfile)],capture_output=True,text=True);self.assertNotEqual(result.returncode,0)
+        with self.subTest(case='test_unsupported_snapshot_schema_fails_visibly'), isolated_case(self):
+            self.edit_json('state/checkpoint.json',lambda d:d.update(schema_version=999))
+            with self.assertRaises(ValueError):build_dashboard(self.root)
+        with self.subTest(case='test_broken_workflow_link_fails'), isolated_case(self):
+            p=self.root/'docs/game-master-operating-manual.md';p.write_text(p.read_text()+'\n[Broken](missing-owner.md)\n')
+            with self.assertRaisesRegex(ValueError,'broken'):validate(self.root)
+        with self.subTest(case='test_escape_link_fails'), isolated_case(self):
+            p=self.root/'docs/game-master-operating-manual.md';p.write_text(p.read_text()+'\n[Escape](../../outside.md)\n')
+            with self.assertRaisesRegex(ValueError,'escaping'):validate(self.root)
 
-    def test_academy_management_does_not_pool_independent_money(self):
-        rows=build_dashboard(self.root)['sections']['estate_and_academy'];a=next(x for x in rows if x['property']['value']=='dragon-slayer-academy')
-        self.assertEqual(a['manager_id']['value'],'master-beren');self.assertIsNone(a['legal_owner_id']['value'])
-        self.assertIn('independent',a['financial_ownership']['value']);self.assertIsNone(a['operations_and_projects']['value'])
+    def test_contracts_and_schema_and_identity_3(self):
+        with self.subTest(case='test_partial_workflow_extension_rejected'), isolated_case(self):
+            (self.root/'entities/mechanics/gm-workflow.md').unlink()
+            self.edit_json('index.json',lambda d:d.update(entries=[x for x in d['entries'] if x['id']!='gm-workflow']))
+            with self.assertRaisesRegex(ValueError,'incomplete GM'):validate(self.root)
+        with self.subTest(case='test_current_scene_and_finite_resource_snapshot'), isolated_case(self):
+            d=build_dashboard(self.root)['sections'];scene=d['current_scene'];h=d['theron']
+            self.assertEqual(scene['date']['value'],'Year 848 Day 156');self.assertEqual(scene['calendar']['value'],{'season':'Suncrest','day_of_season':36})
+            self.assertEqual(scene['time']['value'],'20:15');self.assertEqual(scene['location']['value'],'Ashvale Estate family sitting room');self.assertEqual(scene['status']['value'],'ENDED')
+            expected={'hp':100,'hp_max':100,'mp':378,'mp_max':400,'defense':46,'equipped_defense':49,'staff_mp':156,'staff_mp_max':180,'wagon_mp':60,'wagon_mp_max':60,'defense_if_night_sovereign_worn':51,'night_sovereign_worn_bonus':2}
+            for key,value in expected.items():self.assertEqual(h[key]['value'],value)
+            self.assertTrue(h['night_sovereign_carried_not_equipped']['value']);self.assertTrue(h['chronos_eye_locked']['value']);self.assertTrue(h['dragon_slayer_locked']['value'])
+        with self.subTest(case='test_every_display_leaf_has_valid_source_asof_and_qualification'), isolated_case(self):
+            def inspect(x):
+                if isinstance(x,dict) and 'value' in x:
+                    self.assertEqual(set(x),{'value','source_ref','as_of','qualification'})
+                    path=x['source_ref'].split('#',1)[0];self.assertTrue((self.root/path).is_file());self.assertTrue(x['qualification'])
+                elif isinstance(x,dict):
+                    for v in x.values():inspect(v)
+                elif isinstance(x,list):
+                    for v in x:inspect(v)
+                else:self.fail('unsourced displayed leaf')
+            inspect(build_dashboard(self.root)['sections'])
+        with self.subTest(case='test_mixed_narrative_and_private_text_are_not_projected'), isolated_case(self):
+            sentinel='UNREVEALED_PRIVATE_SENTINEL'
+            for path in ('entities/characters/lyanna-ashvale.md','entities/characters/theron-ashvale.md','state/open-verifications.md','state/next-chat-handoff.md'):
+                p=self.root/path;p.write_text(p.read_text()+'\n'+sentinel+'\n')
+            view=build_dashboard(self.root)
+            self.assertNotIn(sentinel,json.dumps(view));self.assertNotIn(sentinel,render_markdown(view))
+            self.assertNotIn('ashvale-lifeline',json.dumps(view));self.assertNotIn('twin-sword-origin',json.dumps(view))
+        with self.subTest(case='test_unknown_source_phrase_produces_unknown_not_an_invented_bonus'), isolated_case(self):
+            p=self.root/'entities/items/night-sovereign.md';p.write_text(p.read_text().replace('+2 equipped DEF while worn','Worn bonus unverified'))
+            h=build_dashboard(self.root)['sections']['theron'];self.assertIsNone(h['night_sovereign_worn_bonus']['value']);self.assertIsNone(h['defense_if_night_sovereign_worn']['value'])
 
-    def test_quest_and_world_values_do_not_claim_completion_or_clearance(self):
-        d=build_dashboard(self.root)['sections'];q=d['quests'];self.assertEqual(q['approval_gaps']['value'],{'core_design_approval_ids':10,'optional_design_approval_ids':8});self.assertEqual(q['unfilled_clue_routes']['value'],14)
-        first=next(x for x in q['metadata'] if x['quest_id']['value']=='first-hour-restoration');self.assertEqual(first['status']['value'],'active')
-        rows=d['world']['dungeon_sections'];west=next(x for x in rows if 'western-gallery' in x['section_id']['value'])
-        self.assertEqual(west['exploration']['value'],'unexplored')
-        keeper=next(x for x in rows if 'keeper' in x['section_id']['value'])
-        self.assertEqual(keeper['exploration']['value'],'unknown');self.assertEqual(keeper['access']['value'],'protected')
-        self.assertTrue(all('pending' in x['current_result']['value'] for x in d['world']['legal_reviews']))
+    def test_identity_and_resources_4(self):
+        with self.subTest(case='test_new_gm_secret_entity_is_excluded_from_output'), isolated_case(self):
+            p=self.root/'entities/characters/secret-test.md'
+            p.write_text('---\nid: secret-test\ntype: characters\nstatus: gm-secret-locked\nvisibility: gm-secret\nsource_refs:\n- changes/chronicles/gm-continuity-maintenance.md\n---\n\nHidden mastermind SECRET-SENTINEL\n')
+            self.edit_json('index.json',lambda d:d['entries'].append({'id':'secret-test','type':'characters','title':'SECRET-SENTINEL','path':'entities/characters/secret-test.md','status':'gm-secret-locked','visibility':'gm-secret','tags':[]}))
+            view=build_dashboard(self.root);self.assertNotIn('secret-test',json.dumps(view));self.assertNotIn('SECRET-SENTINEL',json.dumps(view))
+        with self.subTest(case='test_source_visibility_changes_fail_closed'), isolated_case(self):
+            p=self.root/'entities/items/night-sovereign.md';p.write_text(p.read_text().replace('visibility: gm-reference','visibility: gm-secret'))
+            self.edit_json('index.json',lambda d:[row.update(visibility='gm-secret') for row in d['entries'] if row['id']=='night-sovereign'])
+            with self.assertRaises(ValueError):build_dashboard(self.root)
+        with self.subTest(case='test_source_owned_section_change_is_read_fresh_without_reset'), isolated_case(self):
+            before=build_dashboard(self.root);p=self.root/'entities/mechanics/shady-salvage.md'
+            text=p.read_text();self.assertIn('| Hollow western gallery | Unexplored',text)
+            p.write_text(text.replace('| Hollow western gallery | Unexplored','| Hollow western gallery | Visited'))
+            after=build_dashboard(self.root)
+            row=next(x for x in after['sections']['world']['dungeon_sections'] if 'western-gallery' in x['section_id']['value'])
+            self.assertEqual(row['exploration']['value'],'visited')
+            with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,before)
+        with self.subTest(case='test_money_commitments_and_exclusions_are_not_added_twice'), isolated_case(self):
+            f=build_dashboard(self.root)['sections']['finances']
+            self.assertEqual([f[x]['value'] for x in ('controlled_cp','committed_unpaid_cp','uncommitted_cp')],[77190,31700,45490])
+            self.assertEqual(sum(x['balance_cp']['value'] for x in f['accounts']),77190)
+            self.assertEqual(f['controlled_display']['value'],'771 gp 9 sp 0 cp');self.assertEqual(f['committed_unpaid_display']['value'],'317 gp 0 sp 0 cp')
+            self.assertEqual(f['currency']['value'],{'unit':'cp','cp_per_gp':100,'cp_per_sp':10})
+            self.assertFalse(f['construction_started']['value']);self.assertIsNone(f['accounting_gaps']['value'])
+            cottage=next(x for x in f['excluded_holdings'] if x['holding_id']['value']=='briarstone_cottage')
+            self.assertEqual(cottage['amount_cp']['value'],5500);self.assertIsNone(cottage['amount_cp']['as_of'])
+        with self.subTest(case='test_academy_management_does_not_pool_independent_money'), isolated_case(self):
+            rows=build_dashboard(self.root)['sections']['estate_and_academy'];a=next(x for x in rows if x['property']['value']=='dragon-slayer-academy')
+            self.assertEqual(a['manager_id']['value'],'master-beren');self.assertIsNone(a['legal_owner_id']['value'])
+            self.assertIn('independent',a['financial_ownership']['value']);self.assertIsNone(a['operations_and_projects']['value'])
 
-    def test_every_display_leaf_has_valid_source_asof_and_qualification(self):
-        def inspect(x):
-            if isinstance(x,dict) and 'value' in x:
-                self.assertEqual(set(x),{'value','source_ref','as_of','qualification'})
-                path=x['source_ref'].split('#',1)[0];self.assertTrue((self.root/path).is_file());self.assertTrue(x['qualification'])
-            elif isinstance(x,dict):
-                for v in x.values():inspect(v)
-            elif isinstance(x,list):
-                for v in x:inspect(v)
-            else:self.fail('unsourced displayed leaf')
-        inspect(build_dashboard(self.root)['sections'])
+    def test_resources_5(self):
+        with self.subTest(case='test_quest_and_world_values_do_not_claim_completion_or_clearance'), isolated_case(self):
+            d=build_dashboard(self.root)['sections'];q=d['quests'];self.assertEqual(q['approval_gaps']['value'],{'core_design_approval_ids':10,'optional_design_approval_ids':8});self.assertEqual(q['unfilled_clue_routes']['value'],14)
+            first=next(x for x in q['metadata'] if x['quest_id']['value']=='first-hour-restoration');self.assertEqual(first['status']['value'],'active')
+            rows=d['world']['dungeon_sections'];west=next(x for x in rows if 'western-gallery' in x['section_id']['value'])
+            self.assertEqual(west['exploration']['value'],'unexplored')
+            keeper=next(x for x in rows if 'keeper' in x['section_id']['value'])
+            self.assertEqual(keeper['exploration']['value'],'unknown');self.assertEqual(keeper['access']['value'],'protected')
+            self.assertTrue(all('pending' in x['current_result']['value'] for x in d['world']['legal_reviews']))
+        with self.subTest(case='test_missing_document_or_invalid_template_links_fail'), isolated_case(self):
+            p=self.root/'docs/end-session-codex-template.md';p.unlink()
+            with self.assertRaises(ValueError):validate(self.root)
+        with self.subTest(case='test_competing_world_state_file_rejected'), isolated_case(self):
+            for path in ('state/world-state.json','state/dashboard.json'):
+                p=self.root/path;p.write_text('{"current_cash":1}')
+                with self.assertRaisesRegex(ValueError,'competing'):validate(self.root)
+                p.unlink()
 
-    def test_mixed_narrative_and_private_text_are_not_projected(self):
-        sentinel='UNREVEALED_PRIVATE_SENTINEL'
-        for path in ('entities/characters/lyanna-ashvale.md','entities/characters/theron-ashvale.md','state/open-verifications.md','state/next-chat-handoff.md'):
-            p=self.root/path;p.write_text(p.read_text()+'\n'+sentinel+'\n')
-        view=build_dashboard(self.root)
-        self.assertNotIn(sentinel,json.dumps(view));self.assertNotIn(sentinel,render_markdown(view))
-        self.assertNotIn('ashvale-lifeline',json.dumps(view));self.assertNotIn('twin-sword-origin',json.dumps(view))
-
-    def test_unknown_source_phrase_produces_unknown_not_an_invented_bonus(self):
-        p=self.root/'entities/items/night-sovereign.md';p.write_text(p.read_text().replace('+2 equipped DEF while worn','Worn bonus unverified'))
-        h=build_dashboard(self.root)['sections']['theron'];self.assertIsNone(h['night_sovereign_worn_bonus']['value']);self.assertIsNone(h['defense_if_night_sovereign_worn']['value'])
-
-    def test_new_gm_secret_entity_is_excluded_from_output(self):
-        p=self.root/'entities/characters/secret-test.md'
-        p.write_text('---\nid: secret-test\ntype: characters\nstatus: gm-secret-locked\nvisibility: gm-secret\nsource_refs:\n- changes/chronicles/gm-continuity-maintenance.md\n---\n\nHidden mastermind SECRET-SENTINEL\n')
-        self.edit_json('index.json',lambda d:d['entries'].append({'id':'secret-test','type':'characters','title':'SECRET-SENTINEL','path':'entities/characters/secret-test.md','status':'gm-secret-locked','visibility':'gm-secret','tags':[]}))
-        view=build_dashboard(self.root);self.assertNotIn('secret-test',json.dumps(view));self.assertNotIn('SECRET-SENTINEL',json.dumps(view))
-
-    def test_source_visibility_changes_fail_closed(self):
-        p=self.root/'entities/items/night-sovereign.md';p.write_text(p.read_text().replace('visibility: gm-reference','visibility: gm-secret'))
-        self.edit_json('index.json',lambda d:[row.update(visibility='gm-secret') for row in d['entries'] if row['id']=='night-sovereign'])
-        with self.assertRaises(ValueError):build_dashboard(self.root)
-
-    def test_stale_or_edited_view_rejected_and_regeneration_current(self):
-        old=build_dashboard(self.root);verify_view(self.root,old)
-        p=self.root/'entities/creatures/alpha.md';p.write_text(p.read_text()+'\nSource freshness test; no changed outcome.\n')
-        with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,old)
-        fresh=build_dashboard(self.root);verify_view(self.root,fresh)
-        changed=copy.deepcopy(fresh);changed['sections']['finances']['controlled_cp']['value']=74590
-        with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,changed)
-
-    def test_saved_view_cannot_substitute_float_or_boolean_for_integer(self):
-        view=build_dashboard(self.root)
-        for section,key,bad in [('finances','controlled_cp',77190.0),('theron','chronos_eye_locked',1)]:
-            candidate=copy.deepcopy(view);candidate['sections'][section][key]['value']=bad
-            with self.subTest(key=key),self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,candidate)
-
-    def test_source_owned_section_change_is_read_fresh_without_reset(self):
-        before=build_dashboard(self.root);p=self.root/'entities/mechanics/shady-salvage.md'
-        text=p.read_text();self.assertIn('| Hollow western gallery | Unexplored',text)
-        p.write_text(text.replace('| Hollow western gallery | Unexplored','| Hollow western gallery | Visited'))
-        after=build_dashboard(self.root)
-        row=next(x for x in after['sections']['world']['dungeon_sections'] if 'western-gallery' in x['section_id']['value'])
-        self.assertEqual(row['exploration']['value'],'visited')
-        with self.assertRaisesRegex(ValueError,'stale'):verify_view(self.root,before)
-
-    def test_unadopted_snapshot_cannot_override_repository_authority(self):
-        d=build_dashboard(self.root)['sections'];self.assertIn('UNADOPTED',d['verification_warnings']['later_supplied_snapshot']['value'])
-        self.assertEqual(d['theron']['mp']['value'],378);self.assertEqual(d['finances']['controlled_cp']['value'],77190)
-
-    def test_markdown_has_independent_closed_controls_and_personnel_columns(self):
-        text=render_markdown(build_dashboard(self.root))
-        self.assertGreaterEqual(text.count('<details>'),9);self.assertEqual(text.count('<details>'),text.count('</details>'))
-        self.assertNotRegex(text,r'<details\s+open');self.assertIn('| Person | Assignment | Status |',text)
-        self.assertIn('<summary>Personnel</summary>',text);self.assertIn('<summary>Dungeon Sections</summary>',text)
-
-    def test_cli_json_markdown_and_check_view(self):
-        command=[sys.executable,str(ROOT/'scripts/gm_dashboard.py'),'--root',str(self.root)]
-        result=subprocess.run(command,capture_output=True,text=True);self.assertEqual(result.returncode,0,result.stderr)
-        viewfile=Path(self.temp.name)/'saved-view.json';viewfile.write_text(result.stdout)
-        checkresult=subprocess.run(command+['--check-view',str(viewfile)],capture_output=True,text=True);self.assertEqual(checkresult.returncode,0,checkresult.stderr)
-        result=subprocess.run(command+['--format','markdown'],capture_output=True,text=True);self.assertEqual(result.returncode,0,result.stderr);self.assertIn('<details>',result.stdout)
-        view=json.loads(viewfile.read_text());view['sections']['current_scene']['status']['value']='ACTIVE';viewfile.write_text(json.dumps(view))
-        result=subprocess.run(command+['--check-view',str(viewfile)],capture_output=True,text=True);self.assertNotEqual(result.returncode,0)
-
-    def test_unsupported_snapshot_schema_fails_visibly(self):
-        self.edit_json('state/checkpoint.json',lambda d:d.update(schema_version=999))
-        with self.assertRaises(ValueError):build_dashboard(self.root)
-
-    def test_missing_document_or_invalid_template_links_fail(self):
-        p=self.root/'docs/end-session-codex-template.md';p.unlink()
-        with self.assertRaises(ValueError):validate(self.root)
-
-    def test_broken_workflow_link_fails(self):
-        p=self.root/'docs/game-master-operating-manual.md';p.write_text(p.read_text()+'\n[Broken](missing-owner.md)\n')
-        with self.assertRaisesRegex(ValueError,'broken'):validate(self.root)
-
-    def test_escape_link_fails(self):
-        p=self.root/'docs/game-master-operating-manual.md';p.write_text(p.read_text()+'\n[Escape](../../outside.md)\n')
-        with self.assertRaisesRegex(ValueError,'escaping'):validate(self.root)
-
-    def test_competing_world_state_file_rejected(self):
-        for path in ('state/world-state.json','state/dashboard.json'):
-            p=self.root/path;p.write_text('{"current_cash":1}')
-            with self.assertRaisesRegex(ValueError,'competing'):validate(self.root)
-            p.unlink()
-
-    def test_partial_workflow_extension_rejected(self):
-        (self.root/'entities/mechanics/gm-workflow.md').unlink()
-        self.edit_json('index.json',lambda d:d.update(entries=[x for x in d['entries'] if x['id']!='gm-workflow']))
-        with self.assertRaisesRegex(ValueError,'incomplete GM'):validate(self.root)
+    def test_cases_rejection_table(self):
+        for (name, (path, fn)) in CASES.items():
+            with self.subTest(case=name), isolated_case(self):
+                self.reject(path, fn)
 
 
 WORKFLOW='entities/mechanics/gm-workflow.md'
@@ -234,8 +224,5 @@ CASES={
  'next_chat_missing_discovery_boundary':(NEXT,lambda d:d['retrieval_order'].remove('quest-and-discovery-boundaries')),
  'unknown_workflow_status':(WORKFLOW,lambda d:d.update(status='ACTIVE')),
 }
-for name,(path,fn) in CASES.items():
-    def case(self,path=path,fn=fn):self.reject(path,fn)
-    setattr(DashboardTests,'test_reject_'+name,case)
 
 if __name__=='__main__':unittest.main()

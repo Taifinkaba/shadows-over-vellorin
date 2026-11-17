@@ -4,6 +4,7 @@ type: rules
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-07-autonomy-approval.md
 - changes/chronicles/npc-autonomy-framework-maintenance.md
 - state/checkpoint.json
 - entities/mechanics/outstanding-projects.md
@@ -82,6 +83,159 @@ Use independently expandable, initially closed personnel groups per narration-fo
   "new_abilities": [],
   "new_relationships": [],
   "new_resource_postings": [],
-  "automatic_writes": false
+  "automatic_writes": false,
+  "approved_autonomy_design": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-07-autonomy-approval.md",
+    "character_design_ids": [
+      "elowen-marcrest",
+      "cassian-thornmere",
+      "aveline-hartwell",
+      "durnek-stonevein",
+      "liora-thistlebloom",
+      "selene-harrow",
+      "orrin-valecrest",
+      "mira-hearthwick"
+    ],
+    "authority_refs": {
+      "assignments": "independent-assignments",
+      "factions": "faction-activity",
+      "chronology": "world-event-references",
+      "communications": "settlement-communications",
+      "travel": "travel-routes",
+      "law": "justice-and-jurisdiction",
+      "guilds": "guild-membership-and-contracts",
+      "economy": "economy-accounting",
+      "ledger": "state/finance-ledger.json"
+    },
+    "action_states": [
+      "proposed-schedule",
+      "planned-action",
+      "attempted-action",
+      "completed-action",
+      "verified-outcome"
+    ],
+    "activity_categories": [
+      "working",
+      "traveling",
+      "training",
+      "resting",
+      "shopping",
+      "socializing",
+      "business-management",
+      "meetings",
+      "investigation",
+      "family-care",
+      "personal-interests"
+    ],
+    "event_categories": [
+      "political-developments",
+      "merchant-negotiations",
+      "trade-disputes",
+      "seasonal-harvests",
+      "weather-disruptions",
+      "guild-elections",
+      "professional-disputes",
+      "construction",
+      "local-celebrations",
+      "criminal-investigations",
+      "frontier-conflicts",
+      "personal-milestones",
+      "natural-disasters",
+      "community-projects"
+    ],
+    "relationship_domains": [
+      "trust",
+      "friendship",
+      "rivalry",
+      "professional-respect",
+      "family-bonds",
+      "political-alliances",
+      "business-partnerships",
+      "personal-disagreements",
+      "reputation",
+      "betrayal",
+      "reconciliation"
+    ],
+    "faction_interests": [
+      "recruitment",
+      "trade",
+      "political-influence",
+      "professional-training",
+      "territorial-interests",
+      "diplomacy",
+      "competition",
+      "internal-reform",
+      "economic-survival"
+    ],
+    "pacing_factors": [
+      "local-relevance",
+      "consequence-severity",
+      "information-availability",
+      "existing-obligations",
+      "time-elapsed",
+      "player-proximity",
+      "narrative-importance"
+    ],
+    "schedule_template": {
+      "actor": null,
+      "proposed_interval": null,
+      "activity": null,
+      "origin": null,
+      "destination": null,
+      "verified_route": null,
+      "transport": null,
+      "weather": null,
+      "physical_limits": null,
+      "obligations": null,
+      "resources": null,
+      "consent": null,
+      "evidence": null,
+      "status": null
+    },
+    "event_template": {
+      "trigger": null,
+      "initiating_actor_or_environment": null,
+      "actor_knowledge": null,
+      "time": null,
+      "location": null,
+      "resources": null,
+      "relationships": null,
+      "applicable_law": null,
+      "action": null,
+      "immediate_outcome": null,
+      "resource_changes": null,
+      "knowledge_changes": null,
+      "longer_term_consequences": null,
+      "source_refs": null,
+      "owner_updates": null,
+      "time_advance_evidence": null,
+      "discovery_evidence": null,
+      "participants": null
+    },
+    "actual_schedules": [],
+    "actual_events": [],
+    "actual_knowledge_changes": [],
+    "actual_relationship_changes": [],
+    "automatic_resolution": false
+  }
 }
 ```
+
+## Phase 2 autonomy design
+
+The world does not revolve around Theron. A person may independently plan, cooperate, decline, negotiate, reconsider or ask for help; loyalty is no obedience override. Public traits/preferences/values and design goals guide plausible decisions without deciding them. Existing canon governs actual personality, kinship, employment, equipment, relationships and resources. New safe design interests are not secret motives or discoveries. The eight character owners retain bounded designs, not a second NPC roster or current positions.
+
+Scheduling is prospective. Before an actual interval, identify the actor's last verified state and explicit campaign-time authorization, then reconcile work, rest, family/personal obligations, physical limits, material/money/magic capacity, mode, distance, route access and evidenced weather. Existing commitments take precedence; compatible activities can be considered while Theron is occupied, but no unrequested days/months/years are simulated. A proposed schedule is not a plan, a plan is not an attempt, and attempted/completed/verified are distinct evidence claims. Delays, refusal, partial success and failure are possible. No goal automatically fills any stage.
+
+The fourteen event types are bounded possibilities. An actual resolution needs a supported trigger and initiating actor/environment, actor knowledge from credible sources, a supported time interval and place, willing participants, finite resources, relevant relationships/law, actual action/outcome and independently evidenced consequences. Use the empty event template; unknown chronology stays unknown and cannot prove time-dependent completion. The existing chronicle contract still governs historical recording and source-qualified unknown dates. Link one actual event ID across original owners, dated chronicle, checkpoint when required and sole resource/ledger updates; never invent a second editable timeline or balancing history. Completeness checks cannot prove event truth or guarantee success.
+
+Information travels through PR2 communication: sender, source, content, channel, route/cost, dispatch, receipt and discovery evidence remain separate. No unsent message, private conversation, hidden identity, distant event, crime or private financial detail becomes NPC knowledge by convenience. Direct observation and credible reports need dated/source-qualified evidence; rumor remains unverified and may be wrong. Receipt does not prove agreement or acceptance. Knowledge gained by one actor is not automatically shared with another or Theron.
+
+Relationship/reputation procedures require an actual interaction or supported independent event, identified parties, prior evidence, qualitative change, date/uncertainty and original-owner/discovery review. Trust, friendship, rivalry, professional respect, family ties, alliances, partnerships, disagreement, reputation, betrayal and reconciliation are distinct domains. No numeric score, romance, automatic gratitude, faction-wide knowledge or forced betrayal is introduced; existing bonds and relationships are unchanged.
+
+Alpha remains the separate larger independent unbound Frostfang alpha wolf; Shade remains the smaller gray bonded wolf with existing progression. No automatic recall, ownership, movement, training, bond or resource changes. Other companions retain their identities, loyalties, abilities, equipment, needs, refusal and independent responsibilities; wishes confer no new powers or source of mana.
+
+Faction decisions require actual members/leadership, resources, location, consent, opportunity and evidence; the interests list activates no proposed criminal group, secret leader or operation. Government/settlement decisions use PR2 services and PR3 actual jurisdiction, with finite public works, lawful disputes, negotiations, appointments, investigations and community responses only through supported events. No title confers office, and existing Brackenford officials/businesses remain intact. PR4 guild/Concord membership is voluntary; no enrollment/election/assessment occurs here. PR6 ownership, labor, inventory, transport, contracts and actual payment evidence constrain every economic action; no independent initiative generates free funds, stock, wages, taxes, construction or assets.
+
+Pacing selects relevant, consequential supported developments within elapsed time and information availability, with existing obligations, proximity and narrative importance informing presentation rather than causing events. Not every action needs narration; important developments reach Theron only by credible observation, witness, delivered message or investigation. Offscreen independent outcomes are not automatic player knowledge. Keep private GM outcomes, confidential informants, hidden plans/identities, unrevealed betrayals and conspiracies outside this public framework; no secret payload or visibility change is authorized.

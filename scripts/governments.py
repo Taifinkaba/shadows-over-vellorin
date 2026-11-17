@@ -109,7 +109,7 @@ def validate_governments(root, records, require, repository_file, unique_json):
             for field in ('label','goals','finite_resources'): text(interest[field])
             empty(interest, 'active_events')
     for ident, age in FIGURES.items():
-        design_owner(ident);p=payload(ident);shape(p, 'schema_version character_design')
+        design_owner(ident);p=payload(ident);shape(p, 'schema_version character_design'+(' autonomy_design' if 'autonomy_design' in p else ''))
         check(type(p['schema_version']) is int and p['schema_version']==1, 'unsupported character schema')
         c=p['character_design']
         shape(c, 'classification approval_source_ref age role_design background_design appearance_design personality goals '

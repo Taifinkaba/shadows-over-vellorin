@@ -1,3 +1,9 @@
+# Phase 2 PR7 — public NPC autonomy and regression consolidation
+
+- Reuse five approved character identities and add distinct Liora Thistlebloom86, Orrin Valecrest28 and Mira Hearthwick42 public designs. Extend the existing autonomy owner with bounded schedules, causal events, knowledge/relationship limits, independent companion/faction decisions and finite PR6 economic requirements. No current offices, resources, locations, relationships or events are invented.
+- Reduce ordinary unittest discovery from1000 to184 cases (81.6%) through named isolated subcases, explicit rejection tables and centralized preservation. Retain schema/index/CLI, historical finance/resource and cross-system integration checks; JSON-only mutation tables use production subsystem validators. Publish per-original-test timing/risk/fixture/replacement audit and coverage limitations; do not equate method count with coverage.
+- Preserve original owner JSON fields, all329 untouched campaign records, checkpoint/ledger4, historical events, existing companions, Brackenford leadership/businesses, routes, property, quests and resources. No gameplay, automatic resolution, income, appointment, secret payload, visibility action, merge or PR8 work.
+
 # Phase 2 PR6 — economy and property procedures
 
 - Extend four existing owners with finite five-domain accounting, business cycles, fourteen-sector integration, employment, property, logistics and jurisdiction-sensitive fee procedures. Reuse PR2 prices/wages and all41 businesses/17 industries/12 trade proposals, PR4 dues/illicit contexts and PR5 recovery requirements.

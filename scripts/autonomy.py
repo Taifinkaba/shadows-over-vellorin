@@ -168,7 +168,7 @@ def validate_autonomy(root,records,require,repository_file,unique_json):
     check(records['world-development-proposals']['status']=='research' and p['classification']=='PROPOSED' and p['approval_status']=='REQUIRES APPROVAL','world proposals require approval')
     check(p['workflow_states']==WORKFLOW and p['event_categories']==EVENT_CATEGORIES and p['clock_categories']==CLOCK_CATEGORIES and p['clock_fields']==CLOCK_FIELDS and p['relationship_domains']==RELATIONSHIP_DOMAINS and p['relationship_fields']==RELATIONSHIP_FIELDS,'proposal vocabulary/contract differs')
     check(p['clocks']==[] and p['relationship_changes']==[] and p['automatic_advancement'] is False,'no clock, reputation or bond advancement')
-    rule=get('npc-autonomy-and-time');shape(rule,'schema_version assignment_owner_ref faction_owner_ref event_owner_ref proposal_owner_ref communication_owner_refs resource_owner_refs road_owner_ref communication_states new_communications new_time_advances new_abilities new_relationships new_resource_postings automatic_writes')
+    rule=get('npc-autonomy-and-time');legacy_rule={k:v for k,v in rule.items() if k!='approved_autonomy_design'};shape(legacy_rule,'schema_version assignment_owner_ref faction_owner_ref event_owner_ref proposal_owner_ref communication_owner_refs resource_owner_refs road_owner_ref communication_states new_communications new_time_advances new_abilities new_relationships new_resource_postings automatic_writes')
     for key,ident in [('assignment_owner_ref','independent-assignments'),('faction_owner_ref','faction-activity'),('event_owner_ref','world-event-references'),('proposal_owner_ref','world-development-proposals'),('road_owner_ref','travel-routes')]:
         check(rule[key]==ident,'workflow authority mismatch');ref(ident,{'mechanics'})
     check(rule['communication_owner_refs']==['guardian-links','first-hours-accord'] and rule['resource_owner_refs']==['party-finances','theron-abilities','payroll-construction-and-trade'],'communication/resource owners differ')
@@ -176,3 +176,7 @@ def validate_autonomy(root,records,require,repository_file,unique_json):
     for ident in rule['resource_owner_refs']:ref(ident,{'mechanics','rules'})
     check(rule['communication_states']==['proposed','sent','delivered','acknowledged','accepted','reported','closed'],'communication states differ')
     check(rule['automatic_writes'] is False and all(rule[x]==[] for x in ('new_communications','new_time_advances','new_abilities','new_relationships','new_resource_postings')),'no communication/time/ability/relationship/resource events in maintenance')
+
+    if __package__:from .autonomy_designs import validate_designs
+    else:from autonomy_designs import validate_designs
+    validate_designs(root,records,require,repository_file,unique_json)
