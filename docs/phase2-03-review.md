@@ -1,6 +1,6 @@
 # Phase 2 PR 3 — governments, law and criminal justice review
 
-PR number and URL: PR_LINK_PENDING (filled with GitHub’s assigned number immediately after opening).
+PR number and URL: [#26](https://github.com/Taifinkaba/shadows-over-vellorin/pull/26).
 
 Base: `e61dfa4556d2bff31065a31376339d4b6e95e701`, latest main with merged PR #24 and #25. Branch: `lore/phase2-03-governments`. Scope: PR 3 only; no merge or PR 4 implementation.
 
