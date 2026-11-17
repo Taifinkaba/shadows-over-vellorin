@@ -537,6 +537,11 @@ def validate(root):
     else:
         from justice import validate_justice
     validate_justice(root, records, require, repository_file, unique_json)
+    if __package__:
+        from .guilds import validate_guilds
+    else:
+        from guilds import validate_guilds
+    validate_guilds(root, records, require, repository_file, unique_json)
     return f"OK: {len(entries)} entity records, {len(archive_paths)} archived modules, checkpoint valid"
 
 
