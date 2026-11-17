@@ -60,7 +60,7 @@
     "entities/characters/seren-willowmere.md": "88915ded4e43008c151d9d66974785669e759ee31f8dd942ad52c0eabfb8fc45",
     "entities/characters/serrik-vale.md": "1e28cbaf4d6ab17e96c806118b64a21f6eedf34ef1332c03424d6fdab9f88ebc",
     "entities/characters/severin-valcrest.md": "218ded4399a207b964e7a0fc26f2672b717839b81d982c4168e0f216edc5bd6e",
-    "entities/characters/theron-ashvale.md": "0af4001c2b15a5804f8361670ad9aba3dd123f1d4de9f049ac5072d9c25fbfdb",
+    "entities/characters/theron-ashvale.md": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
     "entities/characters/therons-mother.md": "9e3ddaa8667e3df3f52527558ea0b863abf0a0d185471ee820bed9f2521d5554",
     "entities/characters/tomas.md": "7a462d2e5a97287a35dfce5c6272afc9dccbd99df36ef10f8fe3f392705d4a69",
     "entities/characters/varian-morthal.md": "b365c5a988a274652fd1e3dc4ec36c9a0913ca30100a124709f2c7fda3cf0e31",
@@ -159,13 +159,13 @@
     "entities/mechanics/launder.md": "3b72aefe7eefa33c82656987bbc0224b3aa9caea18d4d5809bae33579a440640",
     "entities/mechanics/local-settlement-activity.md": "8fbe5e320b779752dd95e0e8ea9c34a89ebbc10ed4990b3ff5b4c3e311298185",
     "entities/mechanics/outstanding-projects.md": "590c9e0e4b0722bbd2575000fbdffed97f19f436919a39bcbb923b778fa1a6b6",
-    "entities/mechanics/party-finances.md": "89faa34226c8680892be4ee5e588d642cfe6599ac7b964877105d5e989673fc6",
+    "entities/mechanics/party-finances.md": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
     "entities/mechanics/prisoner-custody.md": "82761adec4bfe8ac3fe54ca2ae5cb262cf9efd49c30a35c9ce884e0e5907be1f",
     "entities/mechanics/service-price-references.md": "fdebcce49a245e33ae7b742635cd937d197a6da54bde5efe21445fa59d6075c4",
     "entities/mechanics/settlement-services.md": "48412fc8f0fe059ee44375fab75bd95423b70778d3e7ffb2de8a2ae8c1635cbc",
     "entities/mechanics/seven-bells-inventory.md": "ba0e67d7ffa6dddb6859be55446617b21fd9380bb9630a1ae5f594d1f7d0c511",
     "entities/mechanics/shady-salvage.md": "96b998d3d5d6c8c77946979b58f767760f8204a76ed120fece78206262a329f0",
-    "entities/mechanics/theron-abilities.md": "1962032bbf293b0ba8089825cf2e78c97fd411f697e3b5b9cc056c30beda7514",
+    "entities/mechanics/theron-abilities.md": "c292918ff83cde3da5d13fd832ef62f4eb1d22757eff57801f1dd6c517421e37",
     "entities/mechanics/theron-skills.md": "ad33625ac7da0ac508572d1a91954a71c6a454d6b617bbd365829e3383e7366f",
     "entities/mechanics/theron-spells.md": "15ddcc7f06b408da2f462caf64872495f8c086fbc733061185b1fd0e5642b73a",
     "entities/mechanics/travel-routes.md": "858d613d0c0193b289b68f09ad6b92be230521aea8a5c972fb161c7aaa4d9439",
@@ -192,10 +192,10 @@
     "entities/rules/knowledge-boundaries.md": "978fcce5edb6be426639fbd149fd05ab2c3c4cdce0e6462c7b25f32568f6bcc1",
     "entities/rules/story-mode.md": "f985742aa061c45e350ff0a61b2e7c4f75bc5c91a674d455928d08110794baa8",
     "entities/rules/travel-procedure.md": "7a3e2f883bf3fa0bd89924a4e8eb5c3618a11cf1ca5a3105ee418ddc360ef61f",
-    "state/checkpoint.json": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
-    "state/finance-ledger.json": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
-    "state/next-chat-handoff.md": "036fe9d479df936dab2e2635bf83c6e6221ec42f514b602cc20fd6f1333eb6ce",
-    "state/open-verifications.md": "9d44465ecfae77664d848ee33b189d934c88038039f999cffb11f4ea42169a01",
+    "state/checkpoint.json": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
+    "state/finance-ledger.json": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
+    "state/next-chat-handoff.md": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
+    "state/open-verifications.md": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
     "archive/README.md": "7a17ca6a4b00a40acb161674834293fc091bf0a4c43b1225e2d07ca5e46dbb6e",
     "archive/Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md": "42ca23639dbe2ab6c67cddd7db17a8da5d636ccc221c16aed66c8efa1a83425e",
     "archive/Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md": "206e467b6fdfe8a9c4caaac9b85a89491cd7fad5824f6a5fa7cd949e30e7bc44",
@@ -268,5 +268,38 @@
     "changes/chronicles/year847-day472-first-hour.md": "d49b49c89c7c9cb3fe1feea2ed3bfaa7d369d5a523ca5fd888dadf9244078c15",
     "changes/chronicles/year848-day137-end-session.md": "1e23393bd3eaf7e0477762c0ee26dcd687bdd4f2bbf9f6b98c8d39b47052f360",
     "changes/chronicles/year848-day156-end-session.md": "8cfabbc8f254d0356a2323cc037bf1f38f5f91f0cad950e92cbb9eaa1b578bf7"
+  },
+  "approved_day181_current_updates": {
+    "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "paths": {
+      "state/checkpoint.json": {
+        "before_sha256": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
+        "after_sha256": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64"
+      },
+      "state/open-verifications.md": {
+        "before_sha256": "9d44465ecfae77664d848ee33b189d934c88038039f999cffb11f4ea42169a01",
+        "after_sha256": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372"
+      },
+      "entities/mechanics/party-finances.md": {
+        "before_sha256": "89faa34226c8680892be4ee5e588d642cfe6599ac7b964877105d5e989673fc6",
+        "after_sha256": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4"
+      },
+      "state/next-chat-handoff.md": {
+        "before_sha256": "036fe9d479df936dab2e2635bf83c6e6221ec42f514b602cc20fd6f1333eb6ce",
+        "after_sha256": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e"
+      },
+      "entities/characters/theron-ashvale.md": {
+        "before_sha256": "0af4001c2b15a5804f8361670ad9aba3dd123f1d4de9f049ac5072d9c25fbfdb",
+        "after_sha256": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951"
+      },
+      "state/finance-ledger.json": {
+        "before_sha256": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
+        "after_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64"
+      },
+      "entities/mechanics/theron-abilities.md": {
+        "before_sha256": "1962032bbf293b0ba8089825cf2e78c97fd411f697e3b5b9cc056c30beda7514",
+        "after_sha256": "c292918ff83cde3da5d13fd832ef62f4eb1d22757eff57801f1dd6c517421e37"
+      }
+    }
   }
 }

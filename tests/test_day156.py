@@ -17,6 +17,8 @@ class Day156Tests(unittest.TestCase):
         for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT/name,self.root/name)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
+        from snapshot_helpers import restore_day156
+        restore_day156(self.root)
         self.state=json.loads((self.root/'state/checkpoint.json').read_text())
         self.ledger=json.loads((self.root/'state/finance-ledger.json').read_text())
 

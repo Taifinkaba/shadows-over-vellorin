@@ -14,10 +14,10 @@
     "entities/locations/briarstone-cottage.md": "a22d6d4bcc54cf741562ab650d2691f6d7675d173c7f1b60e02ff3a462493985"
   },
   "protected_sha256": {
-    "state/checkpoint.json": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
-    "state/finance-ledger.json": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
-    "state/next-chat-handoff.md": "036fe9d479df936dab2e2635bf83c6e6221ec42f514b602cc20fd6f1333eb6ce",
-    "state/open-verifications.md": "9d44465ecfae77664d848ee33b189d934c88038039f999cffb11f4ea42169a01",
+    "state/checkpoint.json": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
+    "state/finance-ledger.json": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
+    "state/next-chat-handoff.md": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
+    "state/open-verifications.md": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
     "entities/characters/tomas.md": "7a462d2e5a97287a35dfce5c6272afc9dccbd99df36ef10f8fe3f392705d4a69",
     "entities/characters/bren.md": "ccf4c9b08a6a9b197109c4626c2591ab34fc7fd2a0f20ceb2dd15fedfdcf0b98",
     "entities/characters/borin-emberhand.md": "e891470a1d2213aaa2495d8b4575ea4bb844b5b0863ed2d11da25100abff12f7",
@@ -30,5 +30,26 @@
     "entities/characters/joren.md": "2ae31d8aa39846c408b4660939ed8512b5820f7c1ed42b1568d824c2ca41334c",
     "entities/characters/elsi.md": "f0106dfc0d01af5f76a5d35bcb4808e247b736c0dd74b95196626469d28f64fc",
     "entities/characters/master-beren.md": "0d9cca2cf16378458e03f5bb03f02dc598b60e18c7145b0afc91135669bf1d21"
+  },
+  "approved_day181_current_updates": {
+    "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "paths": {
+      "state/finance-ledger.json": {
+        "before_sha256": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
+        "after_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64"
+      },
+      "state/checkpoint.json": {
+        "before_sha256": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
+        "after_sha256": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64"
+      },
+      "state/open-verifications.md": {
+        "before_sha256": "9d44465ecfae77664d848ee33b189d934c88038039f999cffb11f4ea42169a01",
+        "after_sha256": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372"
+      },
+      "state/next-chat-handoff.md": {
+        "before_sha256": "036fe9d479df936dab2e2635bf83c6e6221ec42f514b602cc20fd6f1333eb6ce",
+        "after_sha256": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e"
+      }
+    }
   }
 }

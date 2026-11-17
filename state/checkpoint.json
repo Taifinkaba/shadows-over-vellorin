@@ -1,12 +1,12 @@
 {
-  "schema_version": 5,
-  "date": "Year 848 Day 156",
-  "time": "20:15",
-  "location": "Ashvale Estate family sitting room",
+  "schema_version": 6,
+  "date": "Year 848 Day 181",
+  "time": "19:30",
+  "location": "Ashvale Estate",
   "theron": {
     "hp": 100,
     "hp_max": 100,
-    "mp": 378,
+    "mp": 400,
     "mp_max": 400,
     "defense": 46,
     "rank": "S+",
@@ -20,10 +20,10 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "771gp 9sp",
+    "total_gp_sp": "745gp 9sp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
-    "allocation_status": "player-approved final allocations; see finance ledger schema2",
+    "allocation_status": "UNRECONCILED / UNKNOWN — historical Day156 accounts are not current allocations",
     "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
     "office_status": "separately held house funds; excluded from expedition income and controlled cash"
   },
@@ -31,34 +31,27 @@
     "vaeltharion_chains_attached": 0,
     "protective_anchors_retained": 7
   },
-  "status": "ENDED",
-  "source": "changes/chronicles/year848-day156-end-session.md",
+  "status": "UNKNOWN",
+  "source": "changes/chronicles/year848-day181-endpoint-adoption.md",
   "context": {
-    "safety": "Session ENDED; party home, family safe, no injuries or deaths. No further gameplay.",
-    "companions_present": [
-      "aric-ashvale",
-      "therons-mother"
-    ],
-    "party_roles": {
-      "theron-ashvale": "Home in family sitting room; session ENDED",
-      "aric-ashvale": "Informed on return; safe",
-      "therons-mother": "Informed on return; safe"
-    },
+    "safety": "Day181 supplied endpoint only; current companion positions/conditions unverified. No gameplay resumed.",
+    "companions_present": [],
+    "party_roles": {},
     "projects": {
-      "nexus_mana": "156/180; finite independent staff mana",
-      "wagon_mana": "60/60",
-      "equipped_defense": "49 normally; 51 while completed Night Sovereign worn; mask carried, not equipped",
-      "chronos_eye": "approximately19%, LOCKED",
-      "dragon_slayer": "LOCKED BY PLAYER CHOICE",
-      "accord": "Peaceful recognition and limited communication only",
-      "custody": "Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
-      "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
-      "halden": "Rescued, free and voluntarily protected at Ashvale Estate",
-      "independent_assignments": "Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion.",
-      "vanguard": "Completed mundane roadworthy Vanguard; no mana pool, distinct from Sovereign Expedition Wagon",
-      "night_sovereign": "Completed, tested, paid515gp; reserved scale consumed once",
-      "maternal_healing": "Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
-      "healing_springs": "2/5"
+      "nexus_mana": "Last verified before adoption; see Day156 historical checkpoint: 156/180; finite independent staff mana",
+      "wagon_mana": "Last verified before adoption; see Day156 historical checkpoint: 60/60",
+      "equipped_defense": "Approved normal49; conditional51 only when Night Sovereign worn. Current wearing/configuration UNKNOWN.",
+      "chronos_eye": "Last verified before adoption; see Day156 historical checkpoint: approximately19%, LOCKED",
+      "dragon_slayer": "Last verified before adoption; see Day156 historical checkpoint: LOCKED BY PLAYER CHOICE",
+      "accord": "Last verified before adoption; see Day156 historical checkpoint: Peaceful recognition and limited communication only",
+      "custody": "Last verified before adoption; see Day156 historical checkpoint: Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
+      "guardian_channels": "Last verified before adoption; see Day156 historical checkpoint: Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
+      "halden": "Last verified before adoption; see Day156 historical checkpoint: Rescued, free and voluntarily protected at Ashvale Estate",
+      "independent_assignments": "Last verified before adoption; see Day156 historical checkpoint: Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion.",
+      "vanguard": "Last verified before adoption; see Day156 historical checkpoint: Completed mundane roadworthy Vanguard; no mana pool, distinct from Sovereign Expedition Wagon",
+      "night_sovereign": "Last verified before adoption; see Day156 historical checkpoint: Completed, tested, paid515gp; reserved scale consumed once",
+      "maternal_healing": "Last verified before adoption; see Day156 historical checkpoint: Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
+      "healing_springs": "Last verified before adoption; see Day156 historical checkpoint: 2/5"
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -68,11 +61,11 @@
       "included_in_party_total": false
     },
     "outstanding_clues": [
-      "Halric Dene whereabouts unknown",
-      "Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven",
-      "Northern Witness Index and E-R-7 unresolved",
-      "One V-9 transferred case unverified; other documented cases remain separate",
-      "Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts"
+      "Last verified before adoption: Halric Dene whereabouts unknown",
+      "Last verified before adoption: Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven",
+      "Last verified before adoption: Northern Witness Index and E-R-7 unresolved",
+      "Last verified before adoption: One V-9 transferred case unverified; other documented cases remain separate",
+      "Last verified before adoption: Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts"
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -89,7 +82,7 @@
   },
   "calendar": {
     "season": "Suncrest",
-    "day_of_season": 36
+    "day_of_season": 61
   },
   "custody": {
     "reviewed": 4,
@@ -99,5 +92,30 @@
     "hearing_pending": true,
     "identities_status": "Not supplied; do not map onto earlier detainees",
     "halden_status": "Free, voluntarily protected at Ashvale Estate"
+  },
+  "provenance": {
+    "classification": "PLAYER-SUPPLIED ENDPOINT ADOPTION",
+    "adoption_source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "historical_checkpoint_ref": "archive/checkpoints/year848-day156-2015.json",
+    "historical_entity_records_ref": "archive/checkpoints/year848-day156-entity-records.json",
+    "current_presence": {
+      "status": "UNKNOWN",
+      "evidence_ref": null
+    },
+    "current_equipment": {
+      "status": "UNKNOWN",
+      "evidence_ref": null,
+      "night_sovereign_carried_not_equipped": null
+    },
+    "exact_room": null,
+    "conditional_defense": 51,
+    "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
+    "mp_bridge": {
+      "from_mp": 378,
+      "to_mp": 400,
+      "difference_mp": 22,
+      "classification": "UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED",
+      "recovery_events": []
+    }
   }
 }

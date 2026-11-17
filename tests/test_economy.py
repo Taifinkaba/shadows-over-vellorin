@@ -61,7 +61,7 @@ class MoneyTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'historical event'):validate_transactions([t],self.accounts(),ROOT,[t['event_id']])
 
     def test_all_existing_arc_ids_cannot_be_reposted(self):
-        ledger=json.loads((ROOT/'state/finance-ledger.json').read_text())
+        ledger=json.loads((ROOT/'archive/checkpoints/year848-day156-finance-ledger.json').read_text())
         ids=[x['id'] for x in ledger['arc_reconciliation']['events']]
         for ident in ids:
             with self.subTest(ident=ident),self.assertRaisesRegex(ValueError,'historical event'):
@@ -130,6 +130,8 @@ class EconomyTests(unittest.TestCase):
         self.root=Path(self.temp.name)
         for directory in ('entities', 'state', 'archive', 'changes', 'docs', 'governance'):shutil.copytree(ROOT/directory,self.root/directory)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
+        from snapshot_helpers import restore_day156
+        restore_day156(self.root)
 
     def path(self,ident):
         return self.root/f"entities/{'rules' if ident=='payroll-construction-and-trade' else 'mechanics'}/{ident}.md"
@@ -190,7 +192,7 @@ class EconomyTests(unittest.TestCase):
 
     def test_report_rejects_other_ledger_schema(self):
         p=self.root/'state/finance-ledger.json';d=json.loads(p.read_text());d['schema_version']=1;p.write_text(json.dumps(d))
-        with self.assertRaisesRegex(ValueError,'schema2'):financial_report(self.root)
+        with self.assertRaisesRegex(ValueError,'schema2 or3'):financial_report(self.root)
 
     def test_cli_readonly_report(self):
         result=subprocess.run([sys.executable,str(ROOT/'scripts/economy.py'),'--report','--root',str(self.root)],capture_output=True,text=True)

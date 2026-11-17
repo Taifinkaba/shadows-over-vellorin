@@ -1,0 +1,103 @@
+{
+  "schema_version": 5,
+  "date": "Year 848 Day 156",
+  "time": "20:15",
+  "location": "Ashvale Estate family sitting room",
+  "theron": {
+    "hp": 100,
+    "hp_max": 100,
+    "mp": 378,
+    "mp_max": 400,
+    "defense": 46,
+    "rank": "S+",
+    "level": 5,
+    "str": 12,
+    "dex": 20,
+    "con": 16,
+    "int": 20,
+    "wis": 19,
+    "cha": 19,
+    "unspent_attributes": 0
+  },
+  "money": {
+    "total_gp_sp": "771gp 9sp",
+    "provisional_historic_gp_sp": "9gp 1sp 14cp",
+    "office_petty_gp_sp": "6gp 4sp",
+    "allocation_status": "player-approved final allocations; see finance ledger schema2",
+    "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
+    "office_status": "separately held house funds; excluded from expedition income and controlled cash"
+  },
+  "world": {
+    "vaeltharion_chains_attached": 0,
+    "protective_anchors_retained": 7
+  },
+  "status": "ENDED",
+  "source": "changes/chronicles/year848-day156-end-session.md",
+  "context": {
+    "safety": "Session ENDED; party home, family safe, no injuries or deaths. No further gameplay.",
+    "companions_present": [
+      "aric-ashvale",
+      "therons-mother"
+    ],
+    "party_roles": {
+      "theron-ashvale": "Home in family sitting room; session ENDED",
+      "aric-ashvale": "Informed on return; safe",
+      "therons-mother": "Informed on return; safe"
+    },
+    "projects": {
+      "nexus_mana": "156/180; finite independent staff mana",
+      "wagon_mana": "60/60",
+      "equipped_defense": "49 normally; 51 while completed Night Sovereign worn; mask carried, not equipped",
+      "chronos_eye": "approximately19%, LOCKED",
+      "dragon_slayer": "LOCKED BY PLAYER CHOICE",
+      "accord": "Peaceful recognition and limited communication only",
+      "custody": "Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
+      "guardian_channels": "Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
+      "halden": "Rescued, free and voluntarily protected at Ashvale Estate",
+      "independent_assignments": "Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion.",
+      "vanguard": "Completed mundane roadworthy Vanguard; no mana pool, distinct from Sovereign Expedition Wagon",
+      "night_sovereign": "Completed, tested, paid515gp; reserved scale consumed once",
+      "maternal_healing": "Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
+      "healing_springs": "2/5"
+    },
+    "academy": {
+      "entity": "dragon-slayer-academy",
+      "latest_reported_cash_gp_sp": "34gp",
+      "refundable_lease_deposit_gp_sp": "15gp",
+      "balance_date": "Unspecified earlier report; no later verified ledger in repository",
+      "included_in_party_total": false
+    },
+    "outstanding_clues": [
+      "Halric Dene whereabouts unknown",
+      "Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven",
+      "Northern Witness Index and E-R-7 unresolved",
+      "One V-9 transferred case unverified; other documented cases remain separate",
+      "Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts"
+    ],
+    "recent_mp_costs": {},
+    "mp_before_recent_casts": null
+  },
+  "resources": {
+    "equipped_defense": 49,
+    "bracers_defense_bonus": 3,
+    "staff_mp": 156,
+    "staff_mp_max": 180,
+    "wagon_mp": 60,
+    "wagon_mp_max": 60,
+    "chronos_eye_locked": true,
+    "dragon_slayer_locked": true
+  },
+  "calendar": {
+    "season": "Suncrest",
+    "day_of_season": 36
+  },
+  "custody": {
+    "reviewed": 4,
+    "released": 2,
+    "retained": 1,
+    "medically_transferred": 1,
+    "hearing_pending": true,
+    "identities_status": "Not supplied; do not map onto earlier detainees",
+    "halden_status": "Free, voluntarily protected at Ashvale Estate"
+  }
+}

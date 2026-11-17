@@ -11,11 +11,19 @@ source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 - changes/chronicles/year848-day156-end-session.md
+- changes/chronicles/year848-day181-endpoint-adoption.md
 checkpoint_values:
-  money.total_gp_sp: 771gp 9sp
+  money.total_gp_sp: 745gp 9sp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+# Party finances — Day181 supplied endpoint
+
+Controlled745gp9sp=74590cp;317gp committed/unpaid,428gp9sp uncommitted. See sole current finance ledger schema3. Individual current account allocations UNRECONCILED / UNKNOWN; Day156 allocations are historical only.2600cp difference is an unexplained endpoint disclosure, not a transaction or assigned reserve expenditure. No new financial event, income, payment, ownership or noncash conversion. Historical Day156 arc and all prior postings remain once-only in the archived historical ledger.
+
+## Preserved historical record through Day156
+
 
 # Party finances — Day156 current canon
 

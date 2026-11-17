@@ -108,7 +108,7 @@ def build_dashboard(root):
         return {'value':item,'source_ref':source_ref,'as_of':as_of,'qualification':qualification}
     checkpoint='state/checkpoint.json';ledgerref='state/finance-ledger.json'
     c=json.loads(file(checkpoint).read_text());ledger=json.loads(file(ledgerref).read_text())
-    check(c['schema_version']==5 and ledger['schema_version']==2,'dashboard requires current supported checkpoint5/ledger2; no stale-schema fallback')
+    check((c['schema_version'],ledger['schema_version']) in ((5,2),(6,3)),'dashboard requires supported checkpoint5/ledger2 or checkpoint6/ledger3; no stale-schema fallback')
     date=c['date']+' '+c['time'];scene={}
     for field in ('date','calendar','time','location','status'):
         # calendar exposes only the named season/day fields; never arbitrary future keys.
@@ -128,7 +128,7 @@ def build_dashboard(root):
     bonus=int(match[1]) if match else None
     hero['night_sovereign_worn_bonus']=value(bonus,maskpath,None,'Conditional worn bonus only; UNKNOWN if reviewed phrase unavailable')
     hero['defense_if_night_sovereign_worn']=value(c['resources']['equipped_defense']+bonus if bonus is not None else None,maskpath,None,'Derived from checkpoint equipped defense plus item worn bonus; not current equipped status')
-    hero['night_sovereign_carried_not_equipped']=value(True if 'carried, not equipped at final checkpoint' in mask else None,maskpath,None,'Item observation; never infer worn from ownership')
+    hero['night_sovereign_carried_not_equipped']=value(c['provenance']['current_equipment']['night_sovereign_carried_not_equipped'] if c['schema_version']==6 else True if 'carried, not equipped at final checkpoint' in mask else None,checkpoint+'#/provenance/current_equipment' if c['schema_version']==6 else maskpath,None,'Current observation UNKNOWN for adopted endpoint; Day156 carried/not-equipped remains historical only')
     hero['equipment_owner_refs']=value([owner(x) for x in ('frostguard-bracers','night-sovereign','sovereign-nexus','sovereign-expedition-wagon')],checkpoint,None,'Limited equipment retrieval, not exhaustive current inventory')
     hero['conditions_and_other_skills']=value(None,owner('theron-abilities'),None,'UNKNOWN / targeted retrieval required; mixed narrative is not rendered')
     cash=ledger['controlled_cash'];commit=ledger['commitments']
@@ -143,6 +143,13 @@ def build_dashboard(root):
         finances[key.removesuffix('_cp')+'_display']=value(f'{copper//100} gp {(copper%100)//10} sp {copper%10} cp',finances[key]['source_ref'],date,'Integer-copper display:1gp=100cp,1sp=10cp')
     finances['accounts']=[{'account_id':value(x['id'],ledgerref+f'#/controlled_cash/accounts/{i}/id',date),'balance_cp':value(x['balance_cp'],ledgerref+f'#/controlled_cash/accounts/{i}/balance_cp',date),'ownership_review':value(None,ledgerref+f'#/controlled_cash/accounts/{i}/owner',None,'Read source legal/control qualification; no new personal-title claim')} for i,x in enumerate(cash['accounts'])]
     finances['excluded_holdings']=[{'holding_id':value(x['id'],ledgerref+f'#/excluded_property/{i}/id'),'amount_cp':value(x['amount_cp'],ledgerref+f'#/excluded_property/{i}/amount_cp',None,'Excluded; source may be historical, approximate or noncash; not a certified current third-party cash total')} for i,x in enumerate(ledger['excluded_property'])]
+    if ledger['schema_version']==3:
+        historyref=ledger['historical_day156_ref'];history=json.loads(file(historyref).read_text())
+        finances['account_allocation_status']=value(cash['allocation_status'],ledgerref+'#/controlled_cash/allocation_status',date)
+        finances['historical_day156_accounts']=value([{'id':a['id'],'balance_cp':a['balance_cp']} for a in history['controlled_cash']['accounts']],historyref+'#/controlled_cash/accounts',history['as_of']['date'],'Historical allocations only, not current account balances or funding authorization')
+        finances['unexplained_endpoint_difference_cp']=value(ledger['bridge']['difference_cp'],ledgerref+'#/bridge',None,'UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED; not a transaction or account assignment')
+        hero['unexplained_mp_endpoint_change']=value(c['provenance']['mp_bridge']['difference_mp'],checkpoint+'#/provenance/mp_bridge',None,'UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED; no recovery event')
+        hero['endpoint_qualification']=value(c['provenance']['classification'],checkpoint+'#/provenance',date)
     finances['accounting_gaps']=value(None,'state/open-verifications.md',None,'Targeted source review required; no balancing entries or raw private gap text')
     assignments=data('independent-assignments');companions=[]
     for actor in assignments['actors']:
@@ -176,7 +183,7 @@ def build_dashboard(root):
         'dungeon_sections':sections,'legal_reviews':[{'person':value(x,owner(x)),'current_result':value(('independent-legal-review-pending' if x=='maelor-thane' else 'military-review-pending') if ('independent legal review pending.' if x=='maelor-thane' else 'pending military review.') in file(owner(x)).read_text().split('## Historical record',1)[0] else None,owner(x),None,'Reviewed pending-status phrase only; no automatic verdict, destination or case conflation')} for x in ('maelor-thane','edrick-sorn')],
         'world_event_details':value(None,owner('world-event-references'),None,'Historical references only; current developments require targeted source review; no scheduler')}
     warnings={'provenance_and_identity':value('UNKNOWN details remain in their owners','state/open-verifications.md',None,'No raw verification/handoff text or private knowledge distinctions rendered'),
-        'later_supplied_snapshot':value('UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint','docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; later supplied endpoint is not applied, no invented cash/MP bridge'),
+        'later_supplied_snapshot':value('ADOPTED FROM PLAYER-SUPPLIED CONTINUITY; cash/MP provenance gaps remain' if c['schema_version']==6 else 'UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint',checkpoint if c['schema_version']==6 else 'docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; no invented cash/MP bridge'),
         'privacy':value('Public repository / private-governance conflict unresolved','governance/precedence.md',None,'This projection does not certify the repository spoiler-safe; private GM-answer storage remains separate'),
         'proposals':value('Unapproved institutions/routes/clocks/answers remain proposed',owner('gm-workflow'))}
     personnel_ids={'tomas','master-beren','bren','mira-lodge-helper','joren','elsi','elias-renn','maera','mira-thorne'}

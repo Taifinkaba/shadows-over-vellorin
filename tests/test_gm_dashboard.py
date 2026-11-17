@@ -22,6 +22,8 @@ class DashboardTests(unittest.TestCase):
         self.root=Path(self.temp.name)
         for folder in ('entities','state','archive','changes','docs','governance'):shutil.copytree(ROOT/folder,self.root/folder)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
+        from snapshot_helpers import restore_day156
+        restore_day156(self.root)
 
     def edit_json(self,path,change):
         p=self.root/path;d=json.loads(p.read_text());change(d);p.write_text(json.dumps(d))
