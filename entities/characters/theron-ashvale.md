@@ -4,13 +4,13 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 848 Day 156
-  time: '20:15'
-  location: Ashvale Estate family sitting room
-  status: ENDED
+  date: Year 848 Day 181
+  time: '19:30'
+  location: Ashvale Estate
+  status: UNKNOWN
   theron.hp: 100
   theron.hp_max: 100
-  theron.mp: 378
+  theron.mp: 400
   theron.mp_max: 400
   theron.defense: 46
   theron.rank: S+
@@ -40,7 +40,15 @@ source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 - changes/chronicles/year848-day156-end-session.md
+- changes/chronicles/year848-day181-endpoint-adoption.md
 ---
+
+# Theron Ashvale — Day181 supplied endpoint
+
+Year848 Suncrest61 Day181,19:30, Ashvale Estate; room/session status/equipment configuration UNKNOWN. HP100/100 MP400/400; base46 retained, normal equipped49, conditional51 only with Night Sovereign worn; actual wearing unknown. Nexus156/180 and magic wagon60/60. Rank/level/attributes/locks unchanged. +22MP is an unexplained endpoint change, not a recovery event. No companion presence inferred, play resumed or intervening scene invented.
+
+## Preserved historical record through Day156
+
 
 # Theron Ashvale / Blackscale — Day156 current canon
 

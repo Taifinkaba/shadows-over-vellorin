@@ -215,10 +215,30 @@ def validate_economy(root, records, require, repository_file, unique_json):
 
 
 def financial_report(root):
-    """Day156 ledger projection; fail closed on another schema, never mutate files."""
     ledger_ref='state/finance-ledger.json'
     ledger=json.loads((root/ledger_ref).read_text())
-    check(type(ledger.get('schema_version')) is int and ledger['schema_version']==2, 'report requires current ledger schema2')
+    if type(ledger.get('schema_version')) is int and ledger['schema_version']==3:
+        historical_ref=ledger['historical_day156_ref']
+        historical=json.loads((root/historical_ref).read_text())
+        result=_legacy_financial_report(root,historical,historical_ref)
+        result['historical_day156_reconciliation']=result.pop('reconciliation')
+        result['as_of']=ledger['as_of'];result['source_ref']=ledger_ref;result['qualification']=ledger['qualification']
+        stamp=ledger['as_of']['date']+' '+ledger['as_of']['time']
+        def current(v,pointer,status):return amount(v,ledger_ref+'#'+pointer,'Controlled funds; current subaccount ownership requires verified funding evidence',status,stamp)
+        old_accounts=result['cash_position']['accounts'];c=ledger['controlled_cash'];m=ledger['commitments']
+        result['cash_position'].update(controlled=current(c['total_cp'],'/controlled_cash/total_cp','supplied endpoint plus actual recorded events'),committed_unpaid=current(m['expansion_outstanding_cp'],'/commitments/expansion_outstanding_cp','unpaid remaining commitment included in controlled cash'),uncommitted=current(m['uncommitted_cp'],'/commitments/uncommitted_cp','uncommitted under existing authority restrictions'),accounts=[dict(id=x['id'],balance=current(x['balance_cp'],'/controlled_cash/accounts','verified current account')) for x in c['accounts']],historical_day156_accounts=old_accounts,allocation_status=c['allocation_status'])
+        result['reconciliation']={'endpoint':ledger['endpoint'],'unexplained_endpoint_bridge':ledger['bridge'],'actual_transaction_count':len(ledger['transactions']),'current_cash':current(c['total_cp'],'/controlled_cash/total_cp','current'),'qualification':'Bridge is a disclosure, not an event, expense or account assignment; historical arc remains unchanged.'}
+        if ledger['transactions']:
+            received=sum(t['amount_cp'] for t in ledger['transactions'] if t['direction']=='inflow')
+            spent=sum(t['amount_cp'] for t in ledger['transactions'] if t['direction']=='outflow')
+            result['income_statement'].update(current_period={'from':ledger['endpoint']['as_of'],'to':ledger['as_of']},actual_received_revenue=current(received,'/transactions','received source-backed cash only'),actual_paid_expenses=current(spent,'/transactions','paid cash outflows only; not full accrual coverage'))
+        return result
+    check(type(ledger.get('schema_version')) is int and ledger['schema_version']==2,'report requires supported ledger schema2 or3')
+    return _legacy_financial_report(root,ledger,ledger_ref)
+
+
+def _legacy_financial_report(root,ledger,ledger_ref):
+    """Historical schema2 reporting remains available without editing its source."""
     date=ledger['as_of'];current_date=date['date']+' '+date['time']
     def money(value,pointer,owner='Controlled funds; legal owner breakdown remains source-qualified',status='current ledger projection',verified=True):
         return amount(value,ledger_ref+'#'+pointer,owner,status,current_date if verified else None)

@@ -141,18 +141,19 @@ def copper(value, label="currency"):
 
 def validate_state(state):
     version = state.get("schema_version")
+    v6 = type(version) is int and version == 6
     v5 = type(version) is int and version == 5
     v4 = type(version) is int and version == 4
-    dated = v4 or v5
-    modern = type(version) is int and version in {3, 4, 5}
+    dated = v4 or v5 or v6
+    modern = type(version) is int and version in {3, 4, 5, 6}
     v3 = type(version) is int and version == 3
-    keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"} | ({"resources"} if modern else set()) | ({"calendar", "custody"} if dated else set()), "checkpoint")
-    require(type(state["schema_version"]) is int and state["schema_version"] in {2, 3, 4, 5}, "checkpoint: unsupported schema_version")
+    keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"} | ({"resources"} if modern else set()) | ({"calendar", "custody"} if dated else set()) | ({"provenance"} if v6 else set()), "checkpoint")
+    require(type(state["schema_version"]) is int and state["schema_version"] in {2, 3, 4, 5, 6}, "checkpoint: unsupported schema_version")
     for field in ("date", "time", "location", "status", "source"):
         string(state[field], f"checkpoint.{field}")
     require(re.fullmatch(r"Year \d+ Day \d+", state["date"]) is not None, "checkpoint: invalid date")
     require(re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d", state["time"]) is not None, "checkpoint: invalid time")
-    require(state["status"] == ("ENDED" if v3 or v5 else "PAUSED"), "checkpoint: invalid session status")
+    require((state["status"] in {"UNKNOWN","PAUSED","ENDED"} if v6 else state["status"] == ("ENDED" if v3 or v5 else "PAUSED")), "checkpoint: invalid session status")
     stats = state["theron"]
     keys(stats, STATS, "checkpoint.theron")
     for field in STATS - {"rank"}:
@@ -165,7 +166,7 @@ def validate_state(state):
     balances = {k: copper(state["money"][k], f"checkpoint.money.{k}") for k in money_fields}
     if modern:
         string(state["money"]["allocation_status"], "money.allocation_status")
-        require(v5 or state["money"]["allocation_status"].startswith("unverified"), "money: allocation must remain explicitly unverified")
+        require(v5 or v6 or state["money"]["allocation_status"].startswith("unverified"), "money: allocation must remain explicitly unverified")
         if v3:
             require(balances["blackscale_private_gp_sp"] + balances["expedition_gp_sp"] <= balances["total_gp_sp"],
                     "checkpoint: verified components exceed controlled cash")
@@ -195,12 +196,12 @@ def validate_state(state):
     keys(context, {"safety", "companions_present", "party_roles", "projects", "academy", "outstanding_clues", "recent_mp_costs", "mp_before_recent_casts"} | ({"recent_mp_recovery"} if v4 else set()), "checkpoint.context")
     string(context["safety"], "context.safety")
     for field in ("companions_present", "outstanding_clues"):
-        require(isinstance(context[field], list) and bool(context[field]), f"context.{field}: expected a nonempty list")
+        require(isinstance(context[field], list) and (v6 or bool(context[field])), f"context.{field}: expected a nonempty list")
         for value in context[field]:
             string(value, f"context.{field}")
     for field in ("party_roles", "projects"):
         mapping(context[field], f"context.{field}")
-        require(bool(context[field]), f"context.{field}: expected entries")
+        require(v6 or bool(context[field]), f"context.{field}: expected entries")
         for key, value in context[field].items():
             string(key, field); string(value, field)
     academy = context["academy"]
@@ -215,7 +216,7 @@ def validate_state(state):
         keys(calendar, {"season", "day_of_season"}, "checkpoint.calendar")
         string(calendar["season"], "calendar.season")
         integer(calendar["day_of_season"], "calendar.day_of_season", 1)
-        if v5:
+        if v5 or v6:
             custody = state["custody"]
             keys(custody, {"reviewed", "released", "retained", "medically_transferred", "hearing_pending", "identities_status", "halden_status"}, "checkpoint.custody")
             for field in ("reviewed", "released", "retained", "medically_transferred"):
@@ -237,7 +238,7 @@ def validate_state(state):
             for field in ("fatalities", "party_injuries"):
                 integer(custody[field], f"custody.{field}")
     costs = mapping(context["recent_mp_costs"], "context.recent_mp_costs")
-    if v3 or v5:
+    if v3 or v5 or v6:
         require(not costs and context["mp_before_recent_casts"] is None,
                 "context: final-scene individual mana costs and starting MP remain unverified")
         return
@@ -266,6 +267,14 @@ def validate_state(state):
 def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
+    if state['schema_version'] == 6:
+        require(type(ledger.get('schema_version')) is int and ledger['schema_version'] == 3, 'checkpoint6 requires finance schema3')
+    if ledger.get('schema_version') == 3:
+        require(state['schema_version'] == 6, 'finance schema3 requires checkpoint6')
+    if type(ledger.get("schema_version")) is int and ledger["schema_version"] == 3:
+        if __package__: from .finance_v3 import validate_finance_v3
+        else: from finance_v3 import validate_finance_v3
+        return validate_finance_v3(root, state, ledger)
     if type(ledger.get("schema_version")) is int and ledger["schema_version"] == 2:
         return validate_finance_ledger_v2(root, state, ledger)
     keys(ledger, {"schema_version", "as_of", "source", "qualification", "currency", "controlled_cash", "operating_reconstruction", "distributions", "expense_history", "excluded_property", "assets_deposits_liabilities", "historical_discrepancies"}, "ledger")
@@ -496,7 +505,11 @@ def validate(root):
         custody = state["custody"]
         for ident in custody["detainees"] + custody["free_people"] + [custody["guard"]]:
             require(ident in records and records[ident]["type"] == "characters", f"custody: unknown character {ident}")
-    if state["schema_version"] == 5:
+    if state["schema_version"] == 6:
+        if __package__: from .finance_v3 import validate_checkpoint6
+        else: from finance_v3 import validate_checkpoint6
+        validate_checkpoint6(root, state)
+    if state["schema_version"] in {5, 6}:
         validate_finance_ledger(root, state)
     flat = {}
     for key, value in state.items():
@@ -505,8 +518,8 @@ def validate(root):
         elif key != "source":
             flat[key] = value
     owners = {k: set(v) for k, v in OWNERS.items()}
-    if state["schema_version"] in {3, 4, 5}:
-        money_fields = MONEY_FIELDS_V4 if state["schema_version"] in {4, 5} else MONEY_FIELDS_V3
+    if state["schema_version"] in {3, 4, 5, 6}:
+        money_fields = MONEY_FIELDS_V4 if state["schema_version"] in {4, 5, 6} else MONEY_FIELDS_V3
         owners["party-finances"] = {f"money.{k}" for k in money_fields}
         owners["theron-ashvale"] |= {f"resources.{k}" for k in RESOURCES}
     for entity_id, expected in owners.items():

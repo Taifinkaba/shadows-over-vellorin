@@ -57,9 +57,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 [Post-integration readiness audit](docs/final-readiness-audit.md) records verified main/PR ancestry, gameplay limits, ending/private-storage approvals, financial write-back constraints and safe Day181 reconciliation steps. It is a dated baseline review, not campaign advancement or approval of proposed content.
 
 ## Current checkpoint
-Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 
-[Current finance ledger](state/finance-ledger.json), [Day156 player-established chronicle](changes/chronicles/year848-day156-end-session.md), [next-chat handoff](state/next-chat-handoff.md), [verification queue](state/open-verifications.md). Prior checkpoints remain history; no automatic income or gameplay advance.
+[Day181 supplied-endpoint adoption](docs/day181-checkpoint-ledger-migration.md): Year848 Suncrest61 Day181,19:30, Ashvale Estate. Exact room, session status, companion positions and equipment configuration UNKNOWN; no gameplay resumed. HP100/100 MP400/400, normal DEF49,51 only with Night Sovereign worn (wearing UNKNOWN). Nexus156/180; separate magic wagon60/60. Controlled745gp9sp;317gp committed/unpaid,428gp9sp uncommitted; current accounts UNRECONCILED / UNKNOWN.
+
+[Current checkpoint](state/checkpoint.json), [sole finance ledger3](state/finance-ledger.json), [adoption source](changes/chronicles/year848-day181-endpoint-adoption.md), [handoff](state/next-chat-handoff.md), [verification queue](state/open-verifications.md). Historical Day156 is preserved;2600cp and+22MP are unexplained endpoint differences, not transactions/recovery. Future account-specific spending needs verified funding and authority.
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.

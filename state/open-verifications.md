@@ -1,3 +1,15 @@
+# Current verification queue — Day181 endpoint adoption
+
+Day181 is explicitly adopted as supplied continuity, not independently recovered gameplay history. Source: [adoption](../changes/chronicles/year848-day181-endpoint-adoption.md). Original Day156 checkpoint/ledger/allocations are preserved as history.
+
+- Cash77190cp→74590cp:2600cp UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED. Not a transaction, expense/loss/deficit/transfer/donation/balancing entry or known reserve expenditure. No account assignment; current account distribution UNKNOWN. No extra deduction for lower uncommitted cash.
+- MP378→400:+22 UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED. No rest, spell, potion, assimilation, transfer or recovery timeline. Nexus/wagon unchanged.
+- Room, session status, current equipment/wearing, companions' positions/conditions, new work/receipts/research/custody/quest outcomes are UNKNOWN. Earlier dated observations remain last verified, not fresh Day181 certifications.
+-317gp remains committed/unpaid, paid0, not started under adoption instruction; no invoice or inspection invented. Historical finance events/restitution/expenses and ownership exclusions remain once-only.
+- Future funding/account authority must be separately verified or approved before account-specific spending. No new event is posted here. All prior unresolved case/identity/lore/secret-storage issues persist unless explicitly superseded; repository public/private governance conflict unchanged.
+
+## Preserved historical verification queues (superseded only for endpoint adoption)
+
 # Current verification queue — Year848 Suncrest36 Day156,20:15
 
 - Latest explicit player checkpoint and scene revisions supersede older snapshots; source is in-session story established, not discovered historical evidence.

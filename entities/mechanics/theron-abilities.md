@@ -9,7 +9,15 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
+- changes/chronicles/year848-day181-endpoint-adoption.md
 ---
+
+# Theron resource endpoint — Day181
+
+Personal MP400/400, Nexus156/180, magic wagon60/60 from supplied endpoint. +22 personal MP since Day156 is unexplained provenance, not an assimilation/rest/recovery event. No staff/wagon recharge. All established abilities, spell costs, locks and Spirit Mana Assimilation requirements below are unchanged; earlier dated resource observations are historical.
+
+## Preserved historical record through Day156
+
 
 # Theron abilities — Day156 current canon
 

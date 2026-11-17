@@ -1,16 +1,16 @@
 {
   "baseline_commit": "90be489d61c69e014ba694fffb2aa79b38061902",
   "protected_sha256": {
-    "state/checkpoint.json": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
-    "state/finance-ledger.json": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
-    "state/next-chat-handoff.md": "036fe9d479df936dab2e2635bf83c6e6221ec42f514b602cc20fd6f1333eb6ce",
-    "state/open-verifications.md": "9d44465ecfae77664d848ee33b189d934c88038039f999cffb11f4ea42169a01",
+    "state/checkpoint.json": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
+    "state/finance-ledger.json": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
+    "state/next-chat-handoff.md": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
+    "state/open-verifications.md": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
     "entities/mechanics/shady-salvage.md": "96b998d3d5d6c8c77946979b58f767760f8204a76ed120fece78206262a329f0",
     "entities/mechanics/seven-bells-inventory.md": "ba0e67d7ffa6dddb6859be55446617b21fd9380bb9630a1ae5f594d1f7d0c511",
     "entities/mechanics/outstanding-projects.md": "590c9e0e4b0722bbd2575000fbdffed97f19f436919a39bcbb923b778fa1a6b6",
     "entities/quests/seven-bells-investigation.md": "e60754709b7f5de31382de4698ff0ee0108b949565fa780496fb7206acb06aa4",
     "entities/mechanics/launder.md": "3b72aefe7eefa33c82656987bbc0224b3aa9caea18d4d5809bae33579a440640",
-    "entities/mechanics/party-finances.md": "89faa34226c8680892be4ee5e588d642cfe6599ac7b964877105d5e989673fc6",
+    "entities/mechanics/party-finances.md": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
     "entities/mechanics/prisoner-custody.md": "82761adec4bfe8ac3fe54ca2ae5cb262cf9efd49c30a35c9ce884e0e5907be1f",
     "entities/mechanics/contract-registry.md": "482057869a05605dab2e40dc7f404eafca7b68b1523f6154af115101fccc8b38",
     "entities/factions/wayfarers-guild.md": "fb95a8d11019c7a4fa23aa3f18b2d9966b1d201ab639203c8f9bcc39f2d320a1",
@@ -18,7 +18,7 @@
     "entities/items/dragon-scales-stock.md": "33b91e6fc54861130bd758add815b5888f42a5297bf456ce206dc68e0d6b03fa",
     "entities/creatures/vaeltharion.md": "a74f06bff0c90ebe3d9e23253f466fed09bd0cc4cb61fb893608c95097eb059f",
     "entities/creatures/aeloryn.md": "102131cc7e6bdd173bbb390ad297a5cca4e2f3fbbe9db7df7f430b351ccb6855",
-    "entities/characters/theron-ashvale.md": "0af4001c2b15a5804f8361670ad9aba3dd123f1d4de9f049ac5072d9c25fbfdb",
+    "entities/characters/theron-ashvale.md": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
     "entities/characters/garrick-vale.md": "963751f9ec336a6810eb3f18933defbf6f753b7538d5badce81f75fb180a236d",
     "entities/characters/nyx-thorne.md": "e7b4602cb34638e926ea7f97b4d37acacb4ba93363de1e8080279789d893a6bb",
     "entities/characters/lyra-moonvale.md": "ea818203246b1007e847c2b24dc175f733c730d0d3685cc2549806b235f90c7c",
@@ -69,5 +69,34 @@
     "entities/locations/route-caelthorne-elyndor.md": "eb154cfea5ed4c137ff35d419af9a7c9e0746238741641e10c285aa26f800a5f",
     "entities/locations/route-caelthorne-frostmarch.md": "4ada25eb7ab912d6049e8f39837d92f6c37863642c5dace9ea69a4e52c829b9c",
     "entities/locations/seven-bells-witness-entry.md": "ea2e16b29a9807df0d7630ce85f9107d0c98098f7220d1418ddcb8b2fc83f190"
+  },
+  "approved_day181_current_updates": {
+    "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "paths": {
+      "state/checkpoint.json": {
+        "before_sha256": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
+        "after_sha256": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64"
+      },
+      "state/open-verifications.md": {
+        "before_sha256": "9d44465ecfae77664d848ee33b189d934c88038039f999cffb11f4ea42169a01",
+        "after_sha256": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372"
+      },
+      "entities/mechanics/party-finances.md": {
+        "before_sha256": "89faa34226c8680892be4ee5e588d642cfe6599ac7b964877105d5e989673fc6",
+        "after_sha256": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4"
+      },
+      "state/next-chat-handoff.md": {
+        "before_sha256": "036fe9d479df936dab2e2635bf83c6e6221ec42f514b602cc20fd6f1333eb6ce",
+        "after_sha256": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e"
+      },
+      "entities/characters/theron-ashvale.md": {
+        "before_sha256": "0af4001c2b15a5804f8361670ad9aba3dd123f1d4de9f049ac5072d9c25fbfdb",
+        "after_sha256": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951"
+      },
+      "state/finance-ledger.json": {
+        "before_sha256": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
+        "after_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64"
+      }
+    }
   }
 }

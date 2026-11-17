@@ -1,3 +1,10 @@
+# Approved Day181 endpoint and finance migration
+
+- Base on main1e3e2aa including merged audit PR21. Adopt supplied Year848 Suncrest61 Day18119:30 Ashvale Estate, HP100/100 MP400/400, normal49/conditional51 and unchanged finite staff/wagon pools; keep room/session status/current equipment/presence UNKNOWN. Preserve rank/attributes/locks and all abilities.
+- Archive exact Day156 checkpoint/ledger and three original entity texts; original historical chronicles and unrelated canon remain unchanged. Mark2600cp and+22MP as unexplained endpoint disclosures, never transactions, account assignments or recovery events.
+- Migrate the same ledger to schema3: immutable historical reconciliation,74590cp endpoint, empty actual-event/funding lists, unknown current allocations,31700cp unpaid/not-started commitment and42890cp available. Add future sourced/approved account/event validation without posting anything. Exclusions/noncash/restitution history remain separate.
+- Update current checkpoint6/owner projections/handoff/verification provenance, read-only dashboard/report compatibility and targeted documentation. Preserve old snapshot tests; revise only authorized current-file hashes with before/after provenance, add immutable/unrelated history tests and disposable future-event coverage. No gameplay, new financial/mana event, quest/custody/ownership/relationship change, hidden answer, visibility action or merge permission.
+
 # Final integration readiness audit — documentation only
 
 - Verify merged PRs11–20 are ancestors of main; review all ten gameplay domains, public/private discovery boundaries,18 answer approvals,14 blank clue routes and Day156 versus supplied Day181 without adopting it.
