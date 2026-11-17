@@ -1,3 +1,8 @@
+# World Bible integration audit and architecture — chunk 1
+
+- Add an evidence-based nine-system audit and proposed integration plan, including supplied Day181 versus repository Day156 reconciliation, financial/custody/knowledge boundaries and approval gates.
+- Documentation only: no campaign time, resources, entities, archive, visibility or quest outcomes changed. Complete expansion1.0–2.2 text remains pending source intake.
+
 # Generated character reference portrait collection
 
 - Add all26 original generated PNG portraits from six chat batches in artwork/character-references/, paired by entity ID with the26 approved character sheets. Preserve the similarly named Mira/Corven identities and original artwork.
