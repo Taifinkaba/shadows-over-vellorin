@@ -1,3 +1,11 @@
+# GM dashboard and session continuity — chunk10
+
+- Verify merged integration PRs11–19 and base on current main. Add one indexed GM workflow router, operating manual and targeted activity retrieval linking existing geography, settlements, justice, guilds, dungeons, finances/property, autonomy/events and quest owners.
+- Add stdout-only JSON/Markdown world projection with reviewed fields, per-value provenance/qualification, UNKNOWN handling, explicit presence, finite resources, commitments/exclusions, neutral source handles and source fingerprints. Reject stale/edited views and invalid sources; no raw mixed narrative, private knowledge distinctions or secret entities/answers rendered. This does not certify the public repository spoiler-safe.
+- Add empty END SESSION Codex and next-chat templates: stop play, preserve supported outcomes/independent assignments, update only affected owners and actual checkpoint/ledgers, add a new chronicle, refresh handoff/verifications/changelog, validate and open a future session PR subject to merge approval. No session PR is created by this maintenance.
+- Add continuity/document/template validation, regression/negative/preservation tests and links. Existing temporary test repositories now include docs/governance, since these are validated workflow sources; one dungeon negative test also accepts the earlier missing-owner provenance error while still requiring rejection. No gameplay assertions are removed and entity totals remain index-derived.
+- All preexisting campaign entities, state, archive and historical chronicles remain byte-for-byte unchanged. No time, movement, HP/MP, equipment, money, income, assignments, bonds/relationships, construction/research, custody/legal/quest outcomes, clocks, Day181 adoption or visibility change. No hidden answers, second world database, automatic gameplay writer or merge permission.
+
 # Finite main-quest framework — chunk9
 
 - Base on merged Chunk8/PR18; route15 existing public-reference quest owners without changing statuses or duplicating their narratives. Protect13 historical achievement/observation scopes and17 distinct character identities; preserve victory limits and unknown present custody.

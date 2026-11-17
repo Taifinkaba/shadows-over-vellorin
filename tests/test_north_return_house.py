@@ -17,7 +17,7 @@ class NorthReturnHouseTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix='vellorin-day124-')
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        for name in ('entities', 'archive', 'state', 'changes'):
+        for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT/name, self.root/name)
         shutil.copy2(ROOT/'index.json', self.root/'index.json')
         shutil.copy2(ROOT/'archive/checkpoints/year848-day124-0145.json', self.root/'state/checkpoint.json')
@@ -99,7 +99,7 @@ class NorthReturnHouseTests(unittest.TestCase):
         for field, amount in [('total_gp_sp','552gp 3sp'), ('total_gp_sp','555gp 1sp 4cp'), ('office_petty_gp_sp','0gp'), ('provisional_historic_gp_sp','0gp')]:
             with self.subTest(field=field, amount=amount), tempfile.TemporaryDirectory() as temp:
                 root = Path(temp)
-                for name in ('entities','archive','state','changes'):
+                for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
                     shutil.copytree(self.root/name,root/name)
                 shutil.copy2(self.root/'index.json',root/'index.json')
                 state = copy.deepcopy(self.state);state['money'][field]=amount
@@ -110,7 +110,7 @@ class NorthReturnHouseTests(unittest.TestCase):
     def test_unknown_custody_reference(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            for name in ('entities','archive','state','changes'):
+            for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
                 shutil.copytree(self.root/name,root/name)
             shutil.copy2(self.root/'index.json',root/'index.json')
             state = copy.deepcopy(self.state);state['custody']['detainees'].append('invented-prisoner')

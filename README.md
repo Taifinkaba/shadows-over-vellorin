@@ -48,6 +48,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [Main quest directory](docs/main-quest-directory.md) routes original quest/evidence owners, protected achievements and unresolved questions. The five-chapter/14-scene ending plan remains proposed; unfilled answers and clue routes require approval and private storage. No story progress, new revelations or automatic completion.
 
+## GM workflow, dashboard and session continuity
+
+[Operating manual](docs/game-master-operating-manual.md) links all integration systems with targeted retrieval and actual-play update procedures. [World status](docs/world-status.md) documents the read-only reviewed-field dashboard and stale-view checks. Use the empty [END SESSION Codex template](docs/end-session-codex-template.md) and [next-session prompt](docs/next-session-chat-template.md) for future sessions; neither stores another checkpoint or starts gameplay. Mixed-knowledge details still require owner/discovery review.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 

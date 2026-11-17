@@ -20,7 +20,7 @@ class SettlementTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix='vellorin-settlements-')
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        for name in ('entities', 'archive', 'state', 'changes'):
+        for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT/name, self.root/name)
         shutil.copy2(ROOT/'index.json', self.root/'index.json')
 

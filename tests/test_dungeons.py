@@ -19,7 +19,7 @@ class DungeonTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(prefix='vellorin-dungeons-');self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name)
-        for folder in ('entities','state','archive','changes'):shutil.copytree(ROOT/folder,self.root/folder)
+        for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance'):shutil.copytree(ROOT/folder,self.root/folder)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
 
     def path(self,ident):
@@ -214,7 +214,8 @@ class DungeonTests(unittest.TestCase):
     def test_partial_framework_rejected(self):
         p=self.root/'index.json';d=json.loads(p.read_text());d['entries']=[e for e in d['entries'] if e['id']!='exploration-sections'];p.write_text(json.dumps(d))
         self.path('exploration-sections').unlink()
-        with self.assertRaisesRegex(ValidationError,'incomplete framework'):validate(self.root)
+        # The GM router now detects this missing owner earlier during provenance checks.
+        with self.assertRaisesRegex(ValidationError,r'incomplete framework|gm-workflow\.md\.source_refs: missing file entities/mechanics/exploration-sections\.md'):validate(self.root)
 
     def test_optimized_validator_rejects_respawn(self):
         self.edit('dungeon-registry',lambda d:d.update(automatic_respawn=True))

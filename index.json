@@ -2430,6 +2430,19 @@
         "chunk9",
         "read-only"
       ]
+    },
+    {
+      "id": "gm-workflow",
+      "type": "mechanics",
+      "title": "GM workflow and continuity routing",
+      "path": "entities/mechanics/gm-workflow.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "gm-workflow",
+        "chunk10",
+        "read-only"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
