@@ -5,6 +5,7 @@ status: research
 visibility: gm-reference
 source_refs:
 - changes/chronicles/guild-concord-contracts-design.md
+- changes/chronicles/phase2-04-guild-underworld-approval.md
 ---
 
 # Continental Guild Concord — proposal
@@ -282,6 +283,53 @@ PROPOSED federation coordinating independent guilds, not replacing their authori
       ]
     }
   ],
-  "financial_postings": []
+  "financial_postings": [],
+  "approved_charter": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md",
+    "purpose": [
+      "Voluntary interguild recognition",
+      "Contract referrals",
+      "Cooperative training standards by consent",
+      "Independent mediation",
+      "Merchant and worker representation",
+      "Route-limited communication",
+      "Limited lawful diplomatic advocacy"
+    ],
+    "independent_organizations": [
+      "wayfarers-guild",
+      "dragon-slayer-academy",
+      "northern-provisioning-consortium",
+      "ironhand-smiths-compact",
+      "circle-of-seven-lamps",
+      "scribes-collegium",
+      "river-charter-league",
+      "greenward-covenant",
+      "stonewatch-wardens"
+    ],
+    "voluntary_membership": true,
+    "independent_exit": true,
+    "compulsory_dues": false,
+    "treasury_consolidation": false,
+    "academy_takeover": false,
+    "property_transfer_authority": false,
+    "automatic_affiliation": false,
+    "governance_model": "Only willing, separately authorized organizations delegate bounded representation. Delegates answer to their own guilds; recorded consent, recusal and appeal protect small members and workers. No actual delegates or votes are supplied.",
+    "recognition_and_standards": "Reciprocal credentials and training standards require explicit profession-specific agreement. Combat, professional, contract and dungeon ranks remain separate; existing licenses/assessments are neither granted nor revoked.",
+    "mediation_and_advocacy": "Mediation needs consent and cannot override courts, governments, contracts or independent guild rights. Advocacy needs a bounded mandate and actual communication; no continental sovereignty or treaty-making power.",
+    "funding_and_assets": "Each organization retains its treasury, staff, property and liabilities. Future shared services need voluntary terms, proved funding and once-only actual expense records; no fee or escrow is collected.",
+    "academy_safeguard": "Theron and Vaeltharion retain their established cofounder roles, Vaeltharion Dragon Master and independent status, Beren management. No dues, asset transfer, compulsory training or Dragon Slayer unlock is imposed.",
+    "current_members": null,
+    "current_delegates": null,
+    "current_treasury_cp": null,
+    "actual_enrollments": [],
+    "actual_dues_events": [],
+    "actual_asset_transfers": [],
+    "actual_contracts": []
+  }
 }
 ```
+
+## Approved Phase 2 voluntary charter
+
+The new approved_charter is approved fictional federation design; original operational/division/approval fields are the dated unactivated proposal baseline. No specific membership, division license, fee, office, staff or treasury is activated. This is the same Concord identity, with no takeover or automatic affiliation.

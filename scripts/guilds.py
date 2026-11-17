@@ -102,7 +102,11 @@ def validate_guilds(root, records, require, repository_file, unique_json):
     require(required<=records.keys() and marked==owners, 'guilds: incomplete guild framework')
 
     def shape(d, fields, label):
-        require(isinstance(d,dict) and set(d)==set(fields.split()), f'guilds: invalid {label} fields')
+        expected_fields=set(fields.split())
+        extensions={'network':'approved_design_index','Concord':'approved_charter','guild rules':'approved_professional_rules'}
+        if isinstance(d,dict) and extensions.get(label) in d:
+            expected_fields.add(extensions[label])
+        require(isinstance(d,dict) and set(d)==expected_fields, f'guilds: invalid {label} fields')
 
     def text(v,label):
         require(isinstance(v,str) and v.strip(), f'guilds: invalid {label}')

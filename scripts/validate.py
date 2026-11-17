@@ -566,6 +566,11 @@ def validate(root):
         from guilds import validate_guilds
     validate_guilds(root, records, require, repository_file, unique_json)
     if __package__:
+        from .guild_underworld import validate_guild_underworld
+    else:
+        from guild_underworld import validate_guild_underworld
+    validate_guild_underworld(root, records, require, repository_file, unique_json)
+    if __package__:
         from .dungeons import validate_dungeons
     else:
         from dungeons import validate_dungeons

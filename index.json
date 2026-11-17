@@ -2656,6 +2656,201 @@
         "government",
         "approved-design"
       ]
+    },
+    {
+      "id": "ironhand-smiths-compact",
+      "type": "factions",
+      "title": "Ironhand Smiths\u2019 Compact",
+      "path": "entities/factions/ironhand-smiths-compact.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "circle-of-seven-lamps",
+      "type": "factions",
+      "title": "Circle of Seven Lamps",
+      "path": "entities/factions/circle-of-seven-lamps.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "scribes-collegium",
+      "type": "factions",
+      "title": "Scribes\u2019 Collegium",
+      "path": "entities/factions/scribes-collegium.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "river-charter-league",
+      "type": "factions",
+      "title": "River Charter League",
+      "path": "entities/factions/river-charter-league.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "greenward-covenant",
+      "type": "factions",
+      "title": "Greenward Covenant",
+      "path": "entities/factions/greenward-covenant.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "stonewatch-wardens",
+      "type": "factions",
+      "title": "Stonewatch Wardens",
+      "path": "entities/factions/stonewatch-wardens.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "gilded-hand",
+      "type": "factions",
+      "title": "Gilded Hand",
+      "path": "entities/factions/gilded-hand.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "thornless-circle",
+      "type": "factions",
+      "title": "Thornless Circle",
+      "path": "entities/factions/thornless-circle.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "black-pick-syndicate",
+      "type": "factions",
+      "title": "Black Pick Syndicate",
+      "path": "entities/factions/black-pick-syndicate.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "sable-current",
+      "type": "factions",
+      "title": "Sable Current",
+      "path": "entities/factions/sable-current.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "red-antler-brotherhood",
+      "type": "factions",
+      "title": "Red Antler Brotherhood",
+      "path": "entities/factions/red-antler-brotherhood.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "veiled-coin-exchange",
+      "type": "factions",
+      "title": "Veiled Coin Exchange",
+      "path": "entities/factions/veiled-coin-exchange.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "broken-seal-society",
+      "type": "factions",
+      "title": "Broken Seal Society",
+      "path": "entities/factions/broken-seal-society.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "nightglass-circle",
+      "type": "factions",
+      "title": "Nightglass Circle",
+      "path": "entities/factions/nightglass-circle.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "illicit-commerce-design",
+      "type": "mechanics",
+      "title": "Finite illicit commerce design",
+      "path": "entities/mechanics/illicit-commerce-design.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "guild-underworld",
+        "approved-design"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

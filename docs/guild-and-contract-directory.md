@@ -1,3 +1,9 @@
+# Phase 2 approved guild and underworld update
+
+Read the [approved guild/underworld directory](phase2-guilds-and-underworld.md) and [PR4 review](phase2-04-review.md) first. Six archived professional concepts now have distinct approved-design owners, and the existing Concord has a voluntary approved charter. The original crosswalk/branch/division explanations below remain dated provenance, not a claim all new design is unapproved. Wayfarers, academy and consortium facts, ranks, contracts and financial arrangements stay unchanged. Approved membership/dues/status rules are prospective references, not actual enrollment, charges, licenses, bans or authority. Eight new criminal-design owners and finite illicit contexts have no verified current operations or secret facts.
+
+---
+
 # Guild and contract retrieval — Chunk 5
 
 This directory links the [guild network](../entities/mechanics/guild-network.md), existing faction owners, [Concord proposal](../entities/factions/continental-guild-concord.md), [contract routing](../entities/mechanics/contract-registry.md) and [membership/contract procedure](../entities/rules/guild-membership-and-contracts.md). It is not another organization, quest, license or financial ledger. Resolve IDs through [index.json](../index.json); a town visit normally needs the relevant guild profile, settlement and route, not the entire archive.

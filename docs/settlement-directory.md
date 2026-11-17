@@ -87,3 +87,7 @@ Brackenford's streets/landmarks remain in the village record: Western Mill Lane,
 8. Follow narration-format.md for attributed dialogue and independently closed functioning disclosures for long registers. Directory retrieval changes no location, inventory, cash, staffing, custody or quest state.
 
 The new material contains ordinary service references only; it adds no hidden motives, conspiracy answers, secret dungeon information or new GM-secret dossier. `gm-reference` is not proof of player knowledge, and the directory is not an automatic discovery mechanism. The existing public-repository/private-governance conflict remains unresolved; visibility is unchanged and needs separate resolution.
+
+## Phase 2 prospective guild and commercial pressures
+
+[Guild/underworld design routing](phase2-guilds-and-underworld.md) links each of the ten approved settlements’ original industries, businesses and trade relationships to possible professional cooperation and criminal pressures. No actual affiliation, guilty proprietor, operating illicit market, supply agreement or current crime is established, and no settlement/business owner is edited.
