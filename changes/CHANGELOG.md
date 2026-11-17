@@ -1,3 +1,9 @@
+# World Bible Phase2 — final development-session audit and handoff
+
+- Verify PRs24–31 merged into main at aa4dc03;247 indexed entities and194 discovered tests confirmed. Add a dedicated maintenance handoff and README retrieval link under the existing END SESSION workflow.
+- Confirm all64 preexisting archive files and18 preexisting chronicles are byte-preserved from the pre-Phase2 baseline; eight added chronicles are design approvals. Document curated-history limits, protected achievements and unresolved mechanics/ending approvals without reconstructing scenes.
+- Documentation only: preserve checkpoint6, sole finance ledger4, existing gameplay handoff, entities, inventory, resources, chronology, ownership, quests, code, tests and fixtures. No gameplay, visibility action, automatic merge or further World Bible phase.
+
 # Phase 2 PR8 — magic/combat and final design integration
 
 - Add one public integration owner for eight magic schools, sixteen combat procedures, twelve environment references and seven prior-phase authority links. Preserve original spells/costs, Dreamfall,40% efficiency uncertainty, personal-only AssimilationII, equipment/pools, progression and locks; supplied Deep Mend/Greater Healing references remain unverified without owner evidence.

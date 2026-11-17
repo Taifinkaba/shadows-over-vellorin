@@ -54,6 +54,8 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## GM workflow, dashboard and session continuity
 
+[World Bible Phase2 final session handoff](docs/phase2-final-session-handoff.md) records the completed development-session audit and next-chat source routing; no gameplay occurred and the canonical checkpoint/finance ledger are unchanged.
+
 [Operating manual](docs/game-master-operating-manual.md) links all integration systems with targeted retrieval and actual-play update procedures. [World status](docs/world-status.md) documents the read-only reviewed-field dashboard and stale-view checks. Use the empty [END SESSION Codex template](docs/end-session-codex-template.md) and [next-session prompt](docs/next-session-chat-template.md) for future sessions; neither stores another checkpoint or starts gameplay. Mixed-knowledge details still require owner/discovery review.
 
 ## Final readiness review
