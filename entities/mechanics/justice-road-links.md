@@ -4,6 +4,8 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- entities/locations/route-northern-marches-frostmarch.md
+- entities/locations/route-elyndor-woodland-passage.md
 - changes/chronicles/justice-courts-prisons-design.md
 - entities/mechanics/travel-routes.md
 - entities/locations/route-ashvale-eastrun.md
@@ -398,6 +400,32 @@ All18 existing route owners are referenced without editing or promoting them. En
         "entities/locations/route-caelthorne-frostmarch.md"
       ],
       "note": "Endpoint contacts only; route boundary, patrol coverage, receiving facility and distance-ranked station UNKNOWN. Read classification and access from route owner. No automatic transport."
+    },
+    {
+      "route_id": "route-northern-marches-frostmarch",
+      "region_id": null,
+      "responsible_authority_id": null,
+      "nearest_station_location_id": null,
+      "court_authority_id": null,
+      "remand_facility_id": null,
+      "endpoint_contacts": [],
+      "source_refs": [
+        "entities/locations/route-northern-marches-frostmarch.md"
+      ],
+      "note": "Proposed corridor only; no sourced patrol, court, station, toll authority or custody transport."
+    },
+    {
+      "route_id": "route-elyndor-woodland-passage",
+      "region_id": null,
+      "responsible_authority_id": null,
+      "nearest_station_location_id": null,
+      "court_authority_id": null,
+      "remand_facility_id": null,
+      "endpoint_contacts": [],
+      "source_refs": [
+        "entities/locations/route-elyndor-woodland-passage.md"
+      ],
+      "note": "Proposed corridor only; no sourced patrol, court, station, toll authority or custody transport."
     }
   ],
   "automatic_transport": false

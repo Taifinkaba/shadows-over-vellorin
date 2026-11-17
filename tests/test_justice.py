@@ -48,7 +48,9 @@ class JusticeTests(unittest.TestCase):
         p = self.data('justice-proposals')
         self.assertEqual((len(p['roles']),len(p['buildings']),len(p['officers'])),(7,12,16))
         self.assertTrue(all(b['operational_status']=='PROPOSED — NOT OPERATIONAL' for b in p['buildings']))
-        self.assertEqual(len(self.data('justice-road-links')['roads']),18)
+        self.assertEqual({road['route_id'] for road in self.data('justice-road-links')['roads']},
+                         {entry['id'] for entry in json.loads((self.root/'index.json').read_text())['entries']
+                          if entry['id'].startswith('route-')})
 
     def test_duplicate_institution(self):
         self.reject('justice-authorities',lambda d:d['authorities'].append(d['authorities'][0]),'duplicate/invalid authority ID')
