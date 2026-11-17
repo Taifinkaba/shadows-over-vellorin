@@ -1,3 +1,9 @@
+# Phase 2 PR8 — magic/combat and final design integration
+
+- Add one public integration owner for eight magic schools, sixteen combat procedures, twelve environment references and seven prior-phase authority links. Preserve original spells/costs, Dreamfall,40% efficiency uncertainty, personal-only AssimilationII, equipment/pools, progression and locks; supplied Deep Mend/Greater Healing references remain unverified without owner evidence.
+- Enrich five existing monster-reference identities descriptively while preserving all approved stats, numerical nulls and not-combat-ready status. No new power/formula, active population, discovery, encounter, respawn, loot orSS adventurer rank.
+- Add ten consolidated tests (184→194 discovery), read-only18-topic audit, before/after preservation evidence and final Phase2 summary. One existing owner gains an extension;338 untouched campaign files, all state/history/items/companions/property/finance/quest data remain unchanged. No gameplay, visibility action, merge or Phase3.
+
 # Phase 2 PR7 — public NPC autonomy and regression consolidation
 
 - Reuse five approved character identities and add distinct Liora Thistlebloom86, Orrin Valecrest28 and Mira Hearthwick42 public designs. Extend the existing autonomy owner with bounded schedules, causal events, knowledge/relationship limits, independent companion/faction decisions and finite PR6 economic requirements. No current offices, resources, locations, relationships or events are invented.

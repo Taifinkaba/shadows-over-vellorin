@@ -63,6 +63,8 @@ def validate_dungeons(root, records, require, repository_file, unique_json):
                     'exploration rules':'approved_exploration_design'}
         if isinstance(d,dict) and extensions.get(label) in d:
             expected_fields.add(extensions[label])
+        if label=='ecology/hazards' and isinstance(d,dict) and 'approved_combat_reference_profiles' in d:
+            expected_fields.add('approved_combat_reference_profiles')
         require(isinstance(d,dict) and set(d)==expected_fields,f'dungeons: invalid {label} fields')
     def text(s,label):
         require(isinstance(s,str) and s.strip(),f'dungeons: invalid {label}')
