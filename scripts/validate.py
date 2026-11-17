@@ -547,6 +547,14 @@ def validate(root):
     else:
         from dungeons import validate_dungeons
     validate_dungeons(root, records, require, repository_file, unique_json)
+    if __package__:
+        from .economy import validate_economy
+    else:
+        from economy import validate_economy
+    try:
+        validate_economy(root, records, require, repository_file, unique_json)
+    except ValueError as exc:
+        raise ValidationError(str(exc)) from exc
     return f"OK: {len(entries)} entity records, {len(archive_paths)} archived modules, checkpoint valid"
 
 
