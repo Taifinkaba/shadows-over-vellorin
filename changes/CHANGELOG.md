@@ -1,3 +1,9 @@
+# Final integration readiness audit — documentation only
+
+- Verify merged PRs11–20 are ancestors of main; review all ten gameplay domains, public/private discovery boundaries,18 answer approvals,14 blank clue routes and Day156 versus supplied Day181 without adopting it.
+- Record ordinary-play limitations separately from the blocked proposed ending, optional worldbuilding and action-specific gates. Identify the existing Day156-only finance write-back/schema constraint; recommend separate reviewed evolution of the same authority, never fabricated balancing events.
+- Record passing normal/optimized validation,642 tests, dashboard generation/verification and read-only report checks. Add the readiness report and README retrieval link only; all campaign authorities, history, scripts, tests and preservation fixtures remain unchanged. No gameplay, secrets, state/resource changes, visibility action or merge permission.
+
 # GM dashboard and session continuity — chunk10
 
 - Verify merged integration PRs11–19 and base on current main. Add one indexed GM workflow router, operating manual and targeted activity retrieval linking existing geography, settlements, justice, guilds, dungeons, finances/property, autonomy/events and quest owners.
