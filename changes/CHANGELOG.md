@@ -1,3 +1,11 @@
+# Finite main-quest framework — chunk9
+
+- Base on merged Chunk8/PR18; route15 existing public-reference quest owners without changing statuses or duplicating their narratives. Protect13 historical achievement/observation scopes and17 distinct character identities; preserve victory limits and unknown present custody.
+- Route18 unanswered matters and17 original clue scopes, retaining evidence/custody/discovery boundaries, completed Lyanna/First Hour outcomes, separate cases and narrow command responsibility. No new evidence item, guilt, identity merger, transfer or mystery answer.
+- Add proposed five-chapter3/3/3/3/2 scene targets, seven essential objectives, optional-domain independence and14 blank alternative clue-route slots. Add empty fixed-answer approval crosswalk; no secret values or public storage masquerading as privacy.
+- Add manual continuation/completion/consequence procedures, finite graph/readiness validation and regression/preservation tests. Missing prospective answer approvals/routes are reported without breaking baseline validation. Index/README/schema/directory links updated.
+- Every preexisting campaign entity, checkpoint, ledger, archive and historical chronicle is unchanged. No time, movement, resources/rewards, discoveries, quest/case outcomes, custody, assignments, clocks, visibility or Day181 change. No Chunk10 or merge permission.
+
 # NPC autonomy and world events — chunk 8
 
 - Add routing for30 existing people/creatures,20 narrow responsibility/request/history handles and two existing construct-ability contexts; no editable duplicate positions, assignment outcomes or roster membership. Preserve unknown remote whereabouts, consent, source freshness, staff conditions, finite capabilities and animal identities/bonds.

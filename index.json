@@ -2350,6 +2350,86 @@
         "chunk8",
         "read-only"
       ]
+    },
+    {
+      "id": "main-quest-map",
+      "type": "mechanics",
+      "title": "Main quest owner routing",
+      "path": "entities/mechanics/main-quest-map.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest-framework",
+        "chunk9",
+        "read-only"
+      ]
+    },
+    {
+      "id": "quest-history-and-identities",
+      "type": "mechanics",
+      "title": "Historical objective and identity crosswalk",
+      "path": "entities/mechanics/quest-history-and-identities.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest-framework",
+        "chunk9",
+        "read-only"
+      ]
+    },
+    {
+      "id": "quest-evidence-and-mysteries",
+      "type": "mechanics",
+      "title": "Evidence and unresolved-question routing",
+      "path": "entities/mechanics/quest-evidence-and-mysteries.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest-framework",
+        "chunk9",
+        "read-only"
+      ]
+    },
+    {
+      "id": "quest-resolution-proposals",
+      "type": "mechanics",
+      "title": "Proposed finite main-quest architecture",
+      "path": "entities/mechanics/quest-resolution-proposals.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest-framework",
+        "chunk9",
+        "read-only",
+        "proposed"
+      ]
+    },
+    {
+      "id": "quest-answer-blueprint",
+      "type": "mechanics",
+      "title": "Unfilled fixed-answer approval crosswalk",
+      "path": "entities/mechanics/quest-answer-blueprint.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest-framework",
+        "chunk9",
+        "read-only",
+        "proposed"
+      ]
+    },
+    {
+      "id": "quest-continuation-and-completion",
+      "type": "rules",
+      "title": "Quest continuation, evidence and completion procedure",
+      "path": "entities/rules/quest-continuation-and-completion.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "quest-framework",
+        "chunk9",
+        "read-only"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
