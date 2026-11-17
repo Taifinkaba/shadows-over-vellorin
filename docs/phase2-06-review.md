@@ -1,6 +1,6 @@
 # Phase 2 PR 6 — economy and property review
 
-PR number and URL: PR_LINK_PENDING.
+PR number and URL: [#29](https://github.com/Taifinkaba/shadows-over-vellorin/pull/29).
 
 Base: `19ef74e4642c5307dce7c2883ec1205f828606ef`, latest main including merged PR #24–#28. Branch: `lore/phase2-06-economy-property`. PR 6 only; no merge, PR 7–8 implementation or gameplay.
 
