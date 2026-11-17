@@ -158,7 +158,9 @@ class RepositoryValidationTests(unittest.TestCase):
         path = "entities/mechanics/party-finances.md"
         (self.root / path).unlink()
         self.json_edit("index.json", lambda x: x.update(entries=[e for e in x["entries"] if e["path"] != path]))
-        self.fails("missing authoritative snapshot entity")
+        # New explicit finance provenance may reject the missing owner before
+        # snapshot ownership validation; either diagnostic must still reject it.
+        self.fails("missing authoritative snapshot entity|source_refs: missing file entities/mechanics/party-finances.md")
 
     def test_required_frontmatter_fields(self):
         original = (self.root / THERON).read_text()

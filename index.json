@@ -2118,6 +2118,59 @@
         "justice",
         "chunk4"
       ]
+    },
+    {
+      "id": "guild-network",
+      "type": "mechanics",
+      "title": "Guild identity and relationship crosswalk",
+      "path": "entities/mechanics/guild-network.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "guilds",
+        "contracts",
+        "chunk5"
+      ]
+    },
+    {
+      "id": "continental-guild-concord",
+      "type": "factions",
+      "title": "Continental Guild Concord \u2014 proposal",
+      "path": "entities/factions/continental-guild-concord.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "guilds",
+        "contracts",
+        "chunk5",
+        "proposed"
+      ]
+    },
+    {
+      "id": "contract-registry",
+      "type": "mechanics",
+      "title": "Contract owner routing and future integration",
+      "path": "entities/mechanics/contract-registry.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "guilds",
+        "contracts",
+        "chunk5"
+      ]
+    },
+    {
+      "id": "guild-membership-and-contracts",
+      "type": "rules",
+      "title": "Guild membership, rank and contract procedure",
+      "path": "entities/rules/guild-membership-and-contracts.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "guilds",
+        "contracts",
+        "chunk5"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

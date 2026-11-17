@@ -1,3 +1,11 @@
+# Guild Concord and contracts — chunk 5
+
+- Add a guild identity/compatibility crosswalk for three existing organizations and six archived professional designs, plus three archived Wayfarers branch candidates; retain Caelthorne HQ, unnamed established branches and the independent academy site without new halls/staff.
+- Add an explicitly unapproved eight-division Continental Guild Concord proposal. Preserve independent guild/academy authority, existing rank terminology and all character/skill/license values; proposed professional procedures grant no powers or qualifications.
+- Extend existing Wayfarers/academy owners with structured retrieval. Historical G-215/G-216/B-83 payouts remain already accounted, SS-41 specific revocation remains distinct from unrelated notices, and archived10% policy is not reapplied. No new contract offers or financial postings.
+- Add read-only funding/reference validation, prospective contract schema tests, preservation hashes, directory/schema documentation and index/README links. Update one existing deletion-test diagnostic expectation to accept an earlier finance-provenance error while preserving rejection of missing authority.
+- No gameplay, state, ledger, inventory, custody, character assignments, ranks, location/road/property, quest outcomes, archive or visibility changes. No dungeon implementation, Day181 adoption or merge authorization.
+
 # Governments, courts and custody — chunk 4
 
 - Add scoped references for seven existing authority functions, a pending-approval crosswalk for seven Valedorn roles/twelve buildings/sixteen officials, and a justice lookup for all18 unchanged route records. No new location, character or faction entities and no enacted nationwide hierarchy.
