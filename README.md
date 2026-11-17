@@ -40,6 +40,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [Property/economy directory](docs/property-and-economy-directory.md) routes existing property and business owners, payroll/construction/pricing/trade procedures and read-only financial reports. The existing finance ledger stays the single cash authority; no automatic income, payment, valuation or ownership change.
 
+## NPC autonomy and world events
+
+[NPC/assignment retrieval](docs/npc-autonomy-and-world-events.md) and [faction activity directory](docs/faction-activity-directory.md) route existing owners and historical chronicles. Manual communication/time-advance procedures preserve consent, resources and discovery boundaries; proposed clocks/categories create no events or automatic progress.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 

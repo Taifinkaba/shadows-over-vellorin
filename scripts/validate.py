@@ -555,6 +555,14 @@ def validate(root):
         validate_economy(root, records, require, repository_file, unique_json)
     except ValueError as exc:
         raise ValidationError(str(exc)) from exc
+    if __package__:
+        from .autonomy import validate_autonomy
+    else:
+        from autonomy import validate_autonomy
+    try:
+        validate_autonomy(root, records, require, repository_file, unique_json)
+    except ValueError as exc:
+        raise ValidationError(str(exc)) from exc
     return f"OK: {len(entries)} entity records, {len(archive_paths)} archived modules, checkpoint valid"
 
 

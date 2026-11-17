@@ -142,7 +142,7 @@ class EconomyTests(unittest.TestCase):
         self.edit(ident,fn)
         with self.assertRaises(ValidationError):validate(self.root)
 
-    def test_current_repository_valid(self):self.assertIn('195 entity records',validate(self.root))
+    def test_current_repository_valid(self):self.assertIn(f"{len(json.loads((self.root/'index.json').read_text())['entries'])} entity records",validate(self.root))
 
     def test_preservation_all_preexisting_campaign_records(self):
         fixture=json.loads((ROOT/'tests/fixtures/chunk7-preservation.json').read_text())
