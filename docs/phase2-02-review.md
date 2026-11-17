@@ -1,6 +1,6 @@
 # Phase 2 PR 2 — settlement expansion review
 
-PR number and URL: PR_LINK_PENDING (filled with GitHub’s assigned number immediately after opening).
+PR number and URL: [#25](https://github.com/Taifinkaba/shadows-over-vellorin/pull/25).
 
 Base: `f3680306d202a96aac0395d73e25afa9d9005b5b`, latest main including merged geography PR 24. Branch: `lore/phase2-02-settlements`. Scope: PR 2 only, no merge or PR 3 implementation.
 
