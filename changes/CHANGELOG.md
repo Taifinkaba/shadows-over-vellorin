@@ -1,3 +1,10 @@
+# Phase 2 PR3 — government, law and justice designs
+
+- Base main e61dfa4 includes merged PR24/25. Extend the five existing realm owners with distinct government institutions, selection/succession, bounded taxation/property/industry rights, defense/diplomacy, three judicial levels and finite political interests. No current jurisdiction, appointment, treaty, order, treasury or event is invented.
+- Add approved character designs for Elowen Marcrest47, Cassian Thornmere39, Durnek Stonevein132, Selene Harrow34 and Aveline Hartwell54, reusing Aveline’s original proposed identity while leaving Chief Justice appointment unapproved. Preserve every prior NPC and official.
+- Extend existing justice owners with a design router, seven original-ID facility enrichments,21 offense categories,12 realm-sensitive business-law areas,41 PR2 service links, eight legal-response contexts and a complete empty custody-action template. Unknown staff, capacity, occupants, operations and permissions remain unknown; no receiving facility is certified.
+- Add provenance/scope/custody/legal/consent/privacy regression checks, review inventories and before/after owner preservation evidence. Preserve current custody, evidence, checkpoint, ledger4, property, archives and played history. No gameplay, fines/taxes/fees/revenue, political progression, active crimes, secret answers, visibility change, merge or PR4 implementation.
+
 # Phase 2 PR 2 — settlement, service, trade and postal design
 
 - Base main f368030 includes merged geography PR24. Expand ten approved settlements with classified populations, districts, daily/civic life, local tensions and finite production/employment chains. Promote Silverbrook and Southbank Landing from archival design; preserve the short Southbank label without a second river-port entity. Add Stoneford/Windmere as unlocated Vellorin settlement designs; no new realm or road claims.

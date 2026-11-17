@@ -556,6 +556,11 @@ def validate(root):
         from justice import validate_justice
     validate_justice(root, records, require, repository_file, unique_json)
     if __package__:
+        from .governments import validate_governments
+    else:
+        from governments import validate_governments
+    validate_governments(root, records, require, repository_file, unique_json)
+    if __package__:
         from .guilds import validate_guilds
     else:
         from guilds import validate_guilds

@@ -1,3 +1,9 @@
+# Phase 2 government and justice approval update
+
+Read the [approved government/legal directory](phase2-government-and-law.md) and [PR3 review](phase2-03-review.md) first. PR1/2 established the five realm designs and settlements; PR3 adds government structures, legal procedures, five character designs and bounded design approval for exactly seven existing facility IDs. The earlier unknown-geography/unapproved-design explanations below are a dated baseline, superseded only for those approved fields. No operational building, actual appointment, jurisdiction expansion, prisoner, investigation, judgment or transfer is certified. The original historical authority/custody/evidence owners remain authoritative. Aveline’s existing proposal now resolves to the same character design; the proposed Chief Justice appointment is still unapproved.
+
+---
+
 # Justice and custody retrieval — Chunk 4
 
 This directory links authority records and procedural design; it is not another custody register. Resolve entity IDs in [index.json](../index.json). Current custody remains in [prisoner-custody](../entities/mechanics/prisoner-custody.md), its dated sources and the existing checkpoint. Read the new source-routing section before treating older “current” headings as present placements. No historical outcome or current case state is copied here.

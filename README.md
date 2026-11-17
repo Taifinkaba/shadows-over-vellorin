@@ -26,7 +26,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Justice and custody
 
-[Justice/custody directory](docs/justice-and-custody-directory.md) links existing authorities, explicitly proposed institutions and the single custody register. Unknown jurisdictions, receiving officers and prison destinations stay unknown; no automatic transfers or legal outcomes.
+[Justice/custody directory](docs/justice-and-custody-directory.md) links existing authorities, the [approved five-realm government/legal designs](docs/phase2-government-and-law.md), qualified facility proposals and the single custody register. Unknown jurisdictions, receiving officers and prison destinations stay unknown; no automatic transfers or legal outcomes.
 
 ## Guilds and contracts
 

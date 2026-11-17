@@ -2591,6 +2591,71 @@
         "settlements",
         "approved-design"
       ]
+    },
+    {
+      "id": "elowen-marcrest",
+      "type": "characters",
+      "title": "Queen Elowen Marcrest",
+      "path": "entities/characters/elowen-marcrest.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "government",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "cassian-thornmere",
+      "type": "characters",
+      "title": "Lord Cassian Thornmere",
+      "path": "entities/characters/cassian-thornmere.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "government",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "durnek-stonevein",
+      "type": "characters",
+      "title": "Durnek Stonevein",
+      "path": "entities/characters/durnek-stonevein.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "government",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "selene-harrow",
+      "type": "characters",
+      "title": "Captain Selene Harrow",
+      "path": "entities/characters/selene-harrow.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "government",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "aveline-hartwell",
+      "type": "characters",
+      "title": "Magistrate Aveline Hartwell",
+      "path": "entities/characters/aveline-hartwell.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "government",
+        "approved-design"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
