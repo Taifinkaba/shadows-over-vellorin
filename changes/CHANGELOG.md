@@ -1,3 +1,11 @@
+# Dungeon and exploration registry — chunk 6
+
+- Add routing for18 existing site/context labels,14 source-bound section handles, four ecology contexts and four existing hazard references. Preserve distinct Hollows and Seven Bells contexts; ordinary structures are not blanket-classified as dungeons. No existing campaign entity changed.
+- Read section states from original salvage/location owners rather than duplicate mutable statuses or inventories. Keep visits/searches/protection/partial exploration distinct, existing containment intact, and protected evidence/consumed stock outside fresh loot. No reset, respawn, scaling, trap or event generated.
+- Add five explicitly unapproved design candidates with no geography, inhabitants, treasure or history. Preserve Shattered Meridian SS as a conflict with proposed F–S+ scale pending approval. No world census or active dungeon instances.
+- Add retrieval/loot/ecology/objective procedures, contract/travel references, read-only validation, regression tests, preservation hashes, index and documentation links. One existing negative guild test accepts earlier missing-contract-provenance rejection while still requiring the invalid framework to fail.
+- State, resources, all preexisting entities, archive, inventory, custody, quests, contracts, roads, property and visibility unchanged. No new rewards, Day181 adoption, Chunk7 work or merge permission.
+
 # Guild Concord and contracts — chunk 5
 
 - Add a guild identity/compatibility crosswalk for three existing organizations and six archived professional designs, plus three archived Wayfarers branch candidates; retain Caelthorne HQ, unnamed established branches and the independent academy site without new halls/staff.

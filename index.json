@@ -2171,6 +2171,67 @@
         "contracts",
         "chunk5"
       ]
+    },
+    {
+      "id": "dungeon-registry",
+      "type": "mechanics",
+      "title": "Dungeon and exploration site routing",
+      "path": "entities/mechanics/dungeon-registry.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "exploration",
+        "chunk6"
+      ]
+    },
+    {
+      "id": "exploration-sections",
+      "type": "mechanics",
+      "title": "Section identity and source-state routing",
+      "path": "entities/mechanics/exploration-sections.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "exploration",
+        "chunk6"
+      ]
+    },
+    {
+      "id": "dungeon-ecology-and-hazards",
+      "type": "mechanics",
+      "title": "Ecology and hazard reference boundaries",
+      "path": "entities/mechanics/dungeon-ecology-and-hazards.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "exploration",
+        "chunk6"
+      ]
+    },
+    {
+      "id": "dungeon-design-proposals",
+      "type": "mechanics",
+      "title": "Future dungeon design approval crosswalk",
+      "path": "entities/mechanics/dungeon-design-proposals.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "exploration",
+        "chunk6",
+        "proposed"
+      ]
+    },
+    {
+      "id": "dungeon-exploration",
+      "type": "rules",
+      "title": "Exploration, ecology and finite loot procedure",
+      "path": "entities/rules/dungeon-exploration.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "exploration",
+        "chunk6"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
