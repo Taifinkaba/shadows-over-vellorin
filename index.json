@@ -2284,6 +2284,72 @@
         "chunk7",
         "read-only"
       ]
+    },
+    {
+      "id": "independent-assignments",
+      "type": "mechanics",
+      "title": "Independent assignments and actor retrieval",
+      "path": "entities/mechanics/independent-assignments.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "autonomy",
+        "chunk8",
+        "read-only"
+      ]
+    },
+    {
+      "id": "faction-activity",
+      "type": "mechanics",
+      "title": "Faction activity source routing",
+      "path": "entities/mechanics/faction-activity.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "autonomy",
+        "chunk8",
+        "read-only"
+      ]
+    },
+    {
+      "id": "world-event-references",
+      "type": "mechanics",
+      "title": "Historical chronicle routing and event contract",
+      "path": "entities/mechanics/world-event-references.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "autonomy",
+        "chunk8",
+        "read-only"
+      ]
+    },
+    {
+      "id": "world-development-proposals",
+      "type": "mechanics",
+      "title": "Proposed clocks and relationship domains",
+      "path": "entities/mechanics/world-development-proposals.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "autonomy",
+        "chunk8",
+        "read-only",
+        "proposed"
+      ]
+    },
+    {
+      "id": "npc-autonomy-and-time",
+      "type": "rules",
+      "title": "NPC autonomy, communication and time advancement",
+      "path": "entities/rules/npc-autonomy-and-time.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "autonomy",
+        "chunk8",
+        "read-only"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

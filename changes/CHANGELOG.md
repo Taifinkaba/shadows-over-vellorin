@@ -1,3 +1,11 @@
+# NPC autonomy and world events — chunk 8
+
+- Add routing for30 existing people/creatures,20 narrow responsibility/request/history handles and two existing construct-ability contexts; no editable duplicate positions, assignment outcomes or roster membership. Preserve unknown remote whereabouts, consent, source freshness, staff conditions, finite capabilities and animal identities/bonds.
+- Route all six existing factions and six original historical chronicles without copying concealed leadership, operations or event outcomes. Keep Concord proposed and discovery review explicit; actual history remains in original owners.
+- Add proposed workflow/event/clock/relationship vocabulary with no active clocks, scores or instances; manual communication, retrieval and14-step time-advance procedures produce no automatic writes or results.
+- Add read-only routing/evidence validation, prospective event/clock checks, regression/preservation hashes, index and retrieval/schema documentation. One existing economy test now derives entity count from the index to support later framework additions.
+- All preexisting campaign entities, state, archive and historical chronicles remain byte-for-byte unchanged. No time, money, mana, injury/death, research, custody, quest, contract, relationship, bond, visibility or Day181 change. No Chunk9 or merge permission.
+
 # Economy and property accounting — chunk 7
 
 - Add source-owned retrieval for four property contexts and14 existing services, plus five-domain accounting, payroll/construction/pricing/trade procedures. Preserve ownership/control/management distinctions and UNKNOWN current receipts, rates, titles and values.
