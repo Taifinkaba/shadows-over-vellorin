@@ -48,3 +48,451 @@ Aric and Theron’s mother at home; legitimate family contact and smith commissi
 ## Character reference retrieval
 
 Character references: [Theron's mother](../characters/therons-mother.md), [Halden Marr](../characters/halden-marr.md), [Serrik Vale](../characters/serrik-vale.md). New visual design does not establish genealogy, an additional arrival or a financial event.
+
+## Settlement and business references — Chunk 3
+
+This structured reference section owns only the settlement/service lookup fields below. Earlier prose remains unchanged and retains its dated qualifications. Business IDs are parent-scoped retrieval labels, not new location entities or visits. UNKNOWN is JSON null; no quote, stock, vacancy or transfer is implied. See the settlement directory and existing finance owner for retrieval.
+
+```json
+{
+  "schema_version": 1,
+  "location_id": "ashvale-estate",
+  "classification": "CONFIRMED CANON",
+  "nation_id": null,
+  "region_id": null,
+  "settlement_type": "private estate / commercial settlement",
+  "population": null,
+  "government": "Private stewardship under Crown law; no separate municipal charter",
+  "principal_official_id": null,
+  "watch": null,
+  "watch_official_id": null,
+  "court": null,
+  "route_ids": [
+    "route-ashvale-eastrun",
+    "route-caelthorne-ashvale-estate",
+    "route-ashvale-estate-ashvale-lodge"
+  ],
+  "neighborhoods": null,
+  "nearby_location_ids": [
+    "eastrun"
+  ],
+  "institutions": [],
+  "service_links": [
+    "ashvale-lodge:hospitality",
+    "ashvale-lodge:forge"
+  ],
+  "local_problem_refs": [],
+  "notes": "Ownership is not municipal authority. Tomas management, paid construction,22% eligible merchant fee and finance allocations remain in original sources. No cash, rents, wages, income or expansion payment posted.",
+  "source_refs": [
+    "entities/locations/ashvale-estate.md"
+  ],
+  "evidence": [
+    {
+      "source_ref": "entities/locations/ashvale-estate.md",
+      "quote": "Privately managed commercial settlement, no separate municipal charter."
+    }
+  ],
+  "businesses": [
+    {
+      "id": "ashvale-estate:healing-springs",
+      "name": null,
+      "display_label": "Natural Healing Springs",
+      "parent_location_id": "ashvale-estate",
+      "classification": "CONFIRMED CANON",
+      "address": null,
+      "categories": [
+        "healer"
+      ],
+      "owner_id": "theron-ashvale",
+      "manager_id": "tomas",
+      "operator_id": null,
+      "staff_ids": [],
+      "staff_notes": null,
+      "services": [
+        "Natural springs; certified treatment effects and public access UNKNOWN"
+      ],
+      "goods_categories": null,
+      "stock_counts": null,
+      "capacity": null,
+      "schedule": null,
+      "accepted_currency": null,
+      "payment_practices": null,
+      "prices": [],
+      "price_reference_ids": [],
+      "supplier_relationships": [],
+      "existing_contracts": null,
+      "licenses": null,
+      "operational_status": "Established service/facility in source; current availability UNKNOWN",
+      "last_verified_date": null,
+      "last_verified_note": "No new visit or verification in this maintenance",
+      "source_refs": [
+        "entities/locations/ashvale-estate.md",
+        "entities/characters/tomas.md"
+      ],
+      "evidence": [
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Operations: lodge and natural Healing Springs;"
+        },
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Theron owns the estate and commercial buildings, including lodge"
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Later established as Ashvale Lodge steward and accountant."
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Independently manages estate operations."
+        }
+      ],
+      "automatic_financial_postings": false
+    },
+    {
+      "id": "ashvale-estate:merchant-storage",
+      "name": null,
+      "display_label": "Merchant storage bays",
+      "parent_location_id": "ashvale-estate",
+      "classification": "CONFIRMED CANON",
+      "address": null,
+      "categories": [
+        "storage"
+      ],
+      "owner_id": "theron-ashvale",
+      "manager_id": "tomas",
+      "operator_id": null,
+      "staff_ids": [],
+      "staff_notes": null,
+      "services": [
+        "Merchant storage premises"
+      ],
+      "goods_categories": null,
+      "stock_counts": null,
+      "capacity": {
+        "unit": "storage-bays",
+        "amount": 20
+      },
+      "schedule": null,
+      "accepted_currency": null,
+      "payment_practices": null,
+      "prices": [],
+      "price_reference_ids": [],
+      "supplier_relationships": [],
+      "existing_contracts": null,
+      "licenses": null,
+      "operational_status": "Established service/facility in source; current availability UNKNOWN",
+      "last_verified_date": null,
+      "last_verified_note": "No new visit or verification in this maintenance",
+      "source_refs": [
+        "entities/locations/ashvale-estate.md",
+        "entities/characters/tomas.md"
+      ],
+      "evidence": [
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "20 merchant storage bays;"
+        },
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Theron owns the estate and commercial buildings, including lodge"
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Later established as Ashvale Lodge steward and accountant."
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Independently manages estate operations."
+        }
+      ],
+      "automatic_financial_postings": false
+    },
+    {
+      "id": "ashvale-estate:rental-cottages",
+      "name": null,
+      "display_label": "Estate rental cottages",
+      "parent_location_id": "ashvale-estate",
+      "classification": "CONFIRMED CANON",
+      "address": null,
+      "categories": [
+        "inn"
+      ],
+      "owner_id": "theron-ashvale",
+      "manager_id": "tomas",
+      "operator_id": null,
+      "staff_ids": [],
+      "staff_notes": null,
+      "services": [
+        "Rental accommodation; occupancy UNKNOWN"
+      ],
+      "goods_categories": null,
+      "stock_counts": null,
+      "capacity": null,
+      "schedule": null,
+      "accepted_currency": null,
+      "payment_practices": null,
+      "prices": [],
+      "price_reference_ids": [],
+      "supplier_relationships": [],
+      "existing_contracts": null,
+      "licenses": null,
+      "operational_status": "Established service/facility in source; current availability UNKNOWN",
+      "last_verified_date": null,
+      "last_verified_note": "No new visit or verification in this maintenance",
+      "source_refs": [
+        "entities/locations/ashvale-estate.md",
+        "entities/characters/tomas.md"
+      ],
+      "evidence": [
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "rental cottages; bakery, market, nighttime entertainment, caravan facilities;"
+        },
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Theron owns the estate and commercial buildings, including lodge"
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Later established as Ashvale Lodge steward and accountant."
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Independently manages estate operations."
+        }
+      ],
+      "automatic_financial_postings": false
+    },
+    {
+      "id": "ashvale-estate:bakery",
+      "name": null,
+      "display_label": "Estate bakery",
+      "parent_location_id": "ashvale-estate",
+      "classification": "CONFIRMED CANON",
+      "address": null,
+      "categories": [
+        "food-market"
+      ],
+      "owner_id": "theron-ashvale",
+      "manager_id": "tomas",
+      "operator_id": null,
+      "staff_ids": [],
+      "staff_notes": null,
+      "services": [
+        "Bakery service; specific stock UNKNOWN"
+      ],
+      "goods_categories": [
+        "Baked goods; no counted inventory"
+      ],
+      "stock_counts": null,
+      "capacity": null,
+      "schedule": null,
+      "accepted_currency": null,
+      "payment_practices": null,
+      "prices": [],
+      "price_reference_ids": [
+        "simple-food"
+      ],
+      "supplier_relationships": [],
+      "existing_contracts": null,
+      "licenses": null,
+      "operational_status": "Established service/facility in source; current availability UNKNOWN",
+      "last_verified_date": null,
+      "last_verified_note": "No new visit or verification in this maintenance",
+      "source_refs": [
+        "entities/locations/ashvale-estate.md",
+        "entities/characters/tomas.md"
+      ],
+      "evidence": [
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "rental cottages; bakery, market, nighttime entertainment, caravan facilities;"
+        },
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Theron owns the estate and commercial buildings, including lodge"
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Later established as Ashvale Lodge steward and accountant."
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Independently manages estate operations."
+        }
+      ],
+      "automatic_financial_postings": false
+    },
+    {
+      "id": "ashvale-estate:market",
+      "name": null,
+      "display_label": "Estate market and merchant stalls",
+      "parent_location_id": "ashvale-estate",
+      "classification": "CONFIRMED CANON",
+      "address": null,
+      "categories": [
+        "food-market"
+      ],
+      "owner_id": "theron-ashvale",
+      "manager_id": "tomas",
+      "operator_id": null,
+      "staff_ids": [],
+      "staff_notes": null,
+      "services": [
+        "Market/stall rental venue; vendors retain their goods"
+      ],
+      "goods_categories": null,
+      "stock_counts": null,
+      "capacity": null,
+      "schedule": null,
+      "accepted_currency": null,
+      "payment_practices": "Existing22% contractual fee on participating merchants’ on-site gross sales. No booking of receipts; merchant goods are not estate inventory.",
+      "prices": [],
+      "price_reference_ids": [],
+      "supplier_relationships": [],
+      "existing_contracts": null,
+      "licenses": null,
+      "operational_status": "Established service/facility in source; current availability UNKNOWN",
+      "last_verified_date": null,
+      "last_verified_note": "No new visit or verification in this maintenance",
+      "source_refs": [
+        "entities/locations/ashvale-estate.md",
+        "entities/characters/tomas.md"
+      ],
+      "evidence": [
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "rental cottages; bakery, market, nighttime entertainment, caravan facilities;"
+        },
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Theron owns the estate and commercial buildings, including lodge"
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Later established as Ashvale Lodge steward and accountant."
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Independently manages estate operations."
+        }
+      ],
+      "automatic_financial_postings": false
+    },
+    {
+      "id": "ashvale-estate:lantern-exchange",
+      "name": "Lantern Exchange",
+      "display_label": "Lantern Exchange",
+      "parent_location_id": "ashvale-estate",
+      "classification": "CONFIRMED CANON",
+      "address": null,
+      "categories": [
+        "exchange"
+      ],
+      "owner_id": "theron-ashvale",
+      "manager_id": "tomas",
+      "operator_id": null,
+      "staff_ids": [],
+      "staff_notes": null,
+      "services": [
+        "Paid intelligence, verified trade reports and private meetings; no banking service inferred"
+      ],
+      "goods_categories": null,
+      "stock_counts": null,
+      "capacity": null,
+      "schedule": null,
+      "accepted_currency": null,
+      "payment_practices": null,
+      "prices": [],
+      "price_reference_ids": [],
+      "supplier_relationships": [],
+      "existing_contracts": null,
+      "licenses": null,
+      "operational_status": "Established service/facility in source; current availability UNKNOWN",
+      "last_verified_date": null,
+      "last_verified_note": "No new visit or verification in this maintenance",
+      "source_refs": [
+        "entities/locations/ashvale-estate.md",
+        "entities/characters/tomas.md"
+      ],
+      "evidence": [
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Lantern Exchange for paid intelligence, verified trade reports and private meetings;"
+        },
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Theron owns the estate and commercial buildings, including lodge"
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Later established as Ashvale Lodge steward and accountant."
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Independently manages estate operations."
+        }
+      ],
+      "automatic_financial_postings": false
+    },
+    {
+      "id": "ashvale-estate:caravan-facilities",
+      "name": null,
+      "display_label": "Estate caravan facilities",
+      "parent_location_id": "ashvale-estate",
+      "classification": "CONFIRMED CANON",
+      "address": null,
+      "categories": [
+        "caravan-supplier"
+      ],
+      "owner_id": "theron-ashvale",
+      "manager_id": "tomas",
+      "operator_id": null,
+      "staff_ids": [],
+      "staff_notes": null,
+      "services": [
+        "Caravan facilities; scope/stock/capacity UNKNOWN"
+      ],
+      "goods_categories": null,
+      "stock_counts": null,
+      "capacity": null,
+      "schedule": null,
+      "accepted_currency": null,
+      "payment_practices": null,
+      "prices": [],
+      "price_reference_ids": [],
+      "supplier_relationships": [],
+      "existing_contracts": null,
+      "licenses": null,
+      "operational_status": "Established service/facility in source; current availability UNKNOWN",
+      "last_verified_date": null,
+      "last_verified_note": "No new visit or verification in this maintenance",
+      "source_refs": [
+        "entities/locations/ashvale-estate.md",
+        "entities/characters/tomas.md"
+      ],
+      "evidence": [
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "rental cottages; bakery, market, nighttime entertainment, caravan facilities;"
+        },
+        {
+          "source_ref": "entities/locations/ashvale-estate.md",
+          "quote": "Theron owns the estate and commercial buildings, including lodge"
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Later established as Ashvale Lodge steward and accountant."
+        },
+        {
+          "source_ref": "entities/characters/tomas.md",
+          "quote": "Independently manages estate operations."
+        }
+      ],
+      "automatic_financial_postings": false
+    }
+  ],
+  "territory_id": null
+}
+```

@@ -2030,6 +2030,45 @@
         "dungeon-entrance",
         "chunk2"
       ]
+    },
+    {
+      "id": "settlement-services",
+      "type": "mechanics",
+      "title": "Settlement and service routing",
+      "path": "entities/mechanics/settlement-services.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "settlements",
+        "services",
+        "chunk3"
+      ]
+    },
+    {
+      "id": "service-price-references",
+      "type": "mechanics",
+      "title": "Service price distinctions and reference routing",
+      "path": "entities/mechanics/service-price-references.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "settlements",
+        "services",
+        "chunk3"
+      ]
+    },
+    {
+      "id": "local-settlement-activity",
+      "type": "mechanics",
+      "title": "Local activity categories and retrieval boundary",
+      "path": "entities/mechanics/local-settlement-activity.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "settlements",
+        "services",
+        "chunk3"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

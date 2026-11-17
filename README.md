@@ -20,6 +20,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [Travel retrieval guide](docs/geography-and-travel.md) routes to the indexed location hierarchy, road registry and travel procedure. Historical reports, proposed corridors and unknown conditions remain distinct; no automatic travel or resource spending.
 
+## Settlements and services
+
+[Settlement directory](docs/settlement-directory.md) routes eleven existing locality/property profiles and parent-scoped business/service records. Unknown owners, prices and stock stay unknown; no automatic income, purchases or NPC assignments.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 
