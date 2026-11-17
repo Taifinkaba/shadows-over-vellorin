@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-06-economic-approval.md
 - changes/chronicles/settlements-businesses-services-design.md
 - archive/legacy-modules/world/05-5-economy-and-prices.md
 - changes/chronicles/phase2-02-settlement-approval.md
@@ -11,7 +12,7 @@ source_refs:
 
 # Service price distinctions and reference routing
 
-No new prices are enacted. The current examples are PROPOSED archived reference bands, not player-approved prices. Current quotes and counted stock remain UNKNOWN. Business historical paid costs stay with their parent and never become charges. Accepted coin/exchange/credit policy at each merchant is independently unknown; global denomination conversion does not promise acceptance.
+No new prices are enacted. The six archived bands remain PROPOSED; the separate PR 2 approved_references table supplies player-approved prospective baselines. Current quotes and counted stock remain UNKNOWN. Business historical paid costs stay with their parent and never become charges. Accepted coin/exchange/credit policy at each merchant is independently unknown; global denomination conversion does not promise acceptance.
 
 ```json
 {
@@ -36,7 +37,7 @@ No new prices are enacted. The current examples are PROPOSED archived reference 
       "maximum_cp": 5,
       "unit": "Source reference unit; see item wording",
       "source_ref": "archive/legacy-modules/world/05-5-economy-and-prices.md",
-      "source_quote": "| Bread, vegetables, simple daily food | 2–5 cp |",
+      "source_quote": "| Bread, vegetables, simple daily food | 2\u20135 cp |",
       "note": "Archived LOCKED DESIGN reference band; not approved here, not a merchant quote or paid purchase."
     },
     {
@@ -48,7 +49,7 @@ No new prices are enacted. The current examples are PROPOSED archived reference 
       "maximum_cp": 30,
       "unit": "Source reference unit; see item wording",
       "source_ref": "archive/legacy-modules/world/05-5-economy-and-prices.md",
-      "source_quote": "| Hearty tavern meal | 1–3 sp |",
+      "source_quote": "| Hearty tavern meal | 1\u20133 sp |",
       "note": "Archived LOCKED DESIGN reference band; not approved here, not a merchant quote or paid purchase."
     },
     {
@@ -60,7 +61,7 @@ No new prices are enacted. The current examples are PROPOSED archived reference 
       "maximum_cp": 70,
       "unit": "Source reference unit; see item wording",
       "source_ref": "archive/legacy-modules/world/05-5-economy-and-prices.md",
-      "source_quote": "| Common inn bed, night | 3–7 sp |",
+      "source_quote": "| Common inn bed, night | 3\u20137 sp |",
       "note": "Archived LOCKED DESIGN reference band; not approved here, not a merchant quote or paid purchase."
     },
     {
@@ -72,7 +73,7 @@ No new prices are enacted. The current examples are PROPOSED archived reference 
       "maximum_cp": 200,
       "unit": "Source reference unit; see item wording",
       "source_ref": "archive/legacy-modules/world/05-5-economy-and-prices.md",
-      "source_quote": "| Private inn room, night | 1–2 gp |",
+      "source_quote": "| Private inn room, night | 1\u20132 gp |",
       "note": "Archived LOCKED DESIGN reference band; not approved here, not a merchant quote or paid purchase."
     },
     {
@@ -84,7 +85,7 @@ No new prices are enacted. The current examples are PROPOSED archived reference 
       "maximum_cp": 30,
       "unit": "Source reference unit; see item wording",
       "source_ref": "archive/legacy-modules/world/05-5-economy-and-prices.md",
-      "source_quote": "| Horse stable/feed, night | 1–3 sp per horse |",
+      "source_quote": "| Horse stable/feed, night | 1\u20133 sp per horse |",
       "note": "Archived LOCKED DESIGN reference band; not approved here, not a merchant quote or paid purchase."
     },
     {
@@ -96,7 +97,7 @@ No new prices are enacted. The current examples are PROPOSED archived reference 
       "maximum_cp": 80,
       "unit": "Source reference unit; see item wording",
       "source_ref": "archive/legacy-modules/world/05-5-economy-and-prices.md",
-      "source_quote": "| Common healing herbs/bandages | 2–8 sp |",
+      "source_quote": "| Common healing herbs/bandages | 2\u20138 sp |",
       "note": "Archived LOCKED DESIGN reference band; not approved here, not a merchant quote or paid purchase."
     }
   ],
@@ -256,10 +257,30 @@ No new prices are enacted. The current examples are PROPOSED archived reference 
       "reference_type": "wage",
       "source_ref": "changes/chronicles/phase2-02-settlement-approval.md"
     }
-  ]
+  ],
+  "approved_service_adjustment": {
+    "classification": "PLAYER RULING",
+    "approval_source_ref": "changes/chronicles/phase2-06-economic-approval.md",
+    "percent": 10,
+    "eligible_services": [
+      "lodge-services",
+      "springs-services",
+      "information-services"
+    ],
+    "excluded_services": [
+      "merchant-rents"
+    ],
+    "base_tariffs": null,
+    "effective_date": null,
+    "automatic_application": false
+  }
 }
 ```
 
 ## Phase 2 interpretation
 
-The approved_references table now supplies prospective settlement baselines. The preceding six archival bands retain their original classifications, units and evidence. Use an actual existing contract or verified quote first; otherwise distinguish the approved baseline from the archived range. Skilled blacksmith6sp/day is a specific approved role reference, while the older1–3gp/day skilled-craft band remains unapproved broader design. Stabling/feed is per day here and per night in the older band; do not silently equate periods. No tariff, wages owed, quote or transaction is enacted. Full economic reconciliation remains PR6.
+The approved_references table now supplies prospective settlement baselines. The preceding six archival bands retain their original classifications, units and evidence. Use an actual existing contract or verified quote first; otherwise distinguish the approved baseline from the archived range. Skilled blacksmith6sp/day is a specific approved role reference, while the older1–3gp/day skilled-craft band remains unapproved broader design. Stabling/feed is per day here and per night in the older band; do not silently equate periods. No tariff, wages owed, quote or transaction is enacted. PR 6 procedures preserve the sole ledger and do not turn these references into actual quotes.
+
+## Phase 2 economic procedures
+
+The PR 6 player instruction explicitly confirms the previously approved 10% adjustment for applicable lodge, springs and information services. This clarifies the rate; qualifying original base tariffs and effective date remain UNKNOWN, so no current price is calculated or quote enacted. Merchant rents remain excluded absent separate established canon. Do not multiply the generic PR 2 reference table by this rate or retroactively change a historical receipt. The separate established 22% eligible merchant-gross lodge commission remains unchanged in its original owner and applies only within that scope; price adjustment and commission are different operations. Existing contracts and actual recorded compensation remain authoritative.

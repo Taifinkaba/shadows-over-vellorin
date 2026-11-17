@@ -154,7 +154,10 @@ def validate_economy(root, records, require, repository_file, unique_json):
         repository_file(root, path, 'economy source')
         if path.startswith('entities/'): ref(Path(path).stem)
     def shape(d, keys):
-        require(isinstance(d,dict) and set(d)==set(keys.split()), 'economy: unexpected fields')
+        expected = set(keys.split())
+        for extension in ('approved_economic_design', 'approved_property_procedures', 'approved_commercial_procedures'):
+            if isinstance(d, dict) and extension in d: expected.add(extension)
+        require(isinstance(d,dict) and set(d)==expected, 'economy: unexpected fields')
         require(type(d.get('schema_version')) is int and d['schema_version']==1, 'economy: invalid schema')
     a=payload('economy-accounting')
     shape(a,'schema_version ledger_ref mechanics_owner_ref currency automatic_postings new_transactions new_payroll new_construction_events new_shipments classification amount_fields construction_statuses price_kinds proposed_modifiers')
@@ -213,6 +216,10 @@ def validate_economy(root, records, require, repository_file, unique_json):
         require(workflow[key]==ident,'economy: workflow authority mismatch');ref(ident)
     require(workflow['automatic_postings'] is False and all(workflow[x]==[] for x in ('new_payroll','new_construction','suppliers','shipments','active_price_modifiers')),'economy: maintenance events/modifiers forbidden')
 
+    if __package__: from .economy_expansion import validate_expansion
+    else: from economy_expansion import validate_expansion
+    validate_expansion(root, records, require, repository_file, unique_json)
+
 
 def financial_report(root):
     ledger_ref='state/finance-ledger.json'
@@ -229,10 +236,34 @@ def financial_report(root):
         result['cash_position'].update(controlled=current(c['total_cp'],'/controlled_cash/total_cp','supplied endpoint plus actual recorded events'),committed_unpaid=current(m['expansion_outstanding_cp'],'/commitments/expansion_outstanding_cp','unpaid remaining commitment included in controlled cash'),uncommitted=current(m['uncommitted_cp'],'/commitments/uncommitted_cp','uncommitted under existing authority restrictions'),accounts=[dict(id=x['id'],balance=current(x['balance_cp'],'/controlled_cash/accounts','verified current account')) for x in c['accounts']],historical_day156_accounts=old_accounts,allocation_status=c['allocation_status'])
         result['post_arc_transactions']=ledger.get('post_arc_transactions',[])
         result['reconciliation']={'endpoint':ledger['endpoint'],('reconciled_endpoint_bridge' if ledger['schema_version']==4 else 'unexplained_endpoint_bridge'):ledger['bridge'],'actual_transaction_count':len(ledger['transactions']),'current_cash':current(c['total_cp'],'/controlled_cash/total_cp','current'),'qualification':'Bridge is a disclosure, not an event, expense or account assignment; historical arc remains unchanged.'}
-        if ledger['transactions']:
-            received=sum(t['amount_cp'] for t in ledger['transactions'] if t['direction']=='inflow')
-            spent=sum(t['amount_cp'] for t in ledger['transactions'] if t['direction']=='outflow')
-            result['income_statement'].update(current_period={'from':ledger['endpoint']['as_of'],'to':ledger['as_of']},actual_received_revenue=current(received,'/transactions','received source-backed cash only'),actual_paid_expenses=current(spent,'/transactions','paid cash outflows only; not full accrual coverage'))
+        if __package__: from .economy_expansion import DOMAINS, OWNERSHIP, receipt_classification
+        else: from economy_expansion import DOMAINS, OWNERSHIP, receipt_classification
+        classified = {domain: [] for domain in DOMAINS[1:4]}
+        unclassified = []
+        for tx in ledger['transactions']:
+            domain = receipt_classification(tx)
+            (classified[domain] if domain in classified else unclassified).append(tx)
+        # Direction alone proves a cash movement, never its economic purpose.
+        for domain, field in [('received-revenue', 'actual_received_revenue'), ('documented-expenses', 'actual_paid_expenses')]:
+            entries = classified[domain]
+            result['income_statement'][field] = current(sum(tx['amount_cp'] for tx in entries), '/transactions', 'Explicit classified cash evidence only; not complete period coverage') if entries else None
+        result['five_part_accounting'] = {
+            'cash-ownership': {'source_ref': ledger_ref+'#/controlled_cash',
+                'controlled_cp': c['total_cp'], 'allocation_status': c['allocation_status'],
+                'categories': {kind: {'current_amount_cp': None, 'status': 'UNKNOWN; not inferred from aggregate cash'} for kind in OWNERSHIP}},
+            'received-revenue': {'source_ref': ledger_ref+'#/transactions', 'classified_transactions': classified['received-revenue'],
+                'coverage': 'Only explicit received revenue; no forecasts, financing, transfers or historical net postings'},
+            'documented-expenses': {'source_ref': ledger_ref+'#/transactions', 'classified_transactions': classified['documented-expenses'],
+                'unpaid_commitments_cp': m['expansion_outstanding_cp'], 'commitment_is_paid_expense': False,
+                'other_unpaid_liabilities_cp': None},
+            'distributions-and-transfers': {'source_ref': ledger_ref+'#/transactions',
+                'classified_transactions': classified['distributions-and-transfers'], 'consolidated_income_effect_cp': 0,
+                'historical_distribution_ref': historical_ref+'#/distributions'},
+            'assets-and-liabilities': {'property_owner_ref': 'property-financial-references',
+                'noncash_appraisals_are_cash': False, 'current_asset_total_cp': None,
+                'unpaid_commitments_cp': m['expansion_outstanding_cp'], 'other_liabilities_cp': None}}
+        result['unclassified_cash_movements'] = unclassified
+        result['five_part_coverage'] = 'Read-only known ledger evidence; empty lists are not complete schedules or zero business performance.'
         return result
     check(type(ledger.get('schema_version')) is int and ledger['schema_version']==2,'report requires supported ledger schema2 or3')
     return _legacy_financial_report(root,ledger,ledger_ref)

@@ -4,6 +4,7 @@ type: rules
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-06-economic-approval.md
 - changes/chronicles/economy-framework-maintenance.md
 - state/finance-ledger.json
 - entities/mechanics/party-finances.md
@@ -36,7 +37,7 @@ Statuses are supported vocabulary, not automatic transitions. Record proposal/ap
 
 Read Chunk3 service-price-references for the six PROPOSED bands. Historical paid construction is not a current customer quote. Price provenance distinguishes historical transaction, verified current quotation, proposed reference, regional estimate and UNKNOWN. No modifiers are active: shortages, seasons, route distance, competition, taxes, transport, rarity and security risk remain proposed categories requiring bounded approval and a sourced base quotation; no retroactive price edits.
 
-The supplied requirement to preserve separate lodge/springs/information price increases is retained for source verification in the maintenance provenance. Specific rate/base/date are UNKNOWN after targeted search; do not conflate increases with22% eligible merchant commission, invent current quotes, or apply them to excluded merchant/rent categories.
+The supplied requirement to preserve separate lodge/springs/information price increases is retained for source verification in the maintenance provenance. The earlier rate uncertainty is superseded by the PR 6 explicit player confirmation in service-price-references; original base tariffs and effective date remain UNKNOWN; do not conflate increases with22% eligible merchant commission, invent current quotes, or apply them to excluded merchant/rent categories.
 
 ## Trade
 
@@ -56,6 +57,69 @@ Future trade reference fields: supplier_id/source, business_id, route_ids with c
   "suppliers": [],
   "shipments": [],
   "active_price_modifiers": [],
-  "automatic_postings": false
+  "automatic_postings": false,
+  "approved_commercial_procedures": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-06-economic-approval.md",
+    "wage_template": {
+      "worker": null,
+      "employer": null,
+      "role": null,
+      "skill": null,
+      "work_period": null,
+      "contract_consent": null,
+      "supervision": null,
+      "travel_compensation": null,
+      "hazard_premium": null,
+      "employer_obligations": null,
+      "gross_pay": null,
+      "deductions": null,
+      "payment_evidence": null,
+      "dispute_forum": null,
+      "evidence_refs": null
+    },
+    "shipment_template": {
+      "seller": null,
+      "buyer": null,
+      "goods": null,
+      "quantity": null,
+      "ownership": null,
+      "origin": null,
+      "destination": null,
+      "carrier": null,
+      "transport_method": null,
+      "verified_route": null,
+      "departure": null,
+      "expected_delivery_window": null,
+      "costs": null,
+      "risks": null,
+      "receipt": null,
+      "settlement_status": null,
+      "evidence_refs": null
+    },
+    "potential_fee_categories": [
+      "market-fee",
+      "port-charge",
+      "trade-tariff",
+      "property-tax",
+      "licensing-fee",
+      "commercial-permit",
+      "guild-assessment",
+      "transport-toll"
+    ],
+    "law_owner_ref": "justice-and-jurisdiction",
+    "communications_owner_ref": "settlement-communications",
+    "actual_contracts": [],
+    "actual_assessments": [],
+    "automatic_delivery": false
+  }
 }
 ```
+
+## Phase 2 economic procedures
+
+Use the existing approved price/wage table, never a second tariff. A daily reference requires a negotiated dated work period, hours/rest, task and skill, paid scope and acceptance; it does not establish an eight-hour day. Farm labor is a role reference, not a universal unskilled minimum. Skilled work requires verified competence. Apprenticeships require voluntary lawful training, supervision and a separate agreed learning/pay arrangement; no unpaid or hazardous youth assignment is inferred. Seasonal and contract work require finite dates, output/acceptance and cancellation terms. Travel time, accommodation, feed and expenses and any hazard premium must be explicitly negotiated, not assumed in the daily rate. Employers provide agreed safe tools/conditions and lawful protection, record gross/deductions and receipts, avoid aggregate-payroll double charging, and preserve independent worker agency. Actual unpaid earned wages require a supported contract and work record; no undocumented accrual. Disputes use the agreed forum subject to actual PR 3 jurisdiction; no automatic garnishment or forced labor.
+
+Every actual shipment needs the empty shipment template completed with evidence. Quantities must be finite positive amounts within verified titled stock, storage and carrier capacity. A proposed dependency, road edge or expected window proves no usable itinerary, departure or receipt. Verify complete direction, mode, load, crossings, access and current conditions with existing route owners and PR 2 communications. Expected windows require supported departure and route evidence, not invented speed/duration. Record loading/title/custody, actual losses or partial delivery, buyer acceptance, separate payment evidence and unresolved claims. Costs include handling, transport, security, spoilage and lawful fees only as supported. Payment does not prove delivery and dispatch does not prove settlement. No instantaneous trade, autonomous carrier or automatic delivery occurs.
+
+Potential fees remain categories only. Require actual location/property, competent lawful authority, territorial scope, enacted basis, assessment/date, payer and payment evidence before an obligation or expense. Guild assessments also need voluntary membership/contract scope. Unknown rates and jurisdiction stay UNKNOWN; no fees, taxes or debts are due/collected by this expansion.

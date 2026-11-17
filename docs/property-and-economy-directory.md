@@ -51,3 +51,7 @@ Remaining UNKNOWN / REQUIRES APPROVAL: individual wage rates/due dates and payro
 ## Preservation and limits
 
 Chunk7 changes no existing entity, state or archive bytes. The preservation fixture hashes all preexisting campaign records; tests check state, finance history, equipment, custody, contracts, evidence and property unchanged. Future legitimate play may update owners and deliberately revise maintenance fixtures in a separately reviewed change. Validators prove shape, reference location and arithmetic, not historical truth, ownership law or player knowledge; human evidence review is still required. No gameplay advance, Chunk8 or merge authorization.
+
+## Approved Phase 2 economic procedures
+
+[PR 6 review and authority map](phase2-06-review.md) describes finite business cycles, fourteen-sector integration, property/employment/logistics evidence and the five-part read-only report. Existing owners contain the procedures; this directory is not another ledger or tariff. Prices/wages remain in service-price-references; the confirmed10% scoped service adjustment has UNKNOWN original tariff bases/effective date and does not replace the22% eligible merchant commission. No event or automatic posting occurs.
