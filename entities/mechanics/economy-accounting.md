@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-06-economic-approval.md
 - changes/chronicles/economy-framework-maintenance.md
 - state/finance-ledger.json
 - entities/mechanics/party-finances.md
@@ -88,6 +89,215 @@ Route assets/equipment/inventory to original owners without a grand appraisal su
     "transport-cost",
     "rarity",
     "security-risk"
-  ]
+  ],
+  "approved_economic_design": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-06-economic-approval.md",
+    "authority_refs": {
+      "ledger": "state/finance-ledger.json",
+      "cash": "party-finances",
+      "prices_wages": "service-price-references",
+      "property": "property-financial-references",
+      "employment_logistics": "payroll-construction-and-trade",
+      "settlements": "settlement-services",
+      "trade": "settlement-trade",
+      "communications": "settlement-communications",
+      "law": "justice-and-jurisdiction",
+      "guilds": "guild-membership-and-contracts",
+      "illicit": "illicit-commerce-design",
+      "salvage": "dungeon-exploration"
+    },
+    "accounting_domains": [
+      "cash-ownership",
+      "received-revenue",
+      "documented-expenses",
+      "distributions-and-transfers",
+      "assets-and-liabilities"
+    ],
+    "cash_ownership_categories": [
+      "personal",
+      "party-controlled",
+      "operating",
+      "restricted",
+      "third-party"
+    ],
+    "cycle_template": {
+      "period": null,
+      "beginning_cash": null,
+      "inventory_available": null,
+      "demand_evidence": null,
+      "delivered": null,
+      "received_revenue": null,
+      "material_costs": null,
+      "wages": null,
+      "maintenance": null,
+      "transportation": null,
+      "security": null,
+      "taxes": null,
+      "other_contractual_expenses": null,
+      "net_operating_result": null,
+      "approved_distributions": null,
+      "internal_transfers": null,
+      "ending_cash": null,
+      "outstanding_liabilities": null,
+      "evidence_refs": null
+    },
+    "supply_demand_influences": [
+      "seasonal-harvest",
+      "weather",
+      "labor-availability",
+      "transport-disruption",
+      "political-instability",
+      "local-production",
+      "storage-loss",
+      "quality",
+      "competition",
+      "negotiation"
+    ],
+    "sector_integrations": [
+      {
+        "sector": "agriculture",
+        "industry_refs": [
+          "eastrun:industry-grain",
+          "brackenford:industry-farm-mill"
+        ],
+        "procedure": "Harvest and milling consume seed, water, labor and fuel; verify dry storage, spoilage and actual grain weight before a sale."
+      },
+      {
+        "sector": "livestock",
+        "industry_refs": [
+          "eastrun:industry-animals",
+          "windmere:industry-pastoral"
+        ],
+        "procedure": "Fodder, water, welfare, handling labor and breeding cycles limit supply; sheep/wool and horses/feed are distinct stocks, never automatic herd growth."
+      },
+      {
+        "sector": "forestry",
+        "industry_refs": [
+          "briarfall-crossing:industry-wood",
+          "silverbrook:industry-woodland"
+        ],
+        "procedure": "Verify cutting rights, mature timber, seasoning time and usable yield; offcuts and storage loss reduce finite deliverable stock."
+      },
+      {
+        "sector": "mining",
+        "industry_refs": [
+          "ironhollow-hold:industry-metals"
+        ],
+        "procedure": "Rights, ore grade, safe extraction, fuel and smelting yield constrain production; a deposit is no recovered ore."
+      },
+      {
+        "sector": "quarrying",
+        "industry_refs": [
+          "stoneford:industry-quarry",
+          "ironhollow-hold:industry-stone"
+        ],
+        "procedure": "Block quality, lifting capacity, dressing waste and bridge load constrain usable stone; a commission is no delivered masonry."
+      },
+      {
+        "sector": "smithing",
+        "industry_refs": [
+          "ironhollow-hold:industry-metals",
+          "brackenford:industry-services"
+        ],
+        "procedure": "Customer-owned material stays segregated; iron, fuel, skill and workshop capacity constrain output and repair queues."
+      },
+      {
+        "sector": "textiles",
+        "industry_refs": [
+          "rivermere:industry-textiles",
+          "windmere:industry-pastoral",
+          "caelthorne:industry-luxury-crafts"
+        ],
+        "procedure": "Wool/flax, dyes, water and drying constrain cloth and sailcloth; finished quality and waste require evidence."
+      },
+      {
+        "sector": "fisheries",
+        "industry_refs": [
+          "rivermere:industry-fish",
+          "southbank-landing:industry-river-food"
+        ],
+        "procedure": "Catch and lawful access must be verified; spoilage and preservation consume salt, labor and storage capacity."
+      },
+      {
+        "sector": "river-transport",
+        "industry_refs": [
+          "rivermere:industry-shipping",
+          "southbank-landing:industry-river-food"
+        ],
+        "procedure": "Cargo custody, willing crew, landing rights, water level and navigable channels must be verified; geography supplies no barge schedule."
+      },
+      {
+        "sector": "caravans",
+        "industry_refs": [
+          "briarfall-crossing:industry-wagons",
+          "eastrun:industry-animals"
+        ],
+        "procedure": "Repair capacity, sound vehicles, feed, driver and guard contracts constrain loads; wagon hire excludes driver/feed and creates no caravan."
+      },
+      {
+        "sector": "healing-supplies",
+        "industry_refs": [
+          "silverbrook:industry-woodland",
+          "brackenford:industry-services"
+        ],
+        "procedure": "Identification, lawful gathering, shelf life, safe storage and practitioner competence constrain saleable herbs; no treatment outcome is guaranteed."
+      },
+      {
+        "sector": "lodging",
+        "industry_refs": [
+          "brackenford:industry-services"
+        ],
+        "procedure": "Willing customers, usable rooms/bedding, food and staff capacity constrain delivered nights; vacancy never produces receipts."
+      },
+      {
+        "sector": "retail",
+        "industry_refs": [
+          "caelthorne:industry-civic-services",
+          "eastrun:industry-grain"
+        ],
+        "procedure": "Only verified titled stock can be sold; consignment ownership, weights, spoilage and customer payment remain separate."
+      },
+      {
+        "sector": "professional-services",
+        "industry_refs": [
+          "caelthorne:industry-civic-services",
+          "ironhollow-hold:industry-stone"
+        ],
+        "procedure": "Voluntary accepted scope, competence, client delivery and approved expenses precede a fee; certification or referral alone earns nothing."
+      }
+    ],
+    "settlement_owner_refs": [
+      "caelthorne",
+      "eastrun",
+      "briarfall-crossing",
+      "rivermere",
+      "ironhollow-hold",
+      "brackenford",
+      "silverbrook",
+      "stoneford",
+      "southbank-landing",
+      "windmere"
+    ],
+    "actual_cycles": [],
+    "actual_conditions": [],
+    "automatic_postings": false
+  }
 }
 ```
+
+## Phase 2 economic procedures
+
+The five domains are separate reporting views of the sole schema 4 ledger, never new accounts or balances. Current personal/party/operating/restricted ownership allocations remain UNKNOWN; the controlled aggregate does not prove title. Third-party and restricted property cannot fund an unapproved purchase. Forecasts, orders, deposits, borrowings, appraisals and internal transfers are not received business revenue. An unidentified inflow remains unclassified. Document paid expenses separately from incurred-but-unpaid liabilities and unaccepted quotes; an expansion commitment is no contractor invoice. Distributions require authority and reduce the paying account once without creating consolidated income. Avoid counting the same asset at property, inventory and ledger levels.
+
+Each prospective cycle uses the empty template. Establish a period, beginning cash, finite titled inventory and evidenced demand; record actual deliveries and receipts independently, then the seven paid cost classes, net result, authorized distributions/transfers, ending cash and separately evidenced unpaid liabilities. Cash operating result = received revenue minus paid operating costs; it may be positive, negative or zero and is not full accrual profit. Ending cash = beginning cash + received revenue - paid costs - distributions + net internal transfers. Borrowing/capital/deposits need separately classified ledger evidence outside that simplified example. Inventory ending = beginning + actual receipts - deliveries - verified losses, within capacity; services need finite staff/facility capacity. Null is UNKNOWN, never zero. No cycle is completed here, and time creates no customers, production, interest or revenue.
+
+Sector integrations reuse all 17 industry chains, ten settlement owners and their 41 business designs; they neither assign existing operators to new work nor replace the 12 PROPOSED trade relationships. Lodging and retail apply wherever an existing business owner supports that service, without creating a new industry or venue. Every inter-settlement dependency still needs PR 2 logistics, actual willing counterparties and a verified usable route. No road, navigable channel, duration, cargo, demand or current shortage is asserted.
+
+Supply/demand influences are bounded possibilities. A supported event must establish affected location, finite stock/labor/capacity, quality, duration and evidence before a negotiated quote changes. Location, season, transport, labor, law and existing contracts qualify reference prices. No global fixed multiplier, inflation, famine, shortage or boom follows from this design.
+
+Guild references remain in PR 4: apprenticeship can require supervised training/materials; certification and standards can support quality review, referrals and procurement, but do not guarantee work, contracts or revenue. Voluntary contracts must identify training expenses, assessment consent and dispute forum. No enrollment, dues collection or new Wayfarers/Academy assessment occurs; Concord membership stays voluntary.
+
+Illicit commerce uses PR 4's finite contexts. Stolen goods retain original title; counterfeits require quality/authenticity review; smuggling and illegal mining add jurisdiction and recovery risk; fraud and forged contracts do not establish enforceable claims. Extortion, bribery and criminal debt confer no lawful authority; laundering cannot turn an unexplained transfer into revenue or lawful title. Possible loss, restitution, seizure, investigation and contract disputes require actual evidence and lawful process. No crime, fund, debt or stolen inventory is created.
+
+Dungeon salvage remains governed by PR 5 recovery evidence, finite availability, legal title, transport and original inventory provenance. Potential treasure is no asset; appraisal is no sale. Only verified sale receipts less documented transaction costs can affect the sole ledger, once. Protected evidence and third-party goods are not saleable by assumption.

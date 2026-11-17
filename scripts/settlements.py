@@ -25,6 +25,8 @@ def validate_settlements(root, records, require, repository_file, unique_json):
                       'price framework': 'approved_references'}
         if isinstance(value, dict) and extensions.get(label) in value:
             expected.add(extensions[label])
+        if label == 'price framework' and isinstance(value, dict) and 'approved_service_adjustment' in value:
+            expected.add('approved_service_adjustment')
         require(isinstance(value, dict) and set(value) == expected, f'settlements: invalid {label} fields')
 
     def text(value, label):

@@ -1,3 +1,9 @@
+# Phase 2 PR6 — economy and property procedures
+
+- Extend four existing owners with finite five-domain accounting, business cycles, fourteen-sector integration, employment, property, logistics and jurisdiction-sensitive fee procedures. Reuse PR2 prices/wages and all41 businesses/17 industries/12 trade proposals, PR4 dues/illicit contexts and PR5 recovery requirements.
+- Confirm the player-approved10% applicable lodge/springs/information adjustment while retaining UNKNOWN original tariff bases/date and merchant-rent exclusion; preserve the separate22% eligible merchant-gross commission.
+- Add read-only separated reporting, finite arithmetic/evidence guards and deterministic regression/preservation checks. Ledger4, checkpoint, historical balances, properties, inventory, resources, routes, guilds and unrelated canon remain unchanged. No gameplay, postings, transfers, shipments, visibility change, merge or PR7 work.
+
 # Phase 2 PR5 — dungeon and exploration design
 
 - Base main90a0fa0 includes merged PR24–27. Promote five existing proposal identities to bounded indexed mechanics profiles, not actual locations. Candidate regions/entrances remain unverified; preserve D/B/A/S references and unresolved legacy SS without changing the proposed F–S+ scale.

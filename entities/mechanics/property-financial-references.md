@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-06-economic-approval.md
 - changes/chronicles/economy-framework-maintenance.md
 - state/finance-ledger.json
 - entities/mechanics/party-finances.md
@@ -239,6 +240,56 @@ Read equipment, horses, wagons and facilities through asset owners below. Never 
     }
   ],
   "new_ownership_events": [],
-  "new_valuations": []
+  "new_valuations": [],
+  "approved_property_procedures": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-06-economic-approval.md",
+    "law_owner_ref": "justice-and-jurisdiction",
+    "ledger_ref": "state/finance-ledger.json",
+    "procedures": [
+      "land-purchase",
+      "building-purchase",
+      "inheritance",
+      "lease",
+      "rent",
+      "repair",
+      "construction",
+      "appraisal",
+      "property-tax",
+      "business-permit",
+      "ownership-dispute",
+      "secured-obligation",
+      "sale",
+      "foreclosure",
+      "lawful-seizure",
+      "transfer-documentation"
+    ],
+    "transaction_template": {
+      "procedure": null,
+      "property": null,
+      "seller": null,
+      "buyer": null,
+      "verified_title": null,
+      "consideration": null,
+      "jurisdiction": null,
+      "consent": null,
+      "payment_evidence": null,
+      "transfer_date": null,
+      "original_owner_update": null,
+      "ledger_update": null,
+      "evidence_refs": null
+    },
+    "actual_transactions": [],
+    "new_holdings": [],
+    "automatic_postings": false
+  }
 }
 ```
+
+## Phase 2 economic procedures
+
+These are procedures, not executed transfers. Purchase/sale requires willing identified parties, verified title/encumbrances, terms, jurisdiction, consent, payment and dated transfer evidence; update the original property owner and sole ledger once where cash changes. Inheritance instead requires verified decedent/estate, beneficiaries and lawful succession evidence; consideration/payment fields must explicitly document a lawful noncash/not-applicable basis, never invented cash. Leases/rent specify term, permitted use, repair duties, deposits and return conditions; use rights do not convey title. Deposits are segregated refundable liabilities, not earned rent until lawfully applied.
+
+Repairs/construction need accepted scope, authorization, safe labor, permits where applicable, staged evidence and actual payment; commitment, invoice, payment and completion are distinct. Existing completed cottage repairs are already paid; unpaid estate expansion remains unstarted. Appraisals identify date, purpose, method, comparable evidence and uncertainty and never credit cash. Taxes/permits require actual lawful jurisdiction, enacted obligation and documented assessment; no rate, debt or universal levy is enacted here. Unknown jurisdiction remains UNKNOWN, and a realm cannot tax outside its established lawful authority.
+
+Disputes preserve competing claims and evidence without automatic possession changes. Secured obligations require supported local law, consenting creditor/debtor, collateral title, terms and verified registration where required; a design never invents a mortgage. Foreclosure/seizure needs lawful authority, notice, hearing/remedy rights and an actual order/receipt; debt alone does not transfer title. Each case records responsible actors, legal basis, affected property, consideration or explicit lawful noncash basis, dated evidence and original owner/ledger updates where applicable. A populated completeness template proves no title or consent by itself. No actual holdings, valuations, encumbrances or transfers are created.
