@@ -1,6 +1,6 @@
 # Phase 2 PR8 — magic, combat and final world integration review
 
-PR number and URL: PR_LINK_PENDING.
+PR number and URL: [#31](https://github.com/Taifinkaba/shadows-over-vellorin/pull/31).
 
 Base: `3489528cacd30c73d9477dbc62acf5be002bf216`, latest main including merged PRs #24–#30. Branch: `lore/phase2-08-magic-combat-integration`. PR8 only; no merge, Phase3 or gameplay.
 
