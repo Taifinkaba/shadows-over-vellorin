@@ -1,3 +1,10 @@
+# Phase 2 PR4 — guild and underworld designs
+
+- Base main71a72e9 includes merged PR24/25/26. Promote six archived professional concepts once each to independent design owners; add eight separate criminal-faction designs with finite structural models, prospective tensions, lawful opposition and unknown current operations. No secret leadership, premises, funds, members, covert plans or mystery links.
+- Reuse guild-network for archive/settlement routing, existing Concord for a voluntary charter and original membership/contract rules for annual reference dues, distinct professional certification, ten contract categories and jurisdiction-sensitive association status. Preserve independent Wayfarers, academy, consortium and all existing ranks, leadership, historical contracts and payments.
+- Add twelve finite illicit-commerce contexts and an empty transaction template linked to the sole finance authority. Ten-settlement links preserve all41 original business and17 industry IDs, with proposed trade dependencies and no actual pressure, affiliation, supplier, market, goods, crime or transaction.
+- Add source/scope/privacy/dues/rank/independence/legal/economic regression checks, review inventories and before/after evidence for only three authorized owner revisions. State, NPCs, property, custody/evidence, other preexisting factions/mysteries, roads, PR1–3 design owners and played history remain unchanged. No gameplay, visibility action, merge or PR5 work.
+
 # Phase 2 PR3 — government, law and justice designs
 
 - Base main e61dfa4 includes merged PR24/25. Extend the five existing realm owners with distinct government institutions, selection/succession, bounded taxation/property/industry rights, defense/diplomacy, three judicial levels and finite political interests. No current jurisdiction, appointment, treaty, order, treasury or event is invented.

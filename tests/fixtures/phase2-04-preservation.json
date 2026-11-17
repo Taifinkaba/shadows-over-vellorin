@@ -1,0 +1,849 @@
+{
+  "base": "71a72e9240a01f7175ab83d084a9f86ed7246bf6",
+  "source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md",
+  "authorized_owner_revisions": {
+    "entities/factions/continental-guild-concord.md": {
+      "before_sha256": "46425a4a32a2cd3a66e1ab7a274c5813fb70e15e243f187bb2cfaa688c641d8e",
+      "after_sha256": "04036d0929dfd58fa13bae5da2991b33ff0cd1e7c3793fe51606847bc5c27dce"
+    },
+    "entities/mechanics/guild-network.md": {
+      "before_sha256": "622da5ba5f7bd17db0012fcb0ee4335b8c39ce8641dcdaf4386a15c67e3c16e4",
+      "after_sha256": "c366f019a578f3cd8196b2b10b9d419735c4f4345f66c28511c198365c84c75d"
+    },
+    "entities/rules/guild-membership-and-contracts.md": {
+      "before_sha256": "10d9648ccb2feb67d8ac50e4ff615b5e8cecc51ba0a820d9c9259c8fc21a90ac",
+      "after_sha256": "b4628045605709f3b9e8153429df6ba344ece62562b2c3cde62a5e740b90dab1"
+    }
+  },
+  "unchanged_sha256": {
+    "archive/README.md": "7a17ca6a4b00a40acb161674834293fc091bf0a4c43b1225e2d07ca5e46dbb6e",
+    "archive/Shadows_Over_Vellorin_Campaign_Continuity_Codex_v1_5.md": "42ca23639dbe2ab6c67cddd7db17a8da5d636ccc221c16aed66c8efa1a83425e",
+    "archive/Shadows_Over_Vellorin_NPC_Settlement_Registry_v1.md": "206e467b6fdfe8a9c4caaac9b85a89491cd7fad5824f6a5fa7cd949e30e7bc44",
+    "archive/Shadows_Over_Vellorin_World_Bible_v1.md": "827550285cafe55a865beeefa32db1d1685c0b661458cf3d377d1e0ff63d079b",
+    "archive/checkpoints/year847-day046-0915.json": "795e10405452ade05df7f33bff397841630f31360e054e3bf3def48df967d4e4",
+    "archive/checkpoints/year847-day153-2205.json": "2b970453b797f6cd400c8caff1248c258b99af731924f1727c536f96afd423a9",
+    "archive/checkpoints/year847-day153-entity-values.json": "197a3a511c89c4fd392f6a14749719f0ac0d76160edeed5a6cbcd5b23d53ef03",
+    "archive/checkpoints/year847-day472-1610.json": "d84c394f91b263a47b1eda6636cf087b94368d0c07c9710b8d5b718a4e99a0ee",
+    "archive/checkpoints/year847-day472-entity-values.json": "90b48ad9a5cc3910405c03ff58574a7ebeb565b8b1ebefcefb5d46bf73cf3965",
+    "archive/checkpoints/year848-day124-0145.json": "042337afc237402e0f56c3ae729f562ab201155d9e7ad940defe7b9305892dfc",
+    "archive/checkpoints/year848-day124-entity-values.json": "88fcc73e5af8f0ca0c4f9c897db0325116cb3a6e9b23cd7026bfc10b6929ca44",
+    "archive/checkpoints/year848-day137-0930.json": "9963293e940ab0d7fe909bac22d5232130d076c69045fe78200ac3c07df31d55",
+    "archive/checkpoints/year848-day137-entity-values.json": "f17050b794a0e6cb647dac8e41160b44d67171d2b13c1ca62af5a54523e31821",
+    "archive/checkpoints/year848-day137-finance-ledger.json": "1478355e048225496144d9526ce0547d7955b312b96c8f66bcb0dab414485e92",
+    "archive/checkpoints/year848-day156-2015.json": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
+    "archive/checkpoints/year848-day156-entity-records.json": "ae9051234f54c925c583681a30b6aa3fda8d236804de9d5159dd4e0379e95367",
+    "archive/checkpoints/year848-day156-finance-ledger.json": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
+    "archive/checkpoints/year848-day181-unresolved-adoption.json": "d28061b33456464c5bff3d4740445bacbc6af20cdc0f33ca01c558f1f905ed95",
+    "archive/legacy-index.json": "bf28898c4d532a44674f988eaf23c2f3589d7e433ec7b4d128aeef0aa920181f",
+    "archive/legacy-modules/codex/00-shadows-over-vellorin-campaign-continuity-codex-v1-4.md": "f8a263ba8721d37918485bd3a7ccd695fb609ad62c86264f09911de8370abafa",
+    "archive/legacy-modules/codex/01-system-1-canon-retcon-ledger.md": "6b84703b1c21d7996b533f03c401a8276ab6271118bb0794ad382ca6bbb94c2a",
+    "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md": "ae78d6f1d5e36a30ff6c899ec77ca93925ccbd573a2fe564e38a079c31b8bf46",
+    "archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md": "4123839df8741c9293e4b64f646c1cccb55e5028ab174c580a2c6236c80ee74b",
+    "archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md": "4614cdcb5cd00a6bd446789a31e82ce759b8ac3afedc218d62be5d9a2d22faa1",
+    "archive/legacy-modules/codex/05-system-5-world-timeline-event-calendar.md": "74e7238c6c39e4a3d50ebd2762530d84f82fedcf38ad6805425bb12c9adc7ca7",
+    "archive/legacy-modules/codex/06-system-6-gm-secrets-mystery-evidence-matrix.md": "b3d233949d2e549026f72c7f3d9cbb8f7b6459b8e31bbf407a74cd5f929fe6e8",
+    "archive/legacy-modules/codex/07-7-reconciliation-audit-requires-user-review.md": "3bdbdef7de8a7ae79264de102397421aa862feef12f294635fcb06b50d97e6f4",
+    "archive/legacy-modules/codex/08-8-live-campaign-handoff-copy-into-a-new-chat.md": "5cb30f7a856d306fb5b48e5c3edb3febe51bdb6bb684e1260c11d3139034b3b8",
+    "archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md": "923dda195f4245de198a3c92362bc9d853a8acc0618515aa04f59c84104782ab",
+    "archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md": "d0070335ce3849f0449b9d90b7307afe6b811efc941c3bb4100835001b84b762",
+    "archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md": "9e105532e2d625dfd7108ec1cccfc378b7d648e7ea7b8d2571fe2aa70a9adbfe",
+    "archive/legacy-modules/people/00-shadows-over-vellorin-npc-settlement-registry-v1-0.md": "c5392e1140fc2ebf55769e83b572446a0bd58134131e88d891c43ec77d1afb0a",
+    "archive/legacy-modules/people/01-reading-key-and-canon-policy.md": "9a454f7fe064b453858d1856ed6b703d5571a37f9f2d9907d67e14cea319d605",
+    "archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md": "a8e76fa792a877c3693981869ec0bef42cdda300461d939928d63e16760c22e7",
+    "archive/legacy-modules/people/03-ii-major-public-antagonist-historical-npcs.md": "152980b21ec13fc8e3be4edb1be80209612422cd4f9349f2c813ce0c563fe225",
+    "archive/legacy-modules/people/04-iii-settlement-operating-rules.md": "2387336f352a1a5bf67b2c5ea53d556bae33d8341ee2dd572bdb9d81ba58ca65",
+    "archive/legacy-modules/people/05-iv-reputation-rumors-and-knowledge.md": "5a57836b03c30cb82856d10a75a2e5d988ac9bcb923f7a2c64edcbdbe3278fe6",
+    "archive/legacy-modules/people/06-v-economic-guild-and-legal-behavior.md": "bc02615912c9b0139c4d18e6c3a888b1285c81e906be5f67885ac79e791b05ec",
+    "archive/legacy-modules/people/07-vi-offscreen-npc-actions-and-settlement-turns.md": "887074a75a0a5720e3d0afc7a7b6fb077988cec69b82b28860c916e49a5c3d5c",
+    "archive/legacy-modules/people/08-vii-npc-relationship-information-graph.md": "2a9344f3faaee4b90eb876832782e6f4ca560e6f6d31b6702eba9855de66a8d3",
+    "archive/legacy-modules/people/09-viii-quest-service-seeds-by-settlement.md": "b65e18063c5497586a369806c361e49cb8be90f9f8301b22f9a5cedd04d75aef",
+    "archive/legacy-modules/people/10-ix-live-tracker-templates.md": "0505ca62a0bcde42f8cc932d9e70d252c1b4d90b5faeb158f9a0460dfa959f73",
+    "archive/legacy-modules/people/11-x-open-slots-must-not-be-improvised-as-past-fact.md": "f6af6ea2955982b58efa2c007c3c07aca01a2e8e806304246aff57501b1a9bff",
+    "archive/legacy-modules/people/12-xi-starting-status-and-change-log.md": "0aa097c9a6e9de366f6bcd9799657e9e9d44a9ab91eb94fa2cc5c72c6550ffee",
+    "archive/legacy-modules/world/00-shadows-over-vellorin-world-bible-v1-0.md": "072145a51cd0bd08d5a35f182aab703b76252e22870420997959047b33a28b7b",
+    "archive/legacy-modules/world/01-1-immutable-current-checkpoint.md": "c7177c477c3e30f333b5e16335b975d403623d3cac6467953eba3aa44643179b",
+    "archive/legacy-modules/world/02-2-rules-of-the-world.md": "b6d98940138e228df0cfeb569d95925fb03374b81edc4dd89f981b3e2717a1d1",
+    "archive/legacy-modules/world/03-3-world-map-and-regions.md": "bd2dc1266d640690682504aea7fbe1eae9f52f9e11cd6bca3c45f9b8ccb14ce3",
+    "archive/legacy-modules/world/04-4-government-law-and-justice.md": "8b38b3dc757d723e6a0e4f35867acfc60b0fffe1ba737dd8e17b47a2e47b7028",
+    "archive/legacy-modules/world/05-5-economy-and-prices.md": "1632d7152e5990ff142672bd1f467cd1b8d4fa2dca74b403ddc6f9f662001cfc",
+    "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md": "5df484843d6cd43708236136ed474fd736d3fbb0625b7bc1dc232778b34266fb",
+    "archive/legacy-modules/world/07-7-the-ashvale-family.md": "9757a794f2fd3787090d8914186d42acce6d0909c21084d8c6f804f7a43f71aa",
+    "archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md": "08b358ede7fe9d3c38667562d890b3e122706cfb134155949590db1ceab9766b",
+    "archive/legacy-modules/world/09-9-main-campaign-the-first-oath-conspiracy.md": "7378a41f987287d53468ff27e13827848dd2f53c7667faae2520e86eb315ceb2",
+    "archive/legacy-modules/world/10-10-vaeltharion-s-freedom-engineering-roadmap.md": "fba9881e839e6d90a39d06cc887153cf9265920f7d68d1f7a5039038998d3a01",
+    "archive/legacy-modules/world/11-11-npc-autonomy-and-faction-clocks.md": "01af517b79c8cd1c3862fa8b8d34aaf74b8a0a4f11c03bbb92dfa179de26c534",
+    "archive/legacy-modules/world/12-12-quest-board-by-region.md": "0ba2c45b4cbeb380a1c682ac2e25e41b5260639b807ae3efb8e8b5d861ac49af",
+    "archive/legacy-modules/world/13-13-session-engine-how-to-run-this-world.md": "d7c665ddf0af56383b7436dcd93b2d189ecbe8d96e61010f8b05f1f9309d65cc",
+    "archive/legacy-modules/world/14-14-unresolved-items-and-reconciliation-queue.md": "8299ccc25bc051dbcedf458527b753f4ab8e2344fa1a8c1b4d5d7448df6016dc",
+    "archive/legacy-modules/world/15-15-change-log.md": "543135a3f147024c6d38934c6217dc1d321bbd23df045f386e47ad89b0d99971",
+    "archive/session-handoffs/year847-day153-user-handoff.txt": "dae5655be85636f7b800e096aec18bd46bd87ba07645dbe178b50a173376906f",
+    "archive/session-handoffs/year847-day472-user-handoff.txt": "47b0128aeb907f54bfc2b693e09e0e25a85624ec2a98b9bfc284e109ff632348",
+    "archive/session-handoffs/year848-day124-user-handoff.txt": "2b44c847222da313eff56a596a3d1eb9cd1e2079b75b411b2549645e65784d34",
+    "archive/session-handoffs/year848-day156-user-handoff.txt": "38257c34d47847fc5e8049d0ed0a398be2afb6363dd91191ca2cffee4a7dc9e9",
+    "changes/chronicles/character-reference-design-approval.md": "e99505d95862c8807b4286efd3d97d6fb38a78394fc72dfd6c3866fb0bce84a7",
+    "changes/chronicles/dungeon-exploration-registry-design.md": "0cd7b31132551f7eadfc01106cbb741a3874467cbcaa08cd8236f142b05180a1",
+    "changes/chronicles/economy-framework-maintenance.md": "5977e40c17185ffc02c328c68bef8e07efdf526e7505dbd2ebf0ae2e879e7696",
+    "changes/chronicles/gm-continuity-maintenance.md": "78d489280d4622234f908fdd38646d901c2a1709820965420a6a2f5febf53135",
+    "changes/chronicles/guild-concord-contracts-design.md": "eaf55d8260f1f4de385c2a15a4f68a516e334e31a18550117f667f373cc9cee6",
+    "changes/chronicles/justice-courts-prisons-design.md": "b1f3a4806efe6485a3146edf92905c75cf262720924a4c51b7bc20c7151ba2b2",
+    "changes/chronicles/main-quest-framework-maintenance.md": "2e0bb628a53727e7b8763cdfb2ce6cc0e2571f61cb01ae7dbd0044ed0ecd5b6d",
+    "changes/chronicles/npc-autonomy-framework-maintenance.md": "58259a46edb1b8271b1546ee188115d6d80cc7c2348b29f40bbf148f4bfb1b5d",
+    "changes/chronicles/phase2-01-geography-approval.md": "1a560a58d291e641208a3098e37c0329b3d12bdf5f184d90267854624f4e771d",
+    "changes/chronicles/phase2-02-settlement-approval.md": "a7457263a0be496fcedd70a583b9e79209d9eef91113c3f40236905d7dbbb8fa",
+    "changes/chronicles/phase2-03-government-approval.md": "18eca10c2c2e1bda1148e9d42a55cfe738d72a259f9ee1787a4bab1bd7a3bcf8",
+    "changes/chronicles/settlements-businesses-services-design.md": "77c8715e2ad76c8fe9959a43b74a0af8804afbbed4b166c922ae999a8ede9612",
+    "changes/chronicles/world-geography-travel-design.md": "716babd7dbfe8f072790a4a4d83cfca278edfb03b503b7d00bf5fb98d8af60e1",
+    "changes/chronicles/year847-day153-development.md": "4bafccd8938198a2f9de78ef132e8392b12034cb9a78bc1b9fa9bf50c65af021",
+    "changes/chronicles/year847-day153-finances.md": "3b1ee22e6f4444eee447506c18bab12095d82751197b7040837d064a2416627d",
+    "changes/chronicles/year847-day153-freight.md": "127aca938a6186795b0e3ccba76aa63a0426cc5f92062e507b6f32bd5452ef62",
+    "changes/chronicles/year847-day472-first-hour.md": "d49b49c89c7c9cb3fe1feea2ed3bfaa7d369d5a523ca5fd888dadf9244078c15",
+    "changes/chronicles/year848-day137-end-session.md": "1e23393bd3eaf7e0477762c0ee26dcd687bdd4f2bbf9f6b98c8d39b47052f360",
+    "changes/chronicles/year848-day156-end-session.md": "8cfabbc8f254d0356a2323cc037bf1f38f5f91f0cad950e92cbb9eaa1b578bf7",
+    "changes/chronicles/year848-day181-cottage-mana-reconciliation.md": "62e3e39e990754971325267def278e57151e6fb6e0a7732473bb4a53a8fb441b",
+    "changes/chronicles/year848-day181-endpoint-adoption.md": "19d99b7538bb939ee9fca5f61076d6919e91fb4ca4aa6e322fa064533a69ae0b",
+    "entities/characters/alda-perrin.md": "8c5004ba8e42ded1ded450a9194d948038ae4a8f31c6badd43f4128e29d6ba99",
+    "entities/characters/aldric-voss.md": "6f37457f729e1a9b03e2c7f171b4c39e94c3a4234758c283a08c233e3aa637ee",
+    "entities/characters/aric-ashvale.md": "a29db08c5aabcaeecf41eb02104681c6d13cbc9202108b8549a7359e26f0a679",
+    "entities/characters/aveline-hartwell.md": "c0395d22e695df5886eba0c31e5bcf79e8184c69b1eac0b735413397317afe57",
+    "entities/characters/borin-emberhand.md": "e891470a1d2213aaa2495d8b4575ea4bb844b5b0863ed2d11da25100abff12f7",
+    "entities/characters/bren.md": "ccf4c9b08a6a9b197109c4626c2591ab34fc7fd2a0f20ceb2dd15fedfdcf0b98",
+    "entities/characters/caelan-ashvale.md": "aea54f47d014943e773157e31977a91596ea2c73e1314fa019f84a8fd38a661a",
+    "entities/characters/caelrix.md": "6ccf07a6cc80ead0d8c70119b516081d05e3a3f617723ee8e9ee381a41c7de5b",
+    "entities/characters/caldra-venn.md": "e6b690612d3b665cd7040b0fa4da47ebc4e5b0436df21436f3dd3c8c4af54c3a",
+    "entities/characters/cassian-thornmere.md": "a7248496e7c7466f0e593564203b3b5f74260cd1ffc187b4a3b8d6daa687b57b",
+    "entities/characters/corin.md": "e41cfa59eb160897a5581b7761447677ff33eed055028784e8dc0e6048d98c1f",
+    "entities/characters/corven-north-return-house.md": "9c1835a536a44e1aed767ab5434c08c1cd1e62f22678c532770fb8ecc571eecf",
+    "entities/characters/corven.md": "4f9928e5142aa53e6457407016ecaafa4c49f7ed13a0f06739045b22249e57eb",
+    "entities/characters/corvin-dareth.md": "fcbddae2688224ed917a78908a04ccc6d6978008d5d4eff189271e75a172aa3d",
+    "entities/characters/corvin-halbrecht.md": "361fb9a4ca36e1ad66ccbda2fea440a10c576b5021d36a663892b22e1228c4a4",
+    "entities/characters/corvin-hale.md": "16d726b475d89eba76297123c01f9bc7f3eb72a7f4c0a3fa40704bbf38b17688",
+    "entities/characters/dalmor.md": "f02232460be11f0af190d682af694b96016f029890713e4c5e7ee0c878fad6d5",
+    "entities/characters/damaris-keld.md": "5eebd0acc6f0b73fe1a01cabaaf49d2843e70d9f5cb9ff80f95cfc523b66bc33",
+    "entities/characters/dask.md": "fad4948cdb70a5e89427ac4f3d40a40eb7acd72285995791fa57f366a742f0c6",
+    "entities/characters/durnek-stonevein.md": "3fafb03f3ae20ed86491feba9367f86169254bb4bc4fc348ee082c2d1f0ab9d0",
+    "entities/characters/edran-vell.md": "403770d741c1315ba880f3026330e8cf39a7c79834f35e4b4e15b1b46b3d27b9",
+    "entities/characters/edrick-sorn.md": "bf632c84e6d672ca99b1325b08eb4ca4df7f998425c79ee278dfe30005c4cd77",
+    "entities/characters/elian-voss.md": "1e4537f7b1fc980e1062c1b562d8f280af24d221f702836d38bcb7dc8e6eb3aa",
+    "entities/characters/elias-renn.md": "78f57049053e5818b6389d5a9b7f4d34be15805c870377cceba59983afe8bee4",
+    "entities/characters/elowen-marcrest.md": "e125309760dfc6dbf7633a58ed9891e8452fe0539555c4e9f68d60e1747a9d0f",
+    "entities/characters/elsbeth-marrin.md": "5480c6bfc939dad1f2bfc38e26e7cec4a5d52569f727336a7dd5983b71ed521e",
+    "entities/characters/elsi.md": "f0106dfc0d01af5f76a5d35bcb4808e247b736c0dd74b95196626469d28f64fc",
+    "entities/characters/evara-holt.md": "9119020379d87f36f582beee87dff97fa5a81a49550193c259411474475a1c60",
+    "entities/characters/garrick-vale.md": "963751f9ec336a6810eb3f18933defbf6f753b7538d5badce81f75fb180a236d",
+    "entities/characters/halden-marr.md": "8dc1f0c4118ec2aada3335abd86b879eb0d89c78a31123b95465f71785cabbce",
+    "entities/characters/halric-dene.md": "403a7dbf0cce2f1f4386b412e9b23123e53c2bb7a909b397f0f7315454c4b2c2",
+    "entities/characters/halvek.md": "51579aab504cec472c3f69ac1fad448b4bc2e47c88943427f7fd32efc5f4049f",
+    "entities/characters/harlan-wicks.md": "bfa637fecfea7ec25f75d1870a2bd03a3f9707904db37ef37bd42a8b89d94f90",
+    "entities/characters/hessa-vale.md": "f3aa9a2d4e7cc6cf98986dcb5b9bd4af5d05220531aaa3605a5f2778927cdfbd",
+    "entities/characters/joren.md": "2ae31d8aa39846c408b4660939ed8512b5820f7c1ed42b1568d824c2ca41334c",
+    "entities/characters/karel.md": "752ec2c51f300b43492ebeeb41a133bc9133640de83100d3fd1a4752d7728fc8",
+    "entities/characters/lyanna-ashvale.md": "3683d3eb115571f7e1539f8ce7eb27d1ae4d2d3388fe8c95426790296f67b257",
+    "entities/characters/lyra-moonvale.md": "ea818203246b1007e847c2b24dc175f733c730d0d3685cc2549806b235f90c7c",
+    "entities/characters/maelor-thane.md": "4c44a412a420f22813fef40e51ca4e5ce84a92d3b13d2a2552823268837d6892",
+    "entities/characters/maera.md": "515d3b7d7c37fe9de1e8e53cdab01bc1c739d1279d66f8fc3fec2895ad8f9f66",
+    "entities/characters/malrec.md": "7f11d8cb068a0f1bb390340fa497d25166b109acf34f822d5ca074983b5683b6",
+    "entities/characters/mara-fenwick.md": "b27b48709ccd433e8cab747d21523f348a4fa4cdbe0da2af77cfd744921efb25",
+    "entities/characters/mara-vey.md": "0e90029aa11cd66566f1aa0798f8c9e69b5c6f4ac98ea62f09640b4267277029",
+    "entities/characters/marcell-duren.md": "b5a4f8a8e3bd5fa5c202c5eb944243215dc9a2b86087d1329e4c7dc5618dea63",
+    "entities/characters/master-beren.md": "0d9cca2cf16378458e03f5bb03f02dc598b60e18c7145b0afc91135669bf1d21",
+    "entities/characters/mira-lodge-helper.md": "0ed5f00172c7e0fc45700c467e02172f18d21a6a6bcd2f87146fdd3e460f6782",
+    "entities/characters/mira-thorne.md": "b9d83145d91368e7d6cef366687812e023c66f58f10ec6f947c2eba63303900f",
+    "entities/characters/nyx-thorne.md": "e7b4602cb34638e926ea7f97b4d37acacb4ba93363de1e8080279789d893a6bb",
+    "entities/characters/oren-veyl.md": "cdc9d5f303c037e1318f3551a5478705b5888035c9be9b41cb53066c21c99106",
+    "entities/characters/orenic.md": "189968a3fd20c7fc06c7c925faef4fd136a14369e6f83487e214fa6a34a9ed6d",
+    "entities/characters/orven-pell.md": "af8d759a585b2eb8601309a2eb18b524764aaf4a5149c8964957ddc6e851feb2",
+    "entities/characters/osric.md": "151167a9424de23f8ebe1016a27e80720ff956bd593bbb47e01630f8d23d5079",
+    "entities/characters/perrin.md": "2d6345a8190ab9446554ef26134c9b1ad413f125d5a49332656e891d38bc7b5b",
+    "entities/characters/rellan-sorn.md": "b3078a61e90f46862b046c684fffb9d080e9bae6e6a8830e055e2740b59b0b24",
+    "entities/characters/ressa-vale.md": "e65c396f32bb1b4ae1e6a8c1217a72b1e0248e75f3d8c18e5b2e2b6a509a68da",
+    "entities/characters/return-custodian-seven.md": "27ac5c731996ad252711e578d70dfe2aa74361d43e7d678e44938d358172e604",
+    "entities/characters/roderic-mael.md": "39a374033d2c0c668c0f38a6f7c3952074bb0af3ca0c0b2a14fbefb98232a8a1",
+    "entities/characters/selene-harrow.md": "68b3140fbe3523c52602e7c33fc5e867d9ee5b4239135a82a365a88e80750093",
+    "entities/characters/sella.md": "8494498b886d0a94f307b1d709cb4801250e8c0859d5af5a557865006b1364cb",
+    "entities/characters/selvar-renn.md": "7b5b646a8432c51e5f23e83bbb92f36ac49629bc87030cb6a4eb5d4329e84386",
+    "entities/characters/sera-dovain.md": "1bfb73536273786f100a14bdf3960755b9a66aa4d9683a9eefbb97ba7baeb788",
+    "entities/characters/seren-willowmere.md": "88915ded4e43008c151d9d66974785669e759ee31f8dd942ad52c0eabfb8fc45",
+    "entities/characters/serrik-vale.md": "1e28cbaf4d6ab17e96c806118b64a21f6eedf34ef1332c03424d6fdab9f88ebc",
+    "entities/characters/severin-valcrest.md": "218ded4399a207b964e7a0fc26f2672b717839b81d982c4168e0f216edc5bd6e",
+    "entities/characters/theron-ashvale.md": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600",
+    "entities/characters/therons-mother.md": "9e3ddaa8667e3df3f52527558ea0b863abf0a0d185471ee820bed9f2521d5554",
+    "entities/characters/tomas.md": "7a462d2e5a97287a35dfce5c6272afc9dccbd99df36ef10f8fe3f392705d4a69",
+    "entities/characters/varian-morthal.md": "b365c5a988a274652fd1e3dc4ec36c9a0913ca30100a124709f2c7fda3cf0e31",
+    "entities/characters/varric-dellen.md": "bb40c9861b352ed5ed344c949f36f49f32e2bb10e4e5d8a1e68f48ec3039d31d",
+    "entities/characters/vennick.md": "6308f34cdcf4b396543e5c233e346bc9cf12aad0f4fbf66f7fd378950bc03d3d",
+    "entities/creatures/aeloryn.md": "102131cc7e6bdd173bbb390ad297a5cca4e2f3fbbe9db7df7f430b351ccb6855",
+    "entities/creatures/alpha.md": "5668eee988b879d4e311928fc6a242bef5d3bce48e0c3560d936e22fc3860a9d",
+    "entities/creatures/aurelion.md": "7b682b5bd91b035c82ef24f5f9942683bf2da0e9346ae18919006b71875ce338",
+    "entities/creatures/bracken.md": "c39c9b3de687c63cac46ba0e79da97e2dc190ba2ade0e582560f623cbd236bad",
+    "entities/creatures/ember.md": "3d76a382808f8c05cb05034f416d626b3723c258aad2b935a7097d854a6e2daa",
+    "entities/creatures/frost.md": "c236277f4bf7c45d52f917e88e5127ab53fedf1aa0164573e1d3ebf9043c9ed8",
+    "entities/creatures/frostmoon.md": "059bf5d1870dc708c838d9be6126e3dc2a483b1c66429490f26d04c85a385f87",
+    "entities/creatures/hounds-tomas.md": "b93e758e04f75303cbfc4f0fc8dbfb95d404e2bba43d8785c6f5d751f40a03d2",
+    "entities/creatures/morrow.md": "e0c26a4ecb1024ba7831253d75643071e9739ba70c17763ba4f6b5acc88794ad",
+    "entities/creatures/shade.md": "58f92e6621e66c20485bb86051a6822109ef732b95dcdc43064be017ea5a97ce",
+    "entities/creatures/vaeltharion.md": "a74f06bff0c90ebe3d9e23253f466fed09bd0cc4cb61fb893608c95097eb059f",
+    "entities/factions/crown-black-ledger.md": "1e5cc7af03c229ce301b6cd4f077c8eb7125a1ae8bc554e192da7bf1209d7384",
+    "entities/factions/dragon-slayer-academy.md": "ff3c7d5060c2fe32d3a577dc4a4a271fedab7eb1b0551f36f9ad7d6b09bc2478",
+    "entities/factions/northern-provisioning-consortium.md": "2aa4a98d00b4c5742c5269b4551925c3450db71c11bc1eba3e8788869fa164ce",
+    "entities/factions/wardens.md": "ce0e7c2694942dac28e0d540f96fde2399ce4c721ac605b9c3353a491feee0d8",
+    "entities/factions/wayfarers-guild.md": "fb95a8d11019c7a4fa23aa3f18b2d9966b1d201ab639203c8f9bcc39f2d320a1",
+    "entities/items/ashvale-lifeline.md": "3c9a09acb2db040d7e11c135db0c8359aff3cde7ed1130b1e1f91e814ef088a8",
+    "entities/items/ashvale-wagon.md": "935197eeab64dc5b2396b9024a2c5d16bd3ca123b037f09a19d5b3f602fa6f5d",
+    "entities/items/black-runeblade.md": "1e532065bdcf3250720a54a4d276eca48aed0e0ad9dd6c4a7adfda38e9ad8234",
+    "entities/items/dawnbreakers-promise.md": "afedd5bbc6f17be1f76cd244b0dbc119621ba4520b84e63f785c49dd92409a59",
+    "entities/items/dragon-scales-stock.md": "33b91e6fc54861130bd758add815b5888f42a5297bf456ce206dc68e0d6b03fa",
+    "entities/items/empty-crystal-housing.md": "4f27445d7a0cb23bfe16635accbb2c72926420d1478d0c591a375853ef29a71a",
+    "entities/items/fifth-bell.md": "1985f9612429e1b2136a345ff69ad621228d132c70031369633857de66732470",
+    "entities/items/first-hours-accord.md": "31ae08d31df12ccd99d35593ad0d729b1b72881dea2eca43b26ba73db45c0ae5",
+    "entities/items/frostguard-bracers.md": "d6e1d896de56c0bc289533986bb53a3737e116530fa5864073ac31b11948cb47",
+    "entities/items/guardian-links.md": "bb73937a4937c7e418e254b3abcfc4191de1743a6fcd5d7f7679e2d097bdf145",
+    "entities/items/night-sovereign.md": "e7c91138d3cf7884c58cd3a36962664d415115a89c29a70342becec7f98f602d",
+    "entities/items/oathbearer-token.md": "b49cfe8334d35cffc5cf416a87e4ac71889f983697828f8cd8446451ee9c95fc",
+    "entities/items/sovereign-expedition-wagon.md": "33412b8ee80bd2ad3cadaee8179d7ad91b438057153bc80505a0e27fe0fe3c0c",
+    "entities/items/sovereign-nexus.md": "797d33a308332072988a22c1a6d2ec5aa2c556ec9aa43f5ae530181395b8344a",
+    "entities/items/third-bell-clapper.md": "8cb774a138d83ca9423215880ec2bc8931d30452d87ac955599a3c73195cedb5",
+    "entities/items/vanguard-wagon.md": "cb4b113ef74c6e1e70bca417c09a7098c35ea209de621073c9f9c9aab8cbb7fc",
+    "entities/items/white-runeblade.md": "3b563738fd8c1a6e9ebc57ff373d6bc2c67a6bf4be4c26e51bdd069df8e41a0d",
+    "entities/locations/aethoria.md": "36d69cd2dbd5fe21565016b4b0e7723bb1b0d25545020640eedb847fdc45cf6a",
+    "entities/locations/ashvale-estate.md": "59a3d7915fe40f9c5bb47bf24e2d950a693ff28479b1b1c43210b2e2eae123a6",
+    "entities/locations/ashvale-lodge.md": "b30b5021a105918071e6fdaba36ab8d4ac62f39c8474eeea520c3f4f09ed63f7",
+    "entities/locations/blackthorn-north-waystation.md": "581561c52cf6f91287cac5d61cc5176099bfadbe1db994754fe4cdea48a2c680",
+    "entities/locations/blackthorn-watch.md": "7e868fbe35755b80ba5d9d87032d7789dcc5773214ca053b11c9488eefe7442b",
+    "entities/locations/brackenford.md": "d9a50fba5fdcb994e0f684f3be49820308c4405b68ce1ede70239996eaf64054",
+    "entities/locations/briarfall-crossing.md": "a21e75c32a5b696b6462a452d09236aef3958a7778afcdf53ee34030c684553c",
+    "entities/locations/briarstone-cottage.md": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571",
+    "entities/locations/caelthorne.md": "3514da53b248aa0661a1d42020e27b2f178a2f6dbfb691a179603fcc4cd4500f",
+    "entities/locations/eastrun.md": "c538538a1f46e1db33b5c2e9f979c04ab367e7ee2055afa290c747ddd9773d5e",
+    "entities/locations/elyndor.md": "249899fe6f1d3638d3fa78bf3581bc6e4aec61508ff351e26d2e4554e79ad28c",
+    "entities/locations/frostmarch.md": "2170e7ef6c4eebee3b4532b7e54f93070f747b5d69653c444136c01e3b2a8271",
+    "entities/locations/frostspire-peaks.md": "c1dc196c9f0ab542ccb3f2064bd34fde1299406df074961ee5d4a508ae2fde48",
+    "entities/locations/greyhaven-mill.md": "d160fa141e5ba6267ad3c5101b4ef28c2133cba400fe7061e8193ca551d1ac7d",
+    "entities/locations/greyhaven-valley.md": "7e170b97e1b38736ae0ae9bc5eace683e77eb557e152efa365c9713345101e34",
+    "entities/locations/hollow-first-hour.md": "2a3bceb882666d595041254c7d7b817381a9a3cd2ea5bd1655e892220f94c052",
+    "entities/locations/hollow-veil.md": "8b60172d7541e69308d228abee7a6e43d93703ea0e48e770fd7b4013bad10ac9",
+    "entities/locations/ironhollow-hold.md": "46a5bedf4ce36d647cbf1b596e4624510b024076dd6aebadbd4960963772a33d",
+    "entities/locations/ironhollow-holds.md": "2055a19df311d05e087f24885dc5724ea26dce4dda15df27cc3c8bd50a16a6f8",
+    "entities/locations/mirror-foundation.md": "93f61169c15f56f219fa8f200163c0fecc737f39d4976fd9c7c20f36a84b921f",
+    "entities/locations/mount-elarion.md": "79e469603d2a749159ddf670013537da1623c9c3cefb34612bc7bf80c5ea0da1",
+    "entities/locations/mount-vaelspire.md": "5ab0e88b79d8a1c972485f2732e1f405523c3869bc8c94831f3b8a366ba5f063",
+    "entities/locations/ninth-vault.md": "1f9beb8b8e82b6e732b693f43f1626e1850e6620987a71acb81641f705a4212a",
+    "entities/locations/north-return-house.md": "e156bb4d4fe11718ebd57696fec81a853caea99330ae64cdaee5ac3075996c1a",
+    "entities/locations/northern-freight-enclosure.md": "a4bbe1932effaa7a2edcdf7b6778587e01ed4ed78ae2fdd736c1415f5963a061",
+    "entities/locations/northern-marches.md": "0b7ff5c6233fda749cd057d87f809e1201c347ab03558f90f0764f10af4e6e2d",
+    "entities/locations/rivermere-league.md": "5d6c715593a2a2ba7749bda634f445122cb77efa0d5f2c4ad8bdfa070a562017",
+    "entities/locations/rivermere.md": "43536a784b9a7db2d043254fa6d86eeb5a9bcc2fdfefe9f9afd7f209fef0db8d",
+    "entities/locations/route-ashvale-eastrun.md": "47de449adfc34627e594e179abc57f63e8e7339c9ed6274e4daab5ef3b3f6a7e",
+    "entities/locations/route-ashvale-estate-ashvale-lodge.md": "9673d87cbbe689a777c84e98bf9f0e8c806a634dc12bd2bb3838816d18a9fee8",
+    "entities/locations/route-blackthorn-watch-blackthorn-north-waystation.md": "07d33fbf05c82bb0e3f363f672cc79625cce0fc86cfcbac3841879b45d2f22bd",
+    "entities/locations/route-brackenford-cottage.md": "11850cc1aff9686644944090615e71a83e9527d49f9ee5672c196e20871a5e9d",
+    "entities/locations/route-caelthorne-ashvale-estate.md": "70458bd72c3232894699de260870d12fa40830a82f7c03ef4e49f9671cefa4e6",
+    "entities/locations/route-caelthorne-blackthorn-watch.md": "205f090993070ab001c3f927133df6326c8813e91fe163a103244a654977f443",
+    "entities/locations/route-caelthorne-briarfall-crossing.md": "8a73682e018b2c417e1f09760e1bf407215ade240817652226f44986b9613662",
+    "entities/locations/route-caelthorne-eastrun.md": "8579c7fdb8256461c1bae5899388fbe06870660268c7ccfe085c217c0792dad8",
+    "entities/locations/route-caelthorne-elyndor.md": "eb154cfea5ed4c137ff35d419af9a7c9e0746238741641e10c285aa26f800a5f",
+    "entities/locations/route-caelthorne-frostmarch.md": "4ada25eb7ab912d6049e8f39837d92f6c37863642c5dace9ea69a4e52c829b9c",
+    "entities/locations/route-caelthorne-frostspire-peaks.md": "153e0bd7221d8ce5d20fd6959402e06ab4a105b6c2fa832fba1be57dead3583a",
+    "entities/locations/route-caelthorne-ironhollow-hold.md": "cd1813d0bd34e6752d25d585c56478e0feac1d0f786a0ed43cddd96ded39eb43",
+    "entities/locations/route-caelthorne-mount-vaelspire.md": "82b4a080753f7c58962487f68c03294d52133f0b6537bdd1ff2d15ab349a454d",
+    "entities/locations/route-caelthorne-rivermere.md": "081675a435e072cc95b890f18ebce8ca0e7e548c3d3366d5ef8cb83fdf68df69",
+    "entities/locations/route-eastrun-briarfall.md": "e66b7d0c684a710b7fc06d347080ea17177f16f06b297d4102a92a68f012e984",
+    "entities/locations/route-eastrun-greyhaven-mill.md": "7d6b83a5372669c2a97f51aee4e6af3c87e210a44c3746ddeb2e424a031d6812",
+    "entities/locations/route-eastrun-greyhaven-valley.md": "bc0b3e6d3a3b62793b2df01335df07bc8f411a7fde899cf8d1292d1ec42d20a3",
+    "entities/locations/route-elyndor-woodland-passage.md": "a462f30075fb569abcfdf9dc898ded916b59ad33ab09f84de0aea6eeb9f83d00",
+    "entities/locations/route-northern-marches-frostmarch.md": "a6d62d1d6c68139ff35076bae3fdd2fc4d82f4142e36e116317e73ae753c087a",
+    "entities/locations/route-waystation-brackenford.md": "3bba94929708160e5f4d8409339540595afa75e3fbd179e787a34c6a88fd3190",
+    "entities/locations/seven-bells-witness-entry.md": "ea2e16b29a9807df0d7630ce85f9107d0c98098f7220d1418ddcb8b2fc83f190",
+    "entities/locations/silverbrook.md": "6187c4288b8c9ae5d8994ffd0b1085f968c17b370cfbe50c82e6e3475651d75a",
+    "entities/locations/southbank-landing.md": "9e8d077274e217985b39bd6ad379905485f783127ec6ca271179bb8a9e74b8c4",
+    "entities/locations/stoneford.md": "9957ad27b0e496400d5b3ab88c655cdaeb1858781fb95d10d734019bdb149836",
+    "entities/locations/valedorn.md": "b9fce151e3052018c5a52fe34978ab03e15f3a4adc4c5e90bfde719ce0ceb0d9",
+    "entities/locations/vellorin.md": "82249a23a617ae5a71da4ec1ef72183d2a77fc57c1c843c414eff2868a9c2c7c",
+    "entities/locations/windmere.md": "620540b5e349e0967ec2ca19325038838cda34739757f87b99b66708563314aa",
+    "entities/mechanics/business-financial-references.md": "4cddfa4b111f5354c89e59b7952dd1915fbd21d2de0cf154c665efa347ad9fc2",
+    "entities/mechanics/contract-registry.md": "482057869a05605dab2e40dc7f404eafca7b68b1523f6154af115101fccc8b38",
+    "entities/mechanics/dungeon-design-proposals.md": "06a0e2ebe2d326d897b4e80c4b8746e20e704b961de54469c0c9fed7faf207fe",
+    "entities/mechanics/dungeon-ecology-and-hazards.md": "4405fac1192de2f561653c5a932e14cd8cb15a41338484ca6007353ea8447754",
+    "entities/mechanics/dungeon-registry.md": "9ae966e8c7f540ec3f434885103d0b1ced4e7ff41237699fb21011272e10b59d",
+    "entities/mechanics/economy-accounting.md": "df6a417d03774e8c2a17154cd944625e032ae9c745c5852fe4814090e99822e6",
+    "entities/mechanics/exploration-sections.md": "6dde94249223093e2e1247f5c9adcd0d13e070856274c33e21065dc9b0f50ab4",
+    "entities/mechanics/faction-activity.md": "c7d84e733dd6ccc6792f549dcf9f349e1efc31bdadefb159a3a43e68d1891d4a",
+    "entities/mechanics/gm-workflow.md": "f8aaeb26cb51b7b2a0f723e6a2f6eab8ff98a3701929e00cdaeb9b86eb575b8a",
+    "entities/mechanics/guild-animal-registry.md": "b39ee86c23c4fe28a9cb39825d30091d13a47862a05a7927245b85efba6dde54",
+    "entities/mechanics/independent-assignments.md": "379f28f7504025738e874e06410c9cff814051a73c5df2d498103dbce69c5e93",
+    "entities/mechanics/justice-authorities.md": "276e3529de04e86c79827dc5c06f6d8adf1d6b627a23d723828824be80465cde",
+    "entities/mechanics/justice-proposals.md": "c42583bd32c0ee9d263b7e97a72ea2a524b2e05af513c3c7e393942eaed0a265",
+    "entities/mechanics/justice-road-links.md": "11d813f387b6978a4c94c7a82074e4f94cf68d95169942748e1859c32c49f146",
+    "entities/mechanics/launder.md": "3b72aefe7eefa33c82656987bbc0224b3aa9caea18d4d5809bae33579a440640",
+    "entities/mechanics/local-settlement-activity.md": "8fbe5e320b779752dd95e0e8ea9c34a89ebbc10ed4990b3ff5b4c3e311298185",
+    "entities/mechanics/main-quest-map.md": "274ab2bdef6f921649bb91daed8c81eb5c2339fde0d21d18061cbc6b08b5f0cb",
+    "entities/mechanics/outstanding-projects.md": "590c9e0e4b0722bbd2575000fbdffed97f19f436919a39bcbb923b778fa1a6b6",
+    "entities/mechanics/party-finances.md": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9",
+    "entities/mechanics/prisoner-custody.md": "82761adec4bfe8ac3fe54ca2ae5cb262cf9efd49c30a35c9ce884e0e5907be1f",
+    "entities/mechanics/property-financial-references.md": "c65b871f5c0d7fda2f1fda072e44940302732b858eaed63d1972703a15ab5608",
+    "entities/mechanics/quest-answer-blueprint.md": "a149a9c5256de12ac6c2819f04c8077fa88b34934a3a57dfdd785712b7149dd3",
+    "entities/mechanics/quest-evidence-and-mysteries.md": "543c9ca80c32301fd6e5e6e498e2b23a566a2591f0aec427b11bf43af9db8dbb",
+    "entities/mechanics/quest-history-and-identities.md": "3854511318dca7c2ef0ad7b317aa88d9b5049db746d84985702af727c24803f1",
+    "entities/mechanics/quest-resolution-proposals.md": "db4ca16a152b71a4557f90255db36b47877b1cc81416c9bce1bd96a135c733af",
+    "entities/mechanics/service-price-references.md": "afbc1f0845416ebf9bb4da0254c15f2c70b008108ff3ed5f0bff16ca09f1859d",
+    "entities/mechanics/settlement-communications.md": "ccd11f0afaf4fdd5ff5441d99ddb8b6829311a37cde20b67f9b5727d45af5ec6",
+    "entities/mechanics/settlement-services.md": "0dfae247f7e63aff57ed73485f47c7f81c309a0e42b1d2c6d44999e98d2bfe56",
+    "entities/mechanics/settlement-trade.md": "79c1257ff7f5f266835445bd9082749ccd2338463dfc6dd5d12446d12b36f92c",
+    "entities/mechanics/seven-bells-inventory.md": "ba0e67d7ffa6dddb6859be55446617b21fd9380bb9630a1ae5f594d1f7d0c511",
+    "entities/mechanics/shady-salvage.md": "96b998d3d5d6c8c77946979b58f767760f8204a76ed120fece78206262a329f0",
+    "entities/mechanics/theron-abilities.md": "89f167964b719b9edd685bd45b6610acd91fbfff830e7ccdaf54e849f6038136",
+    "entities/mechanics/theron-skills.md": "ad33625ac7da0ac508572d1a91954a71c6a454d6b617bbd365829e3383e7366f",
+    "entities/mechanics/theron-spells.md": "15ddcc7f06b408da2f462caf64872495f8c086fbc733061185b1fd0e5642b73a",
+    "entities/mechanics/travel-routes.md": "a66e2cab45f1689a53879be58826581e603457ce8edd158c4e77746115e94eae",
+    "entities/mechanics/world-development-proposals.md": "40b9f2714ed84822c4a794cbefa413e5f7634f1f71e992487f9d9ebf185eb332",
+    "entities/mechanics/world-event-references.md": "0104028b90be5ea6b5c0bd745ef801ff9ac3d037aa13eff900c0d837cc3926fc",
+    "entities/mechanics/world-geography.md": "2d16511c86dba18f5322b5dc2c2a97e7378d1d0907dd6481d36c5dca17e3cdf1",
+    "entities/quests/a07-signature.md": "4ecc925f8317c8c0f8c6498afe864434a9be3eaae768918d1b4933285ae993e9",
+    "entities/quests/artificial-witness.md": "82a431f39f16123cd2771f8e988ebc5f75ce0c9a7dc818ed47dec0506cb1fe4a",
+    "entities/quests/bulwark.md": "287c0c294fef56949d3cf33b4eae9dcfb0383802ff2ce92e41305bb140b2baa8",
+    "entities/quests/caelan-rescue.md": "aaa7d526c59b4ffa17f365408638ad52002ea8f0d93a8555c6d1bab1e2ce7920",
+    "entities/quests/fifth-bell-threat.md": "2573d7bb5e533ab93f633e43ee0ebbee61a5b9122210b93387c9bb34661aafe9",
+    "entities/quests/first-hour-restoration.md": "fa824ed62789833524d9b168596ed05d0157b5d9a42068a6abea7f9d8105def9",
+    "entities/quests/first-oath-conspiracy.md": "52713e1a209a0ab787648fb66f613b4bc8e68d46a6993a110a9de6e359aa58d6",
+    "entities/quests/freight-ward-conspiracy.md": "0497178a4c5be53127517e0f8bc36603ca28f45d6a62d8e100490e064a61b62a",
+    "entities/quests/lyanna-rescue.md": "bc81db489c2d04b1fcf6f162c112a43be2067b39a5e368bf7da9f117f040591a",
+    "entities/quests/malrec-corven.md": "9d80c652178c07ec0d146a07f04bd946e011817504a69ac8b62c386686e886b6",
+    "entities/quests/open-quests.md": "0af05bc2a7945015b118c027651d67dcd9081465b3f534243664cd62f0bd121e",
+    "entities/quests/return-gate.md": "230b3bce80caec75a4b396d30cce44be01003bd7cc8d3cfbb984156de5886a32",
+    "entities/quests/seven-bells-investigation.md": "e60754709b7f5de31382de4698ff0ee0108b949565fa780496fb7206acb06aa4",
+    "entities/quests/twin-sword-origin.md": "5c705f7f029cb1fcffe1076ee29aaacdfff71ac5df1659c04c16c5bf5aa31c88",
+    "entities/quests/v9-memories.md": "dcaaa7556817ca0abbb95af115e9f629434384dba5e52f8948d929ae2e2c2526",
+    "entities/quests/vaeltharion-freedom.md": "4188b5510f93e447516a5a1bb8b67239564f9481b13898602396a3fafff6322d",
+    "entities/rules/dungeon-exploration.md": "7a8f5e47c83b23466baad20143933638ac8a41d68f904f2981c2e8de9847a9a0",
+    "entities/rules/justice-and-jurisdiction.md": "083d242562c3df1deb895a5b3c93cf504dfb82301c22a7763c8066387731ad77",
+    "entities/rules/knowledge-boundaries.md": "978fcce5edb6be426639fbd149fd05ab2c3c4cdce0e6462c7b25f32568f6bcc1",
+    "entities/rules/npc-autonomy-and-time.md": "dd1535264963f865bb9da8e88d7f86c763cc916e2be1f34d177f28e20efa0419",
+    "entities/rules/payroll-construction-and-trade.md": "fbdc37e65d0c0f2eea770ed3cf3f6d448ba4db682e7a46cc60d1bfccec9283d4",
+    "entities/rules/quest-continuation-and-completion.md": "f83861943ca4c21e516ca8c666b4670d4d885eb76e90a949f4a2bd6252e7e6ac",
+    "entities/rules/story-mode.md": "f985742aa061c45e350ff0a61b2e7c4f75bc5c91a674d455928d08110794baa8",
+    "entities/rules/travel-procedure.md": "7a3e2f883bf3fa0bd89924a4e8eb5c3618a11cf1ca5a3105ee418ddc360ef61f",
+    "state/checkpoint.json": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7",
+    "state/finance-ledger.json": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9",
+    "state/next-chat-handoff.md": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5",
+    "state/open-verifications.md": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30"
+  },
+  "legacy_guild_payloads": {
+    "entities/factions/continental-guild-concord.md": {
+      "schema_version": 1,
+      "classification": "PROPOSED",
+      "operational": false,
+      "approval_status": "REQUIRES APPROVAL",
+      "approval_source_ref": null,
+      "headquarters_location_id": null,
+      "branch_location_ids": [],
+      "leadership_ids": [],
+      "member_organization_ids": [],
+      "treasury_cp": null,
+      "membership_fee_cp": null,
+      "exam_fee_cp": null,
+      "commission_percent": null,
+      "divisions": [
+        {
+          "id": "concord-division:adventurers",
+          "name": "Adventurers Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Exploration, escorts and rescue coordination"
+          ],
+          "membership_requirements": [
+            "Identity/competence review relevant to chosen work"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Exploration, escorts and rescue coordination"
+          ],
+          "contract_types": [
+            "Escort",
+            "Exploration",
+            "Rescue"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "wayfarers-guild"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        },
+        {
+          "id": "concord-division:monster-hunters",
+          "name": "Monster Hunters Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Demonstrated threat assessment and lawful monster-related work"
+          ],
+          "membership_requirements": [
+            "Relevant tracking/safety/containment demonstration, not inherited combat rank"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Demonstrated threat assessment and lawful monster-related work"
+          ],
+          "contract_types": [
+            "Monster removal",
+            "Hazard containment"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "wayfarers-guild",
+            "archived:stonewatch"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        },
+        {
+          "id": "concord-division:bounty-hunters",
+          "name": "Bounty Hunters Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Verify notices, legal limits, evidence and humane handover"
+          ],
+          "membership_requirements": [
+            "Notice/warrant knowledge and lawful apprehension/custody demonstration"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Verify notices, legal limits, evidence and humane handover"
+          ],
+          "contract_types": [
+            "Authorized bounty work"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "wayfarers-guild"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        },
+        {
+          "id": "concord-division:merchants",
+          "name": "Merchants Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Trade records, contracts and provenance"
+          ],
+          "membership_requirements": [
+            "Trade/accounting competency, not monster combat"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Trade records, contracts and provenance"
+          ],
+          "contract_types": [
+            "Trade support",
+            "Supply coordination"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "archived:river-charter"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        },
+        {
+          "id": "concord-division:craftsmen",
+          "name": "Craftsmen Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Craft quality and material provenance"
+          ],
+          "membership_requirements": [
+            "Relevant practical craft demonstration"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Craft quality and material provenance"
+          ],
+          "contract_types": [
+            "Repair",
+            "Craft commission"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "archived:ironhand"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        },
+        {
+          "id": "concord-division:healers",
+          "name": "Healers Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Consent-based care, professional competence and referral"
+          ],
+          "membership_requirements": [
+            "Relevant healing/herbal practice assessment and safety"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Consent-based care, professional competence and referral"
+          ],
+          "contract_types": [
+            "Medical support",
+            "Escort care"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "archived:seven-lamps",
+            "dragon-slayer-academy"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        },
+        {
+          "id": "concord-division:dungeon-registrars",
+          "name": "Dungeon Registrars Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Record site identity, permits, surveys and exploration reports"
+          ],
+          "membership_requirements": [
+            "Recordkeeping, map and safety assessment"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Record site identity, permits, surveys and exploration reports"
+          ],
+          "contract_types": [
+            "Survey",
+            "Mapping",
+            "Research"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "wayfarers-guild",
+            "archived:scribes"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        },
+        {
+          "id": "concord-division:transport-navigators",
+          "name": "Transport and Navigators Division",
+          "classification": "PROPOSED",
+          "responsibilities": [
+            "Route planning, cargo care and navigation"
+          ],
+          "membership_requirements": [
+            "Relevant transport/navigation competence"
+          ],
+          "licensing": "Profession-specific design; actual credential, validity, fees and authority UNKNOWN",
+          "ranking": "Profession-specific assessment design; labels/thresholds unapproved and independent of combat power",
+          "services": [
+            "Route planning, cargo care and navigation"
+          ],
+          "contract_types": [
+            "Caravan escort",
+            "Navigation",
+            "Transport"
+          ],
+          "funding_model": "Proposed disclosed dues/service funding and identified client escrow where agreed; no amount, treasury or guarantee established",
+          "regional_representation": "Proposed independent local representation; territories, delegates, branches and agreements UNKNOWN",
+          "existing_guild_relationship_ids": [
+            "wayfarers-guild",
+            "archived:river-charter"
+          ],
+          "legal_limitations": "No automatic police, judicial, national or cross-border authority; participating guilds retain independence",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "changes/chronicles/guild-concord-contracts-design.md"
+          ]
+        }
+      ],
+      "financial_postings": []
+    },
+    "entities/mechanics/guild-network.md": {
+      "schema_version": 1,
+      "classifications": [
+        "CONFIRMED CANON",
+        "HISTORICAL ORGANIZATION",
+        "ARCHIVED DESIGN",
+        "PROPOSED",
+        "UNKNOWN IDENTITY",
+        "REQUIRES APPROVAL"
+      ],
+      "profile_owner_ids": [
+        "wayfarers-guild",
+        "dragon-slayer-academy"
+      ],
+      "organizations": [
+        {
+          "id": "wayfarers-guild",
+          "entity_id": "wayfarers-guild",
+          "classification": "CONFIRMED CANON",
+          "organization_type": "guild",
+          "archived_name": null,
+          "archived_site_labels": [],
+          "compatibility": "Independent guild; proposed Concord coordination cannot replace its authority",
+          "approval_status": null,
+          "source_refs": [
+            "entities/factions/wayfarers-guild.md"
+          ]
+        },
+        {
+          "id": "dragon-slayer-academy",
+          "entity_id": "dragon-slayer-academy",
+          "classification": "CONFIRMED CANON",
+          "organization_type": "academy",
+          "archived_name": null,
+          "archived_site_labels": [],
+          "compatibility": "Independent academy; no Concord membership or leadership transfer",
+          "approval_status": null,
+          "source_refs": [
+            "entities/factions/dragon-slayer-academy.md"
+          ]
+        },
+        {
+          "id": "northern-provisioning-consortium",
+          "entity_id": "northern-provisioning-consortium",
+          "classification": "CONFIRMED CANON",
+          "organization_type": "professional procurement organization, not automatically a guild",
+          "archived_name": null,
+          "archived_site_labels": [],
+          "compatibility": "Original owner remains authoritative; not automatically a Concord member or active supplier",
+          "approval_status": null,
+          "source_refs": [
+            "entities/factions/northern-provisioning-consortium.md"
+          ]
+        },
+        {
+          "id": "archived:ironhand",
+          "entity_id": null,
+          "classification": "ARCHIVED DESIGN",
+          "organization_type": "archived professional organization design",
+          "archived_name": "Ironhand Smiths\u2019 Compact",
+          "archived_site_labels": [
+            "Ironhollow",
+            "Caelthorne chapter"
+          ],
+          "compatibility": "Craft/material provenance overlap; no merger",
+          "approval_status": "REQUIRES APPROVAL",
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ]
+        },
+        {
+          "id": "archived:seven-lamps",
+          "entity_id": null,
+          "classification": "ARCHIVED DESIGN",
+          "organization_type": "archived professional organization design",
+          "archived_name": "Circle of Seven Lamps",
+          "archived_site_labels": [
+            "Caelthorne",
+            "Blackthorn healers\u2019 affiliate"
+          ],
+          "compatibility": "Healing overlap; no forced membership",
+          "approval_status": "REQUIRES APPROVAL",
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ]
+        },
+        {
+          "id": "archived:scribes",
+          "entity_id": null,
+          "classification": "ARCHIVED DESIGN",
+          "organization_type": "archived professional organization design",
+          "archived_name": "Scribes\u2019 Collegium",
+          "archived_site_labels": [
+            "Caelthorne",
+            "vault archive offices"
+          ],
+          "compatibility": "Records overlap; no new access rights",
+          "approval_status": "REQUIRES APPROVAL",
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ]
+        },
+        {
+          "id": "archived:river-charter",
+          "entity_id": null,
+          "classification": "ARCHIVED DESIGN",
+          "organization_type": "archived professional organization design",
+          "archived_name": "River Charter League",
+          "archived_site_labels": [
+            "Rivermere",
+            "Southbank Landing"
+          ],
+          "compatibility": "Transport/trade overlap; no new toll authority",
+          "approval_status": "REQUIRES APPROVAL",
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ]
+        },
+        {
+          "id": "archived:greenward",
+          "entity_id": null,
+          "classification": "ARCHIVED DESIGN",
+          "organization_type": "archived professional organization design",
+          "archived_name": "Greenward Covenant",
+          "archived_site_labels": [
+            "Elderwood/Silverbrook"
+          ],
+          "compatibility": "Ranger/spirit work overlap; local customs not superseded",
+          "approval_status": "REQUIRES APPROVAL",
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ]
+        },
+        {
+          "id": "archived:stonewatch",
+          "entity_id": null,
+          "classification": "ARCHIVED DESIGN",
+          "organization_type": "archived professional organization design",
+          "archived_name": "Stonewatch Wardens",
+          "archived_site_labels": [
+            "Blackthorn",
+            "northern roads"
+          ],
+          "compatibility": "Rescue/patrol overlap; not automatically Blackthorn Watch or a justice authority",
+          "approval_status": "REQUIRES APPROVAL",
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ]
+        }
+      ],
+      "branch_candidates": [
+        {
+          "id": "branch-proposal:wayfarers-eastrun",
+          "guild_id": "wayfarers-guild",
+          "candidate_settlement_id": "eastrun",
+          "classification": "ARCHIVED DESIGN",
+          "building_location_id": null,
+          "responsible_officer_id": null,
+          "operational_status": "UNVERIFIED \u2014 NOT AN OPERATIONAL BRANCH ASSERTION",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ],
+          "note": "Archived named branch candidate; current entity confirms unnamed branches, not this specific site. No premises, staff, supplies, opening or fees inferred."
+        },
+        {
+          "id": "branch-proposal:wayfarers-briarfall-crossing",
+          "guild_id": "wayfarers-guild",
+          "candidate_settlement_id": "briarfall-crossing",
+          "classification": "ARCHIVED DESIGN",
+          "building_location_id": null,
+          "responsible_officer_id": null,
+          "operational_status": "UNVERIFIED \u2014 NOT AN OPERATIONAL BRANCH ASSERTION",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ],
+          "note": "Archived named branch candidate; current entity confirms unnamed branches, not this specific site. No premises, staff, supplies, opening or fees inferred."
+        },
+        {
+          "id": "branch-proposal:wayfarers-rivermere",
+          "guild_id": "wayfarers-guild",
+          "candidate_settlement_id": "rivermere",
+          "classification": "ARCHIVED DESIGN",
+          "building_location_id": null,
+          "responsible_officer_id": null,
+          "operational_status": "UNVERIFIED \u2014 NOT AN OPERATIONAL BRANCH ASSERTION",
+          "approval_status": "REQUIRES APPROVAL",
+          "approval_source_ref": null,
+          "source_refs": [
+            "archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md"
+          ],
+          "note": "Archived named branch candidate; current entity confirms unnamed branches, not this specific site. No premises, staff, supplies, opening or fees inferred."
+        }
+      ],
+      "concord_proposal_id": "continental-guild-concord",
+      "automatic_financial_postings": false
+    },
+    "entities/rules/guild-membership-and-contracts.md": {
+      "schema_version": 1,
+      "rank_domains": [
+        "guild-license",
+        "combat-power",
+        "dungeon-threat",
+        "professional-certification",
+        "contract-difficulty"
+      ],
+      "rank_owner_ids": [
+        "theron-ashvale",
+        "lyanna-ashvale",
+        "garrick-vale",
+        "nyx-thorne",
+        "lyra-moonvale"
+      ],
+      "membership_procedure_classification": "PROPOSED",
+      "membership_steps": [
+        "registration",
+        "identity-verification",
+        "entry-examination",
+        "practical-demonstration",
+        "rank-advancement",
+        "specialization",
+        "renewal",
+        "suspension-review",
+        "appeal",
+        "revocation-review"
+      ],
+      "npc_role_categories": [
+        "guildmaster",
+        "reception-clerk",
+        "contract-officer",
+        "examiner",
+        "field-captain",
+        "merchant-representative",
+        "researcher",
+        "independent-adventuring-party"
+      ],
+      "justice_workflow_ref": "justice-and-jurisdiction",
+      "custody_owner_ref": "prisoner-custody",
+      "finance_owner_ref": "party-finances",
+      "new_license_records": [],
+      "new_staff_records": [],
+      "automatic_world_events": false
+    }
+  }
+}

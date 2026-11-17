@@ -22,3 +22,7 @@ Any new alliance, reputation score, institution, secret-world clock or changed l
 ## Phase 2 legal-response boundary
 
 The [government/legal framework](phase2-government-and-law.md) references eight criminal design labels only for bounded investigation/evidence/rights procedures. It adds no faction profiles, current crimes, investigations, leadership, safehouses or mystery connections. PR4 retains organization design ownership. Proposed legal process is not actual enforcement or an event clock, and the original six faction owners above remain unchanged.
+
+## Phase 2 approved organization designs
+
+The [guild/underworld directory](phase2-guilds-and-underworld.md) now routes six professional and eight criminal-design owners, with finite interests, proposed rivalries and ten-settlement commercial contexts. These designs do not add active operations to the original faction-activity registry. The Concord’s bounded charter now has design approval, while its legacy operational/division fields remain unactivated. No existing faction, conspiracy evidence, event, membership, resources, leadership or hidden truth is altered. Broader autonomy remains PR7.

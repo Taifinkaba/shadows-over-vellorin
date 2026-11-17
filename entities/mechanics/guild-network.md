@@ -9,6 +9,7 @@ source_refs:
 - entities/factions/dragon-slayer-academy.md
 - archive/legacy-modules/world/06-6-guilds-factions-and-local-operations.md
 - entities/factions/northern-provisioning-consortium.md
+- changes/chronicles/phase2-04-guild-underworld-approval.md
 ---
 
 # Guild identity and relationship crosswalk
@@ -214,6 +215,378 @@ Routing/classification authority only. Canon profiles and contracts belong to th
     }
   ],
   "concord_proposal_id": "continental-guild-concord",
-  "automatic_financial_postings": false
+  "automatic_financial_postings": false,
+  "approved_design_index": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md",
+    "professional_guild_ids": [
+      "ironhand-smiths-compact",
+      "circle-of-seven-lamps",
+      "scribes-collegium",
+      "river-charter-league",
+      "greenward-covenant",
+      "stonewatch-wardens"
+    ],
+    "criminal_faction_ids": [
+      "gilded-hand",
+      "thornless-circle",
+      "black-pick-syndicate",
+      "sable-current",
+      "red-antler-brotherhood",
+      "veiled-coin-exchange",
+      "broken-seal-society",
+      "nightglass-circle"
+    ],
+    "archive_promotions": [
+      {
+        "archived_id": "archived:ironhand",
+        "entity_id": "ironhand-smiths-compact",
+        "classification": "APPROVED DESIGN"
+      },
+      {
+        "archived_id": "archived:seven-lamps",
+        "entity_id": "circle-of-seven-lamps",
+        "classification": "APPROVED DESIGN"
+      },
+      {
+        "archived_id": "archived:scribes",
+        "entity_id": "scribes-collegium",
+        "classification": "APPROVED DESIGN"
+      },
+      {
+        "archived_id": "archived:river-charter",
+        "entity_id": "river-charter-league",
+        "classification": "APPROVED DESIGN"
+      },
+      {
+        "archived_id": "archived:greenward",
+        "entity_id": "greenward-covenant",
+        "classification": "APPROVED DESIGN"
+      },
+      {
+        "archived_id": "archived:stonewatch",
+        "entity_id": "stonewatch-wardens",
+        "classification": "APPROVED DESIGN"
+      }
+    ],
+    "concord_owner_ref": "continental-guild-concord",
+    "rules_owner_ref": "guild-membership-and-contracts",
+    "illicit_economy_owner_ref": "illicit-commerce-design",
+    "activity_owner_ref": "faction-activity",
+    "settlement_links": [
+      {
+        "settlement_id": "caelthorne",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "caelthorne:industry-civic-services",
+          "caelthorne:industry-luxury-crafts"
+        ],
+        "business_ids": [
+          "caelthorne:crownstep-exchange",
+          "caelthorne:lampwright-house",
+          "caelthorne:hearthbell-inn",
+          "caelthorne:three-copper-cups",
+          "caelthorne:amber-curtain",
+          "caelthorne:blue-thimble"
+        ],
+        "guild_candidate_ids": [
+          "circle-of-seven-lamps",
+          "scribes-collegium",
+          "ironhand-smiths-compact"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "gilded-hand",
+          "broken-seal-society"
+        ],
+        "trade_dependency_ids": [
+          "trade:eastrun--caelthorne",
+          "trade:ironhollow-hold--caelthorne",
+          "trade:rivermere--caelthorne",
+          "trade:caelthorne--rivermere",
+          "trade:stoneford--caelthorne"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "eastrun",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "eastrun:industry-grain",
+          "eastrun:industry-animals"
+        ],
+        "business_ids": [
+          "eastrun:bushel-and-bridle",
+          "eastrun:oat-crown-yard",
+          "eastrun:millrace-iron",
+          "eastrun:orchard-rest",
+          "eastrun:green-measure"
+        ],
+        "guild_candidate_ids": [
+          "river-charter-league",
+          "stonewatch-wardens"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "gilded-hand",
+          "red-antler-brotherhood"
+        ],
+        "trade_dependency_ids": [
+          "trade:eastrun--caelthorne",
+          "trade:briarfall-crossing--eastrun",
+          "trade:brackenford--eastrun",
+          "trade:windmere--eastrun",
+          "trade:eastrun--ironhollow-hold"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "briarfall-crossing",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "briarfall-crossing:industry-wood",
+          "briarfall-crossing:industry-wagons"
+        ],
+        "business_ids": [
+          "briarfall-crossing:copper-hoop-yard",
+          "briarfall-crossing:sawyers-table",
+          "briarfall-crossing:bridge-rest",
+          "briarfall-crossing:fern-and-kettle"
+        ],
+        "guild_candidate_ids": [
+          "greenward-covenant",
+          "stonewatch-wardens",
+          "ironhand-smiths-compact"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "thornless-circle",
+          "gilded-hand"
+        ],
+        "trade_dependency_ids": [
+          "trade:briarfall-crossing--eastrun",
+          "trade:silverbrook--briarfall-crossing"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "rivermere",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "rivermere:industry-shipping",
+          "rivermere:industry-fish",
+          "rivermere:industry-textiles"
+        ],
+        "business_ids": [
+          "rivermere:reedseal-stores",
+          "rivermere:net-and-needle",
+          "rivermere:saltbell-kitchen",
+          "rivermere:river-lantern",
+          "rivermere:nine-knots"
+        ],
+        "guild_candidate_ids": [
+          "river-charter-league",
+          "scribes-collegium"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "sable-current",
+          "veiled-coin-exchange"
+        ],
+        "trade_dependency_ids": [
+          "trade:rivermere--caelthorne",
+          "trade:caelthorne--rivermere",
+          "trade:southbank-landing--rivermere",
+          "trade:rivermere--windmere"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "ironhollow-hold",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "ironhollow-hold:industry-metals",
+          "ironhollow-hold:industry-stone"
+        ],
+        "business_ids": [
+          "ironhollow-hold:true-spark",
+          "ironhollow-hold:plumbline-yard",
+          "ironhollow-hold:hearthgate-provisions",
+          "ironhollow-hold:clan-road-rest"
+        ],
+        "guild_candidate_ids": [
+          "ironhand-smiths-compact",
+          "scribes-collegium"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "black-pick-syndicate",
+          "veiled-coin-exchange"
+        ],
+        "trade_dependency_ids": [
+          "trade:ironhollow-hold--caelthorne",
+          "trade:eastrun--ironhollow-hold"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "brackenford",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "brackenford:industry-farm-mill",
+          "brackenford:industry-services"
+        ],
+        "business_ids": [
+          "brackenford:willow-lantern",
+          "brackenford:forge",
+          "brackenford:herbalist",
+          "brackenford:watermill",
+          "brackenford:market"
+        ],
+        "guild_candidate_ids": [
+          "stonewatch-wardens",
+          "ironhand-smiths-compact",
+          "greenward-covenant"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "gilded-hand",
+          "red-antler-brotherhood"
+        ],
+        "trade_dependency_ids": [
+          "trade:brackenford--eastrun"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "silverbrook",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "silverbrook:industry-woodland"
+        ],
+        "business_ids": [
+          "silverbrook:honeycomb-bench",
+          "silverbrook:green-spoon",
+          "silverbrook:leafmark-yard"
+        ],
+        "guild_candidate_ids": [
+          "greenward-covenant",
+          "circle-of-seven-lamps"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "thornless-circle",
+          "nightglass-circle"
+        ],
+        "trade_dependency_ids": [
+          "trade:silverbrook--briarfall-crossing"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "stoneford",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "stoneford:industry-quarry"
+        ],
+        "business_ids": [
+          "stoneford:straightedge-yard",
+          "stoneford:fordpantry",
+          "stoneford:resting-plumb"
+        ],
+        "guild_candidate_ids": [
+          "ironhand-smiths-compact",
+          "stonewatch-wardens"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "black-pick-syndicate",
+          "veiled-coin-exchange"
+        ],
+        "trade_dependency_ids": [
+          "trade:stoneford--caelthorne"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "southbank-landing",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "southbank-landing:industry-river-food"
+        ],
+        "business_ids": [
+          "southbank-landing:grainstep-stores",
+          "southbank-landing:reed-oar",
+          "southbank-landing:netmenders-bowl",
+          "southbank-landing:banklight-ledger"
+        ],
+        "guild_candidate_ids": [
+          "river-charter-league",
+          "scribes-collegium"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "sable-current",
+          "broken-seal-society"
+        ],
+        "trade_dependency_ids": [
+          "trade:southbank-landing--rivermere"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      },
+      {
+        "settlement_id": "windmere",
+        "classification": "PROPOSED",
+        "industry_ids": [
+          "windmere:industry-pastoral"
+        ],
+        "business_ids": [
+          "windmere:wool-and-salt",
+          "windmere:shearers-hearth"
+        ],
+        "guild_candidate_ids": [
+          "greenward-covenant",
+          "river-charter-league",
+          "stonewatch-wardens"
+        ],
+        "criminal_pressure_candidate_ids": [
+          "red-antler-brotherhood",
+          "gilded-hand"
+        ],
+        "trade_dependency_ids": [
+          "trade:windmere--eastrun",
+          "trade:rivermere--windmere"
+        ],
+        "scope_condition": "Prospective commercial tensions/referrals only. Unknown realm assignment, current faction presence and unsurveyed roads remain unknown. These candidates do not expand a regional faction’s verified scope or assign a proprietor/member.",
+        "potential_relationships": "Professional training, title/material checks, voluntary referrals and lawful protection may encounter disputed documents, illicit goods or coercive demands, but no actual business contract, pressure, crime or guild affiliation exists by this record.",
+        "actual_affiliations": [],
+        "actual_events": []
+      }
+    ],
+    "actual_memberships": [],
+    "actual_events": []
+  }
 }
 ```
+
+## Phase 2 approved design routing
+
+The original archived rows are a dated source crosswalk. approved_design_index now promotes those same six concepts to one authoritative entity each, without creating a second identity. It separately routes eight criminal designs and prospective ten-settlement links. The old branch and confirmed-owner fields remain unchanged. No new membership, current supplier, route, actual branch or crime is established.

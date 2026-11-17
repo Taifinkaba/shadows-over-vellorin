@@ -10,6 +10,7 @@ source_refs:
 - entities/mechanics/guild-animal-registry.md
 - entities/mechanics/party-finances.md
 - entities/rules/justice-and-jurisdiction.md
+- changes/chronicles/phase2-04-guild-underworld-approval.md
 ---
 
 # Guild membership, rank and contract procedure
@@ -89,6 +90,153 @@ Public lookup views contain ordinary services and proposals only. No hidden moti
   "finance_owner_ref": "party-finances",
   "new_license_records": [],
   "new_staff_records": [],
-  "automatic_world_events": false
+  "automatic_world_events": false,
+  "approved_professional_rules": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md",
+    "applies_to_guild_ids": [
+      "ironhand-smiths-compact",
+      "circle-of-seven-lamps",
+      "scribes-collegium",
+      "river-charter-league",
+      "greenward-covenant",
+      "stonewatch-wardens"
+    ],
+    "annual_dues_references": [
+      {
+        "membership": "apprentice",
+        "amount_cp": 100,
+        "period": "year",
+        "kind": "approved-reference",
+        "source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md"
+      },
+      {
+        "membership": "journeyman",
+        "amount_cp": 300,
+        "period": "year",
+        "kind": "approved-reference",
+        "source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md"
+      },
+      {
+        "membership": "master",
+        "amount_cp": 800,
+        "period": "year",
+        "kind": "approved-reference",
+        "source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md"
+      },
+      {
+        "membership": "traveling-member",
+        "amount_cp": 200,
+        "period": "year",
+        "kind": "approved-reference",
+        "source_ref": "changes/chronicles/phase2-04-guild-underworld-approval.md"
+      }
+    ],
+    "dues_scope": "Prospective rate references for separately agreed professional membership only, not retroactive charges. Traveling membership is a mode, not a fourth competence rank. No automatic stacking, Concord fee or application to existing Wayfarers/academy arrangements.",
+    "professional_certification_levels": [
+      "apprentice",
+      "journeyman",
+      "master"
+    ],
+    "traveling_member_is_rank": false,
+    "automatic_combat_rank_equivalence": false,
+    "combat_scale_policy": "Preserve existing Wayfarers F through S+ ranks and all current character ranks with their original meaning. A master craftsperson receives no automatic adventurer rank, spell, license or combat power.",
+    "membership_and_elections": [
+      "Voluntary application, identity and relevant skills review without invented past enrollment",
+      "Willing paid/safe apprenticeship terms and supervised instruction",
+      "Profession-specific examination with recorded criteria and independent review",
+      "Certification only after an actual supported result, never from raw mana or combat rank alone",
+      "Elected accountable guild delegates, recusal and member/worker representation; no current appointment",
+      "Bounded privileges, work referrals and safe services without immunity or guaranteed work",
+      "Misconduct inquiry with evidence, notice, defense, proportionate suspension and independent appeal",
+      "Voluntary resignation/renewal and separately verified terms; no debt bondage or compelled labor"
+    ],
+    "contract_design_categories": [
+      "apprenticeship-agreement",
+      "skilled-labor",
+      "caravan-protection",
+      "research-commission",
+      "material-procurement",
+      "craft-certification",
+      "merchant-arbitration",
+      "guild-notice",
+      "contract-dispute",
+      "professional-discipline"
+    ],
+    "contract_template": {
+      "id": null,
+      "kind": null,
+      "status": "proposed",
+      "issuer": null,
+      "worker_or_counterparty": null,
+      "scope": null,
+      "professional_competence": null,
+      "consent_ref": null,
+      "legal_authority_ref": null,
+      "route_or_site_refs": [],
+      "materials_and_safety": null,
+      "term_or_deadline": null,
+      "compensation_quote_cp": null,
+      "verified_funding_ref": null,
+      "acceptance_evidence": null,
+      "completion_evidence": null,
+      "payment_evidence": null,
+      "source_refs": []
+    },
+    "association_statuses": [
+      {
+        "id": "lawful-guild",
+        "classification": "APPROVED DESIGN",
+        "meaning": "Recognized professional association; actual recognition must have applicable lawful evidence, not just a design label."
+      },
+      {
+        "id": "unrecognized-association",
+        "classification": "APPROVED DESIGN",
+        "meaning": "Recognition unverified/absent; not automatically criminal, banned or deprived of ordinary rights."
+      },
+      {
+        "id": "suspended-guild",
+        "classification": "APPROVED DESIGN",
+        "meaning": "Only an actual competent disciplinary decision with notice, reasons, defense and appeal can establish suspension."
+      },
+      {
+        "id": "outlawed-organization",
+        "classification": "APPROVED DESIGN",
+        "meaning": "Requires a verified jurisdiction, competent lawful prohibition and reviewable decision; never a blanket worldwide ban."
+      },
+      {
+        "id": "criminal-faction",
+        "classification": "APPROVED DESIGN",
+        "meaning": "Organizational unlawful-interest design; actual individual crimes, bans, warrants and seizures still require their own lawful evidence."
+      }
+    ],
+    "legal_consequences": "Only an actual competent lawful decision can establish recognition, suspension or outlawing. Possible effects include bounded suspension of association privileges, restrictions on use of a credential, withdrawal of a particular registration or court-supervised activity restrictions in a proved jurisdiction, with notice, defense and appeal. This does not punish unrelated members/clients or cancel independent contracts/title. A criminal-design label or guild notice issues no warrant, convicts nobody, seizes nothing and transfers no property; each coercive act needs separate lawful authority and evidence.",
+    "legal_decision_template": {
+      "organization_id": null,
+      "jurisdiction_id": null,
+      "decision_kind": null,
+      "competent_authority_id": null,
+      "legal_basis_ref": null,
+      "decision_evidence_ref": null,
+      "notice_and_defense_ref": null,
+      "appeal_or_review_ref": null,
+      "effective_scope": null
+    },
+    "justice_owner_ref": "justice-and-jurisdiction",
+    "finance_owner_ref": "party-finances",
+    "autonomy_owner_ref": "npc-autonomy-and-time",
+    "actual_memberships": [],
+    "actual_examinations": [],
+    "actual_certifications": [],
+    "actual_dues_events": [],
+    "actual_legal_bans": [],
+    "actual_suspensions": [],
+    "actual_contracts": [],
+    "actual_hires": []
+  }
 }
 ```
+
+## Phase 2 professional approval scope
+
+approved_professional_rules adds prospective professional rules and dues, without altering original rank owners, licenses, membership records or contracts. Traveling membership is not combat rank. Association design classes are not actual registration, suspension or banning decisions. Actual future agreements need willing parties, competence, lawful scope, finite resources and original contract/finance owners. All new event slots are empty.

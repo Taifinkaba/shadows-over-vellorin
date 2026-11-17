@@ -30,7 +30,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Guilds and contracts
 
-[Guild/contract directory](docs/guild-and-contract-directory.md) routes existing independent organizations, historical contract references and the proposed Concord. Archived branch designs, rank domains, funding and legal authority remain separate; no automatic payouts, licensing or enrollment.
+[Guild/contract directory](docs/guild-and-contract-directory.md) routes existing independent organizations, historical contracts and the [approved guild, voluntary Concord and underworld designs](docs/phase2-guilds-and-underworld.md). Archived branch designs, rank domains, funding and legal authority remain separate; no automatic payouts, licensing or enrollment.
 
 ## Dungeons and exploration
 
