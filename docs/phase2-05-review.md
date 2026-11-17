@@ -1,6 +1,6 @@
 # Phase 2 PR 5 — dungeon and exploration review
 
-PR number and URL: PR_LINK_PENDING (filled with GitHub’s assigned number immediately after opening).
+PR number and URL: [#28](https://github.com/Taifinkaba/shadows-over-vellorin/pull/28).
 
 Base: `90a0fa08d37b639be792c86bb44ab271a0752629`, latest main including merged PR #24–#27. Branch: `lore/phase2-05-dungeons`. Scope: PR 5 only; no merge or PR 6 implementation.
 
