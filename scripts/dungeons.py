@@ -58,7 +58,12 @@ def validate_dungeons(root, records, require, repository_file, unique_json):
     if not(required & records.keys()):return
     require(required<=records.keys(),'dungeons: incomplete framework')
     def shape(d,fields,label):
-        require(isinstance(d,dict) and set(d)==set(fields.split()),f'dungeons: invalid {label} fields')
+        expected_fields=set(fields.split())
+        extensions={'proposal crosswalk':'approved_design_index','ecology/hazards':'approved_reference_design',
+                    'exploration rules':'approved_exploration_design'}
+        if isinstance(d,dict) and extensions.get(label) in d:
+            expected_fields.add(extensions[label])
+        require(isinstance(d,dict) and set(d)==expected_fields,f'dungeons: invalid {label} fields')
     def text(s,label):
         require(isinstance(s,str) and s.strip(),f'dungeons: invalid {label}')
     def strings(values,label):

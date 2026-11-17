@@ -11,6 +11,7 @@ source_refs:
 - entities/mechanics/party-finances.md
 - entities/rules/story-mode.md
 - entities/mechanics/contract-registry.md
+- changes/chronicles/phase2-05-dungeon-approval.md
 ---
 
 # Exploration, ecology and finite loot procedure
@@ -133,6 +134,64 @@ A site-related contract must resolve through contract-registry to its original i
   "new_loot_records": [],
   "new_combat_events": [],
   "automatic_chest_refill": false,
-  "automatic_quest_completion": false
+  "automatic_quest_completion": false,
+  "approved_exploration_design": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-05-dungeon-approval.md",
+    "design_owner_ref": "dungeon-design-proposals",
+    "reference_owner_ref": "dungeon-ecology-and-hazards",
+    "historical_sections_owner_ref": "exploration-sections",
+    "finance_owner_ref": "party-finances",
+    "legal_owner_ref": "justice-and-jurisdiction",
+    "magic_owner_refs": [
+      "theron-spells",
+      "theron-abilities"
+    ],
+    "salvage_owner_refs": [
+      "shady-salvage",
+      "launder",
+      "seven-bells-inventory"
+    ],
+    "recovery_template": {
+      "event_id": null,
+      "status": "proposed",
+      "dungeon_design_id": null,
+      "area_id": null,
+      "item_description": null,
+      "source_ref": null,
+      "quantity": null,
+      "unit": null,
+      "verified_available_quantity": null,
+      "discovery_evidence_ref": null,
+      "recovery_evidence_ref": null,
+      "ownership_provenance_ref": null,
+      "transport_capacity_ref": null,
+      "legal_authority_ref": null,
+      "inventory_owner_ref": null,
+      "approved_update_evidence_ref": null,
+      "finance_transaction_ref": null
+    },
+    "procedure": "Design graphs and references are not discovered map facts or active hazards. Confirm actual location, lawful access, information, environmental evidence, finite resources and abilities before play. Declare stakes/costs/checks under existing rules; record observed outcomes only in original owners. Any actual recovery requires finite positive quantity within verified availability, evidence, title, lawful handling, transport and an approved original inventory/finance update.",
+    "actual_recoveries": [],
+    "actual_damage_events": [],
+    "actual_discoveries": [],
+    "actual_resource_postings": [],
+    "automatic_population": false,
+    "automatic_damage": false,
+    "automatic_loot": false,
+    "automatic_recovery": false,
+    "potential_reward_categories": [
+      "coins",
+      "tools",
+      "craft-materials",
+      "mineral-samples",
+      "historical-records",
+      "salvage-equipment",
+      "decorative-objects",
+      "rare-materials",
+      "research-fragments",
+      "relics-for-review"
+    ]
+  }
 }
 ```

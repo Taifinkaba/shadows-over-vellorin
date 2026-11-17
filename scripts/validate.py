@@ -576,6 +576,11 @@ def validate(root):
         from dungeons import validate_dungeons
     validate_dungeons(root, records, require, repository_file, unique_json)
     if __package__:
+        from .dungeon_designs import validate_dungeon_designs
+    else:
+        from dungeon_designs import validate_dungeon_designs
+    validate_dungeon_designs(root, records, require, repository_file, unique_json)
+    if __package__:
         from .economy import validate_economy
     else:
         from economy import validate_economy

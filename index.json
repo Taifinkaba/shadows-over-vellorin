@@ -2851,6 +2851,71 @@
         "guild-underworld",
         "approved-design"
       ]
+    },
+    {
+      "id": "hollowstone-mine",
+      "type": "mechanics",
+      "title": "Hollowstone Mine \u2014 dungeon design",
+      "path": "entities/mechanics/hollowstone-mine.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "dungeon-design",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "ashen-anvil",
+      "type": "mechanics",
+      "title": "Ashen Anvil \u2014 dungeon design",
+      "path": "entities/mechanics/ashen-anvil.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "dungeon-design",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "drowned-archive",
+      "type": "mechanics",
+      "title": "Drowned Archive \u2014 dungeon design",
+      "path": "entities/mechanics/drowned-archive.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "dungeon-design",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "pale-reliquary",
+      "type": "mechanics",
+      "title": "Pale Reliquary \u2014 dungeon design",
+      "path": "entities/mechanics/pale-reliquary.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "dungeon-design",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "shattered-meridian",
+      "type": "mechanics",
+      "title": "Shattered Meridian \u2014 dungeon design",
+      "path": "entities/mechanics/shattered-meridian.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "dungeon-design",
+        "approved-design"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
