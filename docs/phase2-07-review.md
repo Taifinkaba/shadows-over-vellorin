@@ -1,6 +1,6 @@
 # Phase 2 PR7 — NPC autonomy and test reduction review
 
-PR number and URL: PR_LINK_PENDING.
+PR number and URL: [#30](https://github.com/Taifinkaba/shadows-over-vellorin/pull/30).
 
 Base: `a507e9831bbbf5893ae5a294d5aeab83a513e6d5`, latest main including merged PRs #24–#29. Branch: `lore/phase2-07-npc-autonomy`. Scope: PR7 only; no merge, PR8 work or gameplay.
 
