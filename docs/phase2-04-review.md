@@ -1,6 +1,6 @@
 # Phase 2 PR 4 — guilds and underworld review
 
-PR number and URL: PR_LINK_PENDING (filled with GitHub’s assigned number immediately after opening).
+PR number and URL: [#27](https://github.com/Taifinkaba/shadows-over-vellorin/pull/27).
 
 Base: `71a72e9240a01f7175ab83d084a9f86ed7246bf6`, latest main including merged PR #24, #25 and #26. Branch: `lore/phase2-04-guilds-underworld`. Scope: PR 4 only. No merge or PR 5 implementation.
 
