@@ -8,7 +8,8 @@
     },
     "entities/mechanics/dungeon-ecology-and-hazards.md": {
       "before_sha256": "4405fac1192de2f561653c5a932e14cd8cb15a41338484ca6007353ea8447754",
-      "after_sha256": "81fcb9845287a2a161045bf1d7e920ccb8c195f0aa13f7eeca580ed139af8009"
+      "after_sha256": "124fa6cb2dd3e46d295ba0a0562de93c38b9ded8e2e184d26010d8b664d3405a",
+      "before_phase2_08_after_sha256": "81fcb9845287a2a161045bf1d7e920ccb8c195f0aa13f7eeca580ed139af8009"
     },
     "entities/rules/dungeon-exploration.md": {
       "before_sha256": "7a8f5e47c83b23466baad20143933638ac8a41d68f904f2981c2e8de9847a9a0",

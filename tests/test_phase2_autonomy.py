@@ -34,7 +34,7 @@ class ApprovedAutonomyTests(unittest.TestCase):
 
     def test_eight_unique_designs_and_prior_identities(self):
         entries=json.loads((self.root/'index.json').read_text())['entries'];ids=[e['id'] for e in entries]
-        self.assertEqual(len(ids),len(set(ids)));self.assertIn('246 entity records',validate(self.root))
+        self.assertEqual(len(ids),len(set(ids)));self.assertIn(f'{len(entries)} entity records',validate(self.root))
         for ident,(age,region) in FIGURES.items():
             with self.subTest(ident=ident):
                 _,d=self.payload(ident);a=d['autonomy_design'];self.assertEqual((a['age'],a['regional_association']),(age,region))

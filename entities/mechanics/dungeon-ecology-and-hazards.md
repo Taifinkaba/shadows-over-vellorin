@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-08-magic-combat-approval.md
 - changes/chronicles/dungeon-exploration-registry-design.md
 - entities/mechanics/outstanding-projects.md
 - entities/mechanics/seven-bells-inventory.md
@@ -496,6 +497,126 @@ Hazard pointers refer to existing physical records, not additional objects. Inst
     "actual_damage_events": [],
     "automatic_respawn": false,
     "automatic_scaling": false
+  },
+  "approved_combat_reference_profiles": {
+    "classification": "APPROVED INTEGRATION DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-08-magic-combat-approval.md",
+    "integration_owner_ref": "magic-and-combat-integration",
+    "profiles": [
+      {
+        "reference_id": "monster-reference:giant-cave-spider",
+        "classification": "DESCRIPTIVE COMBAT REFERENCE",
+        "physical_characteristics": "Large arthropod reference; actual size, anatomy and population remain unverified.",
+        "movement_capabilities": "Possible cautious crawling over physically suitable surfaces; no quantified speed, guaranteed climbing or flight.",
+        "attack_types": "Possible close bite/grip only if actual anatomy/range supports it; no venom, web attack, damage bonus or new power is granted.",
+        "attack_limits": "Reach, footing, prey access, physical condition and retreat route constrain contact; MP0 grants no magic.",
+        "defensive_characteristics": "Retain the approved DEF reference without new armor, immunity or resistance.",
+        "environmental_adaptations": "Suitable nest surfaces, viable prey, water and air; no automatic darkness sense or poison immunity.",
+        "resource_costs": "Actual physical effort/consumables/energy require source evidence; magical attack costs and recharge rules remain UNKNOWN. No new casting capability.",
+        "behavior": "Living predator may hunt/feed, rest, defend a nest, avoid stronger threats or retreat; cooperation only if supported.",
+        "retreat_conditions": "May withdraw when threatened or unable to reach prey, subject to actual escape access.",
+        "noncombat_interactions": "Observe at distance, avoid disturbance or withdraw; speech, taming and magical control are not assumed.",
+        "ecology_owner_field": "approved_reference_design.monster_references",
+        "defeat_consequences": "Only actual supported resolution establishes injury, incapacitation, death, dormancy or custody. No automatic restoration, mana absorption or erased consequence.",
+        "loot_limits": "No guaranteed reward. Finite actual recovery, title/provenance, lawful access, transport and original inventory/finance evidence under PR5/PR6 are required.",
+        "combat_ready": false,
+        "numerical_completion_status": "UNRESOLVED: attack, damage, movement, resistance and any magical costs require approved basis",
+        "new_spell_names": [],
+        "current_instances": null
+      },
+      {
+        "reference_id": "monster-reference:fungal-burrower",
+        "classification": "DESCRIPTIVE COMBAT REFERENCE",
+        "physical_characteristics": "Ground-associated herbivore/detritivore design; anatomy and dimensions remain unverified.",
+        "movement_capabilities": "Possible movement through suitable loose ground; no instant stone passage, numeric burrow speed or new tunnel created.",
+        "attack_types": "Possible contact shove/bite only with verified anatomy and supported mechanics; no infectious spore attack.",
+        "attack_limits": "Ground suitability, oxygen, moisture, reach and physical condition limit movement/contact; MP0 is no spell source.",
+        "defensive_characteristics": "Approved DEF is a reference only; no damage reduction, regeneration or resistance.",
+        "environmental_adaptations": "Finite moist habitat, food, air and viable substrate; no immunity to flooding, toxins or low oxygen.",
+        "resource_costs": "Actual physical effort/consumables/energy require source evidence; magical attack costs and recharge rules remain UNKNOWN. No new casting capability.",
+        "behavior": "May feed/rest, protect a refuge, avoid exposed areas or retreat; neither hostility nor cooperation is automatic.",
+        "retreat_conditions": "May retreat into an actually available suitable refuge; no guaranteed escape route.",
+        "noncombat_interactions": "Avoid damaging habitat, observe or pass at distance; no assumed speech or compulsory domestication.",
+        "ecology_owner_field": "approved_reference_design.monster_references",
+        "defeat_consequences": "Only actual supported resolution establishes injury, incapacitation, death, dormancy or custody. No automatic restoration, mana absorption or erased consequence.",
+        "loot_limits": "No guaranteed reward. Finite actual recovery, title/provenance, lawful access, transport and original inventory/finance evidence under PR5/PR6 are required.",
+        "combat_ready": false,
+        "numerical_completion_status": "UNRESOLVED: attack, damage, movement, resistance and any magical costs require approved basis",
+        "new_spell_names": [],
+        "current_instances": null
+      },
+      {
+        "reference_id": "monster-reference:ash-sentinel",
+        "classification": "DESCRIPTIVE COMBAT REFERENCE",
+        "physical_characteristics": "Forge-protection construct reference; actual construction/material condition is unknown.",
+        "movement_capabilities": "Possible supported movement within an actual operating boundary; no flight, teleportation or numeric speed.",
+        "attack_types": "Possible physical interposition/contact strike if actual structure and mandate support it; no flame projectile or new spell.",
+        "attack_limits": "Physical reach, obstacles, mandate and a verified finite charge/source constrain action; MP40 does not establish attack costs or recharge.",
+        "defensive_characteristics": "Retain reference DEF only; ash/forge association grants no heat immunity or resistance.",
+        "environmental_adaptations": "An actually supported forge environment, maintained mechanism and finite energy are required; no working forge is asserted.",
+        "resource_costs": "Actual physical effort/consumables/energy require source evidence; magical attack costs and recharge rules remain UNKNOWN. No new casting capability.",
+        "behavior": "Could guard, pause, stand down or avoid needless damage under a verified mandate; no predator feeding/hunting obligation.",
+        "retreat_conditions": "Could cease pursuit at mandate boundary or lack of safe support; no self-repair or auto recharge.",
+        "noncombat_interactions": "Observe, withdraw or seek lawful custodian review; communication/negotiation requires actual demonstrated capability.",
+        "ecology_owner_field": "approved_reference_design.monster_references",
+        "defeat_consequences": "Only actual supported resolution establishes injury, incapacitation, death, dormancy or custody. No automatic restoration, mana absorption or erased consequence.",
+        "loot_limits": "No guaranteed reward. Finite actual recovery, title/provenance, lawful access, transport and original inventory/finance evidence under PR5/PR6 are required.",
+        "combat_ready": false,
+        "numerical_completion_status": "UNRESOLVED: attack, damage, movement, resistance and any magical costs require approved basis",
+        "new_spell_names": [],
+        "current_instances": null
+      },
+      {
+        "reference_id": "monster-reference:waterbound-guardian",
+        "classification": "DESCRIPTIVE COMBAT REFERENCE",
+        "physical_characteristics": "Archive-protection guardian reference; body composition and actual embodiment remain unknown.",
+        "movement_capabilities": "Possible movement on supported surfaces or in water only if actual capability is established; no granted swimming speed, phase travel or breathing immunity.",
+        "attack_types": "Possible close physical blocking/contact action within a verified mandate; no water jet, drowning spell or new power.",
+        "attack_limits": "Actual medium, access, reach, mandate and finite energy constrain action; MP80 provides no invented magical cost.",
+        "defensive_characteristics": "Approved DEF alone; no fluid-body immunity, elemental resistance or regeneration.",
+        "environmental_adaptations": "Verified habitat/support and finite energy/mandate; water association creates no breathable pocket or unlimited ambient mana.",
+        "resource_costs": "Actual physical effort/consumables/energy require source evidence; magical attack costs and recharge rules remain UNKNOWN. No new casting capability.",
+        "behavior": "Could protect records, pause, avoid disproportionate force or disengage under a supported mandate; no automatic hostility.",
+        "retreat_conditions": "Could return to an established boundary or stand down after supported resolution; routes/capacity remain unknown.",
+        "noncombat_interactions": "Respect custody, observe or withdraw; dialogue only where actual communication and willingness permit.",
+        "ecology_owner_field": "approved_reference_design.monster_references",
+        "defeat_consequences": "Only actual supported resolution establishes injury, incapacitation, death, dormancy or custody. No automatic restoration, mana absorption or erased consequence.",
+        "loot_limits": "No guaranteed reward. Finite actual recovery, title/provenance, lawful access, transport and original inventory/finance evidence under PR5/PR6 are required.",
+        "combat_ready": false,
+        "numerical_completion_status": "UNRESOLVED: attack, damage, movement, resistance and any magical costs require approved basis",
+        "new_spell_names": [],
+        "current_instances": null
+      },
+      {
+        "reference_id": "monster-reference:ancient-reliquary-warden",
+        "classification": "DESCRIPTIVE COMBAT REFERENCE",
+        "physical_characteristics": "Ceremonial custody guardian reference; actual body, mechanism and condition remain unknown.",
+        "movement_capabilities": "Possible guarded movement within a verified sanctuary boundary; no quantified speed or unrestricted pursuit.",
+        "attack_types": "Possible physical interposition, restraint or contact strike with supported anatomy/rules; no legendary action or new spell.",
+        "attack_limits": "Actual reach, structure, lawful mandate, finite support and condition limit action; MP160 is not a source of invented powers/costs.",
+        "defensive_characteristics": "Retain reference DEF only; rankS supplies no immunity, resistance multiplier or free ward.",
+        "environmental_adaptations": "A lawful original custodial context, viable physical support and finite energy are required; none is currently instantiated.",
+        "resource_costs": "Actual physical effort/consumables/energy require source evidence; magical attack costs and recharge rules remain UNKNOWN. No new casting capability.",
+        "behavior": "Could guard, rest/dormantly pause, cooperate or refuse within a verified mandate; feeding/hunting is not imposed on a construct design.",
+        "retreat_conditions": "Could disengage or stand down within the verified mandate; no guaranteed deactivation, self-repair or revival.",
+        "noncombat_interactions": "Leave relics in place, seek lawful custodians, observe or withdraw; negotiation requires demonstrated communication and consent.",
+        "ecology_owner_field": "approved_reference_design.monster_references",
+        "defeat_consequences": "Only actual supported resolution establishes injury, incapacitation, death, dormancy or custody. No automatic restoration, mana absorption or erased consequence.",
+        "loot_limits": "No guaranteed reward. Finite actual recovery, title/provenance, lawful access, transport and original inventory/finance evidence under PR5/PR6 are required.",
+        "combat_ready": false,
+        "numerical_completion_status": "UNRESOLVED: attack, damage, movement, resistance and any magical costs require approved basis",
+        "new_spell_names": [],
+        "current_instances": null
+      }
+    ],
+    "actual_spawns": [],
+    "actual_encounters": [],
+    "actual_loot": [],
+    "automatic_respawn": false
   }
 }
 ```
+
+## PR8 descriptive completion and numerical limits
+
+The five original monster-reference IDs and all approved HP/MP/DEF/rank values stay in approved_reference_design. The added profiles describe bounded possibilities, not new creature entities, verified anatomy or abilities. All numerical gaps and combat_usable false remain intact. Descriptive integration is complete; numerical combat readiness is not. Existing five dungeon profiles retain25 areas,30 conditional connections,25 proposed encounters and12 hazards, with no discoveries, entrants, current populations or seeded loot. Shattered Meridian retains unresolved legacySS in dungeon-threat scope; no global rank is introduced.

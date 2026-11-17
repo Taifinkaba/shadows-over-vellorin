@@ -65,7 +65,7 @@ def validate_scope(root, *subsystems):
         header=parts[1] if len(parts)==3 and text.startswith('---\n') else text
         if header not in _METADATA:_METADATA[header]=frontmatter(path)
         records[entry['id']]=copy.deepcopy(_METADATA[header])
-    functions={'travel':'validate_geography','settlements':'validate_settlements',
+    functions={'magic_combat':'validate_magic_combat','travel':'validate_geography','settlements':'validate_settlements',
                'settlement_expansion':'validate_settlement_expansion','justice':'validate_justice',
                'guilds':'validate_guilds','guild_underworld':'validate_guild_underworld',
                'governments':'validate_governments','dungeon_designs':'validate_dungeon_designs',

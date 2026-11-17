@@ -2955,6 +2955,21 @@
         "autonomy",
         "approved-design"
       ]
+    },
+    {
+      "id": "magic-and-combat-integration",
+      "type": "mechanics",
+      "title": "Magic, combat and Phase 2 integration",
+      "path": "entities/mechanics/magic-and-combat-integration.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "magic",
+        "combat",
+        "integration",
+        "reference"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

@@ -36,6 +36,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [Dungeon/exploration directory](docs/dungeon-and-exploration-directory.md) routes historical sites/section states and the [five approved finite dungeon designs](docs/phase2-dungeons-and-exploration.md), with qualified geography, encounters, hazards and reference-only monster stats. Existing owners retain exploration, inventory and outcomes; no automatic resets, respawns, loot or clearing.
 
+## Magic and combat integration
+
+[Phase2 final summary](docs/phase2-final-integration-summary.md) and [PR8 review](docs/phase2-08-review.md) route the eight-school/combat procedure, original spell/item authorities and five descriptive monster references. Numerical gaps, cost repricing, locked abilities and unresolvedSS stay explicit; design completion grants no spell, usable opponent, recovery, discovery or gameplay activation.
+
 ## Property and economy
 
 [Property/economy directory](docs/property-and-economy-directory.md) routes existing property and business owners, payroll/construction/pricing/trade procedures and read-only financial reports. The existing finance ledger stays the single cash authority; no automatic income, payment, valuation or ownership change.

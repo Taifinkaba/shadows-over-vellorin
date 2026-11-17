@@ -57,7 +57,7 @@ class Phase2DungeonTests(unittest.TestCase):
                 self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),d['after_sha256'],path)
             for path,old in f['legacy_dungeon_payloads'].items():
                 now=json.loads(re.search(r'```json\n(.*?)\n```',(ROOT/path).read_text(),re.S)[1])
-                for field in ('approved_design_index','approved_reference_design','approved_exploration_design'):now.pop(field,None)
+                for field in ('approved_design_index','approved_reference_design','approved_exploration_design','approved_combat_reference_profiles'):now.pop(field,None)
                 self.assertEqual(now,old,path)
             for path in ('state/checkpoint.json','state/finance-ledger.json','entities/mechanics/dungeon-registry.md',
                          'entities/mechanics/exploration-sections.md','entities/mechanics/shady-salvage.md','entities/mechanics/theron-spells.md'):
