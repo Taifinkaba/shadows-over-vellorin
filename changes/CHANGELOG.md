@@ -1,3 +1,10 @@
+# Phase 2 PR5 — dungeon and exploration design
+
+- Base main90a0fa0 includes merged PR24–27. Promote five existing proposal identities to bounded indexed mechanics profiles, not actual locations. Candidate regions/entrances remain unverified; preserve D/B/A/S references and unresolved legacy SS without changing the proposed F–S+ scale.
+- Add25 named design areas/30 conditional physical connections with multiple internal retreat plans, ecological/resource constraints,25 prospective encounters and twelve descriptive hazard references. No hidden solution, current inhabitants, air/mana source, passable approach or automatic effect is established.
+- Record five exact approved monster rows as proposed references with combat use blocked until PR8; no creature entity, attack formula, population or resource pool. Add ten finite reward categories and an empty sourced-recovery template with quantity/title/transport/legal/update requirements, not a cache or award.
+- Keep PR3 law, PR4 faction interests, original travel, spells, salvage/evidence and persistence owners. Add bounded validation/regression checks, review inventories and before/after evidence for only three existing-owner extensions. No gameplay, discovery, damage, loot, money, quest/state changes, secrets, visibility action, merge or PR6 work.
+
 # Phase 2 PR4 — guild and underworld designs
 
 - Base main71a72e9 includes merged PR24/25/26. Promote six archived professional concepts once each to independent design owners; add eight separate criminal-faction designs with finite structural models, prospective tensions, lawful opposition and unknown current operations. No secret leadership, premises, funds, members, covert plans or mystery links.

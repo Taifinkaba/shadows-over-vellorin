@@ -5,6 +5,7 @@ status: research
 visibility: gm-reference
 source_refs:
 - changes/chronicles/dungeon-exploration-registry-design.md
+- changes/chronicles/phase2-05-dungeon-approval.md
 ---
 
 # Future dungeon design approval crosswalk
@@ -132,6 +133,40 @@ Five design candidates only; none is an active site entity, placed entrance, vis
       ]
     }
   ],
-  "automatic_instantiation": false
+  "automatic_instantiation": false,
+  "approved_design_index": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-05-dungeon-approval.md",
+    "profiles": [
+      {
+        "proposal_id": "dungeon-proposal:hollowstone-mine",
+        "entity_id": "hollowstone-mine"
+      },
+      {
+        "proposal_id": "dungeon-proposal:ashen-anvil",
+        "entity_id": "ashen-anvil"
+      },
+      {
+        "proposal_id": "dungeon-proposal:drowned-archive",
+        "entity_id": "drowned-archive"
+      },
+      {
+        "proposal_id": "dungeon-proposal:pale-reliquary",
+        "entity_id": "pale-reliquary"
+      },
+      {
+        "proposal_id": "dungeon-proposal:shattered-meridian",
+        "entity_id": "shattered-meridian"
+      }
+    ],
+    "ecology_hazards_owner_ref": "dungeon-ecology-and-hazards",
+    "exploration_owner_ref": "dungeon-exploration",
+    "actual_site_instantiations": [],
+    "automatic_discovery": false
+  }
 }
 ```
+
+## Phase 2 approval boundary
+
+approved_design_index now promotes these same five proposal identities to bounded public mechanics profiles. Original proposal fields remain the dated baseline, not a current denial of design approval. No surveyed location, actual site, current population, discovery or loot is instantiated. Raw SS remains an unresolved legacy label; the original proposed scale is unchanged.

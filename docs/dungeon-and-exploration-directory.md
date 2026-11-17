@@ -1,3 +1,9 @@
+# Phase 2 approved dungeon/exploration update
+
+Read the [five approved design profiles and reference guide](phase2-dungeons-and-exploration.md) and [PR5 review](phase2-05-review.md) first. The original five scoped proposals now each route to one public mechanics profile, with finite architecture, ecology/hazards, proposed encounters and recovery constraints. Old unapproved-design statements below remain a dated baseline, superseded only for these bounded design fields. No actual location/entrance, route, population, damage, discovery, loot or historical event is instantiated. Original eighteen site/context labels, fourteen historical section records, creatures, salvage/evidence and state remain untouched. Legacy SS remains unresolved outside the unchanged proposed F–S+ scale; final combat integration remains PR8.
+
+---
+
 # Dungeon and exploration retrieval — Chunk 6
 
 The [dungeon registry](../entities/mechanics/dungeon-registry.md) routes 18 existing site/context labels. The [section directory](../entities/mechanics/exploration-sections.md) supplies14 source-bound section handles; [ecology/hazard references](../entities/mechanics/dungeon-ecology-and-hazards.md) point to existing owners. [Design proposals](../entities/mechanics/dungeon-design-proposals.md) and [exploration procedure](../entities/rules/dungeon-exploration.md) provide approval boundaries. Resolve entity IDs through [index.json](../index.json).

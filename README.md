@@ -34,7 +34,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Dungeons and exploration
 
-[Dungeon/exploration directory](docs/dungeon-and-exploration-directory.md) routes existing sites, source-derived section states, ecology/hazard references and unapproved designs. Existing owners retain exploration, inventory and outcomes; no automatic resets, respawns, loot or clearing.
+[Dungeon/exploration directory](docs/dungeon-and-exploration-directory.md) routes historical sites/section states and the [five approved finite dungeon designs](docs/phase2-dungeons-and-exploration.md), with qualified geography, encounters, hazards and reference-only monster stats. Existing owners retain exploration, inventory and outcomes; no automatic resets, respawns, loot or clearing.
 
 ## Property and economy
 
