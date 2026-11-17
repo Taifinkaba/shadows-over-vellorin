@@ -1627,6 +1627,409 @@
       "tags": [
         "day156"
       ]
+    },
+    {
+      "id": "aethoria",
+      "type": "locations",
+      "title": "Aethoria",
+      "path": "entities/locations/aethoria.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "vellorin",
+      "type": "locations",
+      "title": "Vellorin",
+      "path": "entities/locations/vellorin.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "reference"
+      ]
+    },
+    {
+      "id": "northern-marches",
+      "type": "locations",
+      "title": "Northern Marches",
+      "path": "entities/locations/northern-marches.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "reference"
+      ]
+    },
+    {
+      "id": "blackthorn-north-waystation",
+      "type": "locations",
+      "title": "Blackthorn North Waystation",
+      "path": "entities/locations/blackthorn-north-waystation.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "reference"
+      ]
+    },
+    {
+      "id": "ironhollow-hold",
+      "type": "locations",
+      "title": "Ironhollow Hold",
+      "path": "entities/locations/ironhollow-hold.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "reference"
+      ]
+    },
+    {
+      "id": "rivermere",
+      "type": "locations",
+      "title": "Rivermere",
+      "path": "entities/locations/rivermere.md",
+      "status": "last-verified",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "reference"
+      ]
+    },
+    {
+      "id": "elyndor",
+      "type": "locations",
+      "title": "Elyndor",
+      "path": "entities/locations/elyndor.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "frostmarch",
+      "type": "locations",
+      "title": "Frostmarch",
+      "path": "entities/locations/frostmarch.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "mount-elarion",
+      "type": "locations",
+      "title": "Mount Elarion",
+      "path": "entities/locations/mount-elarion.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "chunk2",
+        "reference"
+      ]
+    },
+    {
+      "id": "world-geography",
+      "type": "mechanics",
+      "title": "Geographic hierarchy and location directory",
+      "path": "entities/mechanics/world-geography.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "directory",
+        "chunk2"
+      ]
+    },
+    {
+      "id": "route-ashvale-eastrun",
+      "type": "locations",
+      "title": "Ashvale Estate\u2013Eastrun road",
+      "path": "entities/locations/route-ashvale-eastrun.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "historical"
+      ]
+    },
+    {
+      "id": "route-eastrun-briarfall",
+      "type": "locations",
+      "title": "Eastrun\u2013Briarfall foot route",
+      "path": "entities/locations/route-eastrun-briarfall.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "historical"
+      ]
+    },
+    {
+      "id": "route-waystation-brackenford",
+      "type": "locations",
+      "title": "Northern-road village branch",
+      "path": "entities/locations/route-waystation-brackenford.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "historical"
+      ]
+    },
+    {
+      "id": "route-brackenford-cottage",
+      "type": "locations",
+      "title": "Western Mill Lane approach",
+      "path": "entities/locations/route-brackenford-cottage.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "historical"
+      ]
+    },
+    {
+      "id": "route-caelthorne-ashvale-estate",
+      "type": "locations",
+      "title": "Caelthorne\u2013Ashvale Estate corridor proposal",
+      "path": "entities/locations/route-caelthorne-ashvale-estate.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-eastrun",
+      "type": "locations",
+      "title": "Caelthorne\u2013Eastrun corridor proposal",
+      "path": "entities/locations/route-caelthorne-eastrun.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-briarfall-crossing",
+      "type": "locations",
+      "title": "Caelthorne\u2013Briarfall Crossing corridor proposal",
+      "path": "entities/locations/route-caelthorne-briarfall-crossing.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-blackthorn-watch",
+      "type": "locations",
+      "title": "Caelthorne\u2013Blackthorn Watch corridor proposal",
+      "path": "entities/locations/route-caelthorne-blackthorn-watch.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-ironhollow-hold",
+      "type": "locations",
+      "title": "Caelthorne\u2013Ironhollow Hold corridor proposal",
+      "path": "entities/locations/route-caelthorne-ironhollow-hold.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-rivermere",
+      "type": "locations",
+      "title": "Caelthorne\u2013Rivermere corridor proposal",
+      "path": "entities/locations/route-caelthorne-rivermere.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-frostspire-peaks",
+      "type": "locations",
+      "title": "Caelthorne\u2013Frostspire Peaks corridor proposal",
+      "path": "entities/locations/route-caelthorne-frostspire-peaks.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-ashvale-estate-ashvale-lodge",
+      "type": "locations",
+      "title": "Estate\u2013developed lodge access proposal",
+      "path": "entities/locations/route-ashvale-estate-ashvale-lodge.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-eastrun-greyhaven-mill",
+      "type": "locations",
+      "title": "Eastrun\u2013Greyhaven Mill connection proposal",
+      "path": "entities/locations/route-eastrun-greyhaven-mill.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-eastrun-greyhaven-valley",
+      "type": "locations",
+      "title": "Eastrun\u2013Greyhaven Valley connection proposal",
+      "path": "entities/locations/route-eastrun-greyhaven-valley.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-blackthorn-watch-blackthorn-north-waystation",
+      "type": "locations",
+      "title": "Watch\u2013North Waystation connection proposal",
+      "path": "entities/locations/route-blackthorn-watch-blackthorn-north-waystation.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-mount-vaelspire",
+      "type": "locations",
+      "title": "Caelthorne\u2013Vaelspire northern approach proposal",
+      "path": "entities/locations/route-caelthorne-mount-vaelspire.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-elyndor",
+      "type": "locations",
+      "title": "Elyndor network connection proposal",
+      "path": "entities/locations/route-caelthorne-elyndor.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-caelthorne-frostmarch",
+      "type": "locations",
+      "title": "Frostmarch network connection proposal",
+      "path": "entities/locations/route-caelthorne-frostmarch.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "route",
+        "chunk2",
+        "proposed"
+      ]
+    },
+    {
+      "id": "travel-routes",
+      "type": "mechanics",
+      "title": "Road and route registry",
+      "path": "entities/mechanics/travel-routes.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "routes",
+        "chunk2"
+      ]
+    },
+    {
+      "id": "travel-procedure",
+      "type": "rules",
+      "title": "Travel planning and narration procedure",
+      "path": "entities/rules/travel-procedure.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "travel",
+        "rules",
+        "chunk2"
+      ]
+    },
+    {
+      "id": "seven-bells-witness-entry",
+      "type": "locations",
+      "title": "Seven Bells independent Witness entry",
+      "path": "entities/locations/seven-bells-witness-entry.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "dungeon-entrance",
+        "chunk2"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
