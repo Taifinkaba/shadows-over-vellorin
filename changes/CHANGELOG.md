@@ -1,3 +1,10 @@
+# Settlements, businesses and services — chunk 3
+
+- Add a retrieval-only directory for eleven existing settlement/site/property profiles, fourteen source-backed parent-scoped business/service records, and zero proposed business instances. No new location or NPC entities.
+- Preserve original location prose/frontmatter and existing ownership, Tomas/Bren responsibilities and staffing. Link existing institutions and route IDs without adopting proposed roads, supplying new court/prison/guild institutions or duplicating services.
+- Separate historical paid construction, proposed archived price bands, unknown current quotes, goods categories and unverified counted stock. Add activity categories without events or financial postings.
+- Add read-only schema/reference/evidence validation, regression tests and preservation hashes; update index routing, validation documentation and README. State, ledger, archive, character/quest/inventory records, route data and visibility unchanged; no Day181 adoption or gameplay advance.
+
 # Geography, roads and travel — chunk 2
 
 - Add indexed geographic hierarchy,18 route records and reusable travel procedure. Preserve all18 existing location records; promote six evidenced place names plus an existing Seven Bells entrance, and retain Aethoria/Elyndor/Frostmarch as proposed placeholders.

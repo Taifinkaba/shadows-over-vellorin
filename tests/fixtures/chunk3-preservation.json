@@ -1,0 +1,34 @@
+{
+  "baseline_commit": "cbd3bc23019faac01f7b5e42dadc2e70c7377913",
+  "source_prefix_sha256": {
+    "entities/locations/eastrun.md": "e4cf5bf898c2d15ae4892f9a258f65174399edc39773d91aa333f7d4e6827b15",
+    "entities/locations/briarfall-crossing.md": "ac7a480a395fb0c429c7468e37ee0f29a01adfaf24bb60679868bff010b5f9ff",
+    "entities/locations/greyhaven-mill.md": "200b22122ce9f0cfe2262ea8973ce2936893cbff8de3702fff4050cfc22d702a",
+    "entities/locations/greyhaven-valley.md": "a6915e59164126105a63846ac2360d84cde7c02c2220378c5b70ebc639936e8a",
+    "entities/locations/northern-freight-enclosure.md": "b63b0cd7ecc8fc58d3fac16118d148b4dd021b86d2869514cf9ef727f16d6c1e",
+    "entities/locations/blackthorn-watch.md": "dbd359d91521c415db8d686bfdf9c5afb695ad5df828299353835e0c994ae55c",
+    "entities/locations/caelthorne.md": "7b3512c0925f0f8b3bc785efbf88be6d4a2b99be30c103475768c979c95c4243",
+    "entities/locations/brackenford.md": "e99f00ce36f2c87b89479f8ae8896a597a0e3a39ce4ac49fc1f03eb5fbe6738d",
+    "entities/locations/ashvale-estate.md": "b86aa0ca63de49d3acb6fa02230939b909973e2749d544a945a84007a76c63f8",
+    "entities/locations/ashvale-lodge.md": "0004235a6f0b60fb5a3e702045e28d2d304d81829eaa99acb93f2063de34ebcc",
+    "entities/locations/briarstone-cottage.md": "a22d6d4bcc54cf741562ab650d2691f6d7675d173c7f1b60e02ff3a462493985"
+  },
+  "protected_sha256": {
+    "state/checkpoint.json": "1083b116bdfbfac0946984420930178ebd31250ebf311362290f0a5cb6fed294",
+    "state/finance-ledger.json": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
+    "state/next-chat-handoff.md": "036fe9d479df936dab2e2635bf83c6e6221ec42f514b602cc20fd6f1333eb6ce",
+    "state/open-verifications.md": "9d44465ecfae77664d848ee33b189d934c88038039f999cffb11f4ea42169a01",
+    "entities/characters/tomas.md": "7a462d2e5a97287a35dfce5c6272afc9dccbd99df36ef10f8fe3f392705d4a69",
+    "entities/characters/bren.md": "ccf4c9b08a6a9b197109c4626c2591ab34fc7fd2a0f20ceb2dd15fedfdcf0b98",
+    "entities/characters/borin-emberhand.md": "e891470a1d2213aaa2495d8b4575ea4bb844b5b0863ed2d11da25100abff12f7",
+    "entities/characters/mara-fenwick.md": "b27b48709ccd433e8cab747d21523f348a4fa4cdbe0da2af77cfd744921efb25",
+    "entities/characters/seren-willowmere.md": "88915ded4e43008c151d9d66974785669e759ee31f8dd942ad52c0eabfb8fc45",
+    "entities/characters/harlan-wicks.md": "bfa637fecfea7ec25f75d1870a2bd03a3f9707904db37ef37bd42a8b89d94f90",
+    "entities/characters/elsbeth-marrin.md": "5480c6bfc939dad1f2bfc38e26e7cec4a5d52569f727336a7dd5983b71ed521e",
+    "entities/characters/ressa-vale.md": "e65c396f32bb1b4ae1e6a8c1217a72b1e0248e75f3d8c18e5b2e2b6a509a68da",
+    "entities/characters/mira-lodge-helper.md": "0ed5f00172c7e0fc45700c467e02172f18d21a6a6bcd2f87146fdd3e460f6782",
+    "entities/characters/joren.md": "2ae31d8aa39846c408b4660939ed8512b5820f7c1ed42b1568d824c2ca41334c",
+    "entities/characters/elsi.md": "f0106dfc0d01af5f76a5d35bcb4808e247b736c0dd74b95196626469d28f64fc",
+    "entities/characters/master-beren.md": "0d9cca2cf16378458e03f5bb03f02dc598b60e18c7145b0afc91135669bf1d21"
+  }
+}

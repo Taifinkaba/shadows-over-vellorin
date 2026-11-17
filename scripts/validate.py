@@ -527,6 +527,11 @@ def validate(root):
     else:
         from travel import validate_geography
     validate_geography(root, records, require, repository_file, unique_json)
+    if __package__:
+        from .settlements import validate_settlements
+    else:
+        from settlements import validate_settlements
+    validate_settlements(root, records, require, repository_file, unique_json)
     return f"OK: {len(entries)} entity records, {len(archive_paths)} archived modules, checkpoint valid"
 
 

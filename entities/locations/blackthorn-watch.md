@@ -18,3 +18,58 @@ Lyanna and Caelan last verified safe here. Watch command and refuge/healing serv
 ## Through Day 153
 
 Caelan’s later consent-based evaluation produced only limited/temporary improvement; nightmares and memory gaps persist. He later declined an additional ritual and continues rehabilitation.
+
+## Settlement and business references — Chunk 3
+
+This structured reference section owns only the settlement/service lookup fields below. Earlier prose remains unchanged and retains its dated qualifications. Business IDs are parent-scoped retrieval labels, not new location entities or visits. UNKNOWN is JSON null; no quote, stock, vacancy or transfer is implied. See the settlement directory and existing finance owner for retrieval.
+
+```json
+{
+  "schema_version": 1,
+  "location_id": "blackthorn-watch",
+  "classification": "CONFIRMED CANON",
+  "nation_id": null,
+  "region_id": null,
+  "settlement_type": "watch/refuge site",
+  "population": null,
+  "government": "Watch command; civilian jurisdiction UNKNOWN",
+  "principal_official_id": null,
+  "watch": "Existing watch command; current personnel UNKNOWN",
+  "watch_official_id": null,
+  "court": null,
+  "route_ids": [
+    "route-caelthorne-blackthorn-watch",
+    "route-blackthorn-watch-blackthorn-north-waystation"
+  ],
+  "neighborhoods": null,
+  "nearby_location_ids": [],
+  "institutions": [
+    {
+      "kind": "watch",
+      "label": "Watch command",
+      "entity_id": null,
+      "classification": "CONFIRMED CANON"
+    },
+    {
+      "kind": "healing",
+      "label": "Existing refuge/healing services; scope/capacity/fees UNKNOWN",
+      "entity_id": null,
+      "classification": "CONFIRMED CANON"
+    }
+  ],
+  "service_links": [],
+  "local_problem_refs": [],
+  "notes": "UNKNOWN fields are not absent services. Site/property entry is not a newly declared town. Current availability and exact locations require in-play verification.",
+  "source_refs": [
+    "entities/locations/blackthorn-watch.md"
+  ],
+  "evidence": [
+    {
+      "source_ref": "entities/locations/blackthorn-watch.md",
+      "quote": "Watch command and refuge/healing services;"
+    }
+  ],
+  "businesses": [],
+  "territory_id": null
+}
+```
