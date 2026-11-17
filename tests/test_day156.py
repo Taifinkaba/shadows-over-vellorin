@@ -27,7 +27,7 @@ class Day156Tests(unittest.TestCase):
             validate_finance_ledger(self.root,self.state)
 
     def test_final_checkpoint(self):
-        self.assertIn('144 entity records',validate(self.root))
+        self.assertIn(f"{len(json.loads((self.root/'index.json').read_text())['entries'])} entity records", validate(self.root))
         s=self.state
         self.assertEqual((s['date'],s['calendar']['day_of_season'],s['time'],s['location'],s['status']),('Year 848 Day 156',36,'20:15','Ashvale Estate family sitting room','ENDED'))
         self.assertEqual((s['theron']['hp'],s['theron']['mp'],s['resources']['equipped_defense'],s['resources']['staff_mp'],s['resources']['wagon_mp']),(100,378,49,156,60))

@@ -16,6 +16,10 @@ Work in a `lore/*`, `session/*` or `reconcile/*` branch, or an explicitly user-r
 ## Data model
 Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibility`, `source_refs`. `index.json` is the machine-readable routing directory. `archive/legacy-modules` preserves original split files **as evidence, not current instructions**. Earlier source material was not rewritten or discarded. Optional `checkpoint_values` expose established snapshot facts for comparison with the checkpoint; they do not advance the campaign. See `docs/validation.md` for the schema, test commands and limits, and `archive/README.md` for source-path resolution.
 
+## Geography and travel
+
+[Travel retrieval guide](docs/geography-and-travel.md) routes to the indexed location hierarchy, road registry and travel procedure. Historical reports, proposed corridors and unknown conditions remain distinct; no automatic travel or resource spending.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 

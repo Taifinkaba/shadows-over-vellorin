@@ -522,6 +522,11 @@ def validate(root):
     for entity_id, data in records.items():
         require(entity_id in OWNERS or "checkpoint_values" not in data,
                 f"{entity_id}: unexpected checkpoint_values (declare ownership in validator)")
+    if __package__:
+        from .travel import validate_geography
+    else:
+        from travel import validate_geography
+    validate_geography(root, records, require, repository_file, unique_json)
     return f"OK: {len(entries)} entity records, {len(archive_paths)} archived modules, checkpoint valid"
 
 

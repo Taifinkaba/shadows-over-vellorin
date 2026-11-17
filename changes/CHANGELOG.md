@@ -1,3 +1,10 @@
+# Geography, roads and travel — chunk 2
+
+- Add indexed geographic hierarchy,18 route records and reusable travel procedure. Preserve all18 existing location records; promote six evidenced place names plus an existing Seven Bells entrance, and retain Aethoria/Elyndor/Frostmarch as proposed placeholders.
+- Distinguish four historical connections, seven archived corridor estimates and seven unverified connector proposals. Unknown mileage, conditions, intermediates, tolls and jurisdiction remain unknown; no location mergers or historical travel invented.
+- Add graph/source/classification validation and mutation tests, retrieval/schema documentation and endpoint service integration links for later chunks. Update Day156 entity-count assertion to use index size; numeric campaign assertions unchanged.
+- No campaign date/location, resources, inventory, custody, quests, assignments, outcomes, archive or repository visibility changes. Player approval required before proposed geography is adopted; no merge authorized.
+
 # World Bible integration audit and architecture — chunk 1
 
 - Add an evidence-based nine-system audit and proposed integration plan, including supplied Day181 versus repository Day156 reconciliation, financial/custody/knowledge boundaries and approval gates.
