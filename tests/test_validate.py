@@ -22,7 +22,7 @@ class RepositoryValidationTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix="vellorin-test-")
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        for name in ("entities", "archive", "state", "changes"):
+        for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT / name, self.root / name)
         shutil.copy2(ROOT / "index.json", self.root / "index.json")
         if self.__class__ is RepositoryValidationTests:
@@ -341,7 +341,7 @@ class CurrentCheckpointTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix="vellorin-current-")
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        for name in ("entities", "archive", "state", "changes"):
+        for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT / name, self.root / name)
         shutil.copy2(ROOT / "index.json", self.root / "index.json")
 

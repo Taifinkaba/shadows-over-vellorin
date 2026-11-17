@@ -16,7 +16,7 @@ class Day137Tests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix='vellorin-day137-')
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        for name in ('entities', 'archive', 'state', 'changes'):
+        for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT/name, self.root/name)
         shutil.copy2(ROOT/'index.json', self.root/'index.json')
         shutil.copy2(ROOT/'archive/checkpoints/year848-day137-0930.json', self.root/'state/checkpoint.json')

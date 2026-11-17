@@ -21,7 +21,7 @@ class JusticeTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix='vellorin-justice-')
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        for folder in ('entities','state','archive','changes'):
+        for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT/folder,self.root/folder)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
 

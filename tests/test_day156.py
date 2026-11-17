@@ -14,7 +14,7 @@ class Day156Tests(unittest.TestCase):
         self.temp=tempfile.TemporaryDirectory(prefix='vellorin-day156-')
         self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name)
-        for name in ('entities','archive','state','changes'):
+        for name in ('entities', 'archive', 'state', 'changes', 'docs', 'governance'):
             shutil.copytree(ROOT/name,self.root/name)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
         self.state=json.loads((self.root/'state/checkpoint.json').read_text())

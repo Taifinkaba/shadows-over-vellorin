@@ -571,6 +571,14 @@ def validate(root):
         quest_readiness = validate_quest_framework(root, records, require, repository_file, unique_json)
     except ValueError as exc:
         raise ValidationError(str(exc)) from exc
+    if __package__:
+        from .gm_dashboard import validate_gm_continuity
+    else:
+        from gm_dashboard import validate_gm_continuity
+    try:
+        validate_gm_continuity(root, records, require, repository_file, unique_json)
+    except ValueError as exc:
+        raise ValidationError(str(exc)) from exc
     quest_note = (f"; proposed quest plan pending {len(quest_readiness['missing_answer_approvals'])} answer approvals / "
                   f"{len(quest_readiness['unfilled_clue_route_ids'])} clue routes" if quest_readiness else "")
     return f"OK: {len(entries)} entity records, {len(archive_paths)} archived modules, checkpoint valid" + quest_note

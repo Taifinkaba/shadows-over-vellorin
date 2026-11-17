@@ -128,7 +128,7 @@ class EconomyTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(prefix='vellorin-economy-');self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name)
-        for directory in ('entities','state','archive','changes'):shutil.copytree(ROOT/directory,self.root/directory)
+        for directory in ('entities', 'state', 'archive', 'changes', 'docs', 'governance'):shutil.copytree(ROOT/directory,self.root/directory)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
 
     def path(self,ident):
@@ -150,7 +150,7 @@ class EconomyTests(unittest.TestCase):
             with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
 
     def test_report_leaves_every_source_unchanged(self):
-        before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities','state','archive','changes') for p in (self.root/folder).rglob('*') if p.is_file()}
+        before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance') for p in (self.root/folder).rglob('*') if p.is_file()}
         financial_report(self.root)
         self.assertEqual(before,{path:hashlib.sha256(Path(path).read_bytes()).hexdigest() for path in before})
 

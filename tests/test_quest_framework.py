@@ -20,7 +20,7 @@ class QuestFrameworkTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(prefix='vellorin-quest-');self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name)
-        for directory in ('entities','state','archive','changes'):shutil.copytree(ROOT/directory,self.root/directory)
+        for directory in ('entities', 'state', 'archive', 'changes', 'docs', 'governance'):shutil.copytree(ROOT/directory,self.root/directory)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
 
     def path(self,ident):return self.root/f"entities/{'rules' if ident=='quest-continuation-and-completion' else 'mechanics'}/{ident}.md"
@@ -62,7 +62,7 @@ class QuestFrameworkTests(unittest.TestCase):
         self.assertNotEqual(result.returncode,0);self.assertNotIn('invented',result.stdout)
 
     def test_all_validation_is_readonly(self):
-        before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities','state','archive','changes') for p in (self.root/folder).rglob('*') if p.is_file()}
+        before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance') for p in (self.root/folder).rglob('*') if p.is_file()}
         validate(self.root);readiness_report(self.root)
         self.assertEqual(before,{path:hashlib.sha256(Path(path).read_bytes()).hexdigest() for path in before})
 
