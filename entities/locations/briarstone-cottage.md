@@ -5,7 +5,15 @@ status: canon
 visibility: gm-reference
 source_refs:
 - changes/chronicles/year848-day156-end-session.md
+- changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+# Briarstone Cottage — player-confirmed repair completion
+
+House Ashvale ownership is preserved by explicit clarification; no retitling to Theron personally. Repairs completed by Year848 Suncrest45 Day165: roof/slate8gp, chimney/hearth3gp, doors/shutters/woodwork5gp, fence/gate4gp, interior cleaning4gp, well inspection/testing2gp; total26gp. Paid8gp Day158 and18gp Day165, once each, from uncommitted controlled funds with exact account/contractor/receipt/time unspecified. No new rental income, sale, valuation or municipal rights. The317gp lodge expansion is separate and remains unpaid/not started. Occupancy and other conditions are last verified under the historical record below, not a new inspection.
+
+## Historical record through Day156 (preserved)
+
 
 # Briarstone Cottage — Day156 current canon
 
@@ -41,9 +49,10 @@ This structured reference section owns only the settlement/service lookup fields
   "institutions": [],
   "service_links": [],
   "local_problem_refs": [],
-  "notes": "Separate House Ashvale property, not a business or inn. Vacant/habitable with minor repairs; no rent yet. No municipal rights or ownership transfer created.",
+  "notes": "House Ashvale property. Repairs completed Day165 by player-confirmed continuity; current occupancy not newly verified. No new rental income, ownership change or municipal rights.",
   "source_refs": [
-    "entities/locations/briarstone-cottage.md"
+    "entities/locations/briarstone-cottage.md",
+    "changes/chronicles/year848-day181-cottage-mana-reconciliation.md"
   ],
   "evidence": [
     {

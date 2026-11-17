@@ -10,7 +10,7 @@ import yaml
 from scripts.validate import validate,ValidationError,validate_finance_ledger
 from scripts.gm_dashboard import build_dashboard,verify_view,render_markdown
 from scripts.economy import financial_report
-from snapshot_helpers import restore_day156
+from snapshot_helpers import restore_day156,restore_unresolved_day181
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -19,6 +19,7 @@ class Day181Tests(unittest.TestCase):
         self.temp=tempfile.TemporaryDirectory(prefix='vellorin-day181-');self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name)
         for folder in ('entities','state','archive','changes','docs','governance'):shutil.copytree(ROOT/folder,self.root/folder)
         shutil.copy2(ROOT/'index.json',self.root/'index.json')
+        restore_unresolved_day181(self.root)
         self.state=json.loads((self.root/'state/checkpoint.json').read_text());self.ledger=json.loads((self.root/'state/finance-ledger.json').read_text())
 
     def save(self):

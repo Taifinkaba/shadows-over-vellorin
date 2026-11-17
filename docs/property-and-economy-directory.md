@@ -6,7 +6,7 @@ This directory routes existing authorities; it owns no balances, titles, payroll
 
 | Domain | Owner / procedure | Boundary |
 |---|---|---|
-| Current detailed finances | [finance ledger](../state/finance-ledger.json), [party finances](../entities/mechanics/party-finances.md) | Single current ledger3; Day181 endpoint projection is qualified, with Day156 preserved as history. Old tills/reserves are not extra cash. Control does not prove sole personal legal title. |
+| Current detailed finances | [finance ledger](../state/finance-ledger.json), [party finances](../entities/mechanics/party-finances.md) | Single current ledger4; Day181 endpoint projection is qualified, with Day156 preserved as history. Old tills/reserves are not extra cash. Control does not prove sole personal legal title. |
 | Accounting / reports | [economy-accounting](../entities/mechanics/economy-accounting.md), `scripts/economy.py --report` | Read-only five-domain procedure; no posting engine or competing ledger. |
 | Business finances | [business-financial-references](../entities/mechanics/business-financial-references.md), [settlement directory](settlement-directory.md) | Fourteen existing parent-scoped references, owner/manager/operator dereferenced from parents. Null current receipts/expenses; no daily profit. |
 | Property / equipment | [property-financial-references](../entities/mechanics/property-financial-references.md) | Four property contexts plus original equipment/animal/inventory owners; no appraisal total or ownership change. |
@@ -28,7 +28,7 @@ Each property reference supports name/location/type/owner/manager, land/building
 
 ## Financial report and recognition
 
-Run `python scripts/economy.py --report` from the repository (or `--root PATH`). Validation runs before rendering JSON. No files are written. Report source/as-of/qualification, controlled/committed/uncommitted cash, each source account owner label and exclusions separately. The current ledger3 represents the [adopted Day181 endpoint](day181-checkpoint-ledger-migration.md):745gp9sp controlled,317gp unpaid commitment,428gp9sp uncommitted; current account allocations remain UNKNOWN. The earlier Day156771gp9sp/317gp/454gp9sp position is preserved only as historical evidence.
+Run `python scripts/economy.py --report` from the repository (or `--root PATH`). Validation runs before rendering JSON. No files are written. Report source/as-of/qualification, controlled/committed/uncommitted cash, each source account owner label and exclusions separately. The current ledger4 represents the [reconciled Day181 endpoint](day181-final-reconciliation.md):745gp9sp controlled,317gp unpaid commitment,428gp9sp uncommitted; current account allocations remain UNKNOWN. The earlier Day156771gp9sp/317gp/454gp9sp position is preserved only as historical evidence.
 
 Income statement shows current-period receipts, incurred costs and profit UNKNOWN where coverage is absent. Eight modeled operating periods remain explicitly a player-approved reconstruction:2160gp receipts,1640gp expenses,520gp surplus/distribution already applied once. The69gp later net posting supplies no invented gross receipts or wage breakdown. Reconciliation reports pre-arc opening, posted net inflows/outflows, closing and arithmetic difference, while retaining the125gp unitemized bridge as an evidence gap. Zero arithmetic difference does not certify receipts.
 
@@ -46,7 +46,7 @@ Historical prices, verified quotations, proposed references, regional estimates 
 
 Trade templates support suppliers, business IDs, classified routes/access, contract, delivery cost, storage/capacity, inventory ownership and legally sourced customs/tolls, plus actual departure/arrival evidence. No supplier, working route, shipment or sale is inferred from the directory. Guild contract funding/outcome and road classification remain with their existing owners.
 
-Remaining UNKNOWN / REQUIRES APPROVAL: individual wage rates/due dates and payroll coverage, current business receipts/expenses, legal ownership detail for managed accounts, current academy accounts/premises title, property values, precise price-increase sources/quotes, active suppliers/customs/tolls, and any future transaction or schema migration. Day181's supplied745gp9sp controlled/317gp committed/428gp9sp uncommitted is now adopted with unresolved26gp provenance and account allocations; it is not an expense or assumed Blackscale withdrawal. No balancing entries.
+Remaining UNKNOWN / REQUIRES APPROVAL: individual wage rates/due dates and payroll coverage, current business receipts/expenses, legal ownership detail for managed accounts, current academy accounts/premises title, property values, precise price-increase sources/quotes, active suppliers/customs/tolls, and any future transaction. Day181's supplied745gp9sp controlled/317gp committed/428gp9sp uncommitted is now adopted with26gp cottage repair provenance now player-confirmed and current account allocations unresolved; no Blackscale withdrawal is assumed. No balancing entries.
 
 ## Preservation and limits
 

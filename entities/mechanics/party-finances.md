@@ -12,11 +12,19 @@ source_refs:
 - changes/chronicles/year848-day137-end-session.md
 - changes/chronicles/year848-day156-end-session.md
 - changes/chronicles/year848-day181-endpoint-adoption.md
+- changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
   money.total_gp_sp: 745gp 9sp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+# Day181 cottage reconciliation
+
+77190cp historical closing −800cp Day158 cottage deposit −1800cp Day165 final repairs =74590cp controlled at Day181. These two payments are already included; no second deduction. Expansion31700cp unpaid/not started;42890cp uncommitted. Current funding account and allocations remain UNKNOWN. Source is player-confirmed continuity, not invented receipts.
+
+## Prior endpoint/provenance record (superseded only where explicit above)
+
 
 # Party finances — Day181 supplied endpoint
 

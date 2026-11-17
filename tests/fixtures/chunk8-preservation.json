@@ -133,7 +133,7 @@
     "entities/characters/seren-willowmere.md": "88915ded4e43008c151d9d66974785669e759ee31f8dd942ad52c0eabfb8fc45",
     "entities/characters/serrik-vale.md": "1e28cbaf4d6ab17e96c806118b64a21f6eedf34ef1332c03424d6fdab9f88ebc",
     "entities/characters/severin-valcrest.md": "218ded4399a207b964e7a0fc26f2672b717839b81d982c4168e0f216edc5bd6e",
-    "entities/characters/theron-ashvale.md": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
+    "entities/characters/theron-ashvale.md": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600",
     "entities/characters/therons-mother.md": "9e3ddaa8667e3df3f52527558ea0b863abf0a0d185471ee820bed9f2521d5554",
     "entities/characters/tomas.md": "7a462d2e5a97287a35dfce5c6272afc9dccbd99df36ef10f8fe3f392705d4a69",
     "entities/characters/varian-morthal.md": "b365c5a988a274652fd1e3dc4ec36c9a0913ca30100a124709f2c7fda3cf0e31",
@@ -180,7 +180,7 @@
     "entities/locations/blackthorn-watch.md": "7e868fbe35755b80ba5d9d87032d7789dcc5773214ca053b11c9488eefe7442b",
     "entities/locations/brackenford.md": "4bfad71c4fdf2db29e9697ca76e4382a426023a5001ae6b92cd9dfce7acd2014",
     "entities/locations/briarfall-crossing.md": "7688637fd510a6a228bb37adbaa2d08b5a2935765dc61cd60cede34f8c157a6f",
-    "entities/locations/briarstone-cottage.md": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a",
+    "entities/locations/briarstone-cottage.md": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571",
     "entities/locations/caelthorne.md": "6b1390a51f0b853428e63b1ed71a8bfc3f3c01a7bfbbba784469412b57b3bf05",
     "entities/locations/eastrun.md": "a1cc082219986df86e0e542ab89c778966f6e089022f67baaa6100d5d1366170",
     "entities/locations/elyndor.md": "6ebc8195a861be0f055d8776444b959eacdc1c2b798d6960c5424412b16b346b",
@@ -234,14 +234,14 @@
     "entities/mechanics/launder.md": "3b72aefe7eefa33c82656987bbc0224b3aa9caea18d4d5809bae33579a440640",
     "entities/mechanics/local-settlement-activity.md": "8fbe5e320b779752dd95e0e8ea9c34a89ebbc10ed4990b3ff5b4c3e311298185",
     "entities/mechanics/outstanding-projects.md": "590c9e0e4b0722bbd2575000fbdffed97f19f436919a39bcbb923b778fa1a6b6",
-    "entities/mechanics/party-finances.md": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+    "entities/mechanics/party-finances.md": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9",
     "entities/mechanics/prisoner-custody.md": "82761adec4bfe8ac3fe54ca2ae5cb262cf9efd49c30a35c9ce884e0e5907be1f",
     "entities/mechanics/property-financial-references.md": "c65b871f5c0d7fda2f1fda072e44940302732b858eaed63d1972703a15ab5608",
     "entities/mechanics/service-price-references.md": "fdebcce49a245e33ae7b742635cd937d197a6da54bde5efe21445fa59d6075c4",
     "entities/mechanics/settlement-services.md": "48412fc8f0fe059ee44375fab75bd95423b70778d3e7ffb2de8a2ae8c1635cbc",
     "entities/mechanics/seven-bells-inventory.md": "ba0e67d7ffa6dddb6859be55446617b21fd9380bb9630a1ae5f594d1f7d0c511",
     "entities/mechanics/shady-salvage.md": "96b998d3d5d6c8c77946979b58f767760f8204a76ed120fece78206262a329f0",
-    "entities/mechanics/theron-abilities.md": "c292918ff83cde3da5d13fd832ef62f4eb1d22757eff57801f1dd6c517421e37",
+    "entities/mechanics/theron-abilities.md": "89f167964b719b9edd685bd45b6610acd91fbfff830e7ccdaf54e849f6038136",
     "entities/mechanics/theron-skills.md": "ad33625ac7da0ac508572d1a91954a71c6a454d6b617bbd365829e3383e7366f",
     "entities/mechanics/theron-spells.md": "15ddcc7f06b408da2f462caf64872495f8c086fbc733061185b1fd0e5642b73a",
     "entities/mechanics/travel-routes.md": "858d613d0c0193b289b68f09ad6b92be230521aea8a5c972fb161c7aaa4d9439",
@@ -269,10 +269,10 @@
     "entities/rules/payroll-construction-and-trade.md": "fbdc37e65d0c0f2eea770ed3cf3f6d448ba4db682e7a46cc60d1bfccec9283d4",
     "entities/rules/story-mode.md": "f985742aa061c45e350ff0a61b2e7c4f75bc5c91a674d455928d08110794baa8",
     "entities/rules/travel-procedure.md": "7a3e2f883bf3fa0bd89924a4e8eb5c3618a11cf1ca5a3105ee418ddc360ef61f",
-    "state/checkpoint.json": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
-    "state/finance-ledger.json": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
-    "state/next-chat-handoff.md": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
-    "state/open-verifications.md": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372"
+    "state/checkpoint.json": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7",
+    "state/finance-ledger.json": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9",
+    "state/next-chat-handoff.md": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5",
+    "state/open-verifications.md": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30"
   },
   "approved_day181_current_updates": {
     "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
@@ -304,6 +304,43 @@
       "entities/mechanics/theron-abilities.md": {
         "before_sha256": "1962032bbf293b0ba8089825cf2e78c97fd411f697e3b5b9cc056c30beda7514",
         "after_sha256": "c292918ff83cde3da5d13fd832ef62f4eb1d22757eff57801f1dd6c517421e37"
+      }
+    }
+  },
+  "approved_cottage_reconciliation_updates": {
+    "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+    "paths": {
+      "state/next-chat-handoff.md": {
+        "before_sha256": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
+        "after_sha256": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5"
+      },
+      "entities/mechanics/party-finances.md": {
+        "before_sha256": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+        "after_sha256": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9"
+      },
+      "state/checkpoint.json": {
+        "before_sha256": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
+        "after_sha256": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7"
+      },
+      "entities/characters/theron-ashvale.md": {
+        "before_sha256": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
+        "after_sha256": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600"
+      },
+      "state/finance-ledger.json": {
+        "before_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
+        "after_sha256": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9"
+      },
+      "entities/locations/briarstone-cottage.md": {
+        "before_sha256": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a",
+        "after_sha256": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571"
+      },
+      "entities/mechanics/theron-abilities.md": {
+        "before_sha256": "c292918ff83cde3da5d13fd832ef62f4eb1d22757eff57801f1dd6c517421e37",
+        "after_sha256": "89f167964b719b9edd685bd45b6610acd91fbfff830e7ccdaf54e849f6038136"
+      },
+      "state/open-verifications.md": {
+        "before_sha256": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
+        "after_sha256": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30"
       }
     }
   }

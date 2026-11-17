@@ -1,3 +1,9 @@
+# Player-confirmed Day181 cottage and mana reconciliation
+
+- Base main0184a2f includes merged PR21/22. Keep the Day181 endpoint and House Ashvale cottage ownership; explain2600cp by Day158800cp deposit and Day1651800cp final repair payment/completion, once only. Keep accounts/times/recipients unknown and31700cp expansion unpaid/not started.
+- Extend the sole ledger3 to4 with source-qualified historical post-arc payments and future maintenance support. Preserve immutable Day156 five-event arc, historical accounts, noncash/excluded property and future funding/authority requirements.
+- Reconcile personal378→400MP through one qualifying10minute assimilation interval24potential/22actual/2excess; date/location unknown. Update current provenance/owner records, read-only reports and tests, preserving prior unresolved evidence and unrelated canon. No gameplay, visibility change, secret disclosure or merge.
+
 # Approved Day181 endpoint and finance migration
 
 - Base on main1e3e2aa including merged audit PR21. Adopt supplied Year848 Suncrest61 Day18119:30 Ashvale Estate, HP100/100 MP400/400, normal49/conditional51 and unchanged finite staff/wagon pools; keep room/session status/current equipment/presence UNKNOWN. Preserve rank/attributes/locks and all abilities.

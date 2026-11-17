@@ -2,10 +2,10 @@
   "baseline_commit": "fe4d025d6e19423c4cc43e37a9069ad04f27d74b",
   "custody_prefix_sha256": "e3a57e816ba72e031a637095d6d80bb1469cba42fbf0dfd956364d7ce11ddadd",
   "protected_sha256": {
-    "state/checkpoint.json": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
-    "state/finance-ledger.json": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
-    "state/next-chat-handoff.md": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
-    "state/open-verifications.md": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
+    "state/checkpoint.json": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7",
+    "state/finance-ledger.json": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9",
+    "state/next-chat-handoff.md": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5",
+    "state/open-verifications.md": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30",
     "entities/characters/mara-vey.md": "0e90029aa11cd66566f1aa0798f8c9e69b5c6f4ac98ea62f09640b4267277029",
     "entities/characters/aldric-voss.md": "6f37457f729e1a9b03e2c7f171b4c39e94c3a4234758c283a08c233e3aa637ee",
     "entities/characters/ressa-vale.md": "e65c396f32bb1b4ae1e6a8c1217a72b1e0248e75f3d8c18e5b2e2b6a509a68da",
@@ -36,7 +36,7 @@
     "entities/mechanics/seven-bells-inventory.md": "ba0e67d7ffa6dddb6859be55446617b21fd9380bb9630a1ae5f594d1f7d0c511",
     "entities/mechanics/shady-salvage.md": "96b998d3d5d6c8c77946979b58f767760f8204a76ed120fece78206262a329f0",
     "entities/mechanics/launder.md": "3b72aefe7eefa33c82656987bbc0224b3aa9caea18d4d5809bae33579a440640",
-    "entities/mechanics/party-finances.md": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+    "entities/mechanics/party-finances.md": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9",
     "entities/quests/seven-bells-investigation.md": "e60754709b7f5de31382de4698ff0ee0108b949565fa780496fb7206acb06aa4",
     "entities/quests/first-oath-conspiracy.md": "52713e1a209a0ab787648fb66f613b4bc8e68d46a6993a110a9de6e359aa58d6"
   },
@@ -62,6 +62,31 @@
       "state/finance-ledger.json": {
         "before_sha256": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
         "after_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64"
+      }
+    }
+  },
+  "approved_cottage_reconciliation_updates": {
+    "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+    "paths": {
+      "state/next-chat-handoff.md": {
+        "before_sha256": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
+        "after_sha256": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5"
+      },
+      "entities/mechanics/party-finances.md": {
+        "before_sha256": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+        "after_sha256": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9"
+      },
+      "state/checkpoint.json": {
+        "before_sha256": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
+        "after_sha256": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7"
+      },
+      "state/finance-ledger.json": {
+        "before_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
+        "after_sha256": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9"
+      },
+      "state/open-verifications.md": {
+        "before_sha256": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
+        "after_sha256": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30"
       }
     }
   }

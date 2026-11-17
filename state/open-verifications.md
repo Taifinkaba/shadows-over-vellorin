@@ -1,3 +1,11 @@
+# Day181 confirmed cottage/mana reconciliation
+
+See [player-confirmed reconciliation](../changes/chronicles/year848-day181-cottage-mana-reconciliation.md). The26gp difference is now explained:8gp repair deposit Day158 and18gp final payment Day165, already included in745gp9sp. Cottage repairs completed Day165; House Ashvale ownership preserved by clarification,55gp noncash valuation unchanged, no rental income.317gp lodge expansion remains unpaid/not started;428gp9sp uncommitted. Exact payment account/recipient/contractor/time remain UNKNOWN; current account allocation unresolved.
+
+The22MP change is now explained by one qualifying uninterrupted10minute Spirit Mana Assimilation II interval:24 potential,22 actual after400 cap,2 excess. Exact date/location UNKNOWN. Nexus/wagon unchanged. No other intervening history, scene, training, income or outcome inferred. Day181 endpoint and unknown room/session/equipment/companion positions remain unchanged. Earlier provenance-gap entries below are historical, superseded only for these confirmations; all other gaps persist.
+
+## Preserved prior endpoint/verification record
+
 # Current verification queue — Day181 endpoint adoption
 
 Day181 is explicitly adopted as supplied continuity, not independently recovered gameplay history. Source: [adoption](../changes/chronicles/year848-day181-endpoint-adoption.md). Original Day156 checkpoint/ledger/allocations are preserved as history.

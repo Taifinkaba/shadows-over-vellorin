@@ -1,5 +1,7 @@
 # Day181 endpoint adoption and finance compatibility
 
+Historical PR22 migration design: its unresolved gaps are superseded by the [player-confirmed final reconciliation](day181-final-reconciliation.md). The earlier facts below describe the original adoption, not current unresolved cash/mana provenance.
+
 Prepared on main `1e3e2aa11f08f5d2d0ebff9fe8a29833e40f312e`, including merged audit PR21. Explicit player authorization adopts the supplied endpoint for this reconciliation PR; it does not authorize merge, new gameplay or reconstructed history. [Adoption source](../changes/chronicles/year848-day181-endpoint-adoption.md).
 
 | Field | Historical Day156 | Adopted Day181 |
