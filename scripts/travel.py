@@ -47,10 +47,14 @@ def validate_geography(root, records, require, repository_file, unique_json):
                 and data['schema_version'] == 1, f'travel: {ident}: unsupported schema')
         return data
 
-    def classify(value):
-        require(isinstance(value, str) and value in CLASSIFICATIONS, 'travel: invalid classification')
+    def classify(value, geographic=False):
+        allowed = CLASSIFICATIONS | ({'APPROVED DESIGN'} if geographic else set())
+        require(isinstance(value, str) and value in allowed, 'travel: invalid classification')
 
     geo = payload('world-geography')
+    design_ids = {e['id'] for e in json.loads((root / 'index.json').read_text())['entries']
+                  if 'approved-design' in e.get('tags', []) and e['type'] == 'locations'
+                  and not e['id'].startswith('route-')}
     shape(geo, 'schema_version nodes', 'directory')
     require(isinstance(geo['nodes'], list), 'travel: nodes must be list')
     nodes = {}
@@ -62,10 +66,16 @@ def validate_geography(root, records, require, repository_file, unique_json):
                 'travel: invalid location node')
         require(ident not in nodes, 'travel: duplicate canonical location/node')
         require(isinstance(node['kind'], str) and node['kind'] in KINDS, 'travel: invalid geographic kind')
-        classify(node['classification'])
+        classify(node['classification'], geographic=True)
         require((node['classification'] == 'PROPOSED') == (records[ident]['status'] == 'research'),
                 'travel: location proposed/canon metadata mismatch')
+        if node['classification'] == 'APPROVED DESIGN':
+            require(records[ident]['status'] == 'canon' and
+                    'changes/chronicles/phase2-01-geography-approval.md' in records[ident]['source_refs'],
+                    'travel: approved design requires approval provenance')
         require(isinstance(node['parents'], list), 'travel: parents must be list')
+        require((node['classification'] == 'APPROVED DESIGN') == (ident in design_ids),
+                'travel: approved design classification/metadata mismatch')
         nodes[ident] = node
     physical = {i for i, m in records.items() if m['type'] == 'locations' and not i.startswith('route-')}
     require(set(nodes) == physical, 'travel: location directory coverage mismatch')
@@ -89,8 +99,12 @@ def validate_geography(root, records, require, repository_file, unique_json):
                     'travel: invalid containment parent')
             require(parent not in parent_ids, 'travel: duplicate containment parent')
             parent_ids.add(parent)
-            classify(edge['classification'])
+            classify(edge['classification'], geographic=True)
             refs(edge['source_refs'], 'world-geography')
+            if edge['classification'] == 'APPROVED DESIGN':
+                require(node['classification'] != 'PROPOSED' and nodes[parent]['classification'] != 'PROPOSED'
+                        and 'changes/chronicles/phase2-01-geography-approval.md' in edge['source_refs'],
+                        'travel: invalid approved containment/provenance')
             if edge['classification'] == 'CONFIRMED CANON':
                 require(node['classification'] == nodes[parent]['classification'] == 'CONFIRMED CANON',
                         'travel: canonical containment through proposed location')

@@ -1,3 +1,17 @@
+# Phase 2 approved geography and travel
+
+Read [Phase 2 source approval](../changes/chronicles/phase2-01-geography-approval.md) and [map specification](phase2-geography-map-spec.md) first. The earlier Chunk 2 guide below remains a dated baseline; its claims that no realms were approved and Elyndor/Frostmarch lack types are superseded by this section and the current directory.
+
+APPROVED DESIGN is a geographic node/containment classification distinct from CONFIRMED CANON historical observations and PROPOSED unsurveyed corridors. It uses canon entity metadata plus explicit approval provenance and `approved-design` indexing; it grants no player knowledge or operational travel. Route classifications remain the original two-value schema, so realm approval cannot promote a road or duration into historical fact.
+
+Retrieve Vellorin, proposed Aethoria, Northern Marches and the five realm IDs `valedorn`, `elyndor`, `ironhollow-holds`, `rivermere-league`, `frostmarch` through index.json. `world-geography` owns all containment; realm profiles own safe terrain, climate, resources, government type and broad border design. Existing `ironhollow-hold` and `rivermere` stay settlements, separate from their realm IDs. Caelthorne is Valedorn’s capital. No existing officials, current conditions or historical outcomes change.
+
+The road registry now includes the Northern Marches–Frostmarch corridor and Elyndor Woodland Passage. Four requested existing corridor IDs are reused. All six remain PROPOSED and require topology/mode/condition review. The approved map has no invented distances, coordinates, exact borders, road operations or toll charges. Unknowns remain null; approved resources are not inventory.
+
+Repository visibility is public, verified before editing. Metadata is not access control; all added design is safe reference material, and no hidden answers are stored here. No repository visibility action is authorized.
+
+---
+
 # Geography and travel — GM retrieval guide
 
 The [geographic directory](../entities/mechanics/world-geography.md), [route registry](../entities/mechanics/travel-routes.md) and [travel procedure](../entities/rules/travel-procedure.md) extend the Chunk1 ownership plan. Retrieve an entity by ID through [index.json](../index.json). No existing location has moved; no campaign state changed.

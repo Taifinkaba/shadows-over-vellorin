@@ -1,3 +1,10 @@
+# Phase 2 PR 1 — approved geography and proposed travel
+
+- Base main9178c3c (merged Day181 reconciliation PR23). Establish five realm designs within territorial Vellorin; retain proposed Aethoria and existing Northern Marches hierarchy. Reuse Elyndor/Frostmarch and distinct settlement IDs, without relocating other existing places.
+- Add approved-design node/containment classification with provenance checks; routes keep historical/proposed classifications and all existing duration JSON unchanged. Reuse four requested corridors; add two region-scale proposals with unresolved gates and no executable itinerary.
+- Add terrain, climate, resource, river/forest/mountain/frontier descriptions, political relationships, map specification and retrieval updates. No exact distance, border survey, current condition, player discovery, official appointment, money or gameplay change.
+- Public visibility verified; safe design only, no secrets or visibility change. Historical snapshots, chronicles and state unchanged. Preservation digest revisions are limited to approved geography owners and recorded with before/after evidence. Stop after PR1; no merge or Phase2 continuation permission.
+
 # Player-confirmed Day181 cottage and mana reconciliation
 
 - Base main0184a2f includes merged PR21/22. Keep the Day181 endpoint and House Ashvale cottage ownership; explain2600cp by Day158800cp deposit and Day1651800cp final repair payment/completion, once only. Keep accounts/times/recipients unknown and31700cp expansion unpaid/not started.

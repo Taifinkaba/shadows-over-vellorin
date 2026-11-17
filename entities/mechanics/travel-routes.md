@@ -33,7 +33,9 @@ Routing only: follow each ID through index.json. Road entities are the sole owne
     "route-blackthorn-watch-blackthorn-north-waystation",
     "route-caelthorne-mount-vaelspire",
     "route-caelthorne-elyndor",
-    "route-caelthorne-frostmarch"
+    "route-caelthorne-frostmarch",
+    "route-northern-marches-frostmarch",
+    "route-elyndor-woodland-passage"
   ]
 }
 ```

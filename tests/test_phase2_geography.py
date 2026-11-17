@@ -1,0 +1,69 @@
+"""Approved fictional topology must not become historical or operational evidence."""
+import hashlib
+import json
+from pathlib import Path
+import re
+import shutil
+import tempfile
+import unittest
+
+from scripts.validate import ValidationError, validate
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class Phase2GeographyTests(unittest.TestCase):
+    def test_untouched_canon_and_authorized_revision_provenance(self):
+        manifest = json.loads((ROOT/'tests/fixtures/phase2-01-preservation.json').read_text())
+        for path, digest in manifest['unchanged_sha256'].items():
+            self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), digest, path)
+        for path, revision in manifest['authorized_geography_revisions'].items():
+            self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), revision['after_sha256'], path)
+            self.assertNotEqual(revision['before_sha256'], revision['after_sha256'])
+
+    def data(self, root, kind, ident):
+        return json.loads(re.search(r'```json\n(.*?)\n```', (root/f'entities/{kind}/{ident}.md').read_text(), re.S)[1])
+
+    def test_approved_relationships_and_unplaced_marches(self):
+        nodes = {n['id']: n for n in self.data(ROOT, 'mechanics', 'world-geography')['nodes']}
+        for ident in ('valedorn', 'elyndor', 'ironhollow-holds', 'rivermere-league', 'frostmarch'):
+            self.assertEqual(nodes[ident]['classification'], 'APPROVED DESIGN')
+            self.assertEqual(nodes[ident]['parents'][0]['id'], 'vellorin')
+        self.assertEqual(nodes['northern-marches']['parents'][0]['id'], 'vellorin')
+        self.assertEqual(nodes['caelthorne']['parents'][0]['id'], 'valedorn')
+        self.assertEqual(nodes['vellorin']['parents'][0]['classification'], 'PROPOSED')
+
+    def test_region_corridors_have_no_survey_or_duration(self):
+        for ident in ('route-northern-marches-frostmarch', 'route-elyndor-woodland-passage'):
+            d = self.data(ROOT, 'locations', ident)
+            self.assertEqual(d['classification'], 'PROPOSED')
+            self.assertIsNone(d['distance'])
+            self.assertEqual(d['durations'], [])
+            self.assertTrue(all(v is None for v in d['accessibility'].values()))
+            self.assertIsNone(d['patrol_jurisdiction'])
+            self.assertIsNone(d['toll_requirements'])
+
+    def mutate(self, ident, change, pattern, kind='mechanics'):
+        with tempfile.TemporaryDirectory() as name:
+            root = Path(name)
+            for folder in ('entities', 'state', 'archive', 'changes', 'docs', 'governance'):
+                shutil.copytree(ROOT/folder, root/folder)
+            shutil.copy2(ROOT/'index.json', root/'index.json')
+            p = root/f'entities/{kind}/{ident}.md'
+            s = p.read_text(); m = re.search(r'```json\n(.*?)\n```', s, re.S)
+            d = json.loads(m[1]); change(d)
+            p.write_text(s[:m.start(1)] + json.dumps(d, indent=2) + s[m.end(1):])
+            with self.assertRaisesRegex(ValidationError, pattern):
+                validate(root)
+
+    def test_approved_realm_cannot_become_historical_node(self):
+        self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='valedorn').update(classification='CONFIRMED CANON'), 'classification/metadata mismatch')
+
+    def test_approved_parent_requires_approval_evidence(self):
+        self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='valedorn')['parents'][0].update(source_refs=['entities/locations/brackenford.md']), 'approved containment/provenance')
+
+    def test_design_node_cannot_parent_historical_membership(self):
+        self.mutate('world-geography', lambda d: next(n for n in d['nodes'] if n['id']=='caelthorne')['parents'][0].update(classification='CONFIRMED CANON'), 'canonical containment through proposed')
+
+    def test_road_cannot_use_geographic_approval_classification(self):
+        self.mutate('route-northern-marches-frostmarch', lambda d: d.update(classification='APPROVED DESIGN'), 'invalid classification', 'locations')

@@ -1638,7 +1638,8 @@
       "tags": [
         "geography",
         "chunk2",
-        "proposed"
+        "proposed",
+        "phase2"
       ]
     },
     {
@@ -1711,12 +1712,13 @@
       "type": "locations",
       "title": "Elyndor",
       "path": "entities/locations/elyndor.md",
-      "status": "research",
+      "status": "canon",
       "visibility": "gm-reference",
       "tags": [
         "geography",
         "chunk2",
-        "proposed"
+        "phase2",
+        "approved-design"
       ]
     },
     {
@@ -1724,12 +1726,13 @@
       "type": "locations",
       "title": "Frostmarch",
       "path": "entities/locations/frostmarch.md",
-      "status": "research",
+      "status": "canon",
       "visibility": "gm-reference",
       "tags": [
         "geography",
         "chunk2",
-        "proposed"
+        "phase2",
+        "approved-design"
       ]
     },
     {
@@ -2442,6 +2445,73 @@
         "gm-workflow",
         "chunk10",
         "read-only"
+      ]
+    },
+    {
+      "id": "valedorn",
+      "type": "locations",
+      "title": "Valedorn",
+      "path": "entities/locations/valedorn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "phase2",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "ironhollow-holds",
+      "type": "locations",
+      "title": "Ironhollow Holds",
+      "path": "entities/locations/ironhollow-holds.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "phase2",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "rivermere-league",
+      "type": "locations",
+      "title": "Rivermere League",
+      "path": "entities/locations/rivermere-league.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "phase2",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "route-northern-marches-frostmarch",
+      "type": "locations",
+      "title": "Northern Marches\u2013Frostmarch corridor",
+      "path": "entities/locations/route-northern-marches-frostmarch.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "phase2",
+        "route",
+        "proposed"
+      ]
+    },
+    {
+      "id": "route-elyndor-woodland-passage",
+      "type": "locations",
+      "title": "Elyndor Woodland Passage",
+      "path": "entities/locations/route-elyndor-woodland-passage.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "geography",
+        "phase2",
+        "route",
+        "proposed"
       ]
     }
   ],

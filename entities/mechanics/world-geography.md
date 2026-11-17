@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/phase2-01-geography-approval.md
 - changes/chronicles/world-geography-travel-design.md
 - archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md
 - archive/legacy-modules/world/03-3-world-map-and-regions.md
@@ -16,7 +17,7 @@ source_refs:
 
 This directory is an authoritative routing/classification record, not approval of every node or edge. CONFIRMED CANON classifies established identity only, not every archived description. Empty parents mean UNKNOWN placement. A proposed parent edge never inherits canon from either endpoint. No exact coordinates or new borders.
 
-Hierarchy supports continent → territory/nation → region/province → city/town/village/hamlet → property/site. Missing layers stay absent. Unclassified Elyndor and Frostmarch are not silently assigned to a nation. Province, hamlet and entrance detail can be added only with sources. Existing dungeon sites have no newly surveyed entrance coordinates.
+Hierarchy supports continent → territory/nation → region/province → city/town/village/hamlet → property/site. Missing layers stay absent. APPROVED DESIGN distinguishes player-approved fictional geography from historical observations; it does not certify current conditions or Theron’s knowledge. Realm nodes use kind territory. Elyndor and Frostmarch now have approved realm identities. Province, hamlet and entrance detail can be added only with sources. Existing dungeon sites have no newly surveyed entrance coordinates.
 
 The following single JSON block owns directory membership and containment edges. Location entities own site facts; route entities own road data. All existing location IDs are reused. Greyhaven Mill/Valley and the two Hollows remain distinct; the hidden woodland lodge has no asserted identity with Ashvale Lodge. Known Brackenford streets/services remain in Brackenford, not duplicated as new settlements.
 
@@ -64,7 +65,15 @@ The following single JSON block owns directory membership and containment edges.
       "id": "caelthorne",
       "kind": "city",
       "classification": "CONFIRMED CANON",
-      "parents": []
+      "parents": [
+        {
+          "id": "valedorn",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
     },
     {
       "id": "ninth-vault",
@@ -208,25 +217,57 @@ The following single JSON block owns directory membership and containment edges.
       "id": "ironhollow-hold",
       "kind": "settlement",
       "classification": "CONFIRMED CANON",
-      "parents": []
+      "parents": [
+        {
+          "id": "ironhollow-holds",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
     },
     {
       "id": "rivermere",
       "kind": "settlement",
       "classification": "CONFIRMED CANON",
-      "parents": []
+      "parents": [
+        {
+          "id": "rivermere-league",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
     },
     {
       "id": "elyndor",
-      "kind": "unknown",
-      "classification": "PROPOSED",
-      "parents": []
+      "kind": "territory",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
     },
     {
       "id": "frostmarch",
-      "kind": "unknown",
-      "classification": "PROPOSED",
-      "parents": []
+      "kind": "territory",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
     },
     {
       "id": "mount-elarion",
@@ -239,6 +280,48 @@ The following single JSON block owns directory membership and containment edges.
       "kind": "dungeon-entrance",
       "classification": "CONFIRMED CANON",
       "parents": []
+    },
+    {
+      "id": "valedorn",
+      "kind": "territory",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ironhollow-holds",
+      "kind": "territory",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rivermere-league",
+      "kind": "territory",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
     }
   ]
 }
