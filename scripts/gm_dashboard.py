@@ -108,7 +108,7 @@ def build_dashboard(root):
         return {'value':item,'source_ref':source_ref,'as_of':as_of,'qualification':qualification}
     checkpoint='state/checkpoint.json';ledgerref='state/finance-ledger.json'
     c=json.loads(file(checkpoint).read_text());ledger=json.loads(file(ledgerref).read_text())
-    check((c['schema_version'],ledger['schema_version']) in ((5,2),(6,3)),'dashboard requires supported checkpoint5/ledger2 or checkpoint6/ledger3; no stale-schema fallback')
+    check((c['schema_version'],ledger['schema_version']) in ((5,2),(6,3),(6,4)),'dashboard requires supported checkpoint5/ledger2 or checkpoint6/ledger3; no stale-schema fallback')
     date=c['date']+' '+c['time'];scene={}
     for field in ('date','calendar','time','location','status'):
         # calendar exposes only the named season/day fields; never arbitrary future keys.
@@ -143,12 +143,18 @@ def build_dashboard(root):
         finances[key.removesuffix('_cp')+'_display']=value(f'{copper//100} gp {(copper%100)//10} sp {copper%10} cp',finances[key]['source_ref'],date,'Integer-copper display:1gp=100cp,1sp=10cp')
     finances['accounts']=[{'account_id':value(x['id'],ledgerref+f'#/controlled_cash/accounts/{i}/id',date),'balance_cp':value(x['balance_cp'],ledgerref+f'#/controlled_cash/accounts/{i}/balance_cp',date),'ownership_review':value(None,ledgerref+f'#/controlled_cash/accounts/{i}/owner',None,'Read source legal/control qualification; no new personal-title claim')} for i,x in enumerate(cash['accounts'])]
     finances['excluded_holdings']=[{'holding_id':value(x['id'],ledgerref+f'#/excluded_property/{i}/id'),'amount_cp':value(x['amount_cp'],ledgerref+f'#/excluded_property/{i}/amount_cp',None,'Excluded; source may be historical, approximate or noncash; not a certified current third-party cash total')} for i,x in enumerate(ledger['excluded_property'])]
-    if ledger['schema_version']==3:
+    if ledger['schema_version'] in (3,4):
         historyref=ledger['historical_day156_ref'];history=json.loads(file(historyref).read_text())
         finances['account_allocation_status']=value(cash['allocation_status'],ledgerref+'#/controlled_cash/allocation_status',date)
         finances['historical_day156_accounts']=value([{'id':a['id'],'balance_cp':a['balance_cp']} for a in history['controlled_cash']['accounts']],historyref+'#/controlled_cash/accounts',history['as_of']['date'],'Historical allocations only, not current account balances or funding authorization')
-        finances['unexplained_endpoint_difference_cp']=value(ledger['bridge']['difference_cp'],ledgerref+'#/bridge',None,'UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED; not a transaction or account assignment')
-        hero['unexplained_mp_endpoint_change']=value(c['provenance']['mp_bridge']['difference_mp'],checkpoint+'#/provenance/mp_bridge',None,'UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED; no recovery event')
+        if ledger['schema_version']==3:
+            finances['unexplained_endpoint_difference_cp']=value(ledger['bridge']['difference_cp'],ledgerref+'#/bridge',None,'UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED; not a transaction or account assignment')
+            hero['unexplained_mp_endpoint_change']=value(c['provenance']['mp_bridge']['difference_mp'],checkpoint+'#/provenance/mp_bridge',None,'UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED; no recovery event')
+        else:
+            finances['reconciled_repair_expense_cp']=value(2600,ledgerref+'#/post_arc_transactions','Year 848 Day 165','Player-confirmed maintenance; already included in endpoint; no account allocation')
+            finances['repair_payments']=value([{'id':t['id'],'date':t['date'],'amount_cp':t['amount_cp']} for t in ledger['post_arc_transactions']],ledgerref+'#/post_arc_transactions',None,'Two historical payments; times, recipients and accounts unknown')
+            finances['cottage_repairs_completed']=value(True,'changes/chronicles/year848-day181-cottage-mana-reconciliation.md','Year 848 Day 165','House Ashvale ownership retained; unrelated expansion remains unpaid')
+            hero['reconciled_mp_recovery']=value({'intervals':1,'minutes':10,'potential_mp':24,'actual_mp':22,'excess_mp':2,'cap':400,'date':None,'location':None},checkpoint+'#/provenance/mp_bridge',None,'Player-confirmed qualifying assimilation; exact date/location unknown')
         hero['endpoint_qualification']=value(c['provenance']['classification'],checkpoint+'#/provenance',date)
     finances['accounting_gaps']=value(None,'state/open-verifications.md',None,'Targeted source review required; no balancing entries or raw private gap text')
     assignments=data('independent-assignments');companions=[]

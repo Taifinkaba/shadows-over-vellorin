@@ -1,16 +1,16 @@
 {
   "baseline_commit": "90be489d61c69e014ba694fffb2aa79b38061902",
   "protected_sha256": {
-    "state/checkpoint.json": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
-    "state/finance-ledger.json": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
-    "state/next-chat-handoff.md": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
-    "state/open-verifications.md": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
+    "state/checkpoint.json": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7",
+    "state/finance-ledger.json": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9",
+    "state/next-chat-handoff.md": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5",
+    "state/open-verifications.md": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30",
     "entities/mechanics/shady-salvage.md": "96b998d3d5d6c8c77946979b58f767760f8204a76ed120fece78206262a329f0",
     "entities/mechanics/seven-bells-inventory.md": "ba0e67d7ffa6dddb6859be55446617b21fd9380bb9630a1ae5f594d1f7d0c511",
     "entities/mechanics/outstanding-projects.md": "590c9e0e4b0722bbd2575000fbdffed97f19f436919a39bcbb923b778fa1a6b6",
     "entities/quests/seven-bells-investigation.md": "e60754709b7f5de31382de4698ff0ee0108b949565fa780496fb7206acb06aa4",
     "entities/mechanics/launder.md": "3b72aefe7eefa33c82656987bbc0224b3aa9caea18d4d5809bae33579a440640",
-    "entities/mechanics/party-finances.md": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+    "entities/mechanics/party-finances.md": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9",
     "entities/mechanics/prisoner-custody.md": "82761adec4bfe8ac3fe54ca2ae5cb262cf9efd49c30a35c9ce884e0e5907be1f",
     "entities/mechanics/contract-registry.md": "482057869a05605dab2e40dc7f404eafca7b68b1523f6154af115101fccc8b38",
     "entities/factions/wayfarers-guild.md": "fb95a8d11019c7a4fa23aa3f18b2d9966b1d201ab639203c8f9bcc39f2d320a1",
@@ -18,7 +18,7 @@
     "entities/items/dragon-scales-stock.md": "33b91e6fc54861130bd758add815b5888f42a5297bf456ce206dc68e0d6b03fa",
     "entities/creatures/vaeltharion.md": "a74f06bff0c90ebe3d9e23253f466fed09bd0cc4cb61fb893608c95097eb059f",
     "entities/creatures/aeloryn.md": "102131cc7e6bdd173bbb390ad297a5cca4e2f3fbbe9db7df7f430b351ccb6855",
-    "entities/characters/theron-ashvale.md": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
+    "entities/characters/theron-ashvale.md": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600",
     "entities/characters/garrick-vale.md": "963751f9ec336a6810eb3f18933defbf6f753b7538d5badce81f75fb180a236d",
     "entities/characters/nyx-thorne.md": "e7b4602cb34638e926ea7f97b4d37acacb4ba93363de1e8080279789d893a6bb",
     "entities/characters/lyra-moonvale.md": "ea818203246b1007e847c2b24dc175f733c730d0d3685cc2549806b235f90c7c",
@@ -39,7 +39,7 @@
     "entities/locations/greyhaven-valley.md": "7e170b97e1b38736ae0ae9bc5eace683e77eb557e152efa365c9713345101e34",
     "entities/locations/hollow-first-hour.md": "2a3bceb882666d595041254c7d7b817381a9a3cd2ea5bd1655e892220f94c052",
     "entities/locations/north-return-house.md": "e156bb4d4fe11718ebd57696fec81a853caea99330ae64cdaee5ac3075996c1a",
-    "entities/locations/briarstone-cottage.md": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a",
+    "entities/locations/briarstone-cottage.md": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571",
     "entities/locations/brackenford.md": "4bfad71c4fdf2db29e9697ca76e4382a426023a5001ae6b92cd9dfce7acd2014",
     "entities/locations/aethoria.md": "d843ad6fe553dcb54fd6679711318a00296012d7d434c79f6db143396817bcf0",
     "entities/locations/vellorin.md": "8f97a620f159f97c094b770686305f4dd3af0762448f508f930b32e9666f34e5",
@@ -96,6 +96,39 @@
       "state/finance-ledger.json": {
         "before_sha256": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
         "after_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64"
+      }
+    }
+  },
+  "approved_cottage_reconciliation_updates": {
+    "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+    "paths": {
+      "state/next-chat-handoff.md": {
+        "before_sha256": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
+        "after_sha256": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5"
+      },
+      "entities/mechanics/party-finances.md": {
+        "before_sha256": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+        "after_sha256": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9"
+      },
+      "state/checkpoint.json": {
+        "before_sha256": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
+        "after_sha256": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7"
+      },
+      "entities/characters/theron-ashvale.md": {
+        "before_sha256": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
+        "after_sha256": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600"
+      },
+      "state/finance-ledger.json": {
+        "before_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
+        "after_sha256": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9"
+      },
+      "entities/locations/briarstone-cottage.md": {
+        "before_sha256": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a",
+        "after_sha256": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571"
+      },
+      "state/open-verifications.md": {
+        "before_sha256": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
+        "after_sha256": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30"
       }
     }
   }

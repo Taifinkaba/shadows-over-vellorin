@@ -241,10 +241,19 @@ Projection source fingerprints plus `--check-view PATH` reject stale/edited or u
 
 Negative tests cover documents/template completeness, source/index/visibility/ownership errors, cached state, automatic actions, outdated views, float/bool substitutions, raw mixed-narrative/secret filtering and stale-schema failure. Existing historical checkpoint fixtures and all preexisting campaign entity/state/archive/chronicle bytes are preservation-tested. Secret filtering is deliberately limited: this is a reviewed-field projection, not proof every gm-reference passage or the public repository is safe to disclose. Human source/claim/discovery review and genuinely private answer storage remain necessary. See [GM manual](game-master-operating-manual.md), [world status](world-status.md), [END SESSION template](end-session-codex-template.md) and [next-chat template](next-session-chat-template.md).
 
-## Approved Day181 migration — current checkpoint6 / finance3
+## Original approved Day181 migration — checkpoint6 / finance3
+
+This historical migration stage is superseded by finance4 below.
 
 [Migration design](day181-checkpoint-ledger-migration.md) documents the sole-authority extension, immutable Day156 snapshot hashes and before/after values. Checkpoint6 adds qualified endpoint provenance, UNKNOWN session/presence/equipment support, historical context references, conditional defense and a non-event22MP bridge. Core finite/resource/owner agreement checks remain; historical checkpoint2–5 validation is unchanged.
 
 Finance3 preserves ledger2 via immutable historical reference and runs every old reconciliation check. Current74590cp endpoint and2600cp unexplained nontransaction bridge stay distinct from actual future transactions. Current allocations start empty/UNKNOWN. Verified endpoint-opening allocations, authorities, event dates/quotes/status, IDs, controlled ownership, integer cash/revenue/commitment effects, sufficient balance, linked business/property and once-only application are validated. Internal transfers are not revenue; paid construction reduces cash and remaining commitment once. No real transaction, funding approval or progress event is created here.
 
 Dashboard/economy reports support both old and migrated schemas; current wearing and companion whereabouts remain unknown, historical account values are separately labeled and old views are stale. Existing Day156 tests deliberately load exact archived evidence; preservation-manifest updates affect only the seven authorized current files with before/after hash provenance. New tests protect unrelated authorities, immutable old history, unknown account allocation, the cash/MP gaps, negative transaction cases and disposable future-event compatibility. No public GM answers or actual gameplay writes are added.
+
+
+## Final Day181 reconciliation — checkpoint6 / finance4
+
+[Final reconciliation](day181-final-reconciliation.md) extends the same ledger; checkpoint schema6 remains. Two exact player-confirmed historical maintenance payments in `post_arc_transactions` reconcile77190−800−1800=74590cp. They have null times/accounts/recipients, explicit uncommitted-controlled funding scope and no commitment effect. The bridge is only derived disclosure. Future events begin at74590cp; repair IDs and the reconciliation source cannot be reused to pay again. Future maintenance uses the normal verified account/authority rules. Original ledger2 and unresolved ledger3 historical fixtures retain their checks.
+
+One confirmed qualifying10minute assimilation interval has24 potential/22 actual/2 excess personal MP under400cap; date/location null, finite staff/wagon pools unchanged. Schema4 requires this resolved provenance and rejects fabricated recovery detail. Dashboard and economy reporting support5/2,6/3,6/4 without duplicating authorities. Preservation revisions are restricted to eight authorized current files with before/after provenance; historical Day156 files/chronicles remain pinned. The archived unresolved-adoption record is evidence, never a second live authority.

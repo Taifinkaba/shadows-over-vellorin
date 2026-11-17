@@ -5,15 +5,15 @@
     "entities/factions/dragon-slayer-academy.md": "9d4d7bdb354ff404f3accf1eb80cfb095e241aaf9372348fc4e0a15a9f867727"
   },
   "protected_sha256": {
-    "state/checkpoint.json": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
-    "state/finance-ledger.json": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
-    "state/next-chat-handoff.md": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
-    "state/open-verifications.md": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
+    "state/checkpoint.json": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7",
+    "state/finance-ledger.json": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9",
+    "state/next-chat-handoff.md": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5",
+    "state/open-verifications.md": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30",
     "entities/mechanics/guild-animal-registry.md": "b39ee86c23c4fe28a9cb39825d30091d13a47862a05a7927245b85efba6dde54",
-    "entities/mechanics/party-finances.md": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+    "entities/mechanics/party-finances.md": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9",
     "entities/mechanics/prisoner-custody.md": "82761adec4bfe8ac3fe54ca2ae5cb262cf9efd49c30a35c9ce884e0e5907be1f",
     "entities/quests/first-oath-conspiracy.md": "52713e1a209a0ab787648fb66f613b4bc8e68d46a6993a110a9de6e359aa58d6",
-    "entities/characters/theron-ashvale.md": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
+    "entities/characters/theron-ashvale.md": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600",
     "entities/characters/lyanna-ashvale.md": "3683d3eb115571f7e1539f8ce7eb27d1ae4d2d3388fe8c95426790296f67b257",
     "entities/characters/garrick-vale.md": "963751f9ec336a6810eb3f18933defbf6f753b7538d5badce81f75fb180a236d",
     "entities/characters/nyx-thorne.md": "e7b4602cb34638e926ea7f97b4d37acacb4ba93363de1e8080279789d893a6bb",
@@ -41,7 +41,7 @@
     "entities/locations/ashvale-estate.md": "59a3d7915fe40f9c5bb47bf24e2d950a693ff28479b1b1c43210b2e2eae123a6",
     "entities/locations/ashvale-lodge.md": "b30b5021a105918071e6fdaba36ab8d4ac62f39c8474eeea520c3f4f09ed63f7",
     "entities/locations/brackenford.md": "4bfad71c4fdf2db29e9697ca76e4382a426023a5001ae6b92cd9dfce7acd2014",
-    "entities/locations/briarstone-cottage.md": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a"
+    "entities/locations/briarstone-cottage.md": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571"
   },
   "approved_day181_current_updates": {
     "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
@@ -69,6 +69,39 @@
       "state/finance-ledger.json": {
         "before_sha256": "97226723e6511e4c5fe6059d6509b45d9cb05e688e1ef79356f1bfeb089656d9",
         "after_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64"
+      }
+    }
+  },
+  "approved_cottage_reconciliation_updates": {
+    "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+    "paths": {
+      "state/next-chat-handoff.md": {
+        "before_sha256": "b0be4aa432723aa1e39ea79c642ad634668145fc780e1086733085be0d6f8e4e",
+        "after_sha256": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5"
+      },
+      "entities/mechanics/party-finances.md": {
+        "before_sha256": "ded68dc0c37e01eb9446e0d2895b16ad31c3d26746f9e2a8fcbc49b9c848e1b4",
+        "after_sha256": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9"
+      },
+      "state/checkpoint.json": {
+        "before_sha256": "1d3d95d1b05d506a0e137d6dbb8f6b4c2c5aa6a71a4c82212f999871594f0d64",
+        "after_sha256": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7"
+      },
+      "entities/characters/theron-ashvale.md": {
+        "before_sha256": "6e27134e4c93ce1aba373bff76dda9aa04bbe682295c6dcb2b66dd13692ef951",
+        "after_sha256": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600"
+      },
+      "state/finance-ledger.json": {
+        "before_sha256": "d4c3b890a1a7b8405c6822aff1109ed6376eb67f1878306ef292792c47411f64",
+        "after_sha256": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9"
+      },
+      "entities/locations/briarstone-cottage.md": {
+        "before_sha256": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a",
+        "after_sha256": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571"
+      },
+      "state/open-verifications.md": {
+        "before_sha256": "86ca725a1cabac65823d25ec9386c80499ead8b325acabae7636890c8217e372",
+        "after_sha256": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30"
       }
     }
   }

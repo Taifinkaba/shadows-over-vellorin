@@ -12,7 +12,11 @@ BRIDGE_STATUS='UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED'
 MP_STATUS='UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED'
 LEGACY_EVENT_SOURCES = {'changes/chronicles/character-reference-design-approval.md', 'changes/chronicles/npc-autonomy-framework-maintenance.md', 'changes/chronicles/year848-day156-end-session.md', 'changes/chronicles/year847-day472-first-hour.md', 'changes/chronicles/gm-continuity-maintenance.md', 'changes/chronicles/main-quest-framework-maintenance.md', 'changes/chronicles/year848-day137-end-session.md', 'changes/chronicles/world-geography-travel-design.md', 'changes/chronicles/year847-day153-freight.md', 'changes/chronicles/guild-concord-contracts-design.md', 'changes/chronicles/economy-framework-maintenance.md', 'changes/chronicles/year847-day153-finances.md', 'changes/chronicles/dungeon-exploration-registry-design.md', 'changes/chronicles/year847-day153-development.md', 'changes/chronicles/settlements-businesses-services-design.md', 'changes/chronicles/justice-courts-prisons-design.md'}
 
-CATEGORIES={'business-revenue':'inflow','wages-paid':'outflow','supplies-purchased':'outflow','construction-payment':'outflow','property-purchase':'outflow','contract-reward':'inflow','internal-transfer':'internal','owner-distribution':None,'restitution-disbursement':'outflow','other-receipt':'inflow','other-expense':'outflow'}
+RECONCILIATION='changes/chronicles/year848-day181-cottage-mana-reconciliation.md'
+REPAIR_STATUS='RECONCILED — PLAYER-CONFIRMED BRIARSTONE COTTAGE REPAIRS'
+RECOVERY_STATUS='RECONCILED — PLAYER-CONFIRMED SPIRIT MANA ASSIMILATION II'
+
+CATEGORIES={'maintenance':'outflow','business-revenue':'inflow','wages-paid':'outflow','supplies-purchased':'outflow','construction-payment':'outflow','property-purchase':'outflow','contract-reward':'inflow','internal-transfer':'internal','owner-distribution':None,'restitution-disbursement':'outflow','other-receipt':'inflow','other-expense':'outflow'}
 
 
 def validate_finance_v3(root,state,l):
@@ -22,7 +26,7 @@ def validate_finance_v3(root,state,l):
         keys(e,{'source_ref','quote'},'finance3 evidence')
         string(e['quote'],'finance3 quote');path=repository_file(root,e['source_ref'],'finance3 evidence')
         require(e['quote'] in path.read_text(),'finance3: source quote missing')
-        require(e['source_ref'].startswith('changes/chronicles/') and e['source_ref']!=ADOPTION and e['source_ref'] not in LEGACY_EVENT_SOURCES,'finance3: historical/adoption/reference evidence is not a new payment/funding event')
+        require(e['source_ref'].startswith('changes/chronicles/') and e['source_ref'] not in (ADOPTION,RECONCILIATION) and e['source_ref'] not in LEGACY_EVENT_SOURCES,'finance3: historical/adoption/reference evidence is not a new payment/funding event')
     def actor(ident):
         require(isinstance(ident,str) and re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',ident),'finance3: invalid actor id')
         entries={x['id']:x for x in read_json(root/'index.json')['entries']}
@@ -34,8 +38,8 @@ def validate_finance_v3(root,state,l):
         year,day=map(int,re.findall(r'\d+',date));return year,day,time
     def status(value):require(value in ('verified','player-approved'),'finance3: actual verification/approval required')
     def signed(value,label):require(type(value) is int,label+': integer copper required')
-    keys(l,{'schema_version','as_of','source','qualification','currency','historical_day156_ref','endpoint','bridge','account_verifications','transactions','controlled_cash','commitments','excluded_property','automatic_future_income'},'finance3')
-    require(type(l['schema_version']) is int and l['schema_version']==3,'finance3: version')
+    keys(l,{'schema_version','as_of','source','qualification','currency','historical_day156_ref','endpoint','bridge','account_verifications','transactions','controlled_cash','commitments','excluded_property','automatic_future_income'} | ({'post_arc_transactions'} if l.get('schema_version')==4 else set()),'finance3')
+    require(type(l['schema_version']) is int and l['schema_version'] in (3,4),'finance3: version')
     def integer_money(obj):
         if isinstance(obj,dict):
             for key,value in obj.items():
@@ -55,11 +59,24 @@ def validate_finance_v3(root,state,l):
     require(l['automatic_future_income'] is False,'finance3: automatic income forbidden')
     repository_file(root,l['source'],'finance3 source');string(l['qualification'],'finance3 qualification')
     require(l['source']==state['source'] and l['as_of']==dict(date=state['date'],season=state['calendar']['season'],day_of_season=state['calendar']['day_of_season'],time=state['time'],location=state['location'],session_status=state['status']),'finance3: checkpoint/source/as-of mismatch')
+    require(state['provenance']['mp_bridge']['classification']==(RECOVERY_STATUS if l['schema_version']==4 else MP_STATUS),'finance3/4: checkpoint reconciliation version mismatch')
     endpoint=l['endpoint'];keys(endpoint,{'as_of','total_cp','source_ref','classification'},'finance3 endpoint')
     require(endpoint=={'as_of':{'date':'Year 848 Day 181','time':'19:30'},'total_cp':74590,'source_ref':ADOPTION,'classification':'PLAYER-APPROVED SUPPLIED ENDPOINT'},'finance3: approved endpoint changed')
     require(type(endpoint['total_cp']) is int,'finance3: integer endpoint')
-    b=l['bridge'];keys(b,{'historical_closing_cp','endpoint_total_cp','difference_cp','classification','is_transaction','assigned_account_id','source_ref'},'finance3 bridge')
-    require(b==dict(historical_closing_cp=77190,endpoint_total_cp=74590,difference_cp=2600,classification=BRIDGE_STATUS,is_transaction=False,assigned_account_id=None,source_ref=ADOPTION),'finance3: unexplained bridge cannot be posted/assigned/resolved')
+    b=l['bridge']
+    expected=dict(historical_closing_cp=77190,endpoint_total_cp=74590,difference_cp=2600,classification=BRIDGE_STATUS,is_transaction=False,assigned_account_id=None,source_ref=ADOPTION)
+    repair_ids=[]
+    if l['schema_version']==4:
+        payments=l['post_arc_transactions']
+        require(isinstance(payments,list) and len(payments)==2,'finance4: exactly two approved historical payments')
+        for t,(ident,day,season_day,amount,quote) in zip(payments,[('briarstone-repair-deposit-day158',158,38,800,'repair deposit paid800cp'),('briarstone-repair-final-day165',165,45,1800,'final cottage repair payment paid1800cp')]):
+            approved=dict(id=ident,source_event_id=ident,date=f'Year 848 Day {day}',season='Suncrest',season_day=season_day,time=None,category='maintenance',property_id='briarstone-cottage',amount_cp=amount,cash_effect_cp=-amount,commitment_effect_cp=0,funding_scope='uncommitted-controlled-funds',account_id=None,recipient=None,source_ref=RECONCILIATION,source_quote=quote,status='player-confirmed-continuity',application_count=1)
+            require(t==approved and type(t['application_count']) is int and type(t['season_day']) is int,'finance4: approved repair payment/provenance differs')
+            require(quote in repository_file(root,RECONCILIATION,'repair evidence').read_text(),'finance4: repair source quote missing')
+            repair_ids.append(ident)
+        expected.update(classification=REPAIR_STATUS,source_ref=RECONCILIATION,transaction_ids=repair_ids)
+        require(old['arc_reconciliation']['closing_cp']+sum(t['cash_effect_cp'] for t in payments)==endpoint['total_cp'],'finance4: repairs must explain endpoint once')
+    require(b==expected,'finance3/4: historical bridge differs from approved provenance')
     require(all(type(b[k]) is int for k in ('historical_closing_cp','endpoint_total_cp','difference_cp')) and b['is_transaction'] is False,'finance3: bridge types')
     require(b['historical_closing_cp']==old['arc_reconciliation']['closing_cp'] and b['historical_closing_cp']-endpoint['total_cp']==b['difference_cp'],'finance3: bridge arithmetic')
     accounts={};balances={};ids=set();historical_ids={x['id'] for x in old['arc_reconciliation']['events']}|{'eight-period-model','historical_distribution','endpoint_difference','day181_bridge'}
@@ -77,11 +94,11 @@ def validate_finance_v3(root,state,l):
         for ident in a['authorized_actor_ids']:actor(ident)
         accounts[a['account_id']]=a;balances[a['account_id']]=a['opening_cp']
     require(sum(balances.values())<=endpoint['total_cp'],'finance3: account verification cannot create cash')
-    total=endpoint['total_cp'];paid=0;events=set(historical_ids);last=startstamp
+    total=endpoint['total_cp'];paid=0;events=set(historical_ids)|set(repair_ids);last=startstamp
     for t in l['transactions']:
         keys(t,{'id','source_event_id','date','time','evidence','status','category','direction','amount_cp','payer','recipient','account_id','to_account_id','authority_id','cash_effect_cp','revenue_recognized_cp','commitment_id','commitment_effect_cp','property_id','business_id','contract_id','application_count','ownership_scope'},'finance3 transaction')
         string(t['id'],'transaction id');string(t['source_event_id'],'source event id')
-        require(t['id'] not in ids and t['id'] not in historical_ids and t['source_event_id'] not in events,'finance3: duplicate/historical transaction event')
+        require(t['id'] not in ids and t['id'] not in historical_ids and t['id'] not in repair_ids and t['source_event_id'] not in events,'finance3: duplicate/historical transaction event')
         ids.add(t['id']);events.add(t['source_event_id'])
         require(t['ownership_scope']=='controlled','finance3: third-party/noncash transaction excluded')
         status(t['status']);evidence(t['evidence']);when=stamp(t['date'],t['time'])
@@ -146,7 +163,13 @@ def validate_checkpoint6(root,s):
     p=s['provenance'];keys(p,{'classification','adoption_source_ref','historical_checkpoint_ref','historical_entity_records_ref','current_presence','current_equipment','exact_room','conditional_defense','carried_forward_world_context_ref','mp_bridge'},'checkpoint6 provenance')
     require(p['classification']=='PLAYER-SUPPLIED ENDPOINT ADOPTION' and p['adoption_source_ref']==ADOPTION and p['historical_checkpoint_ref']==STATE_HISTORY and p['historical_entity_records_ref']==RECORD_HISTORY and p['carried_forward_world_context_ref']==STATE_HISTORY,'checkpoint6: provenance source mismatch')
     for name in ('adoption_source_ref','historical_checkpoint_ref','historical_entity_records_ref','carried_forward_world_context_ref'):repository_file(root,p[name],'checkpoint6 history')
-    require(p['mp_bridge']==dict(from_mp=378,to_mp=400,difference_mp=22,classification=MP_STATUS,recovery_events=[]),'checkpoint6: no invented 22MP recovery')
+    old_bridge=dict(from_mp=378,to_mp=400,difference_mp=22,classification=MP_STATUS,recovery_events=[])
+    recovered=dict(from_mp=378,to_mp=400,difference_mp=22,classification=RECOVERY_STATUS,recovery_events=[dict(ability='Spirit Mana Assimilation II',intervals=1,uninterrupted_minutes=10,usable_ambient_mana=True,concentration_conditions_met=True,potential_mp=24,actual_mp=22,excess_mp=2,personal_max_mp=400,date=None,location=None,source_ref=RECONCILIATION)])
+    require(p['mp_bridge'] in (old_bridge,recovered),'checkpoint6: recovery must match approved capped interval or historical unresolved snapshot')
+    if p['mp_bridge']==recovered:
+        repository_file(root,RECONCILIATION,'mana continuity')
+        event=p['mp_bridge']['recovery_events'][0]
+        require(all(type(event[k]) is int for k in ('intervals','uninterrupted_minutes','potential_mp','actual_mp','excess_mp','personal_max_mp')) and event['usable_ambient_mana'] is True and event['concentration_conditions_met'] is True,'checkpoint6: recovery types/conditions')
     require(all(type(p['mp_bridge'][k]) is int for k in ('from_mp','to_mp','difference_mp')),'checkpoint6: MP types')
     require(type(p['conditional_defense']) is int and p['conditional_defense']==s['resources']['equipped_defense']+2,'checkpoint6: conditional DEF')
     for name in ('current_presence','current_equipment'):
@@ -159,7 +182,7 @@ def validate_checkpoint6(root,s):
         else:
             require(isinstance(d['evidence_ref'],str) and d['evidence_ref']!=ADOPTION,'checkpoint6: actual new observation source required');repository_file(root,d['evidence_ref'],'checkpoint6 observation')
             if name=='current_equipment':require(type(d['night_sovereign_carried_not_equipped']) is bool,'checkpoint6: wearing observation type')
-    if s['source']==ADOPTION:
+    if s['source'] in (ADOPTION,RECONCILIATION):
         old=read_json(root/STATE_HISTORY)
         require(s['date']=='Year 848 Day 181' and s['calendar']==dict(season='Suncrest',day_of_season=61) and s['time']=='19:30' and s['location']=='Ashvale Estate' and s['status']=='UNKNOWN' and p['exact_room'] is None,'checkpoint6: approved endpoint/missing fields differ')
         require(s['theron']=={**old['theron'],'mp':400} and s['resources']==old['resources'] and s['world']==old['world'] and s['custody']==old['custody'],'checkpoint6: unrelated canon/resource change during adoption')

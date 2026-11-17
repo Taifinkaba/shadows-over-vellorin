@@ -41,7 +41,15 @@ source_refs:
 - changes/chronicles/year848-day137-end-session.md
 - changes/chronicles/year848-day156-end-session.md
 - changes/chronicles/year848-day181-endpoint-adoption.md
+- changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+# Day181 confirmed bridge update
+
+The22 personal MP difference is now explained by one qualifying Spirit Mana Assimilation II interval:24 potential,22 actual to cap400,2 excess. Exact recovery date/location UNKNOWN. No new training, ability or staff/wagon recharge. Current endpoint/unknown equipment/presence remain unchanged.
+
+## Prior endpoint/provenance record (superseded only where explicit above)
+
 
 # Theron Ashvale — Day181 supplied endpoint
 

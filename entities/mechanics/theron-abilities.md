@@ -10,7 +10,15 @@ source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 - changes/chronicles/year848-day181-endpoint-adoption.md
+- changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+# Day181 mana provenance reconciled
+
+Player confirms one complete uninterrupted10minute Spirit Mana Assimilation II interval under established ambient/concentration conditions:378+24 potential, capped400,22 actual/2 excess. Exact date/location UNKNOWN; Nexus156/180 and wagon60/60 unchanged. No mechanics, costs, locks or training changes.
+
+## Prior endpoint/provenance record (superseded only where explicit above)
+
 
 # Theron resource endpoint — Day181
 

@@ -1,0 +1,244 @@
+{
+  "checkpoint": {
+    "schema_version": 6,
+    "date": "Year 848 Day 181",
+    "time": "19:30",
+    "location": "Ashvale Estate",
+    "theron": {
+      "hp": 100,
+      "hp_max": 100,
+      "mp": 400,
+      "mp_max": 400,
+      "defense": 46,
+      "rank": "S+",
+      "level": 5,
+      "str": 12,
+      "dex": 20,
+      "con": 16,
+      "int": 20,
+      "wis": 19,
+      "cha": 19,
+      "unspent_attributes": 0
+    },
+    "money": {
+      "total_gp_sp": "745gp 9sp",
+      "provisional_historic_gp_sp": "9gp 1sp 14cp",
+      "office_petty_gp_sp": "6gp 4sp",
+      "allocation_status": "UNRECONCILED / UNKNOWN — historical Day156 accounts are not current allocations",
+      "provisional_status": "approximately; unreconciled historic coinage, excluded from controlled spendable cash",
+      "office_status": "separately held house funds; excluded from expedition income and controlled cash"
+    },
+    "world": {
+      "vaeltharion_chains_attached": 0,
+      "protective_anchors_retained": 7
+    },
+    "status": "UNKNOWN",
+    "source": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "context": {
+      "safety": "Day181 supplied endpoint only; current companion positions/conditions unverified. No gameplay resumed.",
+      "companions_present": [],
+      "party_roles": {},
+      "projects": {
+        "nexus_mana": "Last verified before adoption; see Day156 historical checkpoint: 156/180; finite independent staff mana",
+        "wagon_mana": "Last verified before adoption; see Day156 historical checkpoint: 60/60",
+        "equipped_defense": "Approved normal49; conditional51 only when Night Sovereign worn. Current wearing/configuration UNKNOWN.",
+        "chronos_eye": "Last verified before adoption; see Day156 historical checkpoint: approximately19%, LOCKED",
+        "dragon_slayer": "Last verified before adoption; see Day156 historical checkpoint: LOCKED BY PLAYER CHOICE",
+        "accord": "Last verified before adoption; see Day156 historical checkpoint: Peaceful recognition and limited communication only",
+        "custody": "Last verified before adoption; see Day156 historical checkpoint: Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
+        "guardian_channels": "Last verified before adoption; see Day156 historical checkpoint: Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
+        "halden": "Last verified before adoption; see Day156 historical checkpoint: Rescued, free and voluntarily protected at Ashvale Estate",
+        "independent_assignments": "Last verified before adoption; see Day156 historical checkpoint: Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion.",
+        "vanguard": "Last verified before adoption; see Day156 historical checkpoint: Completed mundane roadworthy Vanguard; no mana pool, distinct from Sovereign Expedition Wagon",
+        "night_sovereign": "Last verified before adoption; see Day156 historical checkpoint: Completed, tested, paid515gp; reserved scale consumed once",
+        "maternal_healing": "Last verified before adoption; see Day156 historical checkpoint: Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
+        "healing_springs": "Last verified before adoption; see Day156 historical checkpoint: 2/5"
+      },
+      "academy": {
+        "entity": "dragon-slayer-academy",
+        "latest_reported_cash_gp_sp": "34gp",
+        "refundable_lease_deposit_gp_sp": "15gp",
+        "balance_date": "Unspecified earlier report; no later verified ledger in repository",
+        "included_in_party_total": false
+      },
+      "outstanding_clues": [
+        "Last verified before adoption: Halric Dene whereabouts unknown",
+        "Last verified before adoption: Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven",
+        "Last verified before adoption: Northern Witness Index and E-R-7 unresolved",
+        "Last verified before adoption: One V-9 transferred case unverified; other documented cases remain separate",
+        "Last verified before adoption: Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts"
+      ],
+      "recent_mp_costs": {},
+      "mp_before_recent_casts": null
+    },
+    "resources": {
+      "equipped_defense": 49,
+      "bracers_defense_bonus": 3,
+      "staff_mp": 156,
+      "staff_mp_max": 180,
+      "wagon_mp": 60,
+      "wagon_mp_max": 60,
+      "chronos_eye_locked": true,
+      "dragon_slayer_locked": true
+    },
+    "calendar": {
+      "season": "Suncrest",
+      "day_of_season": 61
+    },
+    "custody": {
+      "reviewed": 4,
+      "released": 2,
+      "retained": 1,
+      "medically_transferred": 1,
+      "hearing_pending": true,
+      "identities_status": "Not supplied; do not map onto earlier detainees",
+      "halden_status": "Free, voluntarily protected at Ashvale Estate"
+    },
+    "provenance": {
+      "classification": "PLAYER-SUPPLIED ENDPOINT ADOPTION",
+      "adoption_source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+      "historical_checkpoint_ref": "archive/checkpoints/year848-day156-2015.json",
+      "historical_entity_records_ref": "archive/checkpoints/year848-day156-entity-records.json",
+      "current_presence": {
+        "status": "UNKNOWN",
+        "evidence_ref": null
+      },
+      "current_equipment": {
+        "status": "UNKNOWN",
+        "evidence_ref": null,
+        "night_sovereign_carried_not_equipped": null
+      },
+      "exact_room": null,
+      "conditional_defense": 51,
+      "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
+      "mp_bridge": {
+        "from_mp": 378,
+        "to_mp": 400,
+        "difference_mp": 22,
+        "classification": "UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED",
+        "recovery_events": []
+      }
+    }
+  },
+  "ledger": {
+    "schema_version": 3,
+    "as_of": {
+      "date": "Year 848 Day 181",
+      "season": "Suncrest",
+      "day_of_season": 61,
+      "time": "19:30",
+      "location": "Ashvale Estate",
+      "session_status": "UNKNOWN"
+    },
+    "source": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "qualification": "Player-approved supplied endpoint adoption; not independently recovered gameplay history or receipts.",
+    "currency": {
+      "unit": "cp",
+      "cp_per_gp": 100,
+      "cp_per_sp": 10
+    },
+    "historical_day156_ref": "archive/checkpoints/year848-day156-finance-ledger.json",
+    "endpoint": {
+      "as_of": {
+        "date": "Year 848 Day 181",
+        "time": "19:30"
+      },
+      "total_cp": 74590,
+      "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+      "classification": "PLAYER-APPROVED SUPPLIED ENDPOINT"
+    },
+    "bridge": {
+      "historical_closing_cp": 77190,
+      "endpoint_total_cp": 74590,
+      "difference_cp": 2600,
+      "classification": "UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED",
+      "is_transaction": false,
+      "assigned_account_id": null,
+      "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md"
+    },
+    "account_verifications": [],
+    "transactions": [],
+    "controlled_cash": {
+      "total_cp": 74590,
+      "accounts": [],
+      "allocation_status": "UNRECONCILED / UNKNOWN"
+    },
+    "commitments": {
+      "expansion_committed_cp": 31700,
+      "expansion_paid_cp": 0,
+      "expansion_outstanding_cp": 31700,
+      "uncommitted_cp": 42890,
+      "construction_started": false,
+      "progress_ref": null
+    },
+    "excluded_property": [
+      {
+        "id": "provisional_historic_coinage",
+        "amount_cp": 924,
+        "status": "Approximately 9 gp 1 sp 14 cp; unreconciled historic coinage",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "office_petty_cash",
+        "amount_cp": 640,
+        "status": "North Return House funds",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "lyanna_personal",
+        "amount_cp": null,
+        "status": "Separate personal funds; current balance unverified",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "academy_cash",
+        "amount_cp": 3400,
+        "status": "Earlier report only; not current certification",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "academy_refundable_deposit",
+        "amount_cp": 1500,
+        "status": "Noncash deposit; earlier report only",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "seized_custody_funds",
+        "amount_cp": 3820,
+        "status": "Historical custody; ownership/disposition unresolved",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "merchant_property",
+        "amount_cp": null,
+        "status": "Not estate-owned; eligible merchant gross sales excluded",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "unreconciled_salvage",
+        "amount_cp": null,
+        "status": "Title and valuation unresolved",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "estate_property",
+        "amount_cp": null,
+        "status": "Noncash land, buildings, inventory and equipment",
+        "included_in_controlled_cash": false
+      },
+      {
+        "id": "briarstone_cottage",
+        "amount_cp": 5500,
+        "status": "Noncash appraisal; no rent yet",
+        "included_in_controlled_cash": false
+      }
+    ],
+    "automatic_future_income": false
+  },
+  "entity_records": {
+    "entities/characters/theron-ashvale.md": "---\nid: theron-ashvale\ntype: characters\nstatus: canon\nvisibility: gm-reference\ncheckpoint_values:\n  date: Year 848 Day 181\n  time: '19:30'\n  location: Ashvale Estate\n  status: UNKNOWN\n  theron.hp: 100\n  theron.hp_max: 100\n  theron.mp: 400\n  theron.mp_max: 400\n  theron.defense: 46\n  theron.rank: S+\n  theron.level: 5\n  theron.str: 12\n  theron.dex: 20\n  theron.con: 16\n  theron.int: 20\n  theron.wis: 19\n  theron.cha: 19\n  theron.unspent_attributes: 0\n  resources.equipped_defense: 49\n  resources.bracers_defense_bonus: 3\n  resources.staff_mp: 156\n  resources.staff_mp_max: 180\n  resources.wagon_mp: 60\n  resources.wagon_mp_max: 60\n  resources.chronos_eye_locked: true\n  resources.dragon_slayer_locked: true\nsource_refs:\n- archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md\n- archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md\n- archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md\n- archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md\n- archive/session-handoffs/year847-day153-user-handoff.txt\n- archive/session-handoffs/year847-day472-user-handoff.txt\n- archive/session-handoffs/year848-day124-user-handoff.txt\n- changes/chronicles/year848-day137-end-session.md\n- changes/chronicles/year848-day156-end-session.md\n- changes/chronicles/year848-day181-endpoint-adoption.md\n---\n\n# Theron Ashvale — Day181 supplied endpoint\n\nYear848 Suncrest61 Day181,19:30, Ashvale Estate; room/session status/equipment configuration UNKNOWN. HP100/100 MP400/400; base46 retained, normal equipped49, conditional51 only with Night Sovereign worn; actual wearing unknown. Nexus156/180 and magic wagon60/60. Rank/level/attributes/locks unchanged. +22MP is an unexplained endpoint change, not a recovery event. No companion presence inferred, play resumed or intervening scene invented.\n\n## Preserved historical record through Day156\n\n\n# Theron Ashvale / Blackscale — Day156 current canon\n\nYear848 Suncrest36 Day156,20:15; Ashvale Estate family sitting room, ENDED. HP100/100 MP378/400; permanent baseDEF46, Frostguard Bracers+3 = normal equipped49. Night Sovereign carried, not equipped;51 only while worn. Nexus156/180; existing Sovereign Expedition Wagon60/60. Chronos Eye~19% locked; Dragon Slayer locked. Maternal Healing Mastery5/5, prior limits/no resurrection. Controlled cash771gp9sp; expansion317gp committed/unpaid. No injuries/deaths, party home; intermediate mana history unverified.\n\n\n## Historical record before Day156 (superseded only where explicit above)\n\n\n# Theron Ashvale / Blackscale — final checkpoint\n\n**Year848 Suncrest17 Day137, 09:30 — Ashvale Estate; ENDED.** Elf male, age25, height5'5\", weight400 lb; canonically very fat and heavyset. S+, Level5; HP100/100, personal MP400/400; base DEF46/equipped49. STR12 DEX20 CON16 INT20 WIS19 CHA19; unspent0. Sovereign Nexus156/180; Sovereign Expedition Wagon60/60. Chronos Eye approximately19%, LOCKED; Dragon Slayer LOCKED. Spirit Mana Assimilation II remains mastered:24 personal MP per uninterrupted10 minutes with usable ambient mana, capped400; no free restoration to other pools.\n\nReturned alone from Eastrun to Ashvale with privacy maintained. Controlled cash1,034gp9sp per authoritative finance ledger. No new combat, loot, abilities or construction completion. Final MP is explicitly supplied; intermediate expenditure/recovery sequence not provided, no fabricated rest or casting log. Session ended; no further in-game action.\n\n## Historical record through Day124 (superseded where explicit above)\n\n\n## Update — Year 848 Suncrest 4 Day 124, 01:45\n\nCurrent checkpoint supersedes earlier snapshots: Year848 Suncrest4 Day124 01:45, North Return House, PAUSED. HP100/100, personal MP386/400; base DEF46/equipped49, staff156/180, wagon60/60. Controlled spendable cash545gp9sp; excluded funds in the finance record. Mastered Spirit Mana Assimilation II: 24 personal MP per uninterrupted10 minutes with usable ambient mana, capped400. Latest375−13 Mental Probe+24 recovery=386. Earlier369→400 assimilation, Shadow Mantle16 and Umbral Murmur9 are already reflected in375; do not deduct again. Existing Dragonveil Mask used for Blackscale intimidation; Night Sovereign remains blueprint1/5, unbuilt. No deaths or party injuries. Latest state replaces Hollow location; older outcomes remain history.\n\n## Historical record through Year847 Day472 (superseded snapshot)\n\n# Theron Ashvale / Blackscale\n\nElf Battlemage / Advanced Runecrafter; Guild S+, Level 5, Eighth Witness. At the Hollow of the First Hour; session ended at Year 847 Day 472, 4:10 PM. HP **100/100**, personal MP **312/400**. Permanent base DEF **46** (reconciled from 26); equipped DEF **49** with [Frostguard Bracers](../items/frostguard-bracers.md), +3 equipment only. STR/DEX/CON/INT/WIS/CHA **12/20/16/20/19/19**, zero unspent points.\n\n[Sovereign Nexus](../items/sovereign-nexus.md) mana **156/180**, ordinary discount **40%**; Sovereign Expedition Wagon mana **60/60**. Caelrix bond **5/5**, Defensive Synchronization **5/5**. Chronos Eye approximately **19%, LOCKED**; Dragon Slayer **LOCKED BY PLAYER CHOICE**. One intact shed Vaeltharion scale remains after bracer forging.\n\n[First Hour's Accord](../items/first-hours-accord.md) newly acquired by Aeloryn's voluntary grant: peaceful recognition and limited communication, no command authority or unlimited time magic. Finite defensive magic stabilized the release; exact individual expenditures and starting pools are unverified. No inferred rest, free casting, reward, unlock or extra stat change. Preserve all older skill and spell records; [training](../mechanics/theron-skills.md), [finances](../mechanics/party-finances.md), [handoff](../../state/next-chat-handoff.md).\n\nBlackscale retains eerie, generally nonlethal tactics, independent companions and player choice. GM sword-origin secrets remain outside Theron's knowledge.\n\n## Historical record through Day 153 (superseded where corrected above)\n\n# Theron Ashvale / Blackscale\n\nS+ elven battlemage, Level 5, advanced runecrafter and Eighth Witness; player-controlled. Story Mode / Favored Protagonist; fair permanent death remains possible.\n\n**Year 847 Day 153, 22:05:** safe in woodland north of the northern freight enclosure near Greyhaven with Nyx and Shade, not in combat. HP100/100, MP337/400, Defense26; STR12 DEX20 CON16 INT20 WIS19 CHA19, 0 unspent attributes. Recent 63 MP spent: Shadow Mantle16 + Umbral Murmur9 + Phantom Procession18 + Frost Veil11 + Spatial Step9. No automatic restoration.\n\nChronos Eye theory about19%, still locked; Dragon Slayer locked. Draconic Resonance last established1/5, no new progression supplied. Staff20% plus Mana Efficiency10% ordinary discount already reflected in listed costs, rounded up. Assimilation12 MP per uninterrupted20 minutes, capped400; no unplayed recovery. Raze analysis/simulation and Aegis defense provide no free casting or mana.\n\nParty companions voluntarily consolidated campaign balances into a Theron-managed treasury; see [party finances](../mechanics/party-finances.md). Academy cofounder with Vaeltharion; no academy funds pooled.\n\nLast established inventory: black Runeblade, matched white sword, Oathbearer Token, Dragonveil Mask, staff, three previously gifted scales, two moonstones, empty crystal housing. No new mana draughts or stored mana confirmed. Third Bell clapper custody unresolved. Sword donor/forging secrets remain GM knowledge.\n\nBlackscale persona uses generally nonlethal displaced whispers, shadow illusions and mist. Blackscale Phantasm is a rehearsed combination with paid spell costs, not a free spell. No automatic permanent criminal-fear score. Mechanics: [abilities](../mechanics/theron-abilities.md), [skills](../mechanics/theron-skills.md), [spells](../mechanics/theron-spells.md).\n",
+    "entities/mechanics/party-finances.md": "---\nid: party-finances\ntype: mechanics\nstatus: canon\nvisibility: gm-reference\nsource_refs:\n- archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md\n- archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md\n- archive/session-handoffs/year847-day153-user-handoff.txt\n- archive/session-handoffs/year847-day472-user-handoff.txt\n- archive/session-handoffs/year848-day124-user-handoff.txt\n- changes/chronicles/year848-day137-end-session.md\n- changes/chronicles/year848-day156-end-session.md\n- changes/chronicles/year848-day181-endpoint-adoption.md\ncheckpoint_values:\n  money.total_gp_sp: 745gp 9sp\n  money.provisional_historic_gp_sp: 9gp 1sp 14cp\n  money.office_petty_gp_sp: 6gp 4sp\n---\n\n# Party finances — Day181 supplied endpoint\n\nControlled745gp9sp=74590cp;317gp committed/unpaid,428gp9sp uncommitted. See sole current finance ledger schema3. Individual current account allocations UNRECONCILED / UNKNOWN; Day156 allocations are historical only.2600cp difference is an unexplained endpoint disclosure, not a transaction or assigned reserve expenditure. No new financial event, income, payment, ownership or noncash conversion. Historical Day156 arc and all prior postings remain once-only in the archived historical ledger.\n\n## Preserved historical record through Day156\n\n\n# Party finances — Day156 current canon\n\nCurrent controlled cash771gp9sp (77190cp), per [ledger](../../state/finance-ledger.json). Final allocations are explicit player rulings, not inferred transfers. Pre-arc1159gp9sp−515gp Night Sovereign−94gp Vanguard+69gp operating surplus−2gp provisions+154gp restitution=771gp9sp. Prior520gp modeled surplus distributed once;69gp posted once, no automatic income. Expansion317gp committed/unpaid;454gp9sp uncommitted. Sorn209gp restitution consists of154gp cash and55gp noncash cottage. Earlier128gp discrepancy resolved by player-approved ruling, never discovered receipts or a new cash award. Day137→pre-arc125gp bridge is unitemized. All prior excluded holdings stay separate.\n\n\n## Historical record before Day156 (superseded only where explicit above)\n\n\n# Current finances — Year848 Suncrest17 Day137, 09:30\n\nControlled cash **1,034 gp 9 sp**. Authoritative machine-readable accounts, business revenue, category expenses, distributions, excluded property and verification status: [finance ledger](../../state/finance-ledger.json). All values use integer copper (100 cp = 1 gp).\n\nThis is an explicit player-approved **continuity reconstruction**, not independently discovered historical receipts. Eight operating periods yield estate receipts 2,160 gp minus expenses 1,640 gp = net distributable surplus 520 gp. Eligible merchant gross sales 250 gp per period belong to merchants; only the 22% commission (55 gp) enters estate receipts. Future actual periods need Tomas's receipts and expense records or another explicit player-approved accounting ruling; never automatically award 65 gp monthly.\n\n| Current account | Balance |\n|---|---:|\n| Personal purse | 46 gp |\n| Legacy secured funds — older allocations unresolved | 494 gp 9 sp |\n| General treasury — new | 130 gp |\n| Emergency reserve — new | 78 gp |\n| Operating reserve — new | 78 gp |\n| Savings — new | 52 gp |\n| Expedition reserve — new | 52 gp |\n| Development — new | 52 gp |\n| Research — new | 26 gp |\n| Blackscale private — new | 26 gp |\n| **Controlled cash** | **1,034 gp 9 sp** |\n\nBaseline 514 gp 9 sp already includes 20 gp purse and 494 gp 9 sp secured funds. Apply the 520 gp distribution once; purse receives 26 gp. Historical emergency, expedition and Blackscale balances are not additional current assets. Earlier 545 gp 9 sp minus Private venue expense 12 gp = 533 gp 9 sp; minus Private venue expense 19 gp, all charges included = 514 gp 9 sp. Both expenses already deducted; never deduct again. Internal 19 gp purse refill has zero effect on total.\n\nThe Day472 673 gp 9 sp to Day124 545 gp 9 sp difference of **128 gp remains OPEN**, unsupported by an itemized transaction. No refund, deduction or fabricated balancing transaction.\n\nExcluded: approximately 9 gp 1 sp 14 cp provisional historic coinage; 6 gp 4 sp office petty cash; Lyanna's separate funds (current unverified); academy earlier cash/deposit reports; historical seized custody funds (ownership unresolved); merchant property; unreconciled salvage; estate noncash property. The historical 120-acre purchase cost 252 gp and is already paid. Proposed 317 gp expansion remains unspent. Approximately 687 gp Night Sovereign estimate is not a payable invoice.\n\n## Historical record through Day124 (superseded where explicit above)\n\n\n# Party finances and custody boundaries\n\n**Year848 Suncrest4 Day124 01:45: controlled spendable treasury545gp9sp.** Current account allocations and intervening transactions from Day472’s673gp9sp are unverified; do not invent a128gp expense or balancing transfer.\n\n| Separate holding | Amount | Treatment |\n|---|---|---|\n| Provisional historic coinage | approximately9gp1sp14cp | Unreconciled; excluded from controlled spendable cash |\n| North Return House office petty cash | 6gp4sp | Separately held house funds; not loot or expedition income |\n\nEarlier Blackscale112gp, expedition9gp1sp and Lyanna12gp6sp are historical account reports, not newly certified current balances. In particular the provisional historic9gp1sp14cp is not equated with the old expedition reserve. No double counting, invented income, sale or ownership clearance. Academy funds and refundable deposit remain independent. Noncash salvage/evidence are recorded once in [Seven Bells custody inventory](seven-bells-inventory.md).\n\nHistorical finance record and exact structured values remain in `archive/checkpoints/year847-day472-1610.json` and `archive/checkpoints/year847-day472-entity-values.json`; Day472 opening668gp3sp+6gp8sp−1gp2sp=673gp9sp remains unchanged historical arithmetic. Day153 consolidated555gp accounts, former personal balances, historical custody38gp2sp, merchant goods and noncash Rellan fittings remain historical with their ownership exclusions; no re-award. Original source references remain evidence.\n\n## Historical record through Year847 Day472 (not current balances)\n\n\n# Party finances and custody boundaries\n\n**Year847 Day472, 16:10: total controlled cash673gp9sp.** Verified components: Blackscale private reserve112gp; expedition reserve9gp1sp. Lyanna separate personal12gp6sp is excluded. Remaining account allocation is **unverified**; the arithmetic unallocated remainder552gp8sp is not a newly verified account or income.\n\nFinal scene: opening668gp3sp + Hollow annex old coinage6gp8sp − Launder1gp2sp = closing673gp9sp (net5gp6sp). No extra sale proceeds, loot awards, estate income or academy money added. Day153 fully allocated555gp ledger is historical, not a current allocation. Full intervening account audit missing; do not invent balancing transfers. Estate income requires a verified Tomas report; operating till floor100gp is policy, not a new balance. Academy remains separate;34gp cash/15gp deposit only earlier reported values, not current certification. Preserve historical ownership/custody exclusions below.\n\n## Historical record through Day 153 (superseded where corrected above)\n\n# Party finances: consolidated treasury and ownership boundaries\n\n**Year847 Day153:** party/lodge cash555gp, no confirmed debt or new award. Former five-way profit division included Theron, Garrick, Nyx, Lyra and reserve; later all three companions voluntarily consolidated their campaign balances into a Theron-managed party treasury. Consolidation is neither income nor expense; practical needs and allowances supported from central funds. Old personal balances are historical, not additional holdings.\n\n| Account | Cash | Access / separation |\n|---|---:|---|\n| Central party treasury | 308gp | Theron-managed |\n| Personal emergency chest | 30gp | Theron only |\n| Shared expedition reserve | 155gp2sp | Separately earmarked |\n| Lodge operating till | 61gp8sp | Separate operating ledger; wages included |\n| Restricted development chest | 0gp | Tomas, Theron override; approved construction paid |\n| **Party/lodge total** | **555gp** | Academy excluded |\n\nAcademy latest reported34gp cash plus15gp refundable lease deposit are independent; no later ledger in repository. Deposit is noncash, not extra spendable cash. Prospective support/contracts not booked.\n\nRellan Sorn tools/fittings estimated7gp are transferred noncash inventory; approximately4gp disputed. Approximately6gp bandit equipment estimate is noncash historical forfeited equipment, not a new award. Merchant recovered cargo remains merchant property; evidence, custody funds and voluntary personal-property settlement distinct. Historical Day12 custody38gp2sp disposition remains unverified and excluded.\n\nG-21526gp, G-21632gp, B-8340gp and separate raid22gp already included in subsequent accounting; never re-award. No Day153 payment, loot, confiscation or new expense. [Historical balances and final reconciliations](../../changes/chronicles/year847-day153-finances.md).\n",
+    "entities/mechanics/theron-abilities.md": "---\nid: theron-abilities\ntype: mechanics\nstatus: canon\nvisibility: gm-reference\nsource_refs:\n- archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md\n- archive/session-handoffs/year847-day153-user-handoff.txt\n- archive/session-handoffs/year847-day472-user-handoff.txt\n- archive/session-handoffs/year848-day124-user-handoff.txt\n- changes/chronicles/year848-day156-end-session.md\n- changes/chronicles/year848-day181-endpoint-adoption.md\n---\n\n# Theron resource endpoint — Day181\n\nPersonal MP400/400, Nexus156/180, magic wagon60/60 from supplied endpoint. +22 personal MP since Day156 is unexplained provenance, not an assimilation/rest/recovery event. No staff/wagon recharge. All established abilities, spell costs, locks and Spirit Mana Assimilation requirements below are unchanged; earlier dated resource observations are historical.\n\n## Preserved historical record through Day156\n\n\n# Theron abilities — Day156 current canon\n\nMaternal Healing Mastery5/5. Deep Restoration36MP; Regenerative Weave32MP; Master Restoration Weave48MP. Previously established limits remain; no resurrection. Spirit Mana Assimilation II24 personal MP per uninterrupted10min to cap400; existing usable ambient source/concentration requirements remain. Personal MP378/400, Nexus156/180, separate Sovereign Expedition Wagon60/60. No automatic recharge.\n\n\n## Historical record before Day156 (superseded only where explicit above)\n\n\n# Theron: verified abilities\n\nCore abilities from the mechanics ledger, reconciled through Day153. Current HP/MP, rank, location and finances remain in Theron's character record and the checkpoint.\n\n| Ability | Value |\n|---|---:|\n| STR | 12 |\n| DEX | 20 |\n| CON | 16 |\n| INT | 20 |\n| WIS | 19 |\n| CHA | 19 |\n| Unspent stat points | 0 |\n\n- Staff reduces ordinary spell costs by 20%; Mana Efficiency adds 10%; total discount 30%, rounded up. Full-cost procedures are exempt.\n- Current Spirit Mana Assimilation II restores24 personal MP per uninterrupted10 minutes, capped400, with usable ambient mana and uninterrupted concentration. Historical prior rate12MP/20min is preserved for earlier recovery records.\n- Raze performs analysis/simulation; Aegis performs defense. Neither grants free casting or mana.\n- Draconic Resonance is 1/5. Chronos Eye is locked at about19% theory; Dragon Slayer is locked.\n- Legendary black Runeblade damage is 1d8+3. This record conveys no GM-only origin information.\n\nRelated records: `entities/characters/theron-ashvale.md`, `entities/mechanics/theron-skills.md`, `entities/mechanics/theron-spells.md`.\n\n## Through Day 153\n\nLevel5; core attributes unchanged,0 unspent. Latest mana337/400; no unplayed restoration. Guardian Links warnings are limited tests, not healing, teleport or unlimited shield capabilities.\n\n## Authoritative update — Year 847 Day 472, 16:10, session ENDED\n\nCurrent ordinary discount **40%**, replacing older30%; Sovereign Nexus finite156/180, wagon60/60. Draconic Resonance3/5, Defensive Synchronization5/5; Caelrix independent bond5/5. Personal MP312/400; base DEF46, equipped49 with bracers. Chronos Eye approximately19% LOCKED; Dragon Slayer deliberately LOCKED. Older assimilation rate and full-cost exceptions remain established; no unplayed recharge. First Hour’s Accord is recognition/limited communication only.\n\n## Update — Year 848 Suncrest 4 Day 124, 01:45\n\nStanding rule now **Spirit Mana Assimilation II:24 personal MP per uninterrupted10 minutes**, capped400; requires uninterrupted concentration and a usable ambient mana source. Mastered through repeated supervised trials using established dual-mind parallel intake/refinement, Raze analysis and Lyra observing. This replaces the old12MP/20min rule prospectively; historical recoveries/costs unchanged. No automatic staff, wagon, ally or crystal restoration; Raze/Aegis generate no mana. Latest375−13+24=386/400.\n"
+  },
+  "cottage_record": "---\nid: briarstone-cottage\ntype: locations\nstatus: canon\nvisibility: gm-reference\nsource_refs:\n- changes/chronicles/year848-day156-end-session.md\n---\n\n# Briarstone Cottage — Day156 current canon\n\nBriarstone Cottage, 7 Western Mill Lane, Brackenford, Northern Marches, Vellorin. Formerly Edrick Sorn's private property, House Ashvale owns after Year848 Suncrest34 Day154 restitution. 1.4 acres, appraised55gp noncash, two-story stone/timber house, 2 bedrooms, kitchen, sitting room, pantry, loft, storehouse, woodshed, fenced pasture, garden, 6 apple trees, well and millstream access. Vacant, habitable, minor repairs needed, no rent yet, ownership no village-government rights.\nBrackenford: approx180 residents, 42 households, ~35 minutes by wagon from Blackthorn North Waystation along northern-road village branch; cottage ~8 minutes walk from village center on Western Mill Lane. Bracken River, village stone bridge, market, watermill, forge, inn, farms. Village government reeve and council. Reeve Elsbeth Marrin52 human. Blacksmith Borin Emberhand68 dwarf. Innkeeper Mara Fenwick41 human of Willow Lantern six-room inn. Herbalist Seren Willowmere29 elf. Miller Harlan Wicks57 human western neighbor. Watch captain Ressa Vale45 human with six part-time watch members. Eastern neighbor widow Alda Perrin66 and grandson Corin14 (not equated to North Return House Perrin). North birch copse; south village grazing association pasture; west watermill/millstream. Cottage built Year786 by Edwin and Mara Briar; road expansion Year817; Sorn purchased Year837 and occasionally used for military correspondence; House Ashvale acquired Year848. Old built-in correspondence compartment currently empty by transfer inspection, marks/history uninvestigated. Possible AV-07 lead via historic visitors, inn ledgers, miller; no automatic secrets found or free income. All named residents autonomous.\n\n\n## Settlement and business references — Chunk 3\n\nThis structured reference section owns only the settlement/service lookup fields below. Earlier prose remains unchanged and retains its dated qualifications. Business IDs are parent-scoped retrieval labels, not new location entities or visits. UNKNOWN is JSON null; no quote, stock, vacancy or transfer is implied. See the settlement directory and existing finance owner for retrieval.\n\n```json\n{\n  \"schema_version\": 1,\n  \"location_id\": \"briarstone-cottage\",\n  \"classification\": \"CONFIRMED CANON\",\n  \"nation_id\": null,\n  \"region_id\": \"northern-marches\",\n  \"settlement_type\": \"private property\",\n  \"population\": null,\n  \"government\": null,\n  \"principal_official_id\": null,\n  \"watch\": null,\n  \"watch_official_id\": null,\n  \"court\": null,\n  \"route_ids\": [\n    \"route-brackenford-cottage\"\n  ],\n  \"neighborhoods\": null,\n  \"nearby_location_ids\": [\n    \"brackenford\"\n  ],\n  \"institutions\": [],\n  \"service_links\": [],\n  \"local_problem_refs\": [],\n  \"notes\": \"Separate House Ashvale property, not a business or inn. Vacant/habitable with minor repairs; no rent yet. No municipal rights or ownership transfer created.\",\n  \"source_refs\": [\n    \"entities/locations/briarstone-cottage.md\"\n  ],\n  \"evidence\": [\n    {\n      \"source_ref\": \"entities/locations/briarstone-cottage.md\",\n      \"quote\": \"Vacant, habitable, minor repairs needed, no rent yet, ownership no village-government rights.\"\n    }\n  ],\n  \"businesses\": [],\n  \"territory_id\": \"vellorin\"\n}\n```\n"
+}

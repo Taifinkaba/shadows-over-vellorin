@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "as_of": {
     "date": "Year 848 Day 181",
     "season": "Suncrest",
@@ -8,8 +8,8 @@
     "location": "Ashvale Estate",
     "session_status": "UNKNOWN"
   },
-  "source": "changes/chronicles/year848-day181-endpoint-adoption.md",
-  "qualification": "Player-approved supplied endpoint adoption; not independently recovered gameplay history or receipts.",
+  "source": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+  "qualification": "Player-confirmed continuity: Day181 endpoint reconciled by two historical cottage repair payments; not independently recovered receipts.",
   "currency": {
     "unit": "cp",
     "cp_per_gp": 100,
@@ -29,10 +29,14 @@
     "historical_closing_cp": 77190,
     "endpoint_total_cp": 74590,
     "difference_cp": 2600,
-    "classification": "UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED",
+    "classification": "RECONCILED — PLAYER-CONFIRMED BRIARSTONE COTTAGE REPAIRS",
     "is_transaction": false,
     "assigned_account_id": null,
-    "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md"
+    "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+    "transaction_ids": [
+      "briarstone-repair-deposit-day158",
+      "briarstone-repair-final-day165"
+    ]
   },
   "account_verifications": [],
   "transactions": [],
@@ -111,5 +115,47 @@
       "included_in_controlled_cash": false
     }
   ],
-  "automatic_future_income": false
+  "automatic_future_income": false,
+  "post_arc_transactions": [
+    {
+      "id": "briarstone-repair-deposit-day158",
+      "source_event_id": "briarstone-repair-deposit-day158",
+      "date": "Year 848 Day 158",
+      "season": "Suncrest",
+      "season_day": 38,
+      "time": null,
+      "category": "maintenance",
+      "property_id": "briarstone-cottage",
+      "amount_cp": 800,
+      "cash_effect_cp": -800,
+      "commitment_effect_cp": 0,
+      "funding_scope": "uncommitted-controlled-funds",
+      "account_id": null,
+      "recipient": null,
+      "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+      "source_quote": "repair deposit paid800cp",
+      "status": "player-confirmed-continuity",
+      "application_count": 1
+    },
+    {
+      "id": "briarstone-repair-final-day165",
+      "source_event_id": "briarstone-repair-final-day165",
+      "date": "Year 848 Day 165",
+      "season": "Suncrest",
+      "season_day": 45,
+      "time": null,
+      "category": "maintenance",
+      "property_id": "briarstone-cottage",
+      "amount_cp": 1800,
+      "cash_effect_cp": -1800,
+      "commitment_effect_cp": 0,
+      "funding_scope": "uncommitted-controlled-funds",
+      "account_id": null,
+      "recipient": null,
+      "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+      "source_quote": "final cottage repair payment paid1800cp",
+      "status": "player-confirmed-continuity",
+      "application_count": 1
+    }
+  ]
 }

@@ -196,7 +196,7 @@
     "entities/locations/blackthorn-watch.md": "7e868fbe35755b80ba5d9d87032d7789dcc5773214ca053b11c9488eefe7442b",
     "entities/locations/brackenford.md": "4bfad71c4fdf2db29e9697ca76e4382a426023a5001ae6b92cd9dfce7acd2014",
     "entities/locations/briarfall-crossing.md": "7688637fd510a6a228bb37adbaa2d08b5a2935765dc61cd60cede34f8c157a6f",
-    "entities/locations/briarstone-cottage.md": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a",
+    "entities/locations/briarstone-cottage.md": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571",
     "entities/locations/caelthorne.md": "6b1390a51f0b853428e63b1ed71a8bfc3f3c01a7bfbbba784469412b57b3bf05",
     "entities/locations/eastrun.md": "a1cc082219986df86e0e542ab89c778966f6e089022f67baaa6100d5d1366170",
     "entities/locations/elyndor.md": "6ebc8195a861be0f055d8776444b959eacdc1c2b798d6960c5424412b16b346b",
@@ -295,5 +295,14 @@
     "entities/rules/quest-continuation-and-completion.md": "f83861943ca4c21e516ca8c666b4670d4d885eb76e90a949f4a2bd6252e7e6ac",
     "entities/rules/story-mode.md": "f985742aa061c45e350ff0a61b2e7c4f75bc5c91a674d455928d08110794baa8",
     "entities/rules/travel-procedure.md": "7a3e2f883bf3fa0bd89924a4e8eb5c3618a11cf1ca5a3105ee418ddc360ef61f"
+  },
+  "approved_cottage_reconciliation_updates": {
+    "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+    "paths": {
+      "entities/locations/briarstone-cottage.md": {
+        "before_sha256": "823f1654a132784d6cb31c9c243e5ad45410a44602adb7147139bb90d959c54a",
+        "after_sha256": "325dbe7ae5e06a8af42361b7dc213ee10bb2d23ed699ce11ff81a4700187e571"
+      }
+    }
   }
 }

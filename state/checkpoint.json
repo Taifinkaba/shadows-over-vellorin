@@ -32,7 +32,7 @@
     "protective_anchors_retained": 7
   },
   "status": "UNKNOWN",
-  "source": "changes/chronicles/year848-day181-endpoint-adoption.md",
+  "source": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
   "context": {
     "safety": "Day181 supplied endpoint only; current companion positions/conditions unverified. No gameplay resumed.",
     "companions_present": [],
@@ -51,7 +51,8 @@
       "vanguard": "Last verified before adoption; see Day156 historical checkpoint: Completed mundane roadworthy Vanguard; no mana pool, distinct from Sovereign Expedition Wagon",
       "night_sovereign": "Last verified before adoption; see Day156 historical checkpoint: Completed, tested, paid515gp; reserved scale consumed once",
       "maternal_healing": "Last verified before adoption; see Day156 historical checkpoint: Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
-      "healing_springs": "Last verified before adoption; see Day156 historical checkpoint: 2/5"
+      "healing_springs": "Last verified before adoption; see Day156 historical checkpoint: 2/5",
+      "briarstone_repairs": "Player-confirmed completed by Year848 Suncrest45 Day165;26gp already reconciled in endpoint, not lodge expansion."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -114,8 +115,23 @@
       "from_mp": 378,
       "to_mp": 400,
       "difference_mp": 22,
-      "classification": "UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED",
-      "recovery_events": []
+      "classification": "RECONCILED — PLAYER-CONFIRMED SPIRIT MANA ASSIMILATION II",
+      "recovery_events": [
+        {
+          "ability": "Spirit Mana Assimilation II",
+          "intervals": 1,
+          "uninterrupted_minutes": 10,
+          "usable_ambient_mana": true,
+          "concentration_conditions_met": true,
+          "potential_mp": 24,
+          "actual_mp": 22,
+          "excess_mp": 2,
+          "personal_max_mp": 400,
+          "date": null,
+          "location": null,
+          "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md"
+        }
+      ]
     }
   }
 }
