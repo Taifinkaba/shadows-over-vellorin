@@ -5,9 +5,12 @@ status: research
 visibility: gm-reference
 source_refs:
 - changes/chronicles/justice-courts-prisons-design.md
+- changes/chronicles/phase2-03-government-approval.md
 ---
 
 # Justice approval crosswalk and proposed institutions
+
+Phase 2 PR3 now adds approved_facility_designs for exactly seven original proposal IDs, without verifying their operations or changing the other proposals. The Aveline identity pointer promotes the same proposed person into a character design; her Chief Justice office remains unapproved. The original proposal tables/explanations below are the dated baseline. Vellorin/Valedorn geography is superseded by PR1; no new jurisdiction or historical event follows.
 
 Explicit review candidates, not enacted World Bible2.2 canon. No candidate becomes an indexed building, faction or character merely through this crosswalk. No approved jurisdiction maps Valedorn to Vellorin, Aethoria or any other nation. Seven roles are evaluated against existing functions before considering any new organization; equivalent references do not subordinate those existing offices.
 
@@ -488,15 +491,16 @@ Twelve building candidates have only source-supported settlement references or n
       "id": "proposal:officer-aveline-hartwell",
       "name": "Chief Justice Aveline Hartwell",
       "classification": "PROPOSED",
-      "existing_character_id": null,
+      "existing_character_id": "aveline-hartwell",
       "candidate_office_id": null,
       "identity_review_ids": [],
-      "identity_review": "No indexed identity match; existing magistrates remain authoritative.",
+      "identity_review": "Phase2 approved character design promotes this same proposed identity; Chief Justice office and any actual appointment remain unapproved. Existing magistrates remain authoritative.",
       "relationships_to_theron": null,
       "approval_status": "REQUIRES APPROVAL",
       "approval_source_ref": null,
       "source_refs": [
-        "changes/chronicles/justice-courts-prisons-design.md"
+        "changes/chronicles/justice-courts-prisons-design.md",
+        "changes/chronicles/phase2-03-government-approval.md"
       ]
     },
     {
@@ -810,6 +814,232 @@ Twelve building candidates have only source-supported settlement references or n
       ]
     }
   ],
-  "automatic_custody_actions": false
+  "automatic_custody_actions": false,
+  "approved_facility_designs": [
+    {
+      "proposal_id": "proposal:building-crown-hall",
+      "classification": "APPROVED DESIGN",
+      "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+      "candidate_location_id": "caelthorne",
+      "governing_design_authority_id": "government:valedorn-high-court",
+      "court_design_authority_id": "government:valedorn-high-court",
+      "jurisdiction_condition": "Valedorn-style institutional model only. Caelthorne’s realm membership is approved; all other candidate territorial reach, receiving authority and charters require verification. No actual judicial or patrol jurisdiction is inferred from a proposed location.",
+      "purpose": "Court hearings, appellate review and records; not a prison.",
+      "prisoner_classification": "No holding population; court visitors only",
+      "staffing_roles": [
+        "Qualified independent judicial/process staff appropriate to purpose",
+        "Trained humane custody/escort staff where lawful holding is intended",
+        "Medical practitioner, record keeper and independent inspector roles; no names or hires"
+      ],
+      "security_design": "Controlled keys/access, witnessed inventories and proportionate searches; no punishment restraints. Any wards require independently verified function, finite resources and medical safeguards.",
+      "intake_release": "Verify identity or stable anonymous case label, legal basis, competent sending/receiving officers, order and medical needs. Give reason for custody, document property, seek prompt review; release requires its own supported lawful decision.",
+      "custody_documentation": "Use the existing prisoner-custody owner and justice-and-jurisdiction action/evidence templates. Distinguish arrest, remand, verdict, sentence, transfer and release; no copied case ledger.",
+      "medical_and_conditions": "Clean water, adequate food, shelter, sanitation, rest and access to independent care; record injuries without inventing them. No torture, coercive confession or punitive denial of treatment.",
+      "transport_requirements": "Verify lawful authority/acceptance, end-to-end compatible route, willing lawful escorts, weather/rest/feed, humane restraint and medical transport. Record actual departures and independent receipts only after evidence.",
+      "inspection_and_oversight": "Independent court and civilian/realm inspection with records, complaint access, conflict recusal and review of detention necessity; no appointment or completed inspection.",
+      "emergency_procedures": "Protect life, preserve evidence and record necessity; evacuation/medical help needs verified safe destinations, custody continuity and later independent review, never automatic prisoner relocation.",
+      "capacity_limits": "Design has finite space, trained staff, food, care and safe separation requirements. Exact capacity and current availability remain UNKNOWN, not zero or unlimited.",
+      "actual_governing_authority_id": null,
+      "responsible_officer_id": null,
+      "current_staffing": null,
+      "exact_capacity": null,
+      "current_prisoners": null,
+      "operational_status": "UNKNOWN",
+      "actual_transfers": [],
+      "actual_intakes": []
+    },
+    {
+      "proposal_id": "proposal:building-central-watchhouse",
+      "classification": "APPROVED DESIGN",
+      "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+      "candidate_location_id": "caelthorne",
+      "governing_design_authority_id": "government:valedorn-watch",
+      "court_design_authority_id": "government:valedorn-regional-courts",
+      "jurisdiction_condition": "Valedorn-style institutional model only. Caelthorne’s realm membership is approved; all other candidate territorial reach, receiving authority and charters require verification. No actual judicial or patrol jurisdiction is inferred from a proposed location.",
+      "purpose": "Initial safety, booking and brief lawful holding pending independent review.",
+      "prisoner_classification": "Individual remand/sentence/special-risk classification requires evidence, review and separation by legal/medical needs; no person assigned.",
+      "staffing_roles": [
+        "Qualified independent judicial/process staff appropriate to purpose",
+        "Trained humane custody/escort staff where lawful holding is intended",
+        "Medical practitioner, record keeper and independent inspector roles; no names or hires"
+      ],
+      "security_design": "Controlled keys/access, witnessed inventories and proportionate searches; no punishment restraints. Any wards require independently verified function, finite resources and medical safeguards.",
+      "intake_release": "Verify identity or stable anonymous case label, legal basis, competent sending/receiving officers, order and medical needs. Give reason for custody, document property, seek prompt review; release requires its own supported lawful decision.",
+      "custody_documentation": "Use the existing prisoner-custody owner and justice-and-jurisdiction action/evidence templates. Distinguish arrest, remand, verdict, sentence, transfer and release; no copied case ledger.",
+      "medical_and_conditions": "Clean water, adequate food, shelter, sanitation, rest and access to independent care; record injuries without inventing them. No torture, coercive confession or punitive denial of treatment.",
+      "transport_requirements": "Verify lawful authority/acceptance, end-to-end compatible route, willing lawful escorts, weather/rest/feed, humane restraint and medical transport. Record actual departures and independent receipts only after evidence.",
+      "inspection_and_oversight": "Independent court and civilian/realm inspection with records, complaint access, conflict recusal and review of detention necessity; no appointment or completed inspection.",
+      "emergency_procedures": "Protect life, preserve evidence and record necessity; evacuation/medical help needs verified safe destinations, custody continuity and later independent review, never automatic prisoner relocation.",
+      "capacity_limits": "Design has finite space, trained staff, food, care and safe separation requirements. Exact capacity and current availability remain UNKNOWN, not zero or unlimited.",
+      "actual_governing_authority_id": null,
+      "responsible_officer_id": null,
+      "current_staffing": null,
+      "exact_capacity": null,
+      "current_prisoners": null,
+      "operational_status": "UNKNOWN",
+      "actual_transfers": [],
+      "actual_intakes": []
+    },
+    {
+      "proposal_id": "proposal:building-eastrun-gaol",
+      "classification": "APPROVED DESIGN",
+      "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+      "candidate_location_id": "eastrun",
+      "governing_design_authority_id": "government:valedorn-custody-service",
+      "court_design_authority_id": "government:valedorn-regional-courts",
+      "jurisdiction_condition": "Valedorn-style institutional model only. Caelthorne’s realm membership is approved; all other candidate territorial reach, receiving authority and charters require verification. No actual judicial or patrol jurisdiction is inferred from a proposed location.",
+      "purpose": "District judicial remand and lawful short custody.",
+      "prisoner_classification": "Individual remand/sentence/special-risk classification requires evidence, review and separation by legal/medical needs; no person assigned.",
+      "staffing_roles": [
+        "Qualified independent judicial/process staff appropriate to purpose",
+        "Trained humane custody/escort staff where lawful holding is intended",
+        "Medical practitioner, record keeper and independent inspector roles; no names or hires"
+      ],
+      "security_design": "Controlled keys/access, witnessed inventories and proportionate searches; no punishment restraints. Any wards require independently verified function, finite resources and medical safeguards.",
+      "intake_release": "Verify identity or stable anonymous case label, legal basis, competent sending/receiving officers, order and medical needs. Give reason for custody, document property, seek prompt review; release requires its own supported lawful decision.",
+      "custody_documentation": "Use the existing prisoner-custody owner and justice-and-jurisdiction action/evidence templates. Distinguish arrest, remand, verdict, sentence, transfer and release; no copied case ledger.",
+      "medical_and_conditions": "Clean water, adequate food, shelter, sanitation, rest and access to independent care; record injuries without inventing them. No torture, coercive confession or punitive denial of treatment.",
+      "transport_requirements": "Verify lawful authority/acceptance, end-to-end compatible route, willing lawful escorts, weather/rest/feed, humane restraint and medical transport. Record actual departures and independent receipts only after evidence.",
+      "inspection_and_oversight": "Independent court and civilian/realm inspection with records, complaint access, conflict recusal and review of detention necessity; no appointment or completed inspection.",
+      "emergency_procedures": "Protect life, preserve evidence and record necessity; evacuation/medical help needs verified safe destinations, custody continuity and later independent review, never automatic prisoner relocation.",
+      "capacity_limits": "Design has finite space, trained staff, food, care and safe separation requirements. Exact capacity and current availability remain UNKNOWN, not zero or unlimited.",
+      "actual_governing_authority_id": null,
+      "responsible_officer_id": null,
+      "current_staffing": null,
+      "exact_capacity": null,
+      "current_prisoners": null,
+      "operational_status": "UNKNOWN",
+      "actual_transfers": [],
+      "actual_intakes": []
+    },
+    {
+      "proposal_id": "proposal:building-briarfall-gaol",
+      "classification": "APPROVED DESIGN",
+      "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+      "candidate_location_id": "briarfall-crossing",
+      "governing_design_authority_id": "government:valedorn-custody-service",
+      "court_design_authority_id": "government:valedorn-regional-courts",
+      "jurisdiction_condition": "Valedorn-style institutional model only. Caelthorne’s realm membership is approved; all other candidate territorial reach, receiving authority and charters require verification. No actual judicial or patrol jurisdiction is inferred from a proposed location.",
+      "purpose": "District judicial remand with transport/bridge access verification.",
+      "prisoner_classification": "Individual remand/sentence/special-risk classification requires evidence, review and separation by legal/medical needs; no person assigned.",
+      "staffing_roles": [
+        "Qualified independent judicial/process staff appropriate to purpose",
+        "Trained humane custody/escort staff where lawful holding is intended",
+        "Medical practitioner, record keeper and independent inspector roles; no names or hires"
+      ],
+      "security_design": "Controlled keys/access, witnessed inventories and proportionate searches; no punishment restraints. Any wards require independently verified function, finite resources and medical safeguards.",
+      "intake_release": "Verify identity or stable anonymous case label, legal basis, competent sending/receiving officers, order and medical needs. Give reason for custody, document property, seek prompt review; release requires its own supported lawful decision.",
+      "custody_documentation": "Use the existing prisoner-custody owner and justice-and-jurisdiction action/evidence templates. Distinguish arrest, remand, verdict, sentence, transfer and release; no copied case ledger.",
+      "medical_and_conditions": "Clean water, adequate food, shelter, sanitation, rest and access to independent care; record injuries without inventing them. No torture, coercive confession or punitive denial of treatment.",
+      "transport_requirements": "Verify lawful authority/acceptance, end-to-end compatible route, willing lawful escorts, weather/rest/feed, humane restraint and medical transport. Record actual departures and independent receipts only after evidence.",
+      "inspection_and_oversight": "Independent court and civilian/realm inspection with records, complaint access, conflict recusal and review of detention necessity; no appointment or completed inspection.",
+      "emergency_procedures": "Protect life, preserve evidence and record necessity; evacuation/medical help needs verified safe destinations, custody continuity and later independent review, never automatic prisoner relocation.",
+      "capacity_limits": "Design has finite space, trained staff, food, care and safe separation requirements. Exact capacity and current availability remain UNKNOWN, not zero or unlimited.",
+      "actual_governing_authority_id": null,
+      "responsible_officer_id": null,
+      "current_staffing": null,
+      "exact_capacity": null,
+      "current_prisoners": null,
+      "operational_status": "UNKNOWN",
+      "actual_transfers": [],
+      "actual_intakes": []
+    },
+    {
+      "proposal_id": "proposal:building-blackthorn-gaol",
+      "classification": "APPROVED DESIGN",
+      "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+      "candidate_location_id": "blackthorn-watch",
+      "governing_design_authority_id": "government:valedorn-custody-service",
+      "court_design_authority_id": "government:valedorn-regional-courts",
+      "jurisdiction_condition": "Valedorn-style institutional model only. Caelthorne’s realm membership is approved; all other candidate territorial reach, receiving authority and charters require verification. No actual judicial or patrol jurisdiction is inferred from a proposed location.",
+      "purpose": "Regional serious-case remand or lawful sentences; not identity with Watch or North Waystation.",
+      "prisoner_classification": "Individual remand/sentence/special-risk classification requires evidence, review and separation by legal/medical needs; no person assigned.",
+      "staffing_roles": [
+        "Qualified independent judicial/process staff appropriate to purpose",
+        "Trained humane custody/escort staff where lawful holding is intended",
+        "Medical practitioner, record keeper and independent inspector roles; no names or hires"
+      ],
+      "security_design": "Controlled keys/access, witnessed inventories and proportionate searches; no punishment restraints. Any wards require independently verified function, finite resources and medical safeguards.",
+      "intake_release": "Verify identity or stable anonymous case label, legal basis, competent sending/receiving officers, order and medical needs. Give reason for custody, document property, seek prompt review; release requires its own supported lawful decision.",
+      "custody_documentation": "Use the existing prisoner-custody owner and justice-and-jurisdiction action/evidence templates. Distinguish arrest, remand, verdict, sentence, transfer and release; no copied case ledger.",
+      "medical_and_conditions": "Clean water, adequate food, shelter, sanitation, rest and access to independent care; record injuries without inventing them. No torture, coercive confession or punitive denial of treatment.",
+      "transport_requirements": "Verify lawful authority/acceptance, end-to-end compatible route, willing lawful escorts, weather/rest/feed, humane restraint and medical transport. Record actual departures and independent receipts only after evidence.",
+      "inspection_and_oversight": "Independent court and civilian/realm inspection with records, complaint access, conflict recusal and review of detention necessity; no appointment or completed inspection.",
+      "emergency_procedures": "Protect life, preserve evidence and record necessity; evacuation/medical help needs verified safe destinations, custody continuity and later independent review, never automatic prisoner relocation.",
+      "capacity_limits": "Design has finite space, trained staff, food, care and safe separation requirements. Exact capacity and current availability remain UNKNOWN, not zero or unlimited.",
+      "actual_governing_authority_id": null,
+      "responsible_officer_id": null,
+      "current_staffing": null,
+      "exact_capacity": null,
+      "current_prisoners": null,
+      "operational_status": "UNKNOWN",
+      "actual_transfers": [],
+      "actual_intakes": []
+    },
+    {
+      "proposal_id": "proposal:building-stonegate",
+      "classification": "APPROVED DESIGN",
+      "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+      "candidate_location_id": null,
+      "governing_design_authority_id": "government:valedorn-custody-service",
+      "court_design_authority_id": "government:valedorn-high-court",
+      "jurisdiction_condition": "Valedorn-style institutional model only. Caelthorne’s realm membership is approved; all other candidate territorial reach, receiving authority and charters require verification. No actual judicial or patrol jurisdiction is inferred from a proposed location.",
+      "purpose": "Lawfully sentenced serious cases after competent court process; location unknown.",
+      "prisoner_classification": "Individual remand/sentence/special-risk classification requires evidence, review and separation by legal/medical needs; no person assigned.",
+      "staffing_roles": [
+        "Qualified independent judicial/process staff appropriate to purpose",
+        "Trained humane custody/escort staff where lawful holding is intended",
+        "Medical practitioner, record keeper and independent inspector roles; no names or hires"
+      ],
+      "security_design": "Controlled keys/access, witnessed inventories and proportionate searches; no punishment restraints. Any wards require independently verified function, finite resources and medical safeguards.",
+      "intake_release": "Verify identity or stable anonymous case label, legal basis, competent sending/receiving officers, order and medical needs. Give reason for custody, document property, seek prompt review; release requires its own supported lawful decision.",
+      "custody_documentation": "Use the existing prisoner-custody owner and justice-and-jurisdiction action/evidence templates. Distinguish arrest, remand, verdict, sentence, transfer and release; no copied case ledger.",
+      "medical_and_conditions": "Clean water, adequate food, shelter, sanitation, rest and access to independent care; record injuries without inventing them. No torture, coercive confession or punitive denial of treatment.",
+      "transport_requirements": "Verify lawful authority/acceptance, end-to-end compatible route, willing lawful escorts, weather/rest/feed, humane restraint and medical transport. Record actual departures and independent receipts only after evidence.",
+      "inspection_and_oversight": "Independent court and civilian/realm inspection with records, complaint access, conflict recusal and review of detention necessity; no appointment or completed inspection.",
+      "emergency_procedures": "Protect life, preserve evidence and record necessity; evacuation/medical help needs verified safe destinations, custody continuity and later independent review, never automatic prisoner relocation.",
+      "capacity_limits": "Design has finite space, trained staff, food, care and safe separation requirements. Exact capacity and current availability remain UNKNOWN, not zero or unlimited.",
+      "actual_governing_authority_id": null,
+      "responsible_officer_id": null,
+      "current_staffing": null,
+      "exact_capacity": null,
+      "current_prisoners": null,
+      "operational_status": "UNKNOWN",
+      "actual_transfers": [],
+      "actual_intakes": []
+    },
+    {
+      "proposal_id": "proposal:building-warded-annex",
+      "classification": "APPROVED DESIGN",
+      "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+      "candidate_location_id": null,
+      "governing_design_authority_id": "government:valedorn-custody-service",
+      "court_design_authority_id": "government:valedorn-high-court",
+      "jurisdiction_condition": "Valedorn-style institutional model only. Caelthorne’s realm membership is approved; all other candidate territorial reach, receiving authority and charters require verification. No actual judicial or patrol jurisdiction is inferred from a proposed location.",
+      "purpose": "Proportionate specialist custody only for individually evidenced risk and lawful authority; no demonstrated ward capability.",
+      "prisoner_classification": "Individual remand/sentence/special-risk classification requires evidence, review and separation by legal/medical needs; no person assigned.",
+      "staffing_roles": [
+        "Qualified independent judicial/process staff appropriate to purpose",
+        "Trained humane custody/escort staff where lawful holding is intended",
+        "Medical practitioner, record keeper and independent inspector roles; no names or hires"
+      ],
+      "security_design": "Controlled keys/access, witnessed inventories and proportionate searches; no punishment restraints. Any wards require independently verified function, finite resources and medical safeguards.",
+      "intake_release": "Verify identity or stable anonymous case label, legal basis, competent sending/receiving officers, order and medical needs. Give reason for custody, document property, seek prompt review; release requires its own supported lawful decision.",
+      "custody_documentation": "Use the existing prisoner-custody owner and justice-and-jurisdiction action/evidence templates. Distinguish arrest, remand, verdict, sentence, transfer and release; no copied case ledger.",
+      "medical_and_conditions": "Clean water, adequate food, shelter, sanitation, rest and access to independent care; record injuries without inventing them. No torture, coercive confession or punitive denial of treatment.",
+      "transport_requirements": "Verify lawful authority/acceptance, end-to-end compatible route, willing lawful escorts, weather/rest/feed, humane restraint and medical transport. Record actual departures and independent receipts only after evidence.",
+      "inspection_and_oversight": "Independent court and civilian/realm inspection with records, complaint access, conflict recusal and review of detention necessity; no appointment or completed inspection.",
+      "emergency_procedures": "Protect life, preserve evidence and record necessity; evacuation/medical help needs verified safe destinations, custody continuity and later independent review, never automatic prisoner relocation.",
+      "capacity_limits": "Design has finite space, trained staff, food, care and safe separation requirements. Exact capacity and current availability remain UNKNOWN, not zero or unlimited.",
+      "actual_governing_authority_id": null,
+      "responsible_officer_id": null,
+      "current_staffing": null,
+      "exact_capacity": null,
+      "current_prisoners": null,
+      "operational_status": "UNKNOWN",
+      "actual_transfers": [],
+      "actual_intakes": []
+    }
+  ]
 }
 ```

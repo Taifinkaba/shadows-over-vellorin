@@ -10,9 +10,12 @@ source_refs:
 - entities/locations/blackthorn-watch.md
 - entities/factions/wayfarers-guild.md
 - entities/locations/ashvale-estate.md
+- changes/chronicles/phase2-03-government-approval.md
 ---
 
 # Existing justice authority references
+
+Phase 2 approved_design_routing now routes five realm government designs, five character designs, the bounded facility extension and approved legal rules. It creates no verified authority or appointment. The historical authority rows below retain their original scope; the old unknown-geography sentence is superseded by the PR1 directory, without expanding any historical official’s powers.
 
 Scoped IDs below identify existing functions, not new organizations. Headquarters, stations, detention powers, boundaries and receiving officers remain unknown unless sourced. Magistrates/watch/council/command/contract/private roles are distinct. Leadership references preserve existing responsibilities and do not appoint receiving officers. Citizen intervention and adventurer rank confer no automatic police powers. Government labels describe source context only; Vellorin's political type and Valedorn's relationship remain unknown.
 
@@ -256,6 +259,28 @@ Scoped IDs below identify existing functions, not new organizations. Headquarter
     "elsbeth-marrin"
   ],
   "verified_receiving_facilities": [],
-  "automatic_custody_actions": false
+  "automatic_custody_actions": false,
+  "approved_design_routing": {
+    "classification": "APPROVED DESIGN",
+    "approval_source_ref": "changes/chronicles/phase2-03-government-approval.md",
+    "realm_ids": [
+      "valedorn",
+      "elyndor",
+      "ironhollow-holds",
+      "rivermere-league",
+      "frostmarch"
+    ],
+    "character_design_ids": [
+      "elowen-marcrest",
+      "cassian-thornmere",
+      "durnek-stonevein",
+      "selene-harrow",
+      "aveline-hartwell"
+    ],
+    "facility_owner_ref": "justice-proposals",
+    "legal_owner_ref": "justice-and-jurisdiction",
+    "verified_new_authorities": [],
+    "actual_appointments": []
+  }
 }
 ```

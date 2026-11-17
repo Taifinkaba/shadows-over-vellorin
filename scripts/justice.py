@@ -77,7 +77,12 @@ def validate_justice(root, records, require, repository_file, unique_json):
     require(expected <= records.keys() and marked, 'justice: incomplete justice/custody framework')
 
     def shape(value, fields, label):
-        require(isinstance(value, dict) and set(value)==set(fields.split()), f'justice: invalid {label} fields')
+        expected_fields = set(fields.split())
+        optional = {'authority registry': 'approved_design_routing', 'proposals': 'approved_facility_designs',
+                    'workflow rules': 'approved_legal_design'}
+        if isinstance(value, dict) and optional.get(label) in value:
+            expected_fields.add(optional[label])
+        require(isinstance(value, dict) and set(value)==expected_fields, f'justice: invalid {label} fields')
 
     def text(value, label):
         require(isinstance(value, str) and value.strip(), f'justice: invalid {label}')
@@ -232,9 +237,13 @@ def validate_justice(root, records, require, repository_file, unique_json):
         parts = re.findall(r'[a-z]+',p['name'].casefold())
         rank_words = {'chief','justice','captain','commander','warden','marshal','magister','magistrate','judge'}
         full_name_id = '-'.join(part for part in parts if part not in rank_words)
-        require(full_name_id not in records or records[full_name_id]['type']!='characters',
+        approved_identity = (p['id'] == 'proposal:officer-aveline-hartwell' and
+                             full_name_id == p['existing_character_id'] == 'aveline-hartwell' and
+                             'changes/chronicles/phase2-03-government-approval.md' in p['source_refs'] and
+                             full_name_id in records and records[full_name_id]['type'] == 'characters')
+        require(full_name_id not in records or records[full_name_id]['type']!='characters' or approved_identity,
                 'justice: proposed official duplicates an established name; review identity first')
-        require(p['existing_character_id'] is None and p['candidate_office_id'] is None and p['relationships_to_theron'] is None,
+        require((p['existing_character_id'] is None or approved_identity) and p['candidate_office_id'] is None and p['relationships_to_theron'] is None,
                 'justice: proposed official identity/appointment/relationship not established')
         strings(p['identity_review_ids'], 'identity review IDs')
         for ident in p['identity_review_ids']:
