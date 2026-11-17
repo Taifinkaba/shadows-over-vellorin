@@ -546,6 +546,11 @@ def validate(root):
         from settlements import validate_settlements
     validate_settlements(root, records, require, repository_file, unique_json)
     if __package__:
+        from .settlement_expansion import validate_settlement_expansion
+    else:
+        from settlement_expansion import validate_settlement_expansion
+    validate_settlement_expansion(root, records, require, repository_file, unique_json)
+    if __package__:
         from .justice import validate_justice
     else:
         from justice import validate_justice

@@ -71,7 +71,9 @@ def validate_geography(root, records, require, repository_file, unique_json):
                 'travel: location proposed/canon metadata mismatch')
         if node['classification'] == 'APPROVED DESIGN':
             require(records[ident]['status'] == 'canon' and
-                    'changes/chronicles/phase2-01-geography-approval.md' in records[ident]['source_refs'],
+                    ('changes/chronicles/phase2-02-settlement-approval.md' if ident in
+                     {'silverbrook', 'stoneford', 'southbank-landing', 'windmere'} else
+                     'changes/chronicles/phase2-01-geography-approval.md') in records[ident]['source_refs'],
                     'travel: approved design requires approval provenance')
         require(isinstance(node['parents'], list), 'travel: parents must be list')
         require((node['classification'] == 'APPROVED DESIGN') == (ident in design_ids),
@@ -86,7 +88,7 @@ def validate_geography(root, records, require, repository_file, unique_json):
     for e in index['entries']:
         if e['id'] in nodes:
             location_titles[e['id']] = e['title']
-        if e['id'] in nodes and nodes[e['id']]['classification'] == 'CONFIRMED CANON':
+        if e['id'] in nodes and nodes[e['id']]['classification'] != 'PROPOSED':
             title = re.sub(r'[^a-z0-9]', '', e['title'].casefold())
             require(title not in titles, 'travel: duplicate canonical location title')
             titles[title] = e['id']
@@ -103,7 +105,9 @@ def validate_geography(root, records, require, repository_file, unique_json):
             refs(edge['source_refs'], 'world-geography')
             if edge['classification'] == 'APPROVED DESIGN':
                 require(node['classification'] != 'PROPOSED' and nodes[parent]['classification'] != 'PROPOSED'
-                        and 'changes/chronicles/phase2-01-geography-approval.md' in edge['source_refs'],
+                        and ('changes/chronicles/phase2-02-settlement-approval.md' if ident in
+                             {'silverbrook', 'stoneford', 'southbank-landing', 'windmere'} else
+                             'changes/chronicles/phase2-01-geography-approval.md') in edge['source_refs'],
                         'travel: invalid approved containment/provenance')
             if edge['classification'] == 'CONFIRMED CANON':
                 require(node['classification'] == nodes[parent]['classification'] == 'CONFIRMED CANON',

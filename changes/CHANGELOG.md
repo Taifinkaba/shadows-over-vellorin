@@ -1,3 +1,10 @@
+# Phase 2 PR 2 — settlement, service, trade and postal design
+
+- Base main f368030 includes merged geography PR24. Expand ten approved settlements with classified populations, districts, daily/civic life, local tensions and finite production/employment chains. Promote Silverbrook and Southbank Landing from archival design; preserve the short Southbank label without a second river-port entity. Add Stoneford/Windmere as unlocated Vellorin settlement designs; no new realm or road claims.
+- Keep each approved expansion in its original parent-owned JSON object, separate from historical fields. Add memorable businesses/services and enrich Brackenford’s existing five scoped services. Preserve officials, ownership, unknown conditions, household evidence and all legacy service fields.
+- Add prospective price/wage baselines to the existing price owner, proposed trade dependencies and six-method medieval postal framework with an empty message template. No competing cash/event/message ledger, current license/stock, active crime, staffing assignment or delivery is created. Adult entertainment design requires adult independent workers, consent and verified local regulation.
+- Add provenance/identity/route/legal-design/finite-resource validation, regression tests and inventories; revise only authorized current-owner preservation hashes with before/after evidence. All state, archives, preexisting chronicles, routes, NPCs, property, finances and gameplay remain unchanged. Public visibility verified; no secrets, visibility action, merge or PR3 implementation.
+
 # Phase 2 PR 1 — approved geography and proposed travel
 
 - Base main9178c3c (merged Day181 reconciliation PR23). Establish five realm designs within territorial Vellorin; retain proposed Aethoria and existing Northern Marches hierarchy. Reuse Elyndor/Frostmarch and distinct settlement IDs, without relocating other existing places.

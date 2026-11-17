@@ -11,6 +11,7 @@ source_refs:
 - entities/locations/brackenford.md
 - entities/locations/hollow-first-hour.md
 - entities/locations/hollow-veil.md
+- changes/chronicles/phase2-02-settlement-approval.md
 ---
 
 # Geographic hierarchy and location directory
@@ -319,6 +320,62 @@ The following single JSON block owns directory membership and containment edges.
           "classification": "APPROVED DESIGN",
           "source_refs": [
             "changes/chronicles/phase2-01-geography-approval.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silverbrook",
+      "kind": "village",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-02-settlement-approval.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stoneford",
+      "kind": "settlement",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-02-settlement-approval.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "southbank-landing",
+      "kind": "settlement",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-02-settlement-approval.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "windmere",
+      "kind": "village",
+      "classification": "APPROVED DESIGN",
+      "parents": [
+        {
+          "id": "vellorin",
+          "classification": "APPROVED DESIGN",
+          "source_refs": [
+            "changes/chronicles/phase2-02-settlement-approval.md"
           ]
         }
       ]

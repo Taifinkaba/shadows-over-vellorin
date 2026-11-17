@@ -2513,6 +2513,84 @@
         "route",
         "proposed"
       ]
+    },
+    {
+      "id": "silverbrook",
+      "type": "locations",
+      "title": "Silverbrook",
+      "path": "entities/locations/silverbrook.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "settlements",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "stoneford",
+      "type": "locations",
+      "title": "Stoneford",
+      "path": "entities/locations/stoneford.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "settlements",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "southbank-landing",
+      "type": "locations",
+      "title": "Southbank Landing",
+      "path": "entities/locations/southbank-landing.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "settlements",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "windmere",
+      "type": "locations",
+      "title": "Windmere",
+      "path": "entities/locations/windmere.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "settlements",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "settlement-trade",
+      "type": "mechanics",
+      "title": "Settlement trade dependency proposals",
+      "path": "entities/mechanics/settlement-trade.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "settlements",
+        "approved-design"
+      ]
+    },
+    {
+      "id": "settlement-communications",
+      "type": "mechanics",
+      "title": "Medieval communications and postal design",
+      "path": "entities/mechanics/settlement-communications.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "phase2",
+        "settlements",
+        "approved-design"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
