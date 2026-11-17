@@ -2232,6 +2232,58 @@
         "exploration",
         "chunk6"
       ]
+    },
+    {
+      "id": "economy-accounting",
+      "type": "mechanics",
+      "title": "Economy accounting and reporting",
+      "path": "entities/mechanics/economy-accounting.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "economy",
+        "chunk7",
+        "read-only"
+      ]
+    },
+    {
+      "id": "business-financial-references",
+      "type": "mechanics",
+      "title": "Business financial retrieval",
+      "path": "entities/mechanics/business-financial-references.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "economy",
+        "chunk7",
+        "read-only"
+      ]
+    },
+    {
+      "id": "property-financial-references",
+      "type": "mechanics",
+      "title": "Property and asset retrieval",
+      "path": "entities/mechanics/property-financial-references.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "economy",
+        "chunk7",
+        "read-only"
+      ]
+    },
+    {
+      "id": "payroll-construction-and-trade",
+      "type": "rules",
+      "title": "Payroll, commitments, pricing and trade procedures",
+      "path": "entities/rules/payroll-construction-and-trade.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "economy",
+        "chunk7",
+        "read-only"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

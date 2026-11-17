@@ -1,3 +1,10 @@
+# Economy and property accounting — chunk 7
+
+- Add source-owned retrieval for four property contexts and14 existing services, plus five-domain accounting, payroll/construction/pricing/trade procedures. Preserve ownership/control/management distinctions and UNKNOWN current receipts, rates, titles and values.
+- Add read-only report derived from the sole existing ledger and qualified historical model, with source amounts, account labels, commitments, exclusions, distributions and reconciliation evidence gaps. No posting API or second ledger.
+- Preserve22% eligible merchant commission; separately flag missing provenance for supplied lodge/springs/information price increases, with no fabricated quotes or applied modifiers. Add validators, prospective template checks, regression/preservation tests, index and documentation links.
+- All preexisting entities, state, archive, money, property, staff, contracts, inventory, custody and resources unchanged. No Day181 reconciliation, financial transaction, construction, visibility change, Chunk8 or merge permission.
+
 # Dungeon and exploration registry — chunk 6
 
 - Add routing for18 existing site/context labels,14 source-bound section handles, four ecology contexts and four existing hazard references. Preserve distinct Hollows and Seven Bells contexts; ordinary structures are not blanket-classified as dungeons. No existing campaign entity changed.

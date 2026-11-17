@@ -36,6 +36,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [Dungeon/exploration directory](docs/dungeon-and-exploration-directory.md) routes existing sites, source-derived section states, ecology/hazard references and unapproved designs. Existing owners retain exploration, inventory and outcomes; no automatic resets, respawns, loot or clearing.
 
+## Property and economy
+
+[Property/economy directory](docs/property-and-economy-directory.md) routes existing property and business owners, payroll/construction/pricing/trade procedures and read-only financial reports. The existing finance ledger stays the single cash authority; no automatic income, payment, valuation or ownership change.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 
