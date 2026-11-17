@@ -180,7 +180,8 @@ class GuildTests(unittest.TestCase):
         p=self.root/'index.json';d=json.loads(p.read_text())
         d['entries']=[e for e in d['entries'] if e['id']!='contract-registry'];p.write_text(json.dumps(d))
         self.path('contract-registry').unlink()
-        with self.assertRaisesRegex(ValidationError,'incomplete guild framework'):validate(self.root)
+        # New dungeon provenance may detect the same removed contract owner earlier.
+        with self.assertRaisesRegex(ValidationError,'incomplete guild framework|source_refs: missing file entities/mechanics/contract-registry.md'):validate(self.root)
 
     def test_optimized_validator_preserves_proposals(self):
         self.edit('continental-guild-concord',lambda d:d.update(operational=True))

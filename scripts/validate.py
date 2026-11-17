@@ -542,6 +542,11 @@ def validate(root):
     else:
         from guilds import validate_guilds
     validate_guilds(root, records, require, repository_file, unique_json)
+    if __package__:
+        from .dungeons import validate_dungeons
+    else:
+        from dungeons import validate_dungeons
+    validate_dungeons(root, records, require, repository_file, unique_json)
     return f"OK: {len(entries)} entity records, {len(archive_paths)} archived modules, checkpoint valid"
 
 

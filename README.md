@@ -32,6 +32,10 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 [Guild/contract directory](docs/guild-and-contract-directory.md) routes existing independent organizations, historical contract references and the proposed Concord. Archived branch designs, rank domains, funding and legal authority remain separate; no automatic payouts, licensing or enrollment.
 
+## Dungeons and exploration
+
+[Dungeon/exploration directory](docs/dungeon-and-exploration-directory.md) routes existing sites, source-derived section states, ecology/hazard references and unapproved designs. Existing owners retain exploration, inventory and outcomes; no automatic resets, respawns, loot or clearing.
+
 ## Current checkpoint
 Year848 Suncrest36 Day156, **20:15**, Ashvale Estate family sitting room; **ENDED**. HP100/100 MP378/400, DEF49 normally,51 only wearing Night Sovereign (currently carried). Nexus156/180; separate Sovereign Expedition Wagon60/60. Vanguard completed mundane, no mana pool. Controlled771gp9sp;317gp committed/unpaid,454gp9sp uncommitted.
 

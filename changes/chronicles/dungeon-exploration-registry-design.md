@@ -1,0 +1,7 @@
+# Chunk 6 dungeon/exploration maintenance provenance
+
+Source: player-supplied “CODEX CHUNK 6 OF 10 — Dungeons, Monsters, Exploration & Loot” request after merged Chunks1–5, baseline90be489d61c69e014ba694fffb2aa79b38061902. It authorizes a source-routing registry, persistent section-state framework, ecology/hazard/loot procedure, five design candidates, tests and a PR. It authorizes no visits, loot, spawns, traps, battles, clearing, resource changes, site connections, custody changes, quests or Day181 adoption.
+
+The request supplies five proposed names/ranks: Hollowstone Mine D; Ashen Anvil B; Drowned Archive A; Pale Reliquary S; Shattered Meridian SS. These are design labels only, not active sites, inhabitants, treasure, maps or a census. The suggested F-through-S+ threat scale does not include SS; Shattered Meridian retains its supplied label as a conflict requiring approval, without silently extending the scale or converting SS to S+.
+
+All preexisting entity, state and archive files remain unchanged. Site/section references derive state from existing location/quest/salvage owners; no duplicated inventory or mutable exploration snapshot. Search/visit/protection/objective completion remain different observations. Existing ecology and dangerous-object references are pointers, not new current occupants or trap placements. Source retrieval does not grant player knowledge; no hidden answer, concealed identity, solution or motive is copied into new reference data.
