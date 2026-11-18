@@ -149,10 +149,12 @@ def validate_state(state):
     v3 = type(version) is int and version == 3
     keys(state, {"schema_version", "date", "time", "location", "theron", "money", "world", "status", "source", "context"} | ({"resources"} if modern else set()) | ({"calendar", "custody"} if dated else set()) | ({"provenance"} if v6 else set()), "checkpoint")
     require(type(state["schema_version"]) is int and state["schema_version"] in {2, 3, 4, 5, 6}, "checkpoint: unsupported schema_version")
-    for field in ("date", "time", "location", "status", "source"):
+    for field in ("date", "location", "status", "source"):
         string(state[field], f"checkpoint.{field}")
     require(re.fullmatch(r"Year \d+ Day \d+", state["date"]) is not None, "checkpoint: invalid date")
-    require(re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d", state["time"]) is not None, "checkpoint: invalid time")
+    if not (v6 and state["time"] is None):
+        string(state["time"], "checkpoint.time")
+        require(re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d", state["time"]) is not None, "checkpoint: invalid time")
     require((state["status"] in {"UNKNOWN","PAUSED","ENDED"} if v6 else state["status"] == ("ENDED" if v3 or v5 else "PAUSED")), "checkpoint: invalid session status")
     stats = state["theron"]
     keys(stats, STATS, "checkpoint.theron")
@@ -176,7 +178,17 @@ def validate_state(state):
             for field in ("provisional_status", "office_status"):
                 string(state["money"][field], f"money.{field}")
         resources = state["resources"]
-        keys(resources, RESOURCES, "checkpoint.resources")
+        has_refits = v6 and "refitted_wagon_mana" in resources
+        keys(resources, RESOURCES | ({"refitted_wagon_mana"} if has_refits else set()), "checkpoint.resources")
+        if has_refits:
+            refits = resources["refitted_wagon_mana"]
+            keys(refits, {"vanguard-wagon", "ashvale-wagon"}, "independent refitted wagon reservoirs")
+            for ident, capacity in (("vanguard-wagon", 120), ("ashvale-wagon", 80)):
+                pool = refits[ident]
+                keys(pool, {"current", "max"}, f"{ident} mana")
+                integer(pool["current"], f"{ident} current mana")
+                integer(pool["max"], f"{ident} maximum mana")
+                require(pool["current"] <= pool["max"] == capacity, f"{ident}: independent reservoir capacity")
         for field in RESOURCES - {"chronos_eye_locked", "dragon_slayer_locked"}:
             integer(resources[field], f"resources.{field}", 1 if field.endswith("_max") else 0)
         for pool in ("staff", "wagon"):
@@ -268,10 +280,10 @@ def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
     if state['schema_version'] == 6:
-        require(type(ledger.get('schema_version')) is int and ledger['schema_version'] in (3,4), 'checkpoint6 requires finance schema3 or4')
-    if ledger.get('schema_version') in (3,4):
-        require(state['schema_version'] == 6, 'finance schema3 requires checkpoint6')
-    if type(ledger.get("schema_version")) is int and ledger["schema_version"] in (3,4):
+        require(type(ledger.get('schema_version')) is int and ledger['schema_version'] in (3,4,5), 'checkpoint6 requires finance schema3, 4 or 5')
+    if ledger.get('schema_version') in (3,4,5):
+        require(state['schema_version'] == 6, 'finance schema3–5 requires checkpoint6')
+    if type(ledger.get("schema_version")) is int and ledger["schema_version"] in (3,4,5):
         if __package__: from .finance_v3 import validate_finance_v3
         else: from finance_v3 import validate_finance_v3
         return validate_finance_v3(root, state, ledger)

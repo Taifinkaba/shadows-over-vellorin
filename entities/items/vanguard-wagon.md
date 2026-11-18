@@ -4,8 +4,23 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+# Ashvale Vanguard Wagon — Day 196
+
+Refit complete and tested on the existing roadworthy chassis. Midnight black and royal blue paint with silver trim. See the [checkpoint](../../state/checkpoint.json) for the independent 120-point reservoir's current charge and the [ledger](../../state/finance-ledger.json) for the 160 gp refit payment (`y848-d196-vanguard-refit`). Day 156's corrected suspension and load/road trials and the 94 gp construction remainder payment retain their historical record.
+
+- Self-propulsion, weight reduction and controlled all-terrain movement.
+- Finite expanded living and cargo interior, ironwood reinforcement, kinetic and flame wards, and finite automatic repair.
+- Arcane locks, alarms, magical disguise and stationary camp shelter.
+- Manually armed Thunderous Ram and Shocking Hull, with ally safeguards and nonlethal settings.
+
+The circuit has a dedicated emergency shutdown. Practical limits apply to travel, protection and storage. Exact activation costs, recharge rates, damage, DCs and capacity limits are unknown. The custom effects confer no standard 5e spells or skill advancement.
+
+## Earlier record
+
 
 # Ashvale Vanguard Wagon — Day156 current canon
 

@@ -224,18 +224,27 @@ def validate_economy(root, records, require, repository_file, unique_json):
 def financial_report(root):
     ledger_ref='state/finance-ledger.json'
     ledger=json.loads((root/ledger_ref).read_text())
-    if type(ledger.get('schema_version')) is int and ledger['schema_version'] in (3,4):
+    if type(ledger.get('schema_version')) is int and ledger['schema_version'] in (3,4,5):
         historical_ref=ledger['historical_day156_ref']
         historical=json.loads((root/historical_ref).read_text())
         result=_legacy_financial_report(root,historical,historical_ref)
         result['historical_day156_reconciliation']=result.pop('reconciliation')
         result['as_of']=ledger['as_of'];result['source_ref']=ledger_ref;result['qualification']=ledger['qualification']
-        stamp=ledger['as_of']['date']+' '+ledger['as_of']['time']
+        stamp=' '.join(filter(None, (ledger['as_of']['date'], ledger['as_of']['time'])))
         def current(v,pointer,status):return amount(v,ledger_ref+'#'+pointer,'Controlled funds; current subaccount ownership requires verified funding evidence',status,stamp)
         old_accounts=result['cash_position']['accounts'];c=ledger['controlled_cash'];m=ledger['commitments']
         result['cash_position'].update(controlled=current(c['total_cp'],'/controlled_cash/total_cp','supplied endpoint plus actual recorded events'),committed_unpaid=current(m['expansion_outstanding_cp'],'/commitments/expansion_outstanding_cp','unpaid remaining commitment included in controlled cash'),uncommitted=current(m['uncommitted_cp'],'/commitments/uncommitted_cp','uncommitted under existing authority restrictions'),accounts=[dict(id=x['id'],balance=current(x['balance_cp'],'/controlled_cash/accounts','verified current account')) for x in c['accounts']],historical_day156_accounts=old_accounts,allocation_status=c['allocation_status'])
         result['post_arc_transactions']=ledger.get('post_arc_transactions',[])
-        result['reconciliation']={'endpoint':ledger['endpoint'],('reconciled_endpoint_bridge' if ledger['schema_version']==4 else 'unexplained_endpoint_bridge'):ledger['bridge'],'actual_transaction_count':len(ledger['transactions']),'current_cash':current(c['total_cp'],'/controlled_cash/total_cp','current'),'qualification':'Bridge is a disclosure, not an event, expense or account assignment; historical arc remains unchanged.'}
+        if 'approved_session_window' in ledger:
+            window = ledger['approved_session_window']
+            actual = [t for t in ledger['transactions'] if t['evidence']['source_ref'] == window['source_ref']]
+            result['approved_session_cash'] = {
+                'window': window,
+                'gross_bounty_cp': sum(t['revenue_recognized_cp'] for t in actual),
+                'outflows_cp': sum(t['amount_cp'] for t in actual if t['direction'] == 'outflow'),
+                'net_cash_effect_cp': sum(t['cash_effect_cp'] for t in actual),
+            }
+        result['reconciliation']={'endpoint':ledger['endpoint'],('reconciled_endpoint_bridge' if ledger['schema_version'] in (4,5) else 'unexplained_endpoint_bridge'):ledger['bridge'],'actual_transaction_count':len(ledger['transactions']),'current_cash':current(c['total_cp'],'/controlled_cash/total_cp','current'),'qualification':'Bridge is a disclosure, not an event, expense or account assignment; historical arc remains unchanged.'}
         if __package__: from .economy_expansion import DOMAINS, OWNERSHIP, receipt_classification
         else: from economy_expansion import DOMAINS, OWNERSHIP, receipt_classification
         classified = {domain: [] for domain in DOMAINS[1:4]}

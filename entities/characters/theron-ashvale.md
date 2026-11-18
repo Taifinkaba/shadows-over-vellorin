@@ -4,10 +4,10 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 848 Day 181
-  time: '19:30'
-  location: Ashvale Estate
-  status: UNKNOWN
+  date: Year 848 Day 196
+  time: null
+  location: Ashvale Lodge
+  status: ENDED
   theron.hp: 100
   theron.hp_max: 100
   theron.mp: 400
@@ -31,6 +31,7 @@ checkpoint_values:
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
 - archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md
@@ -43,6 +44,13 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+# Day 196 after rest
+
+Theron ended the session at Ashvale Lodge with full personal HP and MP. Base DEF is 46 and the normal equipped reference is 49. The conditional reference is 51 while Night Sovereign is worn. Actual wearing and equipment configuration remain unknown. The [checkpoint](../../state/checkpoint.json) holds the session's current resources and progression.
+
+## Earlier record
+
 
 # Day181 confirmed bridge update
 

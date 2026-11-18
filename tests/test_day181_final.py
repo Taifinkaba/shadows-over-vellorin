@@ -6,6 +6,7 @@ import json
 import unittest
 import test_day181
 ROOT=test_day181.ROOT
+from snapshot_helpers import DAY196_REVISED_AUTHORITIES, restore_reconciled_day181
 from scripts.validate import validate,validate_finance_ledger
 from scripts.gm_dashboard import build_dashboard,verify_view
 from scripts.economy import financial_report
@@ -14,7 +15,8 @@ class FinalReconciliationTests(test_day181.Day181Tests):
     # Inherit future transaction and historical protection coverage, selecting schema4.
     def setUp(self):
         super().setUp()
-        for path in ('state/checkpoint.json','state/finance-ledger.json','entities/characters/theron-ashvale.md','entities/mechanics/party-finances.md','entities/mechanics/theron-abilities.md','entities/locations/briarstone-cottage.md'):
+        restore_reconciled_day181(self.root, ROOT/'tests/fixtures/day181-final-state-delta.json')
+        for path in ('entities/mechanics/theron-abilities.md','entities/locations/briarstone-cottage.md'):
             (self.root/path).write_bytes((ROOT/path).read_bytes())
         self.state=json.loads((self.root/'state/checkpoint.json').read_text());self.ledger=json.loads((self.root/'state/finance-ledger.json').read_text())
 
@@ -46,7 +48,7 @@ class FinalReconciliationTests(test_day181.Day181Tests):
             for key,value in manifest.items():
                 if isinstance(value,dict):
                     for path,digest in value.items():
-                        if isinstance(digest,str) and len(digest)==64:self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest,path)
+                        if path not in DAY196_REVISED_AUTHORITIES and isinstance(digest,str) and len(digest)==64:self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest,path)
         with self.subTest(case='test_repair_mutations_rejected'), isolated_case(self):
             original=copy.deepcopy(self.ledger)
             for field,value in [('amount_cp',801),('account_id','blackscale'),('time','12:00'),('application_count',2),('commitment_effect_cp',-800),('source_quote','invented'),('date','Year 848 Day 159')]:

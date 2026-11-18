@@ -91,7 +91,7 @@ class Phase2EconomyTests(unittest.TestCase):
             self.reject('payroll-construction-and-trade',lambda d:d.update(law_owner_ref='party-finances'),'jurisdiction')
         with self.subTest(case='test_ownership_remains_unknown'), isolated_case(self):
             r=financial_report(ROOT)['five_part_accounting']['cash-ownership']
-            self.assertEqual(r['controlled_cp'],74590);self.assertEqual(r['allocation_status'],'UNRECONCILED / UNKNOWN')
+            self.assertEqual(r['controlled_cp'],52490);self.assertEqual(r['allocation_status'],'UNRECONCILED / UNKNOWN')
             self.assertTrue(all(x['current_amount_cp'] is None for x in r['categories'].values()))
         with self.subTest(case='test_public_approval_and_no_private_authority'), isolated_case(self):
             self.reject('economy-accounting',lambda d:d.update(approval_source_ref='README.md'),'approval provenance')

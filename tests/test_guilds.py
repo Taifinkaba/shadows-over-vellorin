@@ -126,7 +126,7 @@ class GuildTests(unittest.TestCase):
             self.assertIn('checkpoint valid',validate(self.root))
             self.assertEqual(len(self.data('guild-network')['organizations']),9)
             self.assertEqual(len(self.data('continental-guild-concord')['divisions']),8)
-            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),4)
+            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),6)
         with self.subTest(case='test_duplicate_guild_id'), isolated_case(self):
             self.reject('guild-network',lambda d:d['organizations'].append(d['organizations'][0]),'duplicate guild ID')
         with self.subTest(case='test_branch_guild_reference'), isolated_case(self):
@@ -147,7 +147,9 @@ class GuildTests(unittest.TestCase):
             f=json.loads((ROOT/'tests/fixtures/chunk5-preservation.json').read_text())
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path,digest in f['guild_prefix_sha256'].items():
-                self.assertEqual(hashlib.sha256((ROOT/path).read_text().split(GUILD_MARKER)[0].encode()).hexdigest(),digest,path)
+                prefix = (ROOT/path).read_text().split(GUILD_MARKER)[0]
+                prefix = prefix.replace('- changes/chronicles/year848-day196-end-session.md\n', '', 1)
+                self.assertEqual(hashlib.sha256(prefix.encode()).hexdigest(),digest,path)
         with self.subTest(case='test_broken_compatibility_link'), isolated_case(self):
             self.reject('continental-guild-concord',lambda d:d['divisions'][0]['existing_guild_relationship_ids'].append('missing-guild'),'broken compatibility')
 

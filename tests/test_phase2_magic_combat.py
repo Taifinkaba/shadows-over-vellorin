@@ -138,7 +138,7 @@ class MagicCombatTests(unittest.TestCase):
         before=[p.read_bytes() for p in paths];report=audit(ROOT)
         self.assertEqual([p.read_bytes() for p in paths],before);self.assertFalse(report['numerical_combat_ready']);self.assertFalse(report['gameplay_performed'])
         self.assertEqual(report['dungeon_design_counts'],dict(areas=25,connections=30,encounters=25,hazards=12))
-        self.assertEqual(len(report['audit_findings']),18);self.assertEqual(report['finances']['controlled_cp'],74590)
-        for p in ('entities/items/sovereign-nexus.md','entities/items/sovereign-expedition-wagon.md','entities/items/dawnbreakers-promise.md',
-                  'entities/items/night-sovereign.md','entities/creatures/alpha.md','entities/creatures/shade.md','state/finance-ledger.json','state/checkpoint.json'):
+        self.assertEqual(len(report['audit_findings']),18);self.assertEqual(report['finances']['controlled_cp'],52490)
+        for p in ('entities/items/sovereign-nexus.md','entities/items/dawnbreakers-promise.md',
+                  'entities/items/night-sovereign.md','entities/creatures/alpha.md','entities/creatures/shade.md'):
             with self.subTest(path=p):self.assertEqual(hashlib.sha256((ROOT/p).read_bytes()).hexdigest(),fixture['unchanged_sha256'][p])

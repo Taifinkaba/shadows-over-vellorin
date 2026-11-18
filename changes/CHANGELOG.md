@@ -1,3 +1,8 @@
+# Year 848 Day 196 — end session
+
+- Record the approved Day 182–196 wagon refits, two completed Wayfarers contracts and three unrecovered salvage leads. Preserve historic vehicle identities and cash postings.
+- Advance the checkpoint to Ashvale Lodge, update the handoff and reconcile the gross bounty receipts and three deductions in the sole ledger. Estate expansion remains unpaid.
+
 # World Bible Phase2 — final development-session audit and handoff
 
 - Verify PRs24–31 merged into main at aa4dc03;247 indexed entities and194 discovered tests confirmed. Add a dedicated maintenance handoff and README retrieval link under the existing END SESSION workflow.

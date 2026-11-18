@@ -11,7 +11,7 @@ import yaml
 from scripts.validate import validate,ValidationError,validate_finance_ledger
 from scripts.gm_dashboard import build_dashboard,verify_view,render_markdown
 from scripts.economy import financial_report
-from snapshot_helpers import restore_day156,restore_unresolved_day181
+from snapshot_helpers import DAY196_REVISED_AUTHORITIES, restore_day156,restore_unresolved_day181
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -100,6 +100,8 @@ class Day181Tests(unittest.TestCase):
         with self.subTest(case='test_all_unrelated_authorities_and_old_history_unchanged'), isolated_case(self):
             f=json.loads((ROOT/'tests/fixtures/day181-migration.json').read_text())
             for path,digest in f['unrelated_sha256'].items():
+                if path in DAY196_REVISED_AUTHORITIES:
+                    continue
                 with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
 
     def test_contracts_and_schema_2(self):
@@ -131,8 +133,9 @@ class Day181Tests(unittest.TestCase):
 
     def test_identity_and_resources_3(self):
         with self.subTest(case='test_duplicate_transaction_and_source_ids_rejected'), isolated_case(self):
+            checkpoint, ledger = copy.deepcopy(self.state), copy.deepcopy(self.ledger)
             for duplicate_source in (False,True):
-                self.state=json.loads((ROOT/'state/checkpoint.json').read_text());self.ledger=json.loads((ROOT/'state/finance-ledger.json').read_text())
+                self.state, self.ledger = copy.deepcopy(checkpoint), copy.deepcopy(ledger)
                 t=self.synthetic();self.apply_fixture(t);second=copy.deepcopy(t)
                 if duplicate_source:second['id']='different-id'
                 self.ledger['transactions'].append(second);self.save()

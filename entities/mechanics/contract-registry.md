@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - changes/chronicles/guild-concord-contracts-design.md
 - entities/factions/wayfarers-guild.md
 - entities/rules/justice-and-jurisdiction.md
@@ -31,6 +32,14 @@ Routing only; no copied rewards/statuses or second quest ledger. Known contract 
     },
     {
       "contract_id": "SS-41",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-848-196-EASTRUN",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-848-196-BRIARFALL",
       "owner_entity_id": "wayfarers-guild"
     }
   ],

@@ -108,8 +108,8 @@ def build_dashboard(root):
         return {'value':item,'source_ref':source_ref,'as_of':as_of,'qualification':qualification}
     checkpoint='state/checkpoint.json';ledgerref='state/finance-ledger.json'
     c=json.loads(file(checkpoint).read_text());ledger=json.loads(file(ledgerref).read_text())
-    check((c['schema_version'],ledger['schema_version']) in ((5,2),(6,3),(6,4)),'dashboard requires supported checkpoint5/ledger2 or checkpoint6/ledger3; no stale-schema fallback')
-    date=c['date']+' '+c['time'];scene={}
+    check((c['schema_version'],ledger['schema_version']) in ((5,2),(6,3),(6,4),(6,5)),'dashboard requires checkpoint5/ledger2 or checkpoint6/ledger3–5')
+    date=' '.join(filter(None, (c['date'], c['time'])));scene={}
     for field in ('date','calendar','time','location','status'):
         # calendar exposes only the named season/day fields; never arbitrary future keys.
         item={k:c['calendar'][k] for k in ('season','day_of_season')} if field=='calendar' else c[field]
@@ -123,6 +123,8 @@ def build_dashboard(root):
         hero[field]=value(c['theron'][field],checkpoint+'#/theron/'+field,date)
     for field in ('equipped_defense','staff_mp','staff_mp_max','wagon_mp','wagon_mp_max','chronos_eye_locked','dragon_slayer_locked'):
         hero[field]=value(c['resources'][field],checkpoint+'#/resources/'+field,date)
+    if 'refitted_wagon_mana' in c['resources']:
+        hero['refitted_wagon_mana'] = value(c['resources']['refitted_wagon_mana'], checkpoint+'#/resources/refitted_wagon_mana', date, 'Independent reservoirs by vehicle ID')
     maskpath=owner('night-sovereign');mask=file(maskpath).read_text().split('## Historical record',1)[0]
     match=re.search(r'\+(\d+) equipped DEF while worn',mask)
     bonus=int(match[1]) if match else None
@@ -143,7 +145,7 @@ def build_dashboard(root):
         finances[key.removesuffix('_cp')+'_display']=value(f'{copper//100} gp {(copper%100)//10} sp {copper%10} cp',finances[key]['source_ref'],date,'Integer-copper display:1gp=100cp,1sp=10cp')
     finances['accounts']=[{'account_id':value(x['id'],ledgerref+f'#/controlled_cash/accounts/{i}/id',date),'balance_cp':value(x['balance_cp'],ledgerref+f'#/controlled_cash/accounts/{i}/balance_cp',date),'ownership_review':value(None,ledgerref+f'#/controlled_cash/accounts/{i}/owner',None,'Read source legal/control qualification; no new personal-title claim')} for i,x in enumerate(cash['accounts'])]
     finances['excluded_holdings']=[{'holding_id':value(x['id'],ledgerref+f'#/excluded_property/{i}/id'),'amount_cp':value(x['amount_cp'],ledgerref+f'#/excluded_property/{i}/amount_cp',None,'Excluded; source may be historical, approximate or noncash; not a certified current third-party cash total')} for i,x in enumerate(ledger['excluded_property'])]
-    if ledger['schema_version'] in (3,4):
+    if ledger['schema_version'] in (3,4,5):
         historyref=ledger['historical_day156_ref'];history=json.loads(file(historyref).read_text())
         finances['account_allocation_status']=value(cash['allocation_status'],ledgerref+'#/controlled_cash/allocation_status',date)
         finances['historical_day156_accounts']=value([{'id':a['id'],'balance_cp':a['balance_cp']} for a in history['controlled_cash']['accounts']],historyref+'#/controlled_cash/accounts',history['as_of']['date'],'Historical allocations only, not current account balances or funding authorization')
@@ -189,7 +191,7 @@ def build_dashboard(root):
         'dungeon_sections':sections,'legal_reviews':[{'person':value(x,owner(x)),'current_result':value(('independent-legal-review-pending' if x=='maelor-thane' else 'military-review-pending') if ('independent legal review pending.' if x=='maelor-thane' else 'pending military review.') in file(owner(x)).read_text().split('## Historical record',1)[0] else None,owner(x),None,'Reviewed pending-status phrase only; no automatic verdict, destination or case conflation')} for x in ('maelor-thane','edrick-sorn')],
         'world_event_details':value(None,owner('world-event-references'),None,'Historical references only; current developments require targeted source review; no scheduler')}
     warnings={'provenance_and_identity':value('UNKNOWN details remain in their owners','state/open-verifications.md',None,'No raw verification/handoff text or private knowledge distinctions rendered'),
-        'later_supplied_snapshot':value('ADOPTED FROM PLAYER-SUPPLIED CONTINUITY; cash/MP provenance gaps remain' if c['schema_version']==6 else 'UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint',checkpoint if c['schema_version']==6 else 'docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; no invented cash/MP bridge'),
+        'later_supplied_snapshot':value('APPROVED PLAYED SESSION' if ledger['schema_version']==5 else 'ADOPTED FROM PLAYER-SUPPLIED CONTINUITY; cash/MP provenance gaps remain' if c['schema_version']==6 else 'UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint',checkpoint if c['schema_version']==6 else 'docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; no invented cash/MP bridge'),
         'privacy':value('Public repository / private-governance conflict unresolved','governance/precedence.md',None,'This projection does not certify the repository spoiler-safe; private GM-answer storage remains separate'),
         'proposals':value('Unapproved institutions/routes/clocks/answers remain proposed',owner('gm-workflow'))}
     personnel_ids={'tomas','master-beren','bren','mira-lodge-helper','joren','elsi','elias-renn','maera','mira-thorne'}

@@ -87,7 +87,7 @@ def validate_contract(record, root, records, require, repository_file):
                 and record['reward_cp'] is None and record['reward_guaranteed'] is False,
                 'guild contract: historical payout is not a new reward')
     else:
-        require(record['payment_status'] in ('unknown','unpaid','not-payable'), 'guild contract: invalid payment status')
+        require(record['payment_status'] in ('unknown','unpaid','not-payable','session-paid'), 'guild contract: invalid payment status')
         require(record['historical_payment_cp'] is None and record['historical_application_count']==0,
                 'guild contract: unsupported payment history')
 
@@ -290,8 +290,23 @@ def validate_guilds(root, records, require, repository_file, unique_json):
             contracts[cid]=c
     require(branches=={'wayfarers-guild:caelthorne-hq','wayfarers-guild:unlocated-branches','dragon-slayer-academy:greyhaven-site'},
             'guilds: no additional operational branch supplied')
-    require(set(contracts)=={'G-215','G-216','B-83','SS-41'}, 'guilds: missing historical record or invented contract')
+    if __package__: from .finance_v3 import DAY196, DAY196_EVENTS
+    else: from finance_v3 import DAY196, DAY196_EVENTS
+    history = {'G-215','G-216','B-83','SS-41'}
+    completed = {event[2] for event in DAY196_EVENTS.values() if event[2] is not None}
+    if (root / DAY196).is_file():
+        require(set(contracts) == history | completed, 'guilds: missing or unsupported Day196 contract')
+    else:
+        require(set(contracts) == history, 'guilds: missing historical record or invented contract')
     for cid,c in contracts.items():
+        if cid in completed:
+            require(c['completion_status'] == 'session-completed' and c['payment_status'] == 'session-paid'
+                    and c['current_availability'] == 'completed-not-current-offer'
+                    and c['assigned_party_ids'] == ['garrick-vale','nyx-thorne']
+                    and c['source_refs'] == [DAY196] and c['reward_cp'] is None
+                    and c['deadline'] is None and c['reward_guaranteed'] is False,
+                    'guilds: Day196 completion, payment or provenance differs')
+            continue
         if cid!='SS-41':
             payment={'G-215':2600,'G-216':3200,'B-83':4000}[cid]
             require(c['historical_payment_cp']==payment and c['current_availability']=='historical-not-current-offer'

@@ -258,6 +258,12 @@ Dashboard/economy reports support both old and migrated schemas; current wearing
 
 One confirmed qualifying10minute assimilation interval has24 potential/22 actual/2 excess personal MP under400cap; date/location null, finite staff/wagon pools unchanged. Schema4 requires this resolved provenance and rejects fabricated recovery detail. Dashboard and economy reporting support5/2,6/3,6/4 without duplicating authorities. Preservation revisions are restricted to eight authorized current files with before/after provenance; historical Day156 files/chronicles remain pinned. The archived unresolved-adoption record is evidence, never a second live authority.
 
+## Day 196 played session — checkpoint6 and finance5
+
+Checkpoint6 allows a null clock time for the sourced Day 196 closure and separate bounded reservoir entries keyed by the two refitted wagon IDs. Existing wagon fields refer to the original Sovereign Expedition Wagon.
+
+Finance5 records the approved Day 182–196 window and seven integer-copper postings with unknown dates and subaccounts. The two gross rewards link to the completed Wayfarers contracts. The 44 gp handover has no posting. The 317 gp unpaid commitment is preserved. The session exception is restricted to the approved event IDs and evidence. Ordinary subsequent postings require verified accounts, authority and dated events. Day 181 repair and recovery fixtures still validate separately.
+
 ## Phase 2 geography classification
 
 Geographic nodes and parent edges additionally accept APPROVED DESIGN: player-approved fictional world facts, without historical observation, current conditions or player discovery. Approved nodes require canon metadata, an approved-design index tag and the scoped Phase 2 approval source. Approved edges require that source and non-proposed endpoint nodes. Existing CONFIRMED CANON containment cannot pass through design-only nodes. Aethoria and its continental parent edge remain PROPOSED. Route/integration/duration schemas do not accept APPROVED DESIGN; this extension cannot turn design approval into an operational or historically traveled road. Realm kind is territory under the existing schema.
