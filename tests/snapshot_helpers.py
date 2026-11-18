@@ -1,5 +1,6 @@
 """Explicit historical fixture selection; never rewrite actual campaign authorities."""
 import json
+from pathlib import Path
 
 
 def restore_day156(root):
@@ -15,3 +16,24 @@ def restore_unresolved_day181(root):
         (root/path).write_text(json.dumps(snapshot[key]))
     for path,content in snapshot['entity_records'].items():(root/path).write_text(content)
     (root/'entities/locations/briarstone-cottage.md').write_text(snapshot['cottage_record'])
+
+
+DAY196_MANIFEST = Path(__file__).with_name('fixtures') / 'day196-authority-revisions.json'
+DAY196_REVISED_AUTHORITIES = json.loads(DAY196_MANIFEST.read_text())['revisions']
+
+
+def restore_reconciled_day181(root, fixture):
+    """Restore the historical endpoint and its approved reconciliation delta."""
+    restore_unresolved_day181(root)
+    delta = json.loads(fixture.read_text())
+    path = root / 'state/checkpoint.json'
+    checkpoint = json.loads(path.read_text())
+    fields = delta['checkpoint']
+    checkpoint['context']['projects']['briarstone_repairs'] = fields.pop('briarstone_repairs')
+    checkpoint['provenance']['mp_bridge'] = fields.pop('mp_bridge')
+    checkpoint.update(fields)
+    path.write_text(json.dumps(checkpoint))
+    path = root / 'state/finance-ledger.json'
+    ledger = json.loads(path.read_text())
+    ledger.update(delta['ledger'])
+    path.write_text(json.dumps(ledger))

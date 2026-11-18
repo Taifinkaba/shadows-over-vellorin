@@ -1,3 +1,16 @@
+# Next-chat handoff — Year 848, Suncrest 76, Day 196
+
+The session ended at Ashvale Lodge after Theron's rest. Start from the [checkpoint](checkpoint.json), [Day 196 chronicle](../changes/chronicles/year848-day196-end-session.md), [precedence](../governance/precedence.md), [narration rules](../docs/narration-format.md) and [index](../index.json). Await the player's instruction to resume. Exact clock time, room, companion whereabouts and Night Sovereign wearing are unknown.
+
+- **Theron** — HP 100/100, MP 400/400, rank S+, level 5. DEF 46 base, 49 normal equipped reference and 51 while Night Sovereign is worn. Nexus 156/180.
+- **Vehicles** — Sovereign Expedition Wagon 60/60, Vanguard 120/120 and Lodge supply wagon 80/80. Retrieve the relevant wagon records before using the refits.
+- **Cash** — 524 gp 9 sp controlled, including 317 gp committed and unpaid. 207 gp 9 sp is uncommitted. Use the [sole ledger](finance-ledger.json) for spending and preserve its account uncertainty and exclusions.
+- **Companions and salvage** — Garrick and Nyx completed both new Wayfarers bounties, with practical experience recorded. Lyra continued her existing responsibilities. Three salvage leads are open, with no recovery or established title.
+
+See [open verifications](open-verifications.md) for the current provenance and mechanics gaps.
+
+## Historical Day 181 handoff
+
 # Day181 confirmed cottage/mana reconciliation
 
 See [player-confirmed reconciliation](../changes/chronicles/year848-day181-cottage-mana-reconciliation.md). The26gp difference is now explained:8gp repair deposit Day158 and18gp final payment Day165, already included in745gp9sp. Cottage repairs completed Day165; House Ashvale ownership preserved by clarification,55gp noncash valuation unchanged, no rental income.317gp lodge expansion remains unpaid/not started;428gp9sp uncommitted. Exact payment account/recipient/contractor/time remain UNKNOWN; current account allocation unresolved.

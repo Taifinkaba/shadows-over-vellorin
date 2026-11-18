@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import re
 import unittest
+from snapshot_helpers import DAY196_REVISED_AUTHORITIES
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -27,6 +28,10 @@ class PreservationTests(unittest.TestCase):
                     else:collect(row)
             collect(d)
         self.assertGreater(len(expected),300)
+        for path, revision in DAY196_REVISED_AUTHORITIES.items():
+            if path in expected:
+                self.assertEqual(expected[path], revision['before_sha256'], path)
+            expected[path] = revision['after_sha256']
         for path,digest in expected.items():
             with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
 

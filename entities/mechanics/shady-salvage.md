@@ -4,9 +4,23 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+# Leads recorded during Day 182–196
+
+| Lead | Materials observed | Status |
+|---|---|---|
+| `y848-d196-eastrun-camp` — Eastrun roadside abandoned camp | Damaged timber, camp equipment and metal fittings | Externally surveyed. Ownership unresolved. |
+| `y848-d196-briarfall-shelter` — Briarfall abandoned loading shelter | Broken cargo fittings and storage racks | Surveyed. Salvage rights unverified. |
+| `y848-d196-briarfall-wreckage` — Briarfall streamside wreckage near an old crossing | Damaged cart components | Location noted. Detailed inspection pending. |
+
+Zero property recovered. Title and market value are unknown and no income was recorded. Earlier salvage sites and recoveries remain in the historical register below.
+
+## Earlier record
+
 
 # Shady Salvage registry
 

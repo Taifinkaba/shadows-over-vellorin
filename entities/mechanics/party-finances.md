@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
@@ -14,10 +15,17 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
-  money.total_gp_sp: 745gp 9sp
+  money.total_gp_sp: 524gp 9sp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+# Day 196 session reconciliation
+
+The [sole finance ledger](../../state/finance-ledger.json) records the two paid refits, both gross bounty rewards and all three bounty deductions. The 44 gp handover settles net bounty earnings. The estate expansion remains unpaid. Subaccount allocation, receipts and funding details remain unknown.
+
+## Earlier record
+
 
 # Day181 cottage reconciliation
 

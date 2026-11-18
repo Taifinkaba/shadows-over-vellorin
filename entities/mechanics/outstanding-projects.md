@@ -4,10 +4,18 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+# Equipment and projects — Day 196
+
+Both wagon refits are complete, tested and paid. See [Vanguard](../items/vanguard-wagon.md) and the [Lodge supply wagon](../items/ashvale-wagon.md). The existing chassis and vehicles were used. The [sole ledger](../../state/finance-ledger.json) carries the unpaid estate expansion commitment. Other project statuses retain their last verified records below.
+
+## Earlier record
+
 
 # Equipment and projects — Day156 current canon
 

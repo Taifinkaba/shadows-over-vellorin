@@ -1,8 +1,8 @@
 {
   "schema_version": 6,
-  "date": "Year 848 Day 181",
-  "time": "19:30",
-  "location": "Ashvale Estate",
+  "date": "Year 848 Day 196",
+  "time": null,
+  "location": "Ashvale Lodge",
   "theron": {
     "hp": 100,
     "hp_max": 100,
@@ -20,7 +20,7 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "745gp 9sp",
+    "total_gp_sp": "524gp 9sp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
     "allocation_status": "UNRECONCILED / UNKNOWN — historical Day156 accounts are not current allocations",
@@ -31,15 +31,15 @@
     "vaeltharion_chains_attached": 0,
     "protective_anchors_retained": 7
   },
-  "status": "UNKNOWN",
-  "source": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+  "status": "ENDED",
+  "source": "changes/chronicles/year848-day196-end-session.md",
   "context": {
-    "safety": "Day181 supplied endpoint only; current companion positions/conditions unverified. No gameplay resumed.",
+    "safety": "Session ended after rest at Ashvale Lodge. Exact room, companion positions and conditions are unknown.",
     "companions_present": [],
     "party_roles": {},
     "projects": {
-      "nexus_mana": "Last verified before adoption; see Day156 historical checkpoint: 156/180; finite independent staff mana",
-      "wagon_mana": "Last verified before adoption; see Day156 historical checkpoint: 60/60",
+      "nexus_mana": "Sovereign Nexus is a finite independent staff pool.",
+      "wagon_mana": "Legacy wagon resource fields refer to the original Sovereign Expedition Wagon.",
       "equipped_defense": "Approved normal49; conditional51 only when Night Sovereign worn. Current wearing/configuration UNKNOWN.",
       "chronos_eye": "Last verified before adoption; see Day156 historical checkpoint: approximately19%, LOCKED",
       "dragon_slayer": "Last verified before adoption; see Day156 historical checkpoint: LOCKED BY PLAYER CHOICE",
@@ -47,12 +47,13 @@
       "custody": "Last verified before adoption; see Day156 historical checkpoint: Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
       "guardian_channels": "Last verified before adoption; see Day156 historical checkpoint: Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
       "halden": "Last verified before adoption; see Day156 historical checkpoint: Rescued, free and voluntarily protected at Ashvale Estate",
-      "independent_assignments": "Last verified before adoption; see Day156 historical checkpoint: Other existing independent assignments and deferred quests remain in force; no inferred recall, whereabouts or completion.",
-      "vanguard": "Last verified before adoption; see Day156 historical checkpoint: Completed mundane roadworthy Vanguard; no mana pool, distinct from Sovereign Expedition Wagon",
+      "independent_assignments": "Garrick and Nyx completed both Wayfarers contracts independently of Theron. Lyra continued her existing responsibilities. Companion endpoint locations remain unknown.",
+      "vanguard": "Existing roadworthy chassis refitted, tested and paid.",
       "night_sovereign": "Last verified before adoption; see Day156 historical checkpoint: Completed, tested, paid515gp; reserved scale consumed once",
       "maternal_healing": "Last verified before adoption; see Day156 historical checkpoint: Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
       "healing_springs": "Last verified before adoption; see Day156 historical checkpoint: 2/5",
-      "briarstone_repairs": "Player-confirmed completed by Year848 Suncrest45 Day165;26gp already reconciled in endpoint, not lodge expansion."
+      "briarstone_repairs": "Player-confirmed completed by Year848 Suncrest45 Day165;26gp already reconciled in endpoint, not lodge expansion.",
+      "lodge_supply_wagon": "Existing historical supply wagon refitted, tested and paid for Ashvale Lodge operations."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -66,7 +67,8 @@
       "Last verified before adoption: Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven",
       "Last verified before adoption: Northern Witness Index and E-R-7 unresolved",
       "Last verified before adoption: One V-9 transferred case unverified; other documented cases remain separate",
-      "Last verified before adoption: Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts"
+      "Last verified before adoption: Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts",
+      "Current supply wagon identity confirmed distinct. Historical movements and earlier wagon attribution remain unverified."
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -79,11 +81,21 @@
     "wagon_mp": 60,
     "wagon_mp_max": 60,
     "chronos_eye_locked": true,
-    "dragon_slayer_locked": true
+    "dragon_slayer_locked": true,
+    "refitted_wagon_mana": {
+      "vanguard-wagon": {
+        "current": 120,
+        "max": 120
+      },
+      "ashvale-wagon": {
+        "current": 80,
+        "max": 80
+      }
+    }
   },
   "calendar": {
     "season": "Suncrest",
-    "day_of_season": 61
+    "day_of_season": 76
   },
   "custody": {
     "reviewed": 4,
@@ -95,7 +107,7 @@
     "halden_status": "Free, voluntarily protected at Ashvale Estate"
   },
   "provenance": {
-    "classification": "PLAYER-SUPPLIED ENDPOINT ADOPTION",
+    "classification": "PLAYER-APPROVED PLAYED SESSION",
     "adoption_source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
     "historical_checkpoint_ref": "archive/checkpoints/year848-day156-2015.json",
     "historical_entity_records_ref": "archive/checkpoints/year848-day156-entity-records.json",

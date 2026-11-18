@@ -64,9 +64,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Current checkpoint
 
-[Day181 supplied-endpoint adoption](docs/day181-checkpoint-ledger-migration.md): Year848 Suncrest61 Day181,19:30, Ashvale Estate. Exact room, session status, companion positions and equipment configuration UNKNOWN; no gameplay resumed. HP100/100 MP400/400, normal DEF49,51 only with Night Sovereign worn (wearing UNKNOWN). Nexus156/180; separate magic wagon60/60. Controlled745gp9sp;317gp committed/unpaid,428gp9sp uncommitted; current accounts UNRECONCILED / UNKNOWN.
-
-[Current checkpoint](state/checkpoint.json), [sole finance ledger4](state/finance-ledger.json), [adoption source](changes/chronicles/year848-day181-endpoint-adoption.md), [handoff](state/next-chat-handoff.md), [verification queue](state/open-verifications.md). Historical Day156 is preserved. [Final reconciliation](docs/day181-final-reconciliation.md) records two cottage payments totaling2600cp and one capped assimilation interval recovering22MP; neither is reapplied to current totals. Future account-specific spending needs verified funding and authority.
+The approved session ended at Ashvale Lodge on Year 848, Suncrest 76, Day 196. Use the [current checkpoint](state/checkpoint.json), [sole finance ledger](state/finance-ledger.json), [Day 196 chronicle](changes/chronicles/year848-day196-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Day 181 reconciliation](docs/day181-final-reconciliation.md) remains historical evidence for the cottage payments and capped mana recovery.
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.

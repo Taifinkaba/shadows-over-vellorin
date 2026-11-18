@@ -4,10 +4,18 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+# Sovereign Expedition Wagon — Day 196 identity
+
+The original expedition vehicle remains distinct from the [Vanguard](vanguard-wagon.md) and the [Ashvale Lodge supply wagon](ashvale-wagon.md). Its original finite reservoir and configuration carry forward. The [checkpoint](../../state/checkpoint.json) records its mana separately. The ruling establishes current identity. Historical movement and any earlier attribution to the supply wagon remain unverified.
+
+## Earlier record
+
 
 # Sovereign Expedition Wagon — Day156 current canon
 

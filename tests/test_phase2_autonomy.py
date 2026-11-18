@@ -90,10 +90,10 @@ class ApprovedAutonomyTests(unittest.TestCase):
         self.assertEqual(check_knowledge_claim('rumor','heard','source'),'UNVERIFIED RUMOR')
         with self.assertRaises(ValueError):check_knowledge_claim('unsent-message','sent','claimed')
 
-    def test_companions_and_gameplay_sources_are_unchanged(self):
+    def test_unaffected_companion_and_location_sources_are_unchanged(self):
         fixture=json.loads((ROOT/'tests/fixtures/phase2-07-preservation.json').read_text())
         for path in ('entities/creatures/alpha.md','entities/creatures/shade.md','entities/mechanics/independent-assignments.md',
-                     'state/checkpoint.json','state/finance-ledger.json','entities/locations/brackenford.md'):
+                     'entities/locations/brackenford.md'):
             with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),fixture['unchanged_sha256'][path])
         self.assertIn('Independent larger white Frostfang', (ROOT/'entities/creatures/alpha.md').read_text())
         self.assertIn('bond3/5 (supersedes earlier5/5)', (ROOT/'entities/creatures/shade.md').read_text())

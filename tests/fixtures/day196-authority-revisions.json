@@ -1,0 +1,69 @@
+{
+  "source_ref": "changes/chronicles/year848-day196-end-session.md",
+  "revisions": {
+    "README.md": {
+      "before_sha256": "73e8cd3dde115a3ee1e1b93730f588a6d4137417231b2705c3bb154c2c8115c1",
+      "after_sha256": "511a959d63a1238f098f60c36c02aafb10edc822b62d56e8c71127acea8d0dcd"
+    },
+    "entities/characters/garrick-vale.md": {
+      "before_sha256": "963751f9ec336a6810eb3f18933defbf6f753b7538d5badce81f75fb180a236d",
+      "after_sha256": "f381e037897f5556a9faf87e2c5609c9470b66831eeda31da322f037247bb623"
+    },
+    "entities/characters/nyx-thorne.md": {
+      "before_sha256": "e7b4602cb34638e926ea7f97b4d37acacb4ba93363de1e8080279789d893a6bb",
+      "after_sha256": "34f95dd6c980fdeebdf65d387e1ce287255a7125c3bba83d7bdd32af299a606e"
+    },
+    "entities/characters/theron-ashvale.md": {
+      "before_sha256": "eeb67b7b8ff48638e317d8716664703655fe772348cca19ec6654a1b1ff92600",
+      "after_sha256": "e2291d21a9c9d89bd430a4c6abb3e8d76cca110fc57067b2d3c5848635286e90"
+    },
+    "entities/factions/wayfarers-guild.md": {
+      "before_sha256": "fb95a8d11019c7a4fa23aa3f18b2d9966b1d201ab639203c8f9bcc39f2d320a1",
+      "after_sha256": "3f84f6e979ed7ac39c8fd42f35b9ac23bca8dd0b76b27ea881b742d8320136db"
+    },
+    "entities/items/ashvale-wagon.md": {
+      "before_sha256": "935197eeab64dc5b2396b9024a2c5d16bd3ca123b037f09a19d5b3f602fa6f5d",
+      "after_sha256": "7a1f8b92b5d3feb97830967486c587bfbd837d1621dd0bc712a1c9a529138923"
+    },
+    "entities/items/sovereign-expedition-wagon.md": {
+      "before_sha256": "33412b8ee80bd2ad3cadaee8179d7ad91b438057153bc80505a0e27fe0fe3c0c",
+      "after_sha256": "49ac924cf9916a02c668648ff7813953ae9de657a17843f075e881001b104e23"
+    },
+    "entities/items/vanguard-wagon.md": {
+      "before_sha256": "cb4b113ef74c6e1e70bca417c09a7098c35ea209de621073c9f9c9aab8cbb7fc",
+      "after_sha256": "f309111ca37e4ca75a4e0e81c45db3dca51e119d5a2f3249bdf9ae26143bf913"
+    },
+    "entities/mechanics/contract-registry.md": {
+      "before_sha256": "482057869a05605dab2e40dc7f404eafca7b68b1523f6154af115101fccc8b38",
+      "after_sha256": "7c5387e203da9d064d49effc0b56e3938b21cfea684352df807e85c3bbe9d707"
+    },
+    "entities/mechanics/outstanding-projects.md": {
+      "before_sha256": "590c9e0e4b0722bbd2575000fbdffed97f19f436919a39bcbb923b778fa1a6b6",
+      "after_sha256": "14c2acf908f8719229a25350b03973edbe1f5950136e49514359a8eba2ecf248"
+    },
+    "entities/mechanics/party-finances.md": {
+      "before_sha256": "7de5e923e4b3d014111495fa265bd654dfd8f7eda76662a5dc7cd4f621e178c9",
+      "after_sha256": "3e48fe3cb92711ed5dd46b85c2cbfedbc97b5535823793336f203cbb06b0087d"
+    },
+    "entities/mechanics/shady-salvage.md": {
+      "before_sha256": "96b998d3d5d6c8c77946979b58f767760f8204a76ed120fece78206262a329f0",
+      "after_sha256": "d17ab0368c99824511b62ab4e475549095e553b0a6f78ae42d533bd2dd06994a"
+    },
+    "state/checkpoint.json": {
+      "before_sha256": "e7032ed0483143db96761ae7524535c95df0eba8244dad171c6e794f49260ce7",
+      "after_sha256": "5bedb940b66d9b795caf6771ed58cf0dc755f6b8abcac1dcfc98163e706458f6"
+    },
+    "state/finance-ledger.json": {
+      "before_sha256": "24840b17103bf615e59047c29639a58f3584e6d80961e92585373c94ffb931c9",
+      "after_sha256": "788ecf526b9d61e0900cb84f0679db53da9e60c0127cebb85ba910f14a0216ff"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "4b98cbe7c55e2ea92f4a077f116dce1375763279b43f11366fe1d345f7262cd5",
+      "after_sha256": "bb2a48bfde52dfec394fbcd18755634fc5b2e4ab3c2a0493ba7755ccda47a317"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "eee4a0eccc099ecf278561d754825f43c120fb215e88edbd4667cbaa67a4ab30",
+      "after_sha256": "2792cdcc2e74e843bb1d3a1846f342882296b01d58ffe3f421c733a93b08f62b"
+    }
+  }
+}

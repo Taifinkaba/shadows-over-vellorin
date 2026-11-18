@@ -1,3 +1,13 @@
+# Open verifications — Day 196
+
+- The approved ruling establishes three distinct current vehicles. The historical supply wagon's intermediate journey and older attribution relative to the original Sovereign remain open. Use the existing records for all three vehicles.
+- Both refits operate on finite independent circuits. Exact activation costs, recharge rates, damage, DCs, cargo capacity and other numerical limits remain unknown.
+- Exact bounty routes, dates, funding documents, legal receiving officials, individual task or compensation splits, accounts and missing receipts remain unverified. The combined net handover is already reflected in controlled cash.
+- Verify ownership at the Eastrun camp and salvage rights at the Briarfall shelter before recovery. Detailed inspection of the streamside wreckage remains pending.
+- Ashvale Lodge is the confirmed endpoint. Exact clock time, room, companion whereabouts and wearing configuration remain unknown. Earlier unresolved issues carry forward unless the chronicle explicitly resolves them.
+
+## Historical verification records
+
 # Day181 confirmed cottage/mana reconciliation
 
 See [player-confirmed reconciliation](../changes/chronicles/year848-day181-cottage-mana-reconciliation.md). The26gp difference is now explained:8gp repair deposit Day158 and18gp final payment Day165, already included in745gp9sp. Cottage repairs completed Day165; House Ashvale ownership preserved by clarification,55gp noncash valuation unchanged, no rental income.317gp lodge expansion remains unpaid/not started;428gp9sp uncommitted. Exact payment account/recipient/contractor/time remain UNKNOWN; current account allocation unresolved.

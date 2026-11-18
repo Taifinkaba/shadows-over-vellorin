@@ -4,6 +4,7 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
@@ -285,6 +286,90 @@ This structured section belongs to this existing organization. Original prose/fr
       "last_verified_date": null,
       "last_verified_note": "Existing historical record only; no new acceptance, completion, payment or current offer",
       "funding_source_quote": null
+    },
+    {
+      "contract_id": "WG-848-196-EASTRUN",
+      "classification": "CONFIRMED CANON",
+      "issuing_organization_id": null,
+      "registry_organization_id": "wayfarers-guild",
+      "funding_party_id": null,
+      "funding_party_name": null,
+      "funding_source_ref": null,
+      "funding_committed_cp": null,
+      "objective": "Eastrun Road Bandit Capture",
+      "location_id": null,
+      "difficulty": null,
+      "eligibility_requirements": null,
+      "legal_authorization_ref": null,
+      "apprehension_authorized": false,
+      "acceptance_status": null,
+      "assigned_party_ids": [
+        "garrick-vale",
+        "nyx-thorne"
+      ],
+      "deadline": null,
+      "reward_cp": null,
+      "reward_guaranteed": false,
+      "expenses_fees": null,
+      "evidence_requirements": null,
+      "completion_conditions": null,
+      "completion_status": "session-completed",
+      "payment_status": "session-paid",
+      "historical_payment_cp": null,
+      "historical_application_count": 0,
+      "current_availability": "completed-not-current-offer",
+      "existing_quest_ref": null,
+      "independent_notices_cancelled": false,
+      "financial_postings": [],
+      "source_refs": [
+        "changes/chronicles/year848-day196-end-session.md"
+      ],
+      "source_quote": "Two wanted robbers were taken alive and lawfully transferred.",
+      "last_verified_date": "Year 848 Day 196",
+      "last_verified_note": "Verified by session close. Exact completion date, route, funding and underlying legal documents are unknown.",
+      "funding_source_quote": null
+    },
+    {
+      "contract_id": "WG-848-196-BRIARFALL",
+      "classification": "CONFIRMED CANON",
+      "issuing_organization_id": null,
+      "registry_organization_id": "wayfarers-guild",
+      "funding_party_id": null,
+      "funding_party_name": null,
+      "funding_source_ref": null,
+      "funding_committed_cp": null,
+      "objective": "Briarfall Missing Caravan Investigation",
+      "location_id": null,
+      "difficulty": null,
+      "eligibility_requirements": null,
+      "legal_authorization_ref": null,
+      "apprehension_authorized": false,
+      "acceptance_status": null,
+      "assigned_party_ids": [
+        "garrick-vale",
+        "nyx-thorne"
+      ],
+      "deadline": null,
+      "reward_cp": null,
+      "reward_guaranteed": false,
+      "expenses_fees": null,
+      "evidence_requirements": null,
+      "completion_conditions": null,
+      "completion_status": "session-completed",
+      "payment_status": "session-paid",
+      "historical_payment_cp": null,
+      "historical_application_count": 0,
+      "current_availability": "completed-not-current-offer",
+      "existing_quest_ref": null,
+      "independent_notices_cancelled": false,
+      "financial_postings": [],
+      "source_refs": [
+        "changes/chronicles/year848-day196-end-session.md"
+      ],
+      "source_quote": "The missing caravan was located, surviving merchants were escorted, and stolen cargo was returned to its owners.",
+      "last_verified_date": "Year 848 Day 196",
+      "last_verified_note": "Verified by session close. Exact completion date, route, funding and underlying legal documents are unknown.",
+      "funding_source_quote": null
     }
   ],
   "new_memberships": [],
@@ -293,3 +378,7 @@ This structured section belongs to this existing organization. Original prose/fr
   "automatic_financial_postings": false
 }
 ```
+
+## Day 182–196 completed contracts
+
+Both new contracts are recorded in the registry below. Gross rewards and deductions are in the [sole finance ledger](../../state/finance-ledger.json). The earlier SS-41 withdrawal and paid records retain their existing status.

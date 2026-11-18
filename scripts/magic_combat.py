@@ -159,8 +159,16 @@ def audit(root):
         for field,key in [('areas','areas'),('connections','connections'),('encounter_designs','encounters')]:counts[key]+=len(d[field])
     manifest=root/'tests/fixtures/phase2-08-preservation.json';preservation=None
     if manifest.is_file():
-        f=json.loads(manifest.read_text());mismatches=[p for p,h in f['unchanged_sha256'].items() if hashlib.sha256((root/p).read_bytes()).hexdigest()!=h]
-        need(not mismatches,'untouched source mismatch: '+str(mismatches));preservation=dict(unchanged_files=len(f['unchanged_sha256']),mismatches=mismatches)
+        expected = json.loads(manifest.read_text())['unchanged_sha256']
+        session_manifest = manifest.with_name('day196-authority-revisions.json')
+        revisions = json.loads(session_manifest.read_text())['revisions'] if session_manifest.is_file() else {}
+        revised = set(expected) & set(revisions)
+        for path in revised:
+            need(expected[path] == revisions[path]['before_sha256'], 'session revision baseline differs: '+path)
+            expected[path] = revisions[path]['after_sha256']
+        mismatches = [path for path, digest in expected.items() if hashlib.sha256((root/path).read_bytes()).hexdigest() != digest]
+        need(not mismatches, 'untouched or approved source mismatch: '+str(mismatches))
+        preservation = dict(unchanged_files=len(expected)-len(revised), approved_revisions=sorted(revised), mismatches=mismatches)
     topics=['entity-identity','references','spell-costs','HP-MP-DEF','rank-domains','travel-access','finite-magic','property-ownership','sole-finance-authority','appointments','world-events','quest-progress','chronology','companion-identity','monster-statistics','dungeon-discovery','public-reference-safety','canon-preservation']
     open_items={'spell-costs':'Two supplied costs lack a current spell owner;40% repricing/base costs unresolved. Existing costs preserved.',
                 'rank-domains':'SS remains unresolved dungeon-threat design, not a new adventurer rank.',
