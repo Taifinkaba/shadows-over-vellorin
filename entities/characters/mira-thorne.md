@@ -4,9 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
 ---
+
+## Year 848, Suncrest 262 update
+
+DSI minor day student under Maera’s guardianship. No guild card or current eligibility for combat missions. Exact historical age and combat attributes remain unverified. Mira Thorne and the lodge helper are distinct, and no kinship with Nyx is established.
+
+## Earlier record
 
 # Mira Thorne
 

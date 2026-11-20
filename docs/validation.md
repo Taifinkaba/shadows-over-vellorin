@@ -309,3 +309,10 @@ scripts/dungeon_designs.py validates five unique identity/region/rank mappings, 
 Ten potential reward categories and a complete empty recovery template do not seed caches. Pure validate_recovery_requirements checks supplied future record completeness, positive integer quantity within verified availability and proper design-area scope; it neither verifies testimony/title/physical conditions nor writes/rewards anything. Real recovery would require original source/owner/legal/transport and approved inventory/finance review. No encounter/treasure generator, damage engine, new combat formula, reset/respawn or resource recharge is implemented.
 
 The preservation manifest pins unrelated campaign files and exact prior JSON payloads, recording before/after hashes only for the three approved extension owners. Historical sites/sections, source evidence, roads, magic, state and finance ledger4 remain unchanged. Normal/optimized validators, full regression tests, economy report, dashboard generation/freshness, quest readiness and diff checks are required. Public-reference shape checks do not certify actual geography, safe conditions, encounter balance, hidden solutions, title or player knowledge; human review remains necessary.
+
+
+## Suncrest 262 checkpoint6 and ledger6
+
+Ledger6 adopts a later played cash endpoint separately from the archived Day 196 ledger5. Its bridge reports the difference without a posting. Account breakdown beyond the verified purse and current commitments remain unknown. The confirmed lodge profit is already included. The dashboard and financial report read the later endpoint and preserve unknowns.
+
+The separately owned DSI ledger validates the paid contract bases, post-payment tithes and funded improvements in integer copper. Zero remaining improvement budget leaves the independent treasury total unknown. The reversed proposed grant, student savings and restricted property do not enter controlled cash.

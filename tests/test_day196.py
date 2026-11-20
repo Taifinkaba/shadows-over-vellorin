@@ -1,9 +1,12 @@
 """Guard the approved aggregate ledger exception and independent vehicle pools."""
 import copy
 import json
+import shutil
+import tempfile
 from pathlib import Path
 import unittest
 
+from snapshot_helpers import restore_day196
 from scripts.economy import financial_report
 from scripts.finance_v3 import validate_finance_v3
 from scripts.gm_dashboard import build_dashboard
@@ -14,17 +17,24 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class Day196Tests(unittest.TestCase):
     def setUp(self):
-        self.state = json.loads((ROOT / 'state/checkpoint.json').read_text())
-        self.ledger = json.loads((ROOT / 'state/finance-ledger.json').read_text())
+        temp = tempfile.TemporaryDirectory()
+        self.addCleanup(temp.cleanup)
+        self.root = Path(temp.name)
+        for directory in ('archive', 'changes', 'docs', 'entities', 'governance', 'state'):
+            shutil.copytree(ROOT/directory, self.root/directory)
+        shutil.copy2(ROOT/'index.json', self.root/'index.json')
+        restore_day196(self.root)
+        self.state = json.loads((self.root / 'state/checkpoint.json').read_text())
+        self.ledger = json.loads((self.root / 'state/finance-ledger.json').read_text())
 
     def test_closing_cash_and_separate_pools(self):
-        result = validate_finance_v3(ROOT, self.state, self.ledger)
+        result = validate_finance_v3(self.root, self.state, self.ledger)
         self.assertEqual((result['total_cp'], result['paid_cp']), (52490, 0))
         self.assertEqual(self.ledger['commitments']['uncommitted_cp'], 20790)
-        report = financial_report(ROOT)['approved_session_cash']
+        report = financial_report(self.root)['approved_session_cash']
         self.assertEqual((report['gross_bounty_cp'], report['outflows_cp'], report['net_cash_effect_cp']),
                          (8000, 30100, -22100))
-        resources = build_dashboard(ROOT)['sections']['theron']
+        resources = build_dashboard(self.root)['sections']['theron']
         self.assertEqual((resources['staff_mp']['value'], resources['wagon_mp']['value']), (156, 60))
         self.assertEqual(resources['refitted_wagon_mana']['value'],
                          {'vanguard-wagon': {'current': 120, 'max': 120},
@@ -47,7 +57,7 @@ class Day196Tests(unittest.TestCase):
                 else:
                     transactions[2]['contract_id'] = 'B-83'
                 with self.assertRaises(ValueError):
-                    validate_finance_v3(ROOT, self.state, ledger)
+                    validate_finance_v3(self.root, self.state, ledger)
 
     def test_refitted_wagon_charge_cannot_use_another_pool(self):
         self.state['resources']['refitted_wagon_mana']['ashvale-wagon']['current'] = 120

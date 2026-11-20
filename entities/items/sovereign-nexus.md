@@ -4,8 +4,15 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+## Year 848, Suncrest 262 update
+
+Nexus 156/180 MP. Caelrix remains its independent, witty spirit.
+
+## Earlier record
 
 # Sovereign Nexus
 

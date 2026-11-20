@@ -1,0 +1,363 @@
+{
+  "schema_version": 5,
+  "as_of": {
+    "date": "Year 848 Day 196",
+    "season": "Suncrest",
+    "day_of_season": 76,
+    "time": null,
+    "location": "Ashvale Lodge",
+    "session_status": "ENDED"
+  },
+  "source": "changes/chronicles/year848-day196-end-session.md",
+  "qualification": "Day 182–196 player-approved aggregate cash activity. Exact posting chronology, receipts and subaccounts remain unknown.",
+  "currency": {
+    "unit": "cp",
+    "cp_per_gp": 100,
+    "cp_per_sp": 10
+  },
+  "historical_day156_ref": "archive/checkpoints/year848-day156-finance-ledger.json",
+  "endpoint": {
+    "as_of": {
+      "date": "Year 848 Day 181",
+      "time": "19:30"
+    },
+    "total_cp": 74590,
+    "source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "classification": "PLAYER-APPROVED SUPPLIED ENDPOINT"
+  },
+  "bridge": {
+    "historical_closing_cp": 77190,
+    "endpoint_total_cp": 74590,
+    "difference_cp": 2600,
+    "classification": "RECONCILED — PLAYER-CONFIRMED BRIARSTONE COTTAGE REPAIRS",
+    "is_transaction": false,
+    "assigned_account_id": null,
+    "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+    "transaction_ids": [
+      "briarstone-repair-deposit-day158",
+      "briarstone-repair-final-day165"
+    ]
+  },
+  "account_verifications": [],
+  "transactions": [
+    {
+      "id": "y848-d196-vanguard-refit",
+      "source_event_id": "y848-d196-vanguard-refit",
+      "date": null,
+      "time": null,
+      "evidence": {
+        "source_ref": "changes/chronicles/year848-day196-end-session.md",
+        "quote": "Vanguard refit paid 160 gp"
+      },
+      "status": "player-approved",
+      "category": "other-expense",
+      "direction": "outflow",
+      "amount_cp": 16000,
+      "payer": null,
+      "recipient": null,
+      "account_id": null,
+      "to_account_id": null,
+      "authority_id": null,
+      "cash_effect_cp": -16000,
+      "revenue_recognized_cp": 0,
+      "commitment_id": null,
+      "commitment_effect_cp": 0,
+      "property_id": null,
+      "business_id": null,
+      "contract_id": null,
+      "application_count": 1,
+      "ownership_scope": "controlled"
+    },
+    {
+      "id": "y848-d196-supply-refit",
+      "source_event_id": "y848-d196-supply-refit",
+      "date": null,
+      "time": null,
+      "evidence": {
+        "source_ref": "changes/chronicles/year848-day196-end-session.md",
+        "quote": "Lodge supply wagon refit paid 105 gp"
+      },
+      "status": "player-approved",
+      "category": "other-expense",
+      "direction": "outflow",
+      "amount_cp": 10500,
+      "payer": null,
+      "recipient": null,
+      "account_id": null,
+      "to_account_id": null,
+      "authority_id": null,
+      "cash_effect_cp": -10500,
+      "revenue_recognized_cp": 0,
+      "commitment_id": null,
+      "commitment_effect_cp": 0,
+      "property_id": null,
+      "business_id": null,
+      "contract_id": null,
+      "application_count": 1,
+      "ownership_scope": "controlled"
+    },
+    {
+      "id": "y848-d196-eastrun-reward",
+      "source_event_id": "y848-d196-eastrun-reward",
+      "date": null,
+      "time": null,
+      "evidence": {
+        "source_ref": "changes/chronicles/year848-day196-end-session.md",
+        "quote": "Eastrun gross reward paid 42 gp"
+      },
+      "status": "player-approved",
+      "category": "contract-reward",
+      "direction": "inflow",
+      "amount_cp": 4200,
+      "payer": null,
+      "recipient": null,
+      "account_id": null,
+      "to_account_id": null,
+      "authority_id": null,
+      "cash_effect_cp": 4200,
+      "revenue_recognized_cp": 4200,
+      "commitment_id": null,
+      "commitment_effect_cp": 0,
+      "property_id": null,
+      "business_id": null,
+      "contract_id": "WG-848-196-EASTRUN",
+      "application_count": 1,
+      "ownership_scope": "controlled"
+    },
+    {
+      "id": "y848-d196-briarfall-reward",
+      "source_event_id": "y848-d196-briarfall-reward",
+      "date": null,
+      "time": null,
+      "evidence": {
+        "source_ref": "changes/chronicles/year848-day196-end-session.md",
+        "quote": "Briarfall gross reward paid 38 gp"
+      },
+      "status": "player-approved",
+      "category": "contract-reward",
+      "direction": "inflow",
+      "amount_cp": 3800,
+      "payer": null,
+      "recipient": null,
+      "account_id": null,
+      "to_account_id": null,
+      "authority_id": null,
+      "cash_effect_cp": 3800,
+      "revenue_recognized_cp": 3800,
+      "commitment_id": null,
+      "commitment_effect_cp": 0,
+      "property_id": null,
+      "business_id": null,
+      "contract_id": "WG-848-196-BRIARFALL",
+      "application_count": 1,
+      "ownership_scope": "controlled"
+    },
+    {
+      "id": "y848-d196-guild-commission",
+      "source_event_id": "y848-d196-guild-commission",
+      "date": null,
+      "time": null,
+      "evidence": {
+        "source_ref": "changes/chronicles/year848-day196-end-session.md",
+        "quote": "Wayfarers Guild commission paid 8 gp"
+      },
+      "status": "player-approved",
+      "category": "other-expense",
+      "direction": "outflow",
+      "amount_cp": 800,
+      "payer": null,
+      "recipient": "Wayfarers Guild",
+      "account_id": null,
+      "to_account_id": null,
+      "authority_id": null,
+      "cash_effect_cp": -800,
+      "revenue_recognized_cp": 0,
+      "commitment_id": null,
+      "commitment_effect_cp": 0,
+      "property_id": null,
+      "business_id": null,
+      "contract_id": null,
+      "application_count": 1,
+      "ownership_scope": "controlled"
+    },
+    {
+      "id": "y848-d196-field-expenses",
+      "source_event_id": "y848-d196-field-expenses",
+      "date": null,
+      "time": null,
+      "evidence": {
+        "source_ref": "changes/chronicles/year848-day196-end-session.md",
+        "quote": "Field supplies and expenses paid 8 gp"
+      },
+      "status": "player-approved",
+      "category": "supplies-purchased",
+      "direction": "outflow",
+      "amount_cp": 800,
+      "payer": null,
+      "recipient": null,
+      "account_id": null,
+      "to_account_id": null,
+      "authority_id": null,
+      "cash_effect_cp": -800,
+      "revenue_recognized_cp": 0,
+      "commitment_id": null,
+      "commitment_effect_cp": 0,
+      "property_id": null,
+      "business_id": null,
+      "contract_id": null,
+      "application_count": 1,
+      "ownership_scope": "controlled"
+    },
+    {
+      "id": "y848-d196-companion-compensation",
+      "source_event_id": "y848-d196-companion-compensation",
+      "date": null,
+      "time": null,
+      "evidence": {
+        "source_ref": "changes/chronicles/year848-day196-end-session.md",
+        "quote": "Combined Garrick and Nyx compensation paid 20 gp"
+      },
+      "status": "player-approved",
+      "category": "wages-paid",
+      "direction": "outflow",
+      "amount_cp": 2000,
+      "payer": null,
+      "recipient": "Garrick Vale and Nyx Thorne",
+      "account_id": null,
+      "to_account_id": null,
+      "authority_id": null,
+      "cash_effect_cp": -2000,
+      "revenue_recognized_cp": 0,
+      "commitment_id": null,
+      "commitment_effect_cp": 0,
+      "property_id": null,
+      "business_id": null,
+      "contract_id": null,
+      "application_count": 1,
+      "ownership_scope": "controlled"
+    }
+  ],
+  "controlled_cash": {
+    "total_cp": 52490,
+    "accounts": [],
+    "allocation_status": "UNRECONCILED / UNKNOWN"
+  },
+  "commitments": {
+    "expansion_committed_cp": 31700,
+    "expansion_paid_cp": 0,
+    "expansion_outstanding_cp": 31700,
+    "uncommitted_cp": 20790,
+    "construction_started": false,
+    "progress_ref": null
+  },
+  "excluded_property": [
+    {
+      "id": "provisional_historic_coinage",
+      "amount_cp": 924,
+      "status": "Approximately 9 gp 1 sp 14 cp; unreconciled historic coinage",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "office_petty_cash",
+      "amount_cp": 640,
+      "status": "North Return House funds",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "lyanna_personal",
+      "amount_cp": null,
+      "status": "Separate personal funds; current balance unverified",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "academy_cash",
+      "amount_cp": 3400,
+      "status": "Earlier report only; not current certification",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "academy_refundable_deposit",
+      "amount_cp": 1500,
+      "status": "Noncash deposit; earlier report only",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "seized_custody_funds",
+      "amount_cp": 3820,
+      "status": "Historical custody; ownership/disposition unresolved",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "merchant_property",
+      "amount_cp": null,
+      "status": "Not estate-owned; eligible merchant gross sales excluded",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "unreconciled_salvage",
+      "amount_cp": null,
+      "status": "Title and valuation unresolved",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "estate_property",
+      "amount_cp": null,
+      "status": "Noncash land, buildings, inventory and equipment",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "briarstone_cottage",
+      "amount_cp": 5500,
+      "status": "Noncash appraisal; no rent yet",
+      "included_in_controlled_cash": false
+    }
+  ],
+  "automatic_future_income": false,
+  "post_arc_transactions": [
+    {
+      "id": "briarstone-repair-deposit-day158",
+      "source_event_id": "briarstone-repair-deposit-day158",
+      "date": "Year 848 Day 158",
+      "season": "Suncrest",
+      "season_day": 38,
+      "time": null,
+      "category": "maintenance",
+      "property_id": "briarstone-cottage",
+      "amount_cp": 800,
+      "cash_effect_cp": -800,
+      "commitment_effect_cp": 0,
+      "funding_scope": "uncommitted-controlled-funds",
+      "account_id": null,
+      "recipient": null,
+      "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+      "source_quote": "repair deposit paid800cp",
+      "status": "player-confirmed-continuity",
+      "application_count": 1
+    },
+    {
+      "id": "briarstone-repair-final-day165",
+      "source_event_id": "briarstone-repair-final-day165",
+      "date": "Year 848 Day 165",
+      "season": "Suncrest",
+      "season_day": 45,
+      "time": null,
+      "category": "maintenance",
+      "property_id": "briarstone-cottage",
+      "amount_cp": 1800,
+      "cash_effect_cp": -1800,
+      "commitment_effect_cp": 0,
+      "funding_scope": "uncommitted-controlled-funds",
+      "account_id": null,
+      "recipient": null,
+      "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+      "source_quote": "final cottage repair payment paid1800cp",
+      "status": "player-confirmed-continuity",
+      "application_count": 1
+    }
+  ],
+  "approved_session_window": {
+    "first_date": "Year 848 Day 182",
+    "last_date": "Year 848 Day 196",
+    "source_ref": "changes/chronicles/year848-day196-end-session.md"
+  }
+}

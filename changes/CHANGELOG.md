@@ -1,3 +1,11 @@
+# Year 848, Suncrest 262 — end session
+
+- Adopt the player-confirmed 6:00 PM DSI Academy endpoint. Preserve Day 196 checkpoint and ledger in the archive and retain the existing chronicle.
+- Record the 13-student roster, six guild sheets, four personally owned riding horses, independent mission tithe, Witness developments, lodge operations and open Watchpost lead. See the [session chronicle](../changes/chronicles/year848-suncrest262-end-session.md).
+- Keep the cash gap unresolved. Preserve the 49 gp lodge profit as included in the later endpoint, 24 gp as independent DSI revenue, and restricted assets outside ordinary cash.
+- Align active repository guidance with the player’s direction to keep GitHub public. Preserve the separate GM knowledge and storage rules.
+
+
 # Year 848 Day 196 — end session
 
 - Record the approved Day 182–196 wagon refits, two completed Wayfarers contracts and three unrecovered salvage leads. Preserve historic vehicle identities and cash postings.

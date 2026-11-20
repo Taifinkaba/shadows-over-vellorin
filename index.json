@@ -2970,6 +2970,193 @@
         "integration",
         "reference"
       ]
+    },
+    {
+      "id": "kaela",
+      "type": "characters",
+      "title": "Kaela",
+      "path": "entities/characters/kaela.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "gorren",
+      "type": "characters",
+      "title": "Gorren",
+      "path": "entities/characters/gorren.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "nessa",
+      "type": "characters",
+      "title": "Nessa",
+      "path": "entities/characters/nessa.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "talia-fen",
+      "type": "characters",
+      "title": "Talia Fen",
+      "path": "entities/characters/talia-fen.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "rowan-hale",
+      "type": "characters",
+      "title": "Rowan Hale",
+      "path": "entities/characters/rowan-hale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "bramble",
+      "type": "creatures",
+      "title": "Bramble",
+      "path": "entities/creatures/bramble.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "cinder",
+      "type": "creatures",
+      "title": "Cinder",
+      "path": "entities/creatures/cinder.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "flint",
+      "type": "creatures",
+      "title": "Flint",
+      "path": "entities/creatures/flint.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "willow",
+      "type": "creatures",
+      "title": "Willow",
+      "path": "entities/creatures/willow.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "dalen-reed",
+      "type": "characters",
+      "title": "Dalen Reed",
+      "path": "entities/characters/dalen-reed.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "sera-willow",
+      "type": "characters",
+      "title": "Sera Willow",
+      "path": "entities/characters/sera-willow.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "tobin-marsh",
+      "type": "characters",
+      "title": "Tobin Marsh",
+      "path": "entities/characters/tobin-marsh.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "elowen-briar",
+      "type": "characters",
+      "title": "Elowen Briar",
+      "path": "entities/characters/elowen-briar.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "perrin-oak",
+      "type": "characters",
+      "title": "Perrin Oak",
+      "path": "entities/characters/perrin-oak.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "faye-linden",
+      "type": "characters",
+      "title": "Faye Linden",
+      "path": "entities/characters/faye-linden.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "forgotten-watchpost",
+      "type": "locations",
+      "title": "Forgotten Watchpost",
+      "path": "entities/locations/forgotten-watchpost.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
+    },
+    {
+      "id": "sovereign-vault",
+      "type": "locations",
+      "title": "Sovereign Vault",
+      "path": "entities/locations/sovereign-vault.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

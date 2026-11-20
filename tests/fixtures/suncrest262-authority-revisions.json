@@ -1,0 +1,137 @@
+{
+  "source_ref": "changes/chronicles/year848-suncrest262-end-session.md",
+  "revisions": {
+    "AGENTS.md": {
+      "before_sha256": "4c2e6fc3ad4aff28a8f49be2c79733a7ebf3ea6d44c6a33aca386144d552f0b8",
+      "after_sha256": "cbc52b1b70634e694e7c99bc2b8cb237bb7ec569f4a3b5608a91b18790ae6976"
+    },
+    "README.md": {
+      "before_sha256": "511a959d63a1238f098f60c36c02aafb10edc822b62d56e8c71127acea8d0dcd",
+      "after_sha256": "6d7c72b675821313a647bd44ae733354b34ebce6af902770faa867895f504695"
+    },
+    "archive/checkpoints/year848-day196-finance-ledger.json": {
+      "before_sha256": "788ecf526b9d61e0900cb84f0679db53da9e60c0127cebb85ba910f14a0216ff",
+      "after_sha256": "788ecf526b9d61e0900cb84f0679db53da9e60c0127cebb85ba910f14a0216ff"
+    },
+    "archive/checkpoints/year848-day196.json": {
+      "before_sha256": "5bedb940b66d9b795caf6771ed58cf0dc755f6b8abcac1dcfc98163e706458f6",
+      "after_sha256": "5bedb940b66d9b795caf6771ed58cf0dc755f6b8abcac1dcfc98163e706458f6"
+    },
+    "docs/game-master-operating-manual.md": {
+      "before_sha256": "1ca704b7ce1f891f4d964c90ce67601d81c417c4b56bcf3558f630281ef90f1b",
+      "after_sha256": "f0e097a09b5e45ff27cf83274b3d8414e7ab2f80909e7b470e438a9fa80ab73f"
+    },
+    "entities/characters/elias-renn.md": {
+      "before_sha256": "78f57049053e5818b6389d5a9b7f4d34be15805c870377cceba59983afe8bee4",
+      "after_sha256": "abb003e961628fe392b8f708bd53e78607a8d99be193669bab0acb00f6ba5468"
+    },
+    "entities/characters/garrick-vale.md": {
+      "before_sha256": "f381e037897f5556a9faf87e2c5609c9470b66831eeda31da322f037247bb623",
+      "after_sha256": "b566a7addc4a1934075130afb327594758c06a9981d0db93547be0bb9b78f136"
+    },
+    "entities/characters/lyanna-ashvale.md": {
+      "before_sha256": "3683d3eb115571f7e1539f8ce7eb27d1ae4d2d3388fe8c95426790296f67b257",
+      "after_sha256": "a3d9483c2a2c1f3e8173e5c5e6cdc840d44732773fef14566d72d7e7c76e5aa5"
+    },
+    "entities/characters/mira-thorne.md": {
+      "before_sha256": "b9d83145d91368e7d6cef366687812e023c66f58f10ec6f947c2eba63303900f",
+      "after_sha256": "0bc82f053602b9c1222a52438c8e92639eb64cd420d7d5e56fd391b5f9f16952"
+    },
+    "entities/characters/nyx-thorne.md": {
+      "before_sha256": "34f95dd6c980fdeebdf65d387e1ce287255a7125c3bba83d7bdd32af299a606e",
+      "after_sha256": "865ba4da7736bff09330e57fa54f972a507eab91de5e54e114695210c5b57e0f"
+    },
+    "entities/characters/theron-ashvale.md": {
+      "before_sha256": "e2291d21a9c9d89bd430a4c6abb3e8d76cca110fc57067b2d3c5848635286e90",
+      "after_sha256": "fde4ac56847d92b94f05c96081e2100eb9008a91cddf09b741df5adeba3b46a7"
+    },
+    "entities/creatures/alpha.md": {
+      "before_sha256": "5668eee988b879d4e311928fc6a242bef5d3bce48e0c3560d936e22fc3860a9d",
+      "after_sha256": "8358025714953b971468b40b0f1f2f6581f51beed61e1b2fbe0322df3fbca71a"
+    },
+    "entities/creatures/aurelion.md": {
+      "before_sha256": "7b682b5bd91b035c82ef24f5f9942683bf2da0e9346ae18919006b71875ce338",
+      "after_sha256": "30f068326c2e532647bc55a8358bb1f14d02606bb4aaffe6a141407f6b98ea44"
+    },
+    "entities/creatures/ember.md": {
+      "before_sha256": "3d76a382808f8c05cb05034f416d626b3723c258aad2b935a7097d854a6e2daa",
+      "after_sha256": "f96aecd51850f11cf14b5f846631c1ec4b33860f8f1211875583a2e604ec853e"
+    },
+    "entities/creatures/shade.md": {
+      "before_sha256": "58f92e6621e66c20485bb86051a6822109ef732b95dcdc43064be017ea5a97ce",
+      "after_sha256": "fb69c36f08d5b19d26aba528a742ccdfeaf9259b82e0e75fb0c9ecd16b1a832f"
+    },
+    "entities/creatures/vaeltharion.md": {
+      "before_sha256": "a74f06bff0c90ebe3d9e23253f466fed09bd0cc4cb61fb893608c95097eb059f",
+      "after_sha256": "330e2dde819a34f02e3e527c54192457a3f930ba485ed03b6efd0110a2d8ee59"
+    },
+    "entities/factions/dragon-slayer-academy.md": {
+      "before_sha256": "ff3c7d5060c2fe32d3a577dc4a4a271fedab7eb1b0551f36f9ad7d6b09bc2478",
+      "after_sha256": "9aed2dc922338ac847dbae82e0daf1ca16e23e313d38bae64d4fa819a61ff1c0"
+    },
+    "entities/factions/wayfarers-guild.md": {
+      "before_sha256": "3f84f6e979ed7ac39c8fd42f35b9ac23bca8dd0b76b27ea881b742d8320136db",
+      "after_sha256": "317572e198f160b4907febff84153542f4727d86f5688aad0168f136f27e61d8"
+    },
+    "entities/items/ashvale-wagon.md": {
+      "before_sha256": "7a1f8b92b5d3feb97830967486c587bfbd837d1621dd0bc712a1c9a529138923",
+      "after_sha256": "4787d436af80a1e669aeb51254f1630c0678248d42c0af1f8dc62f9e541a2634"
+    },
+    "entities/items/sovereign-nexus.md": {
+      "before_sha256": "797d33a308332072988a22c1a6d2ec5aa2c556ec9aa43f5ae530181395b8344a",
+      "after_sha256": "371a527cfb7a604451a71285f187834039cec149d838038cb152e864dc80b6bd"
+    },
+    "entities/items/vanguard-wagon.md": {
+      "before_sha256": "f309111ca37e4ca75a4e0e81c45db3dca51e119d5a2f3249bdf9ae26143bf913",
+      "after_sha256": "a712020eab184891bd3f465e26c948e8dcf3afc81466fa1fd99530a360ba216c"
+    },
+    "entities/locations/ashvale-lodge.md": {
+      "before_sha256": "b30b5021a105918071e6fdaba36ab8d4ac62f39c8474eeea520c3f4f09ed63f7",
+      "after_sha256": "b71629f62bcf7e1d633ffc45e982e103dde91c0adbd084614e9e2a2a9e439888"
+    },
+    "entities/mechanics/party-finances.md": {
+      "before_sha256": "3e48fe3cb92711ed5dd46b85c2cbfedbc97b5535823793336f203cbb06b0087d",
+      "after_sha256": "b25da7c45ae11b8de63d5208b7f378b926e0f33fb1caf53d80e04671085b7150"
+    },
+    "entities/mechanics/theron-abilities.md": {
+      "before_sha256": "89f167964b719b9edd685bd45b6610acd91fbfff830e7ccdaf54e849f6038136",
+      "after_sha256": "c8c97ee2fc05dc25459d9234a7a91c904af3bead13f4e8ac5e65e7a6a636ac19"
+    },
+    "entities/mechanics/theron-skills.md": {
+      "before_sha256": "ad33625ac7da0ac508572d1a91954a71c6a454d6b617bbd365829e3383e7366f",
+      "after_sha256": "f0c50ee1114057167f8f770b6cc6f1deb6119501f95d7b6b1777c2060c864a4e"
+    },
+    "entities/mechanics/world-geography.md": {
+      "before_sha256": "2d16511c86dba18f5322b5dc2c2a97e7378d1d0907dd6481d36c5dca17e3cdf1",
+      "after_sha256": "8175700b8afa0e6594df8912ccb68d88c09b213294afd006185512db3860f6bd"
+    },
+    "entities/quests/first-oath-conspiracy.md": {
+      "before_sha256": "52713e1a209a0ab787648fb66f613b4bc8e68d46a6993a110a9de6e359aa58d6",
+      "after_sha256": "bdb4f10eae1c11e814f1ab246821634af54bd1eeea8a467c3c4afa4d62d20cbf"
+    },
+    "governance/precedence.md": {
+      "before_sha256": "8b94498f2399df3250ced2a6cc796681f9d41eaf334a223efaa8c97073959c5c",
+      "after_sha256": "1c90d4d2f48ae87322e84c13822c27443f0a0d860dec78a4abdfdf9a01683026"
+    },
+    "index.json": {
+      "before_sha256": "0d53a451882f1a1ab12ecc55764cdce5678f303040453b26d7a9ef8b6f0fbf65",
+      "after_sha256": "f53c27e9ba0d11969bd6689be54b3e9ec04159a5141ba9280fbd545e8ee9c0c8"
+    },
+    "state/checkpoint.json": {
+      "before_sha256": "5bedb940b66d9b795caf6771ed58cf0dc755f6b8abcac1dcfc98163e706458f6",
+      "after_sha256": "b9ca23204dc0e3e1b6e39cbcf7db0d76ece14b0f58c04ce4c004a19893bd2685"
+    },
+    "state/finance-ledger.json": {
+      "before_sha256": "788ecf526b9d61e0900cb84f0679db53da9e60c0127cebb85ba910f14a0216ff",
+      "after_sha256": "049b32dfae76e47728d9b7abddcb827a6f4c95129b816d64fe25af1b24481c89"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "bb2a48bfde52dfec394fbcd18755634fc5b2e4ab3c2a0493ba7755ccda47a317",
+      "after_sha256": "4241bcf645d32a0a4b2ec19a5e8934fb580d2a3efb7163b8bac0bc52756cef82"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "2792cdcc2e74e843bb1d3a1846f342882296b01d58ffe3f421c733a93b08f62b",
+      "after_sha256": "ad54ad60bf94aefece5ab939d72dd109e89c8afdc755626a14828aa79a19c2e6"
+    }
+  }
+}

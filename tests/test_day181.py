@@ -11,7 +11,7 @@ import yaml
 from scripts.validate import validate,ValidationError,validate_finance_ledger
 from scripts.gm_dashboard import build_dashboard,verify_view,render_markdown
 from scripts.economy import financial_report
-from snapshot_helpers import DAY196_REVISED_AUTHORITIES, restore_day156,restore_unresolved_day181
+from snapshot_helpers import DAY196_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES, restore_day156,restore_unresolved_day181
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -100,7 +100,7 @@ class Day181Tests(unittest.TestCase):
         with self.subTest(case='test_all_unrelated_authorities_and_old_history_unchanged'), isolated_case(self):
             f=json.loads((ROOT/'tests/fixtures/day181-migration.json').read_text())
             for path,digest in f['unrelated_sha256'].items():
-                if path in DAY196_REVISED_AUTHORITIES:
+                if path in DAY196_REVISED_AUTHORITIES or path in SUNCREST262_REVISED_AUTHORITIES:
                     continue
                 with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest)
 

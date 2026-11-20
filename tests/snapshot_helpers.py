@@ -1,5 +1,8 @@
 """Explicit historical fixture selection; never rewrite actual campaign authorities."""
 import json
+import re
+
+import yaml
 from pathlib import Path
 
 
@@ -20,6 +23,28 @@ def restore_unresolved_day181(root):
 
 DAY196_MANIFEST = Path(__file__).with_name('fixtures') / 'day196-authority-revisions.json'
 DAY196_REVISED_AUTHORITIES = json.loads(DAY196_MANIFEST.read_text())['revisions']
+
+
+SUNCREST262_MANIFEST = DAY196_MANIFEST.with_name('suncrest262-authority-revisions.json')
+SUNCREST262_REVISED_AUTHORITIES = json.loads(SUNCREST262_MANIFEST.read_text())['revisions']
+
+
+def restore_day196(root):
+    for name in ('checkpoint', 'finance-ledger'):
+        suffix = '' if name == 'checkpoint' else '-finance-ledger'
+        (root/f'state/{name}.json').write_bytes(
+            (root/f'archive/checkpoints/year848-day196{suffix}.json').read_bytes())
+
+    checkpoint = json.loads((root/'state/checkpoint.json').read_text())
+    for relative in ('characters/theron-ashvale.md', 'mechanics/party-finances.md'):
+        path = root/'entities'/relative
+        text = path.read_text()
+        block = re.search(r'(?m)^checkpoint_values:\n(?:  .*\n)+', text)[0]
+        values = yaml.safe_load(block)['checkpoint_values']
+        for key in values:
+            section, _, field = key.partition('.')
+            values[key] = checkpoint[section][field] if field else checkpoint[section]
+        path.write_text(text.replace(block, yaml.safe_dump({'checkpoint_values': values}, sort_keys=False)))
 
 
 def restore_reconciled_day181(root, fixture):

@@ -4,6 +4,7 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -12,6 +13,12 @@ source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+## Year 848, Suncrest 262 update
+
+Lodge supply wagon reservoir last recorded at 80/80 MP. It remains separate from the Vanguard and the original Sovereign Expedition Wagon.
+
+## Earlier record
 
 # Ashvale Lodge supply wagon — Day 196
 

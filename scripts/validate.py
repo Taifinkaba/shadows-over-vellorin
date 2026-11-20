@@ -279,6 +279,13 @@ def validate_state(state):
 def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
+    if ledger.get('schema_version') == 6:
+        require(state['schema_version'] == 6, 'finance6 requires checkpoint6')
+        if __package__:
+            from .finance_endpoint import validate_endpoint
+        else:
+            from finance_endpoint import validate_endpoint
+        return validate_endpoint(root, state, ledger)
     if state['schema_version'] == 6:
         require(type(ledger.get('schema_version')) is int and ledger['schema_version'] in (3,4,5), 'checkpoint6 requires finance schema3, 4 or 5')
     if ledger.get('schema_version') in (3,4,5):

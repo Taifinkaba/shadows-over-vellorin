@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
@@ -15,10 +16,16 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
-  money.total_gp_sp: 524gp 9sp
+  money.total_gp_sp: 2990gp 4sp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+## Year 848, Suncrest 262 update
+
+Controlled ordinary cash is **2,990 gp 4 sp**, inclusive of Theron’s 100 gp purse. Remaining allocation, cash history since Day 196 and current commitment status are unverified. Restricted Stoneward coinage (940 gp equivalent) and unsold commercial instruments (historical 450 gp estimate) are excluded. The 49 gp lodge profit is already included. DSI receipts and student savings belong to their respective owners. See the [current ledger](../../state/finance-ledger.json) and [historical Day 196 ledger](../../archive/checkpoints/year848-day196-finance-ledger.json).
+
+## Earlier record
 
 # Day 196 session reconciliation
 

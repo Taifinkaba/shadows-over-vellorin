@@ -1,3 +1,16 @@
+# Open verifications — Year 848, Suncrest 262
+
+- Day 196 controlled cash of 524 gp 9 sp and Suncrest 262 ordinary controlled cash of 2,990 gp 4 sp differ by 2,465 gp 5 sp. The itemized bridge, remaining account distribution and present status of the historical 317 gp expansion commitment are unverified. The two-week 49 gp lodge profit was already included in the later checkpoint. Stoneward custody, title and disputed sale details require source records.
+- DSI’s confirmed 24 gp tithe funded the full specified 24 gp improvement budget. The overall treasury, dated balance of the old 34 gp cash and 15 gp refundable deposit, issuing organizations, dates, receipts and individual mission splits are unverified. The 216 gp retained mission rewards cannot be added to the 406 gp opening personal savings. Talia and Rowan’s savings are unknown.
+- Guild card identifiers and registering branch, exact career histories, movement modifiers, damage and resistances, and any spell costs or healing values from the new sheets remain unverified. The seven non-guild students have no assessed combat sheets.
+- Exact room, presence at the closing instant and armor configuration are unknown. The original wagon’s 60/60 MP is a historical reference. Lodge supply wagon 80/80 is last recorded.
+- Darian Kestrel, later custody details for Valeth, the Watchpost chamber and rune mechanism, stable arrangements, feed, winter reserves and further academy development remain open.
+- Earlier unresolved items carry forward unless the player-approved [chronicle](../changes/chronicles/year848-suncrest262-end-session.md) resolves them.
+
+The player confirmed that GitHub should remain public. The former visibility conflict is resolved in [governance](../governance/precedence.md). Separate private storage for unrevealed GM material remains unverified.
+
+## Historical verification records
+
 # Open verifications — Day 196
 
 - The approved ruling establishes three distinct current vehicles. The historical supply wagon's intermediate journey and older attribution relative to the original Sovereign remain open. Use the existing records for all three vehicles.
