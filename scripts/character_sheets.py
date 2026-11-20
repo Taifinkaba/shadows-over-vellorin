@@ -43,4 +43,4 @@ def validate_sheet(root, path, ident, require, repository_file, load_yaml):
     refs = sheet['source_refs']
     require(isinstance(refs, list) and refs, f'{ident}: character sheet sources required')
     for ref in refs:
-        repository_file(root, ref, f'{ident} character sheet source')
+        repository_file(root, ref, f'{ident} character sheet source_refs')
