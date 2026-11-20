@@ -21,8 +21,9 @@ def validate_sheet(root, path, ident, require, repository_file, load_yaml):
     if HEADING not in contents:
         return
     _, _, section = contents.partition(HEADING)
-    block = re.fullmatch(r'\n```yaml\n(.*?)\n```\n', section, re.S)
-    require(block is not None, f'{ident}: expected one closing character sheet block')
+    block = re.match(r'\n```yaml\n(.*?)\n```(?:\n|$)', section, re.S)
+    require(block is not None and HEADING not in section,
+            f'{ident}: expected one character sheet block')
     payload = load_yaml(block[1])
     require(isinstance(payload, dict) and set(payload) == {'character_sheet'},
             f'{ident}: invalid character sheet')
