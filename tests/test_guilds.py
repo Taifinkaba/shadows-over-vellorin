@@ -148,7 +148,10 @@ class GuildTests(unittest.TestCase):
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path,digest in f['guild_prefix_sha256'].items():
                 prefix = (ROOT/path).read_text().split(GUILD_MARKER)[0]
-                prefix = prefix.replace('- changes/chronicles/year848-day196-end-session.md\n', '', 1)
+                for source in ('year848-day196-end-session', 'year848-suncrest262-end-session'):
+                    prefix = prefix.replace(f'- changes/chronicles/{source}.md\n', '', 1)
+                prefix = re.sub(r'\n## Year 848, Suncrest 262 update\n.*?\n## Earlier record\n',
+                                '', prefix, count=1, flags=re.S)
                 self.assertEqual(hashlib.sha256(prefix.encode()).hexdigest(),digest,path)
         with self.subTest(case='test_broken_compatibility_link'), isolated_case(self):
             self.reject('continental-guild-concord',lambda d:d['divisions'][0]['existing_guild_relationship_ids'].append('missing-guild'),'broken compatibility')

@@ -1,3 +1,18 @@
+# Next-chat handoff — Year 848, Suncrest 262, 6:00 PM
+
+**ENDED at DSI Academy, Greyhaven Valley.** Await the player’s instruction to resume. Load the [checkpoint](checkpoint.json), [session chronicle](../changes/chronicles/year848-suncrest262-end-session.md), [precedence](../governance/precedence.md), [narration rules](../docs/narration-format.md) and [index](../index.json).
+
+- **Theron / Blackscale** — male elf, 25, S+ Rank, Level 5. HP 100/100; MP 400/400. STR 13, DEX 20, CON 18, INT 21, WIS 20, CHA 20, zero unspent attributes. DEF 46 base, 49 with Frostguard Bracers and 51 with Night Sovereign additionally worn. Actual wearing and closing presence are unknown. Chronos Eye ~19% and Dragon Slayer remain locked. Retrieve the [skill owner](../entities/mechanics/theron-skills.md) for updated mastery.
+- **Independent mana pools** — Nexus 156/180; Vanguard 120/120; Lodge supply wagon 80/80 last recorded. The original Sovereign Expedition Wagon’s 60/60 is historical.
+- **Controlled cash** — 2,990 gp 4 sp including the 100 gp personal purse. Restricted Stoneward coinage (940 gp equivalent) and historical 450 gp unsold instruments are excluded. The lodge’s 49 gp two-week profit is included. Current unpaid commitments and the historical bridge are unresolved. [Party ledger](finance-ledger.json)
+- **DSI** — independent academy managed by Beren and co-founded by Theron and the free Vaeltharion. Six active guild registrants among 13 students. Four adults completed introductory mounted training with their personally owned riding horses. Talia and Rowan are limited to supervised low-risk assignments. The 10% post-payment tithe yielded 24 gp and paid the 24 gp academy improvement budget. Outstanding stable and winter needs are unfunded. [Roster](../entities/factions/dragon-slayer-academy.md) · [DSI ledger](dsi-finance-ledger.json)
+- **Witness and lodge** — original Ashvale testimony recovered, Valeth captured alive and inquiry reopened. Garrick independently continues in Caelthorne. Darian Kestrel remains unresolved. Three original memory vessels already restored. Tomas manages Theron’s lodge, separately from Aric’s estate. The Sovereign Vault is constructed and five minor Night Menagerie masks are certified v1.1.
+- **Companions and open lead** — Lyanna and Nyx remain independent, Bren and Lyra continue lodge duties, and Caelrix remains independent in the Nexus. Raze analyzes without independently casting Theron’s spells. Shade bond 4/5, Aurelion 5/5, Ember is Nyx’s reddish wolf, and Alpha is a free frost wolf. The [Forgotten Watchpost](../entities/locations/forgotten-watchpost.md) chamber remains unentered.
+
+See [open verifications](open-verifications.md) and the archived [Day 196 checkpoint](../archive/checkpoints/year848-day196.json).
+
+## Historical handoffs
+
 # Next-chat handoff — Year 848, Suncrest 76, Day 196
 
 The session ended at Ashvale Lodge after Theron's rest. Start from the [checkpoint](checkpoint.json), [Day 196 chronicle](../changes/chronicles/year848-day196-end-session.md), [precedence](../governance/precedence.md), [narration rules](../docs/narration-format.md) and [index](../index.json). Await the player's instruction to resume. Exact clock time, room, companion whereabouts and Night Sovereign wearing are unknown.

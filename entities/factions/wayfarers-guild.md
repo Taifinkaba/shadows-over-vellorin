@@ -4,11 +4,18 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 848, Suncrest 262 update
+
+The six active academy-student guild registrations and their supervision limits are listed in the [DSI roster](dragon-slayer-academy.md). DSI is independent. Its post-payment mission tithe is academy revenue and distinct from the Wayfarers’ registered-contract commission policy. The source does not give card IDs, registering branch or contract issuers.
+
+## Earlier record
 
 # Wayfarers Guild — Day156 current canon
 

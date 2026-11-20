@@ -4,9 +4,41 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
 ---
+
+## Year 848, Suncrest 262 update
+
+Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct from [DSI enrollment](../factions/dragon-slayer-academy.md).
+
+- Race: Human
+- Age: 29
+- Role: Field Captain
+- Rank: E
+- Level: 2
+- HP: 32/32
+- MP: 10/10
+- DEF: 13
+
+STR 11, DEX 13, CON 13, INT 15, WIS 14, CHA 12.
+
+Skills:
+- Navigation 3/5.
+- Team Leadership 3/5.
+- Swordsmanship 2/5.
+- Field Medicine 2/5.
+
+- Equipment: Shortsword, light armor, travel pack, guild card.
+- Mount: [Bramble](../creatures/bramble.md), bay gelding, personally owned.
+- Personal savings: 28 gp.
+- Status: Standard supervised contracts.
+Existing character background and approved portrait must be preserved.
+
+Damage, resistances, movement modifiers, spell costs and prior independent career history remain unknown.
+
+## Earlier record
 
 # Elias Renn
 

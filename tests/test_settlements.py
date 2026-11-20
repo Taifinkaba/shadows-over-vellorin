@@ -174,8 +174,11 @@ class SettlementTests(unittest.TestCase):
             fixture = json.loads((ROOT/'tests/fixtures/chunk3-preservation.json').read_text())
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path, digest in fixture['source_prefix_sha256'].items():
-                prefix = (ROOT/path).read_text().split(MARKER)[0].encode()
-                self.assertEqual(hashlib.sha256(prefix).hexdigest(),digest,path)
+                prefix = (ROOT/path).read_text().split(MARKER)[0]
+                prefix = prefix.replace('- changes/chronicles/year848-suncrest262-end-session.md\n', '', 1)
+                prefix = re.sub(r'\n## Year 848, Suncrest 262 update\n.*?\n## Earlier record\n',
+                                '', prefix, count=1, flags=re.S)
+                self.assertEqual(hashlib.sha256(prefix.encode()).hexdigest(),digest,path)
         with self.subTest(case='test_archived_prices_stay_proposed'), isolated_case(self):
             self.reject('service-price-references',lambda d:d['reference_bands'][0].update(classification='CONFIRMED CANON'),'design price not approved')
         with self.subTest(case='test_integer_copper_range'), isolated_case(self):

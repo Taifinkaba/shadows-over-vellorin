@@ -4,9 +4,16 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+## Year 848, Suncrest 262 update
+
+Theron owns the lodge and developed property separately from Aric’s family estate. Tomas manages the merchant court, guest rooms, forge, Healing Springs and market, which continue operating. Bren and Lyra continue lodge duties. A completed two-week report credited 160 gp receipts less 111 gp expenses, yielding 49 gp profit already reflected in the later endpoint. Future operations require actual receipts. The five minor Night Menagerie masks are certified v1.1. Masterwork Runic Engineering is mastered, and the [Sovereign Vault](sovereign-vault.md) is constructed.
+
+## Earlier record
 
 # Ashvale Lodge
 

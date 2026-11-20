@@ -4,9 +4,16 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 848, Suncrest 262 update
+
+Vanguard reservoir 120/120 MP. Theron, Lyanna, Nyx and the four adult field adventurers traveled to Greyhaven’s horse market in this wagon. No additional movement or resource use inferred.
+
+## Earlier record
 
 # Ashvale Vanguard Wagon — Day 196
 

@@ -7,7 +7,7 @@
 2. Search `index.json` for the **specific character, location, quest, item or mechanic**. Fetch only relevant `entities/<type>/<id>.md` files (usually 1–4).
    For verified Theron mechanics, fetch `entities/mechanics/theron-abilities.md`, `entities/mechanics/theron-skills.md`, or `entities/mechanics/theron-spells.md`. Financial ownership and custody boundaries are in `entities/mechanics/party-finances.md`. None requires full-repository ingestion.
 3. For disputes, follow the entity's `source_refs` into the historical modules or `archive/session-handoffs/`; the original three intact documents remain under `archive/`.
-4. GM-secret entries must not be narrated as Theron's knowledge. The repository is intended to be **private**.
+4. This repository is **public** by player direction. Keep unrevealed GM material in separate private storage, and use claim-level discovery evidence before narrating information as Theron's knowledge.
 5. Avoid full-repository ingestion. For scene recaps, use current checkpoint plus relevant entities.
 
 ## Codex change flow
@@ -64,7 +64,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Current checkpoint
 
-The approved session ended at Ashvale Lodge on Year 848, Suncrest 76, Day 196. Use the [current checkpoint](state/checkpoint.json), [sole finance ledger](state/finance-ledger.json), [Day 196 chronicle](changes/chronicles/year848-day196-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Day 181 reconciliation](docs/day181-final-reconciliation.md) remains historical evidence for the cottage payments and capped mana recovery.
+The approved session ended at DSI Academy, Greyhaven Valley, on Year 848, Suncrest 262 at 6:00 PM. Read the [checkpoint](state/checkpoint.json), [party ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year848-suncrest262-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Day 196 checkpoint](archive/checkpoints/year848-day196.json) and [ledger](archive/checkpoints/year848-day196-finance-ledger.json) are historical.
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.

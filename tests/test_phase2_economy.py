@@ -91,7 +91,7 @@ class Phase2EconomyTests(unittest.TestCase):
             self.reject('payroll-construction-and-trade',lambda d:d.update(law_owner_ref='party-finances'),'jurisdiction')
         with self.subTest(case='test_ownership_remains_unknown'), isolated_case(self):
             r=financial_report(ROOT)['five_part_accounting']['cash-ownership']
-            self.assertEqual(r['controlled_cp'],52490);self.assertEqual(r['allocation_status'],'UNRECONCILED / UNKNOWN')
+            self.assertEqual(r['controlled_cp'],299040);self.assertEqual(r['allocation_status'],'100 gp personal purse verified; remaining allocation unknown')
             self.assertTrue(all(x['current_amount_cp'] is None for x in r['categories'].values()))
         with self.subTest(case='test_public_approval_and_no_private_authority'), isolated_case(self):
             self.reject('economy-accounting',lambda d:d.update(approval_source_ref='README.md'),'approval provenance')
@@ -128,7 +128,7 @@ class Phase2EconomyTests(unittest.TestCase):
             self.assertNotEqual(receipt_classification(dict(direction='outflow',kind='expense',status='committed')),'documented-expenses')
             self.assertEqual(receipt_classification(dict(direction='outflow',kind='expense',status='paid')),'documented-expenses')
             d=financial_report(ROOT)['five_part_accounting']['documented-expenses']
-            self.assertEqual(d['unpaid_commitments_cp'],31700);self.assertIs(d['commitment_is_paid_expense'],False)
+            self.assertIsNone(d['unpaid_commitments_cp']);self.assertIs(d['commitment_is_paid_expense'],False)
 
     def test_resources_5(self):
         with self.subTest(case='test_appraisal_not_cash'), isolated_case(self):

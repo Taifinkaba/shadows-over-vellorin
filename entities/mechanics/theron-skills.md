@@ -4,11 +4,18 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 848, Suncrest 262 update
+
+Masterwork Runic Engineering 5/5 and Coordinated Anti-Dragon Defense 5/5 are mastered. Wearable Runic Enchantments 4/5. Shadowcraft and Stealth 5/5, Dread Arts 5/5 and Maternal Healing Mastery 5/5. Earlier mastered skills retain their established effects. Mastery alone provides no mana, spells or numerical benefits.
+
+## Earlier record
 
 # Theron: verified skills
 

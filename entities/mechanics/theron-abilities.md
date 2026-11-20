@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
@@ -12,6 +13,12 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+## Year 848, Suncrest 262 update
+
+Chronos Eye approximately 19%, LOCKED. Dragon Slayer LOCKED. Raze analyzes and cannot independently cast Theron’s spells. See [skills](theron-skills.md) for confirmed progression.
+
+## Earlier record
 
 # Day181 mana provenance reconciled
 

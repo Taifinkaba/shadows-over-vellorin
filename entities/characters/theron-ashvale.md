@@ -4,9 +4,9 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 848 Day 196
-  time: null
-  location: Ashvale Lodge
+  date: Year 848 Day 382
+  time: '18:00'
+  location: DSI Academy, Greyhaven Valley
   status: ENDED
   theron.hp: 100
   theron.hp_max: 100
@@ -15,12 +15,12 @@ checkpoint_values:
   theron.defense: 46
   theron.rank: S+
   theron.level: 5
-  theron.str: 12
+  theron.str: 13
   theron.dex: 20
-  theron.con: 16
-  theron.int: 20
-  theron.wis: 19
-  theron.cha: 19
+  theron.con: 18
+  theron.int: 21
+  theron.wis: 20
+  theron.cha: 20
   theron.unspent_attributes: 0
   resources.equipped_defense: 49
   resources.bracers_defense_bonus: 3
@@ -31,6 +31,7 @@ checkpoint_values:
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -44,6 +45,12 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+## Year 848, Suncrest 262 update
+
+Male elf, age 25, S+ Rank, Level 5. HP 100/100, personal MP 400/400. STR 13, DEX 20, CON 18, INT 21, WIS 20, CHA 20, zero unspent attributes. Base DEF 46, DEF 49 with Frostguard Bracers, DEF 51 with Night Sovereign additionally equipped. Actual equipment configuration is unknown. Personal purse 100 gp. [Skill progress](../mechanics/theron-skills.md) and [current checkpoint](../../state/checkpoint.json).
+
+## Earlier record
 
 # Day 196 after rest
 

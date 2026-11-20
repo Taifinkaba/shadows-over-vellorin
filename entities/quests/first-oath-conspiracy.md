@@ -4,12 +4,19 @@ type: quests
 status: active
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 848, Suncrest 262 update
+
+Original Ashvale testimony recovered. Maelor Thane initiated the detention, Edran Valeth continued the restriction, Severin Aulcrest passed the instruction and Maerith Voss signed the administrative continuation. Valeth was captured alive and the Ashvale inquiry reopened. Garrick continues independently in Caelthorne. Darian Kestrel remains unresolved. The three original Ashvale memory vessels were already recovered and restored.
+
+## Earlier record
 
 # First Oath / Crown conspiracy — Day156 current canon
 

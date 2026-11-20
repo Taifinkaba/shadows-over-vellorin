@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/phase2-01-geography-approval.md
 - changes/chronicles/world-geography-travel-design.md
 - archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md
@@ -376,6 +377,26 @@ The following single JSON block owns directory membership and containment edges.
           "classification": "APPROVED DESIGN",
           "source_refs": [
             "changes/chronicles/phase2-02-settlement-approval.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forgotten-watchpost",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "sovereign-vault",
+      "kind": "property",
+      "classification": "CONFIRMED CANON",
+      "parents": [
+        {
+          "id": "ashvale-lodge",
+          "classification": "CONFIRMED CANON",
+          "source_refs": [
+            "changes/chronicles/year848-suncrest262-end-session.md"
           ]
         }
       ]
