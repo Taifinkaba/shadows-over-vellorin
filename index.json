@@ -3157,6 +3157,54 @@
       "tags": [
         "suncrest262"
       ]
+    },
+    {
+      "id": "edran-valeth",
+      "type": "characters",
+      "title": "Edran Valeth",
+      "path": "entities/characters/edran-valeth.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262",
+        "witness"
+      ]
+    },
+    {
+      "id": "severin-aulcrest",
+      "type": "characters",
+      "title": "Severin Aulcrest",
+      "path": "entities/characters/severin-aulcrest.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262",
+        "witness"
+      ]
+    },
+    {
+      "id": "maerith-voss",
+      "type": "characters",
+      "title": "Maerith Voss",
+      "path": "entities/characters/maerith-voss.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262",
+        "witness"
+      ]
+    },
+    {
+      "id": "darian-kestrel",
+      "type": "characters",
+      "title": "Darian Kestrel",
+      "path": "entities/characters/darian-kestrel.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "suncrest262",
+        "witness"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

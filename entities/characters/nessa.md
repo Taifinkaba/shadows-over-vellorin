@@ -36,3 +36,56 @@ Skills:
 Support Magic does NOT automatically create named spells, spell costs or healing values.
 
 Damage, resistances, movement modifiers, spell costs and prior independent career history remain unknown. Support Magic has no established named spells or healing values.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: nessa
+  name: Nessa
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Field Support
+  rank: E
+  level: 2
+  hp: 28
+  hp_max: 28
+  mp: 24
+  mp_max: 24
+  defense: 12
+  equipped_defense: null
+  str: 9
+  dex: 12
+  con: 12
+  int: 14
+  wis: 16
+  cha: 13
+  unspent_attributes: null
+  skills:
+    First Aid: 4/5
+    Herbalism: 3/5
+    Support Magic: 2/5
+    Observation: 3/5
+  abilities: null
+  equipment:
+  - Healer's kit
+  - staff
+  - light armor
+  - guild card
+  mount: Willow, gray mare
+  personal_cash: 7 gp
+  relationships: null
+  assessment: Year 848, Suncrest 260–262 academy assessment
+  recorded_context: Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct
+    from DSI enrollment.
+  age_category: Adult
+  guild_status: Standard supervised contracts
+  source_refs:
+  - entities/characters/nessa.md
+  - changes/chronicles/year848-suncrest262-end-session.md
+  - entities/factions/dragon-slayer-academy.md
+  - entities/creatures/willow.md
+```

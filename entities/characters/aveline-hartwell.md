@@ -87,3 +87,53 @@ Approved fictional character design only. A title/age/biography is not a current
 ## Phase 2 autonomy design
 
 Public prospective character design extends the existing identity. Original PR3 fields and unverified office status remain intact; goals confer no completed act, current authority or Theron knowledge.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: aveline-hartwell
+  name: Magistrate Aveline Hartwell
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 54
+    role_design: Approved legal character design; Chief Justice office remains a proposal
+    background_design: Legal-household and document-study background suits careful public reasoning; the
+      existing Chief Justice proposal is the same person, not an installed superior to current magistrates.
+    appearance_design: Steady gaze, graying hair and plain formal robes with well-kept writing tools.
+    personality: Patient, precise and wary of theatrical certainty; can be slow to trust hurried accounts.
+    goals: Support reviewable findings, humane custody and correction of wrongful judgments.
+    relationships_design: Existing proposal identity only; no kinship, prior meeting with Theron or relationship
+      to present judges is established.
+  source_refs:
+  - entities/characters/aveline-hartwell.md
+  - changes/chronicles/phase2-03-government-approval.md
+```

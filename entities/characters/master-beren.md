@@ -34,3 +34,57 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Master Beren — approved character reference portrait](../../artwork/character-references/master-beren.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: master-beren
+  name: Master Beren
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Independent DSI Academy manager
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Manages the independent DSI Academy. The earlier pilot-school helper role predates
+    the management appointment.
+  approved_portrait_reference:
+    appearance: Human male, 61; 5 ft 8 in, 155 lb. Spare build, slightly stooped shoulders. Light brown
+      skin, deep-set blue-gray eyes, prominent brows. Receding silver hair, high forehead; neatly trimmed
+      white beard.
+    clothing: Faded navy scholar's robe over practical layers, patched elbows, sturdy shoes; chalk and
+      notes pouch.
+    personality: Deliberate, attentive, dry humor. Pauses before answering, folds hands behind back, explains
+      with ordinary objects.
+    gaps: Surname, qualifications, specialty, lineage and actual magical capabilities. Title establishes
+      none of these.
+    artwork_ref: artwork/character-references/master-beren.png
+  source_refs:
+  - entities/characters/master-beren.md
+  - changes/chronicles/character-reference-design-approval.md
+  - entities/mechanics/independent-assignments.md
+  - entities/factions/dragon-slayer-academy.md
+```

@@ -38,3 +38,62 @@ Voluntarily agreed to consolidate personal campaign balance into the Theron-mana
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Traveled with Seven Bells expedition; observed repeated supervised Assimilation II trials with Raze analysis. Astral Conduit basic sustained operation now certified; other features pending. Prior178/190 is last-recorded historical MP, not a newly verified current pool; no party injuries.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: lyra-moonvale
+  name: Lyra Moonvale
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Healer and expedition companion
+  rank: A+
+  level: 5
+  hp: null
+  hp_max: 68
+  mp: null
+  mp_max: 190
+  defense: 27
+  equipped_defense: null
+  str: 10
+  dex: 15
+  con: 14
+  int: 19
+  wis: 20
+  cha: 17
+  unspent_attributes: null
+  skills:
+    Coordinated Barrier Casting: 4/5
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: Day 458 guild measurements; current HP and MP unverified
+  recorded_context: Halden’s care and Healing Springs research
+  historical_pools:
+    date: Day 10
+    hp:
+    - 38
+    - 38
+    mp:
+    - 80
+    - 80
+  last_recorded_mp:
+    mp: 178
+    mp_max: 190
+    context: After Lyanna’s restoration
+  artwork_ref: artwork/player-cards/lyra-moonvale.png
+  historical_personal_cash: 92 gp 8 sp
+  source_refs:
+  - entities/characters/lyra-moonvale.md
+  - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md
+  - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
+  - entities/mechanics/independent-assignments.md
+  historical_equipment:
+  - healing supplies
+```

@@ -62,3 +62,7 @@ def restore_reconciled_day181(root, fixture):
     ledger = json.loads(path.read_text())
     ledger.update(delta['ledger'])
     path.write_text(json.dumps(ledger))
+
+CHARACTER_SHEET_REVISIONS = json.loads(
+    DAY196_MANIFEST.with_name('character-sheet-authority-revisions.json').read_text()
+)['revisions']

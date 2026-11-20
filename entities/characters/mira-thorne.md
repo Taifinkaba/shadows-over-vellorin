@@ -36,3 +36,59 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Mira Thorne — approved character reference portrait](../../artwork/character-references/mira-thorne.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: mira-thorne
+  name: Mira Thorne
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: DSI minor day student
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships:
+    guardian: maera
+  assessment: null
+  recorded_context: DSI minor day student under Maera’s guardianship. No guild card or current eligibility
+    for combat missions. Exact historical age and combat attributes remain unverified. Mira Thorne and
+    the lodge helper are distinct, and no kinship with Nyx is established.
+  guild_status: No guild card; minor day student
+  approved_portrait_reference:
+    appearance: Human girl, reference-design age 12; approximately 4 ft 10 in, slight build. Medium brown
+      skin, round cheeks, amber-brown eyes. Thick dark brown curls in two practical braids.
+    clothing: Moss-green wool dress over leggings, sturdy ankle boots; small satchel with oversized wooden
+      fastening.
+    personality: Inquisitive, precise, reluctant to admit confusion. Tilts head while studying; counts
+      on fingers; raises hand before finding words.
+    gaps: Historical exact age, parents, earlier history, abilities and precise relationship to Maera.
+      Age 12 is approved design, not a recovered historical age.
+    artwork_ref: artwork/character-references/mira-thorne.png
+  source_refs:
+  - entities/characters/mira-thorne.md
+  - changes/chronicles/character-reference-design-approval.md
+  - entities/factions/dragon-slayer-academy.md
+  age_category: Minor
+```

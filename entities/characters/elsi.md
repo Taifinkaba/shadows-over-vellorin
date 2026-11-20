@@ -31,3 +31,53 @@ Shelter, meals and schooling remain unconditional. Work is optional, supervised,
 ![Elsi — approved character reference portrait](../../artwork/character-references/elsi.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: elsi
+  name: Elsi
+  aliases: null
+  ancestry: null
+  sex: null
+  age: 14
+  role: Briarfall children’s home resident; optional supervised light lodge work
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Recorded age 14; Briarfall children's home; optional supervised safe light paid lodge
+    work.
+  approved_portrait_reference:
+    appearance: Human girl; approximately 4 ft 11 in, small sturdy build. Deep brown skin, dark eyes;
+      tightly curled black hair under patterned kerchief.
+    clothing: Ochre tunic, dark skirt or trousers, knitted vest, practical boots.
+    personality: Quietly funny, observant, cautious with unfamiliar adults. Watches hands and expressions,
+      arranges belongings neatly; sideways smile before dry remarks.
+    gaps: Surname, family history, individual duties and interests. Recorded age is not automatically
+      advanced.
+    artwork_ref: artwork/character-references/elsi.png
+  source_refs:
+  - entities/characters/elsi.md
+  - changes/chronicles/character-reference-design-approval.md
+```

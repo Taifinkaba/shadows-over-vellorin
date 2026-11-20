@@ -86,3 +86,56 @@ Approved fictional character design only. A title/age/biography is not a current
 ## Phase 2 autonomy design
 
 Public prospective character design extends the existing identity. Original PR3 fields and unverified office status remain intact; goals confer no completed act, current authority or Theron knowledge.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: durnek-stonevein
+  name: Durnek Stonevein
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 132
+    role_design: Ironhollow craft-and-clan political figure design
+    background_design: A long craft-household background emphasizes material provenance, practical maintenance
+      and assembly debate; species, specific mine, lineage and former offices remain unspecified.
+    appearance_design: Broad hands, weathered features, a carefully kept gray beard and work-worn formal
+      craft clothing.
+    personality: Blunt, patient with careful work and skeptical of grand promises; may resist unfamiliar
+      but sound methods.
+    goals: Win credible safety standards and durable interclan agreements without sacrificing household
+      rights.
+    relationships_design: May engage assembly delegates, mine-right holders and paid workers; no current
+      speaker appointment or relation to existing smiths is invented.
+  source_refs:
+  - entities/characters/durnek-stonevein.md
+  - changes/chronicles/phase2-03-government-approval.md
+```

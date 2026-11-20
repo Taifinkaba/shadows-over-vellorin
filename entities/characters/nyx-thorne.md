@@ -45,3 +45,61 @@ Voluntarily agreed to consolidate personal campaign balance into the Theron-mana
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Traveled from Ashvale Estate toward Seven Bells with the expedition; latest party checkpoint North Return House. Independent scout; exact station and current pools unspecified.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: nyx-thorne
+  name: Nyx Thorne
+  aliases:
+  - Nightowl
+  ancestry: null
+  sex: null
+  age: null
+  role: Scout, infiltrator, negotiator and companion caretaker
+  rank: A+
+  level: 5
+  hp: null
+  hp_max: 70
+  mp: null
+  mp_max: 160
+  defense: 28
+  equipped_defense: null
+  str: 12
+  dex: 20
+  con: 15
+  int: 16
+  wis: 17
+  cha: 15
+  unspent_attributes: null
+  skills:
+    Giant-Foe Evasion: 4/5
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships:
+    bonded_wolf: ember
+  assessment: Day 458 guild measurements; current HP and MP unverified
+  recorded_context: Independent scout; Ember is her wolf
+  historical_pools:
+    date: Day 10
+    hp:
+    - 32
+    - 32
+    mp:
+    - 23
+    - 120
+  artwork_ref: artwork/player-cards/nyx-thorne.png
+  historical_personal_cash: 94 gp 8 sp
+  source_refs:
+  - entities/characters/nyx-thorne.md
+  - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md
+  - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
+  - entities/mechanics/independent-assignments.md
+  - entities/creatures/ember.md
+  historical_equipment:
+  - scouting kit
+```

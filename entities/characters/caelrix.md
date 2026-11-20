@@ -10,3 +10,49 @@ source_refs:
 # Caelrix
 
 Independent, voluntarily bonded time spirit; Theron bond 5/5. Examined the original oath and used finite defensive magic with Theron to stabilize the First Hour release. No unlimited mana or time powers.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: caelrix
+  name: Caelrix
+  aliases: null
+  ancestry: Time spirit
+  sex: null
+  age: null
+  role: Independent time spirit
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities:
+  - Finite defensive magic
+  - Time-spirit analysis
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships:
+    theron_bond: 5/5
+    resides_in: sovereign-nexus
+  assessment: null
+  recorded_context: Independent, voluntarily bonded time spirit; Theron bond 5/5. Examined the original
+    oath and used finite defensive magic with Theron to stabilize the First Hour release. No unlimited
+    mana or time powers.
+  source_refs:
+  - entities/characters/caelrix.md
+  - entities/items/sovereign-nexus.md
+```

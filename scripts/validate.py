@@ -472,6 +472,10 @@ def validate(root):
     require(idx["authoritative_root"] == "entities/", "index: authoritative_root must be entities/")
     entries = idx["entries"]
     require(isinstance(entries, list) and bool(entries), "index.entries must be a nonempty list")
+    if __package__:
+        from .character_sheets import validate_sheet
+    else:
+        from character_sheets import validate_sheet
     ids, paths, records = set(), set(), {}
     for entry in entries:
         keys(entry, {"id", "type", "title", "path", "status", "visibility", "tags"}, "index entry")
@@ -490,6 +494,9 @@ def validate(root):
             require(data[field] == entry[field], f"{entry['path']}: metadata mismatch {field}")
         for ref in data["source_refs"]:
             repository_file(root, ref, f"{entry['path']}.source_refs")
+        if data["type"] == "characters":
+            validate_sheet(root, path, data["id"], require, repository_file,
+                           lambda text: yaml.load(text, Loader=UniqueLoader))
         records[entry["id"]] = data
     actual = {p.relative_to(root).as_posix() for p in (root / "entities").rglob("*") if p.is_file()}
     require(actual == paths, f"entity/index coverage mismatch: unindexed={sorted(actual - paths)}, missing={sorted(paths - actual)}")

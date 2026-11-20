@@ -29,3 +29,58 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Corven — North Return House supervisor — approved character reference portrait](../../artwork/character-references/corven-north-return-house.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: corven-north-return-house
+  name: Corven — North Return House supervisor
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: North Return House lodge supervisor
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Lodge supervisor who surrendered, alive/unharmed under Garrick’s nonlethal guard.
+    Mental Probe13MP disclosed limited surface thoughts of cellar ledger, blue case, western workshop’s
+    silence and retained duplicate; connection ended on resistance, no deeper memories extracted/altered.
+    Identified blue case behind southern cellar shelf. Exact responsibility for counterfeit document creation
+    uncertain. Allegations concerning Vennick/Osric/Acting Receiver are not independent verification.
+    Same-name identity with the older adversary `corven` is unverified; keep records distinct pending
+    evidence.
+  approved_portrait_reference:
+    appearance: Human male, 44; 5 ft 8 in, 185 lb. Soft sedentary build, ruddy fair skin, round face,
+      small gray eyes. Thinning light brown hair, short mustache.
+    clothing: Brown clerk's coat, ink-marked cuffs, narrow belt, modest key ring.
+    personality: Procedural, defensive, anxious about conversational control. Straightens cuffs, clears
+      throat, seeks precise wording.
+    gaps: Counterfeit-document responsibility, retained duplicate recovery, later custody and identity
+      with original Corven.
+    artwork_ref: artwork/character-references/corven-north-return-house.png
+  source_refs:
+  - entities/characters/corven-north-return-house.md
+  - changes/chronicles/character-reference-design-approval.md
+```

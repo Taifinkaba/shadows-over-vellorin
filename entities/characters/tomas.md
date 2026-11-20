@@ -27,3 +27,48 @@ Historically cooperating witness/caretaker; two hunting hounds historically unde
 ## Authoritative update — Year 847 Day 472, 16:10, session ENDED
 
 Runs Ashvale Estate independently: autonomous daily operations, weekly reporting. No estate income posted without verified accounting. Current operating policies and surplus allocation in [estate](../locations/ashvale-estate.md).
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: tomas
+  name: Tomas
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Ashvale Lodge steward and accountant
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Independently manages lodge operations, accounting, staff and commerce. Access to
+    the restricted development chest is subject to Theron’s override.
+  specializations:
+  - Stewardship
+  - Accounting
+  source_refs:
+  - entities/characters/tomas.md
+  - entities/mechanics/independent-assignments.md
+  - entities/locations/ashvale-lodge.md
+```

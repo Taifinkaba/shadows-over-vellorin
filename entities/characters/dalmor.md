@@ -30,3 +30,53 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Dalmor — approved character reference portrait](../../artwork/character-references/dalmor.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: dalmor
+  name: Dalmor
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Survived an earlier conspiracy confrontation; historical registry records alive. Later
+    circumstances unknown.
+  approved_portrait_reference:
+    appearance: Human male, 48; 6 ft 0 in, 185 lb. Lean weathered build, strong shoulders. Sallow olive
+      skin, angular face, dark hazel eyes; thinning black hair streaked gray, short rough beard.
+    clothing: Plain travel-worn brown layers, weatherproof cloak; no unverified affiliation insignia.
+    personality: Guarded, deliberate, hard to read. Studies exits, pauses before answers, keeps hands
+      visible in tense conversations.
+    gaps: Actual role, loyalties, resources, whereabouts and earlier confrontation details. Caution is
+      not evidence of guilt.
+    artwork_ref: artwork/character-references/dalmor.png
+  source_refs:
+  - entities/characters/dalmor.md
+  - changes/chronicles/character-reference-design-approval.md
+```

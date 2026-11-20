@@ -29,3 +29,58 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Bren — approved character reference portrait](../../artwork/character-references/bren.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: bren
+  name: Bren
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Ashvale Lodge construction and maintenance
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Ashvale Lodge construction and maintenance; Tomas handles stewardship/accounting.
+  specializations:
+  - Construction
+  - Maintenance
+  approved_portrait_reference:
+    appearance: Human male, 43; 5 ft 9 in, 195 lb. Broad, sturdy build, thick forearms and a modest belly.
+      Weathered ruddy skin; square face, slightly crooked nose, hazel eyes. Short chestnut hair graying
+      at temples; close uneven beard. Callused hands and small working scars.
+    clothing: Faded brown wool shirt, rolled sleeves, patched trousers, heavy boots, worn leather tool
+      belt; measuring cord and carpenter's square.
+    personality: Practical, patient, quietly proud of durable work. Studies joints and rooflines while
+      listening; hooks thumbs into belt before an estimate. Plain speech; dislikes promises before inspection.
+    gaps: Surname, earlier career and exact professional training.
+    artwork_ref: artwork/character-references/bren.png
+  source_refs:
+  - entities/characters/bren.md
+  - changes/chronicles/character-reference-design-approval.md
+  - entities/mechanics/independent-assignments.md
+  - entities/locations/ashvale-lodge.md
+```

@@ -161,7 +161,8 @@ def audit(root):
     if manifest.is_file():
         expected = json.loads(manifest.read_text())['unchanged_sha256']
         revised = set()
-        for filename in ('day196-authority-revisions.json', 'suncrest262-authority-revisions.json'):
+        for filename in ('day196-authority-revisions.json', 'suncrest262-authority-revisions.json',
+                         'character-sheet-authority-revisions.json'):
             session_manifest = manifest.with_name(filename)
             revisions = json.loads(session_manifest.read_text())['revisions'] if session_manifest.is_file() else {}
             for path in set(expected) & set(revisions):

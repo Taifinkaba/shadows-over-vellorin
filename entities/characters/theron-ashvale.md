@@ -121,3 +121,105 @@ Party companions voluntarily consolidated campaign balances into a Theron-manage
 Last established inventory: black Runeblade, matched white sword, Oathbearer Token, Dragonveil Mask, staff, three previously gifted scales, two moonstones, empty crystal housing. No new mana draughts or stored mana confirmed. Third Bell clapper custody unresolved. Sword donor/forging secrets remain GM knowledge.
 
 Blackscale persona uses generally nonlethal displaced whispers, shadow illusions and mist. Blackscale Phantasm is a rehearsed combination with paid spell costs, not a free spell. No automatic permanent criminal-fear score. Mechanics: [abilities](../mechanics/theron-abilities.md), [skills](../mechanics/theron-skills.md), [spells](../mechanics/theron-spells.md).
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: theron-ashvale
+  name: Theron Ashvale / Blackscale
+  aliases:
+  - Blackscale
+  ancestry: Elf
+  sex: Male
+  age: 25
+  role: Battlemage, runecrafter and Eighth Witness
+  rank: S+
+  level: 5
+  hp: 100
+  hp_max: 100
+  mp: 400
+  mp_max: 400
+  defense: 46
+  equipped_defense: 49
+  str: 13
+  dex: 20
+  con: 18
+  int: 21
+  wis: 20
+  cha: 20
+  unspent_attributes: 0
+  skills:
+    Masterwork Runic Engineering: 5/5
+    Coordinated Anti-Dragon Defense: 5/5
+    Wearable Runic Enchantments: 4/5
+    Shadowcraft and Stealth: 5/5
+    Dread Arts: 5/5
+    Maternal Healing Mastery: 5/5
+    Dragon Anatomy: 5/5
+    Dragon Attack Recognition: 5/5
+    Defensive Dragon Combat: 5/5
+    Defensive Synchronization: 5/5
+    Draconic Resonance: 3/5
+    Breath Deflection: Learned/refined
+    Guardian’s Instinct: Trained defensive technique
+    Spirit Mana Assimilation II: Mastered
+  abilities:
+  - Chronos Eye approximately 19%, locked
+  - Dragon Slayer locked
+  equipment: null
+  mount: null
+  personal_cash: 100 gp
+  relationships:
+    father: aric-ashvale
+    sister: lyanna-ashvale
+    uncle: caelan-ashvale
+    bonded_wolf: shade
+    mother: therons-mother
+  assessment: 'Current checkpoint: Year 848, Suncrest 262, 18:00'
+  recorded_context: Male elf, age 25, S+ Rank, Level 5. HP 100/100, personal MP 400/400. STR 13, DEX 20,
+    CON 18, INT 21, WIS 20, CHA 20, zero unspent attributes. Base DEF 46, DEF 49 with Frostguard Bracers,
+    DEF 51 with Night Sovereign additionally equipped. Actual equipment configuration is unknown. Personal
+    purse 100 gp. Skill progress and current checkpoint.
+  conditional_defense:
+    with_frostguard_bracers_and_night_sovereign: 51
+    currently_worn: null
+  equipment_refs:
+  - frostguard-bracers
+  - night-sovereign
+  - sovereign-nexus
+  resources:
+    equipped_defense: 49
+    bracers_defense_bonus: 3
+    staff_mp: 156
+    staff_mp_max: 180
+    wagon_mp: 60
+    wagon_mp_max: 60
+    chronos_eye_locked: true
+    dragon_slayer_locked: true
+    refitted_wagon_mana:
+      vanguard-wagon:
+        current: 120
+        max: 120
+      ashvale-wagon:
+        current: 80
+        max: 80
+  physical_details:
+    height: 5 ft 5 in
+    weight_lb: 400
+    recorded_at: Year 848 Day 137
+  artwork_ref: artwork/player-cards/theron-ashvale.png
+  source_refs:
+  - entities/characters/theron-ashvale.md
+  - state/checkpoint.json
+  - changes/chronicles/year848-suncrest262-end-session.md
+  - entities/mechanics/theron-skills.md
+  - entities/mechanics/theron-abilities.md
+  - entities/mechanics/theron-spells.md
+  - archive/legacy-modules/world/07-7-the-ashvale-family.md
+  - entities/mechanics/party-finances.md
+  ability_refs:
+  - entities/mechanics/theron-abilities.md
+  - entities/mechanics/theron-spells.md
+```

@@ -29,3 +29,53 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Sella — approved character reference portrait](../../artwork/character-references/sella.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: sella
+  name: Sella
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: North Return House clerk
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: North Return House clerk; cooperated voluntarily, remains free. Not a prisoner and
+    no guilt inferred.
+  approved_portrait_reference:
+    appearance: Human female, 31; 5 ft 5 in, 140 lb. Average build, brown skin, heart-shaped face, dark
+      brown eyes. Black hair in tidy braided crown.
+    clothing: Muted plum dress, cream sleeves, practical waist pouch; ink-stained fingertips.
+    personality: Methodical, observant, composed. Aligns papers before explaining; remembers discrepancies
+      and requests clarification.
+    gaps: Surname, background, complete testimony and later whereabouts. Not established as dockmaster
+      Sella Reed.
+    artwork_ref: artwork/character-references/sella.png
+  source_refs:
+  - entities/characters/sella.md
+  - changes/chronicles/character-reference-design-approval.md
+```

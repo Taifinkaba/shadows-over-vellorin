@@ -61,3 +61,66 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Elias Renn — approved character reference portrait](../../artwork/character-references/elias-renn.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: elias-renn
+  name: Elias Renn
+  aliases: null
+  ancestry: Human
+  sex: Male
+  age: 29
+  role: Field Captain
+  rank: E
+  level: 2
+  hp: 32
+  hp_max: 32
+  mp: 10
+  mp_max: 10
+  defense: 13
+  equipped_defense: null
+  str: 11
+  dex: 13
+  con: 13
+  int: 15
+  wis: 14
+  cha: 12
+  unspent_attributes: null
+  skills:
+    Navigation: 3/5
+    Team Leadership: 3/5
+    Swordsmanship: 2/5
+    Field Medicine: 2/5
+  abilities: null
+  equipment:
+  - Shortsword
+  - light armor
+  - travel pack
+  - guild card
+  mount: Bramble, bay gelding, personally owned
+  personal_cash: 28 gp
+  relationships: null
+  assessment: Year 848, Suncrest 260–262 academy assessment
+  recorded_context: Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct
+    from DSI enrollment.
+  approved_portrait_reference:
+    appearance: Human male, 29; 5 ft 11 in, 165 lb. Lean, narrow shoulders, long fingers. Warm brown skin,
+      long face, dark brown eyes; wavy black hair falling over forehead. Clean-shaven.
+    clothing: Carefully mended charcoal tunic, plain trousers, secondhand blue-gray cloak. Ink-stained
+      fingers and battered notebook.
+    personality: Earnest, observant, slightly self-conscious about adult learning. Leans forward during
+      explanations, writes margin questions, rehearses unfamiliar terms under his breath.
+    gaps: Previous occupation, magical aptitude and reason for joining.
+    artwork_ref: artwork/character-references/elias-renn.png
+  age_category: Adult
+  guild_status: Standard supervised contracts
+  source_refs:
+  - entities/characters/elias-renn.md
+  - changes/chronicles/character-reference-design-approval.md
+  - changes/chronicles/year848-suncrest262-end-session.md
+  - entities/factions/dragon-slayer-academy.md
+  - entities/creatures/bramble.md
+```

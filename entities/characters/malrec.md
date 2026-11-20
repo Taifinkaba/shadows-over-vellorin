@@ -20,3 +20,45 @@ Prior Malrec Voss, alive, detained and cooperating at the Hollow of the First Ho
 # Malrec
 
 Adversary at large in last verified Day 44 record; no later defeat/capture established.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: malrec
+  name: Malrec
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Continued improper Witness custody, by confession
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Prior Malrec Voss, alive, detained and cooperating at the Hollow of the First Hour.
+    Questioned on Day 472; confessed to continuing improper Witness custody after learning of abuses.
+    No transfer or release. Earlier at-large status is historical. Do not infer identities or kinship
+    with Elian or Aldric Voss beyond supplied evidence.
+  source_refs:
+  - entities/characters/malrec.md
+```
