@@ -86,3 +86,55 @@ Approved fictional character design only. A title/age/biography is not a current
 ## Phase 2 autonomy design
 
 Public prospective character design extends the existing identity. Original PR3 fields and unverified office status remain intact; goals confer no completed act, current authority or Theron knowledge.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: selene-harrow
+  name: Captain Selene Harrow
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 34
+    role_design: River-service captain design; no existing office assigned
+    background_design: Maritime/river craft household experience informs navigation and cargo discipline;
+      no named vessel, crew, command commission or previous investigation is supplied.
+    appearance_design: Alert stance, tied-back hair, weatherproof cloak and carefully maintained travel
+      clothing.
+    personality: Direct, observant and protective of professional standards; impatience with paperwork
+      can conflict with accountability.
+    goals: Support safe passage, fair cargo handling and competent oversight within actual crew/resources.
+    relationships_design: Potential professional contacts with merchants, dock workers and inspectors;
+      no completed negotiation, crew assignment or meeting with Theron.
+  source_refs:
+  - entities/characters/selene-harrow.md
+  - changes/chronicles/phase2-03-government-approval.md
+```

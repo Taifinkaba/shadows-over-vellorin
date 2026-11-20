@@ -86,3 +86,54 @@ Approved fictional character design only. A title/age/biography is not a current
 ## Phase 2 autonomy design
 
 Public prospective character design extends the existing identity. Original PR3 fields and unverified office status remain intact; goals confer no completed act, current authority or Theron knowledge.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: cassian-thornmere
+  name: Lord Cassian Thornmere
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 39
+    role_design: Valedorn noble political figure design
+    background_design: Raised in a landholding household tradition with training in estate correspondence
+      and petitions; no specific estate, title patent, inheritance event or relatives are supplied.
+    appearance_design: Lean frame, closely kept hair, sober layered dress and meticulous attention to
+      written terms.
+    personality: Persuasive, proud and attentive to precedent; may mistake inherited access for good judgment.
+    goals: Protect lawful household interests while winning influence through reviewable negotiation.
+    relationships_design: A potential court interlocutor to Elowen and municipal/merchant petitioners,
+      without a prior audience or settled alliance.
+  source_refs:
+  - entities/characters/cassian-thornmere.md
+  - changes/chronicles/phase2-03-government-approval.md
+```

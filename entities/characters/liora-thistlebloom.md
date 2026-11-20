@@ -57,3 +57,53 @@ Approved public character design only. Regional association is not a sighting, j
   }
 }
 ```
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: liora-thistlebloom
+  name: Liora Thistlebloom
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 86
+    role_design: New approved woodland-stewardship character design; no job, species, residence or healing
+      qualification established.
+    personality_traits: Observant and deliberate; prefers quiet field notes and patient community discussion.
+    regional_association: elyndor
+    long_term_goals: Develop credible botanical knowledge and cooperative stewardship through lawful voluntary
+      learning.
+    relationships_design: Neighboring communities, lawful gatherers and cultural custodians are prospective
+      contacts; no kinship, guild membership or prior visit is established.
+  source_refs:
+  - entities/characters/liora-thistlebloom.md
+  - changes/chronicles/phase2-07-autonomy-approval.md
+```

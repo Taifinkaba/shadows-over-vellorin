@@ -29,3 +29,52 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Hessa Vale — approved character reference portrait](../../artwork/character-references/hessa-vale.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: hessa-vale
+  name: Hessa Vale
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Waykeeper repair worker
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Waykeeper repair worker; recognized discontinued sealed archive correspondence-circuit
+    markings.
+  approved_portrait_reference:
+    appearance: Human female, 41; 5 ft 8 in, 160 lb. Strong lean build, golden-brown skin, angular features,
+      gray-green eyes. Dark brown short braid with silver near forehead.
+    clothing: Weatherproof work coat, rolled cuffs, leather gloves, compact repair satchel.
+    personality: Technically curious, attentive to wear/workmanship. Crouches to examine markings, traces
+      shapes in air, separates observation from guess.
+    gaps: Rank, training, history and whereabouts. No kinship with Garrick or Serrik established.
+    artwork_ref: artwork/character-references/hessa-vale.png
+  source_refs:
+  - entities/characters/hessa-vale.md
+  - changes/chronicles/character-reference-design-approval.md
+```

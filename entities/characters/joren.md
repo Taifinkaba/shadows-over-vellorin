@@ -31,3 +31,53 @@ Shelter, meals and schooling remain unconditional. Work is optional, supervised,
 ![Joren — approved character reference portrait](../../artwork/character-references/joren.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: joren
+  name: Joren
+  aliases: null
+  ancestry: null
+  sex: null
+  age: 16
+  role: Briarfall children’s home resident; optional supervised light lodge work
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Recorded age 16; Briarfall children's home; optional supervised safe light paid lodge
+    work.
+  approved_portrait_reference:
+    appearance: Human boy; approximately 5 ft 9 in, lanky adolescent build, long limbs. Tan skin, brown
+      eyes, unruly sandy-brown hair; open expressive face.
+    clothing: Loose oatmeal shirt, patched green vest, brown trousers; boots nearly outgrown.
+    personality: Sociable, eager, occasionally overconfident. Rocks on heels, gestures broadly; volunteers
+      before considering all practical details.
+    gaps: Surname, family history, individual duties and ambitions. Recorded age is not automatically
+      advanced.
+    artwork_ref: artwork/character-references/joren.png
+  source_refs:
+  - entities/characters/joren.md
+  - changes/chronicles/character-reference-design-approval.md
+```

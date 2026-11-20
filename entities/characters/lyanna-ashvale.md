@@ -43,3 +43,61 @@ Theron’s younger sister; previously abducted and rescued; last verified safe a
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Traveled with Seven Bells expedition; her custodial standing was separately recognized for limited eastern receiving-chamber review. Original Witness records preserved. Latest party checkpoint North Return House; independent choices retained.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: lyanna-ashvale
+  name: Lyanna Ashvale
+  aliases:
+  - Ashwing
+  ancestry: null
+  sex: null
+  age: null
+  role: Independent Witness and survivor
+  rank: A+
+  level: 5
+  hp: null
+  hp_max: 72
+  mp: null
+  mp_max: 110
+  defense: 29
+  equipped_defense: null
+  str: 15
+  dex: 19
+  con: 15
+  int: 17
+  wis: 16
+  cha: 17
+  unspent_attributes: null
+  skills:
+    Guardian Sword Formation: 4/5
+  abilities: null
+  equipment:
+  - Dawnbreaker's Promise
+  mount: null
+  personal_cash: null
+  relationships:
+    brother: theron-ashvale
+    father: aric-ashvale
+    uncle: caelan-ashvale
+  assessment: Day 458 guild measurements; current HP and MP unverified
+  recorded_context: Theron’s younger sister; owns Dawnbreaker’s Promise
+  historical_pools:
+    date: Day 10
+    hp:
+    - 36
+    - 36
+    mp: null
+  historical_personal_cash: 12 gp 6 sp
+  source_refs:
+  - entities/characters/lyanna-ashvale.md
+  - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md
+  - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
+  - entities/mechanics/independent-assignments.md
+  - entities/items/dawnbreakers-promise.md
+  - archive/legacy-modules/world/07-7-the-ashvale-family.md
+  - entities/quests/lyanna-rescue.md
+```

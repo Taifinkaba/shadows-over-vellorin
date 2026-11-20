@@ -45,3 +45,60 @@ Voluntarily agreed to consolidate personal campaign balance into the Theron-mana
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Traveled with Seven Bells expedition; currently holds Perrin, Dask and lodge supervisor Corven under nonlethal guard at North Return House, all unharmed. Hollow security assignment above is historical. No current numerical HP/MP supplied; no party injuries.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: garrick-vale
+  name: Garrick Vale
+  aliases:
+  - Blackhart
+  ancestry: null
+  sex: null
+  age: null
+  role: Frontline fighter, expedition watch leader and logistics
+  rank: A+
+  level: 5
+  hp: null
+  hp_max: 94
+  mp: null
+  mp_max: 80
+  defense: 34
+  equipped_defense: null
+  str: 19
+  dex: 14
+  con: 19
+  int: 12
+  wis: 16
+  cha: 14
+  unspent_attributes: null
+  skills:
+    Bulwark Formation: 4/5
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: Day 458 guild measurements; current HP and MP unverified
+  recorded_context: Caelthorne Crown inquiry
+  historical_pools:
+    date: Day 10
+    hp:
+    - 42
+    - 42
+    mp:
+    - 60
+    - 60
+  artwork_ref: artwork/player-cards/garrick-vale.png
+  historical_personal_cash: 95 gp 8 sp
+  source_refs:
+  - entities/characters/garrick-vale.md
+  - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md
+  - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
+  - entities/mechanics/independent-assignments.md
+  historical_equipment:
+  - own arms
+  - field kit
+```

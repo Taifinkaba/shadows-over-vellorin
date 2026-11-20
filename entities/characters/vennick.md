@@ -29,3 +29,53 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Vennick — approved character reference portrait](../../artwork/character-references/vennick.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: vennick
+  name: Vennick
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Reported Seventh Office clerk
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Reportedly Seventh Office clerk handling unknown Acting Receiver's messages; receiving
+    rooms west of Seventh Bell lower foundations, near covered stairs below fallen aqueduct.
+  approved_portrait_reference:
+    appearance: Human male, 36; 5 ft 9 in, 155 lb. Slender build, light olive skin, narrow nose, gray-brown
+      eyes. Neatly side-parted straight dark hair; clean-shaven.
+    clothing: Unremarkable dark green clerk's tunic, brown coat, document wallet.
+    personality: Precise, professionally impersonal. Repeats names/dates for confirmation, keeps papers
+      close, rarely interrupts.
+    gaps: Reported role, identity, involvement and location independently unverified. Reference design
+      is not a confirmed sighting.
+    artwork_ref: artwork/character-references/vennick.png
+  source_refs:
+  - entities/characters/vennick.md
+  - changes/chronicles/character-reference-design-approval.md
+```

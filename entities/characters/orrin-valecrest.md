@@ -57,3 +57,54 @@ Approved public character design only. Regional association is not a sighting, j
   }
 }
 ```
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: orrin-valecrest
+  name: Orrin Valecrest
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 28
+    role_design: New approved frontier/clan-associated character design; no clan rank, residence, patrol
+      or survival qualification established.
+    personality_traits: Reserved, practical and willing to revise a plan; prefers maintained shelter and
+      explicit return contingencies.
+    regional_association: frostmarch
+    long_term_goals: Earn trust through reliable preparation and voluntary cooperation, without assuming
+      a clan office or current reputation.
+    relationships_design: Potential clan and neighboring-community contacts remain unspecified; no relatives,
+      allies, enemies or current clan membership are invented.
+  source_refs:
+  - entities/characters/orrin-valecrest.md
+  - changes/chronicles/phase2-07-autonomy-approval.md
+```

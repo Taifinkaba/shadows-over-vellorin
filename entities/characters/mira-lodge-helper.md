@@ -31,3 +31,52 @@ Shelter, meals and schooling remain unconditional. Work is optional, supervised,
 ![Mira — lodge helper — approved character reference portrait](../../artwork/character-references/mira-lodge-helper.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: mira-lodge-helper
+  name: Mira — lodge helper
+  aliases: null
+  ancestry: null
+  sex: null
+  age: 15
+  role: Briarfall children’s home resident; optional supervised light lodge work
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Recorded age 15; Briarfall children's home. Optional supervised safe light paid lodge
+    work. Distinct from Mira Thorne.
+  approved_portrait_reference:
+    appearance: Human girl; approximately 5 ft 2 in, slight build. Freckled fair skin, gray-blue eyes;
+      straight auburn hair securely braided back.
+    clothing: Simple blue dress or work tunic, leggings, clean apron, practical shoes.
+    personality: Organized, direct, proud of reliability. Checks tasks twice, smooths apron when nervous;
+      confident about familiar work.
+    gaps: Surname, earlier family history, preferred vocation. Recorded age is not automatically advanced.
+    artwork_ref: artwork/character-references/mira-lodge-helper.png
+  source_refs:
+  - entities/characters/mira-lodge-helper.md
+  - changes/chronicles/character-reference-design-approval.md
+```

@@ -29,3 +29,52 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ![Orven Pell — approved character reference portrait](../../artwork/character-references/orven-pell.png)
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: orven-pell
+  name: Orven Pell
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Waykeeper archive-index examiner contact
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Permitted public archive-index examination at old Waykeeper records store.
+  approved_portrait_reference:
+    appearance: Human male, 58; 5 ft 6 in, 150 lb. Narrow build, pale freckled skin, blue eyes, prominent
+      ears, long fingers. Sparse sandy-gray hair, clean-shaven.
+    clothing: Faded olive robe, brown sleeveless overcoat; small reading lens on cord.
+    personality: Courteous, orderly, protective of records. Supports book spines, marks places carefully;
+      firm about handling rules.
+    gaps: Formal position, authority, history and whereabouts. Identity with stablemaster Oren Pell is
+      not established.
+    artwork_ref: artwork/character-references/orven-pell.png
+  source_refs:
+  - entities/characters/orven-pell.md
+  - changes/chronicles/character-reference-design-approval.md
+```

@@ -13,3 +13,43 @@ source_refs:
 # Lieutenant Mara Vey
 
 Investigator associated with the Crown conspiracy and witness protection; current precise location requires fresh confirmation.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: mara-vey
+  name: Lieutenant Mara Vey
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Crown conspiracy and witness-protection investigator
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: Investigator associated with the Crown conspiracy and witness protection; current
+    precise location requires fresh confirmation.
+  source_refs:
+  - entities/characters/mara-vey.md
+```

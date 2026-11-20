@@ -86,3 +86,55 @@ Approved fictional character design only. A title/age/biography is not a current
 ## Phase 2 autonomy design
 
 Public prospective character design extends the existing identity. Original PR3 fields and unverified office status remain intact; goals confer no completed act, current authority or Theron knowledge.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: elowen-marcrest
+  name: Queen Elowen Marcrest
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 47
+    role_design: Valedorn’s hereditary sovereign design
+    background_design: Royal-house upbringing emphasizes public ceremony, petition reading and disputed
+      succession records; no actual coronation, named relatives or historical decree is supplied.
+    appearance_design: Composed bearing, dark hair threaded with silver, practical court layers and a
+      reserved formal manner.
+    personality: Patient and exacting; values legitimacy, continuity and defensible decisions, but can
+      overvalue orderly procedure.
+    goals: Seek trusted advice, lawful succession and stable public services within finite means.
+    relationships_design: Council and municipal/noble interests provide public institutional relationships;
+      no private alliance or prior meeting is established.
+  source_refs:
+  - entities/characters/elowen-marcrest.md
+  - changes/chronicles/phase2-03-government-approval.md
+```

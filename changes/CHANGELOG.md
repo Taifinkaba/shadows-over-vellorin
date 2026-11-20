@@ -1,3 +1,8 @@
+# Character sheet reference audit
+
+- Add sourced character sheets for every indexed character and create records for four previously unindexed Witness figures.
+- Preserve the existing character prose and illustrations. Separate verified statistics, older observations, and approved design references. Unknown fields use YAML null.
+
 # Year 848, Suncrest 262 — end session
 
 - Adopt the player-confirmed 6:00 PM DSI Academy endpoint. Preserve Day 196 checkpoint and ledger in the archive and retain the existing chronicle.

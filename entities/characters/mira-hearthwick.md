@@ -57,3 +57,53 @@ Approved public character design only. Regional association is not a sighting, j
   }
 }
 ```
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: mira-hearthwick
+  name: Mira Hearthwick
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: null
+  rank: null
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships: null
+  assessment: null
+  recorded_context: null
+  approved_design:
+    age: 42
+    role_design: New approved village/community character design; no business ownership, job, civic office
+      or present residence established.
+    personality_traits: Sociable, practical and protective of personal time; prefers direct discussion
+      and transparent shared costs.
+    regional_association: brackenford
+    long_term_goals: Support modest community projects only through agreed work and lawful finite funding.
+    relationships_design: Villagers, existing business operators and civic officials are prospective contacts;
+      no friendship, family tie, partnership or influence over established leaders is asserted.
+  source_refs:
+  - entities/characters/mira-hearthwick.md
+  - changes/chronicles/phase2-07-autonomy-approval.md
+```

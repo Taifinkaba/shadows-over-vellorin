@@ -27,3 +27,53 @@ Theron’s father; former adventurer and A-rank swordsman. **At home at Ashvale 
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Researching the twin Eclipse Sovereigns’ smith and dragon-scale origins; no result, remote progress completion or new sword-origin knowledge for Theron established.
+
+
+## Character sheet
+
+```yaml
+character_sheet:
+  id: aric-ashvale
+  name: Aric Ashvale
+  aliases: null
+  ancestry: null
+  sex: null
+  age: null
+  role: Former adventurer, swordsman and investigator
+  rank: A
+  level: null
+  hp: null
+  hp_max: null
+  mp: null
+  mp_max: null
+  defense: null
+  equipped_defense: null
+  str: null
+  dex: null
+  con: null
+  int: null
+  wis: null
+  cha: null
+  unspent_attributes: null
+  skills: null
+  abilities: null
+  equipment: null
+  mount: null
+  personal_cash: null
+  relationships:
+    children:
+    - theron-ashvale
+    - lyanna-ashvale
+  assessment: null
+  recorded_context: Theron and Lyanna’s father; commissioned the black Runeblade. Last confirmed at Ashvale
+    Estate. Results of his investigations remain pending.
+  specializations:
+  - Swordsmanship
+  - First Oath, Mirror Foundation and dragon research
+  source_refs:
+  - entities/characters/aric-ashvale.md
+  - archive/legacy-modules/world/07-7-the-ashvale-family.md
+  - entities/mechanics/independent-assignments.md
+  - entities/locations/ashvale-estate.md
+  last_reported_location: Ashvale Estate
+```
