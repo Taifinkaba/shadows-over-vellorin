@@ -1,12 +1,12 @@
 {
   "schema_version": 6,
-  "date": "Year 851 Day 160",
-  "time": "19:00",
-  "location": "Theron's Estate, Ashvale Grand Arena",
+  "date": "Year 852 Day 1",
+  "time": "00:00",
+  "location": "Theron's Commercial Estate, Ashvale Grand Arena",
   "theron": {
     "hp": 100,
     "hp_max": 100,
-    "mp": 400,
+    "mp": 385,
     "mp_max": 400,
     "defense": 46,
     "rank": "S+",
@@ -20,10 +20,10 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "1073gp",
+    "total_gp_sp": "7145gp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
-    "allocation_status": "100 gp personal purse verified; remaining allocation unknown",
+    "allocation_status": "Provisional played close; 100 gp purse target included; current purse and account allocations unverified",
     "provisional_status": "Earlier approximate report; excluded from current ordinary controlled cash",
     "office_status": "Earlier house funds report; excluded from current ordinary controlled cash"
   },
@@ -32,9 +32,9 @@
     "protective_anchors_retained": 7
   },
   "status": "ENDED",
-  "source": "changes/chronicles/year851-day160-end-session.md",
+  "source": "changes/chronicles/year852-day1-end-session.md",
   "context": {
-    "safety": "Session ended at Ashvale Grand Arena. Closing companion presence and equipment configuration are unverified.",
+    "safety": "Session ended at Ashvale Grand Arena. Closing companion presence and wearing configuration remain unverified.",
     "companions_present": [],
     "party_roles": {},
     "projects": {
@@ -59,7 +59,12 @@
       "ashvale_lodge": "Sovereign Vault constructed; Night Menagerie five minor masks certified v1.1; existing operations continue.",
       "commercial_estate": "140 acres; 1,200-seat permanent arena and Dragon Friendship Retreat complete and paid.",
       "recurring_events": "First monthly fair complete. Future markets and festivals are plans.",
-      "festival": "Kaela won the public championship; Vaeltharion won the dragon exhibition."
+      "festival": "Day 365 Grand Festival of the Year’s End: Maeryn champion, Theron runner-up; controlled voluntary dragon exhibition.",
+      "time_chamber": "Restored Chamber Seven. 2× supervised occupied; 5× up to 8 internal hours supervised occupied; 10× up to 1 internal hour occupied; 15× experimental unmanned; 20× repeated unmanned up to 4 internal hours. Above 20× unverified.",
+      "vital_continuity": "Prototypes I and II explored selective treatment. Age prevention, rejuvenation and years-long living treatment unproven.",
+      "emberpear_nursery": "Planting stock acquired and protected nursery established; no maturity, harvest or revenue.",
+      "draconic_resonance": "3/5.",
+      "personal_mp": "385/400 last tracked; current reading and mana movements unverified."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -78,7 +83,9 @@
       "Current commitments and cash history since Day 196 remain unverified.",
       "Historical custody counts do not include the latest Ashvale inquiry or establish present placements.",
       "Festival opening cash differs from the Suncrest 262 close; no itemized bridge.",
-      "Sword origins and Aric commission documents; Seven Horizons Waymark Register; other dragon leads; separate Crown/Witness investigations."
+      "Sword origins and Aric commission documents; Seven Horizons Waymark Register; other dragon leads; separate Crown/Witness investigations.",
+      "Alaric Voss’s identity with Crown-related A. Voss is unproven; stolen covenant index remains unresolved.",
+      "Day 326 opening comparison is 20 gp lower than the Day 160 close; 7,145 gp is provisional. Purse, allocations, 317 gp historic commitment and other obligations require verification."
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -104,9 +111,9 @@
     }
   },
   "calendar": {
-    "annual_day": 160,
+    "annual_day": 1,
     "season": null,
-    "historical_label": "Year 848, Suncrest 1135"
+    "historical_label": "Year 852 Day 1"
   },
   "custody": {
     "reviewed": 4,
@@ -135,26 +142,11 @@
     "conditional_defense": 51,
     "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
     "mp_bridge": {
-      "from_mp": 378,
-      "to_mp": 400,
-      "difference_mp": 22,
-      "classification": "RECONCILED — PLAYER-CONFIRMED SPIRIT MANA ASSIMILATION II",
-      "recovery_events": [
-        {
-          "ability": "Spirit Mana Assimilation II",
-          "intervals": 1,
-          "uninterrupted_minutes": 10,
-          "usable_ambient_mana": true,
-          "concentration_conditions_met": true,
-          "potential_mp": 24,
-          "actual_mp": 22,
-          "excess_mp": 2,
-          "personal_max_mp": 400,
-          "date": null,
-          "location": null,
-          "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md"
-        }
-      ]
+      "from_mp": 400,
+      "to_mp": 385,
+      "difference_mp": -15,
+      "classification": "LAST TRACKED — CURRENT PERSONAL MP UNVERIFIED",
+      "recovery_events": []
     }
   }
 }

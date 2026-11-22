@@ -11,3 +11,5 @@ Mental or simulated time does not advance outside time. Repository maintenance d
 The prior *chat-played* label Year 848, Suncrest 1135 gives annual day 1255 => **Year 851, Day 160, 7:00 PM** (Theron's Estate), subject to the documented +120 offset and unverified full seasonal calendar. The original calendar reconciliation corrected the display during active play. The [later END SESSION chronicle](../changes/chronicles/year851-day160-end-session.md) records adoption of the played close.
 
 See [reconciliation](../changes/chronicles/calendar-365-day-reconciliation.md) and [active-play calendar note](../state/active-play-calendar-note.md).
+
+The [next played session](../changes/chronicles/year852-day1-end-session.md) includes the Day 326 observatory feast and the Day 365 year-end festival. Year 851 Day 365 rolled over at midnight to **Year 852 Day 1, 12:00 AM**. Intermediate dates, travel intervals and seasonal labels remain unverified.

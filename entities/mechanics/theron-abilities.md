@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -80,3 +81,7 @@ Current ordinary discount **40%**, replacing older30%; Sovereign Nexus finite156
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Standing rule now **Spirit Mana Assimilation II:24 personal MP per uninterrupted10 minutes**, capped400; requires uninterrupted concentration and a usable ambient mana source. Mastered through repeated supervised trials using established dual-mind parallel intake/refinement, Raze analysis and Lyra observing. This replaces the old12MP/20min rule prospectively; historical recoveries/costs unchanged. No automatic staff, wagon, ally or crystal restoration; Raze/Aegis generate no mana. Latest375−13+24=386/400.
+
+## Year-end tournament and chamber practice
+
+Theron used Raze and Aegis to study observed patterns and simulate possible counters before bouts. Analysis is finite and fallible, and defense follows existing mechanics. Caelrix remains independent at bond 5/5. The Nexus remains finite at 156/180 MP. The Time Chamber and constructs grant no free casting, mana or unrestricted temporal control.

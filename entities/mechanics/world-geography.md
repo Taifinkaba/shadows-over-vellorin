@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/phase2-01-geography-approval.md
@@ -435,6 +436,18 @@ The following single JSON block owns directory membership and containment edges.
           ]
         }
       ]
+    },
+    {
+      "id": "observatory-of-first-light",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "gardens-of-ilyssara",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
     }
   ]
 }

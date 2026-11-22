@@ -7,6 +7,7 @@ checkpoint_values:
   world.vaeltharion_chains_attached: 0
   world.protective_anchors_retained: 7
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -41,3 +42,7 @@ Independent dragon, free and consenting research participant; not a servant. Dra
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Voluntary shed-scale request pending, no reply received. Remains free, independent academy cofounder. No new gift, essence acceptance or remote result; zero coercive chains/seven anchors retained as last verified.
+
+## Year 851 Day 365
+
+Voluntarily joined Aurelith and Tharosyn for the controlled year-end exhibition.

@@ -290,9 +290,11 @@ def validate_finance_ledger(root, state):
     if ledger.get('schema_version') == 7:
         require(state['schema_version'] == 6, 'finance7 requires checkpoint6')
         if __package__:
-            from .finance_festival import validate_festival
+            from .finance_festival import YEAR_END_SOURCE, validate_festival, validate_year_end
         else:
-            from finance_festival import validate_festival
+            from finance_festival import YEAR_END_SOURCE, validate_festival, validate_year_end
+        if state['source'] == YEAR_END_SOURCE:
+            return validate_year_end(root, state, ledger)
         return validate_festival(root, state, ledger)
     if ledger.get('schema_version') == 6:
         require(state['schema_version'] == 6, 'finance6 requires checkpoint6')

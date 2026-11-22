@@ -1,3 +1,9 @@
+# Year 852 Day 1 — end session
+
+- Adopt the midnight rollover at Ashvale Grand Arena and archive the Day 160 checkpoint and ledger.
+- Integrate the Time Chamber demonstrations, ongoing Vital Continuity research, year-end tournament, voluntary dragon exhibition and Emberpear nursery.
+- Record the paid 96 gp private feast and 6,188 gp festival cash surplus. Preserve the unposted 20 gp discrepancy and provisional 7,145 gp close. See the [session chronicle](chronicles/year852-day1-end-session.md).
+
 # Year 851 Day 160 — end session
 
 - Adopt the 7:00 PM Ashvale Grand Arena checkpoint and preserve the earlier Suncrest 262 checkpoint and finance ledger in the archive.

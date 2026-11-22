@@ -1,3 +1,10 @@
+# Year 852 Day 1 — open verifications
+
+- The 20 gp gap between the Day 160 verified close and the played Day 326 opening lacks a source transaction. The 7,145 gp close, current purse contents, account distribution and unsettled obligations await reconciliation. The old 317 gp expansion commitment, Time Chamber supplier invoices, labor, energy and research costs and other operations need records or an explicit player ruling. [Ledger](finance-ledger.json)
+- Current personal MP, actual wearing configuration, closing companion presence, updated biological age, intermediate event dates and travel intervals remain unverified.
+- Alaric Voss’s relation to the Crown-related A. Voss is unresolved, as is the stolen covenant index. Aethren’s attendance and additional individual DSI participation remain unverified.
+- Chamber power costs, long-term economics, occupied operation above the demonstrated 10× limit, any acceleration above 20× and safe long-term biological treatment remain unproven. Emberpear cultivation remains uncertain. [Chronicle](../changes/chronicles/year852-day1-end-session.md)
+
 # Year 851 Day 160 — open verifications
 
 - Historical label Year 848, Suncrest 1135 normalizes to Year 851 Day 160. Season name, intermediate event dates and travel are unverified. The counting convention behind Year 847 Day 472 remains open. See the [chronicle](../changes/chronicles/year851-day160-end-session.md).

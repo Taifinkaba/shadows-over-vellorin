@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import re
 import unittest
-from snapshot_helpers import CHARACTER_SHEET_REVISIONS, DAY196_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES
+from snapshot_helpers import YEAR852_REVISED_AUTHORITIES, CHARACTER_SHEET_REVISIONS, DAY196_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -28,7 +28,7 @@ class PreservationTests(unittest.TestCase):
                     else:collect(row)
             collect(d)
         self.assertGreater(len(expected),300)
-        for revisions in (DAY196_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES, CHARACTER_SHEET_REVISIONS, YEAR851_REVISED_AUTHORITIES):
+        for revisions in (DAY196_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES, CHARACTER_SHEET_REVISIONS, YEAR851_REVISED_AUTHORITIES, YEAR852_REVISED_AUTHORITIES):
             for path, revision in revisions.items():
                 if path in expected:
                     self.assertEqual(expected[path], revision['before_sha256'], path)

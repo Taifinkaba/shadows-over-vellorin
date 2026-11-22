@@ -231,10 +231,14 @@ def financial_report(root):
         result['historical_day156_reconciliation']=result.pop('reconciliation')
         result['as_of']=ledger['as_of'];result['source_ref']=ledger_ref;result['qualification']=ledger['qualification']
         stamp=' '.join(filter(None, (ledger['as_of']['date'], ledger['as_of']['time'])))
-        def current(v,pointer,status):return amount(v,ledger_ref+'#'+pointer,'Controlled funds; current subaccount ownership requires verified funding evidence',status,stamp)
+        def current(v,pointer,status):return amount(v,ledger_ref+'#'+pointer,'Controlled funds; current subaccount ownership requires verified funding evidence',status,None if provisional else stamp)
         old_accounts=result['cash_position']['accounts'];c=ledger['controlled_cash'];m=ledger['commitments']
         later_endpoint = ledger['schema_version'] in (6,7)
-        result['cash_position'].update(controlled=current(c['total_cp'],'/controlled_cash/total_cp','player-approved later endpoint' if later_endpoint else 'supplied endpoint plus actual recorded events'),committed_unpaid=current(m['expansion_outstanding_cp'],'/commitments/expansion_outstanding_cp','unpaid remaining commitment included in controlled cash'),uncommitted=current(m['uncommitted_cp'],'/commitments/uncommitted_cp','uncommitted under existing authority restrictions'),accounts=[dict(id=x['id'],balance=current(x['balance_cp'],'/controlled_cash/accounts','verified current account')) for x in c['accounts']],historical_day156_accounts=old_accounts,allocation_status=c['allocation_status'])
+        provisional = ledger.get('endpoint', {}).get('classification') == 'PROVISIONAL PLAYED ENDPOINT'
+        cash_status = ('provisional played close; reconciliation pending' if provisional else
+                       'player-approved later endpoint' if later_endpoint else
+                       'supplied endpoint plus actual recorded events')
+        result['cash_position'].update(controlled=current(c['total_cp'],'/controlled_cash/total_cp',cash_status),committed_unpaid=current(m['expansion_outstanding_cp'],'/commitments/expansion_outstanding_cp','unpaid remaining commitment included in controlled cash'),uncommitted=current(m['uncommitted_cp'],'/commitments/uncommitted_cp','uncommitted under existing authority restrictions'),accounts=[dict(id=x['id'],balance=current(x['balance_cp'],'/controlled_cash/accounts','verified current account')) for x in c['accounts']],historical_day156_accounts=old_accounts,allocation_status=c['allocation_status'])
         result['post_arc_transactions']=ledger.get('post_arc_transactions',[])
         if 'approved_session_window' in ledger:
             window = ledger['approved_session_window']
@@ -245,7 +249,7 @@ def financial_report(root):
                 'outflows_cp': sum(t['amount_cp'] for t in actual if t['direction'] == 'outflow'),
                 'net_cash_effect_cp': sum(t['cash_effect_cp'] for t in actual),
             }
-        result['reconciliation']={'endpoint':ledger['endpoint'],('reconciled_endpoint_bridge' if ledger['schema_version'] in (4,5) else 'unexplained_endpoint_bridge'):ledger['bridge'],'actual_transaction_count':len(ledger['transactions']),'current_cash':current(c['total_cp'],'/controlled_cash/total_cp','current'),'qualification':'Bridge is a disclosure, not an event, expense or account assignment; historical arc remains unchanged.'}
+        result['reconciliation']={'endpoint':ledger['endpoint'],('reconciled_endpoint_bridge' if ledger['schema_version'] in (4,5) else 'unexplained_endpoint_bridge'):ledger['bridge'],'actual_transaction_count':len(ledger['transactions']),'current_cash':current(c['total_cp'],'/controlled_cash/total_cp',cash_status),'qualification':'Bridge is a disclosure, not an event, expense or account assignment; historical arc remains unchanged.'}
         if ledger['schema_version'] == 7:
             result['reconciliation']['historical_suncrest262_ref'] = ledger['historical_suncrest262_ref']
             result['five_part_completed_projects'] = ledger['completed_projects']
@@ -262,7 +266,7 @@ def financial_report(root):
         # Direction alone proves a cash movement, never its economic purpose.
         for domain, field in [('received-revenue', 'actual_received_revenue'), ('documented-expenses', 'actual_paid_expenses')]:
             entries = classified[domain]
-            result['income_statement'][field] = current(sum(tx['amount_cp'] for tx in entries), '/transactions', 'Explicit classified cash evidence only; not complete period coverage') if entries else None
+            result['income_statement'][field] = current(sum(tx['amount_cp'] for tx in entries), '/transactions', 'Includes player-reported event amounts; vouchers not independently verified' if provisional else 'Explicit classified cash evidence only; not complete period coverage') if entries else None
         result['five_part_accounting'] = {
             'cash-ownership': {'source_ref': ledger_ref+'#/controlled_cash',
                 'controlled_cp': c['total_cp'], 'allocation_status': c['allocation_status'],

@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
@@ -17,7 +18,7 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
-  money.total_gp_sp: 1073gp
+  money.total_gp_sp: 7145gp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
@@ -132,3 +133,7 @@ Academy latest reported34gp cash plus15gp refundable lease deposit are independe
 Rellan Sorn tools/fittings estimated7gp are transferred noncash inventory; approximately4gp disputed. Approximately6gp bandit equipment estimate is noncash historical forfeited equipment, not a new award. Merchant recovered cargo remains merchant property; evidence, custody funds and voluntary personal-property settlement distinct. Historical Day12 custody38gp2sp disposition remains unverified and excluded.
 
 G-21526gp, G-21632gp, B-8340gp and separate raid22gp already included in subsequent accounting; never re-award. No Day153 payment, loot, confiscation or new expense. [Historical balances and final reconciliations](../../changes/chronicles/year847-day153-finances.md).
+
+## Year 852 Day 1 provisional close
+
+Day 160’s authoritative 1,073 gp close is preserved in the [archived ledger](../../archive/checkpoints/year851-day160-finance-ledger.json). Played continuity reports 1,053 gp at the Day 326 feast opening, with a 20 gp unexplained difference. The 96 gp feast was settled in full. The separate Day 365 festival brought in 9,888 gp against 3,700 gp in settled costs. The resulting **7,145 gp** is provisional. The 100 gp purse target is included and its current balance and all allocations remain unverified. The historical 317 gp expansion commitment, Time Chamber costs and other operating obligations await verification. See the [ledger](../../state/finance-ledger.json).

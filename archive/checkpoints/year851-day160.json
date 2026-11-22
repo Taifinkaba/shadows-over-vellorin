@@ -1,0 +1,160 @@
+{
+  "schema_version": 6,
+  "date": "Year 851 Day 160",
+  "time": "19:00",
+  "location": "Theron's Estate, Ashvale Grand Arena",
+  "theron": {
+    "hp": 100,
+    "hp_max": 100,
+    "mp": 400,
+    "mp_max": 400,
+    "defense": 46,
+    "rank": "S+",
+    "level": 5,
+    "str": 13,
+    "dex": 20,
+    "con": 18,
+    "int": 21,
+    "wis": 20,
+    "cha": 20,
+    "unspent_attributes": 0
+  },
+  "money": {
+    "total_gp_sp": "1073gp",
+    "provisional_historic_gp_sp": "9gp 1sp 14cp",
+    "office_petty_gp_sp": "6gp 4sp",
+    "allocation_status": "100 gp personal purse verified; remaining allocation unknown",
+    "provisional_status": "Earlier approximate report; excluded from current ordinary controlled cash",
+    "office_status": "Earlier house funds report; excluded from current ordinary controlled cash"
+  },
+  "world": {
+    "vaeltharion_chains_attached": 0,
+    "protective_anchors_retained": 7
+  },
+  "status": "ENDED",
+  "source": "changes/chronicles/year851-day160-end-session.md",
+  "context": {
+    "safety": "Session ended at Ashvale Grand Arena. Closing companion presence and equipment configuration are unverified.",
+    "companions_present": [],
+    "party_roles": {},
+    "projects": {
+      "nexus_mana": "156/180 MP, independent pool.",
+      "wagon_mana": "Original Sovereign Expedition Wagon 60/60 MP is a historical carry-forward, not a new observation.",
+      "equipped_defense": "Approved normal49; conditional51 only when Night Sovereign worn. Current wearing/configuration UNKNOWN.",
+      "chronos_eye": "Approximately 19%, LOCKED.",
+      "dragon_slayer": "LOCKED.",
+      "accord": "Last verified before adoption; see Day156 historical checkpoint: Peaceful recognition and limited communication only",
+      "custody": "Last verified before adoption; see Day156 historical checkpoint: Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
+      "guardian_channels": "Last verified before adoption; see Day156 historical checkpoint: Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
+      "halden": "Last verified before adoption; see Day156 historical checkpoint: Rescued, free and voluntarily protected at Ashvale Estate",
+      "independent_assignments": "Garrick independently continues the Crown inquiry in Caelthorne. Lyanna and Nyx remain independent. Bren and Lyra continue lodge duties.",
+      "vanguard": "120/120 MP.",
+      "night_sovereign": "Last verified before adoption; see Day156 historical checkpoint: Completed, tested, paid515gp; reserved scale consumed once",
+      "maternal_healing": "Last verified before adoption; see Day156 historical checkpoint: Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
+      "healing_springs": "Last verified before adoption; see Day156 historical checkpoint: 2/5",
+      "briarstone_repairs": "Player-confirmed completed by Year848 Suncrest45 Day165;26gp already reconciled in endpoint, not lodge expansion.",
+      "lodge_supply_wagon": "80/80 MP, last recorded.",
+      "witness": "Original testimony recovered; Valeth captured alive; Ashvale inquiry reopened; Darian Kestrel unresolved.",
+      "forgotten_watchpost": "Runes and stair found; chamber unentered.",
+      "ashvale_lodge": "Sovereign Vault constructed; Night Menagerie five minor masks certified v1.1; existing operations continue.",
+      "commercial_estate": "140 acres; 1,200-seat permanent arena and Dragon Friendship Retreat complete and paid.",
+      "recurring_events": "First monthly fair complete. Future markets and festivals are plans.",
+      "festival": "Kaela won the public championship; Vaeltharion won the dragon exhibition."
+    },
+    "academy": {
+      "entity": "dragon-slayer-academy",
+      "latest_reported_cash_gp_sp": "34gp",
+      "refundable_lease_deposit_gp_sp": "15gp",
+      "balance_date": "Historical undated cash/deposit report; current treasury total unknown. See state/dsi-finance-ledger.json for later tithe and budget.",
+      "included_in_party_total": false
+    },
+    "outstanding_clues": [
+      "Last verified before adoption: Halric Dene whereabouts unknown",
+      "Last verified before adoption: Foreign layer and FB-5 unresolved; Ashvale resonance theory unproven",
+      "Last verified before adoption: Northern Witness Index and E-R-7 unresolved",
+      "Last verified before adoption: One V-9 transferred case unverified; other documented cases remain separate",
+      "Last verified before adoption: Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts",
+      "Current supply wagon identity confirmed distinct. Historical movements and earlier wagon attribution remain unverified.",
+      "Current commitments and cash history since Day 196 remain unverified.",
+      "Historical custody counts do not include the latest Ashvale inquiry or establish present placements.",
+      "Festival opening cash differs from the Suncrest 262 close; no itemized bridge.",
+      "Sword origins and Aric commission documents; Seven Horizons Waymark Register; other dragon leads; separate Crown/Witness investigations."
+    ],
+    "recent_mp_costs": {},
+    "mp_before_recent_casts": null
+  },
+  "resources": {
+    "equipped_defense": 49,
+    "bracers_defense_bonus": 3,
+    "staff_mp": 156,
+    "staff_mp_max": 180,
+    "wagon_mp": 60,
+    "wagon_mp_max": 60,
+    "chronos_eye_locked": true,
+    "dragon_slayer_locked": true,
+    "refitted_wagon_mana": {
+      "vanguard-wagon": {
+        "current": 120,
+        "max": 120
+      },
+      "ashvale-wagon": {
+        "current": 80,
+        "max": 80
+      }
+    }
+  },
+  "calendar": {
+    "annual_day": 160,
+    "season": null,
+    "historical_label": "Year 848, Suncrest 1135"
+  },
+  "custody": {
+    "reviewed": 4,
+    "released": 2,
+    "retained": 1,
+    "medically_transferred": 1,
+    "hearing_pending": true,
+    "identities_status": "Historical custody review from prior continuity; current placements and identities unverified.",
+    "halden_status": "Free, voluntarily protected at Ashvale Estate"
+  },
+  "provenance": {
+    "classification": "PLAYER-APPROVED PLAYED SESSION",
+    "adoption_source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
+    "historical_checkpoint_ref": "archive/checkpoints/year848-day156-2015.json",
+    "historical_entity_records_ref": "archive/checkpoints/year848-day156-entity-records.json",
+    "current_presence": {
+      "status": "UNKNOWN",
+      "evidence_ref": null
+    },
+    "current_equipment": {
+      "status": "UNKNOWN",
+      "evidence_ref": null,
+      "night_sovereign_carried_not_equipped": null
+    },
+    "exact_room": "Ashvale Grand Arena",
+    "conditional_defense": 51,
+    "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
+    "mp_bridge": {
+      "from_mp": 378,
+      "to_mp": 400,
+      "difference_mp": 22,
+      "classification": "RECONCILED — PLAYER-CONFIRMED SPIRIT MANA ASSIMILATION II",
+      "recovery_events": [
+        {
+          "ability": "Spirit Mana Assimilation II",
+          "intervals": 1,
+          "uninterrupted_minutes": 10,
+          "usable_ambient_mana": true,
+          "concentration_conditions_met": true,
+          "potential_mp": 24,
+          "actual_mp": 22,
+          "excess_mp": 2,
+          "personal_max_mp": 400,
+          "date": null,
+          "location": null,
+          "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md"
+        }
+      ]
+    }
+  }
+}

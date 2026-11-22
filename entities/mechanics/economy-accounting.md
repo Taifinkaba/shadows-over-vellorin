@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/phase2-06-economic-approval.md
 - changes/chronicles/economy-framework-maintenance.md
 - state/finance-ledger.json
@@ -301,3 +302,7 @@ Guild references remain in PR 4: apprenticeship can require supervised training/
 Illicit commerce uses PR 4's finite contexts. Stolen goods retain original title; counterfeits require quality/authenticity review; smuggling and illegal mining add jurisdiction and recovery risk; fraud and forged contracts do not establish enforceable claims. Extortion, bribery and criminal debt confer no lawful authority; laundering cannot turn an unexplained transfer into revenue or lawful title. Possible loss, restitution, seizure, investigation and contract disputes require actual evidence and lawful process. No crime, fund, debt or stolen inventory is created.
 
 Dungeon salvage remains governed by PR 5 recovery evidence, finite availability, legal title, transport and original inventory provenance. Potential treasure is no asset; appraisal is no sale. Only verified sale receipts less documented transaction costs can affect the sole ledger, once. Protected evidence and third-party goods are not saleable by assumption.
+
+## Year-end event fee
+
+For the Day 365 Grand Festival of the Year’s End, the 25% fee on verified event operating profit replaces the ordinary 22% gross-sales commission for affected sales. Vendor gross of 2,400 gp less 1,200 gp eligible costs yields 1,200 gp operating profit, a 300 gp estate fee and 900 gp retained merchant profit. Vendor gross remains merchant property. The [ledger](../../state/finance-ledger.json) records only the estate fee.

@@ -4,13 +4,13 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 851 Day 160
-  time: '19:00'
-  location: Theron's Estate, Ashvale Grand Arena
+  date: Year 852 Day 1
+  time: '00:00'
+  location: Theron's Commercial Estate, Ashvale Grand Arena
   status: ENDED
   theron.hp: 100
   theron.hp_max: 100
-  theron.mp: 400
+  theron.mp: 385
   theron.mp_max: 400
   theron.defense: 46
   theron.rank: S+
@@ -31,6 +31,7 @@ checkpoint_values:
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
@@ -127,6 +128,9 @@ Last established inventory: black Runeblade, matched white sword, Oathbearer Tok
 
 Blackscale persona uses generally nonlethal displaced whispers, shadow illusions and mist. Blackscale Phantasm is a rehearsed combination with paid spell costs, not a free spell. No automatic permanent criminal-fear score. Mechanics: [abilities](../mechanics/theron-abilities.md), [skills](../mechanics/theron-skills.md), [spells](../mechanics/theron-spells.md).
 
+## Year 852 Day 1 close
+
+S+ Rank, Level 5, HP 100/100. Male elf, age 25 as last established. Personal MP was last tracked at 385/400, with the current pool unverified. Nexus 156/180 MP. DEF 46 base, 49 with Frostguard Bracers and 51 with Night Sovereign additionally worn. Actual equipment and companion presence at close are unknown. Draconic Resonance remains 3/5, Chronos Eye remains locked at approximately 19% theory, and Dragon Slayer remains locked. Caelrix remains independent, bond 5/5.
 
 ## Character sheet
 
@@ -144,7 +148,7 @@ character_sheet:
   level: 5
   hp: 100
   hp_max: 100
-  mp: 400
+  mp: 385
   mp_max: 400
   defense: 46
   equipped_defense: 49
@@ -175,18 +179,18 @@ character_sheet:
   - Dragon Slayer locked
   equipment: null
   mount: null
-  personal_cash: 100 gp
+  personal_cash: null
   relationships:
     father: aric-ashvale
     sister: lyanna-ashvale
     uncle: caelan-ashvale
     bonded_wolf: shade
     mother: therons-mother
-  assessment: 'Current checkpoint: Year 851, Day 160, 19:00'
-  recorded_context: Male elf, age 25, S+ Rank, Level 5. HP 100/100, personal MP 400/400. STR 13, DEX 20,
+  assessment: 'Year 852 Day 1, 00:00. Personal MP is last tracked.'
+  recorded_context: Male elf, age 25, S+ Rank, Level 5. HP 100/100, personal MP last tracked at 385/400. STR 13, DEX 20,
     CON 18, INT 21, WIS 20, CHA 20, zero unspent attributes. Base DEF 46, DEF 49 with Frostguard Bracers,
     DEF 51 with Night Sovereign additionally equipped. Actual equipment configuration is unknown. Personal
-    purse 100 gp. Skill progress and current checkpoint.
+    purse target 100 gp, included in provisional controlled funds. Current purse contents and exact age are unverified.
   conditional_defense:
     with_frostguard_bracers_and_night_sovereign: 51
     currently_worn: null
@@ -216,6 +220,7 @@ character_sheet:
     recorded_at: Year 848 Day 137
   artwork_ref: artwork/player-cards/theron-ashvale.png
   source_refs:
+  - changes/chronicles/year852-day1-end-session.md
   - entities/characters/theron-ashvale.md
   - state/checkpoint.json
   - changes/chronicles/year848-suncrest262-end-session.md

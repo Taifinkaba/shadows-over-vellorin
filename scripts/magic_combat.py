@@ -162,7 +162,8 @@ def audit(root):
         expected = json.loads(manifest.read_text())['unchanged_sha256']
         revised = set()
         for filename in ('day196-authority-revisions.json', 'suncrest262-authority-revisions.json',
-                         'character-sheet-authority-revisions.json', 'year851-day160-authority-revisions.json'):
+                         'character-sheet-authority-revisions.json', 'year851-day160-authority-revisions.json',
+                         'year852-day1-authority-revisions.json'):
             session_manifest = manifest.with_name(filename)
             revisions = json.loads(session_manifest.read_text())['revisions'] if session_manifest.is_file() else {}
             for path in set(expected) & set(revisions):
@@ -183,7 +184,7 @@ def audit(root):
         monster_references=[{k:m[k] for k in ('id','name','hp','mp','defense','reference_rank','combat_usable')} for m in refs['monster_references']],
         numerical_combat_ready=False,design_completion='Public classification/procedures and descriptive profiles complete; unresolved mechanics remain explicit.',
         current_resources=state['resources'],equipment_configuration_status=state['provenance']['current_equipment']['status'],conditional_night_sovereign_defense=state['provenance']['conditional_defense'],current_hp_mp={k:state['theron'][k] for k in ('hp','hp_max','mp','mp_max')},
-        finances=dict(schema_version=ledger['schema_version'],controlled_cp=ledger['controlled_cash']['total_cp'],allocation_status=ledger['controlled_cash']['allocation_status']),
+        finances=dict(schema_version=ledger['schema_version'],controlled_cp=ledger['controlled_cash']['total_cp'],classification=ledger.get('endpoint', {}).get('classification'),allocation_status=ledger['controlled_cash']['allocation_status']),
         preservation=preservation,ending_readiness='UNCHANGED:18 pending answer approvals /14 unfilled clue routes; not complete',gameplay_performed=False)
 
 

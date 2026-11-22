@@ -220,7 +220,12 @@ def validate_checkpoint6(root,s):
     for name in ('adoption_source_ref','historical_checkpoint_ref','historical_entity_records_ref','carried_forward_world_context_ref'):repository_file(root,p[name],'checkpoint6 history')
     old_bridge=dict(from_mp=378,to_mp=400,difference_mp=22,classification=MP_STATUS,recovery_events=[])
     recovered=dict(from_mp=378,to_mp=400,difference_mp=22,classification=RECOVERY_STATUS,recovery_events=[dict(ability='Spirit Mana Assimilation II',intervals=1,uninterrupted_minutes=10,usable_ambient_mana=True,concentration_conditions_met=True,potential_mp=24,actual_mp=22,excess_mp=2,personal_max_mp=400,date=None,location=None,source_ref=RECONCILIATION)])
-    require(p['mp_bridge'] in (old_bridge,recovered),'checkpoint6: recovery must match approved capped interval or historical unresolved snapshot')
+    year_end = s['source'] == 'changes/chronicles/year852-day1-end-session.md'
+    last_tracked = dict(from_mp=400, to_mp=385, difference_mp=-15,
+                        classification='LAST TRACKED — CURRENT PERSONAL MP UNVERIFIED',
+                        recovery_events=[])
+    allowed_bridges = (last_tracked,) if year_end else (old_bridge, recovered)
+    require(p['mp_bridge'] in allowed_bridges,'checkpoint6: recovery must match approved capped interval or historical unresolved snapshot')
     if p['mp_bridge']==recovered:
         repository_file(root,RECONCILIATION,'mana continuity')
         event=p['mp_bridge']['recovery_events'][0]
