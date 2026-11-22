@@ -1,9 +1,9 @@
 ---
 id: dragon-slayer-historical-inquiry
 type: mechanics
-status: proposal-open-investigation
-visibility: public-proposal
-sources:
+status: research
+visibility: gm-reference
+source_refs:
   - entities/mechanics/theron-skills.md
   - entities/creatures/vaeltharion.md
   - entities/creatures/aurelith.md
