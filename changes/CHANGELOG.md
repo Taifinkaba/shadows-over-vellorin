@@ -1,3 +1,10 @@
+# Player-approved 365-day calendar reconciliation (calendar-only)
+
+- Establish 365 annual days with rollover to the next year and add indexed `campaign-calendar` rules.
+- Preserve historical timestamps, document the legacy Suncrest +120 offset and distinguish the last repository END SESSION checkpoint from later in-progress chat play.
+- Annotate the provisional active-play label Year 848 Suncrest 1135 as Year 851 Day 160, 7:00 PM, without advancing time, changing finances or overwriting the committed checkpoint.
+- Record unverified full seasonal boundaries for future reconciliation.
+
 # Character sheet reference audit
 
 - Add sourced character sheets for every indexed character and create records for four previously unindexed Witness figures.
