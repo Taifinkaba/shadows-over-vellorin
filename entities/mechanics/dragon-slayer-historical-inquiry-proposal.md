@@ -1,5 +1,5 @@
 ---
-id: dragon-slayer-historical-inquiry
+id: dragon-slayer-historical-inquiry-proposal
 type: mechanics
 status: research
 visibility: gm-reference
