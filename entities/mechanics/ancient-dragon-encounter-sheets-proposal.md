@@ -1,9 +1,9 @@
 ---
 id: ancient-dragons-encounter-sheets-proposal
 type: mechanics
-status: proposed-not-canon
-visibility: public-proposal
-sources:
+status: research
+visibility: gm-reference
+source_refs:
   - entities/creatures/vaeltharion.md
   - entities/creatures/aurelith.md
   - entities/creatures/tharosyn.md
