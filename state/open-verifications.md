@@ -7,8 +7,6 @@
 - Darian Kestrel, later custody details for Valeth, the Watchpost chamber and rune mechanism, stable arrangements, feed, winter reserves and further academy development remain open.
 - Earlier unresolved items carry forward unless the player-approved [chronicle](../changes/chronicles/year848-suncrest262-end-session.md) resolves them.
 
-- Calendar: A player-approved 365-day annual rollover now governs normalized dates; full season boundaries remain unverified. Existing Year 848 Suncrest 262 repository endpoint corresponds arithmetically to Year 849 Day 17, while later chat-played Year 848 Suncrest 1135 corresponds provisionally to Year 851 Day 160. The repository's END SESSION checkpoint remains unchanged pending full later-session adoption; see `entities/rules/campaign-calendar.md` and `state/active-play-calendar-note.md`.
-
 The player confirmed that GitHub should remain public. The former visibility conflict is resolved in [governance](../governance/precedence.md). Separate private storage for unrevealed GM material remains unverified.
 
 ## Historical verification records
