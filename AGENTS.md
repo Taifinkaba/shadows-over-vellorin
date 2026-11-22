@@ -1,5 +1,6 @@
 # Codex instructions — Shadows Over Vellorin
 Read `README.md`, `governance/precedence.md`, `state/checkpoint.json`, then use `index.json` to locate **only needed entity files**.
+Calendar rule: 365 days per year, numbered 1–365; read `entities/rules/campaign-calendar.md`. Preserve older literal dates as evidence, show normalized `Year, Day`, and never carry unbounded `Suncrest` counters forward. The current active-play calendar note is not an END SESSION checkpoint.
 `entities/` is current canonical reference; `archive/` is historical evidence and must not override later approved rulings.
 Keep user-locked rulings, player agency, medieval fantasy, Story Mode, fair permanent death, NPC independence and findability.
 Keep this repository PUBLIC. Keep unrevealed GM material in separate private storage. **Never treat hidden truths as Theron's knowledge**.
