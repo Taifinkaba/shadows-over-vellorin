@@ -8,6 +8,6 @@ Preserve literal historical dates in archived chronicles and past checkpoint sou
 
 Mental or simulated time does not advance outside time. Repository maintenance does not advance campaign time.
 
-The prior *chat-played* label Year 848, Suncrest 1135 gives annual day 1255 => **Year 851, Day 160, 7:00 PM** (Theron's Estate), subject to the documented +120 offset and unverified full seasonal calendar. This is a display correction for in-progress play, NOT an END SESSION adoption. Retain the existing repository checkpoint until the user's END SESSION handoff is integrated.
+The prior *chat-played* label Year 848, Suncrest 1135 gives annual day 1255 => **Year 851, Day 160, 7:00 PM** (Theron's Estate), subject to the documented +120 offset and unverified full seasonal calendar. The original calendar reconciliation corrected the display during active play. The [later END SESSION chronicle](../changes/chronicles/year851-day160-end-session.md) records adoption of the played close.
 
 See [reconciliation](../changes/chronicles/calendar-365-day-reconciliation.md) and [active-play calendar note](../state/active-play-calendar-note.md).

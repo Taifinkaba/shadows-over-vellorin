@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -16,10 +17,14 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
-  money.total_gp_sp: 2990gp 4sp
+  money.total_gp_sp: 1073gp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+## Year 851 Day 160 close
+
+Ordinary controlled cash totals **1,073 gp**, including the existing 100 gp purse. The [ledger](../../state/finance-ledger.json) traces 2,133 gp opening cash through 1,226 gp net festival profit, 2,370 gp in paid capital costs and 84 gp first-fair profit. Earlier movement between endpoints and unrelated liabilities remain unverified. Property and independent DSI funds are excluded.
 
 ## Year 848, Suncrest 262 update
 

@@ -1,3 +1,9 @@
+# Year 851 Day 160 — end session
+
+- Adopt the 7:00 PM Ashvale Grand Arena checkpoint and preserve the earlier Suncrest 262 checkpoint and finance ledger in the archive.
+- Record the first Grand Dragon Festival, independent dragon friendships, completed 140-acre commercial estate expansion and first monthly fair. Reconcile actual receipts and paid costs to 1,073 gp in controlled cash.
+- Retain DSI inventory, tithe and accounting boundaries. Preserve unresolved sword provenance, historical dates and the unitemized cash gap. See the [session chronicle](chronicles/year851-day160-end-session.md).
+
 # Character sheet reference audit
 
 - Add sourced character sheets for every indexed character and create records for four previously unindexed Witness figures.

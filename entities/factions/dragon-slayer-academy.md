@@ -4,6 +4,7 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
@@ -128,3 +129,7 @@ This structured section belongs to this existing organization. Original prose/fr
   "automatic_financial_postings": false
 }
 ```
+
+## First Grand Dragon Festival
+
+Six of the 16 public competitors were Guild registrants from DSI. Students also demonstrated academy practice. Kaela won and received the 100 gp non-Guild prize directly, without a tithe or promotion. Tournament-safe gear leaves personal loadouts intact. Beren independently manages the 13-student academy. Its 10% post-payment Guild mission tithe and independent accounts remain in force.

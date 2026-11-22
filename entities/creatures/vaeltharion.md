@@ -7,6 +7,7 @@ checkpoint_values:
   world.vaeltharion_chains_attached: 0
   world.protective_anchors_retained: 7
 source_refs:
+- changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -16,6 +17,10 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## First Grand Dragon Festival
+
+Vaeltharion voluntarily reunited with Aurelith and Tharosyn, joined the private banquet and won the nonlethal dragon exhibition. All three agreed to contribute preferences for a meeting place. The free ancient black-steel and silver-frost dragon remains an independent DSI cofounder. Any future attendance requires a fresh choice.
 
 ## Year 848, Suncrest 262 update
 

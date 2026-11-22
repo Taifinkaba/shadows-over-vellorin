@@ -316,3 +316,8 @@ The preservation manifest pins unrelated campaign files and exact prior JSON pay
 Ledger6 adopts a later played cash endpoint separately from the archived Day 196 ledger5. Its bridge reports the difference without a posting. Account breakdown beyond the verified purse and current commitments remain unknown. The confirmed lodge profit is already included. The dashboard and financial report read the later endpoint and preserve unknowns.
 
 The separately owned DSI ledger validates the paid contract bases, post-payment tithes and funded improvements in integer copper. Zero remaining improvement budget leaves the independent treasury total unknown. The reversed proposed grant, student savings and restricted property do not enter controlled cash.
+
+
+## Year 851 Day 160 checkpoint6 and ledger7
+
+Checkpoint6 supports an annual day and literal historical label with an unknown season. Ledger7 traces the verified festival opening through receipts, paid expenses, capital acquisitions and the first market fair. It retains the archived Suncrest 262 endpoint, historical exclusions and independent DSI accounting. The difference before festival opening is an unposted comparison. The three completed capital projects have zero outstanding on those projects. Unrelated liabilities, remaining account allocation and future proceeds remain unknown.

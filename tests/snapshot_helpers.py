@@ -35,6 +35,10 @@ def restore_day196(root):
         (root/f'state/{name}.json').write_bytes(
             (root/f'archive/checkpoints/year848-day196{suffix}.json').read_bytes())
 
+    restore_checkpoint_owner_values(root)
+
+
+def restore_checkpoint_owner_values(root):
     checkpoint = json.loads((root/'state/checkpoint.json').read_text())
     for relative in ('characters/theron-ashvale.md', 'mechanics/party-finances.md'):
         path = root/'entities'/relative
@@ -66,3 +70,7 @@ def restore_reconciled_day181(root, fixture):
 CHARACTER_SHEET_REVISIONS = json.loads(
     DAY196_MANIFEST.with_name('character-sheet-authority-revisions.json').read_text()
 )['revisions']
+
+
+YEAR851_MANIFEST = DAY196_MANIFEST.with_name('year851-day160-authority-revisions.json')
+YEAR851_REVISED_AUTHORITIES = json.loads(YEAR851_MANIFEST.read_text())['revisions']

@@ -1,3 +1,13 @@
+# Year 851 Day 160 — open verifications
+
+- Historical label Year 848, Suncrest 1135 normalizes to Year 851 Day 160. Season name, intermediate event dates and travel are unverified. The counting convention behind Year 847 Day 472 remains open. See the [chronicle](../changes/chronicles/year851-day160-end-session.md).
+- The 857 gp 4 sp difference between the prior controlled balance and festival opening has no itemized receipts. The three new capital projects are fully paid. Unrelated commitments and residual cash allocations remain unverified.
+- Aric’s commission documents were requested. Arrival, contents and precise twin-sword origins are unverified. The Twin-Wyrm Forge / Ironhollow identification was withdrawn.
+- Seven Horizons Waymark Register, Vaeriss, Stormwake, White Hunger, Ashen Sovereign and the separate Crown/Witness lines remain unresolved. Aeloryn is the independent Guardian of the First Hour.
+- Actual equipment configuration and companion presence at close are unknown. Future fairs, income and dragon attendance require separate evidence.
+
+## Earlier open verifications
+
 # Open verifications — Year 848, Suncrest 262
 
 - Day 196 controlled cash of 524 gp 9 sp and Suncrest 262 ordinary controlled cash of 2,990 gp 4 sp differ by 2,465 gp 5 sp. The itemized bridge, remaining account distribution and present status of the historical 317 gp expansion commitment are unverified. The two-week 49 gp lodge profit was already included in the later checkpoint. Stoneward custody, title and disputed sale details require source records.
