@@ -1,5 +1,5 @@
 ---
-id: ancient-dragons-encounter-sheets-proposal
+id: ancient-dragon-encounter-sheets-proposal
 type: mechanics
 status: research
 visibility: gm-reference
