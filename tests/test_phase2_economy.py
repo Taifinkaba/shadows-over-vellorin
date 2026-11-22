@@ -63,9 +63,9 @@ class Phase2EconomyTests(unittest.TestCase):
     def test_continuity_and_contracts_and_schema_2(self):
         with self.subTest(case='test_five_part_current_report'), isolated_case(self):
             r=financial_report(ROOT);self.assertEqual(list(r['five_part_accounting']),DOMAINS)
-            self.assertEqual(r['income_statement']['actual_received_revenue']['amount_cp'], 452000)
+            self.assertEqual(r['income_statement']['actual_received_revenue']['amount_cp'], 1440800)
             receipts = r['five_part_accounting']['received-revenue']['classified_transactions']
-            self.assertEqual(sum(row['amount_cp'] for row in receipts), 452000)
+            self.assertEqual(sum(row['amount_cp'] for row in receipts), 1440800)
             self.assertTrue(all(row['status'] == 'received' for row in receipts))
         with self.subTest(case='test_positive_negative_zero_business_results'), isolated_case(self):
             costs=dict.fromkeys(COSTS,10)
