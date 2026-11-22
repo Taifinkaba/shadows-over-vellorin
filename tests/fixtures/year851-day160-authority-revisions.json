@@ -1,0 +1,77 @@
+{
+  "source_ref": "changes/chronicles/year851-day160-end-session.md",
+  "revisions": {
+    "README.md": {
+      "before_sha256": "6d7c72b675821313a647bd44ae733354b34ebce6af902770faa867895f504695",
+      "after_sha256": "7e0789b222fa52258108e1a9a7d874dd02f0a82d95bcccbc50b382ae8cd26a7a"
+    },
+    "changes/CHANGELOG.md": {
+      "before_sha256": "50b6ede7e14c5dcc1781daa473fcb91a0f6844eca5c650ebf1447b39906db940",
+      "after_sha256": "ab3f1f2744472d4e70c14f59fb19ce3f9e257523f166161b28fda0741b363a5c"
+    },
+    "docs/campaign-calendar.md": {
+      "before_sha256": "df07de651ad5d891b2dd9e3e605fc4bbfd337af5ad34a798534ba044c338a47e",
+      "after_sha256": "f86e493d8a4ea3c580efbe0642e7e098e2f1bf01aacd9b1cb33432e705c514b4"
+    },
+    "docs/validation.md": {
+      "before_sha256": "fe7f9442eb56a35f17ab5fece037b3152e585ed5d12788969776c45bc0aa5e26",
+      "after_sha256": "2ecdfb54307de090cb79d8634d1ed15f5378e65c0326dda2cd9483cc69f2e0a4"
+    },
+    "entities/characters/theron-ashvale.md": {
+      "before_sha256": "9be93de5a614ba111a0e1cc94783710776e7002891e3e7eb7b791123d28c2056",
+      "after_sha256": "1ca17eae9edf8e83186c270e0e9e8d3277150d8b2d5c3a25a3a4d61858c41728"
+    },
+    "entities/characters/tomas.md": {
+      "before_sha256": "b5008f5335e46ea3971d0181491c70878e9eb2ed8b174ecf8db2592ce35dacb2",
+      "after_sha256": "8b4d2ea66e6193a10f739da35a9cb844ed6c7ba351e0dc40beae86473f8e1e79"
+    },
+    "entities/creatures/vaeltharion.md": {
+      "before_sha256": "330e2dde819a34f02e3e527c54192457a3f930ba485ed03b6efd0110a2d8ee59",
+      "after_sha256": "6853812dad84d10677d15459ef9bb8a779d4b48ac2ae4a5aaacd6688aa0d71b9"
+    },
+    "entities/factions/dragon-slayer-academy.md": {
+      "before_sha256": "9aed2dc922338ac847dbae82e0daf1ca16e23e313d38bae64d4fa819a61ff1c0",
+      "after_sha256": "4ec2e7a0d0ff9616ae8f6112068d4017a4694195c388d3bf977b0c530e4114d6"
+    },
+    "entities/mechanics/party-finances.md": {
+      "before_sha256": "b25da7c45ae11b8de63d5208b7f378b926e0f33fb1caf53d80e04671085b7150",
+      "after_sha256": "4ec82791f738f5eb000e875f56c1b3ef28f2808174a7905f7e352fd7dd3977cc"
+    },
+    "entities/mechanics/theron-abilities.md": {
+      "before_sha256": "c8c97ee2fc05dc25459d9234a7a91c904af3bead13f4e8ac5e65e7a6a636ac19",
+      "after_sha256": "0256dae22adbaf92ac6ae772c8cb2e76a227c60ee8175eafd4ca0fb62ef7dd70"
+    },
+    "entities/mechanics/world-geography.md": {
+      "before_sha256": "8175700b8afa0e6594df8912ccb68d88c09b213294afd006185512db3860f6bd",
+      "after_sha256": "7f0d602dc66589d5fe8092b07531e6b2e9be07cba5690237e92503686a722143"
+    },
+    "index.json": {
+      "before_sha256": "a8ba5d0091a62c13d1151c191d715ea90b4616c2f16a17931edaf5d7ea1d615d",
+      "after_sha256": "2d198a2fa61bb1f5d89441ed9bd96f205dde625c53ec60685118e38500b4c38e"
+    },
+    "state/active-play-calendar-note.md": {
+      "before_sha256": "081796822d9a1a1236d913e30f7be226054356c0847698a5bb5f6259137f4b2b",
+      "after_sha256": "77db2d8c3bd25e7499b7a349791ff4a051617d57c0a2cc037e8b090826c3b654"
+    },
+    "state/checkpoint.json": {
+      "before_sha256": "b9ca23204dc0e3e1b6e39cbcf7db0d76ece14b0f58c04ce4c004a19893bd2685",
+      "after_sha256": "1430c071e4cc7f28aaee0ebd69c5d11e5dcc8963e246c74c50179911367605ef"
+    },
+    "state/finance-ledger.json": {
+      "before_sha256": "049b32dfae76e47728d9b7abddcb827a6f4c95129b816d64fe25af1b24481c89",
+      "after_sha256": "d78ee91015e7816bb7aa9d37719e1159471774f0d64381c1a256c0d922e483fd"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "4241bcf645d32a0a4b2ec19a5e8934fb580d2a3efb7163b8bac0bc52756cef82",
+      "after_sha256": "4826a188143ba3ffc0fbc411bfcf8171c94e92e8b2ec9e280904e65aca59fe6a"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "ad54ad60bf94aefece5ab939d72dd109e89c8afdc755626a14828aa79a19c2e6",
+      "after_sha256": "17cb590acb43d1baedd888faffc58145971d84e66639b2f45331b225d8342516"
+    }
+  },
+  "historical_sha256": {
+    "archive/checkpoints/year848-suncrest262-finance-ledger.json": "049b32dfae76e47728d9b7abddcb827a6f4c95129b816d64fe25af1b24481c89",
+    "archive/checkpoints/year848-suncrest262.json": "b9ca23204dc0e3e1b6e39cbcf7db0d76ece14b0f58c04ce4c004a19893bd2685"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 6,
-  "date": "Year 848 Day 382",
-  "time": "18:00",
-  "location": "DSI Academy, Greyhaven Valley",
+  "date": "Year 851 Day 160",
+  "time": "19:00",
+  "location": "Theron's Estate, Ashvale Grand Arena",
   "theron": {
     "hp": 100,
     "hp_max": 100,
@@ -20,7 +20,7 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "2990gp 4sp",
+    "total_gp_sp": "1073gp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
     "allocation_status": "100 gp personal purse verified; remaining allocation unknown",
@@ -32,9 +32,9 @@
     "protective_anchors_retained": 7
   },
   "status": "ENDED",
-  "source": "changes/chronicles/year848-suncrest262-end-session.md",
+  "source": "changes/chronicles/year851-day160-end-session.md",
   "context": {
-    "safety": "Session ended at DSI Academy. Exact room, companion presence and current equipment configuration are unverified.",
+    "safety": "Session ended at Ashvale Grand Arena. Closing companion presence and equipment configuration are unverified.",
     "companions_present": [],
     "party_roles": {},
     "projects": {
@@ -56,7 +56,10 @@
       "lodge_supply_wagon": "80/80 MP, last recorded.",
       "witness": "Original testimony recovered; Valeth captured alive; Ashvale inquiry reopened; Darian Kestrel unresolved.",
       "forgotten_watchpost": "Runes and stair found; chamber unentered.",
-      "ashvale_lodge": "Sovereign Vault constructed; Night Menagerie five minor masks certified v1.1; existing operations continue."
+      "ashvale_lodge": "Sovereign Vault constructed; Night Menagerie five minor masks certified v1.1; existing operations continue.",
+      "commercial_estate": "140 acres; 1,200-seat permanent arena and Dragon Friendship Retreat complete and paid.",
+      "recurring_events": "First monthly fair complete. Future markets and festivals are plans.",
+      "festival": "Kaela won the public championship; Vaeltharion won the dragon exhibition."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -73,7 +76,9 @@
       "Last verified before adoption: Day137 to pre-arc cash bridge lacks itemized transactions; 128gp discrepancy resolved by player ruling, not receipts",
       "Current supply wagon identity confirmed distinct. Historical movements and earlier wagon attribution remain unverified.",
       "Current commitments and cash history since Day 196 remain unverified.",
-      "Historical custody counts do not include the latest Ashvale inquiry or establish present placements."
+      "Historical custody counts do not include the latest Ashvale inquiry or establish present placements.",
+      "Festival opening cash differs from the Suncrest 262 close; no itemized bridge.",
+      "Sword origins and Aric commission documents; Seven Horizons Waymark Register; other dragon leads; separate Crown/Witness investigations."
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -99,8 +104,9 @@
     }
   },
   "calendar": {
-    "season": "Suncrest",
-    "day_of_season": 262
+    "annual_day": 160,
+    "season": null,
+    "historical_label": "Year 848, Suncrest 1135"
   },
   "custody": {
     "reviewed": 4,
@@ -108,7 +114,7 @@
     "retained": 1,
     "medically_transferred": 1,
     "hearing_pending": true,
-    "identities_status": "Not supplied; do not map onto earlier detainees",
+    "identities_status": "Historical custody review from prior continuity; current placements and identities unverified.",
     "halden_status": "Free, voluntarily protected at Ashvale Estate"
   },
   "provenance": {
@@ -125,7 +131,7 @@
       "evidence_ref": null,
       "night_sovereign_carried_not_equipped": null
     },
-    "exact_room": null,
+    "exact_room": "Ashvale Grand Arena",
     "conditional_defense": 51,
     "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
     "mp_bridge": {

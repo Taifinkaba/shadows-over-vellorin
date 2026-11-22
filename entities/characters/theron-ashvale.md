@@ -4,9 +4,9 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 848 Day 382
-  time: '18:00'
-  location: DSI Academy, Greyhaven Valley
+  date: Year 851 Day 160
+  time: '19:00'
+  location: Theron's Estate, Ashvale Grand Arena
   status: ENDED
   theron.hp: 100
   theron.hp_max: 100
@@ -31,6 +31,7 @@ checkpoint_values:
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -45,6 +46,10 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+## Year 851 Day 160 close
+
+Male elf, 25, S+ Rank, Level 5. Session ended at 7:00 PM at [Ashvale Grand Arena](../locations/ashvale-grand-arena.md). Recorded rest restored HP 100/100 and personal MP 400/400. Nexus 156/180. DEF 46 base, 49 with Frostguard Bracers and 51 with Night Sovereign additionally equipped. Wearing configuration unknown. STR 13, DEX 20, CON 18, INT 21, WIS 20, CHA 20, zero unspent points. Chronos Eye ~19% and Dragon Slayer remain locked. Theron placed second in the dragon exhibition.
 
 ## Year 848, Suncrest 262 update
 
@@ -177,7 +182,7 @@ character_sheet:
     uncle: caelan-ashvale
     bonded_wolf: shade
     mother: therons-mother
-  assessment: 'Current checkpoint: Year 848, Suncrest 262, 18:00'
+  assessment: 'Current checkpoint: Year 851, Day 160, 19:00'
   recorded_context: Male elf, age 25, S+ Rank, Level 5. HP 100/100, personal MP 400/400. STR 13, DEX 20,
     CON 18, INT 21, WIS 20, CHA 20, zero unspent attributes. Base DEF 46, DEF 49 with Frostguard Bracers,
     DEF 51 with Night Sovereign additionally equipped. Actual equipment configuration is unknown. Personal

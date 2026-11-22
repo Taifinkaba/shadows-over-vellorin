@@ -64,7 +64,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Current checkpoint
 
-The approved session ended at DSI Academy, Greyhaven Valley, on Year 848, Suncrest 262 at 6:00 PM. Read the [checkpoint](state/checkpoint.json), [party ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year848-suncrest262-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Day 196 checkpoint](archive/checkpoints/year848-day196.json) and [ledger](archive/checkpoints/year848-day196-finance-ledger.json) are historical.
+The approved session ended at Ashvale Grand Arena on Year 851, Day 160 at 7:00 PM. Read the [checkpoint](state/checkpoint.json), [party ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year851-day160-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Suncrest 262 checkpoint](archive/checkpoints/year848-suncrest262.json) and [ledger](archive/checkpoints/year848-suncrest262-finance-ledger.json) are historical.
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.

@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/phase2-01-geography-approval.md
 - changes/chronicles/world-geography-travel-design.md
@@ -27,6 +28,40 @@ The following single JSON block owns directory membership and containment edges.
 {
   "schema_version": 1,
   "nodes": [
+    {
+      "id": "therons-commercial-estate",
+      "kind": "property",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "ashvale-grand-arena",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": [
+        {
+          "id": "therons-commercial-estate",
+          "classification": "CONFIRMED CANON",
+          "source_refs": [
+            "changes/chronicles/year851-day160-end-session.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dragon-friendship-retreat",
+      "kind": "sanctuary",
+      "classification": "CONFIRMED CANON",
+      "parents": [
+        {
+          "id": "therons-commercial-estate",
+          "classification": "CONFIRMED CANON",
+          "source_refs": [
+            "changes/chronicles/year851-day160-end-session.md"
+          ]
+        }
+      ]
+    },
     {
       "id": "ashvale-estate",
       "kind": "property",

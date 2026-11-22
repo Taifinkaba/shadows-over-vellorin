@@ -1,0 +1,192 @@
+{
+  "schema_version": 6,
+  "as_of": {
+    "date": "Year 848 Day 382",
+    "season": "Suncrest",
+    "day_of_season": 262,
+    "time": "18:00",
+    "location": "DSI Academy, Greyhaven Valley",
+    "session_status": "ENDED"
+  },
+  "source": "changes/chronicles/year848-suncrest262-end-session.md",
+  "qualification": "Player-approved later cash endpoint. No complete transaction or commitment bridge since Day 196.",
+  "currency": {
+    "unit": "cp",
+    "cp_per_gp": 100,
+    "cp_per_sp": 10
+  },
+  "historical_day156_ref": "archive/checkpoints/year848-day156-finance-ledger.json",
+  "endpoint": {
+    "as_of": {
+      "date": "Year 848 Day 382",
+      "season": "Suncrest",
+      "day_of_season": 262,
+      "time": "18:00",
+      "location": "DSI Academy, Greyhaven Valley",
+      "session_status": "ENDED"
+    },
+    "total_cp": 299040,
+    "source_ref": "changes/chronicles/year848-suncrest262-end-session.md",
+    "classification": "PLAYER-APPROVED LATER PLAYED ENDPOINT"
+  },
+  "bridge": {
+    "historical_closing_cp": 52490,
+    "endpoint_total_cp": 299040,
+    "difference_cp": 246550,
+    "classification": "UNRESOLVED HISTORICAL GAP",
+    "is_transaction": false,
+    "assigned_account_id": null,
+    "source_ref": "changes/chronicles/year848-suncrest262-end-session.md"
+  },
+  "account_verifications": [],
+  "transactions": [],
+  "controlled_cash": {
+    "total_cp": 299040,
+    "accounts": [
+      {
+        "id": "theron-personal-purse",
+        "balance_cp": 10000
+      }
+    ],
+    "allocation_status": "100 gp personal purse verified; remaining allocation unknown"
+  },
+  "commitments": {
+    "expansion_committed_cp": null,
+    "expansion_paid_cp": null,
+    "expansion_outstanding_cp": null,
+    "uncommitted_cp": null,
+    "construction_started": null,
+    "progress_ref": null
+  },
+  "excluded_property": [
+    {
+      "id": "provisional_historic_coinage",
+      "amount_cp": 924,
+      "status": "Approximately 9 gp 1 sp 14 cp; unreconciled historic coinage",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "office_petty_cash",
+      "amount_cp": 640,
+      "status": "North Return House funds",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "lyanna_personal",
+      "amount_cp": null,
+      "status": "Separate personal funds; current balance unverified",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "academy_cash",
+      "amount_cp": 3400,
+      "status": "Earlier report only; not current certification",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "academy_refundable_deposit",
+      "amount_cp": 1500,
+      "status": "Noncash deposit; earlier report only",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "seized_custody_funds",
+      "amount_cp": 3820,
+      "status": "Historical custody; ownership/disposition unresolved",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "merchant_property",
+      "amount_cp": null,
+      "status": "Not estate-owned; eligible merchant gross sales excluded",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "unreconciled_salvage",
+      "amount_cp": null,
+      "status": "Title and valuation unresolved",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "estate_property",
+      "amount_cp": null,
+      "status": "Noncash land, buildings, inventory and equipment",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "briarstone_cottage",
+      "amount_cp": 5500,
+      "status": "Noncash appraisal; no rent yet",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "restricted_stoneward_coinage",
+      "amount_cp": 94000,
+      "status": "Restricted coins, gp equivalent; includes no ordinary cash",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "restricted_commercial_instruments",
+      "amount_cp": 45000,
+      "status": "Historical estimated value, unsold and noncash",
+      "included_in_controlled_cash": false
+    },
+    {
+      "id": "dsi_and_student_funds",
+      "amount_cp": null,
+      "status": "Independent academy and individually owned student funds",
+      "included_in_controlled_cash": false
+    }
+  ],
+  "automatic_future_income": false,
+  "post_arc_transactions": [
+    {
+      "id": "briarstone-repair-deposit-day158",
+      "source_event_id": "briarstone-repair-deposit-day158",
+      "date": "Year 848 Day 158",
+      "season": "Suncrest",
+      "season_day": 38,
+      "time": null,
+      "category": "maintenance",
+      "property_id": "briarstone-cottage",
+      "amount_cp": 800,
+      "cash_effect_cp": -800,
+      "commitment_effect_cp": 0,
+      "funding_scope": "uncommitted-controlled-funds",
+      "account_id": null,
+      "recipient": null,
+      "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+      "source_quote": "repair deposit paid800cp",
+      "status": "player-confirmed-continuity",
+      "application_count": 1
+    },
+    {
+      "id": "briarstone-repair-final-day165",
+      "source_event_id": "briarstone-repair-final-day165",
+      "date": "Year 848 Day 165",
+      "season": "Suncrest",
+      "season_day": 45,
+      "time": null,
+      "category": "maintenance",
+      "property_id": "briarstone-cottage",
+      "amount_cp": 1800,
+      "cash_effect_cp": -1800,
+      "commitment_effect_cp": 0,
+      "funding_scope": "uncommitted-controlled-funds",
+      "account_id": null,
+      "recipient": null,
+      "source_ref": "changes/chronicles/year848-day181-cottage-mana-reconciliation.md",
+      "source_quote": "final cottage repair payment paid1800cp",
+      "status": "player-confirmed-continuity",
+      "application_count": 1
+    }
+  ],
+  "historical_day196_ref": "archive/checkpoints/year848-day196-finance-ledger.json",
+  "included_lodge_report": {
+    "receipts_cp": 16000,
+    "expenses_cp": 11100,
+    "profit_cp": 4900,
+    "already_in_endpoint": true,
+    "source_ref": "changes/chronicles/year848-suncrest262-end-session.md"
+  }
+}

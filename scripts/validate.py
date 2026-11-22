@@ -225,9 +225,17 @@ def validate_state(state):
     require(academy["included_in_party_total"] is False, "academy funds must remain separate")
     if dated:
         calendar = state["calendar"]
-        keys(calendar, {"season", "day_of_season"}, "checkpoint.calendar")
-        string(calendar["season"], "calendar.season")
-        integer(calendar["day_of_season"], "calendar.day_of_season", 1)
+        if v6 and "annual_day" in calendar:
+            keys(calendar, {"season", "annual_day", "historical_label"}, "checkpoint.calendar")
+            integer(calendar["annual_day"], "calendar.annual_day", 1)
+            require(calendar["annual_day"] <= 365 and state["date"].endswith(f" Day {calendar['annual_day']}"),
+                    "checkpoint: annual day differs from date or exceeds 365")
+            require(calendar["season"] is None, "checkpoint: annual season remains unverified")
+            string(calendar["historical_label"], "calendar.historical_label")
+        else:
+            keys(calendar, {"season", "day_of_season"}, "checkpoint.calendar")
+            string(calendar["season"], "calendar.season")
+            integer(calendar["day_of_season"], "calendar.day_of_season", 1)
         if v5 or v6:
             custody = state["custody"]
             keys(custody, {"reviewed", "released", "retained", "medically_transferred", "hearing_pending", "identities_status", "halden_status"}, "checkpoint.custody")
@@ -279,6 +287,13 @@ def validate_state(state):
 def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
+    if ledger.get('schema_version') == 7:
+        require(state['schema_version'] == 6, 'finance7 requires checkpoint6')
+        if __package__:
+            from .finance_festival import validate_festival
+        else:
+            from finance_festival import validate_festival
+        return validate_festival(root, state, ledger)
     if ledger.get('schema_version') == 6:
         require(state['schema_version'] == 6, 'finance6 requires checkpoint6')
         if __package__:

@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
@@ -13,6 +14,10 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+## Sovereign Mind — Adaptive Game-Tree Search
+
+Theron uses the existing Raze analysis and Aegis defense constructs to branch through known legal moves and replies. Use minimax-style evaluation, pruning, cached evaluations and repeat-position detection. Prefer proven wins to forced draws and avoid forced losses. Reevaluate after consequential moves or new information. State uncertainty when the full tree remains unsolved. This is an analytical practice with the existing constructs. It confers no literal time acceleration, omniscience, mana, spellcasting or automatic perfect decisions.
 
 ## Year 848, Suncrest 262 update
 

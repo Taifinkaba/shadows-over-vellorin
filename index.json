@@ -3205,6 +3205,61 @@
         "suncrest262",
         "witness"
       ]
+    },
+    {
+      "id": "aurelith",
+      "type": "creatures",
+      "title": "Aurelith",
+      "path": "entities/creatures/aurelith.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year851-day160"
+      ]
+    },
+    {
+      "id": "tharosyn",
+      "type": "creatures",
+      "title": "Tharosyn",
+      "path": "entities/creatures/tharosyn.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year851-day160"
+      ]
+    },
+    {
+      "id": "therons-commercial-estate",
+      "type": "locations",
+      "title": "Theron\u2019s Commercial Estate",
+      "path": "entities/locations/therons-commercial-estate.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year851-day160"
+      ]
+    },
+    {
+      "id": "ashvale-grand-arena",
+      "type": "locations",
+      "title": "Ashvale Grand Arena",
+      "path": "entities/locations/ashvale-grand-arena.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year851-day160"
+      ]
+    },
+    {
+      "id": "dragon-friendship-retreat",
+      "type": "locations",
+      "title": "Dragon Friendship Retreat",
+      "path": "entities/locations/dragon-friendship-retreat.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year851-day160"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

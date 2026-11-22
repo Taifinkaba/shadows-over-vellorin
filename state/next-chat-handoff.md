@@ -1,3 +1,16 @@
+# Next-chat handoff — Year 851 Day 160, 7:00 PM
+
+**ENDED at Theron’s Estate, Ashvale Grand Arena.** Await the player’s instruction to resume. Read the [checkpoint](checkpoint.json), [chronicle](../changes/chronicles/year851-day160-end-session.md), [precedence](../governance/precedence.md) and [narration rules](../docs/narration-format.md). Use the [index](../index.json) for targeted retrieval.
+
+- Theron / Blackscale is a 25-year-old male elf, S+ Rank, Level 5. HP 100/100, personal MP 400/400, Nexus 156/180. DEF 46 base, 49 with Frostguard Bracers, 51 with Night Sovereign additionally worn. Exact wearing and companion presence are unknown. Chronos Eye ~19% and Dragon Slayer remain locked. Wagon reservoirs retain their last verified values.
+- Ordinary controlled cash is 1,073 gp including the 100 gp purse. The 140-acre [commercial estate](../entities/locations/therons-commercial-estate.md) includes a paid 1,200-seat arena and the paid Dragon Friendship Retreat. Future market and festival receipts require actual events. [Finance ledger](finance-ledger.json)
+- Kaela won the public championship and received 100 gp personally. Vaeltharion won the dragon exhibition. Aurelith, Tharosyn and Vaeltharion retain independent choices. Beren manages DSI independently, with a 10% post-payment mission tithe and separate funds. [DSI ledger](dsi-finance-ledger.json)
+- Aric’s requested sword documents and the twin blades’ origins remain open, along with the Seven Horizons Waymark Register, other dragon leads and separate Crown/Witness inquiries. [Open verifications](open-verifications.md)
+
+## Prior Suncrest 262 handoff
+
+The following is preserved historical context. The contemporary checkpoint and finance ledger are archived as [Suncrest 262 checkpoint](../archive/checkpoints/year848-suncrest262.json) and [Suncrest 262 ledger](../archive/checkpoints/year848-suncrest262-finance-ledger.json).
+
 # Next-chat handoff — Year 848, Suncrest 262, 6:00 PM
 
 **ENDED at DSI Academy, Greyhaven Valley.** Await the player’s instruction to resume. Load the [checkpoint](checkpoint.json), [session chronicle](../changes/chronicles/year848-suncrest262-end-session.md), [precedence](../governance/precedence.md), [narration rules](../docs/narration-format.md) and [index](../index.json).

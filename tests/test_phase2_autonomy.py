@@ -9,7 +9,7 @@ import tempfile
 import unittest
 
 from case_support import isolated_case, validate_scope, validate_scope
-from snapshot_helpers import SUNCREST262_REVISED_AUTHORITIES
+from snapshot_helpers import YEAR851_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES
 from scripts.autonomy_designs import (FIGURES, EVENT_FIELDS, SCHEDULE_FIELDS, check_resolution_evidence,
     check_schedule_evidence, check_knowledge_claim)
 from scripts.validate import validate, ValidationError
@@ -95,6 +95,6 @@ class ApprovedAutonomyTests(unittest.TestCase):
         fixture=json.loads((ROOT/'tests/fixtures/phase2-07-preservation.json').read_text())
         for path in ('entities/creatures/alpha.md','entities/creatures/shade.md','entities/mechanics/independent-assignments.md',
                      'entities/locations/brackenford.md'):
-            with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),SUNCREST262_REVISED_AUTHORITIES.get(path, {}).get('after_sha256', fixture['unchanged_sha256'][path]))
+            with self.subTest(path=path):self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),(SUNCREST262_REVISED_AUTHORITIES | YEAR851_REVISED_AUTHORITIES).get(path, {}).get('after_sha256', fixture['unchanged_sha256'][path]))
         self.assertIn('Independent larger white Frostfang', (ROOT/'entities/creatures/alpha.md').read_text())
         self.assertIn('bond3/5 (supersedes earlier5/5)', (ROOT/'entities/creatures/shade.md').read_text())

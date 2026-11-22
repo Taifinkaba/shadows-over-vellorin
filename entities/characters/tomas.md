@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year851-day160-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
@@ -12,6 +13,10 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 ---
+
+## Played commercial event operations
+
+Tomas manages [Theron’s commercial estate](../locations/therons-commercial-estate.md). He established monthly market fairs and an annual Grand Dragon Festival as operating plans. The first monthly fair earned 84 gp net. Future events and receipts require actual occurrence.
 
 ## Day137 accounting ruling
 
