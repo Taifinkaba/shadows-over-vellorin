@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - archive/legacy-modules/world/07-7-the-ashvale-family.md
 - archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md
 - changes/chronicles/character-reference-design-approval.md
@@ -40,6 +41,9 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
 
+## Year 851 later session
+
+Spent time with Theron and assisted the Day 365 festival medical team.
 
 ## Character sheet
 

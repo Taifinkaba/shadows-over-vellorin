@@ -3288,6 +3288,105 @@
         "research",
         "proposed"
       ]
+    },
+    {
+      "id": "maeryn-sol",
+      "type": "characters",
+      "title": "Maeryn Sol",
+      "path": "entities/characters/maeryn-sol.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "elyrian-voss",
+      "type": "characters",
+      "title": "Elyrian Voss",
+      "path": "entities/characters/elyrian-voss.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "alaric-voss",
+      "type": "characters",
+      "title": "Alaric Voss",
+      "path": "entities/characters/alaric-voss.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "ilyssara",
+      "type": "creatures",
+      "title": "Ilyssara",
+      "path": "entities/creatures/ilyssara.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "observatory-of-first-light",
+      "type": "locations",
+      "title": "Observatory of First Light",
+      "path": "entities/locations/observatory-of-first-light.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "gardens-of-ilyssara",
+      "type": "locations",
+      "title": "Gardens of Ilyssara",
+      "path": "entities/locations/gardens-of-ilyssara.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "time-chamber",
+      "type": "mechanics",
+      "title": "Time Chamber",
+      "path": "entities/mechanics/time-chamber.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "vital-continuity",
+      "type": "mechanics",
+      "title": "Vital Continuity",
+      "path": "entities/mechanics/vital-continuity.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
+    },
+    {
+      "id": "century-bloom-emberpears",
+      "type": "items",
+      "title": "Century-Bloom Emberpears",
+      "path": "entities/items/century-bloom-emberpears.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year852-day1"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

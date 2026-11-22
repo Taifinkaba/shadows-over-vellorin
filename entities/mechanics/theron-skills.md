@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
@@ -51,3 +52,7 @@ Chronos Eye approximately19% development remains LOCKED. First Hour’s Accord a
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
 Spirit Mana Assimilation II mastered through repeated supervised dual-mind parallel intake/refinement trials, Raze analyzing and Lyra observing. Standing recovery24 personal MP per uninterrupted10 minutes with usable ambient mana, capped400. Old mastered skills remain; no invented trial costs/dates, retroactive recovery or unlock of Chronos Eye/Dragon Slayer.
+
+## Through Year 852 Day 1
+
+Controlled instruction with Maeryn and cooperating independent dragons improved practical swordsmanship, counters and defensive decisions. Draconic Resonance remains 3/5. Training and chamber time conferred no new mechanical statistic, level, rank, spell or ability unlock.

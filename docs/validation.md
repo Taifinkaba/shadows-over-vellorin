@@ -321,3 +321,7 @@ The separately owned DSI ledger validates the paid contract bases, post-payment 
 ## Year 851 Day 160 checkpoint6 and ledger7
 
 Checkpoint6 supports an annual day and literal historical label with an unknown season. Ledger7 traces the verified festival opening through receipts, paid expenses, capital acquisitions and the first market fair. It retains the archived Suncrest 262 endpoint, historical exclusions and independent DSI accounting. The difference before festival opening is an unposted comparison. The three completed capital projects have zero outstanding on those projects. Unrelated liabilities, remaining account allocation and future proceeds remain unknown.
+
+## Year 852 Day 1 checkpoint6 and ledger7
+
+The later session reuses the existing checkpoint and event row shapes. The Day 160 checkpoint and ledger are preserved and validated as historical sources. The current ledger retains the Day 160 rows and appends the feast and year-end festival once, with source and dates qualified where known. The bridge compares 107,300 cp with the played opening of 105,300 cp without a posting. The provisional close is 714,500 cp. Current account allocations remain empty pending verification. The checkpoint stores 385/400 as last-tracked personal MP with no inferred resource event.

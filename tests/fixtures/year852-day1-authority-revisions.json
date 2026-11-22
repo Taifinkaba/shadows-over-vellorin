@@ -1,0 +1,142 @@
+{
+  "source_ref": "changes/chronicles/year852-day1-end-session.md",
+  "revisions": {
+    "README.md": {
+      "before_sha256": "7e0789b222fa52258108e1a9a7d874dd02f0a82d95bcccbc50b382ae8cd26a7a",
+      "after_sha256": "aed313bf34fae0372801a136eef19e7b3e5b485b4f474a9ade854ceb69ca2afd"
+    },
+    "archive/README.md": {
+      "before_sha256": "7a17ca6a4b00a40acb161674834293fc091bf0a4c43b1225e2d07ca5e46dbb6e",
+      "after_sha256": "e7fabe6f0d9afaa374945b5bf29e366e4c5f4327ae79a893672419e5c05333da"
+    },
+    "changes/CHANGELOG.md": {
+      "before_sha256": "ab3f1f2744472d4e70c14f59fb19ce3f9e257523f166161b28fda0741b363a5c",
+      "after_sha256": "a5605150175deafcf7472766e750a0f290cc02af2f07c96b736a3397dc1e1af7"
+    },
+    "docs/campaign-calendar.md": {
+      "before_sha256": "f86e493d8a4ea3c580efbe0642e7e098e2f1bf01aacd9b1cb33432e705c514b4",
+      "after_sha256": "5a3b8c1d92345c1aaaf21bf8edaab99802ddd0485fb380b0ca0cf0f699be0679"
+    },
+    "docs/validation.md": {
+      "before_sha256": "2ecdfb54307de090cb79d8634d1ed15f5378e65c0326dda2cd9483cc69f2e0a4",
+      "after_sha256": "ca42d619bd9ebe173affb113c4a3fd37fecd00736a7798f8f3c9a13826c68b47"
+    },
+    "entities/characters/aric-ashvale.md": {
+      "before_sha256": "2145410d9f7bb306433b47a71112a1fbbcbd5b23f9143eb3d7c46775ef86d3fa",
+      "after_sha256": "f7ad11eae03846103fee6add5b5a2d188f8dc277023b4026da604ce7b8a06b5c"
+    },
+    "entities/characters/kaela.md": {
+      "before_sha256": "006085fc15b9a30ef11979f308e3a78cf846e4965548ed4e7e7306c3a8187ac5",
+      "after_sha256": "25c0d00f7d08ebdf0b0763c852468b2615f295a32e2578d7382a148616134234"
+    },
+    "entities/characters/lyanna-ashvale.md": {
+      "before_sha256": "f56533bbbe0ceba9aa86a134b078de4fedf44f9b00bd9224c1b0078735ae0d90",
+      "after_sha256": "c59ed4160a67bc092df566153c47328dcd8467d1acb87ba9d316d09849aa9908"
+    },
+    "entities/characters/theron-ashvale.md": {
+      "before_sha256": "1ca17eae9edf8e83186c270e0e9e8d3277150d8b2d5c3a25a3a4d61858c41728",
+      "after_sha256": "5c909209b173f56cc7c5203ba02a9f3199132bfd81d1a326c863d119fac7a9c6"
+    },
+    "entities/characters/therons-mother.md": {
+      "before_sha256": "a408edcb76b874faf71313773ed61e7887ded3616d21d5fa16102ff041d4aa12",
+      "after_sha256": "c26b970408ff941457c8ddf8f4177252379ca656517cbb3a31a2b570e10a4ac3"
+    },
+    "entities/characters/tomas.md": {
+      "before_sha256": "8b4d2ea66e6193a10f739da35a9cb844ed6c7ba351e0dc40beae86473f8e1e79",
+      "after_sha256": "83f288c6030a40bc646488a7cc996ebc7f14ee0667443c67a53d175989145bc7"
+    },
+    "entities/creatures/aurelith.md": {
+      "before_sha256": "a603af79798a651a2d64407ebf0119cddcfc839d484bdcabfa5397e6d68cb407",
+      "after_sha256": "f7a3cfd48a93322b9c79c8faed15df59720902e43751f59434aa1c843be48669"
+    },
+    "entities/creatures/tharosyn.md": {
+      "before_sha256": "bd4e0fea6e1536b4f7693cfe4bb18890c8d064073baad632390c9e31e1a5bc8d",
+      "after_sha256": "b1ff8a25d9dbe72195e551277e2b195b1753c1b826afabbaa7e399efad1ba3fc"
+    },
+    "entities/creatures/vaeltharion.md": {
+      "before_sha256": "6853812dad84d10677d15459ef9bb8a779d4b48ac2ae4a5aaacd6688aa0d71b9",
+      "after_sha256": "1ad704f2d6f4c652da836f2592de41d7ae677964e79d3751528ac8490b0924da"
+    },
+    "entities/factions/dragon-slayer-academy.md": {
+      "before_sha256": "4ec2e7a0d0ff9616ae8f6112068d4017a4694195c388d3bf977b0c530e4114d6",
+      "after_sha256": "f6e794d8783e4ffbed573fad3178339d33272dc52cc54d4d80e6fb2a31421307"
+    },
+    "entities/locations/ashvale-grand-arena.md": {
+      "before_sha256": "5f3c36fb685130c59b83f893b813bf832a73c45d026b67f31bf861dbf01444ca",
+      "after_sha256": "67cc31b55df6d9a20426e7a56b1c9914913e3c155533d5b2efca28520fbe3840"
+    },
+    "entities/locations/therons-commercial-estate.md": {
+      "before_sha256": "8ac96679ddd9124cc8f2e79f5ef7f1df2bf422b83dfa8132a6ebe758a5b2324a",
+      "after_sha256": "831ec8b24fabac3fe9ca0837c3a4f72cfa8e5c7aacb3f185e2d7e9547474cdaf"
+    },
+    "entities/mechanics/economy-accounting.md": {
+      "before_sha256": "3f64aab1cc202bc1edc2c641bc4dc32fceda8b680b2be104b9cf2a8911f48349",
+      "after_sha256": "abff774726ecafb7c62aae09e37f502ea2b007807b7b065537bff631bf8ba3e7"
+    },
+    "entities/mechanics/party-finances.md": {
+      "before_sha256": "4ec82791f738f5eb000e875f56c1b3ef28f2808174a7905f7e352fd7dd3977cc",
+      "after_sha256": "b76e0383b8b1b32ff5155b474c381d5183e7213251fe8c6aee8b1eb29d2176bd"
+    },
+    "entities/mechanics/theron-abilities.md": {
+      "before_sha256": "0256dae22adbaf92ac6ae772c8cb2e76a227c60ee8175eafd4ca0fb62ef7dd70",
+      "after_sha256": "ad95ac1b003b75d2a45aee2de40be9de42aa96d6c5698aeff3f2e9b376e44691"
+    },
+    "entities/mechanics/theron-skills.md": {
+      "before_sha256": "f0c50ee1114057167f8f770b6cc6f1deb6119501f95d7b6b1777c2060c864a4e",
+      "after_sha256": "d926800ca13e2f9cbf69c4bffaeb38280d798c78e846396563539c20b5f5a96c"
+    },
+    "entities/mechanics/world-geography.md": {
+      "before_sha256": "7f0d602dc66589d5fe8092b07531e6b2e9be07cba5690237e92503686a722143",
+      "after_sha256": "20d964488eab994a6b024f199e6e5f1f4946d6a5c4bda43e156affc21153ba27"
+    },
+    "index.json": {
+      "before_sha256": "b7e7e69322cdf06053bd96791b057394028bcabca352c03e7254bafa1b51a643",
+      "after_sha256": "dad092a132674b6876b0870ee739fcb10b7af52479da2f5884a816759b1177c0"
+    },
+    "scripts/economy.py": {
+      "before_sha256": "06c580efb55c4188d1f5aeaa485ad74c3abb78043f949f350a05ba8265c1c896",
+      "after_sha256": "76796fc8217b738d60764d1b1fa24a03ebe787d2a6a5eadb1d6e1aac516fcf88"
+    },
+    "scripts/finance_festival.py": {
+      "before_sha256": "40e9aae99ab480c6aeed5bed0dfdfac2f08c4cab908b204f154276df3bf7d95d",
+      "after_sha256": "fac12eacf2d325921d85c32de32c89e71767dd0fdfb6000ebe101e0e0c3afd9e"
+    },
+    "scripts/finance_v3.py": {
+      "before_sha256": "2512c6af6c1f6538d47cdeae6ed2e00e10c5e93c2e461ffaa3375418cfffb297",
+      "after_sha256": "553519d9955fe67a3204a94939148e5a028a2725c29b48a9f5e4d4662ca61d39"
+    },
+    "scripts/gm_dashboard.py": {
+      "before_sha256": "35560d7ef636c2f627559d703849aeae79ceef2c2f746f50e12f4cad815dea2c",
+      "after_sha256": "569f3dff6d96e8de8ed9f98c906f003a9507782e9e0447b3760b3f5302b0db5a"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "a8395a07070e19daf2eece43e0efad3ec2f7fd96c42de3365853e79b18d88e6c",
+      "after_sha256": "4236ff808dfe4b1adb15657683e55c4718ee1987e5d853136f0cbb927a3e72c6"
+    },
+    "scripts/validate.py": {
+      "before_sha256": "bba1fbc0b5c1fa36a8dc7c0fb91391002629cb7a456d22f604d28e46291ec1b9",
+      "after_sha256": "6372cd53bba48c4ea8185488926ff1c5066a3f49975dda9aad268e48777ed1bd"
+    },
+    "state/checkpoint.json": {
+      "before_sha256": "1430c071e4cc7f28aaee0ebd69c5d11e5dcc8963e246c74c50179911367605ef",
+      "after_sha256": "f4987f1764b5c4348236825f850e1a7f18396425b351ac832157dd46ad6db7cf"
+    },
+    "state/finance-ledger.json": {
+      "before_sha256": "d78ee91015e7816bb7aa9d37719e1159471774f0d64381c1a256c0d922e483fd",
+      "after_sha256": "a52236d9fe367a77ea0225abd4bd139e6707bf982aa4a1ae08c9fd0da6cac002"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "4826a188143ba3ffc0fbc411bfcf8171c94e92e8b2ec9e280904e65aca59fe6a",
+      "after_sha256": "7095b09958894f11a30832b818055a9268d4dfd4225f45819adb549c6f4838b8"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "17cb590acb43d1baedd888faffc58145971d84e66639b2f45331b225d8342516",
+      "after_sha256": "b1ff52ad18988105880789da382cb98a2475a6a4dc9c2605057573d268707ee8"
+    }
+  },
+  "historical_sha256": {
+    "archive/checkpoints/year851-day160.json": "1430c071e4cc7f28aaee0ebd69c5d11e5dcc8963e246c74c50179911367605ef",
+    "archive/checkpoints/year851-day160-finance-ledger.json": "d78ee91015e7816bb7aa9d37719e1159471774f0d64381c1a256c0d922e483fd",
+    "archive/session-handoffs/year852-day1-user-handoff.txt": "6360d0f631b5efd3204da19f9c729289bdbd999a74e317feeed2eff2b71c7bbf"
+  }
+}

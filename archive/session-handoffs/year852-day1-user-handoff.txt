@@ -1,0 +1,375 @@
+# END SESSION — Codex Canon Integration
+
+## Objective
+
+Integrate the played campaign continuity from Year 851 Day 160 through the final checkpoint at **Year 852 Day 1, 12:00 AM**, without inventing missing events, violating established mechanics, or altering unrelated history.
+
+The repository is the authority for established mechanics, character sheets, geography, historical finances, and existing lore. The session record below supplies new played events, subject to reconciliation.
+
+## 1. Required workflow
+
+1. Read `AGENTS.md` and the repository's preservation and validation rules.
+2. Inspect the latest repository state before editing.
+3. Read:
+   - `docs/campaign-calendar.md`
+   - `state/finance-ledger.json`
+   - `entities/mechanics/party-finances.md`
+   - `entities/mechanics/economy-accounting.md`
+   - `changes/chronicles/year851-day160-end-session.md`
+   - Relevant character, dragon, academy, location, magic, inventory and Time Chamber records.
+4. Review existing archive/index conventions.
+5. Update established owners rather than introducing conflicting duplicate canon.
+6. Add necessary chronology and checkpoint records.
+7. Preserve previous history and financial entries.
+8. Run all relevant validation and tests.
+9. Report changes, validation results and remaining uncertainties.
+
+Do not invent a new schema or change protected history to make the new events fit.
+
+## 2. Calendar
+
+- One year contains 365 days.
+- The session's previous repository checkpoint was Year 851 Day 160.
+- The played narrative advanced through Year 851 Day 365.
+- Year 851 Day 365 rolls over to **Year 852 Day 1**.
+- Final location: Theron's Commercial Estate, Ashvale Grand Arena.
+- Final time: 12:00 AM.
+- No arbitrary seasonal designation.
+
+Preserve any unverified intermediate dates or travel intervals as qualified rather than inventing exact historical timing.
+
+## 3. Time Chamber
+
+Location: Observatory of First Light, including restored Chamber Seven.
+
+Important people:
+- Theron Ashvale
+- Elyrian Voss, original temporal researcher rescued alive
+- Maeryn Sol, historical swordswoman
+- Caelrix, independent spirit of Sovereign Nexus
+- Raze, analysis construct
+- Aegis, defensive construct
+- Aurelith
+- Ilyssara
+- Other cooperating dragons when voluntarily present
+
+Historical discoveries:
+- The original facility had Stillwater and Quickening temporal configurations.
+- Theron rescued Elyrian Voss from a failed temporal containment system.
+- Elyrian identified Alaric Voss as his younger brother.
+- Alaric's identity with the Crown-related A. Voss is NOT proven.
+- Stolen covenant index remains unresolved.
+
+Time Chamber progress:
+
+| Acceleration | Status |
+|---|---|
+| 2× | Established supervised occupied operation |
+| 5× | Supervised extended occupied operation, demonstrated up to 8 internal hours |
+| 10× | Limited occupied operation, up to 1 internal hour |
+| 15× | Experimental unmanned |
+| 20× | Repeated unmanned operation, up to 4 internal hours |
+| Greater than 20× | Not verified |
+| 525,600× | Ultimate target: 1 year inside per 1 minute outside; NOT achieved |
+
+Twenty-times tests initially encountered thermal instability. Improved external cooling and containment adjustments supported longer unmanned operation.
+
+Do not characterize 20× as safe for occupants.
+
+The Time Chamber:
+- Uses finite magical energy.
+- Requires emergency synchronization and safe exits.
+- Has separate biological monitoring and living-support systems.
+- Does not generate unlimited mana.
+- Does not eliminate physical fatigue, food consumption, sleep, healing needs, or biological aging.
+- Has not established its complete power costs or long-term operating economics.
+- Cannot grant automatic experience, ability mastery or combat-stat increases.
+
+## 4. Vital Continuity — Anti-Aging Research
+
+Theron's goal is to train for extended internal periods without suffering equivalent biological aging.
+
+Research discoveries:
+- An original Vital Continuity archive existed beneath Chamber Seven.
+- Research referenced an Everlasting Seed.
+- Theron and Maeryn found the Gardens of Ilyssara.
+- Ilyssara allowed examination of a mature fallen seed.
+- Century-old botanical and healing research supported a selective-restoration hypothesis.
+- Vital Continuity Prototype I demonstrated limited selected-tissue restoration.
+- Prototype II improved monitoring and selective treatment.
+- Some experimental configurations disrupted healthy tissue activity and were rejected.
+
+CURRENT CANON LIMITS:
+- Biological age prevention is NOT proven.
+- Biological rejuvenation is NOT proven.
+- No permanent longevity enchantment unlocked.
+- No age-free Time Chamber operation.
+- No experiment has established safe years-long treatment for a living person.
+
+Record the research as ongoing, not completed.
+
+## 5. Dragon Slayer and training
+
+Theron continued controlled instruction with Maeryn and cooperating independent dragons.
+
+- Improved practical swordsmanship, counters and defensive decision-making.
+- Draconic Resonance remains 3/5.
+- Dragon Slayer remains LOCKED.
+- Chronos Eye remains LOCKED at its previously recorded progress.
+- No new rank, level, spell or attribute increase is authorized by this session.
+- Raze/Aegis provide finite analysis and defense within existing mechanics.
+- Caelrix cannot supply free mana or unrestricted time manipulation.
+
+## 6. Friends, family and celebrations
+
+A private celebratory feast occurred at the observatory on Year 851 Day 326.
+
+It included researchers, staff, companions and participating dragons.
+
+The gathering established a tradition of celebrating major project milestones.
+
+Played feast costs:
+- Total: 96 gp.
+- Originally paid: 70 gp.
+- Originally outstanding: 26 gp.
+- Remaining 26 gp subsequently settled.
+- Final feast obligation: zero.
+
+These costs are separate from the Year 851 Day 365 Grand Festival.
+
+Theron also spent time with:
+- Aric, his father
+- His mother, a healer
+- Lyanna, his sister
+- Maeryn
+- Dragon friends and companions
+
+Family training created no new mechanical statistics.
+
+## 7. Grand Festival of the Year's End
+
+Date: **Year 851 Day 365**
+
+Location: Theron's Commercial Estate, Ashvale Grand Arena.
+
+Existing estate:
+- 140 acres.
+- Permanent 1,200-seat arena.
+- Outdoor dragon exhibition area.
+- Dragon Friendship Retreat.
+- Lodge, market and related commercial operations.
+
+These prior facilities already existed and must NOT be purchased or built again.
+
+New event:
+- 64 registered competitors.
+- 2 gp tournament entry.
+- 800 general spectator seats at 5 gp.
+- 300 reserved spectator seats at 10 gp.
+- 100 premium spectator seats at 15 gp.
+- 1,170 total spectator tickets sold.
+- 90 temporary camping pitches rented at 3 gp.
+- 30 merchant pitches rented at 5 gp.
+- Festival-specific merchant fee: 25% of verified operating profit.
+- The festival fee replaces the ordinary 22% gross-sales commission for affected event transactions. Never charge both on the same sales.
+- Champion prize: 100 gp.
+
+Tournament rules:
+- No killing or deliberate maiming.
+- No limb severance.
+- Victory through surrender, defenselessness, incapacitation, unconsciousness or referee stoppage.
+- Unconsciousness is not required when victory is already clear.
+- Immediate stoppage for unnecessary harm.
+- Medical approval before further participation.
+- Tournament-safe equipment, inspected abilities and impartial referees.
+- No prohibited outside assistance.
+
+Theron used Raze and Aegis to analyze observed fighting patterns and simulate possible counters before bouts. This did not confer perfect prediction or unauthorized independent spellcasting.
+
+Tournament outcome:
+1. Maeryn — champion, received 100 gp.
+2. Theron — runner-up.
+3. Aric — semifinalist.
+4. Veteran Guild competitor — semifinalist.
+
+Lyanna reached the quarterfinals. Kaela, previous champion, also reached the quarterfinals.
+
+No deaths or severed limbs occurred.
+
+Theron's mother assisted the medical team.
+
+All thirteen DSI students were invited. Qualified students participated according to approval and availability. Do not invent individual attendance, victories or equipment beyond established evidence.
+
+The tournament prize is not a Guild contract and does not incur DSI's independent 10% mission tithe.
+
+Dragon participation:
+- Vaeltharion, Aurelith and Tharosyn participated voluntarily in a controlled exhibition.
+- Ilyssara attended the celebration but did not fight.
+- Aethren's invitation was conditional; do not assert unverified attendance.
+- Dragons remain free, independent individuals.
+
+## 8. Century-Bloom Emberpears
+
+The rare delicacy previously served at the original Grand Dragon Festival was obtained again for the year-end feast.
+
+Tomas also acquired planting stock.
+
+A protected nursery was established on existing commercial estate land, with advice from Ilyssara.
+
+- Purchase/acquisition of stock is played.
+- Plants are not mature.
+- No harvest or production revenue exists yet.
+- Successful long-term cultivation is not guaranteed.
+- The 120 gp nursery purchase is already included in the new festival expense total.
+- The 360 gp rare fruit supply cost is separately included.
+
+Avoid double deductions or invented future harvests.
+
+## 9. Grand Festival financial ledger
+
+Recorded event receipts:
+
+| Category | Amount |
+|---|---:|
+| General tickets: 780 × 5 gp | 3,900 gp |
+| Reserved tickets: 290 × 10 gp | 2,900 gp |
+| Premium tickets: 100 × 15 gp | 1,500 gp |
+| Tournament registration: 64 × 2 gp | 128 gp |
+| Merchant pitch rentals: 30 × 5 gp | 150 gp |
+| Visitor camping rentals: 90 × 3 gp | 270 gp |
+| Merchant profit-share fees | 300 gp |
+| Additional lodge stays | 240 gp |
+| Estate food concessions | 500 gp |
+| TOTAL RECEIPTS | 9,888 gp |
+
+Merchant fee calculation:
+- Participating vendor event gross sales: 2,400 gp.
+- Documented eligible costs: 1,200 gp.
+- Event operating profit before fee: 1,200 gp.
+- Estate profit-share fee: 25%, equal to 300 gp.
+- Merchant retained aggregate profit after the fee: 900 gp.
+- Vendor gross sales are merchant property, not estate revenue.
+
+Recorded paid event expenses:
+
+| Category | Amount |
+|---|---:|
+| Additional security | 620 gp |
+| Medical staff/supplies | 270 gp |
+| Food/concession supplies | 720 gp |
+| Staff and referees | 380 gp |
+| Century-Bloom Emberpears | 360 gp |
+| Emberpear nursery stock | 120 gp |
+| Music and entertainment | 210 gp |
+| Advertising and heralds | 130 gp |
+| Camping sanitation/cleanup | 240 gp |
+| DSI transport/logistics | 150 gp |
+| Champion prize | 100 gp |
+| Utilities, staging, transport | 250 gp |
+| Repairs and maintenance | 150 gp |
+| TOTAL PAID EXPENSES | 3,700 gp |
+
+Net event cash surplus:
+
+9,888 gp − 3,700 gp = **6,188 gp**.
+
+All these festival expense vouchers were settled in played continuity.
+
+These are newly played narrative transaction amounts, not previously verified repository postings. Preserve their provenance and mark appropriately under the existing repository schema.
+
+Do not recognize unrelated merchant gross sales as estate revenue.
+
+## 10. Controlled cash reconciliation
+
+Authoritative existing repository endpoint:
+- Year 851 Day 160: 1,073 gp controlled cash.
+- Includes the existing 100 gp personal purse.
+
+Later played narration:
+- Day 326 starting cash: 1,053 gp, with an unexplained 20 gp discrepancy from the repository endpoint.
+- Private celebration expense: 96 gp.
+- Provisional pre-festival controlled cash: 957 gp.
+- Year-end festival net cash surplus: +6,188 gp.
+- Provisional closing played cash: **7,145 gp**.
+
+Arithmetic:
+1,053 − 96 + 6,188 = 7,145 gp.
+
+But the intervening 20 gp reduction is NOT supported by a source transaction.
+
+CRITICAL:
+- Preserve the authoritative Day 160 repository endpoint.
+- Do not invent a 20 gp transaction.
+- Do not silently treat 7,145 gp as fully audited cash.
+- Mark 7,145 gp as a provisional played closing total pending reconciliation.
+- Preserve all historical exclusions.
+- Do not double-count event expenses, nursery stock or prize.
+- The 100 gp personal purse is included in controlled funds, not added on top.
+- Actual current purse verification and account distribution remain separate questions.
+- Internal purse refills are transfers, not income.
+
+## 11. Debt status
+
+The user instructed Tomas to settle all debts.
+
+Confirmed:
+- Original arena construction paid historically.
+- Original land acquisition paid historically.
+- Dragon Friendship Retreat paid historically.
+- Day 326 feast paid.
+- Day 365 festival expenses paid.
+
+Unresolved:
+- Historical 317 gp expansion commitment: current obligation/settlement status unverified.
+- Time Chamber supplier invoices, labor, energy and research expenses: incomplete.
+- Other current operating obligations: require verification.
+
+Do not mark every debt paid or deduct estimated liabilities without authenticated records.
+
+Do not spend independently owned DSI money or restricted property.
+
+## 12. Final checkpoint
+
+**Year 852 Day 1, 12:00 AM**
+Location: Theron's Commercial Estate, Ashvale Grand Arena.
+
+Theron Ashvale:
+- Male elf, age 25 as last established; birthday/aging updates not independently established.
+- S+ Rank, Level 5.
+- HP: 100/100.
+- Personal MP: last tracked 385/400; not a newly verified current reading.
+- Sovereign Nexus: 156/180.
+- DEF: use existing equipment-specific repository values; do not invent currently worn configuration.
+- Draconic Resonance: 3/5.
+- Chronos Eye: LOCKED.
+- Dragon Slayer: LOCKED.
+- Raze and Aegis unchanged in underlying mechanics.
+- Caelrix independent, bond 5/5.
+- Personal purse target: 100 gp, already included in controlled funds.
+- Provisional controlled funds: 7,145 gp.
+- No new level, rank, attribute point, spell or unlimited resource.
+
+## 13. Validation and delivery
+
+Create or update chronicle, financial and entity records using existing repository conventions.
+
+Update relevant indexes and reference coverage.
+
+Run:
+- `python scripts/validate.py`
+- Relevant financial, calendar, entity and preservation tests.
+- Full test suite where supported.
+
+Do not bypass validation by deleting protected references or weakening checks.
+
+Report:
+1. Files created/changed.
+2. Continuity preserved.
+3. Financial entries accepted versus qualified.
+4. Conflicts requiring an explicit future player ruling.
+5. Test and validator results.
+6. Final session checkpoint.
+
+Do not claim unresolved financial gaps, unproven mechanics or uncertain attendance as established facts.
+
+Prepare the work for review as a campaign continuity PR.

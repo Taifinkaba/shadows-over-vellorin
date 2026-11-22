@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
@@ -35,6 +36,9 @@ Skills:
 
 Damage, resistances, movement modifiers, spell costs and prior independent career history remain unknown.
 
+## Year 851 Day 365
+
+The previous champion reached the year-end tournament quarterfinals.
 
 ## Character sheet
 

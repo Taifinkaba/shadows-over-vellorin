@@ -118,9 +118,13 @@ def build_dashboard(root):
     for ident in present:owner(ident)
     scene['explicitly_present_ids']=value(present,checkpoint+'#/context/companions_present',date,'Only checkpoint-listed presence; no inferred recall')
     scene['last_verified_source']=value(c['source'],checkpoint+'#/source',date)
+    year_end = ledger.get('endpoint', {}).get('classification') == 'PROVISIONAL PLAYED ENDPOINT'
     hero={}
     for field in ('hp','hp_max','mp','mp_max','defense'):
         hero[field]=value(c['theron'][field],checkpoint+'#/theron/'+field,date)
+    if year_end:
+        hero['mp']['as_of'] = None
+        hero['mp']['qualification'] = 'Last tracked; current reading unverified'
     for field in ('equipped_defense','staff_mp','staff_mp_max','wagon_mp','wagon_mp_max','chronos_eye_locked','dragon_slayer_locked'):
         hero[field]=value(c['resources'][field],checkpoint+'#/resources/'+field,date)
     if 'refitted_wagon_mana' in c['resources']:
@@ -138,14 +142,14 @@ def build_dashboard(root):
     unpaid = commit['expansion_outstanding_cp'] if later_endpoint else (
         commit['expansion_committed_cp'] - commit['expansion_paid_cp'])
     finances={k:value(v,ledgerref+'#'+pointer,date,qualification) for k,v,pointer,qualification in [
-        ('controlled_cp',cash['total_cp'],'/controlled_cash/total_cp','Controlled cash; source owner labels do not establish sole personal title'),
+        ('controlled_cp',cash['total_cp'],'/controlled_cash/total_cp','Provisional played close; reconciliation pending' if year_end else 'Controlled cash; source owner labels do not establish sole personal title'),
         ('committed_unpaid_cp',unpaid,'/commitments','Included in controlled cash until paid'),
         ('uncommitted_cp',commit['uncommitted_cp'],'/commitments/uncommitted_cp','Available under existing ownership/authority restrictions'),
         ('construction_started',commit['construction_started'],'/commitments/construction_started','Commitment is not construction') ]}
     finances['currency']=value({k:ledger['currency'][k] for k in ('unit','cp_per_gp','cp_per_sp')},ledgerref+'#/currency',date)
     for key in ('controlled_cp','committed_unpaid_cp','uncommitted_cp'):
         copper=finances[key]['value']
-        finances[key.removesuffix('_cp')+'_display']=value(None if copper is None else f'{copper//100} gp {(copper%100)//10} sp {copper%10} cp',finances[key]['source_ref'],date,'Integer-copper display:1gp=100cp,1sp=10cp')
+        finances[key.removesuffix('_cp')+'_display']=value(None if copper is None else f'{copper//100} gp {(copper%100)//10} sp {copper%10} cp',finances[key]['source_ref'],date,finances[key]['qualification'] if year_end and key == 'controlled_cp' else 'Integer-copper display:1gp=100cp,1sp=10cp')
     finances['accounts']=[{'account_id':value(x['id'],ledgerref+f'#/controlled_cash/accounts/{i}/id',date),'balance_cp':value(x['balance_cp'],ledgerref+f'#/controlled_cash/accounts/{i}/balance_cp',date),'ownership_review':value(None,ledgerref+f'#/controlled_cash/accounts/{i}/owner',None,'Read source legal/control qualification; no new personal-title claim')} for i,x in enumerate(cash['accounts'])]
     finances['excluded_holdings']=[{'holding_id':value(x['id'],ledgerref+f'#/excluded_property/{i}/id'),'amount_cp':value(x['amount_cp'],ledgerref+f'#/excluded_property/{i}/amount_cp',None,'Excluded; source may be historical, approximate or noncash; not a certified current third-party cash total')} for i,x in enumerate(ledger['excluded_property'])]
     if ledger['schema_version'] in (3,4,5,6,7):
@@ -198,7 +202,7 @@ def build_dashboard(root):
         'dungeon_sections':sections,'legal_reviews':[{'person':value(x,owner(x)),'current_result':value(('independent-legal-review-pending' if x=='maelor-thane' else 'military-review-pending') if ('independent legal review pending.' if x=='maelor-thane' else 'pending military review.') in file(owner(x)).read_text().split('## Historical record',1)[0] else None,owner(x),None,'Reviewed pending-status phrase only; no automatic verdict, destination or case conflation')} for x in ('maelor-thane','edrick-sorn')],
         'world_event_details':value(None,owner('world-event-references'),None,'Historical references only; current developments require targeted source review; no scheduler')}
     warnings={'provenance_and_identity':value('UNKNOWN details remain in their owners','state/open-verifications.md',None,'No raw verification/handoff text or private knowledge distinctions rendered'),
-        'later_supplied_snapshot':value('APPROVED PLAYED SESSION' if ledger['schema_version'] in (5,6,7) else 'ADOPTED FROM PLAYER-SUPPLIED CONTINUITY; cash/MP provenance gaps remain' if c['schema_version']==6 else 'UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint',checkpoint if c['schema_version']==6 else 'docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; no invented cash/MP bridge'),
+        'later_supplied_snapshot':value('PLAYED SESSION; closing cash provisional and current personal MP unverified' if year_end else 'APPROVED PLAYED SESSION' if ledger['schema_version'] in (5,6,7) else 'ADOPTED FROM PLAYER-SUPPLIED CONTINUITY; cash/MP provenance gaps remain' if c['schema_version']==6 else 'UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint',checkpoint if c['schema_version']==6 else 'docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; no invented cash/MP bridge'),
         'privacy':value('Public repository / private-governance conflict unresolved','governance/precedence.md',None,'This projection does not certify the repository spoiler-safe; private GM-answer storage remains separate'),
         'proposals':value('Unapproved institutions/routes/clocks/answers remain proposed',owner('gm-workflow'))}
     personnel_ids={'tomas','master-beren','bren','mira-lodge-helper','joren','elsi','elias-renn','maera','mira-thorne'}

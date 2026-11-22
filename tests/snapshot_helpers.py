@@ -74,3 +74,7 @@ CHARACTER_SHEET_REVISIONS = json.loads(
 
 YEAR851_MANIFEST = DAY196_MANIFEST.with_name('year851-day160-authority-revisions.json')
 YEAR851_REVISED_AUTHORITIES = json.loads(YEAR851_MANIFEST.read_text())['revisions']
+
+
+YEAR852_MANIFEST = DAY196_MANIFEST.with_name('year852-day1-authority-revisions.json')
+YEAR852_REVISED_AUTHORITIES = json.loads(YEAR852_MANIFEST.read_text())['revisions']

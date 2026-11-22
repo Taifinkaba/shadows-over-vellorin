@@ -1,3 +1,16 @@
+# Next-chat handoff — Year 852 Day 1, 12:00 AM
+
+**ENDED at Theron’s Commercial Estate, Ashvale Grand Arena.** Await the player’s instruction to resume. Read the [checkpoint](checkpoint.json), [chronicle](../changes/chronicles/year852-day1-end-session.md), [precedence](../governance/precedence.md), [narration rules](../docs/narration-format.md) and [index](../index.json).
+
+- Theron is a male elf, last established age 25, S+ Rank and Level 5. HP 100/100, personal MP last tracked at 385/400, Nexus 156/180. DEF 46 base, 49 with Frostguard Bracers and 51 with Night Sovereign additionally worn. Current wearing and companion presence are unknown. Draconic Resonance 3/5, Chronos Eye approximately 19% theory and locked, Dragon Slayer locked. Caelrix remains independent at bond 5/5.
+- [Time Chamber](../entities/mechanics/time-chamber.md) occupied demonstrations reached 10× for one internal hour. The 20× runs were unmanned. [Vital Continuity](../entities/mechanics/vital-continuity.md) research has yet to establish age prevention or rejuvenation.
+- Maeryn won the Day 365 tournament. Vaeltharion, Aurelith and Tharosyn voluntarily joined the controlled exhibition. Ilyssara attended without fighting. The Emberpear nursery remains immature.
+- Controlled cash is provisionally 7,145 gp including the 100 gp purse target. The 20 gp opening difference, purse contents, account allocations and unsettled obligation status need verification. The feast and festival costs were paid in play. [Ledger](finance-ledger.json) · [Open verifications](open-verifications.md)
+
+## Historical Day 160 handoff
+
+The previous [checkpoint](../archive/checkpoints/year851-day160.json) and [ledger](../archive/checkpoints/year851-day160-finance-ledger.json) are archived.
+
 # Next-chat handoff — Year 851 Day 160, 7:00 PM
 
 **ENDED at Theron’s Estate, Ashvale Grand Arena.** Await the player’s instruction to resume. Read the [checkpoint](checkpoint.json), [chronicle](../changes/chronicles/year851-day160-end-session.md), [precedence](../governance/precedence.md) and [narration rules](../docs/narration-format.md). Use the [index](../index.json) for targeted retrieval.

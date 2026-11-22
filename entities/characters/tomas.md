@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -33,6 +34,9 @@ Historically cooperating witness/caretaker; two hunting hounds historically unde
 
 Runs Ashvale Estate independently: autonomous daily operations, weekly reporting. No estate income posted without verified accounting. Current operating policies and surplus allocation in [estate](../locations/ashvale-estate.md).
 
+## Year-end operations
+
+Tomas acquired Century-Bloom Emberpears and nursery stock. He was instructed to settle debts. The observatory feast and year-end festival expenses are recorded as paid. Supplier invoices, labor, energy and research costs for the Time Chamber, the old expansion commitment and other operating obligations remain to be verified.
 
 ## Character sheet
 

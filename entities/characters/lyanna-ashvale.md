@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -44,6 +45,9 @@ Theron’s younger sister; previously abducted and rescued; last verified safe a
 
 Traveled with Seven Bells expedition; her custodial standing was separately recognized for limited eastern receiving-chamber review. Original Witness records preserved. Latest party checkpoint North Return House; independent choices retained.
 
+## Year 851 later session
+
+Spent time with Theron and reached the Day 365 tournament quarterfinals. Family training generated no mechanical changes.
 
 ## Character sheet
 

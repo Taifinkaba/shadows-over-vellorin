@@ -4,6 +4,7 @@ import copy
 import hashlib
 import json
 from pathlib import Path
+from snapshot_helpers import YEAR852_REVISED_AUTHORITIES
 import re
 import shutil
 import tempfile
@@ -93,7 +94,7 @@ class Phase2EconomyTests(unittest.TestCase):
             self.reject('payroll-construction-and-trade',lambda d:d.update(law_owner_ref='party-finances'),'jurisdiction')
         with self.subTest(case='test_ownership_remains_unknown'), isolated_case(self):
             r=financial_report(ROOT)['five_part_accounting']['cash-ownership']
-            self.assertEqual(r['controlled_cp'],107300);self.assertEqual(r['allocation_status'],'100 gp personal purse verified; remaining allocation unknown')
+            self.assertEqual(r['controlled_cp'],714500);self.assertTrue(r['allocation_status'].startswith('Provisional'))
             self.assertTrue(all(x['current_amount_cp'] is None for x in r['categories'].values()))
         with self.subTest(case='test_public_approval_and_no_private_authority'), isolated_case(self):
             self.reject('economy-accounting',lambda d:d.update(approval_source_ref='README.md'),'approval provenance')
@@ -107,7 +108,7 @@ class Phase2EconomyTests(unittest.TestCase):
             f=json.loads((ROOT/'tests/fixtures/phase2-06-preservation.json').read_text())
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path,revision in f['authorized_owner_revisions'].items():
-                self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),revision['after_sha256'],path)
+                self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),YEAR852_REVISED_AUTHORITIES.get(path, revision)['after_sha256'],path)
                 ident=Path(path).stem;current=data(ident);current.pop(EXTENSIONS[ident])
                 self.assertEqual(current,f['legacy_economic_payloads'][path],path)
             for path in ('state/finance-ledger.json','state/checkpoint.json','entities/locations/briarstone-cottage.md',

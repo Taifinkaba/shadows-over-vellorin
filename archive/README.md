@@ -13,3 +13,5 @@ The validator checks module paths and each original `source` using these convent
 ## Cumulative session evidence
 
 `session-handoffs/year847-day153-user-handoff.txt` preserves the user’s exact cumulative update through Year847 Day153 22:05. It reports played developments, testimony and unresolved questions; it is not a full transcript. Referenced entity records and confidence-labeled chronicles apply those distinctions. `checkpoints/year847-day046-0915.json` preserves the prior checkpoint byte for byte. Legacy originals/modules remain unchanged.
+
+The Year 852 Day 1 [user handoff](session-handoffs/year852-day1-user-handoff.txt) supplies the later played continuity and its limits. The [Day 160 checkpoint](checkpoints/year851-day160.json) and [ledger](checkpoints/year851-day160-finance-ledger.json) preserve the previous endpoint byte for byte.

@@ -84,3 +84,85 @@ def validate_festival(root, state, ledger):
     require(ledger['completed_projects'] ==
             [dict(asset_id=asset, transaction_id=ident, outstanding_cp=0)
              for ident, asset in CAPITAL_PROJECTS.items()], 'festival: paid capital projects differ')
+
+
+YEAR_END_SOURCE = 'changes/chronicles/year852-day1-end-session.md'
+DAY160 = 'archive/checkpoints/year851-day160'
+PROVISIONAL = 'PROVISIONAL PLAYED ENDPOINT'
+YEAR_END_POSTINGS_GP = {
+    'general-tickets': 3900, 'reserved-tickets': 2900, 'premium-tickets': 1500,
+    'registration': 128, 'merchant-pitches': 150, 'camping-rentals': 270,
+    'merchant-profit-share': (2400 - 1200) // 4, 'lodge-stays': 240, 'food-concessions': 500,
+    'security': -620, 'medical': -270, 'food-supplies': -720, 'staff-referees': -380,
+    'emberpears': -360, 'emberpear-nursery-stock': -120, 'entertainment': -210,
+    'advertising': -130, 'camping-cleanup': -240, 'dsi-logistics': -150,
+    'maeryn-prize': -100, 'utilities-staging': -250, 'repairs': -150,
+}
+
+
+def validate_year_end(root, state, ledger):
+    prior_state = read_json(repository_file(root, DAY160 + '.json', 'Day 160 checkpoint'))
+    prior = read_json(repository_file(root, DAY160 + '-finance-ledger.json', 'Day 160 ledger'))
+    validate_festival(root, prior_state, prior)
+    keys(ledger, set(prior), 'year-end ledger')
+    require(type(ledger['schema_version']) is int and ledger['schema_version'] == 7,
+            'year end: invalid ledger version')
+    require(state['source'] == ledger['source'] == YEAR_END_SOURCE,
+            'year end: source mismatch')
+    require((state['date'], state['time'], state['location'], state['status']) ==
+            ('Year 852 Day 1', '00:00', "Theron's Commercial Estate, Ashvale Grand Arena", 'ENDED')
+            and state['calendar'] == dict(annual_day=1, season=None, historical_label='Year 852 Day 1'),
+            'year end: midnight rollover or season differs')
+    require(state['theron'] == dict(prior_state['theron'], mp=385),
+            'year end: last-tracked MP or other stats differ')
+    for field in ('resources', 'world', 'custody'):
+        require(state[field] == prior_state[field], f'year end: unsupported change to {field}')
+    require(state['provenance']['current_equipment']['status'] ==
+            state['provenance']['current_presence']['status'] == 'UNKNOWN'
+            and state['provenance']['exact_room'] == 'Ashvale Grand Arena',
+            'year end: unsupported observation')
+    updated = {'as_of', 'source', 'qualification', 'bridge', 'endpoint',
+               'transactions', 'controlled_cash'}
+    for field in prior.keys() - updated:
+        require(ledger[field] == prior[field], f'year end: preserved {field} differs')
+
+    scene = dict(date=state['date'], annual_day=1, season=None, time=state['time'],
+                 location=state['location'], session_status=state['status'])
+    require(ledger['as_of'] == scene, 'year end: ledger as-of differs from checkpoint')
+    opening = 105300
+    verified = prior['controlled_cash']['total_cp']
+    require(ledger['bridge'] == dict(historical_closing_cp=verified, opening_cp=opening,
+                                   difference_cp=opening-verified, classification='UNRESOLVED HISTORICAL GAP',
+                                   is_transaction=False, assigned_account_id=None, source_ref=YEAR_END_SOURCE),
+            'year end: opening difference must stay unposted')
+    historical = prior['transactions']
+    require(ledger['transactions'][:len(historical)] == historical,
+            'year end: prior postings changed')
+    expected = {
+        'observatory-feast-initial-payment': ('private-celebration', -70, 'Year 851 Day 326'),
+        'observatory-feast-final-settlement': ('private-celebration', -26, None),
+    }
+    expected.update({'year-end-' + ident: ('year-end-festival', gp, 'Year 851 Day 365')
+                     for ident, gp in YEAR_END_POSTINGS_GP.items()})
+    closing = opening
+    for row in ledger['transactions'][len(historical):]:
+        ident = row.get('id')
+        require(ident in expected, 'year end: unsupported or duplicate posting')
+        event, gp, date = expected.pop(ident)
+        effect = gp * 100
+        inflow = effect > 0
+        integer(row.get('amount_cp'), 'year-end amount', 1)
+        require(type(row.get('cash_effect_cp')) is int and row ==
+                dict(id=ident, event=event, amount_cp=abs(effect), cash_effect_cp=effect,
+                     direction='inflow' if inflow else 'outflow', kind='revenue' if inflow else 'expense',
+                     status='received' if inflow else 'paid', date=date, account_id=None,
+                     source_ref=YEAR_END_SOURCE), 'year end: posting differs from played evidence')
+        closing += effect
+    require(not expected and closing == 714500 == copper(state['money']['total_gp_sp']),
+            'year end: missing posting or cash mismatch')
+    require(ledger['endpoint'] == dict(as_of=scene, total_cp=closing, source_ref=YEAR_END_SOURCE,
+                                      classification=PROVISIONAL), 'year end: closing cash must stay provisional')
+    require(ledger['controlled_cash'] ==
+            dict(total_cp=closing, accounts=[], allocation_status=state['money']['allocation_status'])
+            and state['money']['allocation_status'].startswith('Provisional'),
+            'year end: current purse and allocations unverified')
