@@ -200,7 +200,7 @@
     {
       "id": "hounds-tomas",
       "type": "creatures",
-      "title": "Tomas’s hunting hounds",
+      "title": "Tomas\u2019s hunting hounds",
       "path": "entities/creatures/hounds-tomas.md",
       "status": "last-verified",
       "visibility": "gm-reference",
@@ -310,7 +310,7 @@
     {
       "id": "dragon-scales-stock",
       "type": "items",
-      "title": "Vaeltharion’s scale stock",
+      "title": "Vaeltharion\u2019s scale stock",
       "path": "entities/items/dragon-scales-stock.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -454,7 +454,7 @@
     {
       "id": "vaeltharion-freedom",
       "type": "quests",
-      "title": "Vaeltharion’s freedom",
+      "title": "Vaeltharion\u2019s freedom",
       "path": "entities/quests/vaeltharion-freedom.md",
       "status": "completed",
       "visibility": "gm-reference",
@@ -605,7 +605,7 @@
     {
       "id": "story-mode",
       "type": "rules",
-      "title": "Story Mode — Favored Protagonist",
+      "title": "Story Mode \u2014 Favored Protagonist",
       "path": "entities/rules/story-mode.md",
       "status": "user-locked",
       "visibility": "gm-reference",
@@ -844,7 +844,7 @@
     {
       "id": "wayfarers-guild",
       "type": "factions",
-      "title": "Wayfarers’ Guild",
+      "title": "Wayfarers\u2019 Guild",
       "path": "entities/factions/wayfarers-guild.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -1129,7 +1129,7 @@
     {
       "id": "corven-north-return-house",
       "type": "characters",
-      "title": "Corven — North Return House supervisor",
+      "title": "Corven \u2014 North Return House supervisor",
       "path": "entities/characters/corven-north-return-house.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -1222,7 +1222,7 @@
     {
       "id": "mira-lodge-helper",
       "type": "characters",
-      "title": "Mira — lodge helper",
+      "title": "Mira \u2014 lodge helper",
       "path": "entities/characters/mira-lodge-helper.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -1764,7 +1764,7 @@
     {
       "id": "route-ashvale-eastrun",
       "type": "locations",
-      "title": "Ashvale Estate–Eastrun road",
+      "title": "Ashvale Estate\u2013Eastrun road",
       "path": "entities/locations/route-ashvale-eastrun.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -1777,7 +1777,7 @@
     {
       "id": "route-eastrun-briarfall",
       "type": "locations",
-      "title": "Eastrun–Briarfall foot route",
+      "title": "Eastrun\u2013Briarfall foot route",
       "path": "entities/locations/route-eastrun-briarfall.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -1816,7 +1816,7 @@
     {
       "id": "route-caelthorne-ashvale-estate",
       "type": "locations",
-      "title": "Caelthorne–Ashvale Estate corridor proposal",
+      "title": "Caelthorne\u2013Ashvale Estate corridor proposal",
       "path": "entities/locations/route-caelthorne-ashvale-estate.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1829,7 +1829,7 @@
     {
       "id": "route-caelthorne-eastrun",
       "type": "locations",
-      "title": "Caelthorne–Eastrun corridor proposal",
+      "title": "Caelthorne\u2013Eastrun corridor proposal",
       "path": "entities/locations/route-caelthorne-eastrun.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1842,7 +1842,7 @@
     {
       "id": "route-caelthorne-briarfall-crossing",
       "type": "locations",
-      "title": "Caelthorne–Briarfall Crossing corridor proposal",
+      "title": "Caelthorne\u2013Briarfall Crossing corridor proposal",
       "path": "entities/locations/route-caelthorne-briarfall-crossing.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1855,7 +1855,7 @@
     {
       "id": "route-caelthorne-blackthorn-watch",
       "type": "locations",
-      "title": "Caelthorne–Blackthorn Watch corridor proposal",
+      "title": "Caelthorne\u2013Blackthorn Watch corridor proposal",
       "path": "entities/locations/route-caelthorne-blackthorn-watch.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1868,7 +1868,7 @@
     {
       "id": "route-caelthorne-ironhollow-hold",
       "type": "locations",
-      "title": "Caelthorne–Ironhollow Hold corridor proposal",
+      "title": "Caelthorne\u2013Ironhollow Hold corridor proposal",
       "path": "entities/locations/route-caelthorne-ironhollow-hold.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1881,7 +1881,7 @@
     {
       "id": "route-caelthorne-rivermere",
       "type": "locations",
-      "title": "Caelthorne–Rivermere corridor proposal",
+      "title": "Caelthorne\u2013Rivermere corridor proposal",
       "path": "entities/locations/route-caelthorne-rivermere.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1894,7 +1894,7 @@
     {
       "id": "route-caelthorne-frostspire-peaks",
       "type": "locations",
-      "title": "Caelthorne–Frostspire Peaks corridor proposal",
+      "title": "Caelthorne\u2013Frostspire Peaks corridor proposal",
       "path": "entities/locations/route-caelthorne-frostspire-peaks.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1907,7 +1907,7 @@
     {
       "id": "route-ashvale-estate-ashvale-lodge",
       "type": "locations",
-      "title": "Estate–developed lodge access proposal",
+      "title": "Estate\u2013developed lodge access proposal",
       "path": "entities/locations/route-ashvale-estate-ashvale-lodge.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1920,7 +1920,7 @@
     {
       "id": "route-eastrun-greyhaven-mill",
       "type": "locations",
-      "title": "Eastrun–Greyhaven Mill connection proposal",
+      "title": "Eastrun\u2013Greyhaven Mill connection proposal",
       "path": "entities/locations/route-eastrun-greyhaven-mill.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1933,7 +1933,7 @@
     {
       "id": "route-eastrun-greyhaven-valley",
       "type": "locations",
-      "title": "Eastrun–Greyhaven Valley connection proposal",
+      "title": "Eastrun\u2013Greyhaven Valley connection proposal",
       "path": "entities/locations/route-eastrun-greyhaven-valley.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1946,7 +1946,7 @@
     {
       "id": "route-blackthorn-watch-blackthorn-north-waystation",
       "type": "locations",
-      "title": "Watch–North Waystation connection proposal",
+      "title": "Watch\u2013North Waystation connection proposal",
       "path": "entities/locations/route-blackthorn-watch-blackthorn-north-waystation.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -1959,7 +1959,7 @@
     {
       "id": "route-caelthorne-mount-vaelspire",
       "type": "locations",
-      "title": "Caelthorne–Vaelspire northern approach proposal",
+      "title": "Caelthorne\u2013Vaelspire northern approach proposal",
       "path": "entities/locations/route-caelthorne-mount-vaelspire.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -2138,7 +2138,7 @@
     {
       "id": "continental-guild-concord",
       "type": "factions",
-      "title": "Continental Guild Concord — proposal",
+      "title": "Continental Guild Concord \u2014 proposal",
       "path": "entities/factions/continental-guild-concord.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -2489,7 +2489,7 @@
     {
       "id": "route-northern-marches-frostmarch",
       "type": "locations",
-      "title": "Northern Marches–Frostmarch corridor",
+      "title": "Northern Marches\u2013Frostmarch corridor",
       "path": "entities/locations/route-northern-marches-frostmarch.md",
       "status": "research",
       "visibility": "gm-reference",
@@ -2660,7 +2660,7 @@
     {
       "id": "ironhand-smiths-compact",
       "type": "factions",
-      "title": "Ironhand Smiths’ Compact",
+      "title": "Ironhand Smiths\u2019 Compact",
       "path": "entities/factions/ironhand-smiths-compact.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -2686,7 +2686,7 @@
     {
       "id": "scribes-collegium",
       "type": "factions",
-      "title": "Scribes’ Collegium",
+      "title": "Scribes\u2019 Collegium",
       "path": "entities/factions/scribes-collegium.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -2855,7 +2855,7 @@
     {
       "id": "hollowstone-mine",
       "type": "mechanics",
-      "title": "Hollowstone Mine — dungeon design",
+      "title": "Hollowstone Mine \u2014 dungeon design",
       "path": "entities/mechanics/hollowstone-mine.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -2868,7 +2868,7 @@
     {
       "id": "ashen-anvil",
       "type": "mechanics",
-      "title": "Ashen Anvil — dungeon design",
+      "title": "Ashen Anvil \u2014 dungeon design",
       "path": "entities/mechanics/ashen-anvil.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -2881,7 +2881,7 @@
     {
       "id": "drowned-archive",
       "type": "mechanics",
-      "title": "Drowned Archive — dungeon design",
+      "title": "Drowned Archive \u2014 dungeon design",
       "path": "entities/mechanics/drowned-archive.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -2894,7 +2894,7 @@
     {
       "id": "pale-reliquary",
       "type": "mechanics",
-      "title": "Pale Reliquary — dungeon design",
+      "title": "Pale Reliquary \u2014 dungeon design",
       "path": "entities/mechanics/pale-reliquary.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -2907,7 +2907,7 @@
     {
       "id": "shattered-meridian",
       "type": "mechanics",
-      "title": "Shattered Meridian — dungeon design",
+      "title": "Shattered Meridian \u2014 dungeon design",
       "path": "entities/mechanics/shattered-meridian.md",
       "status": "canon",
       "visibility": "gm-reference",
@@ -3204,19 +3204,6 @@
       "tags": [
         "suncrest262",
         "witness"
-      ]
-    },
-    {
-      "id": "campaign-calendar",
-      "type": "rules",
-      "title": "Campaign calendar — 365-day annual rollover",
-      "path": "entities/rules/campaign-calendar.md",
-      "status": "user-locked",
-      "visibility": "gm-reference",
-      "tags": [
-        "calendar",
-        "chronology",
-        "player-approved"
       ]
     }
   ],
