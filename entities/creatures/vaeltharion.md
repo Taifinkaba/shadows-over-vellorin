@@ -7,6 +7,7 @@ checkpoint_values:
   world.vaeltharion_chains_attached: 0
   world.protective_anchors_retained: 7
 source_refs:
+- archive/design-proposals/ancient-dragon-humanoid-forms.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
@@ -46,3 +47,50 @@ Voluntary shed-scale request pending, no reply received. Remains free, independe
 ## Year 851 Day 365
 
 Voluntarily joined Aurelith and Tharosyn for the controlled year-end exhibition.
+
+## Humanoid reference — Vaeltharion — The Black-Steel Sovereign
+
+Established free ancient black-steel and silver-frost dragon, friend of Theron and DSI cofounder. Dragon-form eyes are amber. Pale silver eyes apply to the proposed humanoid design.
+
+**Appearance status.** Proposed humanoid design awaiting explicit approval. Measurements and aesthetic details below are illustration references pending approval.
+
+- Gender presentation: Male
+- Humanoid appearance: Dark elf man
+- Apparent age: 40
+- Actual age: Unknown
+- Height: 6'5"
+- Weight: 255 lb
+- Build: Broad, heavily muscular
+- Chest: 50"
+- Waist: 36"
+- Hips: 42"
+- Shoulders: 22"
+- Inseam: 36"
+- Forearm circumference: 15"
+- Hand length: 9.5"
+
+### Face, hair and identifying features
+
+Dark slate-gray skin with a metallic undertone. Long black hair streaked with silver-white, usually tied back. Pale silver eyes, strong brow, square jaw, and short black-and-silver beard.
+
+Black-steel scales at the temples and shoulders, dark clawlike nails, and a subtle frost motif reflecting his dragon identity.
+
+Texture is unspecified. **Ears.** Elven shape, with exact contour open. **Facial hair.** Short black-and-silver beard. **Marks and draconic traits.** No scar specified. Black-steel scales at the temples and shoulders, dark clawlike nails and understated frost motifs.
+
+### Clothing and accessories
+
+Black and steel-gray noble-warrior garments with silver armor accents and a pale-fur-lined mantle.
+
+**Accessories.** Silver armor accents and a pale-fur-lined mantle. Other jewelry unspecified.
+
+### Personality and mannerisms
+
+Commanding, imposing, protective, independent, and observant. Voice unspecified. Watchful gaze, reserved expression and imposing bearing.
+
+### Transformation status
+
+**PROPOSED — NOT YET CONFIRMED IN PLAY.** The [shared reference](dragon-humanoid-forms.md#approval-and-autonomy) defines the use of these visual designs.
+
+### Image prompt and provenance
+
+Use the [copy-ready Vaeltharion prompt](../mechanics/dragon-image-reference-prompts.md#vaeltharion). The [player submission](../../archive/design-proposals/ancient-dragon-humanoid-forms.md) supplies the visual design. Established history is sourced in this record’s front matter.

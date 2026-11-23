@@ -78,3 +78,8 @@ YEAR851_REVISED_AUTHORITIES = json.loads(YEAR851_MANIFEST.read_text())['revision
 
 YEAR852_MANIFEST = DAY196_MANIFEST.with_name('year852-day1-authority-revisions.json')
 YEAR852_REVISED_AUTHORITIES = json.loads(YEAR852_MANIFEST.read_text())['revisions']
+
+
+DRAGON_REFERENCE_REVISIONS = json.loads(
+    DAY196_MANIFEST.with_name('dragon-humanoid-reference-revisions.json').read_text()
+)['revisions']

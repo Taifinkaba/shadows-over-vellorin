@@ -1,3 +1,7 @@
+# Ancient dragon humanoid reference designs
+
+- Add six qualified visual profiles, a shared reference and an image prompt library. Record the player-reported Aurelith scene pending source reconciliation and preserve historical leads for Aethren and Vharos. [Reference directory](../entities/creatures/dragon-humanoid-forms.md)
+
 # Year 852 Day 1 — end session
 
 - Adopt the midnight rollover at Ashvale Grand Arena and archive the Day 160 checkpoint and ledger.

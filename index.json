@@ -3387,6 +3387,54 @@
       "tags": [
         "year852-day1"
       ]
+    },
+    {
+      "id": "aethren",
+      "type": "creatures",
+      "title": "Aethren",
+      "path": "entities/creatures/aethren.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragons",
+        "visual-reference"
+      ]
+    },
+    {
+      "id": "vharos",
+      "type": "creatures",
+      "title": "Vharos",
+      "path": "entities/creatures/vharos.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragons",
+        "visual-reference"
+      ]
+    },
+    {
+      "id": "dragon-humanoid-forms",
+      "type": "creatures",
+      "title": "Ancient dragon humanoid forms",
+      "path": "entities/creatures/dragon-humanoid-forms.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragons",
+        "visual-reference"
+      ]
+    },
+    {
+      "id": "dragon-image-reference-prompts",
+      "type": "mechanics",
+      "title": "Dragon image-generation reference prompts",
+      "path": "entities/mechanics/dragon-image-reference-prompts.md",
+      "status": "research",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragons",
+        "visual-reference"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
