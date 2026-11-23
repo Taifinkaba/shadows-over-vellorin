@@ -1,3 +1,7 @@
+# Twin sword canon reconciliation
+
+- Preserve established blade provenance and Aric’s knowledge. Record external swordsmith leads and disclosure gaps without adopting the player-reported later checkpoint. [Reconciliation](chronicles/2026-11-23-twin-sword-canon-reconciliation.md)
+
 # Ancient dragon humanoid reference designs
 
 - Add six qualified visual profiles, a shared reference and an image prompt library. Record the player-reported Aurelith scene pending source reconciliation and preserve historical leads for Aethren and Vharos. [Reference directory](../entities/creatures/dragon-humanoid-forms.md)

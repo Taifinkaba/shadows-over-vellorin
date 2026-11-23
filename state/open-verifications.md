@@ -5,6 +5,8 @@
 - Alaric Voss’s relation to the Crown-related A. Voss is unresolved, as is the stolen covenant index. Aethren’s attendance and additional individual DSI participation remain unverified.
 - Chamber power costs, long-term economics, occupied operation above the demonstrated 10× limit, any acceleration above 20× and safe long-term biological treatment remain unproven. Emberpear cultivation remains uncertain. [Chronicle](../changes/chronicles/year852-day1-end-session.md)
 
+- Twin-sword follow-up. The black commission, white recovery and matched design are established. Aric’s requested records, exact maker and donor names, white commission and custody, and any disclosure to Theron remain open. Gareth Vaelwright and Teren Vhal are separate external leads pending the original artifacts and scenes. [Reconciliation and evidence intake](../changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md)
+
 # Year 851 Day 160 — open verifications
 
 - Historical label Year 848, Suncrest 1135 normalizes to Year 851 Day 160. Season name, intermediate event dates and travel are unverified. The counting convention behind Year 847 Day 472 remains open. See the [chronicle](../changes/chronicles/year851-day160-end-session.md).

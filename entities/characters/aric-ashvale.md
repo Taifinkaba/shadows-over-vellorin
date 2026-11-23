@@ -4,6 +4,10 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
+- archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md
+- archive/legacy-modules/codex/08-8-live-campaign-handoff-copy-into-a-new-chat.md
+- changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -32,6 +36,10 @@ Researching the twin Eclipse Sovereigns’ smith and dragon-scale origins; no re
 ## Year 851 later session
 
 Spent time with Theron and reached the Day 365 tournament semifinals. Family training generated no mechanical changes.
+
+## Black Runeblade commission and later investigation
+
+Aric personally hired the smith and knows whom he hired, where and how he arranged the commission, and the terms of his own agreement. He received the Frostspire scales willingly and promised secrecy about the dragon’s dwelling. The written record leaves the smith’s name and workshop location open. His research covered both blades. His knowledge of the white commission and any disclosure of the smith, location or donors to Theron remain unverified. The Day 160 request for his commission documents stands with arrival and contents unverified. [Sword reconciliation](../../changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md)
 
 ## Character sheet
 
