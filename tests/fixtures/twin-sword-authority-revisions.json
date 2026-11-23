@@ -1,0 +1,33 @@
+{
+  "source_ref": "changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md",
+  "revisions": {
+    "changes/CHANGELOG.md": {
+      "before_sha256": "5b69b89a45ae4e334ed3444cb55d3fca0a93d76052c83d9ebc5c876acf538c11",
+      "after_sha256": "4e32a20995339ede9e8572cab1f1eb60299a66fd75ece106c8d67c77e2f102ac"
+    },
+    "entities/characters/aric-ashvale.md": {
+      "before_sha256": "f7ad11eae03846103fee6add5b5a2d188f8dc277023b4026da604ce7b8a06b5c",
+      "after_sha256": "c94bfb9918179fe493aabc16610fd4934a31378860298fef86a9e349b0671518"
+    },
+    "entities/items/black-runeblade.md": {
+      "before_sha256": "1e532065bdcf3250720a54a4d276eca48aed0e0ad9dd6c4a7adfda38e9ad8234",
+      "after_sha256": "aec5b3a562031478437e17be908e0fd82944632bcc45921a9877832d034359f3"
+    },
+    "entities/items/white-runeblade.md": {
+      "before_sha256": "3b563738fd8c1a6e9ebc57ff373d6bc2c67a6bf4be4c26e51bdd069df8e41a0d",
+      "after_sha256": "cfab3ab8ef6e01fd3772a791286e3de8adb9dec53e4eb4aeb8b1392019fc005f"
+    },
+    "entities/quests/twin-sword-origin.md": {
+      "before_sha256": "5c705f7f029cb1fcffe1076ee29aaacdfff71ac5df1659c04c16c5bf5aa31c88",
+      "after_sha256": "28a1b7df85468755f365c5e60798042c2e4eeb7a88bb90628a5ffa3b68852e08"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "2a476848c5d837baf266d086aea79e537d171001c42e27216fd961612c13f31f",
+      "after_sha256": "a988e3fc8254873115842aa706e6a35075366a209842215a66f67738d5fb1212"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "b1ff52ad18988105880789da382cb98a2475a6a4dc9c2605057573d268707ee8",
+      "after_sha256": "44791057480ad1807df95f02f930f4b171a16d341e6ce08f524e36187b73c6ac"
+    }
+  }
+}
