@@ -1,0 +1,40 @@
+{
+  "source_ref": "archive/design-proposals/ancient-dragon-humanoid-forms.md",
+  "revisions": {
+    "artwork/dragons/README.md": {
+      "before_sha256": "44bc876e3c8ad232ad03806035038c985b22628e77b209e9beb296ea8b211129",
+      "after_sha256": "09598cdb23c63d8c507088cb3d97ceea9975a48f991aaa980d68d30b61d6b0a7"
+    },
+    "changes/CHANGELOG.md": {
+      "before_sha256": "a5605150175deafcf7472766e750a0f290cc02af2f07c96b736a3397dc1e1af7",
+      "after_sha256": "5b69b89a45ae4e334ed3444cb55d3fca0a93d76052c83d9ebc5c876acf538c11"
+    },
+    "entities/creatures/aurelith.md": {
+      "before_sha256": "f7a3cfd48a93322b9c79c8faed15df59720902e43751f59434aa1c843be48669",
+      "after_sha256": "c3c70546657dfb741392acaf05dcfd0479a8405e92c908a3e4cc2cb20ebcc42a"
+    },
+    "entities/creatures/ilyssara.md": {
+      "before_sha256": "74e3b46584931ceaf588bc9b41b3ae58e0fafcd8b40c4014e8236ad9025e7ac2",
+      "after_sha256": "73cfb36b420451a9f8b9efb0902d5fc433a74e8a5c2cfe6ded2a0b761c827e0c"
+    },
+    "entities/creatures/tharosyn.md": {
+      "before_sha256": "b1ff8a25d9dbe72195e551277e2b195b1753c1b826afabbaa7e399efad1ba3fc",
+      "after_sha256": "272e20c213404424acb2ea5f9b0ab843908aa89c0224558e7be92e3df875488a"
+    },
+    "entities/creatures/vaeltharion.md": {
+      "before_sha256": "1ad704f2d6f4c652da836f2592de41d7ae677964e79d3751528ac8490b0924da",
+      "after_sha256": "53dbd6d32737db27699b8e303890ad08b8b8d73e9e8c220604b5416aa953600d"
+    },
+    "index.json": {
+      "before_sha256": "dad092a132674b6876b0870ee739fcb10b7af52479da2f5884a816759b1177c0",
+      "after_sha256": "dcbe07224b4d1c4d05f13b8bd48da3353514ce36cd9a077dd81cc2aa7c792c34"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "4236ff808dfe4b1adb15657683e55c4718ee1987e5d853136f0cbb927a3e72c6",
+      "after_sha256": "2a476848c5d837baf266d086aea79e537d171001c42e27216fd961612c13f31f"
+    }
+  },
+  "historical_sha256": {
+    "archive/design-proposals/ancient-dragon-humanoid-forms.md": "84f8e6be1f610fb14f5138501791a349343e7436944ac9afe0eac3538e2793b0"
+  }
+}

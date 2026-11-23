@@ -9,7 +9,7 @@ import shutil
 import tempfile
 import unittest
 
-from snapshot_helpers import YEAR852_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES
+from snapshot_helpers import DRAGON_REFERENCE_REVISIONS, YEAR852_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES
 from scripts.validate import ValidationError, validate
 from scripts.settlement_expansion import POPULATIONS, validate_dispatch
 
@@ -115,7 +115,7 @@ class Phase2SettlementTests(unittest.TestCase):
             f = json.loads((ROOT/'tests/fixtures/phase2-02-preservation.json').read_text())
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path, revision in f['authorized_owner_revisions'].items():
-                current = (SUNCREST262_REVISED_AUTHORITIES | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES).get(path, revision)
+                current = (SUNCREST262_REVISED_AUTHORITIES | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES | DRAGON_REFERENCE_REVISIONS).get(path, revision)
                 self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), current['after_sha256'], path)
             for path, legacy in f['legacy_settlement_payloads'].items():
                 current = json.loads(re.search(r'```json\n(.*?)\n```', (ROOT/path).read_text(), re.S)[1])
