@@ -2,11 +2,15 @@
 
 This directory routes existing authorities; it owns no balances, titles, payroll or inventory. Resolve IDs through [index](../index.json). Read only needed owner records, their dates and qualification, then supporting evidence where disputed. GM-reference does not establish Theron's knowledge. No hidden main-quest answers are added to this public repository; visibility remains unchanged.
 
+## Year 852 Day 1 financial reconciliation
+
+The historical 317 gp expansion is completed and paid in played continuity. Its settlement posting and supporting documentation remain unverified. Ordinary controlled cash remains 7,145 gp provisional, with the 20 gp bridge unposted. The [audit reconciliation](../changes/chronicles/year852-day1-financial-audit-reconciliation.md) gives the verified ledger matches, narrative ruling and current financial verification queue.
+
 ## Authority map
 
 | Domain | Owner / procedure | Boundary |
 |---|---|---|
-| Current detailed finances | [finance ledger](../state/finance-ledger.json), [party finances](../entities/mechanics/party-finances.md) | Single current ledger4; Day181 endpoint projection is qualified, with Day156 preserved as history. Old tills/reserves are not extra cash. Control does not prove sole personal legal title. |
+| Current detailed finances | [finance ledger](../state/finance-ledger.json), [party finances](../entities/mechanics/party-finances.md) | The single current ledger records the provisional Year 852 Day 1 close. Old tills/reserves are not extra cash. Control does not prove sole personal legal title. |
 | Accounting / reports | [economy-accounting](../entities/mechanics/economy-accounting.md), `scripts/economy.py --report` | Read-only five-domain procedure; no posting engine or competing ledger. |
 | Business finances | [business-financial-references](../entities/mechanics/business-financial-references.md), [settlement directory](settlement-directory.md) | Fourteen existing parent-scoped references, owner/manager/operator dereferenced from parents. Null current receipts/expenses; no daily profit. |
 | Property / equipment | [property-financial-references](../entities/mechanics/property-financial-references.md) | Four property contexts plus original equipment/animal/inventory owners; no appraisal total or ownership change. |
@@ -28,7 +32,7 @@ Each property reference supports name/location/type/owner/manager, land/building
 
 ## Financial report and recognition
 
-Run `python scripts/economy.py --report` from the repository (or `--root PATH`). Validation runs before rendering JSON. No files are written. Report source/as-of/qualification, controlled/committed/uncommitted cash, each source account owner label and exclusions separately. The current ledger4 represents the [reconciled Day181 endpoint](day181-final-reconciliation.md):745gp9sp controlled,317gp unpaid commitment,428gp9sp uncommitted; current account allocations remain UNKNOWN. The earlier Day156771gp9sp/317gp/454gp9sp position is preserved only as historical evidence.
+Run `python scripts/economy.py --report` from the repository (or `--root PATH`). Validation runs before rendering JSON. No files are written. Report source/as-of/qualification, controlled/committed/uncommitted cash, each source account owner label and exclusions separately. The [current ledger](../state/finance-ledger.json) records 7,145 gp provisional, with current account allocations unknown. The [Day 181 reconciliation](day181-final-reconciliation.md) and earlier Day 156 position preserve the balances and commitment classifications at those checkpoints.
 
 Income statement shows current-period receipts, incurred costs and profit UNKNOWN where coverage is absent. Eight modeled operating periods remain explicitly a player-approved reconstruction:2160gp receipts,1640gp expenses,520gp surplus/distribution already applied once. The69gp later net posting supplies no invented gross receipts or wage breakdown. Reconciliation reports pre-arc opening, posted net inflows/outflows, closing and arithmetic difference, while retaining the125gp unitemized bridge as an evidence gap. Zero arithmetic difference does not certify receipts.
 
@@ -38,7 +42,7 @@ Transfers, purse distributions and reserve allocations have zero new income effe
 
 Future payroll carries employee/employer/job/rate/unit/period/hours-work/gross/deductions/status/date/source and transaction/expense-coverage references. Rates and wages owed stay UNKNOWN. Check existing aggregate operating-expense coverage before individual payroll; do not charge twice. Unpaid wages, if later actually established, are liabilities rather than cash outflows. Youth helpers retain optional supervised safe paid light work with unconditional shelter/meals/school; no hazardous/forge/night work.
 
-Construction proposal, approval, commitment, progress, payment and completion need separate evidence. All eight requested statuses are supported. The317gp expansion remains committed/unpaid and not started; no invoice, payment or construction is generated. A commitment reduces uncommitted availability while remaining in controlled cash. Already-paid land, facilities, armor, wagon remainder, provisions and restitution are neither credited nor deducted again.
+Construction proposal, approval, commitment, progress, payment and completion need separate evidence. All eight requested statuses are supported. The 317 gp expansion was classified as committed, unpaid and not started at Day 196. The later player ruling and documentation status are recorded in the audit reconciliation above. A commitment reduces uncommitted availability while remaining in controlled cash. Already-paid land, facilities, armor, wagon remainder, provisions and restitution are neither credited nor deducted again.
 
 ## Pricing, trade and required decisions
 
@@ -46,7 +50,7 @@ Historical prices, verified quotations, proposed references, regional estimates 
 
 Trade templates support suppliers, business IDs, classified routes/access, contract, delivery cost, storage/capacity, inventory ownership and legally sourced customs/tolls, plus actual departure/arrival evidence. No supplier, working route, shipment or sale is inferred from the directory. Guild contract funding/outcome and road classification remain with their existing owners.
 
-Remaining UNKNOWN / REQUIRES APPROVAL: individual wage rates/due dates and payroll coverage, current business receipts/expenses, legal ownership detail for managed accounts, current academy accounts/premises title, property values, precise price-increase sources/quotes, active suppliers/customs/tolls, and any future transaction. Day181's supplied745gp9sp controlled/317gp committed/428gp9sp uncommitted is now adopted with26gp cottage repair provenance now player-confirmed and current account allocations unresolved; no Blackscale withdrawal is assumed. No balancing entries.
+Remaining UNKNOWN / REQUIRES APPROVAL: individual wage rates/due dates and payroll coverage, current business receipts/expenses, legal ownership detail for managed accounts, current academy accounts/premises title, property values, precise price-increase sources/quotes, active suppliers/customs/tolls, and any future transaction. The historical Day 181 balance included 317 gp committed, and the later player-confirmed 26 gp cottage repair reconciliation preserves its own separate scope.
 
 ## Preservation and limits
 
