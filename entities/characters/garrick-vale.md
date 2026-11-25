@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -46,6 +47,10 @@ Voluntarily agreed to consolidate personal campaign balance into the Theron-mana
 
 Traveled with Seven Bells expedition; currently holds Perrin, Dask and lodge supervisor Corven under nonlethal guard at North Return House, all unharmed. Hollow security assignment above is historical. No current numerical HP/MP supplied; no party injuries.
 
+
+## Year 852 close
+
+Returned safely and attended the council. Handled expedition security, logistics and recovery. Investigated the Mill Road traps and theft with Nyx. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
 
 ## Character sheet
 

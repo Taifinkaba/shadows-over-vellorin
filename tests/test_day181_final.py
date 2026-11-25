@@ -6,7 +6,7 @@ import json
 import unittest
 import test_day181
 ROOT=test_day181.ROOT
-from snapshot_helpers import TWIN_SWORD_REVISIONS, DRAGON_REFERENCE_REVISIONS, YEAR852_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES, CHARACTER_SHEET_REVISIONS, DAY196_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES, restore_reconciled_day181
+from snapshot_helpers import YEAR852_CLOSE_REVISIONS, TWIN_SWORD_REVISIONS, DRAGON_REFERENCE_REVISIONS, YEAR852_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES, CHARACTER_SHEET_REVISIONS, DAY196_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES, restore_reconciled_day181
 from scripts.validate import validate,validate_finance_ledger
 from scripts.gm_dashboard import build_dashboard,verify_view
 from scripts.economy import financial_report
@@ -48,7 +48,7 @@ class FinalReconciliationTests(test_day181.Day181Tests):
             for key,value in manifest.items():
                 if isinstance(value,dict):
                     for path,digest in value.items():
-                        if path not in (DAY196_REVISED_AUTHORITIES | SUNCREST262_REVISED_AUTHORITIES | CHARACTER_SHEET_REVISIONS | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES | DRAGON_REFERENCE_REVISIONS | TWIN_SWORD_REVISIONS) and isinstance(digest,str) and len(digest)==64:self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest,path)
+                        if path not in (DAY196_REVISED_AUTHORITIES | SUNCREST262_REVISED_AUTHORITIES | CHARACTER_SHEET_REVISIONS | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES | DRAGON_REFERENCE_REVISIONS | TWIN_SWORD_REVISIONS | YEAR852_CLOSE_REVISIONS) and isinstance(digest,str) and len(digest)==64:self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),digest,path)
         with self.subTest(case='test_repair_mutations_rejected'), isolated_case(self):
             original=copy.deepcopy(self.ledger)
             for field,value in [('amount_cp',801),('account_id','blackscale'),('time','12:00'),('application_count',2),('commitment_effect_cp',-800),('source_quote','invented'),('date','Year 848 Day 159')]:

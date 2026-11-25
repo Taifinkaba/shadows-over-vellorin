@@ -1,0 +1,332 @@
+# CODEX — SHADOWS OVER VELLORIN END-SESSION UPDATE
+
+## Objective
+
+Update the existing campaign repository to preserve all confirmed narrative, character, financial, quest, estate, companion and calendar developments through **Year 852, Day 365**.
+
+The next playable date is **Year 853, Day 1**.
+
+Read the current repository structure, canonical records, rules and tests before making changes. Use the existing file organization and schemas. Do not overwrite established lore merely to accommodate this handoff.
+
+This material represents story developments played in ChatGPT but not yet committed to the repository. Reconcile them against existing canonical entries, distinguish confirmed facts from theories, and record all changes in the appropriate logs.
+
+## 1. Campaign checkpoint
+
+- Current character: Theron Ashvale, alias Blackscale.
+- Elf, male, Battlemage / Advanced Runecrafter.
+- Rank: S+.
+- Level: 6.
+- Attributes: STR 14, DEX 20, CON 19, INT 21, WIS 20, CHA 20.
+- Unspent attribute points: 0.
+- Maximum HP: 104.
+- Last recorded HP: 100.
+- Maximum personal MP: 410.
+- Last recorded personal MP: 351.
+- Sovereign Nexus last recorded charge: 156/180 MP.
+- DEF: 46 base, 49 normal, 51 when wearing Night Sovereign.
+- Preserve all established equipment, spells, costs, abilities, companions, bonds and locked progression.
+
+Do not invent automatic regeneration or award a new level.
+
+## 2. Critical financial rule — USER-APPROVED CORRECTION
+
+**Theron is the expedition leader, owner and primary financier.**
+
+Every Guild contract reward earned by Theron's funded expedition belongs to his controlled treasury.
+
+Companions receive supplies, transportation, equipment, lodging, animal care and approved operating support through Theron's expedition funding.
+
+Companions do not automatically receive equal shares of Guild rewards.
+
+Any salary, bonus, gift or separate compensation must be explicitly authorized by Theron.
+
+Retroactively invalidate the previously narrated automatic companion reward distributions. Treat them as corrections to the records, NOT new income or actual repayment transactions.
+
+This rule does not change DSI's independent student earnings, taxation or treasury.
+
+### Corrected treasury calculation
+
+Opening controlled working funds, Year 852 Day 264: **5,345 gp**.
+
+Verified net Guild rewards:
+
+- WG-852-260 Missing Surveyors: 108 gp.
+- WG-852-261 Roadside Extortion: 76 gp 5 sp.
+- WG-852-347 Missing Medicine Cart: 99 gp.
+- WG-852-354 Mill Road Disappearances: 81 gp.
+
+Total: **364 gp 5 sp**.
+
+Verified expenses:
+
+- Expedition provisions and supplies: 9 gp 5 sp.
+- Forgotten Watchpost outer maintenance passage: 54 gp, paid.
+- Grand Arena Phase VI: 500 gp, paid.
+
+Final corrected controlled working treasury:
+
+**5,146 gp.**
+
+Preserve all earlier legitimate expenses and financial records. Do not deduct the 54 gp or 500 gp twice.
+
+Unitemized ordinary expenses and revenues must remain unverified rather than being fabricated.
+
+The historical 317 gp estate expansion and 20 gp provisions discrepancy were previously resolved. Do not reopen them.
+
+## 3. Completed Guild missions
+
+### WG-852-260 — Missing Surveyors
+
+- Three survivors: Joren Vale, Mira Fenwick and Tavren Holt.
+- All recovered alive near the damaged northern crossing and road station.
+- No fatalities.
+- The principal incident was an accident rather than confirmed kidnapping.
+- Gross reward 120 gp.
+- Guild commission 12 gp.
+- Net treasury receipt 108 gp.
+- Completed and paid.
+
+### WG-852-261 — Roadside Extortion
+
+- Investigation identified unlawful demands on merchants.
+- Two suspects transferred to the local watch.
+- No fatalities.
+- Gross reward 85 gp.
+- Guild commission 8 gp 5 sp.
+- Net treasury receipt 76 gp 5 sp.
+- Completed and paid.
+- Final judicial outcome not established.
+
+### WG-852-347 — Missing Medicine Cart
+
+- Two carriers rescued: Davin Orrel and Sella Marr.
+- Medical cargo recovered.
+- Gross reward 110 gp.
+- Guild commission 11 gp.
+- Net treasury receipt 99 gp.
+- Completed and paid.
+
+### WG-852-354 — Mill Road Disappearances
+
+- Garrick and Nyx investigated deliberate road traps and theft.
+- Two suspects transferred to the watch.
+- Cargo recovered.
+- No fatalities.
+- Gross reward 90 gp.
+- Guild commission 9 gp.
+- Net treasury receipt 81 gp.
+- Completed and paid.
+
+IMPORTANT: Even when Garrick and Nyx performed the mission independently, it remained part of Theron's funded expedition. The complete 81 gp is credited to Theron's treasury. Earlier personal payouts are superseded by the user's correction.
+
+## 4. White Runeblade investigation
+
+Preserve established origins:
+
+- Both swords forged by Gareth Vaelwright.
+- Black Runeblade commissioned by Aric Ashvale.
+- White Runeblade commissioned by Lady Isolde Vaeren through Winterglass Private Trust.
+- Different frost-line draconic sources.
+- The white sword's original commission states that it preserves a reflection of an oath without granting authority to compel it.
+- The white blade remains in Theron's possession pending rightful custody review.
+
+### Investigative findings
+
+WT-44 was an improper release lacking required authorization.
+
+The inquiry uncovered:
+
+1. An expired and missing temporary witness credential associated with Darian Vell.
+2. Historical transport through Westbridge Document Transport Company, including driver Bastian Rell.
+3. Delivery of the credential box to records broker Edran Cale.
+4. Collection by document examiner Varek Sorn.
+5. Payment through House Merrow Trading.
+6. Written instructions from Odran Merrow to proceed with the white Runeblade release despite insufficient approval.
+7. Transfer to a Velmere commercial warehouse.
+8. Collection by Teren Vhal.
+9. Teren's refusal of a suspicious beneficiary presentation.
+10. Theft of the blade from his courier, Olin Harrow.
+11. A covered carriage displaying a black crown divided by a hooked silver mark.
+12. Carriage traced to Kestrel Transit House under Dorian Kest.
+13. A special account described as Crown Service C-17.
+14. Carriage movement to Blackthorn Depot.
+15. Depot records showing historical receipt by Caldris Fen and onward transfer toward the Crown Ledger Office.
+16. Receiving agent Marek Dorne, Chief Custody Officer.
+17. Crown Ledger Office financial records recording transfer toward a Hollow Crown special collection account.
+18. Evidence Marek attempted to end the arrangement and later sought protection in Westbridge.
+19. A restricted sworn statement made by Marek Dorne and preserved with Westbridge magistrates.
+
+The public statement index identifies an unauthorized Winterglass Trust blade collection for a group using the name Hollow Crown.
+
+### Current investigative status
+
+Confirmed: Odran Merrow ordered an improper release process. The sword was subsequently stolen from Olin Harrow, and records trace the carriage and associated transaction through the Crown Ledger Office.
+
+Not confirmed: the identity of the person who physically received the white sword from the Hollow Crown collection operation, whether that person directly participated in Lyanna's abduction, or the exact chain of custody from that collection to the kidnapping.
+
+Marek Dorne disappeared after submitting his statement. His present whereabouts remain unknown.
+
+His full sworn statement has NOT been obtained.
+
+**Next important action:** Seek lawful evidentiary access to Marek Dorne's sworn statement in Westbridge.
+
+Do not claim the abduction conspiracy is completely solved.
+
+## 5. Forgotten Watchpost / Greyhaven boundary
+
+The site remains restricted under Beren's academy safety procedures.
+
+Established findings:
+
+- Underground chamber with three concentric rings, four smaller recesses and a central depression.
+- Fourth-state pointer remains at isolated state.
+- External isolation shutter remains closed.
+- Concealed arch remains unopened.
+- Witness observation interface remains functional.
+- Ancient instructions distinguish witnessing, outer maintenance and inner release authority.
+- Two-note mechanical bell signal identified.
+- Third-note escalation associated with obstruction of the outer maintenance passage.
+- Outer passage cleared and repaired by qualified workers at a paid cost of 54 gp.
+- Subsequent monitoring showed reduced warning activity.
+- New defensive witness protocol adopted.
+
+### The Threshold Covenant
+
+Both Runeblades incorporate ceremonial principles from the Threshold Covenant tradition. This establishes shared textual influence but does NOT establish that the swords can open the watchpost.
+
+A surviving manuscript, Record of Entrusted Boundaries, and the Testimony of the Last Witness were examined under monastery supervision.
+
+The Greyhaven historical testimony states that the fourth isolation condition was maintained after a voice from beyond the boundary claimed authority that the original witnesses could not independently authenticate.
+
+The witness warned against accepting commands merely because they were spoken from beyond the boundary.
+
+This is historical testimony. The current nature or existence of the Unclaimed Voice remains unknown.
+
+### Safety rules
+
+- Never automatically open the concealed arch.
+- Never treat possession of the swords as release authority.
+- Never give Beren or Theron unverified authority over the inner mechanism.
+- Maintain independent witnessing, authentication, emergency evacuation and outer maintenance procedures.
+- Keep DSI students outside the restricted area.
+
+## 6. Ashvale Grand Arena
+
+Preserve all earlier paid construction and prototype records.
+
+During the played period:
+
+- Existing two full-height test obelisks remained installed.
+- Upper combat field geometry was improved under controlled tests.
+- Spectator shields demonstrated independent layers and failure isolation.
+- An unwanted energy-transfer path toward evacuation stonework was corrected in the test installation.
+- Phase VI was approved for 500 gp.
+- Phase VI construction completed and 500 gp paid once.
+- Additional limited spectator protection was installed.
+- Low-load thermal and independent-shutdown tests passed after adjustments.
+- Physical nonmagical evacuation routes remained accessible under test.
+- Higher-force endurance remains limited by available protective energy reserves.
+
+The remaining six combat obelisks have NOT been built.
+
+Full 1,200-seat spectator protection has NOT been built.
+
+Dragon-class combat has NOT been certified.
+
+No additional construction purchase is approved after Phase VI.
+
+Bren continues independent engineering and is responsible for new quotations and safety evidence.
+
+## 7. Ashvale healing wing
+
+- Four regenerative beds.
+- Eight functioning, calibrated cartridges.
+- One defective cartridge was replaced under warranty without additional capital charge.
+- All eight cartridges later passed routine operational checks.
+- Supervised treatment continues under Theron's mother as medical director.
+- Staffing generally supports up to three concurrent patients with appropriate qualified coverage.
+- The fourth bed is usable when sufficient staff are present.
+- Clinical evidence is not sufficient to establish a universal HP-per-hour treatment rate.
+- A narrower clinical follow-up review for defined minor injuries is underway.
+
+Do not grant infinite healing, automatic unattended clinical coverage or invented medical profit.
+
+## 8. DSI Academy
+
+Beren remains the independent operational leader.
+
+The academy continues with 13 students, six of whom are Guild-registered.
+
+Preserve their established ranks, stats, profiles, finances and progression.
+
+The student taxation policy remains distinct from Theron's expedition finance policy.
+
+Do not invent student missions, earnings, level increases or tax revenue.
+
+Watchpost safety restrictions remain in force.
+
+## 9. Party and companion status
+
+Established field companions:
+
+- Maeryn — Theron's close combat and field partner.
+- Aric Ashvale — father, swordsman and investigation support.
+- Lyra — researcher, evidence and archive specialist.
+- Garrick — security, logistics and recovery.
+- Nyx — ranger, tracking and animal coordination.
+- Raze — Theron's analysis construct.
+- Aegis — Theron's defensive construct.
+- Caelrix — independent staff-bound spirit.
+
+Animal companions:
+
+- Alpha — independent Frostfang alpha, not a magically bound pet.
+- Shade — Theron's bonded wolf.
+- Ember / Frostmoon — wolf associated with Nyx.
+- Aurelion — free-ranging eagle companion.
+- Velmir and Arcthel — established expedition mounts.
+- Preserve all other existing wagon horses and animals from repository canon.
+
+All known field companions and animals returned safely or were accounted for by the end of Year 852.
+
+Independent advisers such as Vaeltharion are not Theron's subordinates.
+
+The Sovereign Expedition Wagon and its existing equipment remain available. No unsupported upgrades are granted.
+
+## 10. Final scene and next-session start
+
+Year 852 ended with the party returning to Ashvale Estate.
+
+Theron, Maeryn, Aric, Lyra, Garrick, Nyx and the others attended a grand council.
+
+Lyanna spoke privately with Theron and asked him to bring the people responsible for her kidnapping to justice without losing himself.
+
+Theron agreed.
+
+The next session opens on **Year 853, Day 1** at Ashvale Estate.
+
+Possible new-year activities:
+
+- Family celebration with companions and invited dragon friends.
+- Begin Westbridge testimony investigation.
+- Continue arena and medical operations asynchronously.
+- Review DSI students and their progress.
+- Maintain Greyhaven watchpost containment.
+
+Do not invent a new year length. The calendar uses 365 days per year.
+
+## 11. Implementation requirements
+
+1. Read the current canonical files and relevant repository rules.
+2. Map this checkpoint into existing character, inventory, finance, quest, calendar and narrative structures.
+3. Preserve existing confirmed entries and append only genuinely new developments where appropriate.
+4. Label unsupported interpretations and unresolved evidence explicitly.
+5. Apply the expedition-finance correction retroactively without double counting.
+6. Do not silently change established stats, equipment, ranks, finances or lore.
+7. Add or update validation tests where the repository requires them.
+8. Run the existing validation suite and report results accurately.
+9. Provide a concise changed-files report, with unresolved discrepancies called out.
+
+If an existing repository rule conflicts with a narrative claim here, flag the conflict for reconciliation instead of inventing an explanation.
+
+The session ends on **Year 852, Day 365** with **5,146 gp controlled working funds**. The next playable scene is **Year 853, Day 1**.

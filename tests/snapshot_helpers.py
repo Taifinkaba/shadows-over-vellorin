@@ -88,3 +88,8 @@ DRAGON_REFERENCE_REVISIONS = json.loads(
 TWIN_SWORD_REVISIONS = json.loads(
     DAY196_MANIFEST.with_name('twin-sword-authority-revisions.json').read_text()
 )['revisions']
+
+
+YEAR852_CLOSE_REVISIONS = json.loads(
+    DAY196_MANIFEST.with_name('year852-day365-authority-revisions.json').read_text()
+)['revisions']

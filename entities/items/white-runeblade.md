@@ -4,6 +4,7 @@ type: items
 status: gm-secret-locked
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year852-day365-end-session.md
   - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
   - "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md"
   - "archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md"
@@ -18,3 +19,7 @@ Recovered during Lyanna’s first-dungeon abduction investigation; held by Thero
 ## Recovery and inscription
 
 The recovery connects the blade to the abductors’ network. Its reflective frost signature and inscription **“...ITS REFLECTION SHALL REMEMBER THE WAY.”** complement the black Runeblade. The recovered blade belongs to Theron. [Dawnbreaker’s Promise](dawnbreakers-promise.md) is a separate sword owned by Lyanna. [Source reconciliation](../../changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md)
+
+## Winterglass Private Trust commission
+
+Gareth Vaelwright forged the blade for Lady Isolde Vaeren through Winterglass Private Trust, using a frost-line source distinct from the black blade’s. The commission describes preserving a reflection of an oath without granting authority to compel it. Theron retains the blade pending rightful custody review. Exact recipient and custody after the Hollow Crown collection remain open. [Investigation](../../changes/chronicles/year852-day365-end-session.md#white-runeblade-investigation)

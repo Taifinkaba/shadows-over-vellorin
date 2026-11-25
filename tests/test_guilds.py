@@ -126,7 +126,7 @@ class GuildTests(unittest.TestCase):
             self.assertIn('checkpoint valid',validate(self.root))
             self.assertEqual(len(self.data('guild-network')['organizations']),9)
             self.assertEqual(len(self.data('continental-guild-concord')['divisions']),8)
-            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),6)
+            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),10)
         with self.subTest(case='test_duplicate_guild_id'), isolated_case(self):
             self.reject('guild-network',lambda d:d['organizations'].append(d['organizations'][0]),'duplicate guild ID')
         with self.subTest(case='test_branch_guild_reference'), isolated_case(self):
@@ -148,7 +148,7 @@ class GuildTests(unittest.TestCase):
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path,digest in f['guild_prefix_sha256'].items():
                 prefix = (ROOT/path).read_text().split(GUILD_MARKER)[0]
-                for source in ('year848-day196-end-session', 'year848-suncrest262-end-session', 'year851-day160-end-session', 'year852-day1-end-session'):
+                for source in ('year848-day196-end-session', 'year848-suncrest262-end-session', 'year851-day160-end-session', 'year852-day1-end-session', 'year852-day365-end-session'):
                     prefix = prefix.replace(f'- changes/chronicles/{source}.md\n', '', 1)
                 prefix = re.sub(r'\n## Year 848, Suncrest 262 update\n.*?\n## Earlier record\n',
                                 '', prefix, count=1, flags=re.S)

@@ -4,6 +4,7 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
@@ -377,6 +378,165 @@ This structured section belongs to this existing organization. Original prose/fr
       "last_verified_date": "Year 848 Day 196",
       "last_verified_note": "Verified by session close. Exact completion date, route, funding and underlying legal documents are unknown.",
       "funding_source_quote": null
+    },
+    {
+      "contract_id": "WG-852-260",
+      "classification": "CONFIRMED CANON",
+      "issuing_organization_id": null,
+      "registry_organization_id": "wayfarers-guild",
+      "funding_party_id": null,
+      "funding_party_name": null,
+      "funding_source_ref": null,
+      "funding_committed_cp": null,
+      "objective": "Missing Surveyors",
+      "location_id": null,
+      "difficulty": null,
+      "eligibility_requirements": null,
+      "legal_authorization_ref": null,
+      "apprehension_authorized": false,
+      "acceptance_status": null,
+      "assigned_party_ids": null,
+      "deadline": null,
+      "reward_cp": null,
+      "reward_guaranteed": false,
+      "expenses_fees": null,
+      "evidence_requirements": null,
+      "completion_conditions": null,
+      "completion_status": "session-completed",
+      "payment_status": "session-paid",
+      "historical_payment_cp": null,
+      "historical_application_count": 0,
+      "current_availability": "completed-not-current-offer",
+      "existing_quest_ref": null,
+      "independent_notices_cancelled": false,
+      "financial_postings": [],
+      "source_refs": [
+        "changes/chronicles/year852-day365-end-session.md"
+      ],
+      "source_quote": "Three survivors: Joren Vale, Mira Fenwick and Tavren Holt.",
+      "last_verified_date": "Year 852 Day 365",
+      "last_verified_note": "Verified by the session close. Gross reward and commission are in the session chronicle. The net receipt is in the sole finance ledger under this contract ID.",
+      "funding_source_quote": null
+    },
+    {
+      "contract_id": "WG-852-261",
+      "classification": "CONFIRMED CANON",
+      "issuing_organization_id": null,
+      "registry_organization_id": "wayfarers-guild",
+      "funding_party_id": null,
+      "funding_party_name": null,
+      "funding_source_ref": null,
+      "funding_committed_cp": null,
+      "objective": "Roadside Extortion",
+      "location_id": null,
+      "difficulty": null,
+      "eligibility_requirements": null,
+      "legal_authorization_ref": null,
+      "apprehension_authorized": false,
+      "acceptance_status": null,
+      "assigned_party_ids": null,
+      "deadline": null,
+      "reward_cp": null,
+      "reward_guaranteed": false,
+      "expenses_fees": null,
+      "evidence_requirements": null,
+      "completion_conditions": null,
+      "completion_status": "session-completed",
+      "payment_status": "session-paid",
+      "historical_payment_cp": null,
+      "historical_application_count": 0,
+      "current_availability": "completed-not-current-offer",
+      "existing_quest_ref": null,
+      "independent_notices_cancelled": false,
+      "financial_postings": [],
+      "source_refs": [
+        "changes/chronicles/year852-day365-end-session.md"
+      ],
+      "source_quote": "Two suspects transferred to the local watch.",
+      "last_verified_date": "Year 852 Day 365",
+      "last_verified_note": "Verified by the session close. Gross reward and commission are in the session chronicle. The net receipt is in the sole finance ledger under this contract ID.",
+      "funding_source_quote": null
+    },
+    {
+      "contract_id": "WG-852-347",
+      "classification": "CONFIRMED CANON",
+      "issuing_organization_id": null,
+      "registry_organization_id": "wayfarers-guild",
+      "funding_party_id": null,
+      "funding_party_name": null,
+      "funding_source_ref": null,
+      "funding_committed_cp": null,
+      "objective": "Missing Medicine Cart",
+      "location_id": null,
+      "difficulty": null,
+      "eligibility_requirements": null,
+      "legal_authorization_ref": null,
+      "apprehension_authorized": false,
+      "acceptance_status": null,
+      "assigned_party_ids": null,
+      "deadline": null,
+      "reward_cp": null,
+      "reward_guaranteed": false,
+      "expenses_fees": null,
+      "evidence_requirements": null,
+      "completion_conditions": null,
+      "completion_status": "session-completed",
+      "payment_status": "session-paid",
+      "historical_payment_cp": null,
+      "historical_application_count": 0,
+      "current_availability": "completed-not-current-offer",
+      "existing_quest_ref": null,
+      "independent_notices_cancelled": false,
+      "financial_postings": [],
+      "source_refs": [
+        "changes/chronicles/year852-day365-end-session.md"
+      ],
+      "source_quote": "Two carriers rescued: Davin Orrel and Sella Marr.",
+      "last_verified_date": "Year 852 Day 365",
+      "last_verified_note": "Verified by the session close. Gross reward and commission are in the session chronicle. The net receipt is in the sole finance ledger under this contract ID.",
+      "funding_source_quote": null
+    },
+    {
+      "contract_id": "WG-852-354",
+      "classification": "CONFIRMED CANON",
+      "issuing_organization_id": null,
+      "registry_organization_id": "wayfarers-guild",
+      "funding_party_id": null,
+      "funding_party_name": null,
+      "funding_source_ref": null,
+      "funding_committed_cp": null,
+      "objective": "Mill Road Disappearances",
+      "location_id": null,
+      "difficulty": null,
+      "eligibility_requirements": null,
+      "legal_authorization_ref": null,
+      "apprehension_authorized": false,
+      "acceptance_status": null,
+      "assigned_party_ids": [
+        "garrick-vale",
+        "nyx-thorne"
+      ],
+      "deadline": null,
+      "reward_cp": null,
+      "reward_guaranteed": false,
+      "expenses_fees": null,
+      "evidence_requirements": null,
+      "completion_conditions": null,
+      "completion_status": "session-completed",
+      "payment_status": "session-paid",
+      "historical_payment_cp": null,
+      "historical_application_count": 0,
+      "current_availability": "completed-not-current-offer",
+      "existing_quest_ref": null,
+      "independent_notices_cancelled": false,
+      "financial_postings": [],
+      "source_refs": [
+        "changes/chronicles/year852-day365-end-session.md"
+      ],
+      "source_quote": "Garrick and Nyx investigated deliberate road traps and theft.",
+      "last_verified_date": "Year 852 Day 365",
+      "last_verified_note": "Verified by the session close. Gross reward and commission are in the session chronicle. The net receipt is in the sole finance ledger under this contract ID.",
+      "funding_source_quote": null
     }
   ],
   "new_memberships": [],
@@ -389,3 +549,7 @@ This structured section belongs to this existing organization. Original prose/fr
 ## Day 182–196 completed contracts
 
 Both new contracts are recorded in the registry below. Gross rewards and deductions are in the [sole finance ledger](../../state/finance-ledger.json). The earlier SS-41 withdrawal and paid records retain their existing status.
+
+## Year 852 completed expedition contracts
+
+The four funded contracts are completed and paid. The existing ledger owns the net receipts, and the employer and judicial details remain scoped to the played outcomes. [Session evidence](../../changes/chronicles/year852-day365-end-session.md#completed-guild-missions)

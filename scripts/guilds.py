@@ -294,11 +294,21 @@ def validate_guilds(root, records, require, repository_file, unique_json):
     else: from finance_v3 import DAY196, DAY196_EVENTS
     history = {'G-215','G-216','B-83','SS-41'}
     completed = {event[2] for event in DAY196_EVENTS.values() if event[2] is not None}
-    if (root / DAY196).is_file():
-        require(set(contracts) == history | completed, 'guilds: missing or unsupported Day196 contract')
+    if __package__:
+        from .finance_expedition import SOURCE as EXPEDITION_SOURCE, REWARDS_CP
     else:
-        require(set(contracts) == history, 'guilds: missing historical record or invented contract')
+        from finance_expedition import SOURCE as EXPEDITION_SOURCE, REWARDS_CP
+    expedition = REWARDS_CP.keys() if (root / EXPEDITION_SOURCE).is_file() else set()
+    historical_ids = history | completed if (root / DAY196).is_file() else history
+    require(set(contracts) == historical_ids | expedition, 'guilds: missing or unsupported played contract')
     for cid,c in contracts.items():
+        if cid in expedition:
+            require(c['completion_status'] == 'session-completed' and c['payment_status'] == 'session-paid'
+                    and c['current_availability'] == 'completed-not-current-offer'
+                    and c['source_refs'] == [EXPEDITION_SOURCE] and c['reward_cp'] is None
+                    and c['deadline'] is None and c['reward_guaranteed'] is False,
+                    'guilds: expedition completion, payment or provenance differs')
+            continue
         if cid in completed:
             require(c['completion_status'] == 'session-completed' and c['payment_status'] == 'session-paid'
                     and c['current_availability'] == 'completed-not-current-offer'

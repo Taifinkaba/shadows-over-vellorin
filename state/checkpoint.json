@@ -1,29 +1,29 @@
 {
   "schema_version": 6,
-  "date": "Year 852 Day 1",
-  "time": "00:00",
-  "location": "Theron's Commercial Estate, Ashvale Grand Arena",
+  "date": "Year 852 Day 365",
+  "time": null,
+  "location": "Ashvale Estate",
   "theron": {
     "hp": 100,
-    "hp_max": 100,
-    "mp": 385,
-    "mp_max": 400,
+    "hp_max": 104,
+    "mp": 351,
+    "mp_max": 410,
     "defense": 46,
     "rank": "S+",
-    "level": 5,
-    "str": 13,
+    "level": 6,
+    "str": 14,
     "dex": 20,
-    "con": 18,
+    "con": 19,
     "int": 21,
     "wis": 20,
     "cha": 20,
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "7145gp",
+    "total_gp_sp": "5146gp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
-    "allocation_status": "Provisional played close; 100 gp purse target included; current purse and account allocations unverified",
+    "allocation_status": "Player-corrected controlled working funds; current purse and account allocations unverified",
     "provisional_status": "Earlier approximate report; excluded from current ordinary controlled cash",
     "office_status": "Earlier house funds report; excluded from current ordinary controlled cash"
   },
@@ -32,11 +32,24 @@
     "protective_anchors_retained": 7
   },
   "status": "ENDED",
-  "source": "changes/chronicles/year852-day1-end-session.md",
+  "source": "changes/chronicles/year852-day365-end-session.md",
   "context": {
-    "safety": "Session ended at Ashvale Grand Arena. Closing companion presence and wearing configuration remain unverified.",
-    "companions_present": [],
-    "party_roles": {},
+    "safety": "Returned safely to Ashvale Estate. Grand council and private conversation completed. Closing clock time, room and wearing configuration unverified.",
+    "companions_present": [
+      "maeryn-sol",
+      "aric-ashvale",
+      "lyra-moonvale",
+      "garrick-vale",
+      "nyx-thorne",
+      "lyanna-ashvale"
+    ],
+    "party_roles": {
+      "maeryn-sol": "Close combat and field partner",
+      "aric-ashvale": "Swordsmanship and investigation",
+      "lyra-moonvale": "Research, evidence and archives",
+      "garrick-vale": "Security, logistics and recovery",
+      "nyx-thorne": "Tracking and animal coordination"
+    },
     "projects": {
       "nexus_mana": "156/180 MP, independent pool.",
       "wagon_mana": "Original Sovereign Expedition Wagon 60/60 MP is a historical carry-forward, not a new observation.",
@@ -47,7 +60,7 @@
       "custody": "Last verified before adoption; see Day156 historical checkpoint: Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
       "guardian_channels": "Last verified before adoption; see Day156 historical checkpoint: Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
       "halden": "Last verified before adoption; see Day156 historical checkpoint: Rescued, free and voluntarily protected at Ashvale Estate",
-      "independent_assignments": "Garrick independently continues the Crown inquiry in Caelthorne. Lyanna and Nyx remain independent. Bren and Lyra continue lodge duties.",
+      "independent_assignments": "Field companions returned safely or were accounted for. Bren continues engineering and Beren oversees independent DSI operations. Other assignments require their own updated evidence.",
       "vanguard": "120/120 MP.",
       "night_sovereign": "Last verified before adoption; see Day156 historical checkpoint: Completed, tested, paid515gp; reserved scale consumed once",
       "maternal_healing": "Last verified before adoption; see Day156 historical checkpoint: Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
@@ -55,16 +68,19 @@
       "briarstone_repairs": "Player-confirmed completed by Year848 Suncrest45 Day165;26gp already reconciled in endpoint, not lodge expansion.",
       "lodge_supply_wagon": "80/80 MP, last recorded.",
       "witness": "Original testimony recovered; Valeth captured alive; Ashvale inquiry reopened; Darian Kestrel unresolved.",
-      "forgotten_watchpost": "Runes and stair found; chamber unentered.",
+      "forgotten_watchpost": "Isolated, shutter closed and concealed arch unopened; outer passage repaired for 54 gp. Defensive witnessing protocol active.",
       "ashvale_lodge": "Sovereign Vault constructed; Night Menagerie five minor masks certified v1.1; existing operations continue.",
-      "commercial_estate": "140 acres; 1,200-seat permanent arena and Dragon Friendship Retreat complete and paid.",
+      "commercial_estate": "140-acre commercial estate; Phase VI arena works completed and paid 500 gp. Dragon-class combat uncertified.",
       "recurring_events": "First monthly fair complete. Future markets and festivals are plans.",
       "festival": "Day 365 Grand Festival of the Year’s End: Maeryn champion, Theron runner-up; controlled voluntary dragon exhibition.",
       "time_chamber": "Restored Chamber Seven. 2× supervised occupied; 5× up to 8 internal hours supervised occupied; 10× up to 1 internal hour occupied; 15× experimental unmanned; 20× repeated unmanned up to 4 internal hours. Above 20× unverified.",
       "vital_continuity": "Prototypes I and II explored selective treatment. Age prevention, rejuvenation and years-long living treatment unproven.",
       "emberpear_nursery": "Planting stock acquired and protected nursery established; no maturity, harvest or revenue.",
       "draconic_resonance": "3/5.",
-      "personal_mp": "385/400 last tracked; current reading and mana movements unverified."
+      "personal_mp": "351/410 last recorded; closing reading and mana movements unverified.",
+      "healing_wing": "Four supervised beds and eight calibrated cartridges; normally up to three concurrent patients with qualified coverage.",
+      "white_runeblade": "Improper WT-44 release and downstream records traced. Seek lawful Westbridge access to Marek Dorne’s restricted sworn statement.",
+      "next_playable": "Year 853 Day 1 at Ashvale Estate. Next scene and clock time unspecified."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
@@ -83,9 +99,10 @@
       "Current commitments and cash history since Day 196 remain unverified.",
       "Historical custody counts do not include the latest Ashvale inquiry or establish present placements.",
       "Festival opening cash differs from the Suncrest 262 close; no itemized bridge.",
-      "Sword origins and Aric commission documents; Seven Horizons Waymark Register; other dragon leads; separate Crown/Witness investigations.",
       "Alaric Voss’s identity with Crown-related A. Voss is unproven; stolen covenant index remains unresolved.",
-      "Day 326 opening comparison is 20 gp lower than the Day 160 close; 7,145 gp is provisional. Purse, allocations, 317 gp historic commitment and other obligations require verification."
+      "Seven Horizons Waymark Register, other dragon leads and separate Crown/Witness investigations remain open.",
+      "White blade physical recipient, downstream custody and kidnapping involvement unverified; Marek Dorne missing, full statement not obtained.",
+      "Intervening ordinary receipts and costs, Day 264 working-funds bridge and present account allocations are unverified. Historical 20 gp provisions and 317 gp expansion treated as resolved by player ruling."
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -111,9 +128,9 @@
     }
   },
   "calendar": {
-    "annual_day": 1,
+    "annual_day": 365,
     "season": null,
-    "historical_label": "Year 852 Day 1"
+    "historical_label": "Year 852 Day 365"
   },
   "custody": {
     "reviewed": 4,
@@ -130,21 +147,21 @@
     "historical_checkpoint_ref": "archive/checkpoints/year848-day156-2015.json",
     "historical_entity_records_ref": "archive/checkpoints/year848-day156-entity-records.json",
     "current_presence": {
-      "status": "UNKNOWN",
-      "evidence_ref": null
+      "status": "VERIFIED",
+      "evidence_ref": "changes/chronicles/year852-day365-end-session.md"
     },
     "current_equipment": {
       "status": "UNKNOWN",
       "evidence_ref": null,
       "night_sovereign_carried_not_equipped": null
     },
-    "exact_room": "Ashvale Grand Arena",
+    "exact_room": null,
     "conditional_defense": 51,
     "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
     "mp_bridge": {
-      "from_mp": 400,
-      "to_mp": 385,
-      "difference_mp": -15,
+      "from_mp": 385,
+      "to_mp": 351,
+      "difference_mp": -34,
       "classification": "LAST TRACKED — CURRENT PERSONAL MP UNVERIFIED",
       "recovery_events": []
     }

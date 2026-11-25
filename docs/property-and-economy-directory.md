@@ -2,7 +2,11 @@
 
 This directory routes existing authorities; it owns no balances, titles, payroll or inventory. Resolve IDs through [index](../index.json). Read only needed owner records, their dates and qualification, then supporting evidence where disputed. GM-reference does not establish Theron's knowledge. No hidden main-quest answers are added to this public repository; visibility remains unchanged.
 
-## Year 852 Day 1 financial reconciliation
+## Current working treasury
+
+The [Year 852 Day 365 close](../changes/chronicles/year852-day365-end-session.md) records 5,146 gp of corrected expedition working funds. The older Day 1 snapshot and audit below are historical. The earlier 20 gp provisions discrepancy and 317 gp expansion are closed by the player’s ruling.
+
+## Historical Year 852 Day 1 financial reconciliation
 
 The historical 317 gp expansion is completed and paid in played continuity. Its settlement posting and supporting documentation remain unverified. Ordinary controlled cash remains 7,145 gp provisional, with the 20 gp bridge unposted. The [audit reconciliation](../changes/chronicles/year852-day1-financial-audit-reconciliation.md) gives the verified ledger matches, narrative ruling and current financial verification queue.
 
@@ -10,7 +14,7 @@ The historical 317 gp expansion is completed and paid in played continuity. Its 
 
 | Domain | Owner / procedure | Boundary |
 |---|---|---|
-| Current detailed finances | [finance ledger](../state/finance-ledger.json), [party finances](../entities/mechanics/party-finances.md) | The single current ledger records the provisional Year 852 Day 1 close. Old tills/reserves are not extra cash. Control does not prove sole personal legal title. |
+| Current detailed finances | [finance ledger](../state/finance-ledger.json), [party finances](../entities/mechanics/party-finances.md) | The single current ledger records the corrected Year 852 Day 365 working treasury. Old tills/reserves are not extra cash. Control does not prove sole personal legal title. |
 | Accounting / reports | [economy-accounting](../entities/mechanics/economy-accounting.md), `scripts/economy.py --report` | Read-only five-domain procedure; no posting engine or competing ledger. |
 | Business finances | [business-financial-references](../entities/mechanics/business-financial-references.md), [settlement directory](settlement-directory.md) | Fourteen existing parent-scoped references, owner/manager/operator dereferenced from parents. Null current receipts/expenses; no daily profit. |
 | Property / equipment | [property-financial-references](../entities/mechanics/property-financial-references.md) | Four property contexts plus original equipment/animal/inventory owners; no appraisal total or ownership change. |
@@ -32,7 +36,7 @@ Each property reference supports name/location/type/owner/manager, land/building
 
 ## Financial report and recognition
 
-Run `python scripts/economy.py --report` from the repository (or `--root PATH`). Validation runs before rendering JSON. No files are written. Report source/as-of/qualification, controlled/committed/uncommitted cash, each source account owner label and exclusions separately. The [current ledger](../state/finance-ledger.json) records 7,145 gp provisional, with current account allocations unknown. The [Day 181 reconciliation](day181-final-reconciliation.md) and earlier Day 156 position preserve the balances and commitment classifications at those checkpoints.
+Run `python scripts/economy.py --report` from the repository (or `--root PATH`). Validation runs before rendering JSON. No files are written. Report source/as-of/qualification, controlled/committed/uncommitted cash, each source account owner label and exclusions separately. The [current ledger](../state/finance-ledger.json) records 5,146 gp in working funds, with current account allocations unknown. The [Day 181 reconciliation](day181-final-reconciliation.md) and earlier Day 156 position preserve the balances and commitment classifications at those checkpoints.
 
 Income statement shows current-period receipts, incurred costs and profit UNKNOWN where coverage is absent. Eight modeled operating periods remain explicitly a player-approved reconstruction:2160gp receipts,1640gp expenses,520gp surplus/distribution already applied once. The69gp later net posting supplies no invented gross receipts or wage breakdown. Reconciliation reports pre-arc opening, posted net inflows/outflows, closing and arithmetic difference, while retaining the125gp unitemized bridge as an evidence gap. Zero arithmetic difference does not certify receipts.
 

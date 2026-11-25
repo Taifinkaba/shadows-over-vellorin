@@ -1,3 +1,17 @@
+# Next-chat handoff — Year 853 Day 1
+
+The previous session **ended Year 852 Day 365 at Ashvale Estate**, after the grand council and Lyanna’s private conversation. Exact closing and opening hours are unverified. Await the player’s instruction to resume. [Checkpoint](checkpoint.json) · [Chronicle](../changes/chronicles/year852-day365-end-session.md) · [Index](../index.json)
+
+- Theron is S+ Level 6, HP 100/104 and personal MP last recorded at 351/410. Nexus 156/180. DEF 46 base, 49 normal, 51 with Night Sovereign worn. Actual armor at close remains unverified. Chronos Eye and Dragon Slayer remain locked.
+- Working funds **5,146 gp**. The funded expedition’s net rewards belong to Theron’s controlled treasury. Separate compensation requires his authorization. DSI retains its own student earnings and treasury. [Ledger](finance-ledger.json)
+- Gareth forged both blades. The white commission and improper release are established. The physical recipient and route to the abduction remain unverified. Seek lawful access to Marek Dorne’s restricted statement in Westbridge. [Quest](../entities/quests/twin-sword-origin.md)
+- Beren keeps the Watchpost isolated and students outside the restricted area. The outer repair was paid. Phase VI is paid and tested only at its documented scope. The healing wing operates under qualified supervision.
+- The party returned safely or was accounted for. The council and Lyanna’s request for justice are played events. New-year celebrations, further investigation and operational reviews are possible activities. [Open verifications](open-verifications.md)
+
+## Historical Day 1 handoff
+
+[Year 852 Day 1 checkpoint](../archive/checkpoints/year852-day1.json) · [Ledger](../archive/checkpoints/year852-day1-finance-ledger.json)
+
 # Next-chat handoff — Year 852 Day 1, 12:00 AM
 
 **ENDED at Theron’s Commercial Estate, Ashvale Grand Arena.** Await the player’s instruction to resume. Read the [checkpoint](checkpoint.json), [chronicle](../changes/chronicles/year852-day1-end-session.md), [precedence](../governance/precedence.md), [narration rules](../docs/narration-format.md) and [index](../index.json).

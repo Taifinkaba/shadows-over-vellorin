@@ -4,20 +4,20 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 852 Day 1
-  time: '00:00'
-  location: Theron's Commercial Estate, Ashvale Grand Arena
+  date: Year 852 Day 365
+  time: null
+  location: Ashvale Estate
   status: ENDED
   theron.hp: 100
-  theron.hp_max: 100
-  theron.mp: 385
-  theron.mp_max: 400
+  theron.hp_max: 104
+  theron.mp: 351
+  theron.mp_max: 410
   theron.defense: 46
   theron.rank: S+
-  theron.level: 5
-  theron.str: 13
+  theron.level: 6
+  theron.str: 14
   theron.dex: 20
-  theron.con: 18
+  theron.con: 19
   theron.int: 21
   theron.wis: 20
   theron.cha: 20
@@ -31,6 +31,7 @@ checkpoint_values:
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
@@ -132,6 +133,10 @@ Blackscale persona uses generally nonlethal displaced whispers, shadow illusions
 
 S+ Rank, Level 5, HP 100/100. Male elf, age 25 as last established. Personal MP was last tracked at 385/400, with the current pool unverified. Nexus 156/180 MP. DEF 46 base, 49 with Frostguard Bracers and 51 with Night Sovereign additionally worn. Actual equipment and companion presence at close are unknown. Draconic Resonance remains 3/5, Chronos Eye remains locked at approximately 19% theory, and Dragon Slayer remains locked. Caelrix remains independent, bond 5/5.
 
+## Year 852 Day 365 close
+
+S+ Rank, Level 6, HP 100/104 and personal MP last recorded at 351/410. STR 14, DEX 20, CON 19, INT 21, WIS 20, CHA 20, zero unspent points. Nexus 156/180. DEF 46 base, 49 normal, 51 with Night Sovereign worn. Wearing remains unverified. The council closed at Ashvale Estate, with the next playable date Year 853 Day 1. Chronos Eye and Dragon Slayer remain locked.
+
 ## Character sheet
 
 ```yaml
@@ -145,16 +150,16 @@ character_sheet:
   age: 25
   role: Battlemage, runecrafter and Eighth Witness
   rank: S+
-  level: 5
+  level: 6
   hp: 100
-  hp_max: 100
-  mp: 385
-  mp_max: 400
+  hp_max: 104
+  mp: 351
+  mp_max: 410
   defense: 46
   equipped_defense: 49
-  str: 13
+  str: 14
   dex: 20
-  con: 18
+  con: 19
   int: 21
   wis: 20
   cha: 20
@@ -186,11 +191,9 @@ character_sheet:
     uncle: caelan-ashvale
     bonded_wolf: shade
     mother: therons-mother
-  assessment: 'Year 852 Day 1, 00:00. Personal MP is last tracked.'
-  recorded_context: Male elf, age 25, S+ Rank, Level 5. HP 100/100, personal MP last tracked at 385/400. STR 13, DEX 20,
-    CON 18, INT 21, WIS 20, CHA 20, zero unspent attributes. Base DEF 46, DEF 49 with Frostguard Bracers,
-    DEF 51 with Night Sovereign additionally equipped. Actual equipment configuration is unknown. Personal
-    purse target 100 gp, included in provisional controlled funds. Current purse contents and exact age are unverified.
+  assessment: Year 852 Day 365 close. Personal MP is last recorded.
+  recorded_context: Male elf, last established age 25, Battlemage and Advanced Runecrafter.
+    Returned to Ashvale Estate. Current equipment configuration and personal purse contents remain unknown.
   conditional_defense:
     with_frostguard_bracers_and_night_sovereign: 51
     currently_worn: null

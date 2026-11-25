@@ -1,15 +1,15 @@
 {
   "schema_version": 7,
   "as_of": {
-    "date": "Year 852 Day 1",
-    "annual_day": 1,
+    "date": "Year 852 Day 365",
+    "annual_day": 365,
     "season": null,
-    "time": "00:00",
-    "location": "Theron's Commercial Estate, Ashvale Grand Arena",
+    "time": null,
+    "location": "Ashvale Estate",
     "session_status": "ENDED"
   },
-  "source": "changes/chronicles/year852-day1-end-session.md",
-  "qualification": "Player-reported receipts and paid expenses. Closing controlled cash is provisional pending the unposted 20 gp discrepancy, account verification and liability review.",
+  "source": "changes/chronicles/year852-day365-end-session.md",
+  "qualification": "Player-corrected working treasury from Day 264; earlier ordinary-control comparison is unitemized. Net expedition receipts and paid expenses applied once. DSI is separate.",
   "currency": {
     "unit": "cp",
     "cp_per_gp": 100,
@@ -18,25 +18,25 @@
   "historical_day156_ref": "archive/checkpoints/year848-day156-finance-ledger.json",
   "endpoint": {
     "as_of": {
-      "date": "Year 852 Day 1",
-      "annual_day": 1,
+      "date": "Year 852 Day 365",
+      "annual_day": 365,
       "season": null,
-      "time": "00:00",
-      "location": "Theron's Commercial Estate, Ashvale Grand Arena",
+      "time": null,
+      "location": "Ashvale Estate",
       "session_status": "ENDED"
     },
-    "total_cp": 714500,
-    "source_ref": "changes/chronicles/year852-day1-end-session.md",
-    "classification": "PROVISIONAL PLAYED ENDPOINT"
+    "total_cp": 514600,
+    "source_ref": "changes/chronicles/year852-day365-end-session.md",
+    "classification": "PLAYER-CORRECTED WORKING TREASURY"
   },
   "bridge": {
-    "historical_closing_cp": 107300,
-    "opening_cp": 105300,
-    "difference_cp": -2000,
-    "classification": "UNRESOLVED HISTORICAL GAP",
+    "historical_closing_cp": 714500,
+    "opening_cp": 534500,
+    "difference_cp": -180000,
+    "classification": "UNITEMIZED PROVISIONAL ORDINARY CASH TO SUPPLIED WORKING FUNDS COMPARISON",
     "is_transaction": false,
     "assigned_account_id": null,
-    "source_ref": "changes/chronicles/year852-day1-end-session.md"
+    "source_ref": "changes/chronicles/year852-day365-end-session.md"
   },
   "account_verifications": [],
   "transactions": [
@@ -495,12 +495,96 @@
       "date": "Year 851 Day 365",
       "account_id": null,
       "source_ref": "changes/chronicles/year852-day1-end-session.md"
+    },
+    {
+      "id": "WG-852-260",
+      "event": "funded-expedition",
+      "amount_cp": 10800,
+      "cash_effect_cp": 10800,
+      "direction": "inflow",
+      "kind": "revenue",
+      "status": "received",
+      "date": null,
+      "account_id": null,
+      "source_ref": "changes/chronicles/year852-day365-end-session.md"
+    },
+    {
+      "id": "WG-852-261",
+      "event": "funded-expedition",
+      "amount_cp": 7650,
+      "cash_effect_cp": 7650,
+      "direction": "inflow",
+      "kind": "revenue",
+      "status": "received",
+      "date": null,
+      "account_id": null,
+      "source_ref": "changes/chronicles/year852-day365-end-session.md"
+    },
+    {
+      "id": "WG-852-347",
+      "event": "funded-expedition",
+      "amount_cp": 9900,
+      "cash_effect_cp": 9900,
+      "direction": "inflow",
+      "kind": "revenue",
+      "status": "received",
+      "date": null,
+      "account_id": null,
+      "source_ref": "changes/chronicles/year852-day365-end-session.md"
+    },
+    {
+      "id": "WG-852-354",
+      "event": "funded-expedition",
+      "amount_cp": 8100,
+      "cash_effect_cp": 8100,
+      "direction": "inflow",
+      "kind": "revenue",
+      "status": "received",
+      "date": null,
+      "account_id": null,
+      "source_ref": "changes/chronicles/year852-day365-end-session.md"
+    },
+    {
+      "id": "year852-expedition-provisions",
+      "event": "funded-expedition",
+      "amount_cp": 950,
+      "cash_effect_cp": -950,
+      "direction": "outflow",
+      "kind": "expense",
+      "status": "paid",
+      "date": null,
+      "account_id": null,
+      "source_ref": "changes/chronicles/year852-day365-end-session.md"
+    },
+    {
+      "id": "watchpost-outer-maintenance",
+      "event": "forgotten-watchpost",
+      "amount_cp": 5400,
+      "cash_effect_cp": -5400,
+      "direction": "outflow",
+      "kind": "expense",
+      "status": "paid",
+      "date": null,
+      "account_id": null,
+      "source_ref": "changes/chronicles/year852-day365-end-session.md"
+    },
+    {
+      "id": "arena-phase-vi",
+      "event": "arena-phase-vi",
+      "amount_cp": 50000,
+      "cash_effect_cp": -50000,
+      "direction": "outflow",
+      "kind": "expense",
+      "status": "paid",
+      "date": null,
+      "account_id": null,
+      "source_ref": "changes/chronicles/year852-day365-end-session.md"
     }
   ],
   "controlled_cash": {
-    "total_cp": 714500,
+    "total_cp": 514600,
     "accounts": [],
-    "allocation_status": "Provisional played close; 100 gp purse target included; current purse and account allocations unverified"
+    "allocation_status": "Player-corrected controlled working funds; current purse and account allocations unverified"
   },
   "commitments": {
     "expansion_committed_cp": null,

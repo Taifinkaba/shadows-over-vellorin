@@ -13,3 +13,5 @@ The prior *chat-played* label Year 848, Suncrest 1135 gives annual day 1255 => *
 See [reconciliation](../changes/chronicles/calendar-365-day-reconciliation.md) and [active-play calendar note](../state/active-play-calendar-note.md).
 
 The [next played session](../changes/chronicles/year852-day1-end-session.md) includes the Day 326 observatory feast and the Day 365 year-end festival. Year 851 Day 365 rolled over at midnight to **Year 852 Day 1, 12:00 AM**. Intermediate dates, travel intervals and seasonal labels remain unverified.
+
+The [Year 852 close](../changes/chronicles/year852-day365-end-session.md) ended on Day 365 at Ashvale Estate. The next playable date is Year 853 Day 1. The close and next playable date have no verified clock time.

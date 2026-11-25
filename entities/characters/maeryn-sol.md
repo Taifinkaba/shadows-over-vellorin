@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/session-handoffs/year852-day1-user-handoff.txt
 ---
@@ -11,6 +12,10 @@ source_refs:
 # Maeryn Sol
 
 Trained Theron in controlled swordsmanship, accompanied him to the Gardens of Ilyssara and won the Year 851 Day 365 tournament. She received the 100 gp champion prize.
+
+## Year 852 close
+
+Theron’s close combat and field partner. Returned safely and attended the grand council. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
 
 ## Character sheet
 

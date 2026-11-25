@@ -4,6 +4,7 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
@@ -496,3 +497,7 @@ This structured reference section owns only the settlement/service lookup fields
   "territory_id": null
 }
 ```
+
+## Year 852 return and healing wing
+
+The party returned safely or was accounted for. The grand council closed at Ashvale Estate. The healing wing has four regenerative beds and eight functioning calibrated cartridges. One defective cartridge was replaced under warranty without additional capital charge. Theron’s mother directs qualified care. Normal coverage supports up to three concurrent patients, with a fourth when staffing permits. Follow-up for defined minor injuries is underway. No universal healing rate or revenue is established. [Session evidence](../../changes/chronicles/year852-day365-end-session.md#ashvale-healing-wing)

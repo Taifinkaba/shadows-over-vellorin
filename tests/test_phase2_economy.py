@@ -63,9 +63,9 @@ class Phase2EconomyTests(unittest.TestCase):
     def test_continuity_and_contracts_and_schema_2(self):
         with self.subTest(case='test_five_part_current_report'), isolated_case(self):
             r=financial_report(ROOT);self.assertEqual(list(r['five_part_accounting']),DOMAINS)
-            self.assertEqual(r['income_statement']['actual_received_revenue']['amount_cp'], 1440800)
+            self.assertEqual(r['income_statement']['actual_received_revenue']['amount_cp'], 1477250)
             receipts = r['five_part_accounting']['received-revenue']['classified_transactions']
-            self.assertEqual(sum(row['amount_cp'] for row in receipts), 1440800)
+            self.assertEqual(sum(row['amount_cp'] for row in receipts), 1477250)
             self.assertTrue(all(row['status'] == 'received' for row in receipts))
         with self.subTest(case='test_positive_negative_zero_business_results'), isolated_case(self):
             costs=dict.fromkeys(COSTS,10)
@@ -94,7 +94,7 @@ class Phase2EconomyTests(unittest.TestCase):
             self.reject('payroll-construction-and-trade',lambda d:d.update(law_owner_ref='party-finances'),'jurisdiction')
         with self.subTest(case='test_ownership_remains_unknown'), isolated_case(self):
             r=financial_report(ROOT)['five_part_accounting']['cash-ownership']
-            self.assertEqual(r['controlled_cp'],714500);self.assertTrue(r['allocation_status'].startswith('Provisional'))
+            self.assertEqual(r['controlled_cp'],514600);self.assertTrue(r['allocation_status'].startswith('Player-corrected'))
             self.assertTrue(all(x['current_amount_cp'] is None for x in r['categories'].values()))
         with self.subTest(case='test_public_approval_and_no_private_authority'), isolated_case(self):
             self.reject('economy-accounting',lambda d:d.update(approval_source_ref='README.md'),'approval provenance')

@@ -1,3 +1,9 @@
+# Year 852 Day 365 end session
+
+- Record the Ashvale Estate close and Year 853 Day 1 next playable date, including the supplied Level 6 snapshot.
+- Apply the expedition ownership correction and reconcile the 5,146 gp working treasury. Preserve earlier cash history and the independent DSI ledger.
+- Record the white-blade inquiry, restricted Watchpost, paid Phase VI, healing wing and council. [Session chronicle](chronicles/year852-day365-end-session.md)
+
 # Twin sword canon reconciliation
 
 - Preserve established blade provenance and Aric’s knowledge. Record external swordsmith leads and disclosure gaps without adopting the player-reported later checkpoint. [Reconciliation](chronicles/2026-11-23-twin-sword-canon-reconciliation.md)

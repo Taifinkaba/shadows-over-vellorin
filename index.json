@@ -3435,6 +3435,42 @@
         "dragons",
         "visual-reference"
       ]
+    },
+    {
+      "id": "gareth-vaelwright",
+      "type": "characters",
+      "title": "Gareth Vaelwright",
+      "path": "entities/characters/gareth-vaelwright.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "white-runeblade",
+        "year852-day365"
+      ]
+    },
+    {
+      "id": "teren-vhal",
+      "type": "characters",
+      "title": "Teren Vhal",
+      "path": "entities/characters/teren-vhal.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "white-runeblade",
+        "year852-day365"
+      ]
+    },
+    {
+      "id": "marek-dorne",
+      "type": "characters",
+      "title": "Marek Dorne",
+      "path": "entities/characters/marek-dorne.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "white-runeblade",
+        "year852-day365"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

@@ -4,6 +4,7 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
@@ -138,3 +139,7 @@ Six of the 16 public competitors were Guild registrants from DSI. Students also 
 ## Year 851 Day 365 festival
 
 All thirteen students were invited. Qualified students participated according to approval and availability. Only established individual results and equipment should be used. The champion’s prize was a tournament award outside the 10% post-payment Guild mission tithe. The event’s estate logistics expense remains separate from DSI finances.
+
+## Year 852 close
+
+Beren remains the independent operational leader. The established 13 students and six Guild registrations stand. Independent student earnings and tax policy remain separate from Theron’s funded expedition. Beren’s Watchpost safety procedures exclude students from the restricted area. [Watchpost](../locations/forgotten-watchpost.md) · [Session evidence](../../changes/chronicles/year852-day365-end-session.md#dsi-academy)
