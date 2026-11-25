@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
 - archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md
@@ -45,6 +46,11 @@ Aric personally hired the smith and knows whom he hired, where and how he arrang
 ## Year 852 close
 
 Retained his role as father, swordsman and investigation support. The played inquiry identifies Gareth Vaelwright as maker of the black blade that Aric originally commissioned. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Reached the festival semifinals and accompanied the Hollow Veil mission. Agreed to consider consent-based historical inquiry while preserving his prior promise.
+
 
 ## Character sheet
 

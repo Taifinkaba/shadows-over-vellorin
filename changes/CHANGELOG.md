@@ -1,3 +1,9 @@
+# Year 853 end session
+
+- Adopt the Hollow Veil evening close with exact closing day and resource readings unresolved. Preserve the Year 852 checkpoint and both financial ledgers.
+- Reconcile the Grand Festival of Dragons and founder transfer. Record independent academy contracts, purchases, prospective tithe, development allocations and new roster.
+- Adopt the four voluntary Dragon Slayer initiations, independent progression, Hollow Veil trial, dragon friendships and continuing inquiries. [Session chronicle](chronicles/year853-end-session.md)
+
 # Year 852 Day 365 end session
 
 - Record the Ashvale Estate close and Year 853 Day 1 next playable date, including the supplied Level 6 snapshot.

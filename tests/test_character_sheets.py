@@ -41,6 +41,8 @@ class CharacterSheetTests(unittest.TestCase):
         for ident in ('gorren', 'talia-fen', 'rowan-hale'):
             self.assertEqual((self.sheets[ident]['mp'], self.sheets[ident]['mp_max']), (0, 0))
         for ident in ('dalen-reed', 'sera-willow', 'tobin-marsh', 'elowen-briar', 'perrin-oak', 'faye-linden'):
-            for field in ('age', 'ancestry', 'rank', 'level', 'hp', 'mp', 'defense'):
+            for field in ('age', 'ancestry', 'hp', 'mp', 'defense'):
                 with self.subTest(character=ident, field=field):
                     self.assertIsNone(self.sheets[ident][field])
+            rank, level = ('F', 1) if ident in ('dalen-reed','sera-willow','tobin-marsh','elowen-briar') else (None, None)
+            self.assertEqual((self.sheets[ident]['rank'], self.sheets[ident]['level']), (rank, level))

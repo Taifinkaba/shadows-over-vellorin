@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
@@ -11,6 +12,10 @@ source_refs:
 
 [DSI](../factions/dragon-slayer-academy.md) student, specializing in animal care and stable work. No guild card. Ancestry, age, combat ability and numerical character sheet unassessed.
 
+
+## Year 853 session
+
+Unregistered foundational trainee. Individual numerical statistics remain unassessed.
 
 ## Character sheet
 
@@ -45,12 +50,13 @@ character_sheet:
   personal_cash: null
   relationships: null
   assessment: null
-  recorded_context: DSI student, specializing in animal care and stable work. No guild card. Ancestry,
-    age, combat ability and numerical character sheet unassessed.
+  recorded_context: DSI student, specializing in animal care and stable work. No guild
+    card. Ancestry, age, combat ability and numerical character sheet unassessed.
   guild_status: No guild card
   specializations:
   - animal care and stable work
   source_refs:
+  - changes/chronicles/year853-end-session.md
   - entities/characters/faye-linden.md
   - entities/factions/dragon-slayer-academy.md
   - changes/chronicles/year848-suncrest262-end-session.md

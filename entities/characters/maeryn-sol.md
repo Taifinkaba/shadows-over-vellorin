@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/session-handoffs/year852-day1-user-handoff.txt
@@ -16,6 +17,11 @@ Trained Theron in controlled swordsmanship, accompanied him to the Gardens of Il
 ## Year 852 close
 
 Theron’s close combat and field partner. Returned safely and attended the grand council. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Adventurer tournament runner-up and dragon tournament semifinalist. Assisted the academy assessment and joined the Hollow Veil mission. May assist Vaeltharion with training when available.
+
 
 ## Character sheet
 

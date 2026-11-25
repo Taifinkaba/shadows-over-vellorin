@@ -4,6 +4,7 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 ---
@@ -17,3 +18,7 @@ Tomas manages operations. The monthly Ashvale Market Fair plan offers free marke
 ## Year-end festival and nursery
 
 The Day 365 festival used the existing arena, outdoor exhibition area, lodge, market and estate land. Temporary pitches hosted 90 camping rentals and 30 merchant rentals. Tomas acquired Century-Bloom Emberpear planting stock and established a protected nursery on estate land with Ilyssara’s advice. Cultivation remains unproven and the immature plants have yielded no harvest or revenue.
+
+## Year 853 session
+
+Hosted the [Grand Festival of Dragons](../mechanics/grand-festival-of-dragons-year853.md), with 60 rented plots, temporary daycare and overflow camping. Reusable equipment remains estate property. Permanent entertainment and fair facilities and lodge/spa expansion are still proposals. DSI is separately located in Greyhaven Valley. Restored Chamber Seven is at the Observatory of First Light.

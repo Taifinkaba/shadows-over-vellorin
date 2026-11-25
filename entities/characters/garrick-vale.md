@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
@@ -51,6 +52,11 @@ Traveled with Seven Bells expedition; currently holds Perrin, Dask and lodge sup
 ## Year 852 close
 
 Returned safely and attended the council. Handled expedition security, logistics and recovery. Investigated the Mill Road traps and theft with Nyx. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Participated in festival exhibitions and supported the Trial of the Ancient Grounds.
+
 
 ## Character sheet
 

@@ -139,9 +139,13 @@ def copper(value, label="currency"):
     return gp * 100 + sp * 10 + cp
 
 
+YEAR853_SOURCE = "changes/chronicles/year853-end-session.md"
+
+
 def validate_state(state):
     version = state.get("schema_version")
     v6 = type(version) is int and version == 6
+    year853 = v6 and state.get("source") == YEAR853_SOURCE
     v5 = type(version) is int and version == 5
     v4 = type(version) is int and version == 4
     dated = v4 or v5 or v6
@@ -151,18 +155,21 @@ def validate_state(state):
     require(type(state["schema_version"]) is int and state["schema_version"] in {2, 3, 4, 5, 6}, "checkpoint: unsupported schema_version")
     for field in ("date", "location", "status", "source"):
         string(state[field], f"checkpoint.{field}")
-    require(re.fullmatch(r"Year \d+ Day \d+", state["date"]) is not None, "checkpoint: invalid date")
+    require(state["date"] == "Year 853" if year853 else re.fullmatch(r"Year \d+ Day \d+", state["date"]) is not None, "checkpoint: invalid date")
     if not (v6 and state["time"] is None):
         string(state["time"], "checkpoint.time")
         require(re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d", state["time"]) is not None, "checkpoint: invalid time")
     require((state["status"] in {"UNKNOWN","PAUSED","ENDED"} if v6 else state["status"] == ("ENDED" if v3 or v5 else "PAUSED")), "checkpoint: invalid session status")
     stats = state["theron"]
     keys(stats, STATS, "checkpoint.theron")
-    for field in STATS - {"rank"}:
+    if year853:
+        require(stats["hp"] is None and stats["mp"] is None, "checkpoint: closing HP and MP unverified")
+    for field in STATS - ({"rank", "hp", "mp"} if year853 else {"rank"}):
         integer(stats[field], f"checkpoint.theron.{field}", 1 if field in {"hp_max", "mp_max"} else 0)
     string(stats["rank"], "checkpoint.theron.rank")
-    require(stats["hp"] <= stats["hp_max"], "checkpoint: HP exceeds maximum")
-    require(stats["mp"] <= stats["mp_max"], "checkpoint: MP exceeds maximum")
+    if not year853:
+        require(stats["hp"] <= stats["hp_max"], "checkpoint: HP exceeds maximum")
+        require(stats["mp"] <= stats["mp_max"], "checkpoint: MP exceeds maximum")
     money_fields = MONEY_FIELDS_V4 if dated else MONEY_FIELDS_V3 if v3 else MONEY_FIELDS
     keys(state["money"], money_fields | ({"allocation_status"} if modern else set()) | ({"provisional_status", "office_status"} if dated else set()), "checkpoint.money")
     balances = {k: copper(state["money"][k], f"checkpoint.money.{k}") for k in money_fields}
@@ -186,13 +193,20 @@ def validate_state(state):
             for ident, capacity in (("vanguard-wagon", 120), ("ashvale-wagon", 80)):
                 pool = refits[ident]
                 keys(pool, {"current", "max"}, f"{ident} mana")
-                integer(pool["current"], f"{ident} current mana")
+                if year853:
+                    require(pool["current"] is None, f"{ident}: closing reservoir unverified")
+                else:
+                    integer(pool["current"], f"{ident} current mana")
                 integer(pool["max"], f"{ident} maximum mana")
-                require(pool["current"] <= pool["max"] == capacity, f"{ident}: independent reservoir capacity")
-        for field in RESOURCES - {"chronos_eye_locked", "dragon_slayer_locked"}:
+                require(pool["max"] == capacity and (year853 or pool["current"] <= pool["max"]), f"{ident}: independent reservoir capacity")
+        unknown_pools = {"staff_mp", "wagon_mp"} if year853 else set()
+        for field in RESOURCES - {"chronos_eye_locked", "dragon_slayer_locked"} - unknown_pools:
             integer(resources[field], f"resources.{field}", 1 if field.endswith("_max") else 0)
         for pool in ("staff", "wagon"):
-            require(resources[f"{pool}_mp"] <= resources[f"{pool}_mp_max"], f"resources: {pool} mana exceeds maximum")
+            if year853:
+                require(resources[f"{pool}_mp"] is None, f"resources: {pool} closing charge unverified")
+            else:
+                require(resources[f"{pool}_mp"] <= resources[f"{pool}_mp_max"], f"resources: {pool} mana exceeds maximum")
         require(resources["equipped_defense"] == stats["defense"] + resources["bracers_defense_bonus"],
                 "resources: equipped Defense must equal permanent base plus equipment bonus")
         for field in ("chronos_eye_locked", "dragon_slayer_locked"):
@@ -225,7 +239,13 @@ def validate_state(state):
     require(academy["included_in_party_total"] is False, "academy funds must remain separate")
     if dated:
         calendar = state["calendar"]
-        if v6 and "annual_day" in calendar:
+        if year853:
+            keys(calendar, {"year", "annual_day", "latest_numbered_day", "season", "part_of_day"}, "checkpoint.calendar")
+            integer(calendar["latest_numbered_day"], "calendar.latest_numbered_day", 1)
+            require(calendar["latest_numbered_day"] <= 365, "checkpoint: annual day exceeds 365")
+            require(calendar == dict(year=853, annual_day=None, latest_numbered_day=28, season=None,
+                                     part_of_day="Evening"), "checkpoint: Year 853 closing date remains unverified")
+        elif v6 and "annual_day" in calendar:
             keys(calendar, {"season", "annual_day", "historical_label"}, "checkpoint.calendar")
             integer(calendar["annual_day"], "calendar.annual_day", 1)
             require(calendar["annual_day"] <= 365 and state["date"].endswith(f" Day {calendar['annual_day']}"),
@@ -287,6 +307,12 @@ def validate_state(state):
 def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
+    if ledger.get('schema_version') == 8:
+        if __package__:
+            from .finance_year853 import validate_year853
+        else:
+            from finance_year853 import validate_year853
+        return validate_year853(root, state, ledger)
     if ledger.get('schema_version') == 7:
         require(state['schema_version'] == 6, 'finance7 requires checkpoint6')
         if __package__:

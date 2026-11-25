@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
@@ -35,6 +36,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
 
+
+## Year 853 session
+
+Beren oversees the independent Greyhaven Valley academy, applies the prospective tithe, manages the funded expansion budget and supervises training and recruitment. He maintains the [progression registry](../mechanics/way-of-the-dragon.md) and oversees the [Buried Lantern Hall](../quests/buried-lantern-hall.md) investigation with Elias. Students remain excluded from restricted Watchpost areas.
 
 ## Character sheet
 

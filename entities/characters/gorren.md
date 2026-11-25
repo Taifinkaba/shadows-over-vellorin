@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
@@ -35,6 +36,27 @@ Skills:
 
 Damage, resistances, movement modifiers, spell costs and prior independent career history remain unknown.
 
+
+## Year 853 session
+
+- Role: Frontline Defender.
+- Guild E, Level 2.
+- HP 40/40.
+- MP 0/0.
+- DEF 17.
+- Attributes: 16, 10, 16, 10, 12, 11.
+- Shield Defense 3/5.
+- Swordsmanship 3/5.
+- Endurance 3/5.
+- Mounted Combat 1/5.
+- Mount: Flint, dark brown gelding.
+- Historical reported savings: 9 GP; current full historical balance unresolved.
+- Newly purchased reinforced shield, armor repairs and defensive instruction.
+- Dragon Slayer initiated.
+
+Do not automatically give Gorren a personal mana pool merely because he received draconic essence.
+
+Paid purchases and remaining recent earnings are in the [DSI ledger](../../state/dsi-finance-ledger.json). Equipment bonuses and further skill gains remain unassessed. [Dragon Slayer training](../mechanics/way-of-the-dragon.md) uses its own registry.
 
 ## Character sheet
 
@@ -73,15 +95,18 @@ character_sheet:
   - shield
   - medium armor
   - guild card
+  - Reinforced shield
+  - Armor repairs
   mount: Flint, dark brown gelding
   personal_cash: 9 gp
   relationships: null
   assessment: Year 848, Suncrest 260–262 academy assessment
-  recorded_context: Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct
-    from DSI enrollment.
+  recorded_context: Year 853 equipment purchases and most recent recorded Guild assessment.
+    Earlier measurements retain their original provenance.
   age_category: Adult
-  guild_status: Standard supervised contracts
+  guild_status: Guild E, supervised contracts
   source_refs:
+  - changes/chronicles/year853-end-session.md
   - entities/characters/gorren.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md

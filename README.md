@@ -64,7 +64,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Current checkpoint
 
-The played session ended at Ashvale Estate on Year 852 Day 365, with the clock time unverified. The next playable date is Year 853 Day 1. Controlled working funds closed at 5,146 gp. Read the [checkpoint](state/checkpoint.json), [party ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year852-day365-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Suncrest 262 checkpoint](archive/checkpoints/year848-suncrest262.json) and [ledger](archive/checkpoints/year848-suncrest262-finance-ledger.json) are historical.
+The Year 853 session ended in the evening at Hollow Veil sanctuary, Mount Vaelspire. Day 28 is the latest explicitly numbered day. Controlled working funds are 271,870 gp. Read the [checkpoint](state/checkpoint.json), [controlled ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year853-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Year 852 Day 365 checkpoint](archive/checkpoints/year852-day365.json) and [ledger](archive/checkpoints/year852-day365-finance-ledger.json) are historical.
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.

@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
@@ -37,6 +38,10 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 
 [Portrait gallery](../../artwork/character-references/README.md) · [Approved design provenance](../../changes/chronicles/character-reference-design-approval.md). Generated from the approved reference description; incidental visual details and background are artistic interpretation, not additional played facts.
 
+
+## Year 853 session
+
+Unregistered supervised day student with age-appropriate protection and guardian supervision. Individual numerical statistics remain unassessed.
 
 ## Character sheet
 
@@ -72,21 +77,24 @@ character_sheet:
   relationships:
     guardian: maera
   assessment: null
-  recorded_context: DSI minor day student under Maera’s guardianship. No guild card or current eligibility
-    for combat missions. Exact historical age and combat attributes remain unverified. Mira Thorne and
-    the lodge helper are distinct, and no kinship with Nyx is established.
+  recorded_context: DSI minor day student under Maera’s guardianship. No guild card
+    or current eligibility for combat missions. Exact historical age and combat attributes
+    remain unverified. Mira Thorne and the lodge helper are distinct, and no kinship
+    with Nyx is established.
   guild_status: No guild card; minor day student
   approved_portrait_reference:
-    appearance: Human girl, reference-design age 12; approximately 4 ft 10 in, slight build. Medium brown
-      skin, round cheeks, amber-brown eyes. Thick dark brown curls in two practical braids.
-    clothing: Moss-green wool dress over leggings, sturdy ankle boots; small satchel with oversized wooden
-      fastening.
-    personality: Inquisitive, precise, reluctant to admit confusion. Tilts head while studying; counts
-      on fingers; raises hand before finding words.
-    gaps: Historical exact age, parents, earlier history, abilities and precise relationship to Maera.
-      Age 12 is approved design, not a recovered historical age.
+    appearance: Human girl, reference-design age 12; approximately 4 ft 10 in, slight
+      build. Medium brown skin, round cheeks, amber-brown eyes. Thick dark brown curls
+      in two practical braids.
+    clothing: Moss-green wool dress over leggings, sturdy ankle boots; small satchel
+      with oversized wooden fastening.
+    personality: Inquisitive, precise, reluctant to admit confusion. Tilts head while
+      studying; counts on fingers; raises hand before finding words.
+    gaps: Historical exact age, parents, earlier history, abilities and precise relationship
+      to Maera. Age 12 is approved design, not a recovered historical age.
     artwork_ref: artwork/character-references/mira-thorne.png
   source_refs:
+  - changes/chronicles/year853-end-session.md
   - entities/characters/mira-thorne.md
   - changes/chronicles/character-reference-design-approval.md
   - entities/factions/dragon-slayer-academy.md

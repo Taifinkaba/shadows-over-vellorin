@@ -4,7 +4,7 @@ import copy
 import hashlib
 import json
 from pathlib import Path
-from snapshot_helpers import YEAR852_REVISED_AUTHORITIES
+from snapshot_helpers import YEAR852_REVISED_AUTHORITIES, YEAR853_REVISIONS
 import re
 import shutil
 import tempfile
@@ -63,9 +63,9 @@ class Phase2EconomyTests(unittest.TestCase):
     def test_continuity_and_contracts_and_schema_2(self):
         with self.subTest(case='test_five_part_current_report'), isolated_case(self):
             r=financial_report(ROOT);self.assertEqual(list(r['five_part_accounting']),DOMAINS)
-            self.assertEqual(r['income_statement']['actual_received_revenue']['amount_cp'], 1477250)
+            self.assertEqual(r['income_statement']['actual_received_revenue']['amount_cp'], 30691250)
             receipts = r['five_part_accounting']['received-revenue']['classified_transactions']
-            self.assertEqual(sum(row['amount_cp'] for row in receipts), 1477250)
+            self.assertEqual(sum(row['amount_cp'] for row in receipts), 30691250)
             self.assertTrue(all(row['status'] == 'received' for row in receipts))
         with self.subTest(case='test_positive_negative_zero_business_results'), isolated_case(self):
             costs=dict.fromkeys(COSTS,10)
@@ -94,7 +94,7 @@ class Phase2EconomyTests(unittest.TestCase):
             self.reject('payroll-construction-and-trade',lambda d:d.update(law_owner_ref='party-finances'),'jurisdiction')
         with self.subTest(case='test_ownership_remains_unknown'), isolated_case(self):
             r=financial_report(ROOT)['five_part_accounting']['cash-ownership']
-            self.assertEqual(r['controlled_cp'],514600);self.assertTrue(r['allocation_status'].startswith('Player-corrected'))
+            self.assertEqual(r['controlled_cp'],27187000);self.assertIn('allocations unverified', r['allocation_status'])
             self.assertTrue(all(x['current_amount_cp'] is None for x in r['categories'].values()))
         with self.subTest(case='test_public_approval_and_no_private_authority'), isolated_case(self):
             self.reject('economy-accounting',lambda d:d.update(approval_source_ref='README.md'),'approval provenance')
@@ -108,7 +108,7 @@ class Phase2EconomyTests(unittest.TestCase):
             f=json.loads((ROOT/'tests/fixtures/phase2-06-preservation.json').read_text())
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path,revision in f['authorized_owner_revisions'].items():
-                self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),YEAR852_REVISED_AUTHORITIES.get(path, revision)['after_sha256'],path)
+                self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(),(YEAR852_REVISED_AUTHORITIES | YEAR853_REVISIONS).get(path, revision)['after_sha256'],path)
                 ident=Path(path).stem;current=data(ident);current.pop(EXTENSIONS[ident])
                 self.assertEqual(current,f['legacy_economic_payloads'][path],path)
             for path in ('state/finance-ledger.json','state/checkpoint.json','entities/locations/briarstone-cottage.md',

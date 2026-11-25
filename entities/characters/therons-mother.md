@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/legacy-modules/world/07-7-the-ashvale-family.md
@@ -49,6 +50,11 @@ Spent time with Theron and assisted the Day 365 festival medical team.
 ## Year 852 close
 
 Medical director of supervised healing-wing care. Staffing generally supports up to three concurrent patients, with the fourth bed available when staffing permits. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Continue the healing wing, medical supply management and estate care. Expansion remains proposed. Sylmerath expressed interest in voluntary medicinal collaboration.
+
 
 ## Character sheet
 

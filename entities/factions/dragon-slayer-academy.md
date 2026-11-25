@@ -4,6 +4,7 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -143,3 +144,113 @@ All thirteen students were invited. Qualified students participated according to
 ## Year 852 close
 
 Beren remains the independent operational leader. The established 13 students and six Guild registrations stand. Independent student earnings and tax policy remain separate from Theron’s funded expedition. Beren’s Watchpost safety procedures exclude students from the restricted area. [Watchpost](../locations/forgotten-watchpost.md) · [Session evidence](../../changes/chronicles/year852-day365-end-session.md#dsi-academy)
+
+## Year 853 session
+
+The independent academy is at [Greyhaven Valley](../locations/greyhaven-valley.md), separate from the commercial estate and Wayfarers’ Guild. Cofounders Theron and Vaeltharion retain their roles. Beren independently manages procurement, recruitment, staffing, training and spending. Record activities during play when Theron is absent. Visits require actual travel and do not establish the proposed Eastrun corridor.
+
+Six of 16 applicants were admitted, five waitlisted, and five withdrew or were not accepted. Current roster follows. Guild rank, general level, academy membership and Dragon Slayer progression are distinct.
+
+```dsi-roster
+{
+  "elias-renn": {
+    "guild_rank": "E",
+    "general_level": 2
+  },
+  "kaela": {
+    "guild_rank": "E",
+    "general_level": 2
+  },
+  "gorren": {
+    "guild_rank": "E",
+    "general_level": 2
+  },
+  "nessa": {
+    "guild_rank": "E",
+    "general_level": 2
+  },
+  "talia-fen": {
+    "guild_rank": "E",
+    "general_level": 2
+  },
+  "rowan-hale": {
+    "guild_rank": "E",
+    "general_level": 2
+  },
+  "dalen-reed": {
+    "guild_rank": "F",
+    "general_level": 1
+  },
+  "sera-willow": {
+    "guild_rank": "F",
+    "general_level": 1
+  },
+  "tobin-marsh": {
+    "guild_rank": "F",
+    "general_level": 1
+  },
+  "elowen-briar": {
+    "guild_rank": "F",
+    "general_level": 1
+  },
+  "mira-thorne": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "perrin-oak": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "faye-linden": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "cedric-vale": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "lethara-mossveil": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "brom-ironroot": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "marielle-fenwick": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "aren-duskwell": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "rhea-thornfield": {
+    "guild_rank": null,
+    "general_level": null
+  }
+}
+```
+
+The [independent ledger](../../state/dsi-finance-ledger.json) preserves past 10% tithes. Future paid Guild mission rewards after legitimate Guild deductions use 25%, with 75% retained by students. Gifts, tournament prizes, assets and Theron’s expedition proceeds are outside the policy. Savings remain personal. Beren manages the founder-funded development and reserve allocations. Contracts, disbursements, completions and new hires remain pending.
+
+- Training equipment repaired.
+- Group training reorganized.
+- Stable care rotations established.
+- Feed replenished.
+- Farm planting expanded.
+- Existing dormitory accommodation reorganized.
+- Bedding replenished.
+
+These are existing-facility improvements, not completed new buildings.
+
+### Academy traditions
+
+- Dragon's Journal: Personal adventure and training records.
+- Returned Flame: Shared meal celebrating safe field-team returns.
+- Senior mentorship: Experienced students instruct newer students.
+- Empty Mask: Unissued dragon mask symbolizing future opportunities.
+- Weekly strategy night.
+- Commencement of the Dragon's Flame: Formal ceremony recognizing earned milestones.
+
+[The Way of the Dragon](../mechanics/way-of-the-dragon.md) · [Mission history](../mechanics/dsi-independent-mission-history.md)

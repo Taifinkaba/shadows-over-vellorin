@@ -448,6 +448,18 @@ The following single JSON block owns directory membership and containment edges.
       "kind": "landmark",
       "classification": "CONFIRMED CANON",
       "parents": []
+    },
+    {
+      "id": "thunderwake-cliffs",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "elderbloom-hollow",
+      "kind": "wilderness",
+      "classification": "CONFIRMED CANON",
+      "parents": []
     }
   ]
 }

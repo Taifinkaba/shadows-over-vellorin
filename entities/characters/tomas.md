@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -37,6 +38,11 @@ Runs Ashvale Estate independently: autonomous daily operations, weekly reporting
 ## Year-end operations
 
 Tomas acquired Century-Bloom Emberpears and nursery stock. He was instructed to settle debts. The observatory feast and year-end festival expenses are recorded as paid. Supplier invoices, labor, energy and research costs for the Time Chamber, the old expansion commitment and other operating obligations remain to be verified.
+
+## Year 853 session
+
+Continue ordinary commercial operations and inventory the reusable festival equipment. Assess lodge, spa and permanent fair expansion. Ordinary receipts between visits remain unitemized.
+
 
 ## Character sheet
 

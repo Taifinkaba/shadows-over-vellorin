@@ -108,10 +108,10 @@ def build_dashboard(root):
         return {'value':item,'source_ref':source_ref,'as_of':as_of,'qualification':qualification}
     checkpoint='state/checkpoint.json';ledgerref='state/finance-ledger.json'
     c=json.loads(file(checkpoint).read_text());ledger=json.loads(file(ledgerref).read_text())
-    check((c['schema_version'],ledger['schema_version']) in ((5,2),(6,3),(6,4),(6,5),(6,6),(6,7)),'dashboard requires checkpoint5/ledger2 or checkpoint6/ledger3–7')
+    check((c['schema_version'],ledger['schema_version']) in ((5,2),(6,3),(6,4),(6,5),(6,6),(6,7),(6,8)),'dashboard requires checkpoint5/ledger2 or checkpoint6/ledger3–8')
     date=' '.join(filter(None, (c['date'], c['time'])));scene={}
     for field in ('date','calendar','time','location','status'):
-        item = {k: c['calendar'][k] for k in ('season', 'day_of_season', 'annual_day', 'historical_label')
+        item = {k: c['calendar'][k] for k in ('year', 'season', 'day_of_season', 'annual_day', 'latest_numbered_day', 'part_of_day', 'historical_label')
                 if k in c['calendar']} if field == 'calendar' else c[field]
         scene[field]=value(item,checkpoint+'#/'+field,date)
     present=c['context']['companions_present']
@@ -139,7 +139,7 @@ def build_dashboard(root):
     hero['equipment_owner_refs']=value([owner(x) for x in ('frostguard-bracers','night-sovereign','sovereign-nexus','sovereign-expedition-wagon')],checkpoint,None,'Limited equipment retrieval, not exhaustive current inventory')
     hero['conditions_and_other_skills']=value(None,owner('theron-abilities'),None,'UNKNOWN / targeted retrieval required; mixed narrative is not rendered')
     cash=ledger['controlled_cash'];commit=ledger['commitments']
-    later_endpoint = ledger['schema_version'] in (6,7)
+    later_endpoint = ledger['schema_version'] in (6,7,8)
     unpaid = commit['expansion_outstanding_cp'] if later_endpoint else (
         commit['expansion_committed_cp'] - commit['expansion_paid_cp'])
     finances={k:value(v,ledgerref+'#'+pointer,date,qualification) for k,v,pointer,qualification in [
@@ -153,7 +153,7 @@ def build_dashboard(root):
         finances[key.removesuffix('_cp')+'_display']=value(None if copper is None else f'{copper//100} gp {(copper%100)//10} sp {copper%10} cp',finances[key]['source_ref'],date,finances[key]['qualification'] if year_end and key == 'controlled_cp' else 'Integer-copper display:1gp=100cp,1sp=10cp')
     finances['accounts']=[{'account_id':value(x['id'],ledgerref+f'#/controlled_cash/accounts/{i}/id',date),'balance_cp':value(x['balance_cp'],ledgerref+f'#/controlled_cash/accounts/{i}/balance_cp',date),'ownership_review':value(None,ledgerref+f'#/controlled_cash/accounts/{i}/owner',None,'Read source legal/control qualification; no new personal-title claim')} for i,x in enumerate(cash['accounts'])]
     finances['excluded_holdings']=[{'holding_id':value(x['id'],ledgerref+f'#/excluded_property/{i}/id'),'amount_cp':value(x['amount_cp'],ledgerref+f'#/excluded_property/{i}/amount_cp',None,'Excluded; source may be historical, approximate or noncash; not a certified current third-party cash total')} for i,x in enumerate(ledger['excluded_property'])]
-    if ledger['schema_version'] in (3,4,5,6,7):
+    if ledger['schema_version'] in (3,4,5,6,7,8):
         historyref=ledger['historical_day156_ref'];history=json.loads(file(historyref).read_text())
         finances['account_allocation_status']=value(cash['allocation_status'],ledgerref+'#/controlled_cash/allocation_status',date)
         finances['historical_day156_accounts']=value([{'id':a['id'],'balance_cp':a['balance_cp']} for a in history['controlled_cash']['accounts']],historyref+'#/controlled_cash/accounts',history['as_of']['date'],'Historical allocations only, not current account balances or funding authorization')
@@ -164,6 +164,11 @@ def build_dashboard(root):
             finances['working_funds_comparison_cp'] = value(
                 ledger['bridge']['difference_cp'], ledgerref+'#/bridge', None,
                 'Unitemized comparison of earlier provisional ordinary cash and later working funds')
+        elif ledger['schema_version'] == 8:
+            finances['year853_cash_bridge'] = value(ledger['bridge'], ledgerref+'#/bridge', date)
+            hero['day28_recovery_readings'] = value(c['provenance']['year853_readings'],
+                                                    checkpoint+'#/provenance/year853_readings',
+                                                    'Year 853 Day 28')
         elif later_endpoint:
             finances['unexplained_endpoint_difference_cp'] = value(
                 ledger['bridge']['difference_cp'], ledgerref+'#/bridge', None,
@@ -207,7 +212,7 @@ def build_dashboard(root):
         'dungeon_sections':sections,'legal_reviews':[{'person':value(x,owner(x)),'current_result':value(('independent-legal-review-pending' if x=='maelor-thane' else 'military-review-pending') if ('independent legal review pending.' if x=='maelor-thane' else 'pending military review.') in file(owner(x)).read_text().split('## Historical record',1)[0] else None,owner(x),None,'Reviewed pending-status phrase only; no automatic verdict, destination or case conflation')} for x in ('maelor-thane','edrick-sorn')],
         'world_event_details':value(None,owner('world-event-references'),None,'Historical references only; current developments require targeted source review; no scheduler')}
     warnings={'provenance_and_identity':value('UNKNOWN details remain in their owners','state/open-verifications.md',None,'No raw verification/handoff text or private knowledge distinctions rendered'),
-        'later_supplied_snapshot':value('PLAYED SESSION; closing cash provisional and current personal MP unverified' if year_end else 'APPROVED PLAYED SESSION' if ledger['schema_version'] in (5,6,7) else 'ADOPTED FROM PLAYER-SUPPLIED CONTINUITY; cash/MP provenance gaps remain' if c['schema_version']==6 else 'UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint',checkpoint if c['schema_version']==6 else 'docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; no invented cash/MP bridge'),
+        'later_supplied_snapshot':value('PLAYED SESSION; closing cash provisional and current personal MP unverified' if year_end else 'APPROVED PLAYED SESSION' if ledger['schema_version'] in (5,6,7,8) else 'ADOPTED FROM PLAYER-SUPPLIED CONTINUITY; cash/MP provenance gaps remain' if c['schema_version']==6 else 'UNADOPTED; separate reconciliation required' if c['date']=='Year 848 Day 156' else 'SOURCE REVIEW REQUIRED; compare approved checkpoint with the historical supplied endpoint',checkpoint if c['schema_version']==6 else 'docs/world-bible-integration-audit.md',None,'Authoritative scene comes from checkpoint; no invented cash/MP bridge'),
         'privacy':value('Public repository / private-governance conflict unresolved','governance/precedence.md',None,'This projection does not certify the repository spoiler-safe; private GM-answer storage remains separate'),
         'proposals':value('Unapproved institutions/routes/clocks/answers remain proposed',owner('gm-workflow'))}
     personnel_ids={'tomas','master-beren','bren','mira-lodge-helper','joren','elsi','elias-renn','maera','mira-thorne'}

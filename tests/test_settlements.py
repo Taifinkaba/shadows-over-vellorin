@@ -178,6 +178,7 @@ class SettlementTests(unittest.TestCase):
                 prefix = prefix.replace('- changes/chronicles/year848-suncrest262-end-session.md\n', '', 1)
                 if path == 'entities/locations/ashvale-estate.md':
                     prefix = prefix.replace('- changes/chronicles/year852-day365-end-session.md\n', '', 1)
+                prefix = prefix.replace('- changes/chronicles/year853-end-session.md\n', '', 1)
                 prefix = re.sub(r'\n## Year 848, Suncrest 262 update\n.*?\n## Earlier record\n',
                                 '', prefix, count=1, flags=re.S)
                 self.assertEqual(hashlib.sha256(prefix.encode()).hexdigest(),digest,path)

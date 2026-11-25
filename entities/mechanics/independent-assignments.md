@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/npc-autonomy-framework-maintenance.md
 - state/checkpoint.json
 - entities/mechanics/outstanding-projects.md
@@ -584,3 +585,115 @@ The eleven proposed workflow labels are not a new frontmatter status enum. An ol
   "automatic_outcomes": false
 }
 ```
+
+## Year 853 session
+
+### DSI
+
+Beren:
+
+- Manage nineteen students.
+- Oversee construction funding and contractor proposals.
+- Apply 25% future mission tithe.
+- Manage recruitment and waiting list.
+- Maintain academy finances.
+- Ensure safe training.
+
+Vaeltharion:
+
+- Directly instruct four initiated Dragon Slayers.
+- Conduct essence control and advancement assessments.
+- Continue independently and voluntarily.
+
+Elias:
+
+- Field command.
+- Dragon Slayer education.
+- Buried Lantern Hall investigation.
+
+Kaela:
+
+- Reconnaissance and archery development.
+- Mounted training.
+- Junior mentorship.
+- Dragon Slayer education.
+
+Gorren:
+
+- Defensive instruction.
+- Equipment inspections.
+- Dragon Slayer education.
+
+Nessa:
+
+- Field medicine.
+- Animal care.
+- Healing instruction.
+- Dragon Slayer education.
+
+Talia and Rowan:
+
+- Future initiation candidates.
+- Equipment and combat development.
+- Continue supervised missions and mount savings.
+
+Dalen, Sera, Tobin, Elowen:
+
+- Supervised low-risk Guild contracts.
+- Equipment and professional development.
+
+Other nine students:
+
+- Foundational education and individual readiness assessments.
+
+### Estate and other teams
+
+Bren / Ironshield:
+
+- Arena maintenance and shield inspections.
+- Permanent entertainment infrastructure proposals.
+- Existing defenses.
+
+Theron's mother / Hearthguard:
+
+- Healing wing operation.
+- Medical supplies.
+- Estate care and proposed expansion.
+
+Estate management:
+
+- Normal commercial operations.
+- Inventory reusable festival equipment.
+- Lodge and spa expansion assessment.
+- Permanent fair infrastructure assessment.
+
+Research personnel:
+
+- Time Chamber investigation.
+- Anti-aging research.
+- Sovereign Thought Acceleration planning.
+- No new verified breakthroughs.
+
+Forgotten Watchpost personnel:
+
+- Maintain fourth-state isolation.
+- Keep concealed arch sealed.
+- Monitor boundaries.
+- No student access to restricted areas.
+- No unauthorized opening.
+
+Rhavoryx:
+
+- Returned or returning independently toward Thunderwake Cliffs.
+- Voluntary historical inquiries.
+
+Sylmerath:
+
+- Returned or returning independently toward Elderbloom Hollow.
+- Voluntary historical research.
+
+Exact current dragon locations beyond played departures remain unverified.
+
+---
+
+[DSI mission history](dsi-independent-mission-history.md) · [Buried Lantern Hall](../quests/buried-lantern-hall.md)
