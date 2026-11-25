@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
@@ -39,6 +40,10 @@ Voluntarily agreed to consolidate personal campaign balance into the Theron-mana
 
 Traveled with Seven Bells expedition; observed repeated supervised Assimilation II trials with Raze analysis. Astral Conduit basic sustained operation now certified; other features pending. Prior178/190 is last-recorded historical MP, not a newly verified current pool; no party injuries.
 
+
+## Year 852 close
+
+Returned safely and attended the council. Field roles include research, evidence and archives. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
 
 ## Character sheet
 

@@ -4,6 +4,7 @@ type: items
 status: gm-secret-locked
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year852-day365-end-session.md
   - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
   - "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md"
   - "archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md"
@@ -20,3 +21,7 @@ Legendary shortsword 1d8+3; Aric commissioned from one master smith using scales
 Aric gave the commissioned blade to Theron after receiving scales willingly from the living black-and-silver Frostspire dragon. The approximate 26-year interval refers to the scale gift in the early accounts. The exact forging date remains unknown. Aric promised to keep the dwelling secret. The dragon warned that the Seven Bindings were weakening and Ashvale blood mattered. The donor's identity and Theron’s receipt of those historical details remain unverified.
 
 The blade bears **“WHEN WINTER GUARDS THE THRESHOLD...”** and has the established protective frost aspect, runic amplification and draconic resonance. Dormant effects remain dormant. [Source reconciliation](../../changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md)
+
+## Year 852 maker identification
+
+The played investigation identifies Gareth Vaelwright as the maker of both Runeblades. Aric’s black commission and the distinct frost-line sources stand. Threshold Covenant principles explain textual influence. Possession grants no authority over the Watchpost and activates no dormant power. [Session evidence](../../changes/chronicles/year852-day365-end-session.md#white-runeblade-investigation)

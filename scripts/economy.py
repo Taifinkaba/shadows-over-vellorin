@@ -235,7 +235,9 @@ def financial_report(root):
         old_accounts=result['cash_position']['accounts'];c=ledger['controlled_cash'];m=ledger['commitments']
         later_endpoint = ledger['schema_version'] in (6,7)
         provisional = ledger.get('endpoint', {}).get('classification') == 'PROVISIONAL PLAYED ENDPOINT'
-        cash_status = ('provisional played close; reconciliation pending' if provisional else
+        working_treasury = ledger.get('endpoint', {}).get('classification') == 'PLAYER-CORRECTED WORKING TREASURY'
+        cash_status = ('player-corrected controlled working funds' if working_treasury else
+                       'provisional played close; reconciliation pending' if provisional else
                        'player-approved later endpoint' if later_endpoint else
                        'supplied endpoint plus actual recorded events')
         result['cash_position'].update(controlled=current(c['total_cp'],'/controlled_cash/total_cp',cash_status),committed_unpaid=current(m['expansion_outstanding_cp'],'/commitments/expansion_outstanding_cp','unpaid remaining commitment included in controlled cash'),uncommitted=current(m['uncommitted_cp'],'/commitments/uncommitted_cp','uncommitted under existing authority restrictions'),accounts=[dict(id=x['id'],balance=current(x['balance_cp'],'/controlled_cash/accounts','verified current account')) for x in c['accounts']],historical_day156_accounts=old_accounts,allocation_status=c['allocation_status'])
@@ -250,6 +252,8 @@ def financial_report(root):
                 'net_cash_effect_cp': sum(t['cash_effect_cp'] for t in actual),
             }
         result['reconciliation']={'endpoint':ledger['endpoint'],('reconciled_endpoint_bridge' if ledger['schema_version'] in (4,5) else 'unexplained_endpoint_bridge'):ledger['bridge'],'actual_transaction_count':len(ledger['transactions']),'current_cash':current(c['total_cp'],'/controlled_cash/total_cp',cash_status),'qualification':'Bridge is a disclosure, not an event, expense or account assignment; historical arc remains unchanged.'}
+        if working_treasury:
+            result['reconciliation']['working_funds_comparison'] = result['reconciliation'].pop('unexplained_endpoint_bridge')
         if ledger['schema_version'] == 7:
             result['reconciliation']['historical_suncrest262_ref'] = ledger['historical_suncrest262_ref']
             result['five_part_completed_projects'] = ledger['completed_projects']

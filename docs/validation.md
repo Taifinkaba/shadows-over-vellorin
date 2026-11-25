@@ -325,3 +325,10 @@ Checkpoint6 supports an annual day and literal historical label with an unknown 
 ## Year 852 Day 1 checkpoint6 and ledger7
 
 The later session reuses the existing checkpoint and event row shapes. The Day 160 checkpoint and ledger are preserved and validated as historical sources. The current ledger retains the Day 160 rows and appends the feast and year-end festival once, with source and dates qualified where known. The bridge compares 107,300 cp with the played opening of 105,300 cp without a posting. The provisional close is 714,500 cp. Current account allocations remain empty pending verification. The checkpoint stores 385/400 as last-tracked personal MP with no inferred resource event.
+
+
+## Year 852 Day 365 close
+
+Checkpoint6 and ledger7 keep their existing shapes. The Day 1 snapshot and ledger are archived byte for byte. The new endpoint uses the supplied Day 264 working opening and seven once-only postings. Four contract IDs record net rewards after Guild commission. The three expense rows cover provisions, Watchpost work and Arena Phase VI. The earlier endpoint comparison remains unitemized and unposted. The player closed the historical 20 gp and 317 gp issues without a new settlement posting.
+
+The active checkpoint closes at Ashvale Estate with unknown clock time and the supplied Level 6 stats. The handoff identifies Year 853 Day 1 as next playable. The Wayfarers contract registry routes four newly completed contracts to their owner and the ledger retains the sole postings. The DSI ledger retains its independent scope.

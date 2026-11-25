@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
@@ -18,7 +19,7 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
-  money.total_gp_sp: 7145gp
+  money.total_gp_sp: 5146gp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
@@ -137,3 +138,9 @@ G-21526gp, G-21632gp, B-8340gp and separate raid22gp already included in subsequ
 ## Year 852 Day 1 provisional close
 
 Day 160’s authoritative 1,073 gp close is preserved in the [archived ledger](../../archive/checkpoints/year851-day160-finance-ledger.json). Played continuity reports 1,053 gp at the Day 326 feast opening, with a 20 gp unexplained difference. The 96 gp feast was settled in full. The separate Day 365 festival brought in 9,888 gp against 3,700 gp in settled costs. The resulting **7,145 gp** is provisional. The 100 gp purse target is included and its current balance and all allocations remain unverified. The historical 317 gp expansion commitment, Time Chamber costs and other operating obligations await verification. See the [ledger](../../state/finance-ledger.json).
+
+## Year 852 Day 365 working treasury
+
+Theron leads, owns and funds the expedition. Its net Guild rewards belong to his controlled working treasury, including independently executed expedition work. Expedition support is funded through that treasury. Salary, bonus, gift or separate compensation requires his authorization. The player superseded the previously narrated automatic distributions for these contracts through a record correction. Earlier legitimate payments and independent DSI accounting retain their scope.
+
+The [ledger](../../state/finance-ledger.json) records 5,345 gp working funds, +364 gp 5 sp net rewards and −563 gp 5 sp in paid expenses, for **5,146 gp**. The Day 264 opening remains unitemized against the older provisional ordinary cash snapshot. The 317 gp expansion and historical 20 gp provisions discrepancy are closed in played continuity. The current window posts neither amount.

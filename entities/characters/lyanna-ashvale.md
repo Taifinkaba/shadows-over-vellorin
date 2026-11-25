@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -48,6 +49,10 @@ Traveled with Seven Bells expedition; her custodial standing was separately reco
 ## Year 851 later session
 
 Spent time with Theron and reached the Day 365 tournament quarterfinals. Family training generated no mechanical changes.
+
+## Year 852 close
+
+At Ashvale Estate, asked Theron privately to bring the people responsible for her kidnapping to justice without losing himself. Theron agreed. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
 
 ## Character sheet
 

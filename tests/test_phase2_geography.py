@@ -8,7 +8,7 @@ import shutil
 import tempfile
 import unittest
 
-from snapshot_helpers import TWIN_SWORD_REVISIONS, DRAGON_REFERENCE_REVISIONS, YEAR852_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES
+from snapshot_helpers import YEAR852_CLOSE_REVISIONS, TWIN_SWORD_REVISIONS, DRAGON_REFERENCE_REVISIONS, YEAR852_REVISED_AUTHORITIES, YEAR851_REVISED_AUTHORITIES, SUNCREST262_REVISED_AUTHORITIES
 from scripts.validate import ValidationError, validate
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,8 +43,8 @@ class Phase2GeographyTests(unittest.TestCase):
             manifest = json.loads((ROOT/'tests/fixtures/phase2-01-preservation.json').read_text())
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path, revision in manifest['authorized_geography_revisions'].items():
-                self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), (SUNCREST262_REVISED_AUTHORITIES | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES | DRAGON_REFERENCE_REVISIONS | TWIN_SWORD_REVISIONS).get(path, {}).get('after_sha256', revision['after_sha256']), path)
-                self.assertNotEqual(revision['before_sha256'], (SUNCREST262_REVISED_AUTHORITIES | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES | DRAGON_REFERENCE_REVISIONS | TWIN_SWORD_REVISIONS).get(path, {}).get('after_sha256', revision['after_sha256']))
+                self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), (SUNCREST262_REVISED_AUTHORITIES | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES | DRAGON_REFERENCE_REVISIONS | TWIN_SWORD_REVISIONS | YEAR852_CLOSE_REVISIONS).get(path, {}).get('after_sha256', revision['after_sha256']), path)
+                self.assertNotEqual(revision['before_sha256'], (SUNCREST262_REVISED_AUTHORITIES | YEAR851_REVISED_AUTHORITIES | YEAR852_REVISED_AUTHORITIES | DRAGON_REFERENCE_REVISIONS | TWIN_SWORD_REVISIONS | YEAR852_CLOSE_REVISIONS).get(path, {}).get('after_sha256', revision['after_sha256']))
         with self.subTest(case='test_approved_relationships_and_unplaced_marches'), isolated_case(self):
             nodes = {n['id']: n for n in self.data(ROOT, 'mechanics', 'world-geography')['nodes']}
             for ident in ('valedorn', 'elyndor', 'ironhollow-holds', 'rivermere-league', 'frostmarch'):

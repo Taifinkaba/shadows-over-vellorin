@@ -293,6 +293,12 @@ def validate_finance_ledger(root, state):
             from .finance_festival import YEAR_END_SOURCE, validate_festival, validate_year_end
         else:
             from finance_festival import YEAR_END_SOURCE, validate_festival, validate_year_end
+        if __package__:
+            from .finance_expedition import SOURCE as EXPEDITION_SOURCE, validate_expedition
+        else:
+            from finance_expedition import SOURCE as EXPEDITION_SOURCE, validate_expedition
+        if state['source'] == EXPEDITION_SOURCE:
+            return validate_expedition(root, state, ledger)
         if state['source'] == YEAR_END_SOURCE:
             return validate_year_end(root, state, ledger)
         return validate_festival(root, state, ledger)

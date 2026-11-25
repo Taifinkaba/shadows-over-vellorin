@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - changes/chronicles/guild-concord-contracts-design.md
 - entities/factions/wayfarers-guild.md
@@ -41,6 +42,22 @@ Routing only; no copied rewards/statuses or second quest ledger. Known contract 
     {
       "contract_id": "WG-848-196-BRIARFALL",
       "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-852-260",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-852-261",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-852-347",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-852-354",
+      "owner_entity_id": "wayfarers-guild"
     }
   ],
   "dungeon_contract_kinds": [
@@ -58,3 +75,5 @@ Routing only; no copied rewards/statuses or second quest ledger. Known contract 
   "automatic_financial_postings": false
 }
 ```
+
+The Year 852 entries route four completed funded expedition contracts. [Session evidence](../../changes/chronicles/year852-day365-end-session.md#completed-guild-missions)

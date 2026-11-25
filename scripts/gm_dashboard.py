@@ -119,10 +119,11 @@ def build_dashboard(root):
     scene['explicitly_present_ids']=value(present,checkpoint+'#/context/companions_present',date,'Only checkpoint-listed presence; no inferred recall')
     scene['last_verified_source']=value(c['source'],checkpoint+'#/source',date)
     year_end = ledger.get('endpoint', {}).get('classification') == 'PROVISIONAL PLAYED ENDPOINT'
+    working_treasury = ledger.get('endpoint', {}).get('classification') == 'PLAYER-CORRECTED WORKING TREASURY'
     hero={}
     for field in ('hp','hp_max','mp','mp_max','defense'):
         hero[field]=value(c['theron'][field],checkpoint+'#/theron/'+field,date)
-    if year_end:
+    if year_end or working_treasury:
         hero['mp']['as_of'] = None
         hero['mp']['qualification'] = 'Last tracked; current reading unverified'
     for field in ('equipped_defense','staff_mp','staff_mp_max','wagon_mp','wagon_mp_max','chronos_eye_locked','dragon_slayer_locked'):
@@ -142,7 +143,7 @@ def build_dashboard(root):
     unpaid = commit['expansion_outstanding_cp'] if later_endpoint else (
         commit['expansion_committed_cp'] - commit['expansion_paid_cp'])
     finances={k:value(v,ledgerref+'#'+pointer,date,qualification) for k,v,pointer,qualification in [
-        ('controlled_cp',cash['total_cp'],'/controlled_cash/total_cp','Provisional played close; reconciliation pending' if year_end else 'Controlled cash; source owner labels do not establish sole personal title'),
+        ('controlled_cp',cash['total_cp'],'/controlled_cash/total_cp','Player-corrected controlled working funds' if working_treasury else 'Provisional played close; reconciliation pending' if year_end else 'Controlled cash; source owner labels do not establish sole personal title'),
         ('committed_unpaid_cp',unpaid,'/commitments','Included in controlled cash until paid'),
         ('uncommitted_cp',commit['uncommitted_cp'],'/commitments/uncommitted_cp','Available under existing ownership/authority restrictions'),
         ('construction_started',commit['construction_started'],'/commitments/construction_started','Commitment is not construction') ]}
@@ -159,6 +160,10 @@ def build_dashboard(root):
         if ledger['schema_version']==3:
             finances['unexplained_endpoint_difference_cp']=value(ledger['bridge']['difference_cp'],ledgerref+'#/bridge',None,'UNEXPLAINED ENDPOINT DIFFERENCE — PROVENANCE UNRESOLVED; not a transaction or account assignment')
             hero['unexplained_mp_endpoint_change']=value(c['provenance']['mp_bridge']['difference_mp'],checkpoint+'#/provenance/mp_bridge',None,'UNEXPLAINED ENDPOINT CHANGE — PROVENANCE UNRESOLVED; no recovery event')
+        elif working_treasury:
+            finances['working_funds_comparison_cp'] = value(
+                ledger['bridge']['difference_cp'], ledgerref+'#/bridge', None,
+                'Unitemized comparison of earlier provisional ordinary cash and later working funds')
         elif later_endpoint:
             finances['unexplained_endpoint_difference_cp'] = value(
                 ledger['bridge']['difference_cp'], ledgerref+'#/bridge', None,

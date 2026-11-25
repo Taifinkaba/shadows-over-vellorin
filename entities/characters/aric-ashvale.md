@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
 - archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md
 - archive/legacy-modules/codex/08-8-live-campaign-handoff-copy-into-a-new-chat.md
@@ -40,6 +41,10 @@ Spent time with Theron and reached the Day 365 tournament semifinals. Family tra
 ## Black Runeblade commission and later investigation
 
 Aric personally hired the smith and knows whom he hired, where and how he arranged the commission, and the terms of his own agreement. He received the Frostspire scales willingly and promised secrecy about the dragon’s dwelling. The written record leaves the smith’s name and workshop location open. His research covered both blades. His knowledge of the white commission and any disclosure of the smith, location or donors to Theron remain unverified. The Day 160 request for his commission documents stands with arrival and contents unverified. [Sword reconciliation](../../changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md)
+
+## Year 852 close
+
+Retained his role as father, swordsman and investigation support. The played inquiry identifies Gareth Vaelwright as maker of the black blade that Aric originally commissioned. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
 
 ## Character sheet
 
