@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "owner_id": "dragon-slayer-academy",
+  "as_of": {
+    "date": "Year 848 Day 382",
+    "season": "Suncrest",
+    "day_of_season": 262,
+    "time": "18:00",
+    "location": "DSI Academy, Greyhaven Valley",
+    "session_status": "ENDED"
+  },
+  "source_ref": "changes/chronicles/year848-suncrest262-end-session.md",
+  "currency": {
+    "unit": "cp",
+    "cp_per_gp": 100,
+    "cp_per_sp": 10
+  },
+  "tithe_percent": 10,
+  "contracts": [
+    {
+      "name": "Farmstead predator patrol",
+      "gross_paid_cp": 3500,
+      "tithe_cp": 350,
+      "adventurers_retain_cp": 3150
+    },
+    {
+      "name": "Merchant road escort",
+      "gross_paid_cp": 4500,
+      "tithe_cp": 450,
+      "adventurers_retain_cp": 4050
+    },
+    {
+      "name": "Missing supply caravan recovery",
+      "gross_paid_cp": 7000,
+      "tithe_cp": 700,
+      "adventurers_retain_cp": 6300
+    },
+    {
+      "name": "Northern route security",
+      "gross_paid_cp": 9000,
+      "tithe_cp": 900,
+      "adventurers_retain_cp": 8100
+    }
+  ],
+  "totals": {
+    "gross_paid_cp": 24000,
+    "tithe_cp": 2400,
+    "adventurers_retain_cp": 21600
+  },
+  "improvements": [
+    {
+      "purpose": "Dormitory repairs",
+      "amount_cp": 1400
+    },
+    {
+      "purpose": "Practice protection and training equipment",
+      "amount_cp": 1000
+    }
+  ],
+  "improvement_budget_remaining_cp": 0,
+  "treasury_total_cp": null,
+  "historical_report": {
+    "cash_cp": 3400,
+    "refundable_deposit_cp": 1500
+  },
+  "reversed_proposed_theron_grant_cp": 2400,
+  "included_in_party_total": false,
+  "automatic_future_income": false
+}

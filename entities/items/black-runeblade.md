@@ -4,6 +4,7 @@ type: items
 status: gm-secret-locked
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day365-end-session.md
   - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
   - "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md"
@@ -25,3 +26,7 @@ The blade bears **“WHEN WINTER GUARDS THE THRESHOLD...”** and has the establ
 ## Year 852 maker identification
 
 The played investigation identifies Gareth Vaelwright as the maker of both Runeblades. Aric’s black commission and the distinct frost-line sources stand. Threshold Covenant principles explain textual influence. Possession grants no authority over the Watchpost and activates no dormant power. [Session evidence](../../changes/chronicles/year852-day365-end-session.md#white-runeblade-investigation)
+
+## Year 853 session
+
+The existing provenance and knowledge boundaries stand. Rhavoryx and Sylmerath examined both swords and discussed candidate scale traditions without identifying donors. The [quest](../quests/twin-sword-origin.md) and [verification queue](../../state/open-verifications.md) track the unresolved relationship to Eclipse Sovereigns, current mechanics and refinements. Dawnbreaker’s Promise is separate.

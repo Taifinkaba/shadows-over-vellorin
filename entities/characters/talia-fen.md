@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
@@ -36,6 +37,24 @@ Skills:
 Damage, resistances, movement modifiers, spell costs and prior independent career history remain unknown.
 
 
+## Year 853 session
+
+- Role: Archer.
+- Guild E, Level 2, newly advanced.
+- HP 22/22.
+- MP 0/0.
+- DEF 12.
+- Attributes: 10, 15, 11, 11, 13, 10.
+- Archery 2/5.
+- Tracking 2/5.
+- Navigation 2/5.
+- First Aid 1/5.
+- No mount.
+- Newly purchased protective armor, arrows and archery instruction.
+- Future Dragon Slayer candidate.
+
+Paid purchases and remaining recent earnings are in the [DSI ledger](../../state/dsi-finance-ledger.json). Equipment bonuses and further skill gains remain unassessed. Inspected mounts and deferred purchase.
+
 ## Character sheet
 
 ```yaml
@@ -47,8 +66,8 @@ character_sheet:
   sex: null
   age: null
   role: Apprentice Archer
-  rank: F
-  level: 1
+  rank: E
+  level: 2
   hp: 22
   hp_max: 22
   mp: 0
@@ -73,15 +92,19 @@ character_sheet:
   - knife
   - traveling clothes
   - guild card
+  - Protective armor
+  - Arrows
   mount: none
   personal_cash: null
   relationships: null
-  assessment: Year 848, Suncrest 260–262 academy assessment
-  recorded_context: Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct
-    from DSI enrollment.
+  assessment: Year 853 Guild promotion after supervised missions and successful assessment.
+    HP, MP, DEF and skills retain earlier assessment values.
+  recorded_context: Year 853 equipment purchases and most recent recorded Guild assessment.
+    Earlier measurements retain their original provenance.
   age_category: Adult
-  guild_status: Newly registered, supervised low-risk assignments only
+  guild_status: Guild E, supervised contracts
   source_refs:
+  - changes/chronicles/year853-end-session.md
   - entities/characters/talia-fen.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md

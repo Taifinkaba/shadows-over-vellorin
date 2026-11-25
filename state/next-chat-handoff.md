@@ -1,3 +1,16 @@
+# Next-chat handoff — Year 853, Hollow Veil
+
+The session **ENDED** in the evening at Hollow Veil sanctuary, Mount Vaelspire, after the Trial of the Ancient Grounds. Day 28 is the last explicitly numbered day. Closing date and clock time remain unknown. Await the player’s instruction. [Checkpoint](checkpoint.json) · [Chronicle](../changes/chronicles/year853-end-session.md)
+
+- Theron remains S+ Level 6. Day 28 readings were 104/104 HP, 410/410 personal MP and 180/180 Nexus MP. Closing values, wagon readings, wearing and Nexus recharge provenance remain open. Dragon Slayer and Chronos Eye remain locked.
+- Four consenting DSI disciples initiated at Dragon Slayer F Level 1. Each retains independently established Guild E and general Level 2. [Way of the Dragon](../entities/mechanics/way-of-the-dragon.md)
+- Theron controls **271,870 gp**. DSI has **1,220 gp newly accounted**, including 1,200 gp allocated to development and reserves. Total lifetime academy and student balances remain unreconciled. [Treasury](finance-ledger.json) · [DSI ledger](dsi-finance-ledger.json)
+- Continue sanctuary operations only when directed. Westbridge remains the primary next main-story destination for lawful access to Marek Dorne’s restricted statement. Exact travel routes and the older temple identity require verification. [Quest](../entities/quests/twin-sword-origin.md) · [Open verifications](open-verifications.md)
+
+## Historical Year 852 close
+
+[Checkpoint](../archive/checkpoints/year852-day365.json) · [Ledger](../archive/checkpoints/year852-day365-finance-ledger.json)
+
 # Next-chat handoff — Year 853 Day 1
 
 The previous session **ended Year 852 Day 365 at Ashvale Estate**, after the grand council and Lyanna’s private conversation. Exact closing and opening hours are unverified. Await the player’s instruction to resume. [Checkpoint](checkpoint.json) · [Chronicle](../changes/chronicles/year852-day365-end-session.md) · [Index](../index.json)

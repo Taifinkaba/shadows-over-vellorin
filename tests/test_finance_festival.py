@@ -14,10 +14,10 @@ ROOT = Path(__file__).resolve().parents[1]
 class FestivalFinanceTests(unittest.TestCase):
     def test_report_projects_actual_cash_and_receipts(self):
         report = financial_report(ROOT)
-        self.assertEqual(report['cash_position']['controlled']['amount_cp'], 514600)
-        self.assertIn('working funds', report['cash_position']['controlled']['status'])
-        self.assertEqual(report['income_statement']['actual_received_revenue']['amount_cp'], 1477250)
-        self.assertEqual(report['income_statement']['actual_paid_expenses']['amount_cp'], 993950)
+        self.assertEqual(report['cash_position']['controlled']['amount_cp'], 27187000)
+        self.assertIn('player-approved later endpoint', report['cash_position']['controlled']['status'])
+        self.assertEqual(report['income_statement']['actual_received_revenue']['amount_cp'], 30691250)
+        self.assertEqual(report['income_statement']['actual_paid_expenses']['amount_cp'], 3415550)
         self.assertEqual([row['outstanding_cp'] for row in report['five_part_completed_projects']], [0, 0, 0])
 
     def test_duplicate_and_missing_postings_fail(self):
@@ -48,8 +48,8 @@ class FestivalFinanceTests(unittest.TestCase):
 
 
     def test_corrected_expedition_has_no_repayment_or_duplicate_expense(self):
-        state = read_json(ROOT / 'state/checkpoint.json')
-        ledger = read_json(ROOT / 'state/finance-ledger.json')
+        state = read_json(ROOT / 'archive/checkpoints/year852-day365.json')
+        ledger = read_json(ROOT / 'archive/checkpoints/year852-day365-finance-ledger.json')
         validate_expedition(ROOT, state, ledger)
         for update, reason in (
             (lambda rows: rows.append(rows[-1]), 'duplicate posting'),

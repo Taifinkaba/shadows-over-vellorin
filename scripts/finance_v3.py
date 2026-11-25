@@ -212,9 +212,10 @@ def validate_finance_v3(root,state,l):
 
 
 def validate_checkpoint6(root,s):
-    if __package__:from .validate import require,keys,repository_file,read_json
-    else:from validate import require,keys,repository_file,read_json
-    p=s['provenance'];keys(p,{'classification','adoption_source_ref','historical_checkpoint_ref','historical_entity_records_ref','current_presence','current_equipment','exact_room','conditional_defense','carried_forward_world_context_ref','mp_bridge'},'checkpoint6 provenance')
+    if __package__:from .validate import require,keys,repository_file,read_json,YEAR853_SOURCE
+    else:from validate import require,keys,repository_file,read_json,YEAR853_SOURCE
+    year853 = s['source'] == YEAR853_SOURCE
+    p=s['provenance'];keys(p,{'classification','adoption_source_ref','historical_checkpoint_ref','historical_entity_records_ref','current_presence','current_equipment','exact_room','conditional_defense','carried_forward_world_context_ref','mp_bridge'} | ({'year853_readings'} if year853 else set()),'checkpoint6 provenance')
     require(p['classification'] in ('PLAYER-SUPPLIED ENDPOINT ADOPTION', PLAYED_SESSION)
             and p['adoption_source_ref']==ADOPTION and p['historical_checkpoint_ref']==STATE_HISTORY and p['historical_entity_records_ref']==RECORD_HISTORY and p['carried_forward_world_context_ref']==STATE_HISTORY,'checkpoint6: provenance source mismatch')
     for name in ('adoption_source_ref','historical_checkpoint_ref','historical_entity_records_ref','carried_forward_world_context_ref'):repository_file(root,p[name],'checkpoint6 history')
@@ -227,6 +228,14 @@ def validate_checkpoint6(root,s):
     allowed_bridges = (last_tracked,) if year_end else (old_bridge, recovered)
     if s['source'] == 'changes/chronicles/year852-day365-end-session.md':
         allowed_bridges = (dict(last_tracked, from_mp=385, to_mp=351, difference_mp=-34),)
+    if year853:
+        allowed_bridges = (dict(last_tracked, from_mp=351, to_mp=410, difference_mp=59,
+                                classification='DAY 28 READING — INTERVENING MOVEMENTS AND CLOSING POOLS UNVERIFIED'),)
+        previous = 'archive/checkpoints/year852-day365.json'
+        require(p['year853_readings'] == dict(day=28, hp=104, mp=410, nexus_mp=180,
+                                             nexus_recharge_source=None, previous_checkpoint=previous),
+                'checkpoint6: observed Day 28 readings and unknown recharge')
+        repository_file(root, previous, 'checkpoint6: prior session')
     require(p['mp_bridge'] in allowed_bridges,'checkpoint6: recovery must match approved capped interval or historical unresolved snapshot')
     if p['mp_bridge']==recovered:
         repository_file(root,RECONCILIATION,'mana continuity')

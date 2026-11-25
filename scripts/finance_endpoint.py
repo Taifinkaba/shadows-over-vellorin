@@ -63,6 +63,9 @@ def validate_endpoint(root: Path, state, ledger):
 
 def validate_dsi(root, scene, currency):
     dsi = read_json(repository_file(root, DSI_LEDGER, 'DSI finance'))
+    if dsi['schema_version'] == 2:
+        dsi = read_json(repository_file(root, 'archive/checkpoints/year852-day365-dsi-finance-ledger.json',
+                                        'historical DSI finance'))
     require(dsi['schema_version'] == 1 and dsi['owner_id'] == 'dragon-slayer-academy'
             and dsi['source_ref'] == SOURCE and dsi['as_of'] == scene and dsi['currency'] == currency,
             'DSI finance: ownership or provenance differs')

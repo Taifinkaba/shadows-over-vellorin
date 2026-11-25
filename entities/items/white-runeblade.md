@@ -4,6 +4,7 @@ type: items
 status: gm-secret-locked
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day365-end-session.md
   - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
   - "archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md"
@@ -23,3 +24,7 @@ The recovery connects the blade to the abductors’ network. Its reflective fros
 ## Winterglass Private Trust commission
 
 Gareth Vaelwright forged the blade for Lady Isolde Vaeren through Winterglass Private Trust, using a frost-line source distinct from the black blade’s. The commission describes preserving a reflection of an oath without granting authority to compel it. Theron retains the blade pending rightful custody review. Exact recipient and custody after the Hollow Crown collection remain open. [Investigation](../../changes/chronicles/year852-day365-end-session.md#white-runeblade-investigation)
+
+## Year 853 session
+
+The existing provenance and knowledge boundaries stand. Rhavoryx and Sylmerath examined both swords and discussed candidate scale traditions without identifying donors. The [quest](../quests/twin-sword-origin.md) and [verification queue](../../state/open-verifications.md) track the unresolved relationship to Eclipse Sovereigns, current mechanics and refinements. Dawnbreaker’s Promise is separate.

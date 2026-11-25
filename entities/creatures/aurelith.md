@@ -4,6 +4,7 @@ type: creatures
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - archive/design-proposals/ancient-dragon-humanoid-forms.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -62,3 +63,7 @@ Player-reported historical transformation pending source reconciliation. Repeata
 ### Image prompt and provenance
 
 Use the [copy-ready Aurelith prompt](../mechanics/dragon-image-reference-prompts.md#aurelith). The [player submission](../../archive/design-proposals/ancient-dragon-humanoid-forms.md) supplies the visual design. Established history is sourced in this record’s front matter.
+
+## Year 853 session
+
+Voluntarily competed in the [Year 853 dragon tournament](../mechanics/grand-festival-of-dragons-year853.md). Voluntary consultant on Sovereign Thought Acceleration.

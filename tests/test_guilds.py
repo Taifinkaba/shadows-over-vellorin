@@ -148,7 +148,7 @@ class GuildTests(unittest.TestCase):
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path,digest in f['guild_prefix_sha256'].items():
                 prefix = (ROOT/path).read_text().split(GUILD_MARKER)[0]
-                for source in ('year848-day196-end-session', 'year848-suncrest262-end-session', 'year851-day160-end-session', 'year852-day1-end-session', 'year852-day365-end-session'):
+                for source in ('year848-day196-end-session', 'year848-suncrest262-end-session', 'year851-day160-end-session', 'year852-day1-end-session', 'year852-day365-end-session', 'year853-end-session'):
                     prefix = prefix.replace(f'- changes/chronicles/{source}.md\n', '', 1)
                 prefix = re.sub(r'\n## Year 848, Suncrest 262 update\n.*?\n## Earlier record\n',
                                 '', prefix, count=1, flags=re.S)

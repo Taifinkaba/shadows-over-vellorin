@@ -4,6 +4,7 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -22,3 +23,17 @@ Year 851 Day 365 drew 64 entrants and sold 1,170 spectator tickets. Maeryn won t
 Phase VI completed and 500 gp was paid once. Two full-height test obelisks remain installed. Upper field geometry improved, layered spectator shields demonstrated independent failure isolation, and an unwanted energy path toward evacuation stonework was corrected. Low-load thermal and independent shutdown tests passed after adjustments. Physical evacuation routes remained accessible in tests.
 
 Six combat obelisks remain unbuilt. Protection covers only the installed limited scope, and dragon-class combat remains uncertified. High-force endurance remains limited by protective energy reserves. Bren independently handles engineering, future quotations and safety evidence. No further purchase is approved. [Session evidence](../../changes/chronicles/year852-day365-end-session.md#ashvale-grand-arena)
+
+## Year 853 session
+
+Six new shield obelisks were constructed and installed.
+
+- Obelisk construction: 1,080 GP.
+- Specialist installation and testing: 420 GP.
+- Tests completed by Day 15.
+- Observed operational performance confirmed during the festival.
+- Arena inspection and maintenance: 380 GP.
+
+The six obelisks are completed infrastructure, not an outstanding proposal.
+
+Dragon-class protection was observed under the conditions of the Year 853 tournament. Earlier Phase VI works remain separate. See the [festival record](../mechanics/grand-festival-of-dragons-year853.md).

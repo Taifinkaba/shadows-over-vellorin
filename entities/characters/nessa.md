@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
@@ -37,6 +38,27 @@ Support Magic does NOT automatically create named spells, spell costs or healing
 
 Damage, resistances, movement modifiers, spell costs and prior independent career history remain unknown. Support Magic has no established named spells or healing values.
 
+
+## Year 853 session
+
+- Role: Field Support.
+- Guild E, Level 2.
+- HP 28/28.
+- MP 24/24.
+- DEF 12.
+- Attributes: 9, 12, 12, 14, 16, 13.
+- First Aid 4/5.
+- Herbalism 3/5.
+- Support Magic 2/5.
+- Observation 3/5.
+- Mount: Willow, gray mare.
+- Historical reported savings: 7 GP; current full historical balance unresolved.
+- Newly purchased expanded healer's kit, herbal supplies and medical instruction.
+- Dragon Slayer initiated.
+
+Do not invent named healing spells or healing amounts.
+
+Paid purchases and remaining recent earnings are in the [DSI ledger](../../state/dsi-finance-ledger.json). Equipment bonuses and further skill gains remain unassessed. [Dragon Slayer training](../mechanics/way-of-the-dragon.md) uses its own registry.
 
 ## Character sheet
 
@@ -75,15 +97,18 @@ character_sheet:
   - staff
   - light armor
   - guild card
+  - Expanded healer’s kit
+  - Herbal supplies
   mount: Willow, gray mare
   personal_cash: 7 gp
   relationships: null
   assessment: Year 848, Suncrest 260–262 academy assessment
-  recorded_context: Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct
-    from DSI enrollment.
+  recorded_context: Year 853 equipment purchases and most recent recorded Guild assessment.
+    Earlier measurements retain their original provenance.
   age_category: Adult
-  guild_status: Standard supervised contracts
+  guild_status: Guild E, supervised contracts
   source_refs:
+  - changes/chronicles/year853-end-session.md
   - entities/characters/nessa.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md

@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
@@ -35,6 +36,11 @@ Approved from the supplied character-sheet draft in [character-reference-design-
 ## Year 852 close
 
 Continues independent arena engineering and assesses future quotations and safety evidence. Phase VI is paid, with further purchases pending separate approval. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Continue arena maintenance, shield inspections and existing defenses. Permanent entertainment infrastructure is under assessment.
+
 
 ## Character sheet
 

@@ -4,13 +4,13 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 852 Day 365
+  date: Year 853
   time: null
-  location: Ashvale Estate
+  location: Hollow Veil sanctuary, Mount Vaelspire
   status: ENDED
-  theron.hp: 100
+  theron.hp: null
   theron.hp_max: 104
-  theron.mp: 351
+  theron.mp: null
   theron.mp_max: 410
   theron.defense: 46
   theron.rank: S+
@@ -24,13 +24,14 @@ checkpoint_values:
   theron.unspent_attributes: 0
   resources.equipped_defense: 49
   resources.bracers_defense_bonus: 3
-  resources.staff_mp: 156
+  resources.staff_mp: null
   resources.staff_mp_max: 180
-  resources.wagon_mp: 60
+  resources.wagon_mp: null
   resources.wagon_mp_max: 60
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -137,6 +138,12 @@ S+ Rank, Level 5, HP 100/100. Male elf, age 25 as last established. Personal MP 
 
 S+ Rank, Level 6, HP 100/104 and personal MP last recorded at 351/410. STR 14, DEX 20, CON 19, INT 21, WIS 20, CHA 20, zero unspent points. Nexus 156/180. DEF 46 base, 49 normal, 51 with Night Sovereign worn. Wearing remains unverified. The council closed at Ashvale Estate, with the next playable date Year 853 Day 1. Chronos Eye and Dragon Slayer remain locked.
 
+## Year 853 session
+
+Blackscale remains an elven Battlemage and Advanced Runecrafter, S+ Level 6, with no new attributes or abilities. Conditional DEF 51 requires Night Sovereign. Actual wearing remains unknown. Draconic Resonance 3/5, Chronos Eye approximately 19% and locked, Dragon Slayer locked by choice. Caelrix bond 5/5. The [checkpoint](../../state/checkpoint.json) distinguishes Day 28 recovery from unknown closing resources. Theron won the adventurer tournament and lost to Vaeltharion in the dragon final.
+
+Mutual friendship was established with [Rhavoryx](../creatures/rhavoryx.md) and [Sylmerath](../creatures/sylmerath.md). Both retain autonomy and offered voluntary assistance.
+
 ## Character sheet
 
 ```yaml
@@ -151,9 +158,9 @@ character_sheet:
   role: Battlemage, runecrafter and Eighth Witness
   rank: S+
   level: 6
-  hp: 100
+  hp: null
   hp_max: 104
-  mp: 351
+  mp: null
   mp_max: 410
   defense: 46
   equipped_defense: 49
@@ -192,8 +199,8 @@ character_sheet:
     bonded_wolf: shade
     mother: therons-mother
   assessment: Year 852 Day 365 close. Personal MP is last recorded.
-  recorded_context: Male elf, last established age 25, Battlemage and Advanced Runecrafter.
-    Returned to Ashvale Estate. Current equipment configuration and personal purse contents remain unknown.
+  recorded_context: Year 853 Hollow Veil close. Day 28 HP, personal MP and Nexus readings
+    are earlier observations.
   conditional_defense:
     with_frostguard_bracers_and_night_sovereign: 51
     currently_worn: null
@@ -223,6 +230,7 @@ character_sheet:
     recorded_at: Year 848 Day 137
   artwork_ref: artwork/player-cards/theron-ashvale.png
   source_refs:
+  - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day1-end-session.md
   - entities/characters/theron-ashvale.md
   - state/checkpoint.json

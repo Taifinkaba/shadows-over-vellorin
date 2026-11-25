@@ -4,12 +4,17 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 ---
 
 # Caelrix
 
 Independent, voluntarily bonded time spirit; Theron bond 5/5. Examined the original oath and used finite defensive magic with Theron to stabilize the First Hour release. No unlimited mana or time powers.
+
+## Year 853 session
+
+Participates voluntarily in Sovereign Thought Acceleration research. Bond with Theron remains 5/5. No demonstrated multiplier or breakthrough.
 
 
 ## Character sheet

@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
@@ -36,6 +37,26 @@ Skills:
 Damage, resistances, movement modifiers, spell costs and prior independent career history remain unknown.
 
 
+## Year 853 session
+
+- Role: Guardian.
+- Guild E, Level 2, newly advanced.
+- HP 27/27.
+- MP 0/0.
+- DEF 15.
+- Attributes: 14, 10, 14, 11, 12, 12.
+- Shield Defense 2/5.
+- First Aid 2/5.
+- Equipment Care 2/5.
+- Swordsmanship 1/5.
+- No mount.
+- Newly purchased combat sword, reinforced shield and armor.
+- Future Dragon Slayer candidate.
+
+Purchased equipment is real inventory. Numeric equipment bonuses and skill increases remain unassessed.
+
+Paid purchases and remaining recent earnings are in the [DSI ledger](../../state/dsi-finance-ledger.json). Equipment bonuses and further skill gains remain unassessed. Inspected mounts and deferred purchase.
+
 ## Character sheet
 
 ```yaml
@@ -47,8 +68,8 @@ character_sheet:
   sex: null
   age: null
   role: Apprentice Guardian
-  rank: F
-  level: 1
+  rank: E
+  level: 2
   hp: 27
   hp_max: 27
   mp: 0
@@ -73,15 +94,20 @@ character_sheet:
   - shield
   - padded armor
   - guild card
+  - Combat sword
+  - Reinforced shield
+  - Armor
   mount: none
   personal_cash: null
   relationships: null
-  assessment: Year 848, Suncrest 260–262 academy assessment
-  recorded_context: Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct
-    from DSI enrollment.
+  assessment: Year 853 Guild promotion after supervised missions and successful assessment.
+    HP, MP, DEF and skills retain earlier assessment values.
+  recorded_context: Year 853 equipment purchases and most recent recorded Guild assessment.
+    Earlier measurements retain their original provenance.
   age_category: Adult
-  guild_status: Newly registered, supervised low-risk assignments only
+  guild_status: Guild E, supervised contracts
   source_refs:
+  - changes/chronicles/year853-end-session.md
   - entities/characters/rowan-hale.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md

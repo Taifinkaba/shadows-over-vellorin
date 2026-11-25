@@ -1,12 +1,12 @@
 {
   "schema_version": 6,
-  "date": "Year 852 Day 365",
+  "date": "Year 853",
   "time": null,
-  "location": "Ashvale Estate",
+  "location": "Hollow Veil sanctuary, Mount Vaelspire",
   "theron": {
-    "hp": 100,
+    "hp": null,
     "hp_max": 104,
-    "mp": 351,
+    "mp": null,
     "mp_max": 410,
     "defense": 46,
     "rank": "S+",
@@ -20,10 +20,10 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "5146gp",
+    "total_gp_sp": "271870gp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
-    "allocation_status": "Player-corrected controlled working funds; current purse and account allocations unverified",
+    "allocation_status": "Controlled treasury reconciled through the founder contribution. Purse and account allocations unverified.",
     "provisional_status": "Earlier approximate report; excluded from current ordinary controlled cash",
     "office_status": "Earlier house funds report; excluded from current ordinary controlled cash"
   },
@@ -32,16 +32,21 @@
     "protective_anchors_retained": 7
   },
   "status": "ENDED",
-  "source": "changes/chronicles/year852-day365-end-session.md",
+  "source": "changes/chronicles/year853-end-session.md",
   "context": {
-    "safety": "Returned safely to Ashvale Estate. Grand council and private conversation completed. Closing clock time, room and wearing configuration unverified.",
+    "safety": "Gathered in the evening after the Trial of the Ancient Grounds. Raze and Aegis supported the expedition. No serious injuries or fatalities reported.",
     "companions_present": [
       "maeryn-sol",
       "aric-ashvale",
       "lyra-moonvale",
       "garrick-vale",
       "nyx-thorne",
-      "lyanna-ashvale"
+      "vaeltharion",
+      "elias-renn",
+      "kaela",
+      "gorren",
+      "nessa",
+      "caelrix"
     ],
     "party_roles": {
       "maeryn-sol": "Close combat and field partner",
@@ -51,42 +56,43 @@
       "nyx-thorne": "Tracking and animal coordination"
     },
     "projects": {
-      "nexus_mana": "156/180 MP, independent pool.",
-      "wagon_mana": "Original Sovereign Expedition Wagon 60/60 MP is a historical carry-forward, not a new observation.",
+      "nexus_mana": "Last explicit Day 28 reading 180/180 MP. Recharge source and closing pool unverified.",
+      "wagon_mana": "Original Sovereign Expedition Wagon 60/60 MP is historical. Current pool unknown.",
       "equipped_defense": "Approved normal49; conditional51 only when Night Sovereign worn. Current wearing/configuration UNKNOWN.",
       "chronos_eye": "Approximately 19%, LOCKED.",
-      "dragon_slayer": "LOCKED.",
+      "dragon_slayer": "Theron LOCKED by player choice. Four DSI disciples separately initiated.",
       "accord": "Last verified before adoption; see Day156 historical checkpoint: Peaceful recognition and limited communication only",
       "custody": "Last verified before adoption; see Day156 historical checkpoint: Day137 Greyvein aggregate below is historical, separate from V-9 cases; Thane/Sorn subject to independent legal review",
       "guardian_channels": "Last verified before adoption; see Day156 historical checkpoint: Prior damaged channels remain unresolved; Return Custodian Seven independent/mobile; E-R-7 installed, isolation effectiveness unverified",
       "halden": "Last verified before adoption; see Day156 historical checkpoint: Rescued, free and voluntarily protected at Ashvale Estate",
-      "independent_assignments": "Field companions returned safely or were accounted for. Bren continues engineering and Beren oversees independent DSI operations. Other assignments require their own updated evidence.",
-      "vanguard": "120/120 MP.",
+      "independent_assignments": "Current assignments in entities/mechanics/independent-assignments.md.",
+      "vanguard": "120/120 MP at the Year 852 close. Current pool unknown.",
       "night_sovereign": "Last verified before adoption; see Day156 historical checkpoint: Completed, tested, paid515gp; reserved scale consumed once",
       "maternal_healing": "Last verified before adoption; see Day156 historical checkpoint: Mastery5/5; Deep Restoration36MP, Regenerative Weave32MP, Master Restoration Weave48MP; prior limits/no resurrection",
       "healing_springs": "Last verified before adoption; see Day156 historical checkpoint: 2/5",
       "briarstone_repairs": "Player-confirmed completed by Year848 Suncrest45 Day165;26gp already reconciled in endpoint, not lodge expansion.",
-      "lodge_supply_wagon": "80/80 MP, last recorded.",
+      "lodge_supply_wagon": "80/80 MP at the Year 852 close. Current pool unknown.",
       "witness": "Original testimony recovered; Valeth captured alive; Ashvale inquiry reopened; Darian Kestrel unresolved.",
       "forgotten_watchpost": "Isolated, shutter closed and concealed arch unopened; outer passage repaired for 54 gp. Defensive witnessing protocol active.",
       "ashvale_lodge": "Sovereign Vault constructed; Night Menagerie five minor masks certified v1.1; existing operations continue.",
-      "commercial_estate": "140-acre commercial estate; Phase VI arena works completed and paid 500 gp. Dragon-class combat uncertified.",
-      "recurring_events": "First monthly fair complete. Future markets and festivals are plans.",
-      "festival": "Day 365 Grand Festival of the Year’s End: Maeryn champion, Theron runner-up; controlled voluntary dragon exhibition.",
+      "commercial_estate": "Six additional shield obelisks completed and tested by Day 15. Observed dragon tournament handled within documented conditions.",
+      "recurring_events": "Year 853 Grand Festival completed. Future events require play.",
+      "festival": "Year 853 Grand Festival of Dragons complete. Theron won the adventurer tournament and Vaeltharion won the dragon tournament.",
       "time_chamber": "Restored Chamber Seven. 2× supervised occupied; 5× up to 8 internal hours supervised occupied; 10× up to 1 internal hour occupied; 15× experimental unmanned; 20× repeated unmanned up to 4 internal hours. Above 20× unverified.",
       "vital_continuity": "Prototypes I and II explored selective treatment. Age prevention, rejuvenation and years-long living treatment unproven.",
       "emberpear_nursery": "Planting stock acquired and protected nursery established; no maturity, harvest or revenue.",
       "draconic_resonance": "3/5.",
-      "personal_mp": "351/410 last recorded; closing reading and mana movements unverified.",
+      "personal_mp": "104/104 HP and 410/410 personal MP on Day 28. Closing readings unknown.",
       "healing_wing": "Four supervised beds and eight calibrated cartridges; normally up to three concurrent patients with qualified coverage.",
       "white_runeblade": "Improper WT-44 release and downstream records traced. Seek lawful Westbridge access to Marek Dorne’s restricted sworn statement.",
-      "next_playable": "Year 853 Day 1 at Ashvale Estate. Next scene and clock time unspecified."
+      "next_playable": "Await player at Hollow Veil sanctuary. Exact calendar date unverified.",
+      "sovereign_thought_acceleration": "Research accepted for investigation. No demonstrated multiplier or new ability."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
-      "latest_reported_cash_gp_sp": "34gp",
+      "latest_reported_cash_gp_sp": "1220gp",
       "refundable_lease_deposit_gp_sp": "15gp",
-      "balance_date": "Historical undated cash/deposit report; current treasury total unknown. See state/dsi-finance-ledger.json for later tithe and budget.",
+      "balance_date": "Year 853 newly accounted funds only. Historical total and deposit disposition unreconciled.",
       "included_in_party_total": false
     },
     "outstanding_clues": [
@@ -102,7 +108,8 @@
       "Alaric Voss’s identity with Crown-related A. Voss is unproven; stolen covenant index remains unresolved.",
       "Seven Horizons Waymark Register, other dragon leads and separate Crown/Witness investigations remain open.",
       "White blade physical recipient, downstream custody and kidnapping involvement unverified; Marek Dorne missing, full statement not obtained.",
-      "Intervening ordinary receipts and costs, Day 264 working-funds bridge and present account allocations are unverified. Historical 20 gp provisions and 317 gp expansion treated as resolved by player ruling."
+      "Intervening ordinary receipts and costs, Day 264 working-funds bridge and present account allocations are unverified. Historical 20 gp provisions and 317 gp expansion treated as resolved by player ruling.",
+      "Year 853 timing, routes, resource reconciliations and sword configuration remain open. See state/open-verifications.md."
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -110,27 +117,29 @@
   "resources": {
     "equipped_defense": 49,
     "bracers_defense_bonus": 3,
-    "staff_mp": 156,
+    "staff_mp": null,
     "staff_mp_max": 180,
-    "wagon_mp": 60,
+    "wagon_mp": null,
     "wagon_mp_max": 60,
     "chronos_eye_locked": true,
     "dragon_slayer_locked": true,
     "refitted_wagon_mana": {
       "vanguard-wagon": {
-        "current": 120,
+        "current": null,
         "max": 120
       },
       "ashvale-wagon": {
-        "current": 80,
+        "current": null,
         "max": 80
       }
     }
   },
   "calendar": {
-    "annual_day": 365,
+    "year": 853,
+    "annual_day": null,
+    "latest_numbered_day": 28,
     "season": null,
-    "historical_label": "Year 852 Day 365"
+    "part_of_day": "Evening"
   },
   "custody": {
     "reviewed": 4,
@@ -148,7 +157,7 @@
     "historical_entity_records_ref": "archive/checkpoints/year848-day156-entity-records.json",
     "current_presence": {
       "status": "VERIFIED",
-      "evidence_ref": "changes/chronicles/year852-day365-end-session.md"
+      "evidence_ref": "changes/chronicles/year853-end-session.md"
     },
     "current_equipment": {
       "status": "UNKNOWN",
@@ -159,11 +168,19 @@
     "conditional_defense": 51,
     "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
     "mp_bridge": {
-      "from_mp": 385,
-      "to_mp": 351,
-      "difference_mp": -34,
-      "classification": "LAST TRACKED — CURRENT PERSONAL MP UNVERIFIED",
+      "from_mp": 351,
+      "to_mp": 410,
+      "difference_mp": 59,
+      "classification": "DAY 28 READING — INTERVENING MOVEMENTS AND CLOSING POOLS UNVERIFIED",
       "recovery_events": []
+    },
+    "year853_readings": {
+      "day": 28,
+      "hp": 104,
+      "mp": 410,
+      "nexus_mp": 180,
+      "nexus_recharge_source": null,
+      "previous_checkpoint": "archive/checkpoints/year852-day365.json"
     }
   }
 }

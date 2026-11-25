@@ -1,3 +1,28 @@
+# Year 853 verification queue
+
+1. Exact Year 853 closing calendar date.
+2. Exact route from Theron's Estate to Greyhaven Valley.
+3. Eastrun–Greyhaven Valley corridor remains proposed in the repository; narrated travel requires route adoption or verification.
+4. Exact route to Mount Vaelspire.
+5. Historical temple identity referred to by the player.
+6. Current closing HP, MP, Nexus and wagon resources.
+7. Day 28 Nexus recharge provenance.
+8. Inventory consumption and travel expenses.
+9. Historical DSI opening cash.
+10. Complete lifetime student savings.
+11. Exact equipment bonuses and new training progress.
+12. Individual numerical character cards for junior and unregistered students.
+13. Full tournament bracket and named DSI placements.
+14. Eclipse Sovereigns relationship to historical swords.
+15. Actual academy contractor invoices and construction completion.
+16. Dragon Slayer essence transfer mechanics and long-term observations.
+17. Candidate-specific numerical mastery and future ability costs.
+18. Ordinary estate revenue between visits.
+19. Festival demand realism, reconstructed expense provenance and the reported 24,550 admissions versus the itemized 25,550.
+20. Current allocation of Theron’s controlled funds.
+
+Earlier verifications follow.
+
 # Year 852 Day 365 open verifications
 
 - Year 852 Day 365 closes at Ashvale Estate. Exact clock time, room, armor worn and later personal MP reading remain unverified. Year 853 Day 1 is next playable. The supplied 410 MP maximum does not establish a revised Spirit Mana Assimilation II recovery cap.

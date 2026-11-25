@@ -1,0 +1,243 @@
+{
+  "source_ref": "changes/chronicles/year853-end-session.md",
+  "revisions": {
+    "README.md": {
+      "before_sha256": "e516ef9dd7f655c4a43a1c6e3e7e5ae577bd2833599e74faad9ad9a01f723d8d",
+      "after_sha256": "d0f85e270bee6a79addf3188b3a34c97feedd144815631d807f182faa1bb122f"
+    },
+    "changes/CHANGELOG.md": {
+      "before_sha256": "5170dbe64ea91129e1df7e8a0a2e4efb0d53e4f8de7f3598076fd0928d4df19f",
+      "after_sha256": "5d4124103812ca43c3103a25ff199476e636d6ce75c0ac2b70d0b9254bd4c430"
+    },
+    "docs/validation.md": {
+      "before_sha256": "c837288e0240192b3520cee6337d906794ef01baa0a9740d521e35d658d7cff9",
+      "after_sha256": "a5fc22bf225ce808c96bef10e0f184c5f0c7ec249661c04b82984455df0aa68a"
+    },
+    "entities/characters/aric-ashvale.md": {
+      "before_sha256": "3a438f4a2778564d8f2042c72750b6afd6af78a54a89242478677e9604e4ab13",
+      "after_sha256": "88794327377cb48542ffc688e8751ee099c57ae1f8d0c76b15d615026cf0704a"
+    },
+    "entities/characters/bren.md": {
+      "before_sha256": "800fbf8c5dda5fece178bd15021939fdb00c1f81d3ddaddcf57e93132c5c66ab",
+      "after_sha256": "427fe1c4d070381d6c4017c80c348fd1dd17ecd50604ba6527202586d9cf8679"
+    },
+    "entities/characters/caelrix.md": {
+      "before_sha256": "a5930f7d74689d397a4a49ea3cd564087407f7bd7ad364324211438f406be4d3",
+      "after_sha256": "0a797176cdba861d7c8d2f765413bf2b99a4d495dee3217fb2a66b9b9693d7e0"
+    },
+    "entities/characters/dalen-reed.md": {
+      "before_sha256": "3feeab1900f7c394d6184d132b172632395b8a67aa06109cdd3a57067ed05a72",
+      "after_sha256": "995cc18cd7f4c160c2bc222b4a782ba9d76f0198560947c39962a3e04d42afa7"
+    },
+    "entities/characters/elias-renn.md": {
+      "before_sha256": "4fd4b4e3b89bdc82b58aa99ee0e66c5ed01cb1344b927dbe52db112bb685d01f",
+      "after_sha256": "fba8b29ad6fddf60872411c9f3523a8d20f2cdc6b27edeee1ee04f7d9facdd50"
+    },
+    "entities/characters/elowen-briar.md": {
+      "before_sha256": "ae3ac69fcffd2f625260d7965484d3e008edb2e89e986bdbf3ccd00b410450cd",
+      "after_sha256": "dfbc383a2d2b93b14c4f40d9890d4dd4dd7e53481d8e298273c51626143532e6"
+    },
+    "entities/characters/faye-linden.md": {
+      "before_sha256": "e74f99b972a17230b0612c482f76c8cab31132940fd6b11d8e39367aa072f519",
+      "after_sha256": "ba668f324aab37b510fc57a076946ba5f78fa2f7316e8bed87c28145c096a5ec"
+    },
+    "entities/characters/garrick-vale.md": {
+      "before_sha256": "44d75cbbd1d86dbad7d7604d2364a3d656bcc44f5c99af67a5405d6c2b1041d8",
+      "after_sha256": "4a70db8318dc0a7eaee07f86a2787bef790b7a3c58e02bf6e87efd7091b9199d"
+    },
+    "entities/characters/gorren.md": {
+      "before_sha256": "a3db722974fc76797e324d4ab78101245a9411280cd069016dc84bfb06460ec3",
+      "after_sha256": "3edd0fe5c36a030b2b1ca3ba69e222c856bacdb44901719276d25a6e3a3511f7"
+    },
+    "entities/characters/kaela.md": {
+      "before_sha256": "25c0d00f7d08ebdf0b0763c852468b2615f295a32e2578d7382a148616134234",
+      "after_sha256": "034f1652c9a48766b610dff1ff51544f029dabb924d78307c9def30ea327a6f1"
+    },
+    "entities/characters/lyanna-ashvale.md": {
+      "before_sha256": "c0ea7e707b3068e02de76aa8a8197ff3e4fb826c1493e8b5c6ff9b1a98443ef8",
+      "after_sha256": "f3fe87cbcb4eafa2b3a8a9d2a691e1edcf6fc8e9e60235fe11edc17829cfe15c"
+    },
+    "entities/characters/lyra-moonvale.md": {
+      "before_sha256": "a869e400cd33e9b2a5e3e96108f3581b7bb6df860176d9ad11a9d3b9bc5771dc",
+      "after_sha256": "162a78f092d9b92fc6ef7dc168b14433b7aa03f3df96f122122d9087c7e7479e"
+    },
+    "entities/characters/maeryn-sol.md": {
+      "before_sha256": "3061cb85f02d136d2071383afff0e3acd432601fcb066041ff5366fb628dfb1e",
+      "after_sha256": "021e531ef2a6561e1c7285988fa56d1ee3c4010a51d3f5c625d19a49ffcca016"
+    },
+    "entities/characters/master-beren.md": {
+      "before_sha256": "b7abbfa0b3c4cc19bb80e1c6deb87317121baff6ba19bce70b10e03e67aee8e4",
+      "after_sha256": "d490dfaf46be9616b875a965112c7ac4af683571f03b9ed8c224f5bca8a5df4b"
+    },
+    "entities/characters/mira-thorne.md": {
+      "before_sha256": "c254333a7445d3385ff3e5614618d7aaff6b21eb9b26659da7596d68d4023d0a",
+      "after_sha256": "26ece2cdfca5f1a82b10bdf4434f5787168a1d0eb939caf8bea665bf9d5ee32a"
+    },
+    "entities/characters/nessa.md": {
+      "before_sha256": "599932d01d3c34367cb7255b841340e5893f1dabb8bf7b9de8d0a80ea7deaa8b",
+      "after_sha256": "258e86c97ae98d0a0e933bc972c5f2d352f1e4ecc2201d6bde0fdefa7b82b15c"
+    },
+    "entities/characters/nyx-thorne.md": {
+      "before_sha256": "332173ff2c24463a831d27fdd1a692ecfe2ccab9121e3ef72cdae63f91b1950b",
+      "after_sha256": "a4ebe7c5411aefb170cc438903745476533d2579f5fdd9cf679b1227858ee363"
+    },
+    "entities/characters/perrin-oak.md": {
+      "before_sha256": "a3cd46fb1760c55b30838d640fad17df914bf3da4611f861ad42b4e763a45f5c",
+      "after_sha256": "25e3274b558b7c558ddc48c2152a560fd3149cafa30345a12d2ec8b96e883292"
+    },
+    "entities/characters/rowan-hale.md": {
+      "before_sha256": "aefca7759fc6c91632bf139e83a27c126cbf6dc27ab7d34107e50e7a2b7b571d",
+      "after_sha256": "5880925475359e38f2fdb11c1c6de82f497f6cd461a00a0027600d5d6ca9228b"
+    },
+    "entities/characters/sera-willow.md": {
+      "before_sha256": "4d4ebc48c6b11c9c623fa91e24bc471b08276d7206c0e67543c9da1b53e5a85d",
+      "after_sha256": "bdb4d39e63089bea45cbad025e1ac8d04151e54325b7314eba1f44d04e4bc644"
+    },
+    "entities/characters/talia-fen.md": {
+      "before_sha256": "1bfac3209de10dec3b34f85336d80092389d1dcd04ba0abd329f11118ce777fd",
+      "after_sha256": "85ba7cdf487280b6fc91c826d0dfc1117dbd1ad6868db25496e5ecb50f732df9"
+    },
+    "entities/characters/theron-ashvale.md": {
+      "before_sha256": "1f2d86cd274723c43ed8f679aaf66d5fbfe55bef1970b9d1bee3d8036bad47be",
+      "after_sha256": "14839470f2e09fb4a718cd5a361d5d6005709a8ce56e1fa54d9711b1bec2706c"
+    },
+    "entities/characters/therons-mother.md": {
+      "before_sha256": "82f6acabd4a0e58f9c9251c3ea7d132744e3fe17b3232ec2599a63e416b91aba",
+      "after_sha256": "68ea0494936722ab1cd212551868b57e12004c2f3db855b28efc058c5c653ae7"
+    },
+    "entities/characters/tobin-marsh.md": {
+      "before_sha256": "14d61b07169f5f3a4ff7e418d14c0fda17d4dc8d8536e8f3d3aee9b3780ba369",
+      "after_sha256": "9ea0f7d15f7cf25e0213ee237b7b0cda74021d8e7ac22627e8ad999927e89ec6"
+    },
+    "entities/characters/tomas.md": {
+      "before_sha256": "83f288c6030a40bc646488a7cc996ebc7f14ee0667443c67a53d175989145bc7",
+      "after_sha256": "31721fb71c9a19466c86c69b4be836f6c5b74058ab7ce84c171790ff0e2d0212"
+    },
+    "entities/creatures/aurelith.md": {
+      "before_sha256": "c3c70546657dfb741392acaf05dcfd0479a8405e92c908a3e4cc2cb20ebcc42a",
+      "after_sha256": "6287e069b020b1ce5674ee9854dc5aeda0782da9016ea0938690e02ab0f3cd64"
+    },
+    "entities/creatures/tharosyn.md": {
+      "before_sha256": "272e20c213404424acb2ea5f9b0ab843908aa89c0224558e7be92e3df875488a",
+      "after_sha256": "366440040f5df79a3d2041d8d3cb694c674d2f301a4d1552daf3899a6d01085f"
+    },
+    "entities/creatures/vaeltharion.md": {
+      "before_sha256": "53dbd6d32737db27699b8e303890ad08b8b8d73e9e8c220604b5416aa953600d",
+      "after_sha256": "e3907128ad19cfe2b2b4d537ecbdd2e9e1d2d3e026b03a84fdff749579a32666"
+    },
+    "entities/factions/dragon-slayer-academy.md": {
+      "before_sha256": "df5ff9d52a8d79fd9df4b80f6eb93761a1ea61de0f89b816b76667ba5cd33236",
+      "after_sha256": "9566b5b5e245307c869243c4d6c80dfaa149c9802270f7a5a7b0df070b177244"
+    },
+    "entities/items/black-runeblade.md": {
+      "before_sha256": "ca982bb187f8d2e9843550be2fd2fa54a9c7f6d85485031cb0ec85b6057b2a14",
+      "after_sha256": "a072d50dd7401fa41cff7e0d7798a31610efbd5777105f4642c0f0cd4c7e6db2"
+    },
+    "entities/items/sovereign-nexus.md": {
+      "before_sha256": "371a527cfb7a604451a71285f187834039cec149d838038cb152e864dc80b6bd",
+      "after_sha256": "6b9a556fc57271b791f10a7506ba5f5bc6dc01df923ea4c6682af6b881153cf9"
+    },
+    "entities/items/white-runeblade.md": {
+      "before_sha256": "54ec2645e83c7bb01ff0d0fcf4a21fe369a5de606e1260e602910106805f6858",
+      "after_sha256": "7067f3ec00f33a499c2dc968fb87df04bb90e1636ccd56d541f2044cb6639fa3"
+    },
+    "entities/locations/ashvale-grand-arena.md": {
+      "before_sha256": "85e392993468bc3a19a1ddf6d1aa34257d99d16561d55dc4c1bb568692a730c4",
+      "after_sha256": "eb3f26936305babadc3d16b700502fe02cb4293ed76fb8238f2a5c16e6d8ec83"
+    },
+    "entities/locations/hollow-veil.md": {
+      "before_sha256": "8b60172d7541e69308d228abee7a6e43d93703ea0e48e770fd7b4013bad10ac9",
+      "after_sha256": "2e4c44b60bb5426f5a8b8a13c4011c19e42869fe9945b4eea52454eeb6b63e3f"
+    },
+    "entities/locations/therons-commercial-estate.md": {
+      "before_sha256": "831ec8b24fabac3fe9ca0837c3a4f72cfa8e5c7aacb3f185e2d7e9547474cdaf",
+      "after_sha256": "c4ccdc0a62a02f4ca972ff4b44e4ab695215a03c24ff51a7607cd57562cc85b5"
+    },
+    "entities/mechanics/dragon-slayer-historical-inquiry-proposal.md": {
+      "before_sha256": "bf93f8f977c9a4cde7c5db1a61bd106651c893f6a7f6c711e9d7705f1dd4a8d3",
+      "after_sha256": "d36d9bacddeed7145fd18ae62fd52079d8118693faec545feb25ca8196808f6c"
+    },
+    "entities/mechanics/independent-assignments.md": {
+      "before_sha256": "379f28f7504025738e874e06410c9cff814051a73c5df2d498103dbce69c5e93",
+      "after_sha256": "e4ca7ff6a051fd267cd9883388ed83b6799f7f49aecd3ea6bfb9abc9ff1e0db5"
+    },
+    "entities/mechanics/main-quest-map.md": {
+      "before_sha256": "274ab2bdef6f921649bb91daed8c81eb5c2339fde0d21d18061cbc6b08b5f0cb",
+      "after_sha256": "c1ea9ccfa16796c7377a190cafa123075d4c2f97d477b4b5af6cdb9ffdee9c94"
+    },
+    "entities/mechanics/outstanding-projects.md": {
+      "before_sha256": "14c2acf908f8719229a25350b03973edbe1f5950136e49514359a8eba2ecf248",
+      "after_sha256": "e4d58b87f57cfd0a2dc4b9538e031b3285db88123d3539e6ace629d67ef7dfc7"
+    },
+    "entities/mechanics/party-finances.md": {
+      "before_sha256": "02fc61e309d3e8988ce312e5902d6a41c1cfbd95a4062904e77aa72eb3693d06",
+      "after_sha256": "204ed78ce6425f198a74d3e6f203039d995fa7eb32403bc9f7a8b789364a770c"
+    },
+    "entities/mechanics/time-chamber.md": {
+      "before_sha256": "d2cf41f4db122dda82af5e0f6b8ce0b6e9a2ae0b8ec1c4da5b424835062dc945",
+      "after_sha256": "ed55f3b0042af720fe3ad87ca64ee80131994311dc678b8509c325aafc91667f"
+    },
+    "entities/mechanics/world-geography.md": {
+      "before_sha256": "20d964488eab994a6b024f199e6e5f1f4946d6a5c4bda43e156affc21153ba27",
+      "after_sha256": "94d15f19e6a72a03c481fcfe7696e4c1a5a09434c77b1dea292452b04c3546d3"
+    },
+    "entities/quests/twin-sword-origin.md": {
+      "before_sha256": "93f991f90e4eb7880f30efadba6cbfe95b83a09c5a239ac125940f06ba7c8fae",
+      "after_sha256": "a4de0e72010e5b786fff4914bf385cc107d683683650c18787d70015ea2de118"
+    },
+    "index.json": {
+      "before_sha256": "514ef1a16b8a0890659848a8644439af03208764b3f12e72e3186d511ab1b647",
+      "after_sha256": "74aaaf6c2e3942f3b2105d85f242fc0859351602f95b07854409920cd3113530"
+    },
+    "scripts/economy.py": {
+      "before_sha256": "ad01f05e7b56bde5a12e46dce0b5f83fec351ae9cc0fdf4435084e98e4fd42d0",
+      "after_sha256": "0470aa1589d2ebbbb6da7ad382769e2c0f58d1d7d0f82da1818888cdfa3ae8ee"
+    },
+    "scripts/finance_endpoint.py": {
+      "before_sha256": "9266c57f1060ce816dd48be849afdb82683b0d2ace656ab52ff811397820740e",
+      "after_sha256": "68684e6abaa8c7e90f0720283b46084e07f52d0bb85cd222a069b6e2a15228ed"
+    },
+    "scripts/finance_v3.py": {
+      "before_sha256": "2cb039f0b80fe97948cf91a407e8739c90f1aa4435ee8f6d1d3b08fdaa8ca07e",
+      "after_sha256": "2d6394a951ed3de2e898253f2c24f208b4f539fd9c53bf9b6963c4ca0eb7a575"
+    },
+    "scripts/gm_dashboard.py": {
+      "before_sha256": "3756ecd5caa39517a6d443ed8c63651150949a92df04865142f0352c72a22c33",
+      "after_sha256": "b8de660d14928af98c38defef7739ef56581670b1ada105c9f4d8657ad563a79"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "e86a6d74c9444879336654274edc5f28119a52dba5add1a7a448d0e2aba36a4b",
+      "after_sha256": "b6af27815aca3dba3ff56e55b3b539ba123cd7d08679f215b8588a7ca0cb2d07"
+    },
+    "scripts/validate.py": {
+      "before_sha256": "507a769a3343dd2be5e914aca0caa2a961edf8ca0105e8cee3b41276abdf00cf",
+      "after_sha256": "d2e3bbd4731fd48959e99c12f30622ee2c6daae7cf42c446e03ff1d63313445c"
+    },
+    "state/checkpoint.json": {
+      "before_sha256": "901d2a260b8432b0d8314abe7b8226a524cdaf02d36ec08463ec8859e4983d74",
+      "after_sha256": "37ade25e513f67ebda58fb2f0bd855fb0cc09cfdf6f7b88982126d5227948fca"
+    },
+    "state/dsi-finance-ledger.json": {
+      "before_sha256": "67e984e72684f9fbbc3c9d9da855b5bd68af59956383fac6f5347d0766fac446",
+      "after_sha256": "f4b149c306833974dbefb61350087102f85dcd805dd068dc72932f860fe26ad5"
+    },
+    "state/finance-ledger.json": {
+      "before_sha256": "f0c90104bd8c425f8c67bbc85f72bf10b53167d45915fd5f5b8fe69e0c39cad5",
+      "after_sha256": "7dfcdc5f56441dbb8c454eb808aadb4d13071f21a7368328cb0469da2c1a5c40"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "7c3ae0670484a07d6088ca32de2f0c177f9fbc2934322a07c0c7045992b5c0e6",
+      "after_sha256": "dde00a7a47fcc6f7649bbdb4250f2cbf5727ee2eade222e4bbffb89bfea88524"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "17d3059d395ee3083a7e5370f2bd538a2c484381ac86ab38abdb9cc436769a20",
+      "after_sha256": "766bae3751eec59309661c1d89049dcc066138bc25dd6d4979ab7dce3e790d54"
+    }
+  },
+  "historical_sha256": {
+    "archive/checkpoints/year852-day365-dsi-finance-ledger.json": "67e984e72684f9fbbc3c9d9da855b5bd68af59956383fac6f5347d0766fac446",
+    "archive/checkpoints/year852-day365-finance-ledger.json": "f0c90104bd8c425f8c67bbc85f72bf10b53167d45915fd5f5b8fe69e0c39cad5",
+    "archive/checkpoints/year852-day365.json": "901d2a260b8432b0d8314abe7b8226a524cdaf02d36ec08463ec8859e4983d74",
+    "archive/session-handoffs/year853-user-handoff.txt": "35f5ec5b4d1636518872cb4d14371afd28d28e816b09c113b90817ab674ee9fe"
+  }
+}

@@ -332,3 +332,9 @@ The later session reuses the existing checkpoint and event row shapes. The Day 1
 Checkpoint6 and ledger7 keep their existing shapes. The Day 1 snapshot and ledger are archived byte for byte. The new endpoint uses the supplied Day 264 working opening and seven once-only postings. Four contract IDs record net rewards after Guild commission. The three expense rows cover provisions, Watchpost work and Arena Phase VI. The earlier endpoint comparison remains unitemized and unposted. The player closed the historical 20 gp and 317 gp issues without a new settlement posting.
 
 The active checkpoint closes at Ashvale Estate with unknown clock time and the supplied Level 6 stats. The handoff identifies Year 853 Day 1 as next playable. The Wayfarers contract registry routes four newly completed contracts to their owner and the ledger retains the sole postings. The DSI ledger retains its independent scope.
+
+## Year 853 close and finance schema 8
+
+The Year 853 checkpoint uses a year-only date and null annual day. Its latest numbered day and part of day are separate calendar fields. Null closing HP, MP and reservoir readings are distinct from the sourced Day 28 readings. Historical checkpoints retain their original schema and date rules.
+
+The controlled ledger appends itemized cash postings to the archived Year 852 ledger. Advance receipts are a subset of final revenue. The independent DSI ledger preserves the earlier tithe window and records a separate Year 853 period plus the prospective tithe rate. The matched founder transfer posts once to each account, and development allocations remain unspent until an actual disbursement.

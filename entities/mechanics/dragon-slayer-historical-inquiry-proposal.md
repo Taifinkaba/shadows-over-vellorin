@@ -4,6 +4,7 @@ type: mechanics
 status: research
 visibility: gm-reference
 source_refs:
+  - changes/chronicles/year853-end-session.md
   - entities/mechanics/theron-skills.md
   - entities/creatures/vaeltharion.md
   - entities/creatures/aurelith.md
@@ -42,3 +43,7 @@ Theron asks Vaeltharion respectfully whether he personally remembers a person kn
 
 ## Interface to new encounter sheets
 The proposed dragon stat blocks exist for adjudication only when approved. They are not observations of what the dragons have done and confer no information to Theron's tactical simulations until revealed in play. Actual battles use tracked finite actions and resources; no guaranteed wins or mental one-year-in-a-moment acceleration.
+
+## Year 853 session
+
+The earlier historical inquiry is distinct from the actual Year 853 initiations. Four adults accepted freely offered essence under supervision. See [The Way of the Dragon](way-of-the-dragon.md) for the observed limits and progression. Theron remains locked by choice.

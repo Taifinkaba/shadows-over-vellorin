@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
@@ -51,6 +52,11 @@ Traveled from Ashvale Estate toward Seven Bells with the expedition; latest part
 ## Year 852 close
 
 Returned safely and attended the council. Handles tracking and animal coordination. Investigated the Mill Road traps and theft with Garrick. The handoff’s Ember / Frostmoon wording remains an unresolved identity reference. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Reached the adventurer round of 16 and supported the Trial of the Ancient Grounds.
+
 
 ## Character sheet
 

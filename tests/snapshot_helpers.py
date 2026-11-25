@@ -93,3 +93,7 @@ TWIN_SWORD_REVISIONS = json.loads(
 YEAR852_CLOSE_REVISIONS = json.loads(
     DAY196_MANIFEST.with_name('year852-day365-authority-revisions.json').read_text()
 )['revisions']
+
+YEAR853_REVISIONS = json.loads(
+    DAY196_MANIFEST.with_name('year853-authority-revisions.json').read_text()
+)['revisions']

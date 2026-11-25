@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
@@ -53,6 +54,11 @@ Spent time with Theron and reached the Day 365 tournament quarterfinals. Family 
 ## Year 852 close
 
 At Ashvale Estate, asked Theron privately to bring the people responsible for her kidnapping to justice without losing himself. Theron agreed. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Reached the adventurer tournament quarterfinal. The current checkpoint does not establish her location.
+
 
 ## Character sheet
 

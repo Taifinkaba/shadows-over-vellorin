@@ -1,0 +1,1607 @@
+# Year 853 session chronicle
+
+Player-approved played events through the evening gathering at Hollow Veil. The closing day is unknown. See the [source handoff](../../archive/session-handoffs/year853-user-handoff.txt), [checkpoint](../../state/checkpoint.json), [controlled ledger](../../state/finance-ledger.json) and [DSI ledger](../../state/dsi-finance-ledger.json).
+
+## 2. Closing checkpoint
+
+- Year: 853
+- Latest explicitly numbered day: Day 28, before travel to DSI
+- Closing location: Hollow Veil sanctuary, Mount Vaelspire
+- Exact closing calendar day: UNKNOWN, later than the Day 28 departure
+- Closing time: Evening; exact clock time unknown
+- Session status: ENDED
+- Immediate scene: Theron, his expedition companions, Vaeltharion and four newly initiated Dragon Slayer disciples gathered at the sanctuary after completing a practical training mission.
+
+Do not assign an exact closing date until intervening travel, assessments and training durations are reconciled.
+
+Calendar rule: 365 days per year. Do not allow annual day numbers to exceed 365.
+
+### Theron Ashvale
+
+- Alias: Blackscale
+- Ancestry: Elf
+- Sex: Male
+- Class: Battlemage / Advanced Runecrafter
+- Adventurer rank: S+
+- Adventurer level: 6
+- STR: 14
+- DEX: 20
+- CON: 19
+- INT: 21
+- WIS: 20
+- CHA: 20
+- Unspent attribute points: 0
+- Maximum HP: 104
+- Maximum personal MP: 410
+- Base DEF: 46
+- Normal equipped DEF: 49
+- Night Sovereign conditional DEF: 51 when worn
+- Current wearing configuration: Unknown
+- Last explicit recovery reading, Day 28: HP 104/104, MP 410/410, Nexus 180/180
+- Exact closing HP, MP and Nexus values: Not independently measured after subsequent travel and training
+- Draconic Resonance: 3/5
+- Chronos Eye: Approximately 19%, LOCKED
+- Dragon Slayer: LOCKED by player choice
+- Caelrix bond: 5/5
+- No new Theron level, rank, attribute points, spells or automatic abilities awarded.
+
+The Day 28 Nexus restoration was narrated after the retreat, but its precise recharge source and transaction bridge were not itemized. Preserve this as a played reading with incomplete provenance rather than implying ordinary rest automatically recharges the staff.
+
+### Constructs
+
+- Raze: Analysis, simulations and tactical reasoning.
+- Aegis: Protection and defensive coordination.
+- Caelrix: Independent time spirit, temporal research and consultation.
+
+Neither Raze nor Aegis grants free spellcasting, unlimited mana or perfect predictions.
+
+### Vehicles and other resource pools
+
+Preserve distinct identities:
+
+- Original Sovereign Expedition Wagon: 60/60 MP, historical reading.
+- Vanguard Wagon: 120/120 MP, last committed reading.
+- Lodge supply wagon: 80/80 MP, last committed reading.
+- Sovereign Nexus: Maximum 180 MP, independent pool.
+
+Do not conflate wagon resources or automatically recharge any pool.
+
+---
+
+## 3. Year 853 Grand Festival of Dragons
+
+### Timeline
+
+- Days 1–20: Planning, construction, preparations and advance ticket sales.
+- Day 21, approximately 8 PM: Opening ceremony.
+- Days 21–24: Festival entertainment and tournaments.
+- Day 24: Dragon tournament final and festival conclusion.
+- Day 25: Post-festival financial audit and private dragon friendship gathering.
+- Days 26–28: Theron's championship retreat and subsequent research and expedition planning.
+
+### Festival program
+
+- Morning theater performances.
+- Jousting.
+- Sparring exhibitions.
+- Gladiatorial competitions.
+- Adventurer tournament.
+- Dragon tournament.
+- Commercial market and fair.
+- Traveling taverns and food vendors.
+- Lodge accommodations.
+- Hot springs and spa.
+- Temporary daycare.
+- Overflow camping.
+
+The festival was privately organized on Theron's owned commercial estate.
+
+No established external event tax, permit charge, Guild commission or land rental was applicable. Do not invent a sovereign, authority or tax recipient solely to deduct money.
+
+### Ticket prices
+
+Ordinary theater, combat entertainment and adventurer tournament:
+
+- Standard: 5 GP
+- Premium: 10 GP
+- Noble: 20 GP
+
+Adventurer championship final:
+
+- Standard: 10 GP
+- Premium: 15 GP
+- Noble: 25 GP
+
+Dragon tournament:
+
+- Standard: 10 GP
+- Premium: 20 GP
+- Noble: 30 GP
+
+Dragon championship final:
+
+- Standard: 15 GP
+- Premium: 25 GP
+- Noble: 35 GP
+
+Each major event required a separate ticket.
+
+### Tournament registration
+
+- Adventurer entry: 5 GP.
+- Dragon entry: 5 GP.
+- Adventurer entrants: 146.
+- External paid adventurer entrants: 128.
+- Original DSI students: 13.
+- Other invited adventurer entrants: 5.
+- Dragon entrants: 7.
+- Paid dragon entrants: 6.
+- Each championship reward: 100 GP and a two-day all-expenses-paid lodge and hot spring retreat.
+
+The preliminary adventurer bracket was narrated as reducing 146 entrants to 128 through 36 participants competing for 18 positions and 110 direct placements.
+
+Individual developmental exhibitions and competitive bracket participation were not fully distinguished. Preserve recorded results but flag the complete bracket for reconciliation.
+
+### Adventurer tournament results
+
+Champion: Theron Ashvale.
+
+Runner-up: Maeryn Sol.
+
+Semifinalists:
+
+- Aric Ashvale.
+- Ser Aldren Voss, newly introduced visiting competitor.
+
+Other results:
+
+- Lyanna Ashvale: Quarterfinalist.
+- Nyx Thorne: Round of 16.
+- Garrick and Lyra participated in exhibitions.
+- Elias Renn reached the Round of 16.
+- Other DSI placements were reported by numbered student slots; exact named mappings were not established.
+
+Do not arbitrarily assign the anonymous placements to named DSI students.
+
+Theron defeated Darius Venn during an opening match.
+
+Theron's championship final against Maeryn recorded 96 MP in spell expenditure:
+
+- Spatial Step ×2: 18 MP.
+- Rune Barrier ×2: 18 MP.
+- Frost Lance ×2: 12 MP.
+- Umbral Bolt ×2: 14 MP.
+- Runic Edge ×1: 6 MP.
+- Greater Rune Barrier ×1: 28 MP.
+
+Other rounds lack complete spell and resource bridges.
+
+Theron's own 100 GP championship award remained in his treasury. Do not record an artificial self-payment or duplicate prize income.
+
+### Dragon tournament results
+
+Participants:
+
+1. Theron Ashvale.
+2. Maeryn Sol.
+3. Vaeltharion.
+4. Aurelith.
+5. Tharosyn.
+6. Rhavoryx.
+7. Sylmerath.
+
+Quarterfinals:
+
+- Vaeltharion received a bye.
+- Theron defeated Rhavoryx.
+- Aurelith defeated Sylmerath.
+- Maeryn defeated Tharosyn.
+
+Semifinals:
+
+- Theron defeated Aurelith.
+- Vaeltharion defeated Maeryn.
+
+Final:
+
+- Vaeltharion defeated Theron by controlled knockout.
+- Vaeltharion received 100 GP and his two-day retreat.
+- No deaths, permanent disabling injuries, severed limbs or spectator injuries were recorded.
+
+Combat permitted real weapons and magic under nonlethal conditions.
+
+The arena's protective infrastructure successfully contained the observed dragon tournament. This does not certify unlimited protection against any number of dragons or unrestricted attacks.
+
+---
+
+## 4. Grand Arena development
+
+Six new shield obelisks were constructed and installed.
+
+- Obelisk construction: 1,080 GP.
+- Specialist installation and testing: 420 GP.
+- Tests completed by Day 15.
+- Observed operational performance confirmed during the festival.
+- Arena inspection and maintenance: 380 GP.
+
+The six obelisks are completed infrastructure, not an outstanding proposal.
+
+Do not charge these expenditures twice.
+
+Keep earlier Phase VI works and earlier arena investments intact.
+
+The festival established that the system handled the observed tournament conditions, not an unlimited capacity formula.
+
+---
+
+## 5. Complete festival financial ledger
+
+### Opening treasury
+
+5,146 GP.
+
+This is the committed Year 852 closing controlled treasury.
+
+Historical provisional funds and separate office petty cash remain outside the ordinary controlled total unless separately reconciled.
+
+### Ticket receipts
+
+| Event | Standard tickets | Premium tickets | Noble tickets | Income |
+|---|---:|---:|---:|---:|
+| Theater | 2,100 | 900 | 300 | 25,500 GP |
+| Jousting | 2,400 | 1,050 | 350 | 29,500 GP |
+| Sparring | 1,800 | 750 | 250 | 21,500 GP |
+| Gladiators | 2,400 | 1,050 | 350 | 29,500 GP |
+| Adventurer opening | 800 | 400 | 100 | 10,000 GP |
+| Adventurer elimination | 1,200 | 600 | 200 | 16,000 GP |
+| Adventurer final | 1,400 | 700 | 250 | 30,750 GP |
+| Dragon quarterfinals | 400 | 200 | 100 | 11,000 GP |
+| Dragon semifinals | 1,400 | 800 | 300 | 39,000 GP |
+| Dragon final | 1,600 | 1,000 | 400 | 63,000 GP |
+
+Total ticket revenue: 275,750 GP.
+
+Total ticketed admissions: 25,550 from the itemized rows. The source handoff stated 24,550. Ticket prices, receipts and the treasury bridge are unaffected.
+
+Admissions are cumulative across sessions, not unique festival visitors.
+
+Adventurer tournament ticket income: 56,750 GP.
+
+Dragon tournament ticket income: 113,000 GP.
+
+### Commercial income
+
+- Adventurer registration: 640 GP.
+- Dragon registration: 30 GP.
+- Commercial plot rentals: 600 GP.
+- Traveling tavern profit share: 1,600 GP.
+- Food vendor profit share: 2,200 GP.
+- Commercial merchant profit share: 3,000 GP.
+- Fair profit share: 1,200 GP.
+- Lodge accommodations: 2,400 GP.
+- Estate food and refreshments: 1,800 GP.
+- Hot springs and spa: 1,600 GP.
+- Daycare: 840 GP.
+- Overflow camping: 480 GP.
+
+Total additional commercial income: 16,390 GP.
+
+Total gross festival revenue: 292,140 GP.
+
+### Commercial plots
+
+60 rented plots at 10 GP each:
+
+- 8 traveling taverns.
+- 18 food vendors.
+- 24 commercial merchants.
+- 10 fair operators.
+
+Merchant and fair operators pay Theron 25% of their profits in addition to plot rentals.
+
+Combined vendor profit before estate share: 32,000 GP.
+
+- Tavern profits: 6,400 GP.
+- Food vendor profits: 8,800 GP.
+- Commercial merchant profits: 12,000 GP.
+- Fair profits: 4,800 GP.
+
+Theron's combined 25% share: 8,000 GP.
+
+Vendor inventory and their independent expenses do not belong to Theron's operating ledger.
+
+Daycare: 420 paid child admissions at 2 GP, generating 840 GP.
+
+### Advance receipts
+
+Advance festival receipts totaled 22,270 GP:
+
+- Adventurer opening tickets: 10,000 GP.
+- Dragon quarterfinal tickets: 11,000 GP.
+- Adventurer registrations: 640 GP.
+- Dragon registrations: 30 GP.
+- Plot rentals: 600 GP.
+
+These are already included in the final gross festival revenue. Do not add them again.
+
+### Original preparation and operating expenses
+
+| Expense | GP |
+|---|---:|
+| Six obelisks | 1,080 |
+| Installation and testing | 420 |
+| Initial security | 600 |
+| Initial food and alcohol | 900 |
+| Dragon feast | 700 |
+| Lodge and spa supplies | 300 |
+| Theater and performers | 500 |
+| Initial medical staffing and supplies | 400 |
+| Daycare setup and staff | 250 |
+| Sanitation and logistics | 350 |
+| Additional food and beverages | 1,450 |
+| Additional guard shifts | 480 |
+| Additional medical personnel and supplies | 620 |
+| Hospitality overtime | 540 |
+| Additional performers and referees | 560 |
+| Additional daycare operations | 160 |
+| Arena maintenance | 380 |
+| Cleanup | 240 |
+| Vaeltharion's cash prize | 100 |
+| Vaeltharion's retreat | 120 |
+
+Original paid expense total: 10,150 GP.
+
+The earlier displayed total of 10,070 GP was an arithmetic error and is superseded.
+
+### Additional reconstructed ordinary wages
+
+| Personnel | Workers | Days | Daily GP | Total GP |
+|---|---:|---:|---:|---:|
+| Estate workers | 24 | 20 | 2 | 960 |
+| Construction support | 18 | 10 | 3 | 540 |
+| Carpenters and groundskeepers | 12 | 20 | 3 | 720 |
+| Kitchen workers | 36 | 4 | 3 | 432 |
+| Servers | 24 | 4 | 3 | 288 |
+| Cleaning staff | 20 | 4 | 3 | 240 |
+| Ticketing personnel | 16 | 4 | 3 | 192 |
+| Stable workers | 12 | 4 | 4 | 192 |
+| Porters | 10 | 4 | 3 | 120 |
+| Supervisors | 8 | 4 | 5 | 160 |
+| Administration | 12 | 4 | 4 | 192 |
+
+Total ordinary wages and support labor: 4,036 GP.
+
+These are separate from original specialist contracts and temporary staffing payments.
+
+### Additional land preparation and infrastructure
+
+- 120 wagonloads of pathway materials: 240 GP.
+- 60 commercial tents: 480 GP.
+- 12 temporary shelters: 360 GP.
+- 200 tables: 600 GP.
+- 300 benches: 450 GP.
+- 140 crowd barrier sections: 280 GP.
+- 20 sanitation facilities: 220 GP.
+- 90 decoration and signage sets: 180 GP.
+
+Total: 2,810 GP.
+
+Reusable assets remain estate property, subject to wear and replacement accounting.
+
+### Additional utilities and magical supplies
+
+- 180 water wagonload equivalents: 360 GP.
+- 140 fuel bundles: 280 GP.
+- 240 lighting supply units: 240 GP.
+- 40 shield replenishment crystals: 600 GP.
+- 24 runic consumable sets: 480 GP.
+- 12 magical utility supply sets: 240 GP.
+
+Total: 2,200 GP.
+
+These purchases do not establish new mana conversion formulas.
+
+### Additional repairs
+
+- Arena surface: 320 GP.
+- Furniture replacements: 180 GP.
+- Jousting equipment: 240 GP.
+- Kitchen equipment: 160 GP.
+- Stable and pathway restoration: 200 GP.
+
+Total: 1,100 GP.
+
+### Additional food and beverages
+
+- 1,800 meat, poultry and fish portions: 1,800 GP.
+- 3,600 grain, vegetable and fruit portions: 900 GP.
+- 60 alcohol barrels: 600 GP.
+- 500 seasoning, dairy and dessert supply units: 500 GP.
+
+Total additional provisions: 3,800 GP.
+
+Combined festival food expenditure: 6,850 GP.
+
+### Final expenses and profits
+
+- Original expenses: 10,150 GP.
+- Additional wages: 4,036 GP.
+- Additional infrastructure: 2,810 GP.
+- Additional utilities: 2,200 GP.
+- Additional repairs: 1,100 GP.
+- Additional food: 3,800 GP.
+- Total paid at festival audit: 24,096 GP.
+- Theron's retreat reservation: 120 GP.
+- Final festival expenditure including completed retreat: 24,216 GP.
+- Gross revenue: 292,140 GP.
+- Final net profit: 267,924 GP.
+- Profit margin: Approximately 91.71%.
+
+The additional expense breakdown was a player-requested narrative reconstruction rather than recovered historical invoices. Preserve this provenance.
+
+### Treasury bridge
+
+| Transaction | Change | Balance |
+|---|---:|---:|
+| Opening treasury | — | 5,146 GP |
+| Festival receipts | +292,140 GP | 297,286 GP |
+| Festival expenses before Theron's retreat | −24,096 GP | 273,190 GP |
+| Completed Theron retreat | −120 GP | 273,070 GP |
+| DSI founder contribution | −1,200 GP | 271,870 GP |
+
+Latest controlled treasury: 271,870 GP.
+
+Travel expenses and consumed existing inventory after the retreat remain unitemized. Do not invent deductions.
+
+No unauthorized companion reward distributions.
+
+### Existing financial rules
+
+All net rewards from Theron's funded expedition belong to Theron's controlled treasury after legitimate costs and commissions.
+
+DSI students' independent rewards and academy funds remain separate.
+
+Historical commitments, provisional cash and unresolved account allocations must retain their established treatment.
+
+---
+
+## 6. Dragon friendships and new dragon entities
+
+### Rhavoryx
+
+- Bronze dragon.
+- Male.
+- Independent.
+- Residence: Thunderwake Cliffs, coastal mountains overlooking the eastern sea.
+- Exact coordinates, distances and established road routes: Unknown.
+- Personality: Sociable, competitive, adventurous, enjoys personal stories.
+- Friend of Theron.
+- Invited Theron and his companions to visit, subject to respect for his home.
+- Offered to guide visitors personally.
+- Offered to consult knowledgeable dragons concerning Frostspire and the swords' history.
+- No servitude, binding oath or compulsory allegiance.
+
+Personal stories:
+
+1. Protected a fishing village for several generations.
+2. Villagers erected an inaccurate statue depicting him with six horns.
+3. Assisted coastal communities and stranded sailors during a storm lasting nine days.
+4. Developed a fondness for smoked fish offered by local fishermen.
+5. Occasionally visits descendants of those communities.
+
+These stories are voluntary personal testimony, not independently verified historical records.
+
+### Sylmerath
+
+- Green dragon.
+- Female.
+- Independent.
+- Residence: Elderbloom Hollow, ancient woodland with springs, historical ruins and medicinal plants.
+- Exact location and travel details: Unknown.
+- Personality: Thoughtful, reserved, observant and knowledgeable.
+- Friend of Theron.
+- Invited Theron and his companions to visit.
+- Prefers personally guiding visitors from the forest boundary.
+- Offered to investigate historical dragon-scale traditions and oath-related inscriptions.
+- Interested in Theron's mother's healing knowledge and future medicinal collaboration.
+- No servitude, binding oath or compulsory allegiance.
+
+Personal story:
+
+A healer once visited her forest seeking medicine for a sick child. The healer took only what was necessary and returned to replenish the plants. They became friends and exchanged knowledge over many years. Sylmerath established a memorial garden after the healer died.
+
+### Friendship events
+
+Day 25:
+
+- Private dragon feast using existing paid festival inventory.
+- Theron shared stories about his upbringing, family, magical development, freeing Vaeltharion, founding DSI and protecting Lyanna.
+- Rhavoryx and Sylmerath reciprocated with personal stories.
+- Both established mutual friendship and offered future research assistance.
+- No new cash expenditure recorded for the feast.
+- Inventory quantities consumed remain unreconciled.
+
+Ancient dragon strategy game:
+
+- Existing seven-settlement scenario.
+- Theron defeated Rhavoryx using supply routes and diplomacy.
+- Sylmerath defeated Theron using influence and mutually dependent trade relationships.
+- Theron and all five dragons completed a cooperative scenario preserving all seven settlements.
+- A Day 27 rematch between Theron and Rhavoryx ended in a draw.
+
+Future visits to Thunderwake Cliffs and Elderbloom Hollow are accepted invitations, not completed travel.
+
+Existing friends Vaeltharion, Aurelith and Tharosyn retain autonomy and established histories.
+
+---
+
+## 7. Twin swords and Eclipse Sovereigns
+
+Repository sources checked:
+
+- `entities/items/black-runeblade.md`
+- `entities/items/white-runeblade.md`
+- `entities/quests/twin-sword-origin.md`
+- `entities/characters/gareth-vaelwright.md`
+- `entities/mechanics/outstanding-projects.md`
+- `changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md`
+
+### Black original sword
+
+Canonical original name: Black Dragon-Scale Runeblade.
+
+- Legendary shortsword.
+- Established damage: 1d8+3.
+- Commissioner: Aric Ashvale.
+- Maker: Gareth Vaelwright.
+- Original material: Scales willingly gifted by a living black-and-silver Frostspire dragon.
+- Approximate historical scale gift: 26 years before the earlier campaign reference point.
+- Exact forging date and donor identity unknown.
+- Protective frost aspect.
+- Runic amplification.
+- Draconic resonance.
+
+Inscription:
+
+WHEN WINTER GUARDS THE THRESHOLD...
+
+Aric's confidential historical promise and warning retain their existing knowledge classifications. Do not automatically convert GM-only history into Theron's knowledge.
+
+### White original sword
+
+Canonical original name: White matched blade.
+
+- Maker: Gareth Vaelwright.
+- Commissioner: Lady Isolde Vaeren.
+- Commission authority: Winterglass Private Trust.
+- Material: Distinct frost-line dragon source.
+- Reflective frost signature.
+- Recovered during Lyanna's first-dungeon abduction investigation.
+- Exact donor identity and former physical recipient unknown.
+
+Inscription:
+
+...ITS REFLECTION SHALL REMEMBER THE WAY.
+
+### Eclipse Sovereigns
+
+The project records identify Theron's twin Eclipse Sovereigns and pending regulator refinements.
+
+The relationship between the named upgraded weapons and the original black and white blades remains insufficiently reconciled.
+
+Do not erase the Eclipse Sovereigns name or casually revert all current references to generic Runeblades.
+
+Create or update a verification item covering:
+
+- Current weapon names.
+- Whether Eclipse Sovereigns are upgraded forms of the historical pair.
+- Completed modifications.
+- Current damage and active mechanics.
+- Regulator refinement status.
+- Any attribution to Teren Vhal or Gareth.
+
+Do not assume unsupported numerical mechanics.
+
+Lyanna's Dawnbreaker's Promise is entirely separate.
+
+### New dragon consultations
+
+Rhavoryx and Sylmerath examined the swords and discussed frost-line sources, paired craftsmanship and possible voluntary scale donation traditions.
+
+Neither identified the original donors.
+
+Aric agreed to consider a consent-based inquiry regarding further disclosure rather than break his promise.
+
+Preserve existing white sword custody investigation.
+
+---
+
+## 8. Time Chamber and research
+
+Canonical location:
+
+Restored Chamber Seven at the Observatory of First Light.
+
+Do not place it directly inside Theron's commercial estate.
+
+Established capabilities:
+
+- 2×: Supervised occupied operation.
+- 5×: Up to eight internal hours of supervised occupied operation.
+- 10×: Limited occupied operation, up to one internal hour.
+- 15×: Experimental unmanned.
+- 20×: Repeated unmanned, up to four internal hours.
+- Above 20×: Unverified.
+- 525,600×: Long-term research target of one internal year per external minute.
+
+Physical fatigue, aging, food, sleep, finite magic and safety requirements remain applicable.
+
+### New research project: Sovereign Thought Acceleration
+
+Objective: Investigate subjective mental time acceleration without equivalently accelerating Theron's physical body or biological aging.
+
+Participants:
+
+- Theron.
+- Raze.
+- Aegis.
+- Caelrix.
+- Aurelith, voluntary consultant.
+- Rhavoryx and Sylmerath offered strategic and cognitive evaluation suggestions.
+
+Status: Research proposed and accepted for investigation.
+
+No achieved multiplier, new spell, mastery, accelerated physical movement or unlimited thought processing.
+
+No direct Observatory visit was confirmed during this session. Do not mark it completed.
+
+Anti-aging and Vital Continuity research remain separate and incomplete.
+
+---
+
+## 9. DSI Academy — independent organization
+
+Canonical location: Greyhaven Valley.
+
+The academy is NOT situated on Theron's commercial estate.
+
+Every visit requires actual travel.
+
+Cofounders:
+
+- Theron Ashvale.
+- Vaeltharion, independent Dragon Master.
+
+Operational manager: Master Beren.
+
+DSI is distinct from the Wayfarers' Guild.
+
+Guild rank, general character level, DSI membership, Dragon Slayer initiation, Dragon Slayer rank and Dragon Slayer level are distinct values.
+
+### Standing independent simulation requirement
+
+The academy must continue functioning when Theron is absent.
+
+Beren independently manages recruitment, expenditures, instruction, construction, staffing and operational decisions.
+
+Students independently pursue appropriate missions, advance through legitimate assessments, develop equipment, maintain mounts, spend savings, build relationships and discover new lore.
+
+When Theron returns, report the intervening activities rather than freezing the organization at its last visited state.
+
+Apply this prospectively through documented narrative periods. Do not fabricate undocumented historical money movements.
+
+---
+
+## 10. DSI roster expansion
+
+Previous student count: 13.
+
+Current student count: 19.
+
+Previous Guild registrants: 6.
+
+Current Guild registrants: 10.
+
+Six newly admitted students were accepted from sixteen applicants.
+
+Five additional applicants remain waitlisted. The remaining five withdrew or were not accepted.
+
+### Original students
+
+1. Elias Renn — Guild E, Level 2.
+2. Kaela — Guild E, Level 2.
+3. Gorren — Guild E, Level 2.
+4. Nessa — Guild E, Level 2.
+5. Talia Fen — advanced to Guild E, Level 2.
+6. Rowan Hale — advanced to Guild E, Level 2.
+7. Dalen Reed — newly Guild F, Level 1.
+8. Sera Willow — newly Guild F, Level 1.
+9. Tobin Marsh — newly Guild F, Level 1.
+10. Elowen Briar — newly Guild F, Level 1.
+11. Mira Thorne — unregistered supervised day student.
+12. Perrin Oak — unregistered foundational trainee.
+13. Faye Linden — unregistered foundational trainee.
+
+Talia and Rowan's promotions were narrated following supervised missions and successful Guild assessment.
+
+The four newly registered junior members passed preliminary assessments and undertook supervised low-risk contracts.
+
+Mira remains protected by age-appropriate training and guardian supervision.
+
+### New recruits
+
+Cedric Vale:
+- Human male, 19.
+- Nonmagical.
+- Former caravan assistant.
+- Swordsmanship, horsemanship and road travel.
+
+Lethara Mossveil:
+- Elf female, 21.
+- Magical aptitude.
+- Aspiring healer and herbalist.
+
+Brom Ironroot:
+- Dwarf male, 24.
+- Nonmagical.
+- Blacksmith's apprentice.
+- Defense and equipment maintenance.
+
+Marielle Fenwick:
+- Human female, 18.
+- Nonmagical.
+- Hunter's daughter.
+- Archery and tracking.
+
+Aren Duskwell:
+- Half-elf male, 20.
+- Magical aptitude.
+- Self-taught magic practitioner.
+- Disciplined casting education.
+
+Rhea Thornfield:
+- Human female, 18.
+- Nonmagical.
+- Orphan and former roadside inn worker.
+- Logistics and defensive combat.
+
+All six remain probationary academy members without Guild cards.
+
+Detailed numeric attributes, HP, MP, DEF and skills require individual assessments. Do not invent those values during repository import.
+
+Create appropriate entity records and indexes.
+
+---
+
+## 11. Original senior student character records
+
+Preserve repository-approved character statistics unless a documented mechanical assessment supersedes them.
+
+Attribute order: STR, DEX, CON, INT, WIS, CHA.
+
+### Elias Renn
+
+- Human male.
+- Role: Field Captain.
+- Guild E, Level 2.
+- HP 32/32.
+- MP 10/10.
+- DEF 13.
+- Attributes: 11, 13, 13, 15, 14, 12.
+- Navigation 3/5.
+- Team Leadership 3/5.
+- Swordsmanship 2/5.
+- Field Medicine 2/5.
+- Mount: Bramble, bay gelding.
+- Historical reported savings: 28 GP; current full historical balance unresolved.
+- Newly purchased improved shortsword, reinforced armor and leadership instruction.
+- Dragon Slayer initiated.
+
+### Kaela
+
+- Role: Scout.
+- Guild E, Level 2.
+- HP 29/29.
+- MP 12/12.
+- DEF 15.
+- Attributes: 11, 16, 12, 12, 14, 11.
+- Archery 3/5.
+- Stealth 3/5.
+- Tracking 3/5.
+- Survival 2/5.
+- Mount: Cinder, chestnut mare.
+- Historical reported savings: 19 GP; current full historical balance unresolved.
+- Newly purchased improved shortbow, arrows, riding equipment and archery instruction.
+- Dragon Slayer initiated.
+
+### Gorren
+
+- Role: Frontline Defender.
+- Guild E, Level 2.
+- HP 40/40.
+- MP 0/0.
+- DEF 17.
+- Attributes: 16, 10, 16, 10, 12, 11.
+- Shield Defense 3/5.
+- Swordsmanship 3/5.
+- Endurance 3/5.
+- Mounted Combat 1/5.
+- Mount: Flint, dark brown gelding.
+- Historical reported savings: 9 GP; current full historical balance unresolved.
+- Newly purchased reinforced shield, armor repairs and defensive instruction.
+- Dragon Slayer initiated.
+
+Do not automatically give Gorren a personal mana pool merely because he received draconic essence.
+
+### Nessa
+
+- Role: Field Support.
+- Guild E, Level 2.
+- HP 28/28.
+- MP 24/24.
+- DEF 12.
+- Attributes: 9, 12, 12, 14, 16, 13.
+- First Aid 4/5.
+- Herbalism 3/5.
+- Support Magic 2/5.
+- Observation 3/5.
+- Mount: Willow, gray mare.
+- Historical reported savings: 7 GP; current full historical balance unresolved.
+- Newly purchased expanded healer's kit, herbal supplies and medical instruction.
+- Dragon Slayer initiated.
+
+Do not invent named healing spells or healing amounts.
+
+### Talia Fen
+
+- Role: Archer.
+- Guild E, Level 2, newly advanced.
+- HP 22/22.
+- MP 0/0.
+- DEF 12.
+- Attributes: 10, 15, 11, 11, 13, 10.
+- Archery 2/5.
+- Tracking 2/5.
+- Navigation 2/5.
+- First Aid 1/5.
+- No mount.
+- Newly purchased protective armor, arrows and archery instruction.
+- Future Dragon Slayer candidate.
+
+### Rowan Hale
+
+- Role: Guardian.
+- Guild E, Level 2, newly advanced.
+- HP 27/27.
+- MP 0/0.
+- DEF 15.
+- Attributes: 14, 10, 14, 11, 12, 12.
+- Shield Defense 2/5.
+- First Aid 2/5.
+- Equipment Care 2/5.
+- Swordsmanship 1/5.
+- No mount.
+- Newly purchased combat sword, reinforced shield and armor.
+- Future Dragon Slayer candidate.
+
+Purchased equipment is real inventory. Numeric equipment bonuses and skill increases remain unassessed.
+
+---
+
+## 12. DSI independent adventure history
+
+The following newly narrated contracts occurred during Year 853 before Theron's academy inspection.
+
+Amounts are paid student rewards after applicable Guild deductions but before the academy tithe.
+
+| ID | Days | Contract | Participants | Paid GP |
+|---|---|---|---|---:|
+| DSI-853-001 | 2–3 | Greyhaven livestock protection | Elias, Gorren, Talia | 60 |
+| DSI-853-002 | 3–5 | Eastrun merchant escort | Kaela, Nessa, Rowan | 110 |
+| DSI-853-003 | 6–7 | Missing herbalist rescue | Elias, Nessa, Talia | 85 |
+| DSI-853-004 | 8–9 | Abandoned granary inspection | Gorren, Rowan, Dalen | 45 |
+| DSI-853-005 | 10–11 | Greyhaven mill supply escort | Kaela, Nessa, Sera | 90 |
+| DSI-853-006 | 12–14 | Northern farmstead patrol | Elias, Gorren, Tobin | 120 |
+| DSI-853-007 | 15–16 | Flooded crossing assistance | Kaela, Talia, Elowen | 70 |
+| DSI-853-008 | 17–18 | Lost merchant packhorse recovery | Nessa, Rowan, Dalen | 50 |
+| DSI-853-009 | 26–27 | Roadside bandit investigation | Elias, Kaela, Gorren, Nessa | 220 |
+
+Total paid: 850 GP.
+
+Historical 10% academy tithe: 85 GP.
+
+Total student proceeds: 765 GP.
+
+All nine completed and paid.
+
+Contract outcomes:
+
+1. Protected local livestock and identified recurring predator activity.
+2. Escorted merchants safely and assisted a damaged wagon.
+3. Rescued an injured herbalist by following environmental evidence.
+4. Cleared ordinary hazards and recovered missing provisions.
+5. Delivered replacement mill supplies.
+6. Investigated livestock losses and restored grazing access.
+7. Assisted stranded travelers and reported damaged crossing.
+8. Recovered packhorse and undamaged cargo.
+9. Recovered stolen goods and transferred captured suspects to lawful authorities.
+
+Kaela also refused a merchant's offer to transport undeclared cargo and reported the offer to the Guild.
+
+Preserve these as separate DSI histories, not Theron's funded party missions.
+
+---
+
+## 13. Corrected individual student earnings
+
+Students confirmed equal distribution among participating adventurers for these nine contracts after the historical 10% DSI tithe.
+
+Earlier displayed individual distributions contained arithmetic errors. Replace them with the following reconciled values.
+
+| Student | Recent earnings GP | Paid purchases GP | Remaining recent GP |
+|---|---:|---:|---:|
+| Elias | 129 | 32 | 97 |
+| Kaela | 130.5 | 40 | 90.5 |
+| Gorren | 117 | 42 | 75 |
+| Nessa | 150 | 35 | 115 |
+| Talia | 64.5 | 28 | 36.5 |
+| Rowan | 61.5 | 35 | 26.5 |
+| Dalen | 28.5 | 15 | 13.5 |
+| Sera | 27 | 12 | 15 |
+| Tobin | 36 | 18 | 18 |
+| Elowen | 21 | 10 | 11 |
+| TOTAL | 765 | 267 | 498 |
+
+These are balances from the nine new missions, not complete lifetime personal savings.
+
+Gorren's correct income is 117 GP, not 122.5 or 133.5 GP.
+
+Nessa's correct income is 150 GP, not 128 GP.
+
+Do not invent deposits or deductions to reconcile previously misstated numbers.
+
+Use copper-piece integer accounting where required by the repository.
+
+Currency conversions:
+
+- 1 GP = 10 SP = 100 CP.
+- 0.5 GP = 5 SP.
+
+### Junior equipment purchases
+
+- Dalen: Protective equipment and field supplies, 15 GP.
+- Sera: Travel equipment and professional instruction, 12 GP.
+- Tobin: Protective equipment and survival instruction, 18 GP.
+- Elowen: Field supplies and foundational equipment, 10 GP.
+
+All student purchases totaling 267 GP are paid, not pending reservations.
+
+Talia and Rowan inspected available horse types but chose not to purchase mounts. They will continue saving for acquisition and continuing care.
+
+No new mounts acquired.
+
+---
+
+## 14. New DSI tithe and financial policy
+
+Player-authorized effective change:
+
+Previous tithe: 10%.
+
+New tithe: 25%.
+
+Students retain 75% of paid Guild mission rewards.
+
+Apply after legitimate Guild deductions and actual payment.
+
+Do not apply retroactively to the nine prior contracts.
+
+Do not apply automatically to unrelated gifts, tournament prizes, personal assets or Theron's separate funded expedition rewards.
+
+Academy funds support:
+
+- Food and accommodation.
+- Instructors and wages.
+- Clothing.
+- Equipment and repairs.
+- Medical services.
+- Stable operations.
+- Construction.
+- Emergency reserves.
+
+Students should actively invest their personal earnings in equipment, training, professional development and sustainable mount ownership while maintaining reasonable savings.
+
+Personal funds are not confiscated.
+
+### New academy operating expenses
+
+- Food and grain: 15 GP.
+- Horse feed and maintenance: 10 GP.
+- Training equipment repairs: 8 GP.
+- Dormitory bedding: 9 GP.
+- New student clothing: 12 GP.
+- Farm supplies: 6 GP.
+- Medical supplies: 5 GP.
+
+Total paid: 65 GP.
+
+New tithe receipts: 85 GP.
+
+Net new operating cash retained: 20 GP.
+
+Historical academy treasury remains unreconciled.
+
+The historical 34 GP cash and 15 GP refundable lease deposit are not automatically added to the latest account.
+
+### Founder contribution
+
+Theron transferred 1,200 GP from his controlled treasury to DSI.
+
+This is a one-time contribution, not a loan.
+
+DSI newly accounted funds:
+
+20 GP retained operating cash + 1,200 GP contribution = 1,220 GP.
+
+Of this:
+
+- 1,200 GP allocated to development and reserves.
+- 20 GP remains unallocated from this documented period.
+
+The complete academy treasury including older unreconciled balances remains unknown.
+
+---
+
+## 15. DSI funded expansion
+
+| Purpose | GP |
+|---|---:|
+| Additional dormitories | 180 |
+| Kitchen and dining hall | 100 |
+| Additional stables | 120 |
+| Combat grounds | 150 |
+| Medical classroom | 100 |
+| Library and strategy classroom | 90 |
+| Workshop and storage | 110 |
+| Agricultural expansion | 80 |
+| Instructor recruitment reserve | 120 |
+| Emergency operating reserve | 150 |
+| TOTAL | 1,200 |
+
+Funding transferred and budget allocated.
+
+Construction contracts, actual disbursements, building completions and new staff hires remain pending.
+
+Beren manages this independently.
+
+Do not deduct the entire 1,200 GP from DSI again until specific expenditures occur.
+
+Do not deduct individual academy construction expenses from Theron's treasury.
+
+### Completed smaller improvements
+
+- Training equipment repaired.
+- Group training reorganized.
+- Stable care rotations established.
+- Feed replenished.
+- Farm planting expanded.
+- Existing dormitory accommodation reorganized.
+- Bedding replenished.
+
+These are existing-facility improvements, not completed new buildings.
+
+### Academy traditions
+
+- Dragon's Journal: Personal adventure and training records.
+- Returned Flame: Shared meal celebrating safe field-team returns.
+- Senior mentorship: Experienced students instruct newer students.
+- Empty Mask: Unissued dragon mask symbolizing future opportunities.
+- Weekly strategy night.
+- Commencement of the Dragon's Flame: Formal ceremony recognizing earned milestones.
+
+---
+
+## 16. Genuine Dragon Slayer initiation
+
+Vaeltharion voluntarily attended the academy at Theron's invitation.
+
+Examiners:
+
+- Vaeltharion.
+- Theron.
+- Maeryn.
+- Master Beren.
+
+Readiness assessments evaluated dragon knowledge, attack recognition, defensive combat, coordinated protection and judgment.
+
+Passed:
+
+- Elias Renn.
+- Kaela.
+- Gorren.
+- Nessa.
+
+Talia and Rowan require further preparation.
+
+Other students are not yet eligible.
+
+### Actual initiation event
+
+Vaeltharion voluntarily offered a limited portion of his essence to each of the four successful adult candidates.
+
+Each accepted independently and voluntarily.
+
+The initiations were conducted individually and supervised.
+
+Subsequent observations demonstrated persistent draconic responses distinguishable from their previous condition.
+
+No immediate harmful reactions were observed.
+
+This is the first played successful essence acceptance for DSI students.
+
+They are actual initiated Dragon Slayers, not merely anti-dragon combat trainees.
+
+Do not revert them to ordinary uninitiated candidates.
+
+### Limitations
+
+The scene does not establish:
+
+- Exact transferable essence quantity.
+- Mana conversion rate.
+- Active spell costs.
+- Permanent attribute increases.
+- Automatic damage multipliers.
+- Transformations.
+- Multiple-dragon essence compatibility.
+- Unlimited essence production.
+- Long-term safety beyond observed conditions.
+
+Do not invent those mechanics.
+
+Vaeltharion remains free and independent.
+
+Students are not bound servants.
+
+Theron's own Dragon Slayer ability remains locked.
+
+---
+
+## 17. The Way of the Dragon
+
+New specialized academy division overseen by Vaeltharion.
+
+Direct disciples:
+
+1. Elias Renn.
+2. Kaela.
+3. Gorren.
+4. Nessa.
+
+Vaeltharion personally supervises their continuing education.
+
+Maeryn assists when available.
+
+Training occurs at DSI and appropriate dragon sanctuaries, requiring actual travel between locations.
+
+### Training disciplines
+
+Each discipline uses a 0–5 mastery scale.
+
+1. Dragon Anatomy.
+2. Dragon Attack Recognition.
+3. Defensive Dragon Combat.
+4. Coordinated Anti-Dragon Defense.
+5. Draconic Resonance.
+6. Breath Deflection.
+7. Guardian's Instinct.
+8. Defensive Synchronization.
+9. Draconic Essence Control.
+10. Draconic Combat Application.
+
+Mastery scale:
+
+- 0/5: Untrained.
+- 1/5: Fundamental.
+- 2/5: Developing.
+- 3/5: Proficient.
+- 4/5: Advanced.
+- 5/5: Mastered.
+
+Do not assume numerical progress for every track simply because an introductory lesson occurred.
+
+Initial individual progress beyond narrated demonstrations remains unassessed.
+
+### Independent Dragon Slayer rank and level system
+
+This is separate from ordinary adventurer rank and general character level.
+
+| Dragon Slayer Rank | Title | Level Range |
+|---|---|---|
+| F | Dragon Initiate | 1–5 |
+| E | Dragon Apprentice | 6–10 |
+| D | Dragon Adept | 11–15 |
+| C | Dragon Warrior | 16–20 |
+| B | Dragon Veteran | 21–25 |
+| A | Dragon Champion | 26–30 |
+| S | Dragon Master | 31–35 |
+| S+ | Dragon Grandmaster | 36–40 |
+
+Rank advancement requires a formal assessment.
+
+Reaching a qualifying level establishes eligibility, not automatic promotion.
+
+Implement rank validation without introducing a new global SS rank.
+
+Progression is based on meaningful demonstrated achievements, direct instruction, relevant missions, controlled essence exercises, historical research and certified combat applications.
+
+No arbitrary passive level gains, stat bonuses or invented XP formulas.
+
+### Current Dragon Slayer registry
+
+| Student | Guild Rank | General Level | DS Rank | DS Level |
+|---|---|---:|---|---:|
+| Elias | E | 2 | F | 1 |
+| Kaela | E | 2 | F | 1 |
+| Gorren | E | 2 | F | 1 |
+| Nessa | E | 2 | F | 1 |
+
+All four have completed initiation and their first supervised essence-control lesson.
+
+Next milestone: Demonstrate independent essence control and qualify for Dragon Slayer Level 2.
+
+### Individual specialization paths
+
+Elias — Dragon Commander:
+
+- Leadership.
+- Coordinated dragon defense.
+- Tactical awareness.
+- Essence discipline.
+
+Kaela — Dragon Hunter:
+
+- Reconnaissance.
+- Attack recognition.
+- Precision archery.
+- Mobility.
+- Essence discipline.
+
+Gorren — Dragon Guardian:
+
+- Endurance.
+- Breath deflection.
+- Protective formations.
+- Defensive combat.
+- Essence discipline.
+
+Nessa — Dragon Keeper:
+
+- Medical support.
+- Protective magic.
+- Casualty protection.
+- Resonance observation.
+- Essence discipline.
+
+These names are developmental paths, not automatically unlocked mechanical classes.
+
+### Commencement milestones
+
+- First Flame: Successful essence acceptance.
+- Awakening: E Rank.
+- Dragon's Trial: D Rank.
+- Dragon's Ascension: C Rank.
+- Sovereign Trial: B Rank.
+- Champion's Flame: A Rank.
+- Master's Recognition: S Rank.
+- Eternal Flame: S+ Rank.
+
+Vaeltharion oversees formal promotions.
+
+Beren maintains the student registry and progression records.
+
+Theron and Maeryn may assist with assessments.
+
+---
+
+## 18. Ancient dragon grounds expedition
+
+Confirmed location: Hollow Veil sanctuary, Mount Vaelspire.
+
+Vaeltharion guided the expedition personally.
+
+The player referred to an older temple or dragon grounds previously shown by a dragon. The exact historical temple identity was not verified.
+
+Do not rename Hollow Veil as that temple or invent an established temple identity.
+
+Investigate relevant historical records before proceeding deeper.
+
+### First completed training mission
+
+Mission: Trial of the Ancient Grounds.
+
+Participants:
+
+- Theron.
+- Vaeltharion.
+- Maeryn.
+- Aric.
+- Lyra.
+- Garrick.
+- Nyx.
+- Elias.
+- Kaela.
+- Gorren.
+- Nessa.
+- Raze.
+- Aegis.
+- Caelrix.
+
+Activities:
+
+- Surveyed a mountain passage obstructed by rockfall.
+- Located an injured mountain creature.
+- Established a safe approach.
+- Coordinated a rescue.
+- Cleared accessible debris.
+- Discouraged an agitated mountain predator without pursuing or killing it.
+- Completed introductory draconic essence awareness and control exercises.
+
+Elias led the student field team.
+
+Kaela handled reconnaissance.
+
+Gorren protected the working area.
+
+Nessa provided casualty assessment.
+
+Vaeltharion observed and instructed directly.
+
+Theron's party maintained supervision and emergency support.
+
+Results:
+
+- Mission completed.
+- No serious injuries or fatalities.
+- Protective sanctuary mechanisms left undisturbed.
+- Seven protective anchors retained.
+- Zero coercive chains attached to Vaeltharion.
+- No Guild reward.
+- No student tithe.
+- No automatic Dragon Slayer level increase.
+
+Closing scene: Evening gathering at the sanctuary following this mission.
+
+---
+
+## 19. Independent DSI quests and local lore
+
+### The Lanterns of Greyhaven
+
+Students discovered unusual pale lights near abandoned woodland foundations during their independent missions.
+
+Theron later accompanied senior students to investigate.
+
+Findings:
+
+- Lights were survey lanterns reflected through polished mineral fragments.
+- Two local surveyors were examining an abandoned settlement.
+- No supernatural cause for the lanterns was established.
+
+Quest status: Original lantern mystery resolved.
+
+### The Buried Lantern Hall
+
+New discovery:
+
+- Sealed stone staircase below abandoned foundations.
+- Old lantern emblem.
+- Unfamiliar inscriptions.
+- Interior not entered.
+
+The local surveyors invited DSI to assist with an appropriate future exploration.
+
+Requirements:
+
+- Obtain necessary landholder permission.
+- Assess structural stability.
+- Determine threat level.
+- Establish suitable team and contract conditions.
+
+Status: Open independent DSI investigation.
+
+No treasure, relic, reward or enemy has been established.
+
+Elias and Beren retain responsibility for the investigation.
+
+The discovery belongs to the academy's independent adventure history.
+
+---
+
+## 20. Current independent assignments
+
+### DSI
+
+Beren:
+
+- Manage nineteen students.
+- Oversee construction funding and contractor proposals.
+- Apply 25% future mission tithe.
+- Manage recruitment and waiting list.
+- Maintain academy finances.
+- Ensure safe training.
+
+Vaeltharion:
+
+- Directly instruct four initiated Dragon Slayers.
+- Conduct essence control and advancement assessments.
+- Continue independently and voluntarily.
+
+Elias:
+
+- Field command.
+- Dragon Slayer education.
+- Buried Lantern Hall investigation.
+
+Kaela:
+
+- Reconnaissance and archery development.
+- Mounted training.
+- Junior mentorship.
+- Dragon Slayer education.
+
+Gorren:
+
+- Defensive instruction.
+- Equipment inspections.
+- Dragon Slayer education.
+
+Nessa:
+
+- Field medicine.
+- Animal care.
+- Healing instruction.
+- Dragon Slayer education.
+
+Talia and Rowan:
+
+- Future initiation candidates.
+- Equipment and combat development.
+- Continue supervised missions and mount savings.
+
+Dalen, Sera, Tobin, Elowen:
+
+- Supervised low-risk Guild contracts.
+- Equipment and professional development.
+
+Other nine students:
+
+- Foundational education and individual readiness assessments.
+
+### Estate and other teams
+
+Bren / Ironshield:
+
+- Arena maintenance and shield inspections.
+- Permanent entertainment infrastructure proposals.
+- Existing defenses.
+
+Theron's mother / Hearthguard:
+
+- Healing wing operation.
+- Medical supplies.
+- Estate care and proposed expansion.
+
+Estate management:
+
+- Normal commercial operations.
+- Inventory reusable festival equipment.
+- Lodge and spa expansion assessment.
+- Permanent fair infrastructure assessment.
+
+Research personnel:
+
+- Time Chamber investigation.
+- Anti-aging research.
+- Sovereign Thought Acceleration planning.
+- No new verified breakthroughs.
+
+Forgotten Watchpost personnel:
+
+- Maintain fourth-state isolation.
+- Keep concealed arch sealed.
+- Monitor boundaries.
+- No student access to restricted areas.
+- No unauthorized opening.
+
+Rhavoryx:
+
+- Returned or returning independently toward Thunderwake Cliffs.
+- Voluntary historical inquiries.
+
+Sylmerath:
+
+- Returned or returning independently toward Elderbloom Hollow.
+- Voluntary historical research.
+
+Exact current dragon locations beyond played departures remain unverified.
+
+---
+
+## 21. Main expedition and unresolved sword quest
+
+Westbridge remains the primary main-story destination after sanctuary operations.
+
+Preserve the established white blade chain:
+
+- Gareth Vaelwright.
+- Winterglass Private Trust.
+- Improper WT-44 release.
+- Odran Merrow.
+- Teren Vhal.
+- Courier Olin Harrow.
+- Kestrel Transit House.
+- Blackthorn Depot.
+- Crown Ledger Office.
+- Marek Dorne.
+- Hollow Crown special collection.
+
+Marek Dorne submitted a restricted sworn statement before disappearing.
+
+The full statement is not obtained.
+
+Seek lawful access through Westbridge magistrates.
+
+Unresolved:
+
+- Marek's whereabouts.
+- Physical recipient of the white sword.
+- Downstream possession.
+- Direct relation to Lyanna's abductors.
+- Original scale donors.
+- Eclipse Sovereigns configuration.
+- Aric's consent-based historical inquiry.
+
+Do not resolve these automatically during independent background activity.
+
+---
+
+## 22. Open verifications and arithmetic corrections
+
+Required reconciliation:
+
+1. Exact Year 853 closing calendar date.
+2. Exact route from Theron's Estate to Greyhaven Valley.
+3. Eastrun–Greyhaven Valley corridor remains proposed in the repository; narrated travel requires route adoption or verification.
+4. Exact route to Mount Vaelspire.
+5. Historical temple identity referred to by the player.
+6. Current closing HP, MP, Nexus and wagon resources.
+7. Day 28 Nexus recharge provenance.
+8. Inventory consumption and travel expenses.
+9. Historical DSI opening cash.
+10. Complete lifetime student savings.
+11. Exact equipment bonuses and new training progress.
+12. Individual numerical character cards for junior and unregistered students.
+13. Full tournament bracket and named DSI placements.
+14. Eclipse Sovereigns relationship to historical swords.
+15. Actual academy contractor invoices and construction completion.
+16. Dragon Slayer essence transfer mechanics and long-term observations.
+17. Candidate-specific numerical mastery and future ability costs.
+18. Ordinary estate revenue between visits.
+19. Festival demand realism and reconstructed expense provenance.
+
+Correct financial totals:
+
+- Original festival expense total: 10,150 GP.
+- Total festival expenditure including Theron's retreat: 24,216 GP.
+- Festival gross income: 292,140 GP.
+- Net festival profit: 267,924 GP.
+- Theron's final controlled treasury: 271,870 GP.
+- Student new mission proceeds: 765 GP.
+- Student paid purchases: 267 GP.
+- Student remaining recent earnings: 498 GP.
+- DSI newly accounted funds: 1,220 GP.
+
+Use corrected student distribution table rather than previous individual figures.
+
+---

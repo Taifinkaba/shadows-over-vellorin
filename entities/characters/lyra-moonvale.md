@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -44,6 +45,11 @@ Traveled with Seven Bells expedition; observed repeated supervised Assimilation 
 ## Year 852 close
 
 Returned safely and attended the council. Field roles include research, evidence and archives. [Session evidence](../../changes/chronicles/year852-day365-end-session.md)
+
+## Year 853 session
+
+Participated in festival exhibitions and supported the Trial of the Ancient Grounds.
+
 
 ## Character sheet
 

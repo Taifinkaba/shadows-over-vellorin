@@ -7,6 +7,7 @@ checkpoint_values:
   world.vaeltharion_chains_attached: 0
   world.protective_anchors_retained: 7
 source_refs:
+- changes/chronicles/year853-end-session.md
 - archive/design-proposals/ancient-dragon-humanoid-forms.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -94,3 +95,7 @@ Commanding, imposing, protective, independent, and observant. Voice unspecified.
 ### Image prompt and provenance
 
 Use the [copy-ready Vaeltharion prompt](../mechanics/dragon-image-reference-prompts.md#vaeltharion). The [player submission](../../archive/design-proposals/ancient-dragon-humanoid-forms.md) supplies the visual design. Established history is sourced in this record’s front matter.
+
+## Year 853 session
+
+Won the [dragon tournament](../mechanics/grand-festival-of-dragons-year853.md). Voluntarily offered limited essence to four consenting candidates in individually supervised initiations and guides their continuing instruction through [The Way of the Dragon](../mechanics/way-of-the-dragon.md). He personally guided the expedition to [Hollow Veil](../locations/hollow-veil.md). Seven protective anchors remain. He remains free with no coercive chains.

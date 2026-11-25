@@ -112,6 +112,11 @@ Relations to people, evidence, locations, factions, legal reviews, optional work
       "quest_id": "seven-bells-investigation",
       "source_ref": "entities/quests/seven-bells-investigation.md",
       "knowledge": "requires-discovery-review"
+    },
+    {
+      "quest_id": "buried-lantern-hall",
+      "source_ref": "entities/quests/buried-lantern-hall.md",
+      "knowledge": "requires-discovery-review"
     }
   ],
   "mystery_owner_ref": "quest-evidence-and-mysteries",

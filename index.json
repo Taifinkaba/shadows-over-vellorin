@@ -3471,6 +3471,186 @@
         "white-runeblade",
         "year852-day365"
       ]
+    },
+    {
+      "id": "cedric-vale",
+      "type": "characters",
+      "title": "Cedric Vale",
+      "path": "entities/characters/cedric-vale.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi"
+      ]
+    },
+    {
+      "id": "lethara-mossveil",
+      "type": "characters",
+      "title": "Lethara Mossveil",
+      "path": "entities/characters/lethara-mossveil.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi"
+      ]
+    },
+    {
+      "id": "brom-ironroot",
+      "type": "characters",
+      "title": "Brom Ironroot",
+      "path": "entities/characters/brom-ironroot.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi"
+      ]
+    },
+    {
+      "id": "marielle-fenwick",
+      "type": "characters",
+      "title": "Marielle Fenwick",
+      "path": "entities/characters/marielle-fenwick.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi"
+      ]
+    },
+    {
+      "id": "aren-duskwell",
+      "type": "characters",
+      "title": "Aren Duskwell",
+      "path": "entities/characters/aren-duskwell.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi"
+      ]
+    },
+    {
+      "id": "rhea-thornfield",
+      "type": "characters",
+      "title": "Rhea Thornfield",
+      "path": "entities/characters/rhea-thornfield.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi"
+      ]
+    },
+    {
+      "id": "way-of-the-dragon",
+      "type": "mechanics",
+      "title": "The Way of the Dragon",
+      "path": "entities/mechanics/way-of-the-dragon.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi",
+        "progression"
+      ]
+    },
+    {
+      "id": "dsi-independent-mission-history",
+      "type": "mechanics",
+      "title": "DSI independent mission history",
+      "path": "entities/mechanics/dsi-independent-mission-history.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi",
+        "adventures"
+      ]
+    },
+    {
+      "id": "buried-lantern-hall",
+      "type": "quests",
+      "title": "Buried Lantern Hall",
+      "path": "entities/quests/buried-lantern-hall.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dsi",
+        "greyhaven"
+      ]
+    },
+    {
+      "id": "sovereign-thought-acceleration",
+      "type": "mechanics",
+      "title": "Sovereign Thought Acceleration",
+      "path": "entities/mechanics/sovereign-thought-acceleration.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "research",
+        "time"
+      ]
+    },
+    {
+      "id": "rhavoryx",
+      "type": "creatures",
+      "title": "Rhavoryx",
+      "path": "entities/creatures/rhavoryx.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragon"
+      ]
+    },
+    {
+      "id": "thunderwake-cliffs",
+      "type": "locations",
+      "title": "Thunderwake Cliffs",
+      "path": "entities/locations/thunderwake-cliffs.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragon"
+      ]
+    },
+    {
+      "id": "sylmerath",
+      "type": "creatures",
+      "title": "Sylmerath",
+      "path": "entities/creatures/sylmerath.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragon"
+      ]
+    },
+    {
+      "id": "elderbloom-hollow",
+      "type": "locations",
+      "title": "Elderbloom Hollow",
+      "path": "entities/locations/elderbloom-hollow.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "dragon"
+      ]
+    },
+    {
+      "id": "grand-festival-of-dragons-year853",
+      "type": "mechanics",
+      "title": "Grand Festival of Dragons, Year 853",
+      "path": "entities/mechanics/grand-festival-of-dragons-year853.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "festival"
+      ]
+    },
+    {
+      "id": "ser-aldren-voss",
+      "type": "characters",
+      "title": "Ser Aldren Voss",
+      "path": "entities/characters/ser-aldren-voss.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "festival"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"
