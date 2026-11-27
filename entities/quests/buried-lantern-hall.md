@@ -4,10 +4,15 @@ type: quests
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
 
 # Buried Lantern Hall
+
+## Year 853 Day 52
+
+Day 52 at 10:00 AM in Greyhaven Valley, Beren assigned Talia and Rowan to investigate. Older surveys contain the lantern markings. The sealed staircase remains unopened, pending structural assessment and permission. Theron has yet to receive the report.
 
 ### The Lanterns of Greyhaven
 

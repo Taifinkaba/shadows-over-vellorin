@@ -4,11 +4,24 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
 # Nessa
+
+## Year 853 Day 52
+
+Dragon Slayer F Level 3, earned through observed training at Hollow Veil. Guild E and general Level 2 remain unchanged. Current HP/MP were not freshly measured. Accounted recent earnings remain 115 GP.
+
+- HP maximum: 28.
+- MP maximum: 24.
+- DEF: 12.
+- STR 9, DEX 12, CON 12, INT 14, WIS 16, CHA 13.
+- Mount: Willow.
+- Demonstrated recognition of unstable essence responses.
+- Developed safe recovery observation procedures.
 
 Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct from [DSI enrollment](../factions/dragon-slayer-academy.md).
 
@@ -73,9 +86,9 @@ character_sheet:
   role: Field Support
   rank: E
   level: 2
-  hp: 28
+  hp: null
   hp_max: 28
-  mp: 24
+  mp: null
   mp_max: 24
   defense: 12
   equipped_defense: null
@@ -107,7 +120,13 @@ character_sheet:
     Earlier measurements retain their original provenance.
   age_category: Adult
   guild_status: Guild E, supervised contracts
+  dragon_slayer:
+    rank: F
+    level: 3
+    certification: Controlled Dragon Essence
+  accounted_recent_earnings_cp: 11500
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/nessa.md
   - changes/chronicles/year848-suncrest262-end-session.md

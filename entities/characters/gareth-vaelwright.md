@@ -4,10 +4,15 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day365-end-session.md
 ---
 
 # Gareth Vaelwright
+
+## Year 853 Day 52
+
+Correspondence sent about the recovered sword evidence. Response pending.
 
 The played Year 852 inquiry establishes Gareth as maker of both Runeblades. Aric commissioned the black Runeblade. Lady Isolde Vaeren commissioned the white blade through Winterglass Private Trust. The earlier Frost-Line title, planned Day 167 visit, and Nexus or other project attribution are still unverified. Current whereabouts are unknown.
 

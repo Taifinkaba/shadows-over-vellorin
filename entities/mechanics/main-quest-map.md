@@ -117,6 +117,11 @@ Relations to people, evidence, locations, factions, legal reviews, optional work
       "quest_id": "buried-lantern-hall",
       "source_ref": "entities/quests/buried-lantern-hall.md",
       "knowledge": "requires-discovery-review"
+    },
+    {
+      "quest_id": "ancient-dragon-temple",
+      "source_ref": "entities/quests/ancient-dragon-temple.md",
+      "knowledge": "requires-discovery-review"
     }
   ],
   "mystery_owner_ref": "quest-evidence-and-mysteries",

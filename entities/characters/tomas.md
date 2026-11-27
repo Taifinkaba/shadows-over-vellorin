@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -15,6 +16,10 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 ---
+
+## Year 853 Day 52
+
+Continues independent stewardship of the commercial estate, lodge, spa, market and monthly fair, including staffing, festival inventory, accounts and development assessment. No ordinary revenue was reported during the Westbridge session.
 
 ## Played commercial event operations
 

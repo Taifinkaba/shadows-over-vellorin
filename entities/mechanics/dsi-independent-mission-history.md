@@ -4,10 +4,15 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
 
 # DSI independent mission history
+
+## Year 853 Day 52
+
+Four independent student contracts are recorded as DSI-853-010 through 013 in the [academy ledger](../../state/dsi-finance-ledger.json). They paid 360 GP after Guild deductions. The prospective 25% academy tithe yielded 90 GP, and participants retained 270 GP equally divided per mission. The four direct disciples were training elsewhere. Dates within Days 45–48 remain reconstructed.
 
 The nine paid contracts and participant lists are recorded in the [DSI ledger](../../state/dsi-finance-ledger.json). 1. Protected local livestock and identified recurring predator activity.
 2. Escorted merchants safely and assisted a damaged wagon.

@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
@@ -12,6 +13,80 @@ source_refs:
 ---
 
 # Equipment and projects — Day 196
+
+## Year 853 Day 52
+
+Preserve existing research and completed mastery.
+
+### Established skills
+
+- Mental Magic 5/5.
+- Advanced Runecrafting 5/5.
+- Independent Dual-Mind 3/3.
+- Spirit Mana Assimilation II mastered.
+- Mana Efficiency 5/5.
+- Guardian Interposition 3/3.
+- Dual-casting 5/5.
+- Sacred Healing Theory 3/3.
+- Mana Siphoning 5/5.
+- Maternal Healing Mastery 5/5.
+- Masterwork Runic Engineering 5/5.
+- Coordinated Anti-Dragon Defense 5/5.
+- Shadowcraft and Stealth 5/5.
+- Dread Arts 5/5.
+- Defensive Synchronization 5/5.
+- Preserve all other established skill tracks and their existing values.
+
+### Sovereign Thought Acceleration
+
+Research participants include Theron, Raze, Aegis, Caelrix and voluntary dragon consultants.
+
+Parallel cognition remains established.
+
+Subjective time acceleration remains unproven.
+
+No new multiplier, accelerated physical movement or unrestricted processing ability.
+
+### Time Chamber
+
+| Multiplier | Established limitation |
+|---|---|
+| 2× | Supervised occupied operation |
+| 5× | Up to eight internal hours, occupied |
+| 10× | Up to one internal hour, occupied |
+| 15× | Experimental unmanned |
+| 20× | Repeated unmanned operation, up to four internal hours |
+
+No operation above 20× has been verified.
+
+Long-term research target: 525,600×.
+
+Preserve the distinction between physical acceleration, subjective mental time acceleration and biological aging.
+
+### Additional research
+
+| Project | Status |
+|---|---|
+| Vital Continuity | Experimental; preserve existing demonstrated limits |
+| Anti-aging | Incomplete |
+| Chronos Eye | Approximately 19%, locked |
+| Healing Springs | 2/5 |
+| Twin Blade Resonance | Two repeatable observations |
+| Eclipse Sovereigns | Regulator refinement pending |
+| Century-Bloom Emberpear | Protected nursery; no verified harvest |
+
+Future experiments require documented:
+
+- Hypothesis.
+- Participants.
+- Duration.
+- Resource cost.
+- Materials.
+- Actual observations.
+- Repeatability.
+- Safety limitations.
+- Remaining dependencies.
+- Mechanical unlock status.
 
 Both wagon refits are complete, tested and paid. See [Vanguard](../items/vanguard-wagon.md) and the [Lodge supply wagon](../items/ashvale-wagon.md). The existing chassis and vehicles were used. The [sole ledger](../../state/finance-ledger.json) carries the unpaid estate expansion commitment. Other project statuses retain their last verified records below.
 

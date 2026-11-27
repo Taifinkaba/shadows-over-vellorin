@@ -66,7 +66,7 @@
   "reversed_proposed_theron_grant_cp": 2400,
   "included_in_party_total": false,
   "automatic_future_income": false,
-  "previous_ledger_ref": "archive/checkpoints/year852-day365-dsi-finance-ledger.json",
+  "previous_ledger_ref": "archive/checkpoints/year853-hollow-veil-dsi-finance-ledger.json",
   "prospective_tithe_percent": 25,
   "year853": {
     "source_ref": "changes/chronicles/year853-end-session.md",
@@ -279,5 +279,140 @@
     "development_disbursements_cp": 0,
     "newly_accounted_cp": 122000,
     "unallocated_cp": 2000
+  },
+  "westbridge_reconciliation": {
+    "source_ref": "changes/chronicles/year853-day52.md",
+    "tithe_percent": 25,
+    "contract_window": {
+      "days": [
+        45,
+        48
+      ],
+      "classification": "RECONSTRUCTED"
+    },
+    "contracts": [
+      {
+        "id": "DSI-853-010",
+        "name": "Farmstead protection",
+        "participants": [
+          "talia-fen",
+          "rowan-hale",
+          "tobin-marsh"
+        ],
+        "paid_after_guild_fees_cp": 9000,
+        "tithe_cp": 2250,
+        "student_proceeds_cp": 6750
+      },
+      {
+        "id": "DSI-853-011",
+        "name": "Missing livestock recovery",
+        "participants": [
+          "dalen-reed",
+          "sera-willow",
+          "elowen-briar"
+        ],
+        "paid_after_guild_fees_cp": 6000,
+        "tithe_cp": 1500,
+        "student_proceeds_cp": 4500
+      },
+      {
+        "id": "DSI-853-012",
+        "name": "Merchant escort",
+        "participants": [
+          "talia-fen",
+          "rowan-hale",
+          "dalen-reed"
+        ],
+        "paid_after_guild_fees_cp": 13000,
+        "tithe_cp": 3250,
+        "student_proceeds_cp": 9750
+      },
+      {
+        "id": "DSI-853-013",
+        "name": "Woodland surveying",
+        "participants": [
+          "sera-willow",
+          "tobin-marsh",
+          "elowen-briar"
+        ],
+        "paid_after_guild_fees_cp": 8000,
+        "tithe_cp": 2000,
+        "student_proceeds_cp": 6000
+      }
+    ],
+    "opening_accounted_cp": 122000,
+    "academy_tithe_cp": 9000,
+    "operating_expenses_cp": {
+      "food_and_maintenance": 2500
+    },
+    "development_disbursements_cp": {
+      "Additional dormitories": 6000
+    },
+    "remaining_allocations_cp": {
+      "Additional dormitories": 12000,
+      "Kitchen and dining hall": 10000,
+      "Additional stables": 12000,
+      "Combat grounds": 15000,
+      "Medical classroom": 10000,
+      "Library and strategy classroom": 9000,
+      "Workshop and storage": 11000,
+      "Agricultural expansion": 8000,
+      "Instructor recruitment reserve": 12000,
+      "Emergency operating reserve": 15000
+    },
+    "accounted_cp": 122500,
+    "unallocated_cp": 8500,
+    "student_distributions": {
+      "elias-renn": {
+        "opening_cp": 9700,
+        "new_cp": 0,
+        "remaining_cp": 9700
+      },
+      "kaela": {
+        "opening_cp": 9050,
+        "new_cp": 0,
+        "remaining_cp": 9050
+      },
+      "gorren": {
+        "opening_cp": 7500,
+        "new_cp": 0,
+        "remaining_cp": 7500
+      },
+      "nessa": {
+        "opening_cp": 11500,
+        "new_cp": 0,
+        "remaining_cp": 11500
+      },
+      "talia-fen": {
+        "opening_cp": 3650,
+        "new_cp": 5500,
+        "remaining_cp": 9150
+      },
+      "rowan-hale": {
+        "opening_cp": 2650,
+        "new_cp": 5500,
+        "remaining_cp": 8150
+      },
+      "dalen-reed": {
+        "opening_cp": 1350,
+        "new_cp": 4750,
+        "remaining_cp": 6100
+      },
+      "sera-willow": {
+        "opening_cp": 1500,
+        "new_cp": 3500,
+        "remaining_cp": 5000
+      },
+      "tobin-marsh": {
+        "opening_cp": 1800,
+        "new_cp": 4250,
+        "remaining_cp": 6050
+      },
+      "elowen-briar": {
+        "opening_cp": 1100,
+        "new_cp": 3500,
+        "remaining_cp": 4600
+      }
+    }
   }
 }

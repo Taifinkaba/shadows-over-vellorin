@@ -4,11 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
 # Tobin Marsh
+
+## Year 853 Day 52
+
+Independent Guild progression unchanged. Accounted recent personal earnings are 60.5 GP after 42.5 GP in new proceeds. No new purchase was posted.
 
 [DSI](../factions/dragon-slayer-academy.md) student, specializing in navigation. No guild card. Ancestry, age, combat ability and numerical character sheet unassessed.
 
@@ -56,7 +61,9 @@ character_sheet:
   guild_status: Registered after preliminary assessment, supervised low-risk contracts
   specializations:
   - navigation
+  accounted_recent_earnings_cp: 6050
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/tobin-marsh.md
   - entities/factions/dragon-slayer-academy.md

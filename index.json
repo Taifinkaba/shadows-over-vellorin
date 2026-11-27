@@ -3651,6 +3651,90 @@
       "tags": [
         "festival"
       ]
+    },
+    {
+      "id": "seren-veylor",
+      "type": "characters",
+      "title": "Seren Veylor",
+      "path": "entities/characters/seren-veylor.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "westbridge"
+      ]
+    },
+    {
+      "id": "ilyr-varess",
+      "type": "characters",
+      "title": "Master Ilyr Varess",
+      "path": "entities/characters/ilyr-varess.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "westbridge"
+      ]
+    },
+    {
+      "id": "westbridge",
+      "type": "locations",
+      "title": "Westbridge",
+      "path": "entities/locations/westbridge.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "westbridge"
+      ]
+    },
+    {
+      "id": "blackwater-exchange",
+      "type": "locations",
+      "title": "Blackwater Exchange",
+      "path": "entities/locations/blackwater-exchange.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "westbridge"
+      ]
+    },
+    {
+      "id": "mirror-repository",
+      "type": "locations",
+      "title": "Mirror Repository",
+      "path": "entities/locations/mirror-repository.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "westbridge"
+      ]
+    },
+    {
+      "id": "ancient-dragon-instruction-grounds",
+      "type": "locations",
+      "title": "Ancient Dragon Instruction Grounds",
+      "path": "entities/locations/ancient-dragon-instruction-grounds.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "westbridge"
+      ]
+    },
+    {
+      "id": "ancient-dragon-temple",
+      "type": "quests",
+      "title": "Ancient Dragon Temple inquiry",
+      "path": "entities/quests/ancient-dragon-temple.md",
+      "status": "active",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "westbridge"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

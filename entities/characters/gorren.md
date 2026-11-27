@@ -4,11 +4,23 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
 # Gorren
+
+## Year 853 Day 52
+
+Dragon Slayer F Level 3, earned through observed training at Hollow Veil. Guild E and general Level 2 remain unchanged. Current HP/MP were not freshly measured. Accounted recent earnings remain 75 GP.
+
+- HP maximum: 40.
+- MP maximum: 0.
+- DEF: 17.
+- STR 16, DEX 10, CON 16, INT 10, WIS 12, CHA 11.
+- Mount: Flint.
+- Demonstrated defensive essence concentration during repeated impacts.
 
 Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct from [DSI enrollment](../factions/dragon-slayer-academy.md).
 
@@ -71,7 +83,7 @@ character_sheet:
   role: Frontline Defender
   rank: E
   level: 2
-  hp: 40
+  hp: null
   hp_max: 40
   mp: 0
   mp_max: 0
@@ -105,7 +117,13 @@ character_sheet:
     Earlier measurements retain their original provenance.
   age_category: Adult
   guild_status: Guild E, supervised contracts
+  dragon_slayer:
+    rank: F
+    level: 3
+    certification: Controlled Dragon Essence
+  accounted_recent_earnings_cp: 7500
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/gorren.md
   - changes/chronicles/year848-suncrest262-end-session.md

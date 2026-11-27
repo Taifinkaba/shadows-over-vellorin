@@ -23,7 +23,7 @@ ADVANCES = {'Adventurer opening', 'Dragon quarterfinals', 'Adventurer registrati
             'Dragon registration', 'Commercial plot rentals'}
 
 
-def validate_year853(root, state, ledger):
+def validate_year853(root, state, ledger, *, academy_ledger=None, disciple_level=1):
     previous = read_json(root / (PRIOR + '-finance-ledger.json'))
     previous_state = read_json(root / (PRIOR + '.json'))
     validate_expedition(root, previous_state, previous)
@@ -118,13 +118,14 @@ def validate_year853(root, state, ledger):
             and ledger['endpoint'] == dict(as_of=scene, total_cp=closing, source_ref=YEAR853_SOURCE,
                                              classification='RECONCILED CONTROLLED TREASURY'),
             'Year 853: controlled cash or allocation differs')
-    validate_academy(root, state, transfer)
+    validate_academy(root, state, transfer, ledger=academy_ledger, disciple_level=disciple_level)
 
 
-def validate_academy(root, state, transfer):
+def validate_academy(root, state, transfer, *, ledger=None, disciple_level=1):
     previous_file = PRIOR + '-dsi-finance-ledger.json'
     previous = read_json(root / previous_file)
-    ledger = read_json(root / 'state/dsi-finance-ledger.json')
+    if ledger is None:
+        ledger = read_json(root / 'state/dsi-finance-ledger.json')
     keys(ledger, set(previous) | {'previous_ledger_ref', 'prospective_tithe_percent', 'year853'},
          'Year 853 independent DSI ledger')
     require(ledger['schema_version'] == 2 and ledger['previous_ledger_ref'] == previous_file
@@ -196,4 +197,4 @@ def validate_academy(root, state, transfer):
         require(level <= 40 and row['rank'] in DS_RANKS
                 and DS_RANKS.index(row['rank']) <= (level - 1) // 5,
                 'DSI: Dragon Slayer eligibility does not grant rank')
-        require(row == dict(rank='F', level=1), 'DSI: no automatic advancement after initiation')
+        require(row == dict(rank='F', level=disciple_level), 'DSI: rank and level require documented certification')

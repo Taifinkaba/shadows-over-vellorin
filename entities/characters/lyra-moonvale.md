@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -24,6 +25,10 @@ At Ashvale Estate, continues rescued Halden Marr's care and Healing Springs rese
 
 
 # Lyra Moonvale
+
+## Year 853 Day 52
+
+Westbridge archival research.
 
 Guild measurements established Day 458: Rank A+, Level 5; HP max 68, MP max 190, base DEF 27; STR/DEX/CON/INT/WIS/CHA 10/15/14/19/20/17. Coordinated Barrier Casting 4/5. Supervised Lyanna's voluntary restoration. Latest specifically recorded MP 178/190 after restoration; no later expenditure or recharge supplied. Astral Conduit unfinished; calibration pending. With the main expedition; exact station unverified.
 

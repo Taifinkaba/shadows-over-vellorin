@@ -338,3 +338,16 @@ The active checkpoint closes at Ashvale Estate with unknown clock time and the s
 The Year 853 checkpoint uses a year-only date and null annual day. Its latest numbered day and part of day are separate calendar fields. Null closing HP, MP and reservoir readings are distinct from the sourced Day 28 readings. Historical checkpoints retain their original schema and date rules.
 
 The controlled ledger appends itemized cash postings to the archived Year 852 ledger. Advance receipts are a subset of final revenue. The independent DSI ledger preserves the earlier tithe window and records a separate Year 853 period plus the prospective tithe rate. The matched founder transfer posts once to each account, and development allocations remain unspent until an actual disbursement.
+
+## Year 853 Day 52 — Westbridge
+
+The Day 52 checkpoint retains schema 6 and adds an explicit paused Westbridge
+source. The older Hollow Veil window is preserved and validated independently.
+Year 853 Day 52 has no established seasonal conversion. The Nexus has a closing
+reading while all three independent wagon charges remain unknown.
+
+Controlled ledger schema 9 preserves previous postings in place and appends
+one gross reward and one commission per paid contract, plus itemized expenses.
+The separate academy ledger preserves the historical 10% window and accounts
+for the four contracts at the prospective 25% tithe. The validator recomputes
+the independent cash, allocations and per-student distributions.

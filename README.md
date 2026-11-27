@@ -64,7 +64,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Current checkpoint
 
-The Year 853 session ended in the evening at Hollow Veil sanctuary, Mount Vaelspire. Day 28 is the latest explicitly numbered day. Controlled working funds are 271,870 gp. Read the [checkpoint](state/checkpoint.json), [controlled ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year853-end-session.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Year 852 Day 365 checkpoint](archive/checkpoints/year852-day365.json) and [ledger](archive/checkpoints/year852-day365-finance-ledger.json) are historical.
+The campaign is paused at **Year 853 Day 52, 8:00 PM** in Westbridge. Controlled treasury is **275,718 gp**. Read the [checkpoint](state/checkpoint.json), [controlled ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year853-day52.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Hollow Veil checkpoint](archive/checkpoints/year853-hollow-veil.json) is historical.
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.

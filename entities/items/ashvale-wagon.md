@@ -4,6 +4,7 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -21,6 +22,10 @@ Lodge supply wagon reservoir last recorded at 80/80 MP. It remains separate from
 ## Earlier record
 
 # Ashvale Lodge supply wagon — Day 196
+
+## Year 853 Day 52
+
+This vehicle has a separate 80 MP reservoir. Current charge and location are unverified. Historical inventories and identities are preserved.
 
 The player confirmed that the existing historical Ashvale supply wagon serves Ashvale Lodge as a vehicle distinct from the Sovereign Expedition Wagon and Vanguard. The refit used this existing stock. Its intermediate movements and any earlier identification with the expedition wagon remain unverified.
 

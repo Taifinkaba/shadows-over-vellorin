@@ -4,8 +4,13 @@ type: creatures
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 52
+
+Offered Frostspire historical inquiries and strategic research suggestions. The Thunderwake Cliffs invitation remains pending.
 
 # Rhavoryx
 

@@ -1,12 +1,12 @@
 {
   "schema_version": 6,
-  "date": "Year 853",
-  "time": null,
-  "location": "Hollow Veil sanctuary, Mount Vaelspire",
+  "date": "Year 853 Day 52",
+  "time": "20:00",
+  "location": "Westbridge",
   "theron": {
-    "hp": null,
+    "hp": 104,
     "hp_max": 104,
-    "mp": null,
+    "mp": 410,
     "mp_max": 410,
     "defense": 46,
     "rank": "S+",
@@ -20,10 +20,10 @@
     "unspent_attributes": 0
   },
   "money": {
-    "total_gp_sp": "271870gp",
+    "total_gp_sp": "275718gp",
     "provisional_historic_gp_sp": "9gp 1sp 14cp",
     "office_petty_gp_sp": "6gp 4sp",
-    "allocation_status": "Controlled treasury reconciled through the founder contribution. Purse and account allocations unverified.",
+    "allocation_status": "Controlled treasury reconciled through Westbridge. Purse and account allocations unverified.",
     "provisional_status": "Earlier approximate report; excluded from current ordinary controlled cash",
     "office_status": "Earlier house funds report; excluded from current ordinary controlled cash"
   },
@@ -31,22 +31,18 @@
     "vaeltharion_chains_attached": 0,
     "protective_anchors_retained": 7
   },
-  "status": "ENDED",
-  "source": "changes/chronicles/year853-end-session.md",
+  "status": "PAUSED",
+  "source": "changes/chronicles/year853-day52.md",
   "context": {
-    "safety": "Gathered in the evening after the Trial of the Ancient Grounds. Raze and Aegis supported the expedition. No serious injuries or fatalities reported.",
+    "safety": "Paused in the private meeting room at the Westbridge Grand Council following the paired trials.",
     "companions_present": [
       "maeryn-sol",
       "aric-ashvale",
       "lyra-moonvale",
       "garrick-vale",
       "nyx-thorne",
-      "vaeltharion",
-      "elias-renn",
-      "kaela",
-      "gorren",
-      "nessa",
-      "caelrix"
+      "ilyr-varess",
+      "seren-veylor"
     ],
     "party_roles": {
       "maeryn-sol": "Close combat and field partner",
@@ -56,9 +52,9 @@
       "nyx-thorne": "Tracking and animal coordination"
     },
     "projects": {
-      "nexus_mana": "Last explicit Day 28 reading 180/180 MP. Recharge source and closing pool unverified.",
+      "nexus_mana": "180/180 MP at Day 52. Day 28 recharge provenance unverified.",
       "wagon_mana": "Original Sovereign Expedition Wagon 60/60 MP is historical. Current pool unknown.",
-      "equipped_defense": "Approved normal49; conditional51 only when Night Sovereign worn. Current wearing/configuration UNKNOWN.",
+      "equipped_defense": "Base 46; normal 49; conditional 51 with Frostguard Bracers and Night Sovereign. Bracers observed; mask last observed equipped, closing configuration unverified.",
       "chronos_eye": "Approximately 19%, LOCKED.",
       "dragon_slayer": "Theron LOCKED by player choice. Four DSI disciples separately initiated.",
       "accord": "Last verified before adoption; see Day156 historical checkpoint: Peaceful recognition and limited communication only",
@@ -86,13 +82,14 @@
       "healing_wing": "Four supervised beds and eight calibrated cartridges; normally up to three concurrent patients with qualified coverage.",
       "white_runeblade": "Improper WT-44 release and downstream records traced. Seek lawful Westbridge access to Marek Dorne’s restricted sworn statement.",
       "next_playable": "Await player at Hollow Veil sanctuary. Exact calendar date unverified.",
-      "sovereign_thought_acceleration": "Research accepted for investigation. No demonstrated multiplier or new ability."
+      "sovereign_thought_acceleration": "Research accepted for investigation. No demonstrated multiplier or new ability.",
+      "twin_blades": "Two controlled paired resonance observations; sustained stabilization and combat application unverified. Eclipse Sovereigns regulator refinement remains pending."
     },
     "academy": {
       "entity": "dragon-slayer-academy",
-      "latest_reported_cash_gp_sp": "1220gp",
+      "latest_reported_cash_gp_sp": "1225gp",
       "refundable_lease_deposit_gp_sp": "15gp",
-      "balance_date": "Year 853 newly accounted funds only. Historical total and deposit disposition unreconciled.",
+      "balance_date": "Year 853 Day 52 accounted cash only; historical cash and deposit disposition unverified.",
       "included_in_party_total": false
     },
     "outstanding_clues": [
@@ -107,9 +104,9 @@
       "Festival opening cash differs from the Suncrest 262 close; no itemized bridge.",
       "Alaric Voss’s identity with Crown-related A. Voss is unproven; stolen covenant index remains unresolved.",
       "Seven Horizons Waymark Register, other dragon leads and separate Crown/Witness investigations remain open.",
-      "White blade physical recipient, downstream custody and kidnapping involvement unverified; Marek Dorne missing, full statement not obtained.",
       "Intervening ordinary receipts and costs, Day 264 working-funds bridge and present account allocations are unverified. Historical 20 gp provisions and 317 gp expansion treated as resolved by player ruling.",
-      "Year 853 timing, routes, resource reconciliations and sword configuration remain open. See state/open-verifications.md."
+      "Year 853 timing, routes, resource reconciliations and sword configuration remain open. See state/open-verifications.md.",
+      "HC-17 transfer documented; downstream white-blade custody and LW-04 authorization and subject remain open. Marek recovered alive and officially protected."
     ],
     "recent_mp_costs": {},
     "mp_before_recent_casts": null
@@ -117,7 +114,7 @@
   "resources": {
     "equipped_defense": 49,
     "bracers_defense_bonus": 3,
-    "staff_mp": null,
+    "staff_mp": 180,
     "staff_mp_max": 180,
     "wagon_mp": null,
     "wagon_mp_max": 60,
@@ -135,11 +132,9 @@
     }
   },
   "calendar": {
-    "year": 853,
-    "annual_day": null,
-    "latest_numbered_day": 28,
     "season": null,
-    "part_of_day": "Evening"
+    "annual_day": 52,
+    "historical_label": "Player-approved reconstruction through Day 52; exact Day 50–52 times as recorded."
   },
   "custody": {
     "reviewed": 4,
@@ -152,27 +147,46 @@
   },
   "provenance": {
     "classification": "PLAYER-APPROVED PLAYED SESSION",
-    "adoption_source_ref": "changes/chronicles/year848-day181-endpoint-adoption.md",
-    "historical_checkpoint_ref": "archive/checkpoints/year848-day156-2015.json",
+    "adoption_source_ref": "changes/chronicles/year853-day52.md",
+    "historical_checkpoint_ref": "archive/checkpoints/year853-hollow-veil.json",
     "historical_entity_records_ref": "archive/checkpoints/year848-day156-entity-records.json",
     "current_presence": {
       "status": "VERIFIED",
-      "evidence_ref": "changes/chronicles/year853-end-session.md"
+      "evidence_ref": "changes/chronicles/year853-day52.md"
     },
     "current_equipment": {
       "status": "UNKNOWN",
-      "evidence_ref": null,
+      "evidence_ref": "changes/chronicles/year853-day52.md",
       "night_sovereign_carried_not_equipped": null
     },
-    "exact_room": null,
+    "exact_room": "Grand Council, private meeting room",
     "conditional_defense": 51,
     "carried_forward_world_context_ref": "archive/checkpoints/year848-day156-2015.json",
     "mp_bridge": {
-      "from_mp": 351,
+      "from_mp": 386,
       "to_mp": 410,
-      "difference_mp": 59,
-      "classification": "DAY 28 READING — INTERVENING MOVEMENTS AND CLOSING POOLS UNVERIFIED",
-      "recovery_events": []
+      "difference_mp": 24,
+      "classification": "DAY 52 CONTROLLED TRIALS AND PERSONAL RECOVERY",
+      "recovery_events": [
+        {
+          "minutes": 10,
+          "restored_mp": 24,
+          "usable_ambient_mana": true,
+          "uninterrupted": true,
+          "scope": "personal"
+        },
+        {
+          "minutes": 10,
+          "restored_mp": 24,
+          "usable_ambient_mana": true,
+          "uninterrupted": true,
+          "scope": "personal"
+        }
+      ],
+      "trial_costs_mp": [
+        12,
+        12
+      ]
     },
     "year853_readings": {
       "day": 28,

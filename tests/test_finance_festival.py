@@ -14,10 +14,10 @@ ROOT = Path(__file__).resolve().parents[1]
 class FestivalFinanceTests(unittest.TestCase):
     def test_report_projects_actual_cash_and_receipts(self):
         report = financial_report(ROOT)
-        self.assertEqual(report['cash_position']['controlled']['amount_cp'], 27187000)
+        self.assertEqual(report['cash_position']['controlled']['amount_cp'], 27571800)
         self.assertIn('player-approved later endpoint', report['cash_position']['controlled']['status'])
-        self.assertEqual(report['income_statement']['actual_received_revenue']['amount_cp'], 30691250)
-        self.assertEqual(report['income_statement']['actual_paid_expenses']['amount_cp'], 3415550)
+        self.assertEqual(report['income_statement']['actual_received_revenue']['amount_cp'], 31141250)
+        self.assertEqual(report['income_statement']['actual_paid_expenses']['amount_cp'], 3480750)
         self.assertEqual([row['outstanding_cp'] for row in report['five_part_completed_projects']], [0, 0, 0])
 
     def test_duplicate_and_missing_postings_fail(self):

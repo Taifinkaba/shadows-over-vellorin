@@ -1,3 +1,7 @@
+# Year 853 Day 52 — Westbridge
+
+Adopted the paused session, approved chronology, separate treasury bridges, capped personal mana recovery, DSI certifications, and the continued Ashvale investigation. [Chronicle](chronicles/year853-day52.md) · [Prior checkpoint](../archive/checkpoints/year853-hollow-veil.json)
+
 # Year 853 end session
 
 - Adopt the Hollow Veil evening close with exact closing day and resource readings unresolved. Preserve the Year 852 checkpoint and both financial ledgers.

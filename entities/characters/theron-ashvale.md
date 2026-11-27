@@ -4,13 +4,13 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 853
-  time: null
-  location: Hollow Veil sanctuary, Mount Vaelspire
-  status: ENDED
-  theron.hp: null
+  date: Year 853 Day 52
+  time: "20:00"
+  location: Westbridge
+  status: PAUSED
+  theron.hp: 104
   theron.hp_max: 104
-  theron.mp: null
+  theron.mp: 410
   theron.mp_max: 410
   theron.defense: 46
   theron.rank: S+
@@ -24,13 +24,14 @@ checkpoint_values:
   theron.unspent_attributes: 0
   resources.equipped_defense: 49
   resources.bracers_defense_bonus: 3
-  resources.staff_mp: null
+  resources.staff_mp: 180
   resources.staff_mp_max: 180
   resources.wagon_mp: null
   resources.wagon_mp_max: 60
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
@@ -49,6 +50,14 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+# Theron Ashvale / Blackscale
+
+## Year 853 Day 52
+
+Paused at 8:00 PM in the Westbridge Grand Council private meeting room. S+ Level 6, HP 104/104, personal MP 410/410 and Nexus 180/180. Base DEF 46, normal 49, conditional 51 with Frostguard Bracers and Night Sovereign. Bracers observed; mask last observed equipped, closing configuration unverified. STR/DEX/CON/INT/WIS/CHA 14/20/19/21/20/20, zero unspent. Chronos Eye (~19%) and Dragon Slayer remain locked. Draconic Resonance 3/5, Caelrix bond 5/5. No general progression or new combat ability.
+
+## Earlier records
 
 ## Year 851 Day 160 close
 
@@ -158,9 +167,9 @@ character_sheet:
   role: Battlemage, runecrafter and Eighth Witness
   rank: S+
   level: 6
-  hp: null
+  hp: 104
   hp_max: 104
-  mp: null
+  mp: 410
   mp_max: 410
   defense: 46
   equipped_defense: 49
@@ -198,9 +207,8 @@ character_sheet:
     uncle: caelan-ashvale
     bonded_wolf: shade
     mother: therons-mother
-  assessment: Year 852 Day 365 close. Personal MP is last recorded.
-  recorded_context: Year 853 Hollow Veil close. Day 28 HP, personal MP and Nexus readings
-    are earlier observations.
+  assessment: Year 853 Day 52 paused checkpoint.
+  recorded_context: Westbridge Grand Council. Closing mask configuration and wagon charges are unverified.
   conditional_defense:
     with_frostguard_bracers_and_night_sovereign: 51
     currently_worn: null
@@ -211,18 +219,18 @@ character_sheet:
   resources:
     equipped_defense: 49
     bracers_defense_bonus: 3
-    staff_mp: 156
+    staff_mp: 180
     staff_mp_max: 180
-    wagon_mp: 60
+    wagon_mp: null
     wagon_mp_max: 60
     chronos_eye_locked: true
     dragon_slayer_locked: true
     refitted_wagon_mana:
       vanguard-wagon:
-        current: 120
+        current: null
         max: 120
       ashvale-wagon:
-        current: 80
+        current: null
         max: 80
   physical_details:
     height: 5 ft 5 in
@@ -230,6 +238,7 @@ character_sheet:
     recorded_at: Year 848 Day 137
   artwork_ref: artwork/player-cards/theron-ashvale.png
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day1-end-session.md
   - entities/characters/theron-ashvale.md

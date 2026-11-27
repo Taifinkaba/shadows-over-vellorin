@@ -4,11 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
 # Sera Willow
+
+## Year 853 Day 52
+
+Independent Guild progression unchanged. Accounted recent personal earnings are 50 GP after 35 GP in new proceeds. No new purchase was posted.
 
 [DSI](../factions/dragon-slayer-academy.md) student, specializing in herbal knowledge. No guild card. Ancestry, age, combat ability and numerical character sheet unassessed.
 
@@ -56,7 +61,9 @@ character_sheet:
   guild_status: Registered after preliminary assessment, supervised low-risk contracts
   specializations:
   - herbal knowledge
+  accounted_recent_earnings_cp: 5000
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/sera-willow.md
   - entities/factions/dragon-slayer-academy.md

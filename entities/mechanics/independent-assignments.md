@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/npc-autonomy-framework-maintenance.md
 - state/checkpoint.json
@@ -46,6 +47,143 @@ source_refs:
 ---
 
 # Independent assignments and actor retrieval
+
+## Year 853 Day 52
+
+Preserve existing assignment owners and team structures.
+
+Do not create duplicate employees, departments or character identities.
+
+### Tomas
+
+- Commercial estate stewardship.
+- Lodge and spa operations.
+- Market and monthly fair operations.
+- Financial accounting.
+- Employee oversight.
+- Reusable festival inventory.
+- Commercial development assessment.
+
+Ordinary revenue has not been reported during this session.
+
+Do not invent additional estate profit.
+
+### Bren and existing Ironshield personnel
+
+- Construction and maintenance.
+- Arena engineering.
+- Six shield obelisk inspections.
+- Estate security through established team assignments.
+- Permanent infrastructure proposals.
+
+Do not assume Bren personally performs every security duty.
+
+### Hearthguard and established healing personnel
+
+- Patient care.
+- Healing room operations.
+- Medical supplies.
+- Staffing.
+- Existing treatment research.
+
+Theron's mother remains an independent sacred healer.
+
+Do not assign new permanent employment, duties or location without evidence.
+
+### Master Beren
+
+- DSI Academy management.
+- Student recruitment.
+- Mission eligibility.
+- Financial independence.
+- Construction oversight.
+- Instructor recruitment.
+- Equipment and professional development.
+
+### Observatory research
+
+Preserve existing responsible researchers.
+
+Do not automatically relocate Lyra, Raze, Aegis or Caelrix to the Observatory while they are participating in the Westbridge expedition.
+
+### Forgotten Watchpost
+
+Preserve restricted access and established defense instructions.
+
+Do not open its concealed arch, identify the Unclaimed Voice or grant new release authority automatically.
+
+### Future independent simulation rule
+
+During elapsed campaign time, independent actors and organizations should produce meaningful developments:
+
+- Completed work.
+- New recruits where appropriate.
+- Training progression.
+- Financial receipts.
+- Purchases.
+- Construction.
+- Discoveries.
+- Setbacks.
+- Relationships.
+- Reports.
+
+Do not merely repeat that they are continuing their assignments.
+
+However, do not fabricate retroactive reports solely to close gaps during a maintenance task.
+
+### Westbridge assignments and information boundaries
+
+| Person or entity | Current status |
+|---|---|
+| Theron Ashvale | Westbridge; player-controlled |
+| Aric Ashvale | Westbridge expedition; sword origins and Ashvale investigation |
+| Maeryn Sol | Westbridge expedition; field security and combat support |
+| Lyra Moonvale | Westbridge expedition; archival research |
+| Garrick Vale | Westbridge expedition; logistics and treasury |
+| Nyx Thorne | Westbridge expedition; reconnaissance |
+| Raze | Analysis and simulation |
+| Aegis | Protection |
+| Caelrix | Independent spirit; research support |
+| Ilyr Varess | Voluntary collaborator |
+| Seren Veylor | Voluntary collaborator |
+| Marek Dorne | Independent official protection |
+| Lyanna Ashvale | Current location unverified |
+| Vaeltharion | Hollow Veil; direct disciple instruction |
+| Elias Renn | Hollow Veil; Dragon Slayer training |
+| Kaela | Hollow Veil; Dragon Slayer training |
+| Gorren | Hollow Veil; Dragon Slayer training |
+| Nessa | Hollow Veil; Dragon Slayer training |
+| Master Beren | Greyhaven Valley; independent academy management |
+| Tomas | Independent commercial stewardship |
+| Bren | Independent construction and maintenance |
+
+Animal companion locations are not established by the closing scene.
+
+Do not assume Alpha, Shade, Ember, Frostmoon, Frost or Aurelion are present.
+
+Preserve existing identity disputes, bond values and independent animal records.
+
+No new animal is created or duplicated.
+
+Preserve all five established friendships.
+
+| Dragon | Current role |
+|---|---|
+| Vaeltharion | Free independent dragon; academy cofounder and direct instructor |
+| Aurelith | Voluntary strategic and cognitive research consultant |
+| Tharosyn | Independent dragon friendship |
+| Rhavoryx | Offered Frostspire historical inquiries and strategic research suggestions |
+| Sylmerath | Offered craftsmanship, medicinal and oath-history research assistance |
+
+Rhavoryx's invitation to Thunderwake Cliffs remains pending.
+
+Sylmerath's invitation to Elderbloom Hollow remains pending.
+
+No visit occurred during this session.
+
+No additional scale donations, dragon essence, treasure or permanent dragon services were automatically acquired.
+
+Maintain dragon autonomy.
 
 This registry owns stable lookup handles and source locators, not mutable positions or assignment outcomes. A CONFIRMED CANON entry confirms its limited sourced role/request/history, not current activity, acceptance, success or perpetual verification. Assignment is a retrieval label: an unaccepted material request and a day-school role are not imposed work orders. Latest owner updates/checkpoint govern freshness. Source phrases are deliberately narrow; read the relevant dated section and later updates before answering.
 

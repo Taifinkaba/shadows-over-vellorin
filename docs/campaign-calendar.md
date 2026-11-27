@@ -15,3 +15,5 @@ See [reconciliation](../changes/chronicles/calendar-365-day-reconciliation.md) a
 The [next played session](../changes/chronicles/year852-day1-end-session.md) includes the Day 326 observatory feast and the Day 365 year-end festival. Year 851 Day 365 rolled over at midnight to **Year 852 Day 1, 12:00 AM**. Intermediate dates, travel intervals and seasonal labels remain unverified.
 
 The [Year 852 close](../changes/chronicles/year852-day365-end-session.md) ended on Day 365 at Ashvale Estate. The next playable date is Year 853 Day 1. The close and next playable date have no verified clock time.
+
+The Westbridge endpoint is **Year 853 Day 52, 8:00 PM**, paused. Earlier reconstructed travel intervals and the shared Day 50 transition are documented in the [chronicle](../changes/chronicles/year853-day52.md). No seasonal label is established for this date.
