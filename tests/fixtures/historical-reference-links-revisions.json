@@ -1,0 +1,41 @@
+{
+  "source_ref": "changes/CHANGELOG.md",
+  "revisions": {
+    "changes/CHANGELOG.md": {
+      "before_sha256": "c691b312cd0ef851248b2b6e1b1c8919ffac4dc8cadca9abc814658531955d9e",
+      "after_sha256": "39a26b7a5e2c8f3f199fc83c616066a0902080f7ff2b557980d5ccaf6ed9211d"
+    },
+    "changes/chronicles/year848-day137-end-session.md": {
+      "before_sha256": "1e23393bd3eaf7e0477762c0ee26dcd687bdd4f2bbf9f6b98c8d39b47052f360",
+      "after_sha256": "6be518893f433c44e7c85b9a1bc432bf6a4389d25b9d93c39946136939f5919a"
+    },
+    "changes/chronicles/year848-day196-end-session.md": {
+      "before_sha256": "c75cfc9501231381c536e9063848198a4f86c967c9561373f7c0348f0c93db44",
+      "after_sha256": "99b5aae57900717bb50b0606770b36448e041bc3e614e2e8efbcb4c00a72ae96"
+    },
+    "changes/chronicles/year852-day1-financial-audit-reconciliation.md": {
+      "before_sha256": "cc3c6fad1dc91d546ccd230cc7f916451f0afcf4f57779ca3c93d8ebc13b1df4",
+      "after_sha256": "a9d4e5cb0d47a0c3c319eae526ddb09f6a499393bc3d696136ac4afc289b7641"
+    },
+    "changes/chronicles/year852-day365-end-session.md": {
+      "before_sha256": "7011f599dee95ab10a1ae6d3fa73b496e7a2e8564e0aea4e11facc45691b644e",
+      "after_sha256": "bf2549c9f975f4007f9903ed00f35ec0aeb71f7713b0ef7c2754c31feef495cc"
+    },
+    "changes/chronicles/year853-end-session.md": {
+      "before_sha256": "165aad01ced8179bfaa6e4fa840536d05876d644ef71bf73af7b49b147914138",
+      "after_sha256": "4603a8504a38b72a5baed6f8c53e7a343d3135b8ecc14bdfdac40f7c65def6ca"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "aa0f7c6a758d945474244707778ecaa27d2348dd63415c3cd8ef36a12db08fea",
+      "after_sha256": "1ce82b5d6bbe61db534a8f6184d3de4c84640ce67d50c3b1265de303e340f125"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "c683b6aabe2e2a8184a404ac539c732f7fd85a20604fb10246ce1f1642d75c79",
+      "after_sha256": "24410e5c9e6c2ab16db8744facbe0288cda9598143d7d658f9ea27c8b27a2f39"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "c4404d280458bb84bce94f47f0c33e8e401da9331c529ec63b4da8b63476437c",
+      "after_sha256": "13729bab350bd96a6c46f9ba219e21a21c2d7baebc1eca141c0d2eeb9938a3a2"
+    }
+  }
+}
