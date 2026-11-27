@@ -119,4 +119,38 @@ character_sheet:
   - entities/mechanics/independent-assignments.md
   - entities/locations/ashvale-estate.md
   last_reported_location: Ashvale Estate
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '53'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: broad shoulders, graying temples and a weathered expression
+    wardrobe_and_props: deep-green traveling coat with a plain sword belt
+    character_motivation: Wants the Ashvale inquiry to proceed without breaking his word.
+    practice_and_professional_skills:
+    - guard transitions
+    - swordsmanship instruction
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Guard transitions: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max:
+      - 55
+      - 75
+      base_defense:
+      - 23
+      - 30
+      str: 14
+      dex: 15
+      con: 14
+      int: 12
+      wis: 13
+      cha: 12
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Aric Ashvale, masculine-presenting,
+    humanoid. Age presentation: 53. Appearance: broad shoulders, graying temples and a weathered expression.
+    Clothing and posed props: deep-green traveling coat with a plain sword belt. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

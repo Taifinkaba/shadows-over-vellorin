@@ -63,3 +63,27 @@ class CharacterSheetTests(unittest.TestCase):
         gorren = self.sheets['gorren']
         self.assertEqual((gorren['mp'], gorren['mp_max']), (0, 0))
         self.assertIn('Controlled Dragon Essence', gorren['abilities'][0])
+
+    def test_each_indexed_character_has_a_distinct_portrait_prompt(self):
+        prompts = set()
+        for ident, sheet in self.sheets.items():
+            with self.subTest(character=ident):
+                prompt = sheet['image_generator_prompt']
+                profile = sheet['character_design_profile']
+                self.assertIn(sheet['name'], prompt)
+                self.assertTrue(profile['appearance'])
+                self.assertTrue(profile['wardrobe_and_props'])
+                self.assertTrue(profile['practice_and_professional_skills'])
+                self.assertNotIn(prompt, prompts)
+                prompts.add(prompt)
+                if 'portrait_reference' in profile:
+                    self.assertTrue((ROOT / profile['portrait_reference']).is_file())
+                    self.assertIn(profile['portrait_reference'], prompt)
+
+    def test_designs_distinguish_nonmagical_casting_and_sacred_healing(self):
+        profiles = {ident: sheet['character_design_profile'] for ident, sheet in self.sheets.items()}
+        self.assertEqual(profiles['cedric-vale']['unassessed_stat_proposal']['mp_max'], 0)
+        self.assertIn('mp_max', profiles['aren-duskwell']['unassessed_stat_proposal'])
+        self.assertNotIn('mp_max', profiles['lethara-mossveil']['unassessed_stat_proposal'])
+        self.assertIn('Rare sacred healing is established', profiles['therons-mother']['magic_and_healing'])
+        self.assertIn('Personal MP remains 0', profiles['gorren']['magic_and_healing'])

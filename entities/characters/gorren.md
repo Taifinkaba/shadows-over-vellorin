@@ -133,4 +133,23 @@ character_sheet:
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md
   - entities/creatures/flint.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '33'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: heavy build, blunt features and a steady expression
+    wardrobe_and_props: reinforced training coat and shield
+    character_motivation: Wants to hold position under pressure and keep partners safe.
+    practice_and_professional_skills:
+    - shield defense
+    - controlled Dragon Essence
+    magic_and_healing: Draconic essence training and certified activation. Personal MP remains 0.
+    abilities_and_techniques:
+    - Controlled Dragon Essence; the recorded certification uses no inferred personal MP.
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Gorren, masculine-presenting,
+    humanoid. Age presentation: 33. Appearance: heavy build, blunt features and a steady expression. Clothing
+    and posed props: reinforced training coat and shield. Three-quarter stance, unobstructed face and hands,
+    even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

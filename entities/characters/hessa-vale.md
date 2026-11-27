@@ -79,4 +79,38 @@ character_sheet:
   source_refs:
   - entities/characters/hessa-vale.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '33'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human female, 41; 5 ft 8 in, 160 lb. Strong lean build, golden-brown skin, angular features,
+      gray-green eyes. Dark brown short braid with silver near forehead.
+    wardrobe_and_props: Weatherproof work coat, rolled cuffs, leather gloves, compact repair satchel.
+    character_motivation: Wants obsolete markings documented before they disappear.
+    practice_and_professional_skills:
+    - Waykeeper repairs
+    - recognition of old circuit markings
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Waykeeper repairs: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 12
+      dex: 11
+      con: 12
+      int: 12
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/hessa-vale.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Hessa Vale, feminine-presenting,
+    humanoid. Age presentation: 33. Appearance: Human female, 41; 5 ft 8 in, 160 lb. Strong lean build, golden-brown
+    skin, angular features, gray-green eyes. Dark brown short braid with silver near forehead. Clothing and
+    posed props: Weatherproof work coat, rolled cuffs, leather gloves, compact repair satchel. Match the established
+    face, build, colors and costume in artwork/character-references/hessa-vale.png if supplied as a reference
+    image. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic
+    fabric and material texture. Props are illustrative. No lettering, extra people, active spell effects, hidden
+    symbols, or scene-specific location clues.'
 ```

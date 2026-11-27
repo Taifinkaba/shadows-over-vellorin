@@ -76,4 +76,38 @@ character_sheet:
   source_refs:
   - entities/characters/edran-vell.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '40'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 46; 5 ft 10 in, 175 lb. Average build, narrow face, medium brown skin, gray eyes.
+      Short graying brown hair, clean-shaven.
+    wardrobe_and_props: Plain travel-worn gray robe, simple shoes; no invented religious emblem or order insignia.
+    character_motivation: Wants to give an accurate account in his own words.
+    practice_and_professional_skills:
+    - careful recollection
+    - formal address
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Careful recollection: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/edran-vell.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Brother Edran Vell, masculine-presenting,
+    humanoid. Age presentation: 40. Appearance: Human male, 46; 5 ft 10 in, 175 lb. Average build, narrow face,
+    medium brown skin, gray eyes. Short graying brown hair, clean-shaven. Clothing and posed props: Plain travel-worn
+    gray robe, simple shoes; no invented religious emblem or order insignia. Match the established face, build,
+    colors and costume in artwork/character-references/edran-vell.png if supplied as a reference image. Three-quarter
+    stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material
+    texture. Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

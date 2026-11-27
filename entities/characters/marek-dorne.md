@@ -55,4 +55,34 @@ character_sheet:
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year852-day365-end-session.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '45'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: tired, keen eyes with brown hair graying at the temples
+    wardrobe_and_props: unmarked gray traveling layers and ordinary gloves
+    character_motivation: Wants testimony preserved and his privacy respected.
+    practice_and_professional_skills:
+    - custody records
+    - document comparison
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Custody records: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 20
+      base_defense: 9
+      str: 8
+      dex: 11
+      con: 10
+      int: 14
+      wis: 13
+      cha: 11
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Marek Dorne, masculine-presenting,
+    humanoid. Age presentation: 45. Appearance: tired, keen eyes with brown hair graying at the temples. Clothing
+    and posed props: unmarked gray traveling layers and ordinary gloves. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

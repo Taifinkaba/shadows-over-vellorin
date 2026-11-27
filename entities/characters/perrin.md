@@ -79,4 +79,39 @@ character_sheet:
   source_refs:
   - entities/characters/perrin.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '33'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 32; 5 ft 10 in, 180 lb. Compact sturdy build, medium tan skin, brown eyes, broken-looking
+      nose. Cropped dark brown hair, short stubble.
+    wardrobe_and_props: Worn padded jack, plain wool layers, scuffed boots. Historical guard depiction may include
+      simple spear and belt knife.
+    character_motivation: Wants his own actions assessed individually.
+    practice_and_professional_skills:
+    - rear-guard positioning
+    - team signals
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Rear-guard positioning: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 28
+      base_defense: 12
+      str: 12
+      dex: 13
+      con: 12
+      int: 10
+      wis: 11
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/perrin.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Perrin, masculine-presenting,
+    humanoid. Age presentation: 33. Appearance: Human male, 32; 5 ft 10 in, 180 lb. Compact sturdy build, medium
+    tan skin, brown eyes, broken-looking nose. Cropped dark brown hair, short stubble. Clothing and posed props:
+    Worn padded jack, plain wool layers, scuffed boots. Historical guard depiction may include simple spear
+    and belt knife. Match the established face, build, colors and costume in artwork/character-references/perrin.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

@@ -99,4 +99,40 @@ character_sheet:
   - changes/chronicles/character-reference-design-approval.md
   - entities/factions/dragon-slayer-academy.md
   age_category: Minor
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 12 apparent design reference
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human girl, reference-design age 12; approximately 4 ft 10 in, slight build. Medium brown skin,
+      round cheeks, amber-brown eyes. Thick dark brown curls in two practical braids.
+    wardrobe_and_props: Moss-green wool dress over leggings, sturdy ankle boots; small satchel with oversized
+      wooden fastening.
+    character_motivation: Wants to learn alongside peers in a safe setting.
+    practice_and_professional_skills:
+    - foundational study
+    - supervised routines
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Foundational study: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/mira-thorne.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Mira Thorne, feminine-presenting,
+    humanoid. Age presentation: 12 apparent design reference. Appearance: Human girl, reference-design age 12;
+    approximately 4 ft 10 in, slight build. Medium brown skin, round cheeks, amber-brown eyes. Thick dark brown
+    curls in two practical braids. Clothing and posed props: Moss-green wool dress over leggings, sturdy ankle
+    boots; small satchel with oversized wooden fastening. Match the established face, build, colors and costume
+    in artwork/character-references/mira-thorne.png if supplied as a reference image. Three-quarter stance,
+    unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture.
+    Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

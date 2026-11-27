@@ -106,4 +106,33 @@ character_sheet:
   source_refs:
   - entities/characters/mira-hearthwick.md
   - changes/chronicles/phase2-07-autonomy-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '36'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: warm adult features and work-ready bearing
+    wardrobe_and_props: modest practical town clothing
+    character_motivation: Wants steady, useful work within her community.
+    practice_and_professional_skills:
+    - practical household craft
+    - stock care
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Practical household craft: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 12
+      dex: 11
+      con: 12
+      int: 12
+      wis: 10
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Mira Hearthwick, feminine-presenting,
+    humanoid. Age presentation: 36. Appearance: warm adult features and work-ready bearing. Clothing and posed
+    props: modest practical town clothing. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

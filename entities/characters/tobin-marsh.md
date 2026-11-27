@@ -72,4 +72,34 @@ character_sheet:
   - entities/characters/tobin-marsh.md
   - entities/factions/dragon-slayer-academy.md
   - changes/chronicles/year848-suncrest262-end-session.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '19'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: slender young adult with light brown hair and a serious expression
+    wardrobe_and_props: mud-brown academy field layers and road boots
+    character_motivation: Wants to finish assignments reliably alongside peers.
+    practice_and_professional_skills:
+    - supervised fieldwork
+    - equipment upkeep
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Supervised fieldwork: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 28
+      base_defense: 12
+      str: 12
+      dex: 13
+      con: 12
+      int: 10
+      wis: 11
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Tobin Marsh, masculine-presenting,
+    humanoid. Age presentation: 19. Appearance: slender young adult with light brown hair and a serious expression.
+    Clothing and posed props: mud-brown academy field layers and road boots. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

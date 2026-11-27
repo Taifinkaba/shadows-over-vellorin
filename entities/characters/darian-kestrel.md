@@ -51,4 +51,33 @@ character_sheet:
   - entities/characters/darian-kestrel.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/quests/first-oath-conspiracy.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '41'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: lean, unassuming adult with swept dark hair and a measured gaze
+    wardrobe_and_props: unmarked charcoal traveling coat
+    character_motivation: Wants privacy while others seek answers. His role and allegiance remain open.
+    practice_and_professional_skills:
+    - careful conversation
+    - travel preparation
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Careful conversation: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Darian Kestrel, masculine-presenting,
+    humanoid. Age presentation: 41. Appearance: lean, unassuming adult with swept dark hair and a measured gaze.
+    Clothing and posed props: unmarked charcoal traveling coat. Three-quarter stance, unobstructed face and
+    hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

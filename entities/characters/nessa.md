@@ -138,4 +138,25 @@ character_sheet:
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md
   - entities/creatures/willow.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '27'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: practical, alert young adult with patient expression
+    wardrobe_and_props: academy field layers with a healer’s kit
+    character_motivation: Wants better treatment and formation support through supervised practice.
+    practice_and_professional_skills:
+    - support magic study
+    - field care and controlled Dragon Essence
+    magic_and_healing: Personal mana pool recorded at 24 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - Support Magic training; a proposed exercise marks a safe retreat path with a dim signal. It supplies no
+      healing.
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Nessa, feminine-presenting,
+    humanoid. Age presentation: 27. Appearance: practical, alert young adult with patient expression. Clothing
+    and posed props: academy field layers with a healer’s kit. Three-quarter stance, unobstructed face and hands,
+    even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

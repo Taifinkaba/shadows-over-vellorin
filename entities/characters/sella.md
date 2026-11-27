@@ -79,4 +79,38 @@ character_sheet:
   source_refs:
   - entities/characters/sella.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '32'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human female, 31; 5 ft 5 in, 140 lb. Average build, brown skin, heart-shaped face, dark brown
+      eyes. Black hair in tidy braided crown.
+    wardrobe_and_props: Muted plum dress, cream sleeves, practical waist pouch; ink-stained fingertips.
+    character_motivation: Wants her cooperation accurately represented.
+    practice_and_professional_skills:
+    - clerical work
+    - document organization
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Clerical work: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 20
+      base_defense: 9
+      str: 8
+      dex: 11
+      con: 10
+      int: 14
+      wis: 13
+      cha: 11
+      mp_max: 0
+    portrait_reference: artwork/character-references/sella.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Sella, feminine-presenting,
+    humanoid. Age presentation: 32. Appearance: Human female, 31; 5 ft 5 in, 140 lb. Average build, brown skin,
+    heart-shaped face, dark brown eyes. Black hair in tidy braided crown. Clothing and posed props: Muted plum
+    dress, cream sleeves, practical waist pouch; ink-stained fingertips. Match the established face, build,
+    colors and costume in artwork/character-references/sella.png if supplied as a reference image. Three-quarter
+    stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material
+    texture. Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

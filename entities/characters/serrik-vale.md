@@ -79,4 +79,39 @@ character_sheet:
   source_refs:
   - entities/characters/serrik-vale.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '43'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 40; 5 ft 11 in, 180 lb. Average build with slight middle-aged softness. Warm beige
+      skin, brown eyes, broad nose. Dark chestnut hair graying at temples, neatly trimmed beard.
+    wardrobe_and_props: Well-maintained brown wool coat, muted burgundy tunic, leather document case, practical
+      boots.
+    character_motivation: Wants his records corrected through a transparent process.
+    practice_and_professional_skills:
+    - distribution records
+    - checking corrections
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Distribution records: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 20
+      base_defense: 9
+      str: 8
+      dex: 11
+      con: 10
+      int: 14
+      wis: 13
+      cha: 11
+      mp_max: 0
+    portrait_reference: artwork/character-references/serrik-vale.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Serrik Vale, masculine-presenting,
+    humanoid. Age presentation: 43. Appearance: Human male, 40; 5 ft 11 in, 180 lb. Average build with slight
+    middle-aged softness. Warm beige skin, brown eyes, broad nose. Dark chestnut hair graying at temples, neatly
+    trimmed beard. Clothing and posed props: Well-maintained brown wool coat, muted burgundy tunic, leather
+    document case, practical boots. Match the established face, build, colors and costume in artwork/character-references/serrik-vale.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

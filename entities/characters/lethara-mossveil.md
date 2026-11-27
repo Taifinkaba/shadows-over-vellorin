@@ -66,4 +66,38 @@ character_sheet:
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 21
+    presentation_for_art: Female
+    visual_ancestry_or_form: Elf
+    appearance: young elf with deep green eyes and chestnut braid
+    wardrobe_and_props: light moss-green coat and herb satchel
+    character_motivation: Wants to learn useful care and find the limits of her aptitude.
+    practice_and_professional_skills:
+    - herbal preparation
+    - supervised casting study
+    magic_and_healing: Magical aptitude only. Proposed mana capacity applies if personal casting is confirmed.
+      Ordinary herbal care is available.
+    abilities_and_techniques:
+    - 'Herbal preparation: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max:
+      - 18
+      - 26
+      base_defense: 8
+      str: 8
+      dex: 11
+      con: 10
+      int: 13
+      wis: 14
+      cha: 11
+      mp_max_if_casting_confirmed:
+      - 8
+      - 14
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Lethara Mossveil, Female, Elf.
+    Version shown at apparent age 21. Appearance: young elf with deep green eyes and chestnut braid. Clothing
+    and posed props: light moss-green coat and herb satchel. Three-quarter stance, unobstructed face and hands,
+    even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

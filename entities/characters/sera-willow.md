@@ -72,4 +72,34 @@ character_sheet:
   - entities/characters/sera-willow.md
   - entities/factions/dragon-slayer-academy.md
   - changes/chronicles/year848-suncrest262-end-session.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '19'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: slender young adult with short brown hair and patient eyes
+    wardrobe_and_props: ordinary academy fieldwear with a simple belt pouch
+    character_motivation: Wants to become dependable on small assignments.
+    practice_and_professional_skills:
+    - supervised teamwork
+    - route observation
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Supervised teamwork: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 28
+      base_defense: 12
+      str: 12
+      dex: 13
+      con: 12
+      int: 10
+      wis: 11
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Sera Willow, feminine-presenting,
+    humanoid. Age presentation: 19. Appearance: slender young adult with short brown hair and patient eyes.
+    Clothing and posed props: ordinary academy fieldwear with a simple belt pouch. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

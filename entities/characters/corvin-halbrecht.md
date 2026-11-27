@@ -52,4 +52,33 @@ character_sheet:
     earlier adversary.
   source_refs:
   - entities/characters/corvin-halbrecht.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '45'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: rounded cheeks, small spectacles and neat dark whiskers
+    wardrobe_and_props: navy clerk’s coat and a bound account book
+    character_motivation: Wants the records preserved and discrepancies followed up.
+    practice_and_professional_skills:
+    - settlement accounting
+    - record verification
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Settlement accounting: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 20
+      base_defense: 9
+      str: 8
+      dex: 11
+      con: 10
+      int: 14
+      wis: 13
+      cha: 11
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Corvin Halbrecht, masculine-presenting,
+    humanoid. Age presentation: 45. Appearance: rounded cheeks, small spectacles and neat dark whiskers. Clothing
+    and posed props: navy clerk’s coat and a bound account book. Three-quarter stance, unobstructed face and
+    hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

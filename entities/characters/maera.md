@@ -79,4 +79,38 @@ character_sheet:
   - entities/characters/maera.md
   - changes/chronicles/character-reference-design-approval.md
   - entities/factions/dragon-slayer-academy.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '42'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human female, 38; 5 ft 6 in, 165 lb. Solid, comfortably rounded build. Olive-brown skin, oval
+      face, gray-green eyes. Dark brown hair in low braided bun, silver strands at temples.
+    wardrobe_and_props: Russet dress, cream sleeves, practical apron; dark shawl with plain bronze pin.
+    character_motivation: Wants Mira to study safely and have choices of her own.
+    practice_and_professional_skills:
+    - daily support
+    - supervised school routines
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Daily support: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/maera.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Maera, feminine-presenting,
+    humanoid. Age presentation: 42. Appearance: Human female, 38; 5 ft 6 in, 165 lb. Solid, comfortably rounded
+    build. Olive-brown skin, oval face, gray-green eyes. Dark brown hair in low braided bun, silver strands
+    at temples. Clothing and posed props: Russet dress, cream sleeves, practical apron; dark shawl with plain
+    bronze pin. Match the established face, build, colors and costume in artwork/character-references/maera.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

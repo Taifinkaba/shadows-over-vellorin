@@ -77,4 +77,38 @@ character_sheet:
   source_refs:
   - entities/characters/dask.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '34'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 25; 6 ft 2 in, 175 lb. Tall lean build, slightly rounded shoulders. Dark brown skin,
+      dark eyes; short tightly curled black hair, clean-shaven.
+    wardrobe_and_props: Faded green tunic, ill-fitting padded vest, patched trousers, practical boots.
+    character_motivation: Wants to be judged for his own actions.
+    practice_and_professional_skills:
+    - rear-guard positioning
+    - team signals
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Rear-guard positioning: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 28
+      base_defense: 12
+      str: 12
+      dex: 13
+      con: 12
+      int: 10
+      wis: 11
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/dask.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Dask, masculine-presenting,
+    humanoid. Age presentation: 34. Appearance: Human male, 25; 6 ft 2 in, 175 lb. Tall lean build, slightly
+    rounded shoulders. Dark brown skin, dark eyes; short tightly curled black hair, clean-shaven. Clothing and
+    posed props: Faded green tunic, ill-fitting padded vest, patched trousers, practical boots. Match the established
+    face, build, colors and costume in artwork/character-references/dask.png if supplied as a reference image.
+    Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic
+    fabric and material texture. Props are illustrative. No lettering, extra people, active spell effects, hidden
+    symbols, or scene-specific location clues.'
 ```

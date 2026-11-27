@@ -102,4 +102,40 @@ character_sheet:
   - changes/chronicles/character-reference-design-approval.md
   - entities/mechanics/independent-assignments.md
   - entities/factions/dragon-slayer-academy.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '59'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 61; 5 ft 8 in, 155 lb. Spare build, slightly stooped shoulders. Light brown skin,
+      deep-set blue-gray eyes, prominent brows. Receding silver hair, high forehead; neatly trimmed white beard.
+    wardrobe_and_props: Faded navy scholar's robe over practical layers, patched elbows, sturdy shoes; chalk
+      and notes pouch.
+    character_motivation: Wants a sustainable academy with responsible supervision.
+    practice_and_professional_skills:
+    - academy administration
+    - training oversight
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Academy administration: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+    portrait_reference: artwork/character-references/master-beren.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Master Beren, masculine-presenting,
+    humanoid. Age presentation: 59. Appearance: Human male, 61; 5 ft 8 in, 155 lb. Spare build, slightly stooped
+    shoulders. Light brown skin, deep-set blue-gray eyes, prominent brows. Receding silver hair, high forehead;
+    neatly trimmed white beard. Clothing and posed props: Faded navy scholar''s robe over practical layers,
+    patched elbows, sturdy shoes; chalk and notes pouch. Match the established face, build, colors and costume
+    in artwork/character-references/master-beren.png if supplied as a reference image. Three-quarter stance,
+    unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture.
+    Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

@@ -143,4 +143,34 @@ character_sheet:
   source_refs:
   - entities/characters/aveline-hartwell.md
   - changes/chronicles/phase2-03-government-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 54
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Steady gaze, graying hair and plain formal robes with well-kept writing tools.
+    wardrobe_and_props: plain judicial robe and tied case folio
+    character_motivation: Support reviewable findings, humane custody and correction of wrongful judgments.
+    practice_and_professional_skills:
+    - hearing preparation
+    - weighing testimony
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Hearing preparation: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Magistrate Aveline Hartwell,
+    feminine-presenting, humanoid. Version shown at apparent age 54. Appearance: Steady gaze, graying hair and
+    plain formal robes with well-kept writing tools. Clothing and posed props: plain judicial robe and tied
+    case folio. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop,
+    realistic fabric and material texture. Props are illustrative. No lettering, extra people, active spell
+    effects, hidden symbols, or scene-specific location clues.'
 ```

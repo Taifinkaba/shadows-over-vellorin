@@ -122,4 +122,27 @@ character_sheet:
   historical_equipment:
   - own arms
   - field kit
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '37'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: solid build, square jaw and calm, watchful eyes
+    wardrobe_and_props: functional travel armor and field belt
+    character_motivation: Wants the expedition secure and its accounts clear.
+    practice_and_professional_skills:
+    - protective escort
+    - field logistics
+    magic_and_healing: Personal mana pool recorded at 80 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - 'Protective escort: practical proficiency for roleplay and assessment.'
+    portrait_reference: artwork/player-cards/garrick-vale.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Garrick Vale, masculine-presenting,
+    humanoid. Age presentation: 37. Appearance: solid build, square jaw and calm, watchful eyes. Clothing and
+    posed props: functional travel armor and field belt. Match the established face, build, colors and costume
+    in artwork/player-cards/garrick-vale.png if supplied as a reference image. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

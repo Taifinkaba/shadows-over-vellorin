@@ -52,4 +52,33 @@ character_sheet:
   - entities/characters/maerith-voss.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/quests/first-oath-conspiracy.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '44'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: lean face, dark hair with silver streaks and a held expression
+    wardrobe_and_props: clean dark teal administrative coat
+    character_motivation: Wants scrutiny of documents to follow their actual chain.
+    practice_and_professional_skills:
+    - document review
+    - formal correspondence
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Document review: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Maerith Voss, feminine-presenting,
+    humanoid. Age presentation: 44. Appearance: lean face, dark hair with silver streaks and a held expression.
+    Clothing and posed props: clean dark teal administrative coat. Three-quarter stance, unobstructed face and
+    hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

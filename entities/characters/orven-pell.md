@@ -78,4 +78,38 @@ character_sheet:
   source_refs:
   - entities/characters/orven-pell.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '45'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 58; 5 ft 6 in, 150 lb. Narrow build, pale freckled skin, blue eyes, prominent ears,
+      long fingers. Sparse sandy-gray hair, clean-shaven.
+    wardrobe_and_props: Faded olive robe, brown sleeveless overcoat; small reading lens on cord.
+    character_motivation: Wants controlled access to leave original materials intact.
+    practice_and_professional_skills:
+    - archive index handling
+    - reading-room procedure
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Archive index handling: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 20
+      base_defense: 9
+      str: 8
+      dex: 11
+      con: 10
+      int: 14
+      wis: 13
+      cha: 11
+      mp_max: 0
+    portrait_reference: artwork/character-references/orven-pell.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Orven Pell, masculine-presenting,
+    humanoid. Age presentation: 45. Appearance: Human male, 58; 5 ft 6 in, 150 lb. Narrow build, pale freckled
+    skin, blue eyes, prominent ears, long fingers. Sparse sandy-gray hair, clean-shaven. Clothing and posed
+    props: Faded olive robe, brown sleeveless overcoat; small reading lens on cord. Match the established face,
+    build, colors and costume in artwork/character-references/orven-pell.png if supplied as a reference image.
+    Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic
+    fabric and material texture. Props are illustrative. No lettering, extra people, active spell effects, hidden
+    symbols, or scene-specific location clues.'
 ```

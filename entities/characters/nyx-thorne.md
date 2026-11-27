@@ -125,4 +125,27 @@ character_sheet:
   - entities/creatures/ember.md
   historical_equipment:
   - scouting kit
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '30'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: lithe scout with a sharp gaze and weather-ready posture
+    wardrobe_and_props: layered travel leathers and trail clothing
+    character_motivation: Wants the route checked and her animal partners safe.
+    practice_and_professional_skills:
+    - route reconnaissance
+    - animal handling
+    magic_and_healing: Personal mana pool recorded at 160 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - 'Route reconnaissance: practical proficiency for roleplay and assessment.'
+    portrait_reference: artwork/player-cards/nyx-thorne.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Nyx Thorne, feminine-presenting,
+    humanoid. Age presentation: 30. Appearance: lithe scout with a sharp gaze and weather-ready posture. Clothing
+    and posed props: layered travel leathers and trail clothing. Match the established face, build, colors and
+    costume in artwork/player-cards/nyx-thorne.png if supplied as a reference image. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

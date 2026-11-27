@@ -174,7 +174,8 @@ def audit(root):
                          'year853-authority-revisions.json', 'year853-day52-authority-revisions.json',
                          'year853-day52-cleanup-revisions.json',
                          'historical-reference-links-revisions.json',
-                         'character-sheet-enrichment-revisions.json'):
+                         'character-sheet-enrichment-revisions.json',
+                         'complete-character-design-revisions.json'):
             session_manifest = manifest.with_name(filename)
             revisions = json.loads(session_manifest.read_text())['revisions'] if session_manifest.is_file() else {}
             for path in set(expected) & set(revisions):

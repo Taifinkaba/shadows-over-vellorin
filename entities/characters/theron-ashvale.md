@@ -257,4 +257,27 @@ character_sheet:
   ability_refs:
   - entities/mechanics/theron-abilities.md
   - entities/mechanics/theron-spells.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 25
+    presentation_for_art: Male
+    visual_ancestry_or_form: Elf
+    appearance: short, very heavyset male elf with established Blackscale portrait features
+    wardrobe_and_props: player-card outfit with Sovereign Nexus as an optional posed prop
+    character_motivation: Wants the Ashvale evidence followed while preserving player choice.
+    practice_and_professional_skills:
+    - runecrafting
+    - disciplined battlemagic
+    magic_and_healing: Personal mana pool recorded at 410 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - Use the established spell and ability registers for runecrafting, battlemagic and healing.
+    portrait_reference: artwork/player-cards/theron-ashvale.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Theron Ashvale / Blackscale,
+    Male, Elf. Version shown at apparent age 25. Appearance: short, very heavyset male elf with established
+    Blackscale portrait features. Clothing and posed props: player-card outfit with Sovereign Nexus as an optional
+    posed prop. Match the established face, build, colors and costume in artwork/player-cards/theron-ashvale.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

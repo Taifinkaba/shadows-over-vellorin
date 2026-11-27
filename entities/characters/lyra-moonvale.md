@@ -119,4 +119,27 @@ character_sheet:
   - entities/mechanics/independent-assignments.md
   historical_equipment:
   - healing supplies
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '33'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: calm, attentive healer with practical expedition posture
+    wardrobe_and_props: healer’s traveling layers and organized field supplies
+    character_motivation: Wants consent and safety maintained during treatment and research.
+    practice_and_professional_skills:
+    - coordinated barrier casting
+    - patient care
+    magic_and_healing: Personal mana pool recorded at 190 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - 'Coordinated Barrier Casting: use the recorded training and existing spell limits.'
+    portrait_reference: artwork/player-cards/lyra-moonvale.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Lyra Moonvale, feminine-presenting,
+    humanoid. Age presentation: 33. Appearance: calm, attentive healer with practical expedition posture. Clothing
+    and posed props: healer’s traveling layers and organized field supplies. Match the established face, build,
+    colors and costume in artwork/player-cards/lyra-moonvale.png if supplied as a reference image. Three-quarter
+    stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material
+    texture. Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

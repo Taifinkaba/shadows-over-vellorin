@@ -143,4 +143,34 @@ character_sheet:
   source_refs:
   - entities/characters/selene-harrow.md
   - changes/chronicles/phase2-03-government-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 34
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Alert stance, tied-back hair, weatherproof cloak and carefully maintained travel clothing.
+    wardrobe_and_props: weatherproof river cloak and well-kept travel clothes
+    character_motivation: Support safe passage, fair cargo handling and competent oversight within actual crew/resources.
+    practice_and_professional_skills:
+    - river route reading
+    - cargo procedure
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'River route reading: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 28
+      base_defense: 12
+      str: 12
+      dex: 13
+      con: 12
+      int: 10
+      wis: 11
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Captain Selene Harrow, feminine-presenting,
+    humanoid. Version shown at apparent age 34. Appearance: Alert stance, tied-back hair, weatherproof cloak
+    and carefully maintained travel clothing. Clothing and posed props: weatherproof river cloak and well-kept
+    travel clothes. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop,
+    realistic fabric and material texture. Props are illustrative. No lettering, extra people, active spell
+    effects, hidden symbols, or scene-specific location clues.'
 ```

@@ -86,4 +86,39 @@ character_sheet:
   source_refs:
   - entities/characters/corven.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '39'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 50; 5 ft 11 in, 170 lb. Thin upright build, cool beige skin, narrow face, deep-set
+      brown eyes. Dark hair graying above ears; clean-shaven.
+    wardrobe_and_props: Restrained charcoal clothing, high-collared wool coat, worn gloves; no confirmed faction
+      emblem.
+    character_motivation: Wants room to make his own decisions.
+    practice_and_professional_skills:
+    - route awareness
+    - cautious conversation
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Route awareness: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/corven.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Corven, masculine-presenting,
+    humanoid. Age presentation: 39. Appearance: Human male, 50; 5 ft 11 in, 170 lb. Thin upright build, cool
+    beige skin, narrow face, deep-set brown eyes. Dark hair graying above ears; clean-shaven. Clothing and posed
+    props: Restrained charcoal clothing, high-collared wool coat, worn gloves; no confirmed faction emblem.
+    Match the established face, build, colors and costume in artwork/character-references/corven.png if supplied
+    as a reference image. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral
+    backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra people, active
+    spell effects, hidden symbols, or scene-specific location clues.'
 ```

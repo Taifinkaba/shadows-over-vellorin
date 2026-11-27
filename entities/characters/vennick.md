@@ -78,4 +78,38 @@ character_sheet:
   source_refs:
   - entities/characters/vennick.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '37'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 36; 5 ft 9 in, 155 lb. Slender build, light olive skin, narrow nose, gray-brown
+      eyes. Neatly side-parted straight dark hair; clean-shaven.
+    wardrobe_and_props: Unremarkable dark green clerk's tunic, brown coat, document wallet.
+    character_motivation: Wants discretion in conversation. His reported role remains unverified.
+    practice_and_professional_skills:
+    - message sorting
+    - office procedure
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Message sorting: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 20
+      base_defense: 9
+      str: 8
+      dex: 11
+      con: 10
+      int: 14
+      wis: 13
+      cha: 11
+      mp_max: 0
+    portrait_reference: artwork/character-references/vennick.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Vennick, masculine-presenting,
+    humanoid. Age presentation: 37. Appearance: Human male, 36; 5 ft 9 in, 155 lb. Slender build, light olive
+    skin, narrow nose, gray-brown eyes. Neatly side-parted straight dark hair; clean-shaven. Clothing and posed
+    props: Unremarkable dark green clerk''s tunic, brown coat, document wallet. Match the established face,
+    build, colors and costume in artwork/character-references/vennick.png if supplied as a reference image.
+    Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic
+    fabric and material texture. Props are illustrative. No lettering, extra people, active spell effects, hidden
+    symbols, or scene-specific location clues.'
 ```

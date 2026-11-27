@@ -65,4 +65,35 @@ character_sheet:
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 19
+    presentation_for_art: Male
+    visual_ancestry_or_form: Human
+    appearance: lanky build, wind-reddened cheeks and sandy hair
+    wardrobe_and_props: patched riding coat with worn gloves
+    character_motivation: Wants to earn trust on supervised assignments.
+    practice_and_professional_skills:
+    - horsemanship
+    - escorted road travel
+    magic_and_healing: Nonmagical for this design; use ordinary training, equipment and teamwork.
+    abilities_and_techniques:
+    - 'Horsemanship: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max:
+      - 22
+      - 30
+      base_defense: 12
+      str: 12
+      dex: 13
+      con: 12
+      int: 10
+      wis: 11
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Cedric Vale, Male, Human. Version
+    shown at apparent age 19. Appearance: lanky build, wind-reddened cheeks and sandy hair. Clothing and posed
+    props: patched riding coat with worn gloves. Three-quarter stance, unobstructed face and hands, even natural
+    light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering,
+    extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```
