@@ -33,7 +33,7 @@ Historical unresolved freight clues, Third Bell clapper custody, Corven, sword p
 
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
-Current Seven Bells priorities: secure prisoners/records and rest; investigate western aqueduct workshop or Seventh Office/Vennick; question Corven further; reconcile salvage and safe transport; combine only as player chooses. Northern Witness Index, Halden fate, anonymous correspondent/watcher and E-R-7 remain open. See `seven-bells-investigation`; no action/time/resource advance before next player instruction. Earlier unresolved quests preserved; old custody is not a current location assertion.
+Day 124 Seven Bells priorities: secure prisoners/records and rest; investigate western aqueduct workshop or Seventh Office/Vennick; question Corven further; reconcile salvage and safe transport; combine only as player chooses. The Northern Witness Index, anonymous correspondent/watcher and E-R-7 remain open. Halden was still missing at Day 124 and has since been rescued. See `seven-bells-investigation`; no action/time/resource advance before next player instruction. Earlier unresolved quests preserved; old custody is not a current location assertion.
 
 
 ## Character reference retrieval

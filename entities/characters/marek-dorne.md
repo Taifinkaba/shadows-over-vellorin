@@ -14,9 +14,9 @@ source_refs:
 
 Recovered alive. He consented to recovery of the duplicate HC-17 record. The expedition examined his restricted statement and obtained additional authenticated testimony. He remains under independent official protection. His exact protected location is confidential and unverified to Theron.
 
-## Earlier record
+## Earlier record — before the Westbridge recovery
 
-Receiving agent at the Crown Ledger Office in the white-blade trail. Records indicate he tried to end the arrangement and later sought protection in Westbridge. He filed a restricted sworn statement with magistrates and subsequently disappeared. Current whereabouts are unknown. The statement has not been obtained.
+Receiving agent at the Crown Ledger Office in the white-blade trail. Records indicate he tried to end the arrangement and later sought protection in Westbridge. He filed a restricted sworn statement with magistrates and subsequently disappeared. At that point, his whereabouts were unknown and the party had yet to examine the statement.
 
 ## Character sheet
 

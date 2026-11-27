@@ -23,7 +23,9 @@ source_refs:
 
 Spirit Mana Assimilation II restores **24 personal MP per uninterrupted ten-minute interval**, capped at the user’s current maximum personal MP (Theron currently 410). Requires usable ambient mana and uninterrupted concentration. Staff and wagon pools and HP are unaffected. The former 400 MP cap stays historical. The two 12 MP resonance trial costs belong to those procedures only.
 
-## Earlier records
+## Earlier records — historical recovery rules
+
+The 400 MP cap and any wording such as “current” or “standing rule now” in the dated records below apply to those earlier checkpoints. See the Day 52 section above for the governing rule.
 
 ## Sovereign Mind — Adaptive Game-Tree Search
 

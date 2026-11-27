@@ -104,7 +104,7 @@ ACTIVE. Original voluntary Warden oath, later coercive abuses, CROWN-07, AV-07, 
 
 ## Through Day 153
 
-Later freedom replaces the Day46 attached-chain state, but CROWN-07, Crown command, V-9, Witness/Mirror Foundation and Fifth Bell remain unresolved. Freight N-17 and Voss-authorized routing are evidence to investigate, not proven identity with earlier seals or proof Voss ordered theft/sabotage.
+Later freedom replaces the Day46 attached-chain state. At that earlier stage, CROWN-07’s identity and status were still unresolved. The later update below records his identification and capture; surviving Crown command, V-9, Witness/Mirror Foundation and Fifth Bell questions remain open. Freight N-17 and Voss-authorized routing are evidence to investigate, not proven identity with earlier seals or proof Voss ordered theft/sabotage.
 
 ## Authoritative update — Year 847 Day 472, 16:10, session ENDED
 
