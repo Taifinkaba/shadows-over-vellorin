@@ -4,6 +4,7 @@ type: items
 status: gm-secret-locked
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day365-end-session.md
@@ -13,6 +14,12 @@ source_refs:
   - "archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md"
   - "archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md"
 ---
+
+## Year 853 Day 145 reconciliation
+
+Gareth supplied surviving diagrams. Reflection principle and original separate donor remain established as provenance; identity, exact damage and downstream physical custody remain open.
+
+## Earlier and standing records
 
 # White matched blade
 

@@ -126,7 +126,7 @@ class GuildTests(unittest.TestCase):
             self.assertIn('checkpoint valid',validate(self.root))
             self.assertEqual(len(self.data('guild-network')['organizations']),9)
             self.assertEqual(len(self.data('continental-guild-concord')['divisions']),8)
-            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),21)
+            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),35)
         with self.subTest(case='test_duplicate_guild_id'), isolated_case(self):
             self.reject('guild-network',lambda d:d['organizations'].append(d['organizations'][0]),'duplicate guild ID')
         with self.subTest(case='test_branch_guild_reference'), isolated_case(self):

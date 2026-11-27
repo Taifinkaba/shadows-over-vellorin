@@ -4,8 +4,15 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Voluntarily appointed Head of Archives and Historical Conservation on Day 72 at 30 GP per 30 days. Keeps professional independence and may refuse unethical research.
+
+## Earlier and standing records
 
 # Seren Veylor
 
@@ -17,7 +24,7 @@ Former Hollow Crown transport representative and signer for HC-17. Independent m
 character_sheet:
   id: seren-veylor
   name: Seren Veylor
-  role: Independent manuscript conservator
+  role: Independent Head of Archives and Historical Conservation
   aliases: null
   ancestry: null
   sex: null
@@ -46,9 +53,11 @@ character_sheet:
   personal_cash: null
   relationships: null
   assessment: null
-  recorded_context: Voluntary collaborator, last played in Westbridge. Former Hollow
+  recorded_context: Voluntarily accepted the Day 72 appointment. Professional independence
+    and ability to refuse unethical research retained.
     Crown transport representative.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   character_design_profile:
     classification: Prospective character design; use recorded facts wherever they exist

@@ -4,9 +4,24 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ten-minute experimental throughput:
+
+- Ordinary cognition: 12 tasks.
+- Parallel cognition: 21 tasks.
+- Assisted parallel analysis: 28 tasks.
+
+Improved throughput demonstrated.
+
+Actual subjective temporal acceleration remains unproven.
+
+## Earlier and standing records
 
 # Sovereign Thought Acceleration
 

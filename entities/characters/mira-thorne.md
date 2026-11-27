@@ -4,11 +4,18 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Unregistered minor day student under Maera’s guardianship. Design reference age 12; exact historical age unknown. No Guild card, level, combat statistics, missions, earnings or Dragon Slayer initiation. The erroneous Day 69 entries are withdrawn.
+
+## Earlier and standing records
 
 ## Year 848, Suncrest 262 update
 
@@ -94,6 +101,7 @@ character_sheet:
       to Maera. Age 12 is approved design, not a recovered historical age.
     artwork_ref: artwork/character-references/mira-thorne.png
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/mira-thorne.md
   - changes/chronicles/character-reference-design-approval.md
@@ -115,16 +123,6 @@ character_sheet:
     magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
     abilities_and_techniques:
     - 'Foundational study: practical proficiency for roleplay and assessment.'
-    unassessed_stat_proposal:
-      hp_max: 18
-      base_defense: 8
-      str: 9
-      dex: 10
-      con: 10
-      int: 10
-      wis: 10
-      cha: 10
-      mp_max: 0
     portrait_reference: artwork/character-references/mira-thorne.png
   image_generator_prompt: 'Full-body medieval high fantasy character portrait of Mira Thorne, feminine-presenting,
     humanoid. Age presentation: 12 apparent design reference. Appearance: Human girl, reference-design age 12;

@@ -4,11 +4,38 @@ type: mechanics
 status: research
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/session-handoffs/year852-day1-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Retain:
+
+- 2× supervised occupied operation.
+- 5× up to eight internal hours occupied.
+- 10× up to one internal hour occupied.
+- 15× experimental unmanned.
+- 20× repeated unmanned up to four internal hours.
+
+Day 121 new observations:
+
+- 25× unmanned, one internal hour: stable.
+- 25× unmanned, four internal hours: stable.
+- 30× unmanned, 30 internal minutes: regulator instability; aborted.
+
+Preserve as played experimental observations.
+
+Finite power consumption, cooling requirements and long-term certification remain unverified.
+
+Do not increase occupied limits.
+
+Long-term target: 525,600×.
+
+## Earlier and standing records
 
 # Time Chamber
 

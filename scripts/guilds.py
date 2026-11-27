@@ -302,12 +302,15 @@ def validate_guilds(root, records, require, repository_file, unique_json):
     historical_ids = history | completed if (root / DAY196).is_file() else history
     westbridge_source = 'archive/session-handoffs/year853-day52-player-handoff.txt'
     westbridge = {f'WG-853-W{number:02}' for number in range(1, 12)} if (root / westbridge_source).is_file() else set()
-    require(set(contracts) == historical_ids | expedition | westbridge, 'guilds: missing or unsupported played contract')
+    legacy_source = 'archive/session-handoffs/year853-day145-player-handoff.txt'
+    legacy = {f'WG-853-SL{number:02}' for number in range(1, 15)} if (root / legacy_source).is_file() else set()
+    require(set(contracts) == historical_ids | expedition | westbridge | legacy, 'guilds: missing or unsupported played contract')
     for cid,c in contracts.items():
-        if cid in expedition or cid in westbridge:
+        if cid in expedition or cid in westbridge or cid in legacy:
+            source = legacy_source if cid in legacy else westbridge_source if cid in westbridge else EXPEDITION_SOURCE
             require(c['completion_status'] == 'session-completed' and c['payment_status'] == 'session-paid'
                     and c['current_availability'] == 'completed-not-current-offer'
-                    and c['source_refs'] == [westbridge_source if cid in westbridge else EXPEDITION_SOURCE] and c['reward_cp'] is None
+                    and c['source_refs'] == [source] and c['reward_cp'] is None
                     and c['deadline'] is None and c['reward_guaranteed'] is False,
                     'guilds: expedition completion, payment or provenance differs')
             continue

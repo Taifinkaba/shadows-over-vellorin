@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
@@ -17,6 +18,12 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Tracking, reconnaissance and animal coordination. Animal closing locations remain unknown.
+
+## Earlier and standing records
 
 ## Year 848, Suncrest 262 update
 
@@ -118,6 +125,7 @@ character_sheet:
     - Route reconnaissance
     - Animal handling
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/nyx-thorne.md
   - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md
   - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md

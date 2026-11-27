@@ -4,6 +4,7 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md
@@ -12,6 +13,19 @@ source_refs:
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+- Sealed passage opened following preservation assessment.
+- Historical training chamber.
+- Four meditation platforms.
+- Instructional reliefs concerning responsible essence acceptance.
+
+Original Ancient Dragon Temple remains unidentified.
+
+Do not merge the two sites.
+
+## Earlier and standing records
 
 # Hollow Veil sanctuary
 

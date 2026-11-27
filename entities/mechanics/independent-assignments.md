@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/npc-autonomy-framework-maintenance.md
@@ -45,6 +46,57 @@ source_refs:
 - entities/factions/dragon-slayer-academy.md
 - entities/mechanics/guild-animal-registry.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Theron: Player-controlled; no imposed future assignment.
+
+Aric: Family history, sword investigation and voluntary field participation.
+
+Lyanna: Independent Witness and voluntary family collaborator.
+
+Mother: Independent sacred healer and botanical collaborator.
+
+Maeryn: Close combat and field security.
+
+Nyx: Tracking, reconnaissance and animal coordination.
+
+Garrick: Logistics, security, recovery and finance.
+
+Lyra: Historical and magical research.
+
+Ilyr: Memory and Witness research.
+
+Seren: Archives and conservation.
+
+Raze: Analysis and simulation.
+
+Aegis: Defense.
+
+Caelrix: Independent spirit and research collaborator.
+
+Tomas: Estate stewardship.
+
+Bren: Construction and maintenance.
+
+Ironshield: Established defense responsibilities.
+
+Hearthguard: Medical operations.
+
+Master Beren: Independent DSI operations.
+
+Vaeltharion: Independent Dragon Slayer instruction.
+
+Do not infer precise current locations for absent NPCs.
+
+The Grand Council's last scene establishes the expedition, family and participating leadership reunion, but not a complete individually timestamped attendance register.
+
+Marek Dorne and the cooperating Kestrel bookkeeper retain independent official protection.
+
+
+Blackscale is Theron’s personal alternate identity. Newly adopted expedition assignments use Main Expedition Party. Raze analyzes and simulates; Aegis defends. Neither casts Theron’s spells or generates mana.
+
+## Earlier and standing records
 
 # Independent assignments and actor retrieval
 

@@ -4,8 +4,14 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 853 Day 145 evidence distinctions
+
+The original fractured seventh-seat E-R-7 command fitting remains installed. Isolation effectiveness and permanent safety are unverified. The recovered E-R-7 recognition inscription is a separate record with an unresolved relationship to that fitting. VII/R is the distinct removed fitting held as protected dangerous evidence. Return Custodian Seven remains independent and mobile; latest station unknown.
+
 
 # Seven Bells provisional inventory and protected evidence
 

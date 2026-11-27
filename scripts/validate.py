@@ -139,6 +139,7 @@ def copper(value, label="currency"):
     return gp * 100 + sp * 10 + cp
 
 
+DAY145_SOURCE = "changes/chronicles/year853-day145-reconciliation.md"
 WESTBRIDGE_SOURCE = "changes/chronicles/year853-day52.md"
 YEAR853_SOURCE = "changes/chronicles/year853-end-session.md"
 
@@ -147,7 +148,7 @@ def validate_state(state):
     version = state.get("schema_version")
     v6 = type(version) is int and version == 6
     year853 = v6 and state.get("source") == YEAR853_SOURCE
-    westbridge = v6 and state.get("source") == WESTBRIDGE_SOURCE
+    westbridge = v6 and state.get("source") in {WESTBRIDGE_SOURCE, DAY145_SOURCE}
     v5 = type(version) is int and version == 5
     v4 = type(version) is int and version == 4
     dated = v4 or v5 or v6
@@ -309,6 +310,12 @@ def validate_state(state):
 def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
+    if state['source'] == DAY145_SOURCE:
+        if __package__:
+            from .session_day145 import validate_finances
+        else:
+            from session_day145 import validate_finances
+        return validate_finances(root, state, ledger)
     if state['source'] == WESTBRIDGE_SOURCE:
         if __package__:
             from .session_westbridge import validate_finances

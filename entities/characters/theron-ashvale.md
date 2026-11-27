@@ -4,24 +4,24 @@ type: characters
 status: canon
 visibility: gm-reference
 checkpoint_values:
-  date: Year 853 Day 52
-  time: "20:00"
-  location: Westbridge
+  date: Year 853 Day 145
+  time: "20:05"
+  location: Theron's Commercial Estate
   status: PAUSED
-  theron.hp: 104
-  theron.hp_max: 104
-  theron.mp: 410
-  theron.mp_max: 410
+  theron.hp: 108
+  theron.hp_max: 108
+  theron.mp: 420
+  theron.mp_max: 420
   theron.defense: 46
   theron.rank: S+
-  theron.level: 6
+  theron.level: 7
   theron.str: 14
   theron.dex: 20
   theron.con: 19
   theron.int: 21
   theron.wis: 20
   theron.cha: 20
-  theron.unspent_attributes: 0
+  theron.unspent_attributes: 2
   resources.equipped_defense: 49
   resources.bracers_defense_bonus: 3
   resources.staff_mp: 180
@@ -31,6 +31,7 @@ checkpoint_values:
   resources.chronos_eye_locked: true
   resources.dragon_slayer_locked: true
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
@@ -50,6 +51,92 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Elf, male.
+
+Reference age: 25.
+
+Height: 5 ft 5 in.
+
+Weight: 400 lb.
+
+Canonically very fat and heavyset.
+
+Battlemage / Advanced Runecrafter.
+
+Eighth Witness.
+
+Guild Rank: S+.
+
+Level 7 advancement was played on Day 141 at the Regional Adventurers Guild.
+
+Assessment results:
+
+- Advanced Runic Control: 19 + 5 = 24, DC 22.
+- Controlled Combat: 18 + 5 = 23, DC 21.
+- Independent Dual-Mind: 17 + 5 = 22, DC 20.
+- Expedition Leadership: 19 + 5 = 24, DC 22.
+
+These were DM-simulated assessment rolls.
+
+Preserve the successful Level 7 advancement.
+
+Narrated level rewards:
+
+- HP maximum increased from 104 to 108.
+- Personal MP maximum increased from 410 to 420.
+- Two unspent attribute points awarded.
+
+The rewards follow the previous Level 5 to Level 6 pattern but were not derived from an independently verified universal level formula. Preserve them as scene-specific adjudicated rewards, not a new global progression system.
+
+Attributes:
+
+- STR 14
+- DEX 20
+- CON 19
+- INT 21
+- WIS 20
+- CHA 20
+
+Unspent attribute points: 2. Do not allocate them.
+
+Last narrated resource endpoint:
+
+- HP 108/108.
+- Personal MP 420/420.
+- Sovereign Nexus 180/180.
+
+Record these readings with their actual narrated provenance. The intermediate resource bridge remains incomplete. Do not fabricate healing, rest or mana recovery events to substantiate the endpoint.
+
+Base DEF 46.
+
+Normal equipped reference DEF 49.
+
+Conditional DEF 51 with Frostguard Bracers and Night Sovereign.
+
+Actual closing wearing configuration unknown.
+
+Draconic Resonance 3/5.
+
+Caelrix bond 5/5.
+
+Chronos Eye approximately 19%, LOCKED.
+
+Dragon Slayer LOCKED by player choice.
+
+Preserve all existing mastered skills and spells.
+
+Spirit Mana Assimilation II restores 24 personal MP per uninterrupted ten-minute interval with usable ambient mana and concentration, capped at the current personal maximum.
+
+It does not recharge independent pools or restore HP.
+
+The ordinary discount remains 40%. Do not double-discount existing prices or invent updated tariffs.
+
+The Day 107 Rune Barrier was narrated at 9 MP. Preserve the recorded cost while flagging its current tariff provenance.
+
+## Earlier and standing records
 
 # Theron Ashvale / Blackscale
 
@@ -166,11 +253,11 @@ character_sheet:
   age: 25
   role: Battlemage, runecrafter and Eighth Witness
   rank: S+
-  level: 6
-  hp: 104
-  hp_max: 104
-  mp: 410
-  mp_max: 410
+  level: 7
+  hp: 108
+  hp_max: 108
+  mp: 420
+  mp_max: 420
   defense: 46
   equipped_defense: 49
   str: 14
@@ -179,7 +266,7 @@ character_sheet:
   int: 21
   wis: 20
   cha: 20
-  unspent_attributes: 0
+  unspent_attributes: 2
   skills:
     Masterwork Runic Engineering: 5/5
     Coordinated Anti-Dragon Defense: 5/5
@@ -212,8 +299,11 @@ character_sheet:
     uncle: caelan-ashvale
     bonded_wolf: shade
     mother: therons-mother
-  assessment: Year 853 Day 52 paused checkpoint.
-  recorded_context: Westbridge Grand Council. Closing mask configuration and wagon charges are unverified.
+  assessment: Year 853 Day 141 Regional Adventurers Guild assessment and Day 145 narrated
+    endpoint.
+  recorded_context: Paused at Theron’s Commercial Estate Grand Council Hall; reads 108/108
+    HP and 420/420 MP. Closing wearing configuration and intervening resource bridge
+    are unverified.
   conditional_defense:
     with_frostguard_bracers_and_night_sovereign: 51
     currently_worn: null
@@ -243,6 +333,7 @@ character_sheet:
     recorded_at: Year 848 Day 137
   artwork_ref: artwork/player-cards/theron-ashvale.png
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day1-end-session.md

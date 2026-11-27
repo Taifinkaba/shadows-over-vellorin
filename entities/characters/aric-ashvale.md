@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
@@ -19,6 +20,12 @@ source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Voluntary Ashvale and sword inquiry support. Recovered supplementary Expedition 47-B witness record with family at ancestral Ashvale Estate on Day 64.
+
+## Earlier and standing records
 
 # Aric Ashvale — Day156 current canon
 
@@ -114,6 +121,7 @@ character_sheet:
     - Measured counterattacks
     - Guard and spacing instruction
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/aric-ashvale.md
   - archive/legacy-modules/world/07-7-the-ashvale-family.md
   - entities/mechanics/independent-assignments.md

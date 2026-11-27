@@ -4,12 +4,19 @@ type: quests
 status: active
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+The protected V-9 testimony was voluntarily authenticated through historical custodial association, voluntary Witness participation and independent recognition. Surviving artificial Witness operations remain open. The E-R-7 inscription, the installed E-R-7 fitting and the separately removed VII/R fitting are distinct evidence.
+
+## Earlier and standing records
 
 # Counterfeit Witness
 

@@ -102,6 +102,62 @@ Routing only; no copied rewards/statuses or second quest ledger. Known contract 
     {
       "contract_id": "WG-853-W11",
       "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL01",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL02",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL03",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL04",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL05",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL06",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL07",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL08",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL09",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL10",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL11",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL12",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL13",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-SL14",
+      "owner_entity_id": "wayfarers-guild"
     }
   ],
   "dungeon_contract_kinds": [

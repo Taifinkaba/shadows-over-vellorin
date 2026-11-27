@@ -4,9 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Narrated entry assessment and provisional registration preserved. Guild eligibility and age require verification. Accounted balance 70 GP is qualified pending review.
+
+## Earlier and standing records
 
 # Faye Linden
 
@@ -60,6 +67,7 @@ character_sheet:
     specialties:
     - Foundational training assessment
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/faye-linden.md
   - entities/factions/dragon-slayer-academy.md

@@ -4,8 +4,15 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Voluntarily appointed Head of Memory and Witness Research on Day 72 at 45 GP per 30 days. Keeps professional independence and may refuse unethical research.
+
+## Earlier and standing records
 
 # Master Ilyr Varess
 
@@ -17,7 +24,7 @@ Former Mirror Repository director, identified as the Custodian of Reflections. H
 character_sheet:
   id: ilyr-varess
   name: Master Ilyr Varess
-  role: Custodian of Reflections
+  role: Independent Head of Memory and Witness Research
   aliases: null
   ancestry: null
   sex: null
@@ -46,7 +53,8 @@ character_sheet:
   personal_cash: null
   relationships: null
   assessment: null
-  recorded_context: Former Mirror Repository director and voluntary collaborator,
+  recorded_context: Voluntarily accepted the Day 72 appointment. Professional independence
+    and ability to refuse unethical research retained.
     last played at Westbridge Grand Council.
   capability_evidence:
     mana_evidence: Magical memory preservation expertise is established. The record leaves personal
@@ -57,6 +65,7 @@ character_sheet:
     - Non-invasive memory conservation
     - Archive artifact safety
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   character_design_profile:
     classification: Prospective character design; use recorded facts wherever they exist

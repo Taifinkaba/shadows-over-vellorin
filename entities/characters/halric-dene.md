@@ -4,8 +4,15 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Apprehended alive under authority at Northwatch Crossing on Day 56. Admitted participation in Lyanna’s capture. Official custody; exact placement and legal disposition unverified.
+
+## Earlier and standing records
 
 # Lieutenant Halric Dene — Day156 current canon
 
@@ -47,8 +54,10 @@ character_sheet:
   personal_cash: null
   relationships: null
   assessment: null
-  recorded_context: Led Lyanna's capture team; current location unknown.
+  recorded_context: Apprehended alive on Day 56; transferred into independent official
+    custody. Placement and disposition unverified.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/halric-dene.md
   character_design_profile:
     classification: Prospective character design; use recorded facts wherever they exist

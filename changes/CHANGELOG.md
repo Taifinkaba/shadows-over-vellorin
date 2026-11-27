@@ -1,3 +1,7 @@
+# Year 853 Day 145 — Sovereign Legacy
+
+Adopted the paused Day 145 endpoint, new evidence and official custody, corrected DSI and Guild progression, reconciled independent ledgers and updated current owners. [Chronicle](chronicles/year853-day145-reconciliation.md) · [Day 52 checkpoint archive](../archive/checkpoints/year853-day52.json)
+
 # Character design profiles and portrait prompts
 
 Added an individual design profile and image generator prompt to all 103 indexed character sheets. Profiles consolidate recorded facts and label new appearance, motivation, techniques, and stat suggestions as prospective, with prior portraits taking precedence. Ordinary nonmagical competence is the default design; established casters, aptitude, draconic essence and rare sacred healing retain their documented boundaries.

@@ -64,7 +64,7 @@ Each entity Markdown file has YAML frontmatter: `id`, `type`, `status`, `visibil
 
 ## Current checkpoint
 
-The campaign is paused at **Year 853 Day 52, 8:00 PM** in Westbridge. Controlled treasury is **275,718 gp**. Read the [checkpoint](state/checkpoint.json), [controlled ledger](state/finance-ledger.json), [independent DSI ledger](state/dsi-finance-ledger.json), [chronicle](changes/chronicles/year853-day52.md), [handoff](state/next-chat-handoff.md) and [verification queue](state/open-verifications.md). The [Hollow Veil checkpoint](archive/checkpoints/year853-hollow-veil.json) is historical.
+The campaign is paused at **Year 853 Day 145, 8:05 PM** at Theron’s Commercial Estate, Grand Council Hall. Controlled treasury is **288,928 gp**. [Checkpoint](state/checkpoint.json) · [Controlled ledger](state/finance-ledger.json) · [Independent DSI ledger](state/dsi-finance-ledger.json) · [Chronicle](changes/chronicles/year853-day145-reconciliation.md) · [Handoff](state/next-chat-handoff.md) · [Verification queue](state/open-verifications.md).
 
 ## Caveat
 This is a **curated entity extraction**, not a verified transcription of every historical chat message. The entity set covers major named people, creatures, places, items, quests, factions and core rules. Secondary locations and NPCs remain discoverable in the archived registry and can be promoted into entities on demand, with evidence.

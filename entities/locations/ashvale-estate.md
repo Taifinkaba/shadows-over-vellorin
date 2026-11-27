@@ -4,6 +4,7 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year852-day365-end-session.md
 - archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -13,6 +14,12 @@ source_refs:
 - changes/chronicles/year848-day137-end-session.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ancestral property distinct from Theron’s Commercial Estate. Family recovered a supplementary Expedition 47-B witness record here on Day 64.
+
+## Earlier and standing records
 
 # Ashvale Estate — Day156 current canon
 

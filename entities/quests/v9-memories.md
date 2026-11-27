@@ -4,12 +4,19 @@ type: quests
 status: completed
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+The outstanding transferred package was located and voluntarily authenticated. V-9 remains a custody designation; controller and other cases unverified. Lyanna’s completed restoration is undisturbed.
+
+## Earlier and standing records
 
 # V-9 memories and case review
 

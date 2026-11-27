@@ -4,9 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day365-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Remains under independent official protection. The cooperating former Kestrel bookkeeper also retains independent protection; no exact protected location is supplied.
+
+## Earlier and standing records
 
 # Marek Dorne
 
@@ -53,6 +60,7 @@ character_sheet:
   assessment: null
   recorded_context: Year 853 Day 52. Recovered alive and under independently administered official protection. Exact protected location remains confidential.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year852-day365-end-session.md
   character_design_profile:

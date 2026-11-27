@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
@@ -21,10 +22,16 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
-  money.total_gp_sp: 275718gp
+  money.total_gp_sp: 288928gp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+## Year 853 Day 145 reconciliation
+
+Controlled closing treasury 288,928 GP. Guild gross 12,250 GP, fees 1,225 GP and other expedition costs 590 GP. Three estate net transfers total 4,580 GP. Potential 75 GP research salary remains unposted. DSI, separate personal holdings and restricted evidence are excluded. See the [ledger](../../state/finance-ledger.json).
+
+## Earlier and standing records
 
 # Party finances
 

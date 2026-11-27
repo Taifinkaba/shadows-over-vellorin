@@ -4,6 +4,7 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - changes/chronicles/year848-day196-end-session.md
@@ -14,6 +15,12 @@ source_refs:
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent existing wagon reservoir retains its established maximum. Day 145 current charge and exact closing location unverified.
+
+## Earlier and standing records
 
 ## Year 848, Suncrest 262 update
 

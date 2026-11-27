@@ -4,12 +4,19 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ordinary Guild E Rank Level 3, from played assessment. Established numerical maxima and attributes are unchanged. Dragon Slayer F Rank Level 5. Accounted student balance 227 GP.
+
+## Earlier and standing records
 
 ## Year 848, Suncrest 262 update
 
@@ -109,7 +116,7 @@ character_sheet:
   age: 29
   role: Field Captain
   rank: E
-  level: 2
+  level: 3
   hp: null
   hp_max: 32
   mp: null
@@ -129,7 +136,7 @@ character_sheet:
     Swordsmanship: 2/5
     Field Medicine: 2/5
   abilities:
-  - Controlled Dragon Essence (F Rank, Level 3 certification)
+  - Controlled Dragon Essence (F Rank, Level 5 certification)
   equipment:
   - Shortsword
   - light armor
@@ -158,14 +165,15 @@ character_sheet:
   guild_status: Guild E, supervised contracts
   dragon_slayer:
     rank: F
-    level: 3
+    level: 5
     certification: Controlled Dragon Essence
-  accounted_recent_earnings_cp: 9700
+  accounted_recent_earnings_cp: 22700
   proposed_assessment:
     status: Proposed; requires approval before play
     specialties:
     - Navigation and team leadership
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/elias-renn.md

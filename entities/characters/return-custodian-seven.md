@@ -4,8 +4,15 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent, repaired, mobile bronze-and-stone Custodian of Returned Testimony. Exact station unknown. The removed VII/R fitting remains separately protected as dangerous evidence. E-R-7 remains installed and is distinct from the new recognition inscription.
+
+## Earlier and standing records
 
 # Return Custodian Seven
 
@@ -53,6 +60,7 @@ character_sheet:
     hostile fitting `VII / R` separately contained as dangerous evidence, full integrity/hidden instructions
     uncertified. Exact latest station unspecified.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/return-custodian-seven.md
   character_design_profile:
     classification: Prospective character design; use recorded facts wherever they exist

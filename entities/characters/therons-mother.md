@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
@@ -12,6 +13,12 @@ source_refs:
 - changes/chronicles/character-reference-design-approval.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent sacred healer and botanical collaborator. No new personal healing spell or clinical throughput inferred.
+
+## Earlier and standing records
 
 # Theron's mother — Day156 current canon
 
@@ -118,6 +125,7 @@ character_sheet:
     - Supervised restorative care
     - Stabilization assessment
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/therons-mother.md
   - changes/chronicles/character-reference-design-approval.md
   - archive/legacy-modules/world/07-7-the-ashvale-family.md

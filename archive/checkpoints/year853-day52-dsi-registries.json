@@ -1,0 +1,98 @@
+{
+  "roster": {
+    "elias-renn": {
+      "guild_rank": "E",
+      "general_level": 2
+    },
+    "kaela": {
+      "guild_rank": "E",
+      "general_level": 2
+    },
+    "gorren": {
+      "guild_rank": "E",
+      "general_level": 2
+    },
+    "nessa": {
+      "guild_rank": "E",
+      "general_level": 2
+    },
+    "talia-fen": {
+      "guild_rank": "E",
+      "general_level": 2
+    },
+    "rowan-hale": {
+      "guild_rank": "E",
+      "general_level": 2
+    },
+    "dalen-reed": {
+      "guild_rank": "F",
+      "general_level": 1
+    },
+    "sera-willow": {
+      "guild_rank": "F",
+      "general_level": 1
+    },
+    "tobin-marsh": {
+      "guild_rank": "F",
+      "general_level": 1
+    },
+    "elowen-briar": {
+      "guild_rank": "F",
+      "general_level": 1
+    },
+    "mira-thorne": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "perrin-oak": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "faye-linden": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "cedric-vale": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "lethara-mossveil": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "brom-ironroot": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "marielle-fenwick": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "aren-duskwell": {
+      "guild_rank": null,
+      "general_level": null
+    },
+    "rhea-thornfield": {
+      "guild_rank": null,
+      "general_level": null
+    }
+  },
+  "disciples": {
+    "elias-renn": {
+      "rank": "F",
+      "level": 3
+    },
+    "kaela": {
+      "rank": "F",
+      "level": 3
+    },
+    "gorren": {
+      "rank": "F",
+      "level": 3
+    },
+    "nessa": {
+      "rank": "F",
+      "level": 3
+    }
+  }
+}

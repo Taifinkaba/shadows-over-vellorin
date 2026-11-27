@@ -51,11 +51,11 @@ def validate_checkpoint(root, state):
     require(state['provenance'] == expected, 'Westbridge: recovery or observation provenance differs')
 
 
-def validate_finances(root, state, ledger):
+def validate_finances(root, state, ledger, *, academy=None, registries=None):
     prior_state = read_json(root / (PRIOR + '.json'))
     prior = read_json(root / (PRIOR + '-finance-ledger.json'))
     prior_academy = read_json(root / (PRIOR + '-dsi-finance-ledger.json'))
-    validate_year853(root, prior_state, prior, academy_ledger=prior_academy, disciple_level=3)
+    validate_year853(root, prior_state, prior, academy_ledger=prior_academy, disciple_level=3, registries=registries)
 
     unchanged = set(prior) - {'schema_version', 'as_of', 'source', 'qualification',
                               'previous_ledger_ref', 'controlled_cash', 'transactions',
@@ -112,11 +112,12 @@ def validate_finances(root, state, ledger):
                                                  allocation_status=state['money']['allocation_status'])
             and copper(state['money']['total_gp_sp'], 'Westbridge treasury') == closing,
             'Westbridge: controlled cash fails reconciliation')
-    validate_academy(root, state, prior_academy)
+    validate_academy(root, state, prior_academy, academy=academy)
 
 
-def validate_academy(root, state, prior):
-    academy = read_json(root / 'state/dsi-finance-ledger.json')
+def validate_academy(root, state, prior, *, academy=None):
+    if academy is None:
+        academy = read_json(root / 'state/dsi-finance-ledger.json')
     window = academy['westbridge_reconciliation']
     require(set(academy) == set(prior) | {'westbridge_reconciliation'}
             and academy['previous_ledger_ref'] == PRIOR + '-dsi-finance-ledger.json'

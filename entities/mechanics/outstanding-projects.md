@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-day196-end-session.md
@@ -11,6 +12,100 @@ source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ilyr Varess voluntarily appointed Head of Memory and Witness Research.
+
+Compensation: 45 GP per 30 days.
+
+Seren Veylor voluntarily appointed Head of Archives and Historical Conservation.
+
+Compensation: 30 GP per 30 days.
+
+Both retain professional independence and the ability to reject unethical research.
+
+Research annex established at Theron's Commercial Estate.
+
+Observatory of First Light remains a separate location.
+
+Initial research costs:
+
+- Secure archival facilities: 160 GP.
+- Instruments: 180 GP.
+- Protective wards: 90 GP.
+- Initial salaries: 75 GP.
+- Total: 505 GP paid.
+
+Additional research materials during Sovereign Legacy: 320 GP paid. Individual itemization remains unresolved.
+
+Second recorded salary payment: 75 GP paid, exact posting date unverified.
+
+Potential third salary obligation: 75 GP, based on 30-day advance periods beginning Day 72.
+
+Do not book it as paid without further authorization or evidence.
+
+If advance terms are confirmed, periods begin Days 72, 102, 132 and 162.
+
+### Time Chamber
+
+Retain:
+
+- 2× supervised occupied operation.
+- 5× up to eight internal hours occupied.
+- 10× up to one internal hour occupied.
+- 15× experimental unmanned.
+- 20× repeated unmanned up to four internal hours.
+
+Day 121 new observations:
+
+- 25× unmanned, one internal hour: stable.
+- 25× unmanned, four internal hours: stable.
+- 30× unmanned, 30 internal minutes: regulator instability; aborted.
+
+Preserve as played experimental observations.
+
+Finite power consumption, cooling requirements and long-term certification remain unverified.
+
+Do not increase occupied limits.
+
+Long-term target: 525,600×.
+
+### Vital Continuity
+
+Preserve existing Prototypes I and II.
+
+New botanical preservation experiments demonstrated reduced deterioration.
+
+No established humanoid anti-aging, rejuvenation, immortality or age-free chamber use.
+
+### Sovereign Thought Acceleration
+
+Ten-minute experimental throughput:
+
+- Ordinary cognition: 12 tasks.
+- Parallel cognition: 21 tasks.
+- Assisted parallel analysis: 28 tasks.
+
+Improved throughput demonstrated.
+
+Actual subjective temporal acceleration remains unproven.
+
+### Healing Springs
+
+Played progression from 2/5 to 3/5 and subsequently 4/5 through controlled botanical integration.
+
+Preserve progression as scene-specific research assessments, with final mastery criteria and clinical efficacy still requiring verification.
+
+No new personal healing spell, universal healing rate or resurrection.
+
+### Emberpear nursery
+
+Supervised cultivation continues.
+
+No verified maturity, harvest or commercial revenue.
+
+## Earlier and standing records
 
 # Equipment and projects — Day 196
 

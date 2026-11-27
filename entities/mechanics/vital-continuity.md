@@ -4,9 +4,20 @@ type: mechanics
 status: research
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/session-handoffs/year852-day1-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Preserve existing Prototypes I and II.
+
+New botanical preservation experiments demonstrated reduced deterioration.
+
+No established humanoid anti-aging, rejuvenation, immortality or age-free chamber use.
+
+## Earlier and standing records
 
 # Vital Continuity
 

@@ -66,7 +66,7 @@
   "reversed_proposed_theron_grant_cp": 2400,
   "included_in_party_total": false,
   "automatic_future_income": false,
-  "previous_ledger_ref": "archive/checkpoints/year853-hollow-veil-dsi-finance-ledger.json",
+  "previous_ledger_ref": "archive/checkpoints/year853-day52-dsi-finance-ledger.json",
   "prospective_tithe_percent": 25,
   "year853": {
     "source_ref": "changes/chronicles/year853-end-session.md",
@@ -414,5 +414,88 @@
         "remaining_cp": 4600
       }
     }
+  },
+  "sovereign_legacy_reconciliation": {
+    "source_ref": "changes/chronicles/year853-day145-reconciliation.md",
+    "tithe_percent": 25,
+    "settlements": [
+      {
+        "day": 69,
+        "opening_cp": 122500,
+        "paid_rewards_cp": 83000,
+        "tithe_cp": 20750,
+        "student_purchases_cp": 33000,
+        "capital_cp": {
+          "dormitory": 12000,
+          "combat_grounds": 5000,
+          "medical_classroom": 3500
+        },
+        "staff_cp": 0,
+        "closing_cp": 122750,
+        "allocated_cp": 93500,
+        "unallocated_cp": 29250,
+        "student_cp": 106050
+      },
+      {
+        "day": 92,
+        "opening_cp": 122750,
+        "paid_rewards_cp": 162000,
+        "tithe_cp": 40500,
+        "student_purchases_cp": 75500,
+        "capital_cp": {
+          "combat_grounds": 10000,
+          "medical_classroom": 6500,
+          "stables": 8000,
+          "kitchen": 5500,
+          "workshop": 4500
+        },
+        "staff_cp": 4000,
+        "closing_cp": 124750,
+        "allocated_cp": 59000,
+        "unallocated_cp": 65750,
+        "student_cp": 152050
+      },
+      {
+        "day": 129,
+        "opening_cp": 124750,
+        "paid_rewards_cp": 228000,
+        "tithe_cp": 57000,
+        "student_purchases_cp": 100000,
+        "capital_cp": {
+          "stables": 4000,
+          "kitchen": 4500,
+          "workshop": 3000,
+          "library": 3500,
+          "agriculture": 4000
+        },
+        "staff_cp": 8000,
+        "closing_cp": 154750,
+        "allocated_cp": 40000,
+        "unallocated_cp": 114750,
+        "student_cp": 223050
+      }
+    ],
+    "individual_balances_cp": {
+      "elias-renn": 22700,
+      "kaela": 21550,
+      "gorren": 20000,
+      "nessa": 24000,
+      "talia-fen": 22400,
+      "rowan-hale": 22400,
+      "dalen-reed": 16350,
+      "sera-willow": 15250,
+      "tobin-marsh": 16300,
+      "elowen-briar": 15850,
+      "perrin-oak": 7250,
+      "faye-linden": 7000,
+      "cedric-vale": 6000,
+      "lethara-mossveil": 6000
+    },
+    "conditional_eligibility": [
+      "perrin-oak",
+      "faye-linden"
+    ],
+    "separate_deposit_cp": 1500,
+    "deposit_disposition": null
   }
 }

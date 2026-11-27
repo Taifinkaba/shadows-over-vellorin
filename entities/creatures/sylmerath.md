@@ -4,9 +4,16 @@ type: creatures
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Voluntary home visit completed Day 84. Provided two medicinal varieties for supervised cultivation and judged Day 125.
+
+## Earlier and standing records
 
 ## Year 853 Day 52
 

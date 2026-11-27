@@ -4,6 +4,7 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
@@ -14,6 +15,141 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+DSI remains in Greyhaven Valley, separate from Theron's Commercial Estate.
+
+Cofounders: Theron and Vaeltharion.
+
+Independent manager: Master Beren.
+
+Day 52: 19 students.
+
+Day 69: 22 students.
+
+Day 92: 24 students.
+
+Day 129: 27 students.
+
+Eight newly admitted students:
+
+- Alden Brook, 19: Carpenter apprentice and shield combat.
+- Selene Voss, 20: Herbalism and restoration.
+- Kieran Holt, 18: Orphan, tracking and hunting.
+- Iris Stone, 19: Masonry and defensive combat.
+- Fenrick Ashwood, 21: Wilderness survival and archery.
+- Garran Flint, 23: Former caravan guard.
+- Elara Wren, 19: Orphan, restoration mage aspirant.
+- Soren Ashford, 20: Apprentice weaponsmith.
+
+Create unique entity IDs only after checking for collisions.
+
+No invented attributes, ancestry, family or affiliations.
+
+Five new applicants were reported by Day 129. One earlier applicant required additional preparation. Do not assume exact overlapping waitlist totals.
+
+### Mira Thorne correction
+
+Restore the existing minor day student under Maera's guardianship.
+
+Approved reference-design age 12; historical exact age unknown.
+
+No Guild card.
+
+No combat missions.
+
+No assigned combat statistics.
+
+No general level or Dragon Slayer initiation.
+
+Withdraw erroneous Day 69 registration, invented Scout sheet and related combat earnings.
+
+Do not merge Mira Thorne with Mira the lodge helper or infer kinship with Nyx.
+
+Preserve guardian-supervised, age-appropriate training.
+
+### Guild roster
+
+Original six E Rank students now have played ordinary Level 3 assessments:
+
+- Elias Renn.
+- Kaela.
+- Gorren.
+- Nessa.
+- Talia Fen.
+- Rowan Hale.
+
+Original four F Rank students now have played ordinary Level 2 assessments:
+
+- Dalen Reed.
+- Sera Willow.
+- Tobin Marsh.
+- Elowen Briar.
+
+Additional adult students who passed entry assessments:
+
+- Cedric Vale, F Rank Level 1.
+- Lethara Mossveil, F Rank Level 1.
+- Brom Ironroot, F Rank Level 1.
+- Marielle Fenwick, F Rank Level 1.
+- Aren Duskwell, F Rank Level 1.
+
+Perrin Oak and Faye Linden were narrated as newly registered but their ages and eligibility require verification. Preserve their assessment events with appropriate qualification rather than inventing adulthood.
+
+Perrin's existing shield specialization and Faye's animal care/stable specialization must remain.
+
+The corrected roster contains 15 established or newly assessed eligible Guild students, plus two conditional registrations awaiting eligibility verification. Maximum corrected registered total: 17.
+
+No new attribute allocations or automatic equipment bonuses.
+
+
+
+Completed:
+
+- Dormitory expansion.
+- Combat grounds.
+- Medical classroom.
+- Stables.
+- Kitchen and dining.
+- Workshop and storage.
+
+Narrated estimated progress:
+
+- Library and strategy classroom: 75%.
+- Agriculture: 70%.
+
+These are approximate progress reports, not exact engineering measurements.
+
+Part-time martial instructor and stablehand hired. Names, individual wages and permanent employment terms not established.
+
+Use existing unnamed personnel records where appropriate.
+
+Brom began supervised weaponsmithing instruction. No academy business revenue yet established.
+
+Buried Lantern Hall:
+
+- External structural assessment completed.
+- Talia and Rowan led supervised exploration.
+- Three inactive protective lantern mechanisms discovered.
+- Historical refuge register discovered.
+- Intact storage chamber and damaged training apparatus observed.
+- Authorized supervised historical training use.
+
+No unrestricted salvage rights, new land ownership or automatic loot.
+
+Hollow Veil disciple sanctuary:
+
+- Sealed passage opened following preservation assessment.
+- Historical training chamber.
+- Four meditation platforms.
+- Instructional reliefs concerning responsible essence acceptance.
+
+Original Ancient Dragon Temple remains unidentified.
+
+Do not merge the two sites.
+
+## Earlier and standing records
 
 ## Year 848, Suncrest 262 update
 
@@ -160,43 +296,43 @@ Six of 16 applicants were admitted, five waitlisted, and five withdrew or were n
 {
   "elias-renn": {
     "guild_rank": "E",
-    "general_level": 2
+    "general_level": 3
   },
   "kaela": {
     "guild_rank": "E",
-    "general_level": 2
+    "general_level": 3
   },
   "gorren": {
     "guild_rank": "E",
-    "general_level": 2
+    "general_level": 3
   },
   "nessa": {
     "guild_rank": "E",
-    "general_level": 2
+    "general_level": 3
   },
   "talia-fen": {
     "guild_rank": "E",
-    "general_level": 2
+    "general_level": 3
   },
   "rowan-hale": {
     "guild_rank": "E",
-    "general_level": 2
+    "general_level": 3
   },
   "dalen-reed": {
     "guild_rank": "F",
-    "general_level": 1
+    "general_level": 2
   },
   "sera-willow": {
     "guild_rank": "F",
-    "general_level": 1
+    "general_level": 2
   },
   "tobin-marsh": {
     "guild_rank": "F",
-    "general_level": 1
+    "general_level": 2
   },
   "elowen-briar": {
     "guild_rank": "F",
-    "general_level": 1
+    "general_level": 2
   },
   "mira-thorne": {
     "guild_rank": null,
@@ -204,33 +340,67 @@ Six of 16 applicants were admitted, five waitlisted, and five withdrew or were n
   },
   "perrin-oak": {
     "guild_rank": null,
-    "general_level": null
+    "general_level": null,
+    "conditional_registration": "Entry assessment played; age and Guild eligibility awaiting verification"
   },
   "faye-linden": {
     "guild_rank": null,
-    "general_level": null
+    "general_level": null,
+    "conditional_registration": "Entry assessment played; age and Guild eligibility awaiting verification"
   },
   "cedric-vale": {
-    "guild_rank": null,
-    "general_level": null
+    "guild_rank": "F",
+    "general_level": 1
   },
   "lethara-mossveil": {
-    "guild_rank": null,
-    "general_level": null
+    "guild_rank": "F",
+    "general_level": 1
   },
   "brom-ironroot": {
-    "guild_rank": null,
-    "general_level": null
+    "guild_rank": "F",
+    "general_level": 1
   },
   "marielle-fenwick": {
-    "guild_rank": null,
-    "general_level": null
+    "guild_rank": "F",
+    "general_level": 1
   },
   "aren-duskwell": {
+    "guild_rank": "F",
+    "general_level": 1
+  },
+  "rhea-thornfield": {
     "guild_rank": null,
     "general_level": null
   },
-  "rhea-thornfield": {
+  "alden-brook": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "selene-voss": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "kieran-holt": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "iris-stone": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "fenrick-ashwood": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "garran-flint": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "elara-wren": {
+    "guild_rank": null,
+    "general_level": null
+  },
+  "soren-ashford": {
     "guild_rank": null,
     "general_level": null
   }
