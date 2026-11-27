@@ -84,8 +84,10 @@ character_sheet:
   unspent_attributes: null
   skills:
     Coordinated Barrier Casting: 4/5
-  abilities: null
-  equipment: null
+  abilities:
+  - Coordinated Barrier Casting (recorded skill 4/5; individual spells and costs unverified)
+  equipment:
+  - Astral Conduit (basic sustained operation certified; other functions unverified)
   mount: null
   personal_cash: null
   relationships: null
@@ -105,6 +107,11 @@ character_sheet:
     context: After Lyanna’s restoration
   artwork_ref: artwork/player-cards/lyra-moonvale.png
   historical_personal_cash: 92 gp 8 sp
+  capability_evidence:
+    mana_evidence: Known personal pool, maximum 190 MP. Last recorded 178 MP after Lyanna’s restoration;
+      current MP unverified.
+    ability_boundary: Barrier casting training and conduit operation are recorded. No individual new
+      spell or automatic healing is granted.
   source_refs:
   - entities/characters/lyra-moonvale.md
   - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md

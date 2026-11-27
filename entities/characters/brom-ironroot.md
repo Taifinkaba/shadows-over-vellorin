@@ -36,7 +36,10 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Apprentice blacksmithing
+  - Equipment maintenance
+  - Defense training
   abilities: null
   equipment: null
   mount: null
@@ -49,6 +52,16 @@ character_sheet:
   sex: Male
   age: 24
   role: Blacksmith’s apprentice
+  capability_evidence:
+    mana_evidence: Recorded nonmagical; no personal spellcasting profile proposed.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    hp_max_range:
+    - 24
+    - 34
+    specialties:
+    - Equipment inspection
+    - Shield positioning
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.

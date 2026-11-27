@@ -107,6 +107,16 @@ character_sheet:
     gaps: Name, chronological age, ancestry details, training, exact healing capabilities and history.
       Elven appearance is approved design, not recovered maternal genealogy.
     artwork_ref: artwork/character-references/therons-mother.png
+  capability_evidence:
+    mana_evidence: Sacred healing is established. Personal resource mechanism, maximum and current
+      amount unverified.
+    established_abilities:
+    - Rare sacred healing
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Supervised restorative care
+    - Stabilization assessment
   source_refs:
   - entities/characters/therons-mother.md
   - changes/chronicles/character-reference-design-approval.md

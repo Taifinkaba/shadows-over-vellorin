@@ -44,6 +44,13 @@ character_sheet:
   sex: null
   age: null
   role: Visiting tournament competitor
+  capability_evidence:
+    mana_evidence: Semifinal placement establishes tournament performance; combat style and mana remain
+      unassessed.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Tournament dueling assessment
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.

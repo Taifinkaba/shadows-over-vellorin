@@ -62,6 +62,11 @@ character_sheet:
   recorded_context: Independent, voluntarily bonded time spirit; Theron bond 5/5. Examined the original
     oath and used finite defensive magic with Theron to stabilize the First Hour release. No unlimited
     mana or time powers.
+  capability_evidence:
+    mana_evidence: Finite defensive magic demonstrated during First Hour restoration. Personal reservoir
+      amount and draw source unverified.
+    demonstrated_abilities:
+    - Finite defensive magic supporting First Hour stabilization
   source_refs:
   - entities/characters/caelrix.md
   - entities/items/sovereign-nexus.md

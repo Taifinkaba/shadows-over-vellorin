@@ -72,7 +72,10 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Academy administration
+  - Recruitment and training oversight
+  - Budget and construction oversight
   abilities: null
   equipment: null
   mount: null
@@ -92,6 +95,8 @@ character_sheet:
     gaps: Surname, qualifications, specialty, lineage and actual magical capabilities. Title establishes
       none of these.
     artwork_ref: artwork/character-references/master-beren.png
+  capability_evidence:
+    mana_evidence: Academy management is established; personal casting and mana are unverified.
   source_refs:
   - entities/characters/master-beren.md
   - changes/chronicles/character-reference-design-approval.md

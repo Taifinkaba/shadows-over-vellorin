@@ -43,7 +43,8 @@ character_sheet:
   equipment: null
   mount: null
   personal_cash: null
-  relationships: null
+  relationships:
+    older_brother: elyrian-voss
   assessment: null
   recorded_context: Elyrian Voss identified Alaric as his younger brother. Identity
     with Crown-related A. Voss or any other Voss record is unproven.

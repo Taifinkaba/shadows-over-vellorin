@@ -62,6 +62,10 @@ character_sheet:
   specializations:
   - herbal knowledge
   accounted_recent_earnings_cp: 5000
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Supervised mission assessment
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

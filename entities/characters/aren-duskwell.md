@@ -36,7 +36,8 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Self-taught magic practice
   abilities: null
   equipment: null
   mount: null
@@ -49,6 +50,20 @@ character_sheet:
   sex: Male
   age: 20
   role: Self-taught magic practitioner
+  capability_evidence:
+    mana_evidence: Self-taught magic practice supports casting capability. Personal maximum and current
+      MP are unassessed.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    hp_max_range:
+    - 18
+    - 26
+    mp_max_range:
+    - 8
+    - 14
+    specialties:
+    - Basic controlled casting
+    - Concentration under supervision
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.

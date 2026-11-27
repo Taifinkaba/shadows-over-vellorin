@@ -55,6 +55,10 @@ character_sheet:
   guild_status: No guild card
   specializations:
   - shield fundamentals
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Foundational training assessment
   source_refs:
   - changes/chronicles/year853-end-session.md
   - entities/characters/perrin-oak.md

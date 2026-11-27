@@ -38,7 +38,9 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Settlement accounting
+  - Certified record preparation
   abilities: null
   equipment: null
   mount: null

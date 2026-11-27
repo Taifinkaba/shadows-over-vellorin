@@ -133,6 +133,12 @@ character_sheet:
     goals: Protect lawful household interests while winning influence through reviewable negotiation.
     relationships_design: A potential court interlocutor to Elowen and municipal/merchant petitioners,
       without a prior audience or settled alliance.
+  approved_design_summary:
+    age: 39
+    role_design: Valedorn noble political figure design
+    background_design: Raised in a landholding household tradition with training in estate correspondence
+      and petitions; no specific estate, title patent, inheritance event or relatives are supplied.
+    approval_source_ref: changes/chronicles/phase2-03-government-approval.md
   source_refs:
   - entities/characters/cassian-thornmere.md
   - changes/chronicles/phase2-03-government-approval.md

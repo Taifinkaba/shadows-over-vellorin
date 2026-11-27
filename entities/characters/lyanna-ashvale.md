@@ -94,7 +94,8 @@ character_sheet:
   unspent_attributes: null
   skills:
     Guardian Sword Formation: 4/5
-  abilities: null
+  abilities:
+  - Guardian Sword Formation (recorded skill 4/5; individual maneuvers and costs unverified)
   equipment:
   - Dawnbreaker's Promise
   mount: null
@@ -112,6 +113,8 @@ character_sheet:
     - 36
     mp: null
   historical_personal_cash: 12 gp 6 sp
+  capability_evidence:
+    mana_evidence: Known personal maximum 110 MP. Current MP and individual ability costs are unverified.
   source_refs:
   - entities/characters/lyanna-ashvale.md
   - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md

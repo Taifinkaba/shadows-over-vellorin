@@ -110,5 +110,9 @@ HISTORICAL_LINK_REVISIONS = json.loads(
     DAY196_MANIFEST.with_name('historical-reference-links-revisions.json').read_text()
 )['revisions']
 
+CHARACTER_ENRICHMENT_REVISIONS = json.loads(
+    DAY196_MANIFEST.with_name('character-sheet-enrichment-revisions.json').read_text()
+)['revisions']
+
 # Current-owner lookups use the latest digest; preservation checks walk both windows.
-YEAR853_REVISIONS = YEAR853_HOLLOW_VEIL_REVISIONS | WESTBRIDGE_REVISIONS | DAY52_CLEANUP_REVISIONS | HISTORICAL_LINK_REVISIONS
+YEAR853_REVISIONS = YEAR853_HOLLOW_VEIL_REVISIONS | WESTBRIDGE_REVISIONS | DAY52_CLEANUP_REVISIONS | HISTORICAL_LINK_REVISIONS | CHARACTER_ENRICHMENT_REVISIONS

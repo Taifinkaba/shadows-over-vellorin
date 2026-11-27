@@ -134,6 +134,12 @@ character_sheet:
     goals: Support safe passage, fair cargo handling and competent oversight within actual crew/resources.
     relationships_design: Potential professional contacts with merchants, dock workers and inspectors;
       no completed negotiation, crew assignment or meeting with Theron.
+  approved_design_summary:
+    age: 34
+    role_design: River-service captain design; no existing office assigned
+    background_design: Maritime/river craft household experience informs navigation and cargo discipline;
+      no named vessel, crew, command commission or previous investigation is supplied.
+    approval_source_ref: changes/chronicles/phase2-03-government-approval.md
   source_refs:
   - entities/characters/selene-harrow.md
   - changes/chronicles/phase2-03-government-approval.md

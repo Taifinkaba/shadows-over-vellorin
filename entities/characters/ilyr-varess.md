@@ -37,7 +37,9 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Magical memory preservation
+  - Repository administration
   abilities: null
   equipment: null
   mount: null
@@ -46,6 +48,14 @@ character_sheet:
   assessment: null
   recorded_context: Former Mirror Repository director and voluntary collaborator,
     last played at Westbridge Grand Council.
+  capability_evidence:
+    mana_evidence: Magical memory preservation expertise is established. The record leaves personal
+      casting and artifact-mediated practice distinct.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Non-invasive memory conservation
+    - Archive artifact safety
   source_refs:
   - changes/chronicles/year853-day52.md
 ```

@@ -43,7 +43,8 @@ character_sheet:
   equipment: null
   mount: null
   personal_cash: null
-  relationships: null
+  relationships:
+    younger_brother: alaric-voss
   assessment: null
   recorded_context: Theron rescued Elyrian alive from failed temporal containment
     at the Observatory of First Light. Elyrian identified Alaric Voss as his younger

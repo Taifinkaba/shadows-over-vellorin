@@ -22,7 +22,7 @@ character_sheet:
   ancestry: null
   sex: null
   age: null
-  role: null
+  role: Cooperating detainee at last verified observation
   rank: null
   level: null
   hp: null

@@ -40,7 +40,8 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Milling
   abilities: null
   equipment: null
   mount: null

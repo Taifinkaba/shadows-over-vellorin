@@ -101,7 +101,8 @@ character_sheet:
     Swordsmanship: 3/5
     Endurance: 3/5
     Mounted Combat: 1/5
-  abilities: null
+  abilities:
+  - Controlled Dragon Essence (F Rank, Level 3 certification; separate from personal MP)
   equipment:
   - Sword
   - shield
@@ -122,6 +123,9 @@ character_sheet:
     level: 3
     certification: Controlled Dragon Essence
   accounted_recent_earnings_cp: 7500
+  capability_evidence:
+    mana_evidence: Recorded zero personal MP. Dragon Essence certification does not grant personal
+      MP.
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

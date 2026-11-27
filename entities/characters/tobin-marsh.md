@@ -62,6 +62,10 @@ character_sheet:
   specializations:
   - navigation
   accounted_recent_earnings_cp: 6050
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Supervised mission assessment
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

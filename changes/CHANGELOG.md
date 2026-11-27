@@ -1,3 +1,7 @@
+# Character sheet evidence and assessment proposals
+
+Added sourced capabilities, relationships, equipment, and approved design summaries to character sheets. Suggested assessment ranges and specialties are labeled proposals. Recorded personal pools, demonstrated magic, magical aptitude, and item-mediated effects remain distinguishable.
+
 # Historical checkpoint and ledger links
 
 Routed historical handoffs, verification entries, and selected chronicles to their matching archived checkpoints and ledgers. Marked earlier resume notes as historical.
