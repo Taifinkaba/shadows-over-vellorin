@@ -4,11 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
 # Talia Fen
+
+## Year 853 Day 52
+
+Independent Guild progression unchanged. Accounted recent personal earnings are 91.5 GP after 55 GP in new proceeds. No new purchase was posted.
 
 Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct from [DSI enrollment](../factions/dragon-slayer-academy.md).
 
@@ -103,7 +108,9 @@ character_sheet:
     Earlier measurements retain their original provenance.
   age_category: Adult
   guild_status: Guild E, supervised contracts
+  accounted_recent_earnings_cp: 9150
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/talia-fen.md
   - changes/chronicles/year848-suncrest262-end-session.md

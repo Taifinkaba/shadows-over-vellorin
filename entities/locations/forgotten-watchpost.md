@@ -4,9 +4,14 @@ type: locations
 status: active
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
+
+## Year 853 Day 52
+
+Restricted access and existing defense instructions continue. The concealed arch remains unopened. The Unclaimed Voice and release authority remain unresolved.
 
 # Forgotten Watchpost
 

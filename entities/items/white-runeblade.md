@@ -4,6 +4,7 @@ type: items
 status: gm-secret-locked
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day365-end-session.md
   - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
@@ -14,6 +15,10 @@ source_refs:
 ---
 
 # White matched blade
+
+## Year 853 Day 52
+
+White matched blade, forged by Gareth for Lady Isolde Vaeren through Winterglass Private Trust. Separate frost-line dragon donor unknown. Inscription **...ITS REFLECTION SHALL REMEMBER THE WAY.** HC-17 documents transport to the Mirror Repository. Later physical custody before recovery during Lyanna’s abduction investigation remains unresolved. Theron holds it pending review. Damage is unverified. Reflection preserves oath memory and intention in Threshold Covenant research.
 
 Recovered during Lyanna’s first-dungeon abduction investigation; held by Theron. Complementary inscription and matched workmanship. **GM-only:** same smith, separate commission, different frost-line dragon donor. Exact former owner, commissioner, physical age and custody history unverified.
 

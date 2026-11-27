@@ -4,6 +4,7 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
@@ -11,6 +12,10 @@ source_refs:
 ---
 
 # Sovereign Expedition Wagon — Day 196 identity
+
+## Year 853 Day 52
+
+This vehicle has a separate 60 MP reservoir. Current charge and location are unverified. Historical inventories and identities are preserved.
 
 The original expedition vehicle remains distinct from the [Vanguard](vanguard-wagon.md) and the [Ashvale Lodge supply wagon](ashvale-wagon.md). Its original finite reservoir and configuration carry forward. The [checkpoint](../../state/checkpoint.json) records its mana separately. The ruling establishes current identity. Historical movement and any earlier attribution to the supply wagon remain unverified.
 

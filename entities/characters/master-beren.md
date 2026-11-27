@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
@@ -11,6 +12,10 @@ source_refs:
 ---
 
 # Master Beren
+
+## Year 853 Day 52
+
+Independent academy management in Greyhaven Valley, including recruitment, eligibility, finance, professional development and dormitory oversight.
 
 Assists the Greyhaven Valley academy pilot. No additional role, lineage or powers supplied.
 

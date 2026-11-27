@@ -7,6 +7,7 @@ checkpoint_values:
   world.vaeltharion_chains_attached: 0
   world.protective_anchors_retained: 7
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/design-proposals/ancient-dragon-humanoid-forms.md
 - changes/chronicles/year852-day1-end-session.md
@@ -32,6 +33,10 @@ Free and independent academy cofounder. Independently observed the introductory 
 ## Earlier record
 
 # Vaeltharion
+
+## Year 853 Day 52
+
+Free at Hollow Veil and directly instructing the four independent DSI disciples. Seven protective anchors remain. The new instruction grounds are unconfirmed as the historical temple. No new scale donation, essence offer or service is recorded.
 
 Ancient black-steel/silver-frost dragon with amber eyes; independent consenting guardian of Hollow Veil. Physically freed from all seven coercive chains; **zero attached chains, seven protective anchors retained**. Covenant based on consent. Sanctuary later functioned without continuous Theron mana under observed conditions; this does not establish universal independence under all stresses.
 

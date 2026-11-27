@@ -123,7 +123,13 @@ def validate_magic_combat(root,records,require,repository_file,unique_json):
     for name in ('Deep Mend','Greater Healing'):check(name not in costs,'new governing spell evidence needs explicit conflict review')
     check('Ordinary discount is now40%' in spells,'governing discount revision missing')
     ability=(root/'entities/mechanics/theron-abilities.md').read_text();skills=(root/'entities/mechanics/theron-skills.md').read_text()
-    check('24 personal MP per uninterrupted10 minutes' in ability and 'capped400' in ability and 'usable ambient mana' in ability,'assimilation source/rate/cap changed')
+    if '## Year 853 Day 52' in ability:
+        standing_rule = ability.split('## Year 853 Day 52', 1)[1].split('## ', 1)[0]
+        check(all(term in standing_rule for term in ('24 personal MP per uninterrupted ten-minute interval',
+              'current maximum personal MP', 'usable ambient mana', 'uninterrupted concentration')),
+              'assimilation source/rate/cap changed')
+    else:
+        check('24 personal MP per uninterrupted10 minutes' in ability and 'capped400' in ability and 'usable ambient mana' in ability,'assimilation source/rate/cap changed')
     check('Chronos Eye' in skills and 'LOCKED' in skills and 'Dragon Slayer' in skills,'locked progression source missing')
     check(d['recovery_policy']==dict(owner_ref='theron-abilities',personal_only=True,automatic_recovery=False),'no cross-pool/automatic recovery')
     check(d['equipment_owner_refs']==EQUIPMENT,'equipment identity/resource ownership differs')
@@ -165,7 +171,7 @@ def audit(root):
                          'character-sheet-authority-revisions.json', 'year851-day160-authority-revisions.json',
                          'year852-day1-authority-revisions.json', 'dragon-humanoid-reference-revisions.json',
                          'twin-sword-authority-revisions.json', 'year852-day365-authority-revisions.json',
-                         'year853-authority-revisions.json'):
+                         'year853-authority-revisions.json', 'year853-day52-authority-revisions.json'):
             session_manifest = manifest.with_name(filename)
             revisions = json.loads(session_manifest.read_text())['revisions'] if session_manifest.is_file() else {}
             for path in set(expected) & set(revisions):

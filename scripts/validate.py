@@ -139,6 +139,7 @@ def copper(value, label="currency"):
     return gp * 100 + sp * 10 + cp
 
 
+WESTBRIDGE_SOURCE = "changes/chronicles/year853-day52.md"
 YEAR853_SOURCE = "changes/chronicles/year853-end-session.md"
 
 
@@ -146,6 +147,7 @@ def validate_state(state):
     version = state.get("schema_version")
     v6 = type(version) is int and version == 6
     year853 = v6 and state.get("source") == YEAR853_SOURCE
+    westbridge = v6 and state.get("source") == WESTBRIDGE_SOURCE
     v5 = type(version) is int and version == 5
     v4 = type(version) is int and version == 4
     dated = v4 or v5 or v6
@@ -193,17 +195,17 @@ def validate_state(state):
             for ident, capacity in (("vanguard-wagon", 120), ("ashvale-wagon", 80)):
                 pool = refits[ident]
                 keys(pool, {"current", "max"}, f"{ident} mana")
-                if year853:
+                if year853 or westbridge:
                     require(pool["current"] is None, f"{ident}: closing reservoir unverified")
                 else:
                     integer(pool["current"], f"{ident} current mana")
                 integer(pool["max"], f"{ident} maximum mana")
-                require(pool["max"] == capacity and (year853 or pool["current"] <= pool["max"]), f"{ident}: independent reservoir capacity")
-        unknown_pools = {"staff_mp", "wagon_mp"} if year853 else set()
+                require(pool["max"] == capacity and (year853 or westbridge or pool["current"] <= pool["max"]), f"{ident}: independent reservoir capacity")
+        unknown_pools = {"staff_mp", "wagon_mp"} if year853 else {"wagon_mp"} if westbridge else set()
         for field in RESOURCES - {"chronos_eye_locked", "dragon_slayer_locked"} - unknown_pools:
             integer(resources[field], f"resources.{field}", 1 if field.endswith("_max") else 0)
         for pool in ("staff", "wagon"):
-            if year853:
+            if f"{pool}_mp" in unknown_pools:
                 require(resources[f"{pool}_mp"] is None, f"resources: {pool} closing charge unverified")
             else:
                 require(resources[f"{pool}_mp"] <= resources[f"{pool}_mp_max"], f"resources: {pool} mana exceeds maximum")
@@ -307,6 +309,12 @@ def validate_state(state):
 def validate_finance_ledger(root, state):
     """Validate the separately authoritative current cash ledger, without floats."""
     ledger = read_json(root / "state/finance-ledger.json")
+    if state['source'] == WESTBRIDGE_SOURCE:
+        if __package__:
+            from .session_westbridge import validate_finances
+        else:
+            from session_westbridge import validate_finances
+        return validate_finances(root, state, ledger)
     if ledger.get('schema_version') == 8:
         if __package__:
             from .finance_year853 import validate_year853

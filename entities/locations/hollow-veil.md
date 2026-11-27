@@ -4,6 +4,7 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/legacy-modules/codex/04-system-4-geography-travel-atlas.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -13,6 +14,10 @@ source_refs:
 ---
 
 # Hollow Veil sanctuary
+
+## Year 853 Day 52
+
+The four Dragon Slayer disciples are training here under Vaeltharion. See the distinct [Ancient Dragon Instruction Grounds](ancient-dragon-instruction-grounds.md) and [historical temple inquiry](../quests/ancient-dragon-temple.md).
 
 Vaeltharion’s sanctuary at Mount Vaelspire. Seven coercive chains removed, seven protective anchors retained. Guardian covenant based on consent. Later observed functioning without continuous Theron mana; observed conditions do not prove unrestricted stability. Day46 chain/junction state and artwork are historical. Dragon’s current precise location unverified.
 

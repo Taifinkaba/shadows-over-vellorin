@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
@@ -42,6 +43,18 @@ Damage, resistances, movement modifiers, spell costs and prior independent caree
 ## Earlier record
 
 # Elias Renn
+
+## Year 853 Day 52
+
+Dragon Slayer F Level 3, earned through observed training at Hollow Veil. Guild E and general Level 2 remain unchanged. Current HP/MP were not freshly measured. Accounted recent earnings remain 97 GP.
+
+- HP maximum: 32.
+- MP maximum: 10.
+- DEF: 13.
+- STR 11, DEX 13, CON 13, INT 15, WIS 14, CHA 12.
+- Mount: Bramble.
+- Demonstrated coordinated defensive leadership.
+- Maintained independent essence control.
 
 Adult participant in the Greyhaven Valley academy pilot day school. No additional biography or powers established.
 
@@ -97,9 +110,9 @@ character_sheet:
   role: Field Captain
   rank: E
   level: 2
-  hp: 32
+  hp: null
   hp_max: 32
-  mp: 10
+  mp: null
   mp_max: 10
   defense: 13
   equipped_defense: null
@@ -142,7 +155,13 @@ character_sheet:
     artwork_ref: artwork/character-references/elias-renn.png
   age_category: Adult
   guild_status: Guild E, supervised contracts
+  dragon_slayer:
+    rank: F
+    level: 3
+    certification: Controlled Dragon Essence
+  accounted_recent_earnings_cp: 9700
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/elias-renn.md
   - changes/chronicles/character-reference-design-approval.md

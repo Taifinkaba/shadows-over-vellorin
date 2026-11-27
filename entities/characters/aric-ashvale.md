@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
@@ -20,6 +21,10 @@ source_refs:
 ---
 
 # Aric Ashvale — Day156 current canon
+
+## Year 853 Day 52
+
+Westbridge sword origins and Ashvale inquiry.
 
 Informed on return Year848 Suncrest36 Day156; family safe at home. No invented intervening travel or additional outcome.
 

@@ -94,6 +94,13 @@ YEAR852_CLOSE_REVISIONS = json.loads(
     DAY196_MANIFEST.with_name('year852-day365-authority-revisions.json').read_text()
 )['revisions']
 
-YEAR853_REVISIONS = json.loads(
+YEAR853_HOLLOW_VEIL_REVISIONS = json.loads(
     DAY196_MANIFEST.with_name('year853-authority-revisions.json').read_text()
 )['revisions']
+
+WESTBRIDGE_REVISIONS = json.loads(
+    DAY196_MANIFEST.with_name('year853-day52-authority-revisions.json').read_text()
+)['revisions']
+
+# Current-owner lookups use the latest digest; preservation checks walk both windows.
+YEAR853_REVISIONS = YEAR853_HOLLOW_VEIL_REVISIONS | WESTBRIDGE_REVISIONS

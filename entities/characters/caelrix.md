@@ -4,11 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 ---
 
 # Caelrix
+
+## Year 853 Day 52
+
+Independent Westbridge research support. Bond remains 5/5.
 
 Independent, voluntarily bonded time spirit; Theron bond 5/5. Examined the original oath and used finite defensive magic with Theron to stabilize the First Hour release. No unlimited mana or time powers.
 

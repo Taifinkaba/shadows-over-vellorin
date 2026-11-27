@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
@@ -19,6 +20,10 @@ Masterwork Runic Engineering 5/5 and Coordinated Anti-Dragon Defense 5/5 are mas
 ## Earlier record
 
 # Theron: verified skills
+
+## Year 853 Day 52
+
+Spirit Mana Assimilation II restores **24 personal MP per uninterrupted ten-minute interval**, capped at the user’s current maximum personal MP (Theron currently 410). Requires usable ambient mana and uninterrupted concentration. Staff and wagon pools and HP are unaffected. The former 400 MP cap stays historical. The two 12 MP resonance trial costs belong to those procedures only.
 
 Core mastered skills preserved from the Day46 mechanics ledger; later specializations are separate tracks.
 

@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
@@ -20,10 +21,18 @@ source_refs:
 - changes/chronicles/year848-day181-endpoint-adoption.md
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 checkpoint_values:
-  money.total_gp_sp: 271870gp
+  money.total_gp_sp: 275718gp
   money.provisional_historic_gp_sp: 9gp 1sp 14cp
   money.office_petty_gp_sp: 6gp 4sp
 ---
+
+# Party finances
+
+## Year 853 Day 52
+
+The controlled treasury is 275,718 GP (27,571,800 CP). Eleven paid Westbridge contracts generated 4,500 GP gross, 450 GP commission and 4,050 GP net rewards. Other paid expenses totaled 202 GP, leaving a net session gain of 3,848 GP. DSI, students and other excluded holdings remain separate. Use the [controlled ledger](../../state/finance-ledger.json) for postings.
+
+## Earlier records
 
 ## Year 851 Day 160 close
 

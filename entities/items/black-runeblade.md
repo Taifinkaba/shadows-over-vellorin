@@ -4,6 +4,7 @@ type: items
 status: gm-secret-locked
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day365-end-session.md
   - changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md
@@ -14,6 +15,10 @@ source_refs:
 ---
 
 # Black Dragon-Scale Runeblade
+
+## Year 853 Day 52
+
+Black Dragon-Scale Runeblade, legendary shortsword, established damage 1d8+3. Aric commissioned it from Gareth Vaelwright, using scales a living black-and-silver Frostspire dragon donated willingly. Its identity is open. Inscription **WHEN WINTER GUARDS THE THRESHOLD...**. Guardian is a protective oath principle within Threshold Covenant research. The two controlled resonance observations grant no bonus.
 
 Legendary shortsword 1d8+3; Aric commissioned from one master smith using scales willingly gifted by a living black-and-silver Frostspire dragon. Theron owns it. Same smith made white blade in separate commission from a different frost-line dragon. **Last sentence GM-only truth; Theron does not yet know.**
 

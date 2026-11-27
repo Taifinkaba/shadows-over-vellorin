@@ -1,3 +1,51 @@
+# Next-chat handoff — Year 853 Day 52
+
+**PAUSED · 8:00 PM | Westbridge Grand Council, private meeting room.** Await the player’s instruction. [Checkpoint](checkpoint.json) · [Chronicle](../changes/chronicles/year853-day52.md) · [Verification queue](open-verifications.md)
+
+- Theron is S+ Level 6 with HP 104/104, personal MP 410/410 and Nexus 180/180. Both locks remain. Closing mask configuration and wagon locations and charges remain unverified.
+- Theron controls 275,718 GP. Academy accounted cash is 1,225 GP, separate from Theron and from students’ 768 GP in recent accounted earnings. Independent developments require reports before Theron knows them.
+- Marek was recovered and is independently protected. Seren and Ilyr participated voluntarily. HC-17 and LW-04 are distinct leads in the existing Ashvale investigation. Two paired blade trials succeeded within controlled conditions. Lyanna’s rescue and memory restoration remain complete.
+
+Current scene:
+
+**Year 853 · Day 52 · 8:00 PM | Westbridge Grand Council**
+
+Theron is with the expedition following the Mirror Repository investigation and the successful paired resonance trials.
+
+The next proposed operation is the Ashvale Dossier.
+
+Available objectives:
+
+#### A. Recover the authorization appendix
+
+Identify the responsible patron and investigate the missing LW-04 documentation.
+
+#### B. Continue the established Ashvale conspiracy investigation
+
+Compare the new evidence against AV-07, V-9, A-07, Halric Dene, Darian Kestrel and other established participants.
+
+Consult Lyanna voluntarily through appropriate communication.
+
+#### C. Continue twin blade research
+
+Investigate stable paired resonance, Threshold Covenant principles and the Eclipse Sovereigns project without inventing an unlocked power.
+
+#### D. Offer research collaboration
+
+Discuss voluntary positions with Ilyr and Seren supporting historical research, the Observatory or the estate library.
+
+No recruitment, salary or employment agreement has occurred yet.
+
+#### E. Combined Ashvale Dossier operation
+
+Pursue compatible objectives in parallel, prioritizing actual resolution of the existing conspiracy.
+
+The player has not selected a new operation after the reconciliation.
+
+Do not automatically execute these objectives.
+
+## Historical Year 853 Hollow Veil close
+
 # Next-chat handoff — Year 853, Hollow Veil
 
 The session **ENDED** in the evening at Hollow Veil sanctuary, Mount Vaelspire, after the Trial of the Ancient Grounds. Day 28 is the last explicitly numbered day. Closing date and clock time remain unknown. Await the player’s instruction. [Checkpoint](checkpoint.json) · [Chronicle](../changes/chronicles/year853-end-session.md)

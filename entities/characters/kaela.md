@@ -4,12 +4,25 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
 # Kaela
+
+## Year 853 Day 52
+
+Dragon Slayer F Level 3, earned through observed training at Hollow Veil. Guild E and general Level 2 remain unchanged. Current HP/MP were not freshly measured. Accounted recent earnings remain 90.5 GP.
+
+- HP maximum: 29.
+- MP maximum: 12.
+- DEF: 15.
+- STR 11, DEX 16, CON 12, INT 12, WIS 14, CHA 11.
+- Mount: Cinder.
+- Demonstrated controlled essence during movement.
+- Improved simulated dragon attack recognition.
 
 Player-confirmed academy assessment, Suncrest 260–262. Guild registration is distinct from [DSI enrollment](../factions/dragon-slayer-academy.md).
 
@@ -73,9 +86,9 @@ character_sheet:
   role: Scout
   rank: E
   level: 2
-  hp: 29
+  hp: null
   hp_max: 29
-  mp: 12
+  mp: null
   mp_max: 12
   defense: 15
   equipped_defense: null
@@ -108,7 +121,13 @@ character_sheet:
     Earlier measurements retain their original provenance.
   age_category: Adult
   guild_status: Guild E, supervised contracts
+  dragon_slayer:
+    rank: F
+    level: 3
+    certification: Controlled Dragon Essence
+  accounted_recent_earnings_cp: 9050
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/kaela.md
   - changes/chronicles/year848-suncrest262-end-session.md

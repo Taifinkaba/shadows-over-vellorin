@@ -4,6 +4,7 @@ type: factions
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
@@ -42,6 +43,10 @@ The four horse owners completed injury-free introductory mounted training on Sun
 ## Earlier record
 
 # Dragon Slayer Academy / Initiative
+
+## Year 853 Day 52
+
+19 students, 10 Guild-registered adventurers, six probationary recruits and five waitlisted applicants. Guild progress is unchanged. Six registered non-disciples earned income from four independent contracts. Current separate accounted cash is 1,225 GP, including 1,140 GP in remaining allocations and 85 GP unallocated. Across students, accounted recent earnings total 768 GP. Use the [academy ledger](../../state/dsi-finance-ledger.json) for individual proceeds and exclusions. Dormitory inspection found foundation preparation complete and framing underway. Only the 60 GP deposit was paid. Theron has not received the dormitory or Buried Lantern Hall reports.
 
 Launched in Greyhaven Valley; pilot day school, Vaeltharion Dragon Master and Theron cofounder. Elias Renn adult participant; Mira Thorne minor day student with guardian Maera; Master Beren and Maera assist. Do not confuse Mira Thorne with lodge helper Mira15.
 

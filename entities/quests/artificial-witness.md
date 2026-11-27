@@ -4,6 +4,7 @@ type: quests
 status: active
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
@@ -11,6 +12,10 @@ source_refs:
 ---
 
 # Counterfeit Witness
+
+## Year 853 Day 52
+
+Investigate possible relationships among the Hollow Crown research, LW-04, AV-07, V-9 and the artificial Witness using played evidence. LW-04’s subject and authorization appendix, the remaining V-9 case, the Northern Witness Index and E-R-7 remain open.
 
 ACTIVE. Artificial Witness 89% complete at older checkpoint, counterfeit authority revoked in one channel. Current status needs fresh evidence.
 

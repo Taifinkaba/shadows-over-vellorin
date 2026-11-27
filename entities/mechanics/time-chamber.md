@@ -4,12 +4,17 @@ type: mechanics
 status: research
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/session-handoffs/year852-day1-user-handoff.txt
 ---
 
 # Time Chamber
+
+## Year 853 Day 52
+
+Occupied: 2× supervised, 5× up to eight internal hours, 10× up to one internal hour. Unmanned: 15× experimental and 20× repeated up to four internal hours. Above 20× unverified. Long-term target 525,600×. Physical acceleration, subjective time and aging remain distinct.
 
 Restored Chamber Seven at the [Observatory of First Light](../locations/observatory-of-first-light.md).
 

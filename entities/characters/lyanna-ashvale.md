@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
@@ -24,6 +25,10 @@ Ashwing remains independent and owns Dawnbreaker’s Promise.
 ## Earlier record
 
 # Lyanna Ashvale — Day156 current canon
+
+## Year 853 Day 52
+
+Rescue and voluntary memory restoration are complete. Independent Witness standing and Dawnbreaker’s Promise remain hers. Current location, HP and MP are unverified, and her funds remain separate. Her request for justice without losing oneself stands. Any future participation is voluntary.
 
 Owns Dawnbreaker's Promise; no duplicate purchase or charge. Party home, family safe. Three restored memory vessels are Lyanna's, not three distinct people. Hidden protective information is separately GM-only and is not her knowledge.
 

@@ -4,8 +4,17 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+# Night Sovereign
+
+## Year 853 Day 52
+
+Last observed worn during the Blackscale investigation. No removal was narrated. Exact closing configuration is unverified. DEF 51 requires it together with Frostguard Bracers.
+
+## Earlier records
 
 # Night Sovereign — Day156 current canon
 

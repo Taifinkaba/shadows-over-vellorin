@@ -1,0 +1,317 @@
+{
+  "source_ref": "changes/chronicles/year853-day52.md",
+  "revisions": {
+    "README.md": {
+      "before_sha256": "d0f85e270bee6a79addf3188b3a34c97feedd144815631d807f182faa1bb122f",
+      "after_sha256": "9d862bd4c7bfad3f6ba95b460c778f657fab6ae6f67a8e62dafd7021576003c6"
+    },
+    "archive/README.md": {
+      "before_sha256": "e7fabe6f0d9afaa374945b5bf29e366e4c5f4327ae79a893672419e5c05333da",
+      "after_sha256": "10dfd78b4b013fef85aaabe605e87e36f61776995c822766c5eddf633e3bcdb5"
+    },
+    "changes/CHANGELOG.md": {
+      "before_sha256": "5d4124103812ca43c3103a25ff199476e636d6ce75c0ac2b70d0b9254bd4c430",
+      "after_sha256": "f02e35fb467e13031590996856f6ff485f99b346ea6699910b5eee8710f6d685"
+    },
+    "docs/campaign-calendar.md": {
+      "before_sha256": "2edcf99f3cdab9bb47bfe96afe1caa02ac7d15ec265d71d636ab5c2b876ca2e1",
+      "after_sha256": "3ee1e154b7a9f15dff8d7ba48a1f1b9d1b6e3c9ec688f00eaee076fb3198b633"
+    },
+    "docs/narration-format.md": {
+      "before_sha256": "716aba54b9254859a6463bc808cb2e4117eff72f81ebf556ea2a3e6e87cb8e34",
+      "after_sha256": "45b24a4fd11266f6021a5733b3b7957650b8c1c0848d869081a91ae09a5f6bbb"
+    },
+    "docs/validation.md": {
+      "before_sha256": "a5fc22bf225ce808c96bef10e0f184c5f0c7ec249661c04b82984455df0aa68a",
+      "after_sha256": "5d0a06810e3266d01748601626bd084c3479994979e55b046b33d67f1bb90881"
+    },
+    "entities/characters/aric-ashvale.md": {
+      "before_sha256": "88794327377cb48542ffc688e8751ee099c57ae1f8d0c76b15d615026cf0704a",
+      "after_sha256": "12fbbf721f216b49a938f0bc0a4e8353f2b0aaf02cef8075b050e6fa55b264ec"
+    },
+    "entities/characters/bren.md": {
+      "before_sha256": "427fe1c4d070381d6c4017c80c348fd1dd17ecd50604ba6527202586d9cf8679",
+      "after_sha256": "afd31bfe78e627090bfc9de9874846cd76f3f2c09187dc05e1923c5d0fb71934"
+    },
+    "entities/characters/caelrix.md": {
+      "before_sha256": "0a797176cdba861d7c8d2f765413bf2b99a4d495dee3217fb2a66b9b9693d7e0",
+      "after_sha256": "823292a77899a0860b8a994131cd8151817165245c6a0ce452386b05553ca2b3"
+    },
+    "entities/characters/dalen-reed.md": {
+      "before_sha256": "995cc18cd7f4c160c2bc222b4a782ba9d76f0198560947c39962a3e04d42afa7",
+      "after_sha256": "14a3fd892e9a8bdd3ccb5af4fd0db39ca1fcd06ad8741ab2684a7f1021ecd5f3"
+    },
+    "entities/characters/elias-renn.md": {
+      "before_sha256": "fba8b29ad6fddf60872411c9f3523a8d20f2cdc6b27edeee1ee04f7d9facdd50",
+      "after_sha256": "41c9ce9919dcdc4297c02c968a98bd42e370bd40594456ca499e68f7c0a6e036"
+    },
+    "entities/characters/elowen-briar.md": {
+      "before_sha256": "dfbc383a2d2b93b14c4f40d9890d4dd4dd7e53481d8e298273c51626143532e6",
+      "after_sha256": "77843d2093021dbbd3f764684e1426484187882b117c724948ae6d72ed77ec5a"
+    },
+    "entities/characters/gareth-vaelwright.md": {
+      "before_sha256": "2f99dc2e27c1fc3f3508f7c54ea2538ef6f540ae34e85c0f35d46a6b4b568e68",
+      "after_sha256": "5cc599e78791cba1d744982bd13c05ee97b6548777619e90cb9e472220361bad"
+    },
+    "entities/characters/garrick-vale.md": {
+      "before_sha256": "4a70db8318dc0a7eaee07f86a2787bef790b7a3c58e02bf6e87efd7091b9199d",
+      "after_sha256": "7132e73b85a2182d51ac1c87e2c1f9ba894262c479e33158c151ba0cef595dd8"
+    },
+    "entities/characters/gorren.md": {
+      "before_sha256": "3edd0fe5c36a030b2b1ca3ba69e222c856bacdb44901719276d25a6e3a3511f7",
+      "after_sha256": "57f56618730c6e0bfde98ebe20a75fe3259e8a8b87e1cd6eb152271b33074612"
+    },
+    "entities/characters/kaela.md": {
+      "before_sha256": "034f1652c9a48766b610dff1ff51544f029dabb924d78307c9def30ea327a6f1",
+      "after_sha256": "77271b9fcb096f413f8f02e55c7315feaf976685fc45a98feade5045c581d954"
+    },
+    "entities/characters/lyanna-ashvale.md": {
+      "before_sha256": "f3fe87cbcb4eafa2b3a8a9d2a691e1edcf6fc8e9e60235fe11edc17829cfe15c",
+      "after_sha256": "016024d091bbeb02525c15d4da00dc9879403e9082186431926bcec2ceba5b6c"
+    },
+    "entities/characters/lyra-moonvale.md": {
+      "before_sha256": "162a78f092d9b92fc6ef7dc168b14433b7aa03f3df96f122122d9087c7e7479e",
+      "after_sha256": "d6604fbeadc564bed3b9f4bc3ea3a4c024d82c45a58247a06210103de254d5c7"
+    },
+    "entities/characters/maeryn-sol.md": {
+      "before_sha256": "021e531ef2a6561e1c7285988fa56d1ee3c4010a51d3f5c625d19a49ffcca016",
+      "after_sha256": "607acf3662242b7dbe5a50d926db952a8321352c82ca393ec93e64c355538fc7"
+    },
+    "entities/characters/marek-dorne.md": {
+      "before_sha256": "95b10d516ee15a68b686fe4cec93e7fa5706903b9bbae7fa62b1b07acc06db12",
+      "after_sha256": "5973ea57d95895f180bb061eff1107ca167da837f59c1cf906de3534ba632191"
+    },
+    "entities/characters/master-beren.md": {
+      "before_sha256": "d490dfaf46be9616b875a965112c7ac4af683571f03b9ed8c224f5bca8a5df4b",
+      "after_sha256": "0a14885984ad344f62352f668a0856294cd29f1ed9324385168b18973714ab99"
+    },
+    "entities/characters/nessa.md": {
+      "before_sha256": "258e86c97ae98d0a0e933bc972c5f2d352f1e4ecc2201d6bde0fdefa7b82b15c",
+      "after_sha256": "16caa65d2baf7b52a16c80c4eef5233f42ac767ed5179ae832bcda38f8d78f37"
+    },
+    "entities/characters/nyx-thorne.md": {
+      "before_sha256": "a4ebe7c5411aefb170cc438903745476533d2579f5fdd9cf679b1227858ee363",
+      "after_sha256": "0f50ff195ccd1d2cd28cb62b96e600f4a448843abf0e361788dda603360c1c03"
+    },
+    "entities/characters/rowan-hale.md": {
+      "before_sha256": "5880925475359e38f2fdb11c1c6de82f497f6cd461a00a0027600d5d6ca9228b",
+      "after_sha256": "b7406d92aa8689cb33a9089787d29a9d7da9c981172b924d5efbc07ff435c39f"
+    },
+    "entities/characters/sera-willow.md": {
+      "before_sha256": "bdb4d39e63089bea45cbad025e1ac8d04151e54325b7314eba1f44d04e4bc644",
+      "after_sha256": "cb679f4ea2f6862a8ce4ca2a2a6cb4007b8cc3b89836460ed14199c5812e2ae1"
+    },
+    "entities/characters/talia-fen.md": {
+      "before_sha256": "85ba7cdf487280b6fc91c826d0dfc1117dbd1ad6868db25496e5ecb50f732df9",
+      "after_sha256": "7edf227a134befe2d666143487c6b14c0447f0f69904f5913b58c94749dded68"
+    },
+    "entities/characters/theron-ashvale.md": {
+      "before_sha256": "14839470f2e09fb4a718cd5a361d5d6005709a8ce56e1fa54d9711b1bec2706c",
+      "after_sha256": "021ff39b1e3521e0c60b86b9bba535a3d47b026b60c4a58760c1d5d4223d1501"
+    },
+    "entities/characters/tobin-marsh.md": {
+      "before_sha256": "9ea0f7d15f7cf25e0213ee237b7b0cda74021d8e7ac22627e8ad999927e89ec6",
+      "after_sha256": "10ed578c5b3326b61fddafa5c5494bc51e0bd42a2cd812a62625c36936b2f22d"
+    },
+    "entities/characters/tomas.md": {
+      "before_sha256": "31721fb71c9a19466c86c69b4be836f6c5b74058ab7ce84c171790ff0e2d0212",
+      "after_sha256": "23b040d6f8b7bda61f68a40bbfb103db2aa20fb6445195ca2a80fbfb5ecdc57a"
+    },
+    "entities/creatures/aurelith.md": {
+      "before_sha256": "6287e069b020b1ce5674ee9854dc5aeda0782da9016ea0938690e02ab0f3cd64",
+      "after_sha256": "07e3cb3f12b1c1d67f5c9900366ffbb54375aabc3889b0062e85496ed9018679"
+    },
+    "entities/creatures/rhavoryx.md": {
+      "before_sha256": "c26dab565f13b67ba7ba775643fcb875b768bbef47946e42fb3174bf05b846f8",
+      "after_sha256": "c4e01fd1a1632592c1e548190f5406743a9261c8981203382caeb1c288a174ec"
+    },
+    "entities/creatures/sylmerath.md": {
+      "before_sha256": "c5e9bdc3ebc23cda272761bf21f58d6befe11744997f3ca98421714a72855bc8",
+      "after_sha256": "1412ef8a14848ed74a6123340fb3befa65d2e82c753fbae55798a6024e06c5da"
+    },
+    "entities/creatures/vaeltharion.md": {
+      "before_sha256": "e3907128ad19cfe2b2b4d537ecbdd2e9e1d2d3e026b03a84fdff749579a32666",
+      "after_sha256": "3b74fbaf8da553d18c65bb45baecdb32ca42a34edbba14f5295668ad19c2b70a"
+    },
+    "entities/factions/crown-black-ledger.md": {
+      "before_sha256": "1e5cc7af03c229ce301b6cd4f077c8eb7125a1ae8bc554e192da7bf1209d7384",
+      "after_sha256": "e15e843e74751c9e1fc31e77553e64ce0c1f6db605514de65bf04d05529e98db"
+    },
+    "entities/factions/dragon-slayer-academy.md": {
+      "before_sha256": "9566b5b5e245307c869243c4d6c80dfaa149c9802270f7a5a7b0df070b177244",
+      "after_sha256": "fded24dcd5927b9d8c301c1a368fc571558cebd1f55b5816ce64e7274d031e95"
+    },
+    "entities/factions/wayfarers-guild.md": {
+      "before_sha256": "4ce34c4285ca128d110b50c5fb4a2fbe367ccac4c0b025bae9dc8a10b69d1a95",
+      "after_sha256": "db048d8b0afadd74a6bd582f262d9f27db18e1030d3e2f791a10dcd0357b7b04"
+    },
+    "entities/items/ashvale-wagon.md": {
+      "before_sha256": "4787d436af80a1e669aeb51254f1630c0678248d42c0af1f8dc62f9e541a2634",
+      "after_sha256": "035b73acd1fa18d79ac10da9739f66c9014375ababf5cbd04ca35a05daf00df4"
+    },
+    "entities/items/black-runeblade.md": {
+      "before_sha256": "a072d50dd7401fa41cff7e0d7798a31610efbd5777105f4642c0f0cd4c7e6db2",
+      "after_sha256": "4b2fa2b4be57029c849d3a5265e971ef77831a5702cf0a3f04f944b1d1cfc3f3"
+    },
+    "entities/items/night-sovereign.md": {
+      "before_sha256": "e7c91138d3cf7884c58cd3a36962664d415115a89c29a70342becec7f98f602d",
+      "after_sha256": "0618133e5dff736df9c833f5dc8c74a602b0bd0fdecc7c9934716df6eecbceff"
+    },
+    "entities/items/sovereign-expedition-wagon.md": {
+      "before_sha256": "49ac924cf9916a02c668648ff7813953ae9de657a17843f075e881001b104e23",
+      "after_sha256": "79397dd131aceb7f5e1907ce6cdbeb59acb71c45fda29d280552162e5b09d898"
+    },
+    "entities/items/sovereign-nexus.md": {
+      "before_sha256": "6b9a556fc57271b791f10a7506ba5f5bc6dc01df923ea4c6682af6b881153cf9",
+      "after_sha256": "6c761d4ac1d49bead833badb15c257b7b89e847d0e28a8479edc46329b6db001"
+    },
+    "entities/items/vanguard-wagon.md": {
+      "before_sha256": "a712020eab184891bd3f465e26c948e8dcf3afc81466fa1fd99530a360ba216c",
+      "after_sha256": "bfd260c8848210dbed6111ac31e1e6f230164bc3d6fd69519abc0d401e764205"
+    },
+    "entities/items/white-runeblade.md": {
+      "before_sha256": "7067f3ec00f33a499c2dc968fb87df04bb90e1636ccd56d541f2044cb6639fa3",
+      "after_sha256": "9accab6ac3174bbfea0f6665e53d2b907437b98abab3cc977fd197913d8e5d35"
+    },
+    "entities/locations/forgotten-watchpost.md": {
+      "before_sha256": "5175229dce718ca1bd8e50daecde37ce4a7e6a8ce59bb8d4fe778205d8accc44",
+      "after_sha256": "7e01e512b2842f7b46b9fe6709cdc6d61d5f72af38770483b65c397b407bb6ff"
+    },
+    "entities/locations/hollow-veil.md": {
+      "before_sha256": "2e4c44b60bb5426f5a8b8a13c4011c19e42869fe9945b4eea52454eeb6b63e3f",
+      "after_sha256": "84064bc818ddf5daa079449edeeb42d5a03fe50f69fef78d73ce9e84d013a7e2"
+    },
+    "entities/locations/observatory-of-first-light.md": {
+      "before_sha256": "3c94febe8081b21fb8c8231fd4c29565d41116e8d04a2845959582dbce6b43d9",
+      "after_sha256": "c2bbdcde570eed3e0d3bb014d7db4163eb7aea5073d71b6eba5cdf6bd582344b"
+    },
+    "entities/mechanics/contract-registry.md": {
+      "before_sha256": "dc494d1d4201630ac1d5c9c7609775983b6b6191d35691788d60b7815ad566a7",
+      "after_sha256": "5bafc4062b795bc153ddb957b75460ee8a2048d8c0b3f75d2c20a7344142b615"
+    },
+    "entities/mechanics/dsi-independent-mission-history.md": {
+      "before_sha256": "6a4140ca72e6e8ce9e4b3a20486c9b2ae294f3525859382790591ca20cdb5817",
+      "after_sha256": "8fab943688eaa2f4ba744644de1cc2e1a2059d98682cd61118d9c930ee977b2c"
+    },
+    "entities/mechanics/independent-assignments.md": {
+      "before_sha256": "e4ca7ff6a051fd267cd9883388ed83b6799f7f49aecd3ea6bfb9abc9ff1e0db5",
+      "after_sha256": "b40efa91e3b78a3f787f17c5fc304b2690515f836c45c67ae780ce05c52c9306"
+    },
+    "entities/mechanics/main-quest-map.md": {
+      "before_sha256": "c1ea9ccfa16796c7377a190cafa123075d4c2f97d477b4b5af6cdb9ffdee9c94",
+      "after_sha256": "9d46a30e73835b1989aee36b374910f9cf663eca95e42f3c3b4e809591ecc56e"
+    },
+    "entities/mechanics/outstanding-projects.md": {
+      "before_sha256": "e4d58b87f57cfd0a2dc4b9538e031b3285db88123d3539e6ace629d67ef7dfc7",
+      "after_sha256": "99e5cce7d5c0cf6acc5027a9c2d740d85d92dd3180dd12b7c01e5817bdeab88f"
+    },
+    "entities/mechanics/party-finances.md": {
+      "before_sha256": "204ed78ce6425f198a74d3e6f203039d995fa7eb32403bc9f7a8b789364a770c",
+      "after_sha256": "fe83b53edb59eafd12305f63cb495ffd619e0fab5d7f871c1a3aba11679e5ef5"
+    },
+    "entities/mechanics/sovereign-thought-acceleration.md": {
+      "before_sha256": "cdef58ad28c72756495d7c12179ca3ff13690d8500394edd3caf928d3ac6ee3d",
+      "after_sha256": "17830fdcaa33861bf57283908a0d9506c9bc00f9ef360f9fd2bb26986a42010a"
+    },
+    "entities/mechanics/theron-abilities.md": {
+      "before_sha256": "ad95ac1b003b75d2a45aee2de40be9de42aa96d6c5698aeff3f2e9b376e44691",
+      "after_sha256": "d8769d0aa8400b2be13a34cc13baf6d545e052af2049e0a5f01a198016fc3a62"
+    },
+    "entities/mechanics/theron-skills.md": {
+      "before_sha256": "d926800ca13e2f9cbf69c4bffaeb38280d798c78e846396563539c20b5f5a96c",
+      "after_sha256": "1a0528f99ab90fcd2be3cc7e7cb60f04249110974b2d29ef9fbf1b530b05bbc9"
+    },
+    "entities/mechanics/theron-spells.md": {
+      "before_sha256": "15ddcc7f06b408da2f462caf64872495f8c086fbc733061185b1fd0e5642b73a",
+      "after_sha256": "3f42e2d8f17796a7975878f62479146689d781ec2250bca5fbde606a261245b1"
+    },
+    "entities/mechanics/time-chamber.md": {
+      "before_sha256": "ed55f3b0042af720fe3ad87ca64ee80131994311dc678b8509c325aafc91667f",
+      "after_sha256": "57b78dc2972bf890b5e39c6f1c6aedea31997a4ff3ca67703d2f86522ed31a18"
+    },
+    "entities/mechanics/travel-routes.md": {
+      "before_sha256": "a66e2cab45f1689a53879be58826581e603457ce8edd158c4e77746115e94eae",
+      "after_sha256": "2215091079456e3bf0fe8170ebfe75b96217fdcfb2b3715f1a62830ad7b2cbbc"
+    },
+    "entities/mechanics/way-of-the-dragon.md": {
+      "before_sha256": "3422f1e221f0224d6f7d9b365dfa6e0b2d15b256535f2eee88639548feebd750",
+      "after_sha256": "ecff875dbbe3d71010c9ee2c2bc89551bc008cd2b0440a133781d71dc719966d"
+    },
+    "entities/mechanics/world-geography.md": {
+      "before_sha256": "94d15f19e6a72a03c481fcfe7696e4c1a5a09434c77b1dea292452b04c3546d3",
+      "after_sha256": "4a114a2c8dac81ca519d6b1c043112495e01debd087715afc0cfbb56f8d9eaa3"
+    },
+    "entities/quests/artificial-witness.md": {
+      "before_sha256": "82a431f39f16123cd2771f8e988ebc5f75ce0c9a7dc818ed47dec0506cb1fe4a",
+      "after_sha256": "b020ce5c23bbd2a84494c5cc7081f040fdbef61da3069acf1f80d96c450a608f"
+    },
+    "entities/quests/buried-lantern-hall.md": {
+      "before_sha256": "4abfa0b86c0a62a1e917453188156f6da5b4a9fb55c16f0d03e931026acf1793",
+      "after_sha256": "b4945e2bbe81cfdb927283ba30befe877ae3b73983e09e406c132f5b01af6ffb"
+    },
+    "entities/quests/first-oath-conspiracy.md": {
+      "before_sha256": "bdb4f10eae1c11e814f1ab246821634af54bd1eeea8a467c3c4afa4d62d20cbf",
+      "after_sha256": "cc9135b74e4e46d9df82504f6e10bd6170ee8fa59cad69c61a2fe1c6db6ad3c7"
+    },
+    "entities/quests/lyanna-rescue.md": {
+      "before_sha256": "d1b30bce8a7d53202d09abaf1d7079d45f9b5ed813ae6ffa5a0f38ac634cdd73",
+      "after_sha256": "0effc5ca86e25c7544a97ac5a6b432b371fbc1c9d8ff9ff7be748edba2f5311d"
+    },
+    "entities/quests/twin-sword-origin.md": {
+      "before_sha256": "a4de0e72010e5b786fff4914bf385cc107d683683650c18787d70015ea2de118",
+      "after_sha256": "ae6a13714e7ec5d46874074659a1366e4d23769c34ec19bdb7551cc097d6f11e"
+    },
+    "index.json": {
+      "before_sha256": "74aaaf6c2e3942f3b2105d85f242fc0859351602f95b07854409920cd3113530",
+      "after_sha256": "6dd76ad66d27e4bc2f691a425ecb4bbc02356cb85b81491da4987e93ef6ed32d"
+    },
+    "scripts/economy.py": {
+      "before_sha256": "0470aa1589d2ebbbb6da7ad382769e2c0f58d1d7d0f82da1818888cdfa3ae8ee",
+      "after_sha256": "7ec6396b58b7250b2b0a2125a02d387f509e694e0cec9dca3793f28bc42e1421"
+    },
+    "scripts/finance_v3.py": {
+      "before_sha256": "2d6394a951ed3de2e898253f2c24f208b4f539fd9c53bf9b6963c4ca0eb7a575",
+      "after_sha256": "71f2f15d0ecb995ae337225a6c990b8f29d1cbc63236c7235971532469f0b35d"
+    },
+    "scripts/finance_year853.py": {
+      "before_sha256": "d77b5ad960b6575d5599e08a01c16ad6c345d10abdab6b4db04ffa538e86b480",
+      "after_sha256": "6b8ecb5bfc4033148e1313ef2ddf5ce0b2d646f40783f06c661c8b86c5546091"
+    },
+    "scripts/gm_dashboard.py": {
+      "before_sha256": "b8de660d14928af98c38defef7739ef56581670b1ada105c9f4d8657ad563a79",
+      "after_sha256": "68b905885f656dbe89ecb67f6c6d63130b6181280e830ed7256ebe443f7b7951"
+    },
+    "scripts/guilds.py": {
+      "before_sha256": "6787b41af47d1992f70b2d24f662ecbb437c9612bac57890298dac5a4d13647a",
+      "after_sha256": "52c2863cbcbd970dbfb65ee561c3a4891ad6a0b55f427fbbae1ec201e90a57a1"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "b6af27815aca3dba3ff56e55b3b539ba123cd7d08679f215b8588a7ca0cb2d07",
+      "after_sha256": "85f7fd433521c615cdfcf33b3543613c62a50d8b7b683d8b5824e4a69e16ec25"
+    },
+    "scripts/validate.py": {
+      "before_sha256": "d2e3bbd4731fd48959e99c12f30622ee2c6daae7cf42c446e03ff1d63313445c",
+      "after_sha256": "b78f6ed0cefdd1a89e570c1ba27f14ef10e58fcf9165ee87114821cd016fa550"
+    },
+    "state/checkpoint.json": {
+      "before_sha256": "37ade25e513f67ebda58fb2f0bd855fb0cc09cfdf6f7b88982126d5227948fca",
+      "after_sha256": "48528a0a26cfbd2590027597495d09653628bc74094176517de5e188da771d9b"
+    },
+    "state/dsi-finance-ledger.json": {
+      "before_sha256": "f4b149c306833974dbefb61350087102f85dcd805dd068dc72932f860fe26ad5",
+      "after_sha256": "ece99bd489ac8b95cd53c544828704d83e8945199c95774695ccb03a5b704174"
+    },
+    "state/finance-ledger.json": {
+      "before_sha256": "7dfcdc5f56441dbb8c454eb808aadb4d13071f21a7368328cb0469da2c1a5c40",
+      "after_sha256": "1cd9c75bf0c6de1ff9b42df74af442943a2a5c32ebc0f6d02328c3e085a40c01"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "dde00a7a47fcc6f7649bbdb4250f2cbf5727ee2eade222e4bbffb89bfea88524",
+      "after_sha256": "a103236b24389154a6eeaa6ae667d70cf9b9e713a9b3c55fdf89aaea207b168b"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "766bae3751eec59309661c1d89049dcc066138bc25dd6d4979ab7dce3e790d54",
+      "after_sha256": "9ebbc96fc0e7bbfedb7370a517844e78a2018bd0d2b4a624f9e35e7e165f6fec"
+    }
+  }
+}

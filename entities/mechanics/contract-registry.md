@@ -58,6 +58,50 @@ Routing only; no copied rewards/statuses or second quest ledger. Known contract 
     {
       "contract_id": "WG-852-354",
       "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W01",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W02",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W03",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W04",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W05",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W06",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W07",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W08",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W09",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W10",
+      "owner_entity_id": "wayfarers-guild"
+    },
+    {
+      "contract_id": "WG-853-W11",
+      "owner_entity_id": "wayfarers-guild"
     }
   ],
   "dungeon_contract_kinds": [

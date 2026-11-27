@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - changes/chronicles/year852-day1-end-session.md
@@ -11,6 +12,10 @@ source_refs:
 ---
 
 # Maeryn Sol
+
+## Year 853 Day 52
+
+Westbridge field security and combat support.
 
 Trained Theron in controlled swordsmanship, accompanied him to the Gardens of Ilyssara and won the Year 851 Day 365 tournament. She received the 100 gp champion prize.
 

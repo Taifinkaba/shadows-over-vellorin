@@ -212,8 +212,14 @@ def validate_finance_v3(root,state,l):
 
 
 def validate_checkpoint6(root,s):
-    if __package__:from .validate import require,keys,repository_file,read_json,YEAR853_SOURCE
-    else:from validate import require,keys,repository_file,read_json,YEAR853_SOURCE
+    if __package__:from .validate import require,keys,repository_file,read_json,YEAR853_SOURCE,WESTBRIDGE_SOURCE
+    else:from validate import require,keys,repository_file,read_json,YEAR853_SOURCE,WESTBRIDGE_SOURCE
+    if s['source'] == WESTBRIDGE_SOURCE:
+        if __package__:
+            from .session_westbridge import validate_checkpoint
+        else:
+            from session_westbridge import validate_checkpoint
+        return validate_checkpoint(root, s)
     year853 = s['source'] == YEAR853_SOURCE
     p=s['provenance'];keys(p,{'classification','adoption_source_ref','historical_checkpoint_ref','historical_entity_records_ref','current_presence','current_equipment','exact_room','conditional_defense','carried_forward_world_context_ref','mp_bridge'} | ({'year853_readings'} if year853 else set()),'checkpoint6 provenance')
     require(p['classification'] in ('PLAYER-SUPPLIED ENDPOINT ADOPTION', PLAYED_SESSION)

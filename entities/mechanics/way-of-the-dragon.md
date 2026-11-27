@@ -4,10 +4,116 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
 
 # The Way of the Dragon
+
+## Year 853 Day 52
+
+All four accepted voluntarily offered draconic essence before this session began.
+
+They advanced during this session from Level 1 to Level 2 and subsequently Level 3.
+
+| Student | Specialization | DS rank | DS level |
+|---|---|---|---:|
+| Elias Renn | Dragon Commander | F | 3 |
+| Kaela | Dragon Hunter | F | 3 |
+| Gorren | Dragon Guardian | F | 3 |
+| Nessa | Dragon Keeper | F | 3 |
+
+#### Elias Renn
+
+- HP maximum: 32.
+- MP maximum: 10.
+- DEF: 13.
+- STR 11, DEX 13, CON 13, INT 15, WIS 14, CHA 12.
+- Mount: Bramble.
+- Demonstrated coordinated defensive leadership.
+- Maintained independent essence control.
+
+#### Kaela
+
+- HP maximum: 29.
+- MP maximum: 12.
+- DEF: 15.
+- STR 11, DEX 16, CON 12, INT 12, WIS 14, CHA 11.
+- Mount: Cinder.
+- Demonstrated controlled essence during movement.
+- Improved simulated dragon attack recognition.
+
+#### Gorren
+
+- HP maximum: 40.
+- MP maximum: 0.
+- DEF: 17.
+- STR 16, DEX 10, CON 16, INT 10, WIS 12, CHA 11.
+- Mount: Flint.
+- Demonstrated defensive essence concentration during repeated impacts.
+
+#### Nessa
+
+- HP maximum: 28.
+- MP maximum: 24.
+- DEF: 12.
+- STR 9, DEX 12, CON 12, INT 14, WIS 16, CHA 13.
+- Mount: Willow.
+- Demonstrated recognition of unstable essence responses.
+- Developed safe recovery observation procedures.
+
+Preserve individual preexisting skills from their owner records.
+
+Do not interpret maximum HP or MP as freshly measured current pools.
+
+### Certified ability
+
+**Controlled Dragon Essence**
+
+Observed capabilities:
+
+- Intentional activation.
+- Intentional suppression.
+- Concentration under controlled pressure.
+- Maintenance during demonstrated specialized activities.
+
+Not established:
+
+- Elemental attacks.
+- New mana capacity.
+- Transformation.
+- Automatic damage multipliers.
+- Unlimited resistance.
+- Advanced breath manipulation.
+- Multiple-dragon essence compatibility.
+
+Withdraw arbitrary identical numerical mastery assignments that lacked individual assessment.
+
+Preserve the earned Level 3 certifications.
+
+Future advancement requires documented individual performance.
+
+### Training program
+
+Vaeltharion independently oversees:
+
+1. Dragon history and anatomy.
+2. Dragon attack recognition.
+3. Essence concentration.
+4. Defensive combat.
+5. Individual specialization.
+6. Coordinated field exercises.
+7. Recovery and reflection.
+
+Talia Fen and Rowan Hale remain potential future commencement candidates.
+
+No initiation has yet occurred for either.
+
+Theron remains deliberately uninitiated.
+
+His personal Dragon Slayer ability remains locked.
+
+## Prior initiation and standing progression rules
 
 Vaeltharion voluntarily attended the academy at Theron's invitation.
 
@@ -147,26 +253,24 @@ Guild rank and general level are recorded in the [academy roster](../factions/dr
 {
   "elias-renn": {
     "rank": "F",
-    "level": 1
+    "level": 3
   },
   "kaela": {
     "rank": "F",
-    "level": 1
+    "level": 3
   },
   "gorren": {
     "rank": "F",
-    "level": 1
+    "level": 3
   },
   "nessa": {
     "rank": "F",
-    "level": 1
+    "level": 3
   }
 }
 ```
 
-All four have completed initiation and their first supervised essence-control lesson.
-
-Next milestone: Demonstrate independent essence control and qualify for Dragon Slayer Level 2.
+All four later demonstrated independent essence control and progressed through Level 2 to Level 3. Future progression requires documented individual assessment.
 
 ### Individual specialization paths
 

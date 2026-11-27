@@ -4,6 +4,7 @@ type: quests
 status: active
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
 - archive/legacy-modules/codex/11-v1-5-final-cross-session-verification-audit-out-of-world-no-gamep.md
@@ -11,6 +12,73 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+# First Oath / Crown conspiracy
+
+## Year 853 Day 52
+
+### Known conspiracy participants
+
+| Person | Established role |
+|---|---|
+| Keeper Maelor Thane | Authorized AV-07 Ashvale detention and recovery; surrendered alive |
+| Captain Edrick Sorn | AV-07 field commander; confessed and relinquished active command |
+| Lieutenant Halric Dene | Led Lyanna's capture team; whereabouts remain unverified |
+| Edran Valeth | Continued detention restriction; captured alive |
+| Severin Aulcrest | Passed the instruction |
+| Maerith Voss | Signed administrative continuation |
+| High Chancellor Severin Valcrest | CROWN-07; captured alive |
+| Darian Kestrel | Outstanding investigative subject; exact role unverified |
+
+Preserve independent legal reviews and custody uncertainties.
+
+Do not infer convictions, deaths, releases or later transfers.
+
+Maintain distinctions between similarly named Crown and Voss figures.
+
+### Existing completed achievements
+
+Preserve:
+
+- Vaeltharion's release from coercive chains.
+- Seven protective anchors.
+- Revocation of the specific SS-41 Guild registry and Crown apprehension instruction.
+- Recovery of original Ashvale testimony.
+- Capture of CROWN-07.
+- End of the Empty Seat's former Keeper-imprint authority.
+- Lyanna's completed memory restoration.
+
+The Fifth Bell remains unsounded.
+
+### Revised primary investigation
+
+The Westbridge investigation is a continuation of the existing First Oath/Crown conspiracy.
+
+It must now examine:
+
+1. Why the Ashvale family was targeted.
+2. Remaining AV-07 participants and beneficiaries.
+3. Halric Dene's whereabouts.
+4. Darian Kestrel's role.
+5. The white blade's physical custody after repository examination.
+6. Possible relationships between Hollow Crown research, V-9 and artificial Witness operations.
+7. The identity of LW-04's subject.
+8. The missing LW-04 authorization appendix.
+9. The remaining unresolved V-9 transferred case.
+
+Do not automatically merge these references.
+
+| Reference | Meaning |
+|---|---|
+| A-07 | Existing signature-related investigation |
+| AV-07 | Established Ashvale detention authorization |
+| V-9 | Existing memory-taking custody designation |
+| HC-17 | Newly recovered white-blade transfer reference |
+| LW-04 | Newly discovered disputed Ashvale living-witness acquisition |
+
+Relationships require played evidence.
+
+## Earlier records
 
 ## Year 848, Suncrest 262 update
 

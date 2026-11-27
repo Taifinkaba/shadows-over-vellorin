@@ -4,11 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
 
 # Dalen Reed
+
+## Year 853 Day 52
+
+Independent Guild progression unchanged. Accounted recent personal earnings are 61 GP after 47.5 GP in new proceeds. No new purchase was posted.
 
 [DSI](../factions/dragon-slayer-academy.md) student, specializing in woodworking and equipment care. No guild card. Ancestry, age, combat ability and numerical character sheet unassessed.
 
@@ -57,7 +62,9 @@ character_sheet:
   guild_status: Registered after preliminary assessment, supervised low-risk contracts
   specializations:
   - woodworking and equipment care
+  accounted_recent_earnings_cp: 6100
   source_refs:
+  - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/dalen-reed.md
   - entities/factions/dragon-slayer-academy.md

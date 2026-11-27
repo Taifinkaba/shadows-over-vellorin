@@ -4,11 +4,16 @@ type: creatures
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/design-proposals/ancient-dragon-humanoid-forms.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 ---
+
+## Year 853 Day 52
+
+Continues as a voluntary strategic and cognitive research consultant. No new permanent service or donation was established.
 
 # Aurelith
 

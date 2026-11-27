@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
@@ -458,6 +459,46 @@ The following single JSON block owns directory membership and containment edges.
     {
       "id": "elderbloom-hollow",
       "kind": "wilderness",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "westbridge",
+      "kind": "settlement",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "blackwater-exchange",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": [
+        {
+          "id": "westbridge",
+          "classification": "CONFIRMED CANON",
+          "source_refs": [
+            "changes/chronicles/year853-day52.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mirror-repository",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": [
+        {
+          "id": "westbridge",
+          "classification": "CONFIRMED CANON",
+          "source_refs": [
+            "changes/chronicles/year853-day52.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ancient-dragon-instruction-grounds",
+      "kind": "landmark",
       "classification": "CONFIRMED CANON",
       "parents": []
     }

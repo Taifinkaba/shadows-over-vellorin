@@ -1,3 +1,71 @@
+# Current verification queue — Year 853 Day 52
+
+The Westbridge checkpoint supersedes earlier open-state assertions where the [played chronicle](../changes/chronicles/year853-day52.md) supplies a resolution. Marek was recovered. Historical cash discrepancies already resolved by ruling stay closed.
+
+Keep genuine unresolved items open.
+
+## Historical accounting and resources
+
+- Earlier exact travel intervals.
+- Exact historical route distances and transportation conditions.
+- Earlier unitemized magical expenditures.
+- Day 28 Sovereign Nexus recharge provenance.
+- Current charge and locations of the three wagons.
+- Exact purse and treasury account allocations.
+- Complete historical DSI cash and lifetime student savings.
+- Exact contract issuers and administrative identifiers.
+- Unverified ordinary estate revenue.
+- Historical Time Chamber supplier costs.
+
+## Story investigations
+
+- Halric Dene's whereabouts.
+- Darian Kestrel's role.
+- A-07 signature authenticity and circumstances.
+- Expedition 47-B.
+- LW-04 subject identity.
+- Missing authorization appendix.
+- White blade custody following repository examination.
+- Direct relationship to Lyanna's abduction.
+- Possible connections between Hollow Crown research, AV-07, V-9 and the artificial Witness.
+- Remaining V-9 transferred case.
+- Fifth Bell and FB-5.
+- Northern Witness Index.
+- E-R-7 and surviving artificial Witness branches.
+
+## Equipment and dragons
+
+- Original dragon donor identities.
+- Gareth's response.
+- Exact Eclipse Sovereigns configuration.
+- Pending regulator refinement.
+- Stable paired resonance.
+- Historical temple identity.
+- Dragon Slayer discipline mastery assessments.
+- Long-term essence mechanics.
+- Multiple-dragon essence compatibility.
+
+## Independent world development
+
+- Estate accounting reports.
+- Fair and lodge operations.
+- Healing room reports.
+- Arena inspection reports.
+- Observatory research reports.
+- Student equipment purchases.
+- Probationary recruit assessments.
+- Waitlisted applicants.
+- Instructor recruitment.
+- DSI construction invoices and completion.
+- Lyanna's current location.
+- Animal companion locations.
+
+Preserve older unresolved verification items not explicitly superseded by this handoff.
+
+Do not erase historical queues simply because a new session has been adopted.
+
+## Historical verification queues
+
 # Year 853 verification queue
 
 1. Exact Year 853 closing calendar date.

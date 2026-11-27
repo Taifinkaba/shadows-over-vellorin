@@ -4,12 +4,21 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+# Theron spells
+
+## Year 853 Day 52
+
+Spirit Mana Assimilation II restores **24 personal MP per uninterrupted ten-minute interval**, capped at the user’s current maximum personal MP (Theron currently 410). Requires usable ambient mana and uninterrupted concentration. Staff and wagon pools and HP are unaffected. The former 400 MP cap stays historical. The two 12 MP resonance trial costs belong to those procedures only.
+
+## Earlier records
 
 # Theron spells — Day156 current canon
 

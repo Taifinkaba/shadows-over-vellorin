@@ -4,11 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
 ---
+
+## Year 853 Day 52
+
+Construction, maintenance and arena engineering remain his responsibilities, including six shield obelisk inspections and permanent infrastructure proposals. Ironshield security stays with the established team assignments. No new inspection outcome is recorded.
 
 # Bren
 

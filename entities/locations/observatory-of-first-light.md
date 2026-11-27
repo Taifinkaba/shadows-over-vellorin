@@ -4,10 +4,15 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day1-financial-audit-reconciliation.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/session-handoffs/year852-day1-user-handoff.txt
 ---
+
+## Year 853 Day 52
+
+Existing research stewardship continues. Lyra, Raze, Aegis and Caelrix were supporting the Westbridge expedition. No Observatory return or independent research report was established.
 
 # Observatory of First Light
 
