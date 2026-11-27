@@ -1,0 +1,61 @@
+{
+  "source_ref": "changes/chronicles/year853-day52.md",
+  "revisions": {
+    "changes/CHANGELOG.md": {
+      "before_sha256": "f02e35fb467e13031590996856f6ff485f99b346ea6699910b5eee8710f6d685",
+      "after_sha256": "c691b312cd0ef851248b2b6e1b1c8919ffac4dc8cadca9abc814658531955d9e"
+    },
+    "entities/characters/marek-dorne.md": {
+      "before_sha256": "5973ea57d95895f180bb061eff1107ca167da837f59c1cf906de3534ba632191",
+      "after_sha256": "5e9d58608b026bf7e392256f3e613a5e5bf4be1e229e633038b81376da110068"
+    },
+    "entities/mechanics/outstanding-projects.md": {
+      "before_sha256": "99e5cce7d5c0cf6acc5027a9c2d740d85d92dd3180dd12b7c01e5817bdeab88f",
+      "after_sha256": "794bf8e1d307ff14f2fcb0a2373d693191564402eb7891348c11a7918ac5327a"
+    },
+    "entities/mechanics/theron-abilities.md": {
+      "before_sha256": "d8769d0aa8400b2be13a34cc13baf6d545e052af2049e0a5f01a198016fc3a62",
+      "after_sha256": "f3cfee538ebca4ee46effdeeb5c2c16419cd1355721a8252599ec911239746ce"
+    },
+    "entities/quests/first-oath-conspiracy.md": {
+      "before_sha256": "cc9135b74e4e46d9df82504f6e10bd6170ee8fa59cad69c61a2fe1c6db6ad3c7",
+      "after_sha256": "f46c3d9bd007d54af004f0967e523f3abd440f46f8010da6a9056740916327e1"
+    },
+    "entities/quests/open-quests.md": {
+      "before_sha256": "0af05bc2a7945015b118c027651d67dcd9081465b3f534243664cd62f0bd121e",
+      "after_sha256": "568c5e12eae479d19fb50d5a576f247c88f3340b915235697586ff9c1008c403"
+    },
+    "entities/quests/seven-bells-investigation.md": {
+      "before_sha256": "e60754709b7f5de31382de4698ff0ee0108b949565fa780496fb7206acb06aa4",
+      "after_sha256": "0d2ace80eff4675a9f9a8882e317d0d505bb826d1ffcdbd230cbd0e0460f2e7e"
+    },
+    "entities/quests/twin-sword-origin.md": {
+      "before_sha256": "ae6a13714e7ec5d46874074659a1366e4d23769c34ec19bdb7551cc097d6f11e",
+      "after_sha256": "ed580b501f6f20a4346302f9fe7675bde643084c1ff2a8780b75aa2d03d350e7"
+    },
+    "entities/quests/v9-memories.md": {
+      "before_sha256": "dcaaa7556817ca0abbb95af115e9f629434384dba5e52f8948d929ae2e2c2526",
+      "after_sha256": "05df5ee1688307408d44623e718bf62ab7abef9578858892ff8ab9bcd4aa5acb"
+    },
+    "scripts/gm_dashboard.py": {
+      "before_sha256": "68b905885f656dbe89ecb67f6c6d63130b6181280e830ed7256ebe443f7b7951",
+      "after_sha256": "cd99482eac2ef24b9ef8da126e899ce4cede10afd7d8d27bb552dc99a26cd25f"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "85f7fd433521c615cdfcf33b3543613c62a50d8b7b683d8b5824e4a69e16ec25",
+      "after_sha256": "aa0f7c6a758d945474244707778ecaa27d2348dd63415c3cd8ef36a12db08fea"
+    },
+    "state/checkpoint.json": {
+      "before_sha256": "48528a0a26cfbd2590027597495d09653628bc74094176517de5e188da771d9b",
+      "after_sha256": "18246fc8b339705433e843a1066a2afe5327af4e24be2c1f8d0df1cd417f9e01"
+    },
+    "state/next-chat-handoff.md": {
+      "before_sha256": "a103236b24389154a6eeaa6ae667d70cf9b9e713a9b3c55fdf89aaea207b168b",
+      "after_sha256": "c683b6aabe2e2a8184a404ac539c732f7fd85a20604fb10246ce1f1642d75c79"
+    },
+    "state/open-verifications.md": {
+      "before_sha256": "9ebbc96fc0e7bbfedb7370a517844e78a2018bd0d2b4a624f9e35e7e165f6fec",
+      "after_sha256": "c4404d280458bb84bce94f47f0c33e8e401da9331c529ec63b4da8b63476437c"
+    }
+  }
+}

@@ -63,6 +63,10 @@ Long-term research target: 525,600×.
 
 Preserve the distinction between physical acceleration, subjective mental time acceleration and biological aging.
 
+### Equipment status
+
+Lyanna owns Dawnbreaker’s Promise. Vanguard was built and later refitted; its current charge is unverified. Night Sovereign was completed and tested; its closing wearing state is unverified.
+
 ### Additional research
 
 | Project | Status |
@@ -101,7 +105,7 @@ Night Sovereign completed/tested/paid515gp, reserved scale consumed once. Vangua
 ## Historical record before Day156 (superseded only where explicit above)
 
 
-# Outstanding equipment and projects
+# Historical equipment backlog — before the Day 156 updates
 
 Equipment: Lyanna’s Dawnbreaker’s Promise58gp prepaid, final fitting/enchantment at last report, not delivered; personal funds separate. Lyra’s Astral Conduit unfinished/calibration pending. Theron’s twin Eclipse Sovereigns further development pending; no unsupported identity/forging reconciliation with historical swords. Frostguard Bracers completed/equipped; one intact shed scale remains. Ashvale Vanguard Wagon blueprint complete, construction estimate137gp, not built. Collars v3.1 and dragon prototype retain limitations in [Guardian Links](../items/guardian-links.md).
 

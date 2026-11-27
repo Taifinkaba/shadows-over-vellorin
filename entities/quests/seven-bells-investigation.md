@@ -46,7 +46,7 @@ At North Return House Blackscale used existing Dragonveil Mask, Shadow Mantle16M
 - Western aqueduct workshop: beneath broken waterwheel/western span; Osric reportedly fitted ward housings. Latest delivery returned without acknowledgment; stopped responding approximately three days before Corven’s questioning. No investigation outcome supplied.
 - North Return House suspect transfer site established; Corven’s counterfeit document authorship uncertain.
 - E-R-7 still installed, not permanently neutralized; Northern Witness Index unrecovered.
-- Anonymous Witness correspondent, hooded watcher, Halden fate unresolved; correspondent and watcher not equated.
+- Anonymous Witness correspondent and hooded watcher remain unresolved and distinct in the evidence. Halden’s fate was unknown at this stage; his later rescue is recorded above.
 
 Evidence supports a plausible organized counter-command network, not a proven mastermind or automatic identity with older resolved Crown/Empty Seat channels. Original Witness custody protections intact. See `north-return-house`, `return-custodian-seven` and `seven-bells-inventory`. Next action belongs to Theron; no travel/rest/questioning/transfer or remote outcome yet.
 

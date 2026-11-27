@@ -18,7 +18,7 @@ source_refs:
 
 ## Year 853 Day 52
 
-Marek Dorne was recovered alive and is under official protection. Seren Veylor documented transport involvement and Ilyr Varess was identified as Custodian of Reflections. Delivery of Aric’s letter to Gareth and Gareth’s response remain pending.
+Marek Dorne was recovered alive and is under official protection. The party examined his restricted sworn statement under magistrate supervision. His protected location remains undisclosed. Seren Veylor documented transport involvement and Ilyr Varess was identified as Custodian of Reflections. Delivery of Aric’s letter to Gareth and Gareth’s response remain pending.
 
 ### Original black blade
 
@@ -124,13 +124,13 @@ The existing SWORD-01 resolution remains GM-only. Theron’s established evidenc
 
 The Day 160 record withdrew the Twin-Wyrm Forge / Ironhollow identification. At that stage, Gareth Vaelwright and Teren Vhal were separate external leads awaiting their original sources. Keep the maker name, donor identities, custody history and any connection to later crafting projects open. [Reconciliation and evidence intake](../../changes/chronicles/2026-11-23-twin-sword-canon-reconciliation.md)
 
-## Year 852 release and custody inquiry
+## Historical Year 852 release and custody inquiry
 
 The played evidence establishes Gareth Vaelwright as maker, Lady Isolde Vaeren’s white commission through Winterglass Private Trust and separate frost-line sources. Teren Vhal is the later collector who declined a suspicious beneficiary presentation. His courier Olin Harrow lost the blade to theft. WT-44 was improper and Odran Merrow ordered the release despite insufficient approval. The [document trail](../../changes/chronicles/year852-day365-end-session.md#investigative-findings) reaches the Crown Ledger Office and Hollow Crown collection records. It leaves the physical recipient, downstream possession and direct role in the abduction unverified.
 
-Marek Dorne disappeared after filing a restricted sworn statement. His whereabouts and the statement’s contents remain unknown. Seek lawful access through Westbridge magistrates. The public index identifies an unauthorized Winterglass Trust blade collection.
+Marek Dorne disappeared after filing a restricted sworn statement. His whereabouts and the statement’s contents were then unknown. The lead at that point was lawful access through Westbridge magistrates. The public index identifies an unauthorized Winterglass Trust blade collection.
 
-## Year 853 session
+## Historical Year 853 Hollow Veil handoff — before Westbridge
 
 Westbridge remains the primary main-story destination after sanctuary operations.
 
@@ -150,13 +150,13 @@ Preserve the established white blade chain:
 
 Marek Dorne submitted a restricted sworn statement before disappearing.
 
-The full statement is not obtained.
+The full statement is not obtained. This records the pre-Westbridge state; the party subsequently examined the statement under supervision.
 
 Seek lawful access through Westbridge magistrates.
 
 Unresolved:
 
-- Marek's whereabouts.
+- Marek's whereabouts at the time (resolved by his Day 52 recovery).
 - Physical recipient of the white sword.
 - Downstream possession.
 - Direct relation to Lyanna's abductors.

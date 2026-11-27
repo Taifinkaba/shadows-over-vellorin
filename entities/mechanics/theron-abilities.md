@@ -72,7 +72,7 @@ Core abilities from the mechanics ledger, reconciled through Day153. Current HP/
 | Unspent stat points | 0 |
 
 - Staff reduces ordinary spell costs by 20%; Mana Efficiency adds 10%; total discount 30%, rounded up. Full-cost procedures are exempt.
-- Current Spirit Mana Assimilation II restores24 personal MP per uninterrupted10 minutes, capped400, with usable ambient mana and uninterrupted concentration. Historical prior rate12MP/20min is preserved for earlier recovery records.
+- At that checkpoint Spirit Mana Assimilation II restored 24 personal MP per uninterrupted ten minutes, capped at 400, with usable ambient mana and uninterrupted concentration. Historical prior rate12MP/20min is preserved for earlier recovery records.
 - Raze performs analysis/simulation; Aegis performs defense. Neither grants free casting or mana.
 - Draconic Resonance is 1/5. Chronos Eye is locked at about19% theory; Dragon Slayer is locked.
 - Legendary black Runeblade damage is 1d8+3. This record conveys no GM-only origin information.
@@ -89,7 +89,7 @@ Current ordinary discount **40%**, replacing older30%; Sovereign Nexus finite156
 
 ## Update — Year 848 Suncrest 4 Day 124, 01:45
 
-Standing rule now **Spirit Mana Assimilation II:24 personal MP per uninterrupted10 minutes**, capped400; requires uninterrupted concentration and a usable ambient mana source. Mastered through repeated supervised trials using established dual-mind parallel intake/refinement, Raze analysis and Lyra observing. This replaces the old12MP/20min rule prospectively; historical recoveries/costs unchanged. No automatic staff, wagon, ally or crystal restoration; Raze/Aegis generate no mana. Latest375−13+24=386/400.
+At Day 124 the standing rule was **Spirit Mana Assimilation II: 24 personal MP per uninterrupted ten minutes**, capped at 400; requires uninterrupted concentration and a usable ambient mana source. Mastered through repeated supervised trials using established dual-mind parallel intake/refinement, Raze analysis and Lyra observing. This replaces the old12MP/20min rule prospectively; historical recoveries/costs unchanged. No automatic staff, wagon, ally or crystal restoration; Raze/Aegis generate no mana. Latest375−13+24=386/400.
 
 ## Year-end tournament and chamber practice
 

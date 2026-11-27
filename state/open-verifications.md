@@ -1,6 +1,6 @@
 # Current verification queue — Year 853 Day 52
 
-The Westbridge checkpoint supersedes earlier open-state assertions where the [played chronicle](../changes/chronicles/year853-day52.md) supplies a resolution. Marek was recovered. Historical cash discrepancies already resolved by ruling stay closed.
+The Westbridge checkpoint supersedes earlier open-state assertions where the [played chronicle](../changes/chronicles/year853-day52.md) supplies a resolution. The party examined Marek’s restricted sworn statement under supervision and recovered him alive. His protected location remains undisclosed. The separate 128 gp historical discrepancy was closed by player ruling. The 125 gp pre-arc bridge still lacks itemization. Westbridge closing cash reconciles; actual account allocations remain open.
 
 Keep genuine unresolved items open.
 
@@ -66,7 +66,7 @@ Do not erase historical queues simply because a new session has been adopted.
 
 ## Historical verification queues
 
-# Year 853 verification queue
+# Historical Year 853 Hollow Veil verification queue — before Westbridge
 
 1. Exact Year 853 closing calendar date.
 2. Exact route from Theron's Estate to Greyhaven Valley.
@@ -176,7 +176,7 @@ Day181 is explicitly adopted as supplied continuity, not independently recovered
 
 # Current verification queue — Year848 Suncrest17 Day137,09:30
 
-- **128 gp historical discrepancy OPEN:** Year847 Day472673gp9sp → Year848 Day124545gp9sp; no itemized transaction. No refund, deduction or fabricated balancing entry. Current1034gp9sp does not resolve this history.
+- **128 gp historical discrepancy — open at Day 137, since closed by player ruling:** Year847 Day472673gp9sp → Year848 Day124545gp9sp; no itemized transaction. No refund, deduction or fabricated balancing entry. Current1034gp9sp does not resolve this history.
 - Eight-period approved operating reconstruction is continuity accounting, not independently discovered receipts. Future actual periods need Tomas receipts/expense records or another explicit player-approved ruling. No automatic65gp/month. Legacy494gp9sp older allocations unresolved; historical accounts not extra cash. Both private expenses already deducted.
 - Excluded historic coinage/office cash, Lyanna funds, academy older reports, custody funds, merchant property, salvage and estate assets stay separate.120-acre purchase paid;317gp expansion unspent;~687gp Night Sovereign estimate not payable.
 - Halden rescue/free voluntary protection confirmed at Ashvale; earlier fate uncertainty superseded. Rescue sequence not supplied; no invented bridge.

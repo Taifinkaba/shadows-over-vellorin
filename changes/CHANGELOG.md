@@ -1,3 +1,7 @@
+# Year 853 Day 52 — canon-reference cleanup
+
+Aligned the live checkpoint with the paused Westbridge scene, clarified superseded quest and equipment wording, pointed historical handoff links to archived snapshots, and corrected the dashboard privacy status.
+
 # Year 853 Day 52 — Westbridge
 
 Adopted the paused session, approved chronology, separate treasury bridges, capped personal mana recovery, DSI certifications, and the continued Ashvale investigation. [Chronicle](chronicles/year853-day52.md) · [Prior checkpoint](../archive/checkpoints/year853-hollow-veil.json)
