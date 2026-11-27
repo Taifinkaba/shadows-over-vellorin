@@ -77,4 +77,38 @@ character_sheet:
   source_refs:
   - entities/characters/orenic.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '31'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 37; 5 ft 7 in, 170 lb. Stocky, strong-legged build, weathered bronze skin, hazel
+      eyes. Thick brown hair under wool cap, short beard, broad hands.
+    wardrobe_and_props: Rough flax shirt, patched vest, sturdy trousers, muddy boots; grooming brush in belt.
+    character_motivation: Wants a quiet workplace and horses cared for properly.
+    practice_and_professional_skills:
+    - stable work
+    - tack care
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Stable work: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/orenic.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Orenic, masculine-presenting,
+    humanoid. Age presentation: 31. Appearance: Human male, 37; 5 ft 7 in, 170 lb. Stocky, strong-legged build,
+    weathered bronze skin, hazel eyes. Thick brown hair under wool cap, short beard, broad hands. Clothing and
+    posed props: Rough flax shirt, patched vest, sturdy trousers, muddy boots; grooming brush in belt. Match
+    the established face, build, colors and costume in artwork/character-references/orenic.png if supplied as
+    a reference image. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral
+    backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra people, active
+    spell effects, hidden symbols, or scene-specific location clues.'
 ```

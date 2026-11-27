@@ -1,3 +1,7 @@
+# Character design profiles and portrait prompts
+
+Added an individual design profile and image generator prompt to all 103 indexed character sheets. Profiles consolidate recorded facts and label new appearance, motivation, techniques, and stat suggestions as prospective, with prior portraits taking precedence. Ordinary nonmagical competence is the default design; established casters, aptitude, draconic essence and rare sacred healing retain their documented boundaries.
+
 # Character sheet evidence and assessment proposals
 
 Added sourced capabilities, relationships, equipment, and approved design summaries to character sheets. Suggested assessment ranges and specialties are labeled proposals. Recorded personal pools, demonstrated magic, magical aptitude, and item-mediated effects remain distinguishable.

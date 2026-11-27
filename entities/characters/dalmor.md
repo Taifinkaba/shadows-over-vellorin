@@ -79,4 +79,38 @@ character_sheet:
   source_refs:
   - entities/characters/dalmor.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '43'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 48; 6 ft 0 in, 185 lb. Lean weathered build, strong shoulders. Sallow olive skin,
+      angular face, dark hazel eyes; thinning black hair streaked gray, short rough beard.
+    wardrobe_and_props: Plain travel-worn brown layers, weatherproof cloak; no unverified affiliation insignia.
+    character_motivation: Wants to choose when and where to speak.
+    practice_and_professional_skills:
+    - cautious negotiation
+    - situational observation
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Cautious negotiation: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/dalmor.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Dalmor, masculine-presenting,
+    humanoid. Age presentation: 43. Appearance: Human male, 48; 6 ft 0 in, 185 lb. Lean weathered build, strong
+    shoulders. Sallow olive skin, angular face, dark hazel eyes; thinning black hair streaked gray, short rough
+    beard. Clothing and posed props: Plain travel-worn brown layers, weatherproof cloak; no unverified affiliation
+    insignia. Match the established face, build, colors and costume in artwork/character-references/dalmor.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

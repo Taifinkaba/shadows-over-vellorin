@@ -54,4 +54,24 @@ character_sheet:
     uncertified. Exact latest station unspecified.
   source_refs:
   - entities/characters/return-custodian-seven.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: ancient
+    presentation_for_art: nonhuman
+    visual_ancestry_or_form: Bronze-and-stone construct
+    appearance: bronze-and-stone figure with articulated shoulders and a steady light behind its faceplate
+    wardrobe_and_props: patinated panels, visible repaired seams and a slim record compartment
+    character_motivation: Wants testimony protected through its restored independent purpose.
+    practice_and_professional_skills:
+    - testimony recognition
+    - record preservation
+    magic_and_healing: Existing nonhuman functions only. Personal mana accounting unverified.
+    abilities_and_techniques:
+    - Construct functions support testimony recognition and record preservation. Personal spellcasting is unverified.
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Return Custodian Seven, nonhuman,
+    Bronze-and-stone construct. Age presentation: ancient. Appearance: bronze-and-stone figure with articulated
+    shoulders and a steady light behind its faceplate. Clothing and posed props: patinated panels, visible repaired
+    seams and a slim record compartment. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

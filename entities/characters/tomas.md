@@ -94,4 +94,34 @@ character_sheet:
   - entities/characters/tomas.md
   - entities/mechanics/independent-assignments.md
   - entities/locations/ashvale-lodge.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '47'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: round-faced adult with careful eyes and practical bearing
+    wardrobe_and_props: weathered green steward’s coat and a bound ledger
+    character_motivation: Wants the estate to meet its obligations and keep trustworthy books.
+    practice_and_professional_skills:
+    - estate stewardship
+    - accounts and provisioning
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Estate stewardship: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Tomas, masculine-presenting,
+    humanoid. Age presentation: 47. Appearance: round-faced adult with careful eyes and practical bearing. Clothing
+    and posed props: weathered green steward’s coat and a bound ledger. Three-quarter stance, unobstructed face
+    and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are
+    illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

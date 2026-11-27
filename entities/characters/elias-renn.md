@@ -173,4 +173,30 @@ character_sheet:
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md
   - entities/creatures/bramble.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 29
+    presentation_for_art: Male
+    visual_ancestry_or_form: Human
+    appearance: Human male, 29; 5 ft 11 in, 165 lb. Lean, narrow shoulders, long fingers. Warm brown skin, long
+      face, dark brown eyes; wavy black hair falling over forehead. Clean-shaven.
+    wardrobe_and_props: Carefully mended charcoal tunic, plain trousers, secondhand blue-gray cloak. Ink-stained
+      fingers and battered notebook.
+    character_motivation: Wants his team to finish exercises safely and together.
+    practice_and_professional_skills:
+    - navigation
+    - team leadership
+    magic_and_healing: Personal mana pool recorded at 10 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - Controlled Dragon Essence, F Rank Level 3. Other individual spells remain unassessed.
+    portrait_reference: artwork/character-references/elias-renn.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Elias Renn, Male, Human. Version
+    shown at apparent age 29. Appearance: Human male, 29; 5 ft 11 in, 165 lb. Lean, narrow shoulders, long fingers.
+    Warm brown skin, long face, dark brown eyes; wavy black hair falling over forehead. Clean-shaven. Clothing
+    and posed props: Carefully mended charcoal tunic, plain trousers, secondhand blue-gray cloak. Ink-stained
+    fingers and battered notebook. Match the established face, build, colors and costume in artwork/character-references/elias-renn.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

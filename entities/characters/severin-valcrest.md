@@ -49,4 +49,34 @@ character_sheet:
     custody location unverified; not one of the five Hollow/wagon prisoners.
   source_refs:
   - entities/characters/severin-valcrest.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '60'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: straight-backed older adult, close silver hair and an austere face
+    wardrobe_and_props: sober formal clothing without current authority insignia
+    character_motivation: Wants scrutiny directed at the documented record. Later custody remains open.
+    practice_and_professional_skills:
+    - state procedure
+    - formal address
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'State procedure: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of High Chancellor Severin Valcrest,
+    masculine-presenting, humanoid. Age presentation: 60. Appearance: straight-backed older adult, close silver
+    hair and an austere face. Clothing and posed props: sober formal clothing without current authority insignia.
+    Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic
+    fabric and material texture. Props are illustrative. No lettering, extra people, active spell effects, hidden
+    symbols, or scene-specific location clues.'
 ```

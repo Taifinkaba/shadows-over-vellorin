@@ -73,4 +73,33 @@ character_sheet:
   - entities/characters/dalen-reed.md
   - entities/factions/dragon-slayer-academy.md
   - changes/chronicles/year848-suncrest262-end-session.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '19'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: wiry build, sun-browned skin and clipped curls
+    wardrobe_and_props: simple training gambeson and field boots
+    character_motivation: Wants to prove reliable on a small team.
+    practice_and_professional_skills:
+    - team drills
+    - supervised fieldwork
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Team drills: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 28
+      base_defense: 12
+      str: 12
+      dex: 13
+      con: 12
+      int: 10
+      wis: 11
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Dalen Reed, masculine-presenting,
+    humanoid. Age presentation: 19. Appearance: wiry build, sun-browned skin and clipped curls. Clothing and
+    posed props: simple training gambeson and field boots. Three-quarter stance, unobstructed face and hands,
+    even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

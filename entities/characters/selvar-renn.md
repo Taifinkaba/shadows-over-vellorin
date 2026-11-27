@@ -50,4 +50,33 @@ character_sheet:
   recorded_context: Received SS-41 bounty instruction.
   source_refs:
   - entities/characters/selvar-renn.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '36'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: long-faced clerk with dark brows and soft-spoken bearing
+    wardrobe_and_props: neat faded coat and a plain receipt wallet
+    character_motivation: Wants exact dates and instructions recorded.
+    practice_and_professional_skills:
+    - document receipt
+    - registry handling
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Document receipt: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Selvar Renn, masculine-presenting,
+    humanoid. Age presentation: 36. Appearance: long-faced clerk with dark brows and soft-spoken bearing. Clothing
+    and posed props: neat faded coat and a plain receipt wallet. Three-quarter stance, unobstructed face and
+    hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

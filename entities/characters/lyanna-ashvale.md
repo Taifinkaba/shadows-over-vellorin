@@ -123,4 +123,25 @@ character_sheet:
   - entities/items/dawnbreakers-promise.md
   - archive/legacy-modules/world/07-7-the-ashvale-family.md
   - entities/quests/lyanna-rescue.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '25'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: poised swordswoman with an independent gaze and careful stance
+    wardrobe_and_props: practical fine travel layers and Dawnbreaker’s Promise
+    character_motivation: Wants justice while retaining control over her choices.
+    practice_and_professional_skills:
+    - Guardian Sword Formation
+    - testimony review
+    magic_and_healing: Personal mana pool recorded at 110 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - 'Guardian Sword Formation: use the recorded training and established abilities.'
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Lyanna Ashvale, feminine-presenting,
+    humanoid. Age presentation: 25. Appearance: poised swordswoman with an independent gaze and careful stance.
+    Clothing and posed props: practical fine travel layers and Dawnbreaker’s Promise. Three-quarter stance,
+    unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture.
+    Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

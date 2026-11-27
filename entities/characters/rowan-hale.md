@@ -122,4 +122,24 @@ character_sheet:
   - entities/characters/rowan-hale.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '22'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: compact build, neat fair hair and even expression
+    wardrobe_and_props: sturdy training jacket and serviceable field shoes
+    character_motivation: Wants to take responsibility at a pace his team can rely on.
+    practice_and_professional_skills:
+    - guard drills
+    - supervised escort
+    magic_and_healing: Nonmagical for this design; use ordinary training, equipment and teamwork.
+    abilities_and_techniques:
+    - 'Guard drills: practical proficiency for roleplay and assessment.'
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Rowan Hale, masculine-presenting,
+    humanoid. Age presentation: 22. Appearance: compact build, neat fair hair and even expression. Clothing
+    and posed props: sturdy training jacket and serviceable field shoes. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

@@ -79,4 +79,39 @@ character_sheet:
   source_refs:
   - entities/characters/osric.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '38'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 47; 5 ft 8 in, 190 lb. Thickset, muscular forearms, tawny skin, deep-set amber eyes.
+      Coarse graying black hair, heavy mustache.
+    wardrobe_and_props: Dark work tunic, reinforced apron, fingerless work gloves, small fitting tools.
+    character_motivation: Wants craft claims judged against actual workmanship. Reported affiliation remains
+      unverified.
+    practice_and_professional_skills:
+    - fitting inspection
+    - mechanical alignment
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Fitting inspection: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 12
+      dex: 11
+      con: 12
+      int: 12
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/osric.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Osric, masculine-presenting,
+    humanoid. Age presentation: 38. Appearance: Human male, 47; 5 ft 8 in, 190 lb. Thickset, muscular forearms,
+    tawny skin, deep-set amber eyes. Coarse graying black hair, heavy mustache. Clothing and posed props: Dark
+    work tunic, reinforced apron, fingerless work gloves, small fitting tools. Match the established face, build,
+    colors and costume in artwork/character-references/osric.png if supplied as a reference image. Three-quarter
+    stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material
+    texture. Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

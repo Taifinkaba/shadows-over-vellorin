@@ -138,4 +138,24 @@ character_sheet:
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md
   - entities/creatures/cinder.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '27'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: athletic build, alert gaze and practical tied-back hair
+    wardrobe_and_props: academy field clothing and a training bow
+    character_motivation: Wants precision and steady teamwork under pressure.
+    practice_and_professional_skills:
+    - archery
+    - tracking and controlled Dragon Essence
+    magic_and_healing: Personal mana pool recorded at 12 MP maximum. Use the recorded spells and certifications
+      where listed.
+    abilities_and_techniques:
+    - Controlled Dragon Essence, F Rank Level 3. Other individual spells remain unassessed.
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Kaela, feminine-presenting,
+    humanoid. Age presentation: 27. Appearance: athletic build, alert gaze and practical tied-back hair. Clothing
+    and posed props: academy field clothing and a training bow. Three-quarter stance, unobstructed face and
+    hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

@@ -53,4 +53,34 @@ character_sheet:
   - Blacksmithing
   source_refs:
   - entities/characters/borin-emberhand.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 68
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: Dwarf
+    appearance: stocky dwarf with soot-darkened beard and heavy hands
+    wardrobe_and_props: burnished leather apron and thick work sleeves
+    character_motivation: Wants dependable ironwork that can survive years of use.
+    practice_and_professional_skills:
+    - forge welding
+    - tool repair
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Forge welding: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 12
+      dex: 11
+      con: 12
+      int: 12
+      wis: 10
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Borin Emberhand, masculine-presenting,
+    Dwarf. Version shown at apparent age 68. Appearance: stocky dwarf with soot-darkened beard and heavy hands.
+    Clothing and posed props: burnished leather apron and thick work sleeves. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

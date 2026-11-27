@@ -50,4 +50,33 @@ character_sheet:
   recorded_context: Distributed SS-41 bounty instruction.
   source_refs:
   - entities/characters/damaris-keld.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '37'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: square jaw, high cheekbones and keen brown eyes
+    wardrobe_and_props: serviceable slate vest and document pouch
+    character_motivation: Wants delivery records that can be checked later.
+    practice_and_professional_skills:
+    - official dispatch
+    - recipient tracking
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Official dispatch: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Damaris Keld, feminine-presenting,
+    humanoid. Age presentation: 37. Appearance: square jaw, high cheekbones and keen brown eyes. Clothing and
+    posed props: serviceable slate vest and document pouch. Three-quarter stance, unobstructed face and hands,
+    even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

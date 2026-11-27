@@ -48,4 +48,33 @@ character_sheet:
   recorded_context: Captured alive at the Abbey; guarded at the Hollow, cooperating. No transfer or release.
   source_refs:
   - entities/characters/caldra-venn.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '36'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: oval face, dark brows and steady eyes
+    wardrobe_and_props: plain oatmeal habit with an unadorned cord belt
+    character_motivation: Wants her own account heard accurately.
+    practice_and_professional_skills:
+    - routine keeping
+    - concise testimony
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Routine keeping: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Sister Caldra Venn, feminine-presenting,
+    humanoid. Age presentation: 36. Appearance: oval face, dark brows and steady eyes. Clothing and posed props:
+    plain oatmeal habit with an unadorned cord belt. Three-quarter stance, unobstructed face and hands, even
+    natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No
+    lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

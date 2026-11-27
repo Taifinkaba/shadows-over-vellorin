@@ -82,4 +82,41 @@ character_sheet:
   source_refs:
   - entities/characters/halvek.md
   - changes/chronicles/character-reference-design-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 112 apparent design reference
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Dwarf male, reference-design age 112; 4 ft 7 in, 190 lb. Broad dense build, powerful hands.
+      Copper-brown skin, dark amber eyes, heavy brows. Iron-gray hair tied back; thick beard in two short working
+      braids.
+    wardrobe_and_props: Soot-darkened linen, heavy leather apron, reinforced boots, simple copper beard clasps;
+      fine chisels and magnifying lens.
+    character_motivation: Wants an inquiry grounded in artifacts and workmanship.
+    practice_and_professional_skills:
+    - runesmithing
+    - tool preparation
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Runesmithing: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 12
+      dex: 11
+      con: 12
+      int: 12
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/halvek.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Halvek, masculine-presenting,
+    humanoid. Age presentation: 112 apparent design reference. Appearance: Dwarf male, reference-design age
+    112; 4 ft 7 in, 190 lb. Broad dense build, powerful hands. Copper-brown skin, dark amber eyes, heavy brows.
+    Iron-gray hair tied back; thick beard in two short working braids. Clothing and posed props: Soot-darkened
+    linen, heavy leather apron, reinforced boots, simple copper beard clasps; fine chisels and magnifying lens.
+    Match the established face, build, colors and costume in artwork/character-references/halvek.png if supplied
+    as a reference image. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral
+    backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra people, active
+    spell effects, hidden symbols, or scene-specific location clues.'
 ```

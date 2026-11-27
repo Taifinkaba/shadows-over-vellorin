@@ -76,4 +76,33 @@ character_sheet:
   - entities/characters/elowen-briar.md
   - entities/factions/dragon-slayer-academy.md
   - changes/chronicles/year848-suncrest262-end-session.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '20'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: slender build, short dark curls and thoughtful eyes
+    wardrobe_and_props: simple academy coat and a notebook of practice diagrams
+    character_motivation: Wants to translate theory into careful training.
+    practice_and_professional_skills:
+    - defensive magic theory
+    - supervised mission work
+    magic_and_healing: Magical theory or conservation practice. Personal casting and mana are unassessed.
+    abilities_and_techniques:
+    - 'Defensive magic theory: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 22
+      base_defense: 9
+      str: 9
+      dex: 11
+      con: 10
+      int: 14
+      wis: 13
+      cha: 10
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Elowen Briar, feminine-presenting,
+    humanoid. Age presentation: 20. Appearance: slender build, short dark curls and thoughtful eyes. Clothing
+    and posed props: simple academy coat and a notebook of practice diagrams. Three-quarter stance, unobstructed
+    face and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props
+    are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

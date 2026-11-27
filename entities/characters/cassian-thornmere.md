@@ -142,4 +142,34 @@ character_sheet:
   source_refs:
   - entities/characters/cassian-thornmere.md
   - changes/chronicles/phase2-03-government-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 39
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Lean frame, closely kept hair, sober layered dress and meticulous attention to written terms.
+    wardrobe_and_props: well-kept court layers and understated fastenings
+    character_motivation: Protect lawful household interests while winning influence through reviewable negotiation.
+    practice_and_professional_skills:
+    - petition review
+    - negotiation preparation
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Petition review: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Lord Cassian Thornmere, masculine-presenting,
+    humanoid. Version shown at apparent age 39. Appearance: Lean frame, closely kept hair, sober layered dress
+    and meticulous attention to written terms. Clothing and posed props: well-kept court layers and understated
+    fastenings. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop,
+    realistic fabric and material texture. Props are illustrative. No lettering, extra people, active spell
+    effects, hidden symbols, or scene-specific location clues.'
 ```

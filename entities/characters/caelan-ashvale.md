@@ -62,4 +62,34 @@ character_sheet:
   - archive/legacy-modules/world/07-7-the-ashvale-family.md
   - entities/locations/blackthorn-watch.md
   last_reported_location: Blackthorn Watch
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '48'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: tired eyes, swept-back hair and a guarded but gentle expression
+    wardrobe_and_props: soft russet layers and a plain shawl
+    character_motivation: Wants control over the pace of his recovery.
+    practice_and_professional_skills:
+    - patient recollection
+    - family conversation
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Patient recollection: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Caelan Ashvale, masculine-presenting,
+    humanoid. Age presentation: 48. Appearance: tired eyes, swept-back hair and a guarded but gentle expression.
+    Clothing and posed props: soft russet layers and a plain shawl. Three-quarter stance, unobstructed face
+    and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are
+    illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

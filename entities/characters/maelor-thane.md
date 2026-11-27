@@ -52,4 +52,34 @@ character_sheet:
     pending.
   source_refs:
   - entities/characters/maelor-thane.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '60'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: angular older adult, iron-gray hair and grave posture
+    wardrobe_and_props: plain dark formal layers without Keeper insignia
+    character_motivation: Wants review to distinguish the orders and evidence at issue.
+    practice_and_professional_skills:
+    - procedural interpretation
+    - formal testimony
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Procedural interpretation: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 9
+      dex: 10
+      con: 11
+      int: 13
+      wis: 12
+      cha: 14
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Keeper Maelor Thane, masculine-presenting,
+    humanoid. Age presentation: 60. Appearance: angular older adult, iron-gray hair and grave posture. Clothing
+    and posed props: plain dark formal layers without Keeper insignia. Three-quarter stance, unobstructed face
+    and hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are
+    illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific location
+    clues.'
 ```

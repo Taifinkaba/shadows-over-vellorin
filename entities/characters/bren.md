@@ -102,4 +102,41 @@ character_sheet:
   - changes/chronicles/character-reference-design-approval.md
   - entities/mechanics/independent-assignments.md
   - entities/locations/ashvale-lodge.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '42'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Human male, 43; 5 ft 9 in, 195 lb. Broad, sturdy build, thick forearms and a modest belly. Weathered
+      ruddy skin; square face, slightly crooked nose, hazel eyes. Short chestnut hair graying at temples; close
+      uneven beard. Callused hands and small working scars.
+    wardrobe_and_props: Faded brown wool shirt, rolled sleeves, patched trousers, heavy boots, worn leather
+      tool belt; measuring cord and carpenter's square.
+    character_motivation: Wants structures to survive weather and repeated use.
+    practice_and_professional_skills:
+    - load assessment
+    - construction layout
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Load assessment: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 12
+      dex: 11
+      con: 12
+      int: 12
+      wis: 10
+      cha: 10
+      mp_max: 0
+    portrait_reference: artwork/character-references/bren.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Bren, masculine-presenting,
+    humanoid. Age presentation: 42. Appearance: Human male, 43; 5 ft 9 in, 195 lb. Broad, sturdy build, thick
+    forearms and a modest belly. Weathered ruddy skin; square face, slightly crooked nose, hazel eyes. Short
+    chestnut hair graying at temples; close uneven beard. Callused hands and small working scars. Clothing and
+    posed props: Faded brown wool shirt, rolled sleeves, patched trousers, heavy boots, worn leather tool belt;
+    measuring cord and carpenter''s square. Match the established face, build, colors and costume in artwork/character-references/bren.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

@@ -1,0 +1,425 @@
+{
+  "source_ref": "changes/CHANGELOG.md",
+  "revisions": {
+    "changes/CHANGELOG.md": {
+      "before_sha256": "c7b4a0edc64515c0daf3fa1b7c4cf5277642451fb1702f3eb07af99c67be3ad4",
+      "after_sha256": "857c0f9da7e0f0092d9984e62e98f0f4c6cbdcc0a1df9f4ede772f939bc6bbf6"
+    },
+    "entities/characters/alaric-voss.md": {
+      "before_sha256": "bf387af97f88d26323797110f7849a4473eb95739ba5fd7ffa088cdf88e67f28",
+      "after_sha256": "9b2ac08cefa6d0f9851f2a204c84be644736b18f585406e90216cad4765da9c6"
+    },
+    "entities/characters/alda-perrin.md": {
+      "before_sha256": "23f7fc8ad40f186983239041b1424c4d769ccd8e462372357dbf04a6ee34095b",
+      "after_sha256": "a51c11ca1b6c52fd0b2b579a1dfe0984ac3bf58e49cf23a1f39ccde450e2be11"
+    },
+    "entities/characters/aldric-voss.md": {
+      "before_sha256": "050ed890a23a9c6645b7f4ee6274e9a9f63377c1a111ce6d2e9f257497e7a0b6",
+      "after_sha256": "e284509459f0f597524863646df59cd55979cf97442f74d17fffd8018e2dd152"
+    },
+    "entities/characters/aren-duskwell.md": {
+      "before_sha256": "309e505764b9c0136627ef0025f4a6e5783e671c499a3aac73fc7781048b6083",
+      "after_sha256": "fc82f619e04ab6b2aa66eb58fabac9fd33a56088f6ab9ee2757e83a8aa75a1ba"
+    },
+    "entities/characters/aric-ashvale.md": {
+      "before_sha256": "5d0dcf9fcc1d31362bf2f3b9016702a698d8a047d50dfc52d345d1a4550f317d",
+      "after_sha256": "52d01a05146bde4b871f30bc33433c7e0c0af15f17dd1155c3acf0d9984a6199"
+    },
+    "entities/characters/aveline-hartwell.md": {
+      "before_sha256": "89ee101249ece0ac79e0c82fadd3a03fd999684201d3ad0d160a91d96583672c",
+      "after_sha256": "72ed17af39987a42956b478966ebf2c8a1425ab5a6cb9dc6730a2435a4ff5d99"
+    },
+    "entities/characters/borin-emberhand.md": {
+      "before_sha256": "897e5d26140c2c642e5943da2dabaeb7276655f8da17332dc95c25f12a344f40",
+      "after_sha256": "f8c72ccc8d50dda1cf94ef58b8ab1e339d6d0539ce2961009ef88a0e9e3cf66b"
+    },
+    "entities/characters/bren.md": {
+      "before_sha256": "12037da2a9bff1bad4fa5845586fb15df83e97e459dbe472b55a558297cb86de",
+      "after_sha256": "cccc3fa3fac5bd275edadd66a18788d9f8aa4fb7d811a770d9306b105f027176"
+    },
+    "entities/characters/brom-ironroot.md": {
+      "before_sha256": "db4fd3be4f1aec9341803ea82750fa45196d0c944abe78ab0b6e153930d35a42",
+      "after_sha256": "b790df6b21d08bb0fad7f5655185e3101c3a92431985864f34167e7d20e2a8f9"
+    },
+    "entities/characters/caelan-ashvale.md": {
+      "before_sha256": "f09089157e71cc363e512dc3caf8a560887fa16802414ba2362ff41ec6c60b3b",
+      "after_sha256": "33a79d489f82876d3acd02e440a212e32fd49326926b0cdc89dbc4ec577f8a05"
+    },
+    "entities/characters/caelrix.md": {
+      "before_sha256": "7456dd6148362afe2d43d7543545f84458e8bbec53a614eff77367bea8e9c120",
+      "after_sha256": "f367adf73e6819fc6577c44e08d69c4bf25bc18a14083e404f11575076799ac5"
+    },
+    "entities/characters/caldra-venn.md": {
+      "before_sha256": "020b17a262e7c0af65f1024e8c474a728f6cf81f03b49b023b89dc22c79606fc",
+      "after_sha256": "7b8862e716bd3ea1e893b1697883fd6e1aa00716854a1b14fb390b48673d018b"
+    },
+    "entities/characters/cassian-thornmere.md": {
+      "before_sha256": "55e363e598ce99ba90cc05da2c548120df571b9dcf747559b75de10cdb9a1fcc",
+      "after_sha256": "718ca9773b7cba8ab94ec05724eba5500385f3ca81562b55ba43ff0e4771087b"
+    },
+    "entities/characters/cedric-vale.md": {
+      "before_sha256": "872854cda90a3645785c383c2eb6a14b618151590fd628ef3b3e553422b91088",
+      "after_sha256": "f978df508a3b1c6e4c37f0eb312e0931180dd2d30e4ea0850e771d445bbf5f17"
+    },
+    "entities/characters/corin.md": {
+      "before_sha256": "a8ffacaf5f047506479a99ef7832f8555a6beb157b26e670dd84f163bddb55e7",
+      "after_sha256": "e8332def98377817d16f4ffcbc3f0d2957a5b97723588002af20debd76630fed"
+    },
+    "entities/characters/corven-north-return-house.md": {
+      "before_sha256": "680bc855ec560072ac3ac421d05088e952bd62619854402cde14d6fa65c53e9d",
+      "after_sha256": "4fd0ab6d9d2d1df9e58f953088162785b0f326c74516f8a43feee19415569ece"
+    },
+    "entities/characters/corven.md": {
+      "before_sha256": "19c108d78c529a107105b5094c4738fa908b6daea60a98422dc7cf91dfa6bbf8",
+      "after_sha256": "5fd1a8a4af44827dd57f43cf349dfdb2000844f131fe2a5f3716a721212e9453"
+    },
+    "entities/characters/corvin-dareth.md": {
+      "before_sha256": "e4ca2620a47cac0cb5cc1dc7b4f83aa9d1a1fe72f01b5b18b8d023a6717de47b",
+      "after_sha256": "9d1f2f5c7b612282a110fb08e1bccb90c76b278aa794d15de71e39aafe48d96f"
+    },
+    "entities/characters/corvin-halbrecht.md": {
+      "before_sha256": "015c816df9ca107160e1cce41b15bb1dce0e70d1cf0caf9761f15a282541b928",
+      "after_sha256": "70de688ab40df4b5be3fdf00e80fea45972a91054e3d6f560eb36fa078bf8133"
+    },
+    "entities/characters/corvin-hale.md": {
+      "before_sha256": "bb96deb29c8f644c890a88377cf0d52e0fd61c31e7eb1d1f209de9fd600f6847",
+      "after_sha256": "aeb06e5dfcb3e550110c312a30c391beae250362626ef7e3a93d76d95e876cc0"
+    },
+    "entities/characters/dalen-reed.md": {
+      "before_sha256": "f040a44a56ce30962e1d14cfe8c0adb74542f2a834296fd5174b1adc0df1501d",
+      "after_sha256": "8c1268e57f7162951ae91e74fa8ae3a70f1c17ec97ab9526701e90493d057f7a"
+    },
+    "entities/characters/dalmor.md": {
+      "before_sha256": "243417a30433506f7cd338cdce333f34a50d6a807c2d6a1018ee0ff2afa06780",
+      "after_sha256": "f26cc566a2c4694090fa1628e6d8d490b422aefb54ed6daa6589ae241bba3fd5"
+    },
+    "entities/characters/damaris-keld.md": {
+      "before_sha256": "7cdc9b09a09f78d0a13b0229493e9b648283c13510fe3b6e867ae0e92f523955",
+      "after_sha256": "5e2b7a9f141136a274a72f0bdd45b2c5f813ae109ef173695e3d31b270f15f59"
+    },
+    "entities/characters/darian-kestrel.md": {
+      "before_sha256": "4416c04d3d0f41aa86ccf4344cb95aa608a0119c085f89a4778dd279063bb795",
+      "after_sha256": "cf3e2f8a3d25682997e979d43e9f45b9f946912a4df13117c47ffcddf52bde4c"
+    },
+    "entities/characters/dask.md": {
+      "before_sha256": "1bb221afceb1cfbd1cd3a5a890588b14f74c2e390d33ed93cb82c4188de93245",
+      "after_sha256": "a2b2b5c2fa873f144e0fe2030772650401f2422d7021295d863826140a51469d"
+    },
+    "entities/characters/durnek-stonevein.md": {
+      "before_sha256": "2a496030e30480bba2585a53088a67e3f431ef6ecc079388f999ef023684b63c",
+      "after_sha256": "3447b1a1a764f54c08672bfe5ad90c7e229f4cd6d504dda577f83c443e97b92f"
+    },
+    "entities/characters/edran-valeth.md": {
+      "before_sha256": "783f9dbafa187280ae1de282565ba452c1f55bbd100d9a0314191a5d53b7f644",
+      "after_sha256": "81d1f5b2ad8bee3d6aaf87858b7439ff8dbf302d829ffcded03c39a2fa3fd5a8"
+    },
+    "entities/characters/edran-vell.md": {
+      "before_sha256": "a14f7779eef454795b0cf4f52f639a9890ef44fba0ecaab2c199153b56a25877",
+      "after_sha256": "f6a626da1bd5797591decff621f4d76a5a2ffa3e4284805196256f4ebb0b38ad"
+    },
+    "entities/characters/edrick-sorn.md": {
+      "before_sha256": "66726ec5699243ee32387601a16cc95bee66d0c52885a50b534856ca0dd13f7f",
+      "after_sha256": "170132771f64617d03b5559eb6af5c7b8474f0f460f543acc93f3b53f33467dd"
+    },
+    "entities/characters/elian-voss.md": {
+      "before_sha256": "a9a4d8da55c5c8467d2c8c6d835ff3d5f3617c13731dfe6968e00847b63b3658",
+      "after_sha256": "fc1c27855dbfcf9f99b88cec665973ffde6895e3e993cf2f91eadf37a61e39d9"
+    },
+    "entities/characters/elias-renn.md": {
+      "before_sha256": "4ab37a63463c7121147d555b8598eebe5759005a544b1970e95bb4f39aefe54f",
+      "after_sha256": "222002a7d0b9829fb8959122669363be857af40ea5598da9534988281fc34765"
+    },
+    "entities/characters/elowen-briar.md": {
+      "before_sha256": "01d47da28129c6bdbc5d2db013a70f80bbce8c1e3e96900aac76c4c7230240ee",
+      "after_sha256": "802fac2eafc692b5646984805823954bbed68d97260da8b9cb7fd477476c037a"
+    },
+    "entities/characters/elowen-marcrest.md": {
+      "before_sha256": "3cac8203f0cbd795429b0c76010bd6cabf414d90b9c886ce334500c402170c31",
+      "after_sha256": "d4ec4d80297e128d77c753305fda800692d74ea45125e22b7cfa4217c8cc539b"
+    },
+    "entities/characters/elsbeth-marrin.md": {
+      "before_sha256": "ae1c0b5562fff5224692df73d3c337fbcf346705b56f71d87f661980d04f3d9f",
+      "after_sha256": "f2b20261960b740375785163957911d81239beedca3fa0d77cc94a071023aee8"
+    },
+    "entities/characters/elsi.md": {
+      "before_sha256": "049f0b9c22de0181da7e70f5a06747ca683750aff96591b00b49266f6ef71f1a",
+      "after_sha256": "3fa1284a96ef35d73f2944fb34b8dd8aa9ccc86ec7231a042f68add39af96543"
+    },
+    "entities/characters/elyrian-voss.md": {
+      "before_sha256": "2ac9cc9355189a6fb4d5a24fe25bb6ead367c54e0ff5ce06eebf2cf49e7282e2",
+      "after_sha256": "4850b17f50920bb51baa033f60805461139208059477e57719a7215b029e9bc5"
+    },
+    "entities/characters/evara-holt.md": {
+      "before_sha256": "7dcd759d98c7d5a8c0eb7d187a77e71e7ee1ca73da0ef98f1a937aee4faf49cd",
+      "after_sha256": "f64f3c0b7ba8242f64a570d6782580a424e1c1ff888e15777b0ee62bf8f30c7e"
+    },
+    "entities/characters/faye-linden.md": {
+      "before_sha256": "b930cdaa2a8a654f4179e1b8639ebd183496bded844919175ea882b838383989",
+      "after_sha256": "6947a5631f42636f3dcca58cc8ea59cd44e904e30951c7d7404fc9c7a5de3e31"
+    },
+    "entities/characters/gareth-vaelwright.md": {
+      "before_sha256": "6d4af13f5527ce81a0c1c50f1c3b892bf7c367492dc9b14d2dcd263ed7a3de5e",
+      "after_sha256": "01eb7bae4ad46d0011306c6a5c3fe3724305468c3001f08020b23e09e5a454b3"
+    },
+    "entities/characters/garrick-vale.md": {
+      "before_sha256": "7e747cd76bf8cb6179ab2bcaf2697d3bd48e99f342cac8989106090b900134f5",
+      "after_sha256": "0e9dde3b2942694f4ddd46aab47dfbaf5a7e507fb4966e3c401aaad4ffe0e756"
+    },
+    "entities/characters/gorren.md": {
+      "before_sha256": "c14bb3db9c27e087165174b7c62a260068d077502caea3d2cec5dba3b6513c36",
+      "after_sha256": "6eed4ad376511ab341c5a35cdd137fd8adb005aaed3900d3ffe784b8ed56050b"
+    },
+    "entities/characters/halden-marr.md": {
+      "before_sha256": "64711868b5ec0ad2fbb92c8e974445b599ee77fc32aa8d2dcae2fdaf2e918eb0",
+      "after_sha256": "1571165dbd4785046b508fc69330db6d25330ef8bf4ce4df040d38e2af529e9c"
+    },
+    "entities/characters/halric-dene.md": {
+      "before_sha256": "32026bfa2c7f75ef607d83c100f0c7fab16a54d52e7031fbd84f030c02f80bb0",
+      "after_sha256": "ad801c602f27d121b1594ce7e70ea3e254634acfa1bc2c7d3f4d3fd6d75362ac"
+    },
+    "entities/characters/halvek.md": {
+      "before_sha256": "7d81de86fb820cca9381c5169df87f24a6fcd8543eb13a9ca81468e4cb4ae160",
+      "after_sha256": "d44a282d32bab5b92c307f1a8408f80101fb115cd53f8020ccbade6212b0089e"
+    },
+    "entities/characters/harlan-wicks.md": {
+      "before_sha256": "a3f248feec654622d2b1348dbd29424cf3ea5397d09e78f41e067525a6562fbc",
+      "after_sha256": "bcb0a2a3cd867d3413e36cbafa7ac34069fa1a7bd94cbd7c03db3edcc76b889d"
+    },
+    "entities/characters/hessa-vale.md": {
+      "before_sha256": "316a971b6ead37f2ed0d7f5b1d426030ff623938e6980cf227b7f99c96d53177",
+      "after_sha256": "483958c14d47ffeca22273ca508d1e047cfe24b97a5253f9fa92e4f4aa6687b1"
+    },
+    "entities/characters/ilyr-varess.md": {
+      "before_sha256": "3c482164cbc842e1618e7eb86eb0abd3efb539a9493b2238103ab203c2d3fa90",
+      "after_sha256": "3b848af8a4a0b962781b7d6f916e780eb704ab6f79170f27178e48bcd93b10fd"
+    },
+    "entities/characters/joren.md": {
+      "before_sha256": "7a60be829ac17625672df7c28a9aaf4887bf22911236941d8151f4de2098687a",
+      "after_sha256": "663ec9088bef33a237ca7b04ff7de5b440c33b71de6fc70ea2fc54cb78e007a2"
+    },
+    "entities/characters/kaela.md": {
+      "before_sha256": "37dad57ba51c99c6c53a892de38a2621b303cba442d48e3c83dc82ea3129d4ce",
+      "after_sha256": "59b91f3fa96ade42cc6a558cb9f7d353b17459203872bd43babd989307d69f80"
+    },
+    "entities/characters/karel.md": {
+      "before_sha256": "dda6b353591ce1e1508e5b6b9308ab7e82f6e0ac9b44d927edf84ce0f3bb7391",
+      "after_sha256": "91f0b7aac5ede1115566ef386564232b2929478852dd6a6742ce5762cc1f57fd"
+    },
+    "entities/characters/lethara-mossveil.md": {
+      "before_sha256": "58baf15931306ff11ac81fb16f484889185ee820b0b65bf4d28a9b1edf60968b",
+      "after_sha256": "3c4158c01a730a71ee48971a1a83c9b633b210551633bc8c04eb1d79abee1beb"
+    },
+    "entities/characters/liora-thistlebloom.md": {
+      "before_sha256": "5939e6cd4b7aa4bdc505b5b4c9a5ef394d694e718994dee5ab3ca217dd2573da",
+      "after_sha256": "a973531161d0850291414e76b4b051b3801eb6e4c6d3d9bd41f3d57f9a498f55"
+    },
+    "entities/characters/lyanna-ashvale.md": {
+      "before_sha256": "c8b7f4cb4fcb63482d1611412f414bcca8b1c58b93cf08283eb7e61711d896b7",
+      "after_sha256": "711e0eb795e37115783cf228fb89ebf59f04ac362c52699e22531b29d70763fc"
+    },
+    "entities/characters/lyra-moonvale.md": {
+      "before_sha256": "0710d5c13e037058035149a1e07c475f00c69f6b55306555652ddd3364eb77fc",
+      "after_sha256": "bca346c0741b3df5f53014a4c4b60558f1a763f48cae7ba51ae61ee943653167"
+    },
+    "entities/characters/maelor-thane.md": {
+      "before_sha256": "c3d3f8be75aac6833d9711687299ee3236ab17966c290c33d6d38db4404ce061",
+      "after_sha256": "bbe4435fb06f19cad87bf40ba9034fb404c84978ed201d7be99ccae70e6627e8"
+    },
+    "entities/characters/maera.md": {
+      "before_sha256": "3278dde252682aeca995a45f64b5d33baec7aab982fd0f589b43198f60fe98c0",
+      "after_sha256": "9bc1c8108d3c42c7508a8966e410c59e781a85bf0b9a159358612f017ec9db05"
+    },
+    "entities/characters/maerith-voss.md": {
+      "before_sha256": "2ddb7a42fb2773b67687382f1f44543313e8a162cd02b48595580d9b77a373a3",
+      "after_sha256": "3aa7a87a74d5e3972a90604125e68bd6b313e04e8697099140b1a0fd040f3dce"
+    },
+    "entities/characters/maeryn-sol.md": {
+      "before_sha256": "53c993c4a93d4e03898208bca359677ccb8a59ee758477e79cc943d6f5a30f0a",
+      "after_sha256": "9aafe72695f1f0cd2b32b8ebc76a050776734ba6f9c86cebe7db833e494f9fd8"
+    },
+    "entities/characters/malrec.md": {
+      "before_sha256": "9adb63288367c55e076fefc2928246910ab83997d85465539e5566c7dc449a07",
+      "after_sha256": "bd7cae8eac5d7da6ceb2aa4bf9f04094ef2b44f610ef2d006b675f90cc2298e4"
+    },
+    "entities/characters/mara-fenwick.md": {
+      "before_sha256": "437a231d16cfee09ac9466bedc071f8b8523dfc92de242b1cd5d9549d98ef2d1",
+      "after_sha256": "99003fc76fcc77efe867db214d2921b750a03dcdff4b41937792d828a248a1b3"
+    },
+    "entities/characters/mara-vey.md": {
+      "before_sha256": "1e394a9f229660ae1affd96f2e03eef03321b75cba678ba41d4f9f259ba13bab",
+      "after_sha256": "4b58885c81d9298568a96b9b3d4dcd320df9bcae318d1958d46705a18f27e16f"
+    },
+    "entities/characters/marcell-duren.md": {
+      "before_sha256": "527faf256b35509af84dc2cc8f01bee117724f4505aebfe710ceab159d4061ba",
+      "after_sha256": "7a22fa068c6a42a64bc87ca95b8c3ad77ac592107cbd0c949a318f7aa57e16d5"
+    },
+    "entities/characters/marek-dorne.md": {
+      "before_sha256": "5e9d58608b026bf7e392256f3e613a5e5bf4be1e229e633038b81376da110068",
+      "after_sha256": "67131e4b4f45202381a9e7aa0329b6b4746c0e5c0cf2be123ee7f9ef408fcad4"
+    },
+    "entities/characters/marielle-fenwick.md": {
+      "before_sha256": "f52c12d12201db792f17647257a9996ea48027a3a3cc0dd28c9ddf1c5da51d1d",
+      "after_sha256": "b9fb44f3a3d0ac92d61f82b0f04202e5fdf89b52413d14b70454b1fdab7182f8"
+    },
+    "entities/characters/master-beren.md": {
+      "before_sha256": "50550146f9b77915c70f0ddd793ee0f45aecd1cb5fc5fa0db1ec88ea2e4a08bf",
+      "after_sha256": "bdee1fbcd8d75bf73692e35698728f15749ab3ce54e5279dd72ddc2a4bf48747"
+    },
+    "entities/characters/mira-hearthwick.md": {
+      "before_sha256": "3da7c6cbd95b8f85dec3d231063307840c3eb5eeebe04ed86800856f6c051041",
+      "after_sha256": "11b078644d659632e1ef3f31d36dc58dc5d6f97f16be85d43889643c2c832f2e"
+    },
+    "entities/characters/mira-lodge-helper.md": {
+      "before_sha256": "ceedf8fe8182e0d33ef5113442a686a76988cd0fad87c26c83193b7794a22c1d",
+      "after_sha256": "057e9b256ffc92767d76e9618aed1683d6a95181acbb74326473c391f30ce592"
+    },
+    "entities/characters/mira-thorne.md": {
+      "before_sha256": "26ece2cdfca5f1a82b10bdf4434f5787168a1d0eb939caf8bea665bf9d5ee32a",
+      "after_sha256": "59bdce07e2f0123cb7a075759a2769efe2f5a091fac75b04aab37f71de0b60fc"
+    },
+    "entities/characters/nessa.md": {
+      "before_sha256": "d918e0eab360e86ddc6d791baeac68559d52272bfdea5174dc86eecef4f55fd6",
+      "after_sha256": "ab5e194a91d6af86a8bb60208faa191f614970845baf1f022d54dbfe7ae5408a"
+    },
+    "entities/characters/nyx-thorne.md": {
+      "before_sha256": "b57e709d792a5c2cc80a71d748439fa37da6a56da03a042e00b137f17b54d7b6",
+      "after_sha256": "c9cdc77d9730ae3460cb86e9f2a91bec592a3a7b86aaeb1a3c416cc50e77ac42"
+    },
+    "entities/characters/oren-veyl.md": {
+      "before_sha256": "a1e1074fe1d58500a64705e2fba3f002430b3d624b1390ef16117c2ec1399cbf",
+      "after_sha256": "d0b83341040df2d3274a6aff6b01c04f697221d14895e492904f4fd6f085b4e4"
+    },
+    "entities/characters/orenic.md": {
+      "before_sha256": "10c37f31518567c2d0342b823e1515f61fa86a32788ae466e34817da4b7e7e2b",
+      "after_sha256": "582841eff70744bbde0eecd9f9ae5734f345324266be65dfef07efbf067e8c97"
+    },
+    "entities/characters/orrin-valecrest.md": {
+      "before_sha256": "3e672fa9acebdbc5576f3ec6417103c712daa849e51e763c326a652b909daa99",
+      "after_sha256": "2bc2be6cd86aebcadab7892501478261a805fd7921297163193149d6e82f6fc4"
+    },
+    "entities/characters/orven-pell.md": {
+      "before_sha256": "47e19f572f74eab60cd99103c7940d1c537945a54da3ec90ff0dc7a0d9923406",
+      "after_sha256": "a7fa6d388a5760acb23604e5cf112286cb405745b57afd5cc636981c8d8b49d2"
+    },
+    "entities/characters/osric.md": {
+      "before_sha256": "84175b5368942b7a519799453d524b9ce233141b45b51457a5f0a171bdd8fe41",
+      "after_sha256": "85f1e5661769abbb40f2a2e93be0d8be93898356530da6b13cd1e93c64990441"
+    },
+    "entities/characters/perrin-oak.md": {
+      "before_sha256": "d755ff5eb15f33c312ec7ecbafa244e963fa69989810ef1c563543b26ede5914",
+      "after_sha256": "65ac166d167f3a8a0c2554adc5b566b9bb588da5c07a70e9112c8d24a8e37488"
+    },
+    "entities/characters/perrin.md": {
+      "before_sha256": "251499feecf53bd7de578eda7d69cb196802acb441d98535ea16bae407d31d7c",
+      "after_sha256": "914ef93b589f4c4ec4926e8b0bb5965283a8485d09f77277fba087934a058786"
+    },
+    "entities/characters/rellan-sorn.md": {
+      "before_sha256": "5afc2ab47f092fef9c3e434baf9408c9413d396648e1fa57ab67c4c1a8184b13",
+      "after_sha256": "531b7a77eeaae0277d06a821caaa733cbb5e16d97fc0ff1a82ef13bfece7ed5d"
+    },
+    "entities/characters/ressa-vale.md": {
+      "before_sha256": "4f213ba4008e91849b3023720416103b6bacd3953cb60330374d6229764e7404",
+      "after_sha256": "cbea35295464bd40c11f9be60df713e2e3fec0e170eab81486f8012b3c1cd60a"
+    },
+    "entities/characters/return-custodian-seven.md": {
+      "before_sha256": "088984a20e9179b412d78b4d65e993469ad0b29aa3a03efee12d96a2335a7d0a",
+      "after_sha256": "c64d8af69900626c8751eff6e1e78123577325f6ab84a4b7f7e0886fe3167c2b"
+    },
+    "entities/characters/rhea-thornfield.md": {
+      "before_sha256": "c75ec282ba1afa416876c44410af95876006b1d60167c61969929be52d3e1f17",
+      "after_sha256": "fbbeef08bd8a689b473a08bedb665ea20ff917aa20799472277f7e0d271e3fab"
+    },
+    "entities/characters/roderic-mael.md": {
+      "before_sha256": "1e6ae283f5807576793ced0671a1ad5f932ec34ba2be995edd932f285b24162a",
+      "after_sha256": "ee5fc9dcf2a15ee54a0e8cdf7b5c2f924e982eaa1f9a9e7a507a0827143b6a34"
+    },
+    "entities/characters/rowan-hale.md": {
+      "before_sha256": "163fe8dab52fa15eac9a3c40eab22adacad69dc1521685f5d1da4babd79ffe69",
+      "after_sha256": "585bdcca4e9f453d9c6713e760cb753feb1161508ad820c0f1746eecc790a0ed"
+    },
+    "entities/characters/selene-harrow.md": {
+      "before_sha256": "30e9179a09f9dd0a7ba82039e085b93c598a0f68e868e9b4f413a7e9205102ba",
+      "after_sha256": "b9509a176f03aa3f0eec4654a41451176685e540f14c9a103cfbad63f5abfcdb"
+    },
+    "entities/characters/sella.md": {
+      "before_sha256": "a5c361897148c21f9a795453ee32dc053f9db3d4d8e22d4ecd89ac1025655d1a",
+      "after_sha256": "6129b0d92b621a9a49c065be55f4d481126e9af63dc665bc088bb61ad970fff1"
+    },
+    "entities/characters/selvar-renn.md": {
+      "before_sha256": "a7f7c245c8c366ab64aacf769ee8127352c34eb2868807aaa43a51e5e37d4e10",
+      "after_sha256": "86d20cfc2ee16a8595ecb5b9d27ade3cb080a47a07c54e8355d644203fc29623"
+    },
+    "entities/characters/ser-aldren-voss.md": {
+      "before_sha256": "3e88a2cd33464f5b83ea65423149d735c48810e010048f66ea73cbbd61817fa5",
+      "after_sha256": "ede84037a3a2cf64b153c804bc54669a62578b60a554cd529564c37bf00f138e"
+    },
+    "entities/characters/sera-dovain.md": {
+      "before_sha256": "ff248a59083283f8a022be01af6db16bcd52911a6e206d46c9b6b177450abad6",
+      "after_sha256": "0d91dceb44032fb74edfa512860af4b0903ec3e342825e7ac3c8c40d118794df"
+    },
+    "entities/characters/sera-willow.md": {
+      "before_sha256": "2c7294ecc442cafde3327ff5113e0ee15373835c439b43a4a8d1f948d2ae8ef5",
+      "after_sha256": "9456ea1ba6566db157c5f919f25f7580eed6cadbccad384f9937949ec6dd14ba"
+    },
+    "entities/characters/seren-veylor.md": {
+      "before_sha256": "bd2c6b8fe1985011377a349a657b0ba792c012e112b2fac88899afae8c7d2555",
+      "after_sha256": "84aad207ace6cc383dee7188e5826686591f4f4d929365030b466f130e3fef3d"
+    },
+    "entities/characters/seren-willowmere.md": {
+      "before_sha256": "9a35522bb03751b47ed6937909a5c91423e8679be36e3f400a4ff004a2c1584a",
+      "after_sha256": "89b3097dadfd964ed0b32919a34513cf9a65ce63e7ff897b762f4fa606f58955"
+    },
+    "entities/characters/serrik-vale.md": {
+      "before_sha256": "401102552de169c4dfeda1afc98fa684c3c174a0cae5bfb61aff0d0e316f0637",
+      "after_sha256": "5bf2beb85de37338070aaf71d324950d683250420dc9b2608f1bb70cbf69a25c"
+    },
+    "entities/characters/severin-aulcrest.md": {
+      "before_sha256": "860b53a19ee59aedefcb1fe23262c8d75a007cb9fcab28cfdb95fddf1c6132fe",
+      "after_sha256": "72ec1a389affe3b8f00fb386591fc448d903d032bf7327f08b9e94c6c56adc72"
+    },
+    "entities/characters/severin-valcrest.md": {
+      "before_sha256": "74c50d5f795b892acaed25976f07fbafff30eb10bc682b482e6bb68609f008ce",
+      "after_sha256": "06ac1d61033e38700568e7878a7fc44fe6c7cd67622d0df2c31fb9189bbd85fa"
+    },
+    "entities/characters/talia-fen.md": {
+      "before_sha256": "bfe961099f6939fd2de9780206c6b6f76cd0f0a05b191a99f021b1b995b9c809",
+      "after_sha256": "48db7589f87ebfad2b387bf701f9d324cadaebfceaf56aca7984001f432868b8"
+    },
+    "entities/characters/teren-vhal.md": {
+      "before_sha256": "a8e2f7f3926e89f67f54cbf3de0282e554e5a529f05e1832320789ded8802985",
+      "after_sha256": "3704078fa1d220b59bc4f57f455cd4fc8a697b1cd7bdd0599cde08d63526290d"
+    },
+    "entities/characters/theron-ashvale.md": {
+      "before_sha256": "515c4f3d03cd86e5f3104ef9cb5b77c459aa0a1e8656b815021a78ff0f41d258",
+      "after_sha256": "79dd0ae8ee0012929929a1f796187a7f4dc3087ec009bf5ef766c1d8cfcc495a"
+    },
+    "entities/characters/therons-mother.md": {
+      "before_sha256": "e5e6153eacbf2dfe737c98d1add157eb03b9f23ed84e544acac659a46dca6b0b",
+      "after_sha256": "55ce3afe825101ff0ffcd1fc064f8d3ccb898ded235ddb5508b255671944f9bc"
+    },
+    "entities/characters/tobin-marsh.md": {
+      "before_sha256": "ba38bf7d524f860c05e2fd9d684ecde7ff14a31ddce46d723ac416d87c6877ab",
+      "after_sha256": "c44e51d6c37fec62810fa0bafb9d1ccb1e540d7da7d08ce0e40852c4919ebeab"
+    },
+    "entities/characters/tomas.md": {
+      "before_sha256": "2941e8cdd6dba61a0eb0bcae025e72724b8b0ab73669a468258890c599450aae",
+      "after_sha256": "3945d3d03890451b50b47ae5286f55fd9b2ba6c9a76400cbbbe14a84ce14eae2"
+    },
+    "entities/characters/varian-morthal.md": {
+      "before_sha256": "8d7f15b0286001180a20dcf55ffd0542f47727a1b0189dc045ce9e843b3aadc5",
+      "after_sha256": "38816b6e62fa64dbe7ca672c9fb39867d1c8f2f15c8e02ccb3fe3208dd4606e1"
+    },
+    "entities/characters/varric-dellen.md": {
+      "before_sha256": "58697220bd4f13e8cac64f167c0416a0138b872fc216cff449dbe0a37bbe2be4",
+      "after_sha256": "b3b45eff1f7a3eabf5b2b0844b1dc1813b4d32c9102854ca4abe0b81ccc9c575"
+    },
+    "entities/characters/vennick.md": {
+      "before_sha256": "c3452ed245bb8c2c4d6f16ae490d9d37ef9921069ad2afdc25f0c1a332baa384",
+      "after_sha256": "b0ced3206ad814c394486b664375a5226580f36eeaafd48ca49f0e4fe43615cf"
+    },
+    "scripts/magic_combat.py": {
+      "before_sha256": "5d384ad0477828b7f74b356340a6991b566e9d7627ce9345f8b94bdb8f84b6df",
+      "after_sha256": "64365d2f0342d0d1417f11862ee8ff01398a6549f011677181476382ddcf6274"
+    }
+  }
+}

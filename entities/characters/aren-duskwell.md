@@ -67,4 +67,37 @@ character_sheet:
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 20
+    presentation_for_art: Male
+    visual_ancestry_or_form: Half-elf
+    appearance: lean build, tousled black hair and ink-stained fingers
+    wardrobe_and_props: patched indigo tunic and a practice notebook
+    character_motivation: Wants enough discipline to make his self-taught practice reliable.
+    practice_and_professional_skills:
+    - casting drills
+    - concentration exercises
+    magic_and_healing: Personal arcane practice is recorded; the proposed trainee pool applies only upon assessment.
+    abilities_and_techniques:
+    - 'Practice spark: a short supervised concentration exercise using a tiny light, pending approval.'
+    unassessed_stat_proposal:
+      hp_max:
+      - 18
+      - 26
+      base_defense: 9
+      str: 9
+      dex: 11
+      con: 10
+      int: 14
+      wis: 12
+      cha: 10
+      mp_max:
+      - 8
+      - 14
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Aren Duskwell, Male, Half-elf.
+    Version shown at apparent age 20. Appearance: lean build, tousled black hair and ink-stained fingers. Clothing
+    and posed props: patched indigo tunic and a practice notebook. Three-quarter stance, unobstructed face and
+    hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

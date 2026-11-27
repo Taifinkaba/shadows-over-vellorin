@@ -51,4 +51,33 @@ character_sheet:
     with earlier figures.
   source_refs:
   - entities/characters/oren-veyl.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '33'
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: lean adult with sandy hair and a quiet expression
+    wardrobe_and_props: plain earth-tone clothing with no badge
+    character_motivation: Wants to choose what to share. Occupation remains open.
+    practice_and_professional_skills:
+    - practical travel preparation
+    - attentive listening
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Practical travel preparation: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 18
+      base_defense: 8
+      str: 9
+      dex: 10
+      con: 10
+      int: 10
+      wis: 10
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Oren Veyl, masculine-presenting,
+    humanoid. Age presentation: 33. Appearance: lean adult with sandy hair and a quiet expression. Clothing
+    and posed props: plain earth-tone clothing with no badge. Three-quarter stance, unobstructed face and hands,
+    even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

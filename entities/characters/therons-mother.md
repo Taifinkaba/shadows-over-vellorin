@@ -124,4 +124,41 @@ character_sheet:
   - entities/mechanics/independent-assignments.md
   - entities/locations/ashvale-estate.md
   last_reported_location: Ashvale Estate
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: late 40s apparent
+    presentation_for_art: Female
+    visual_ancestry_or_form: Elf
+    appearance: Elven female; apparent age late 40s, chronological age unresolved. 5 ft 4 in, 175 lb, softly
+      rounded build. Warm golden-brown skin, oval face, green eyes. Long dark auburn hair with a few silver
+      strands, loosely braided.
+    wardrobe_and_props: Comfortable forest-green and cream layers, embroidered cuffs, practical shawl, small
+      herb pouch; no unestablished holy insignia.
+    character_motivation: Wants care delivered patiently with consent.
+    practice_and_professional_skills:
+    - sacred healing
+    - supervised restorative care
+    magic_and_healing: Rare sacred healing is established. Personal mana amount and treatment limits are unassessed.
+    abilities_and_techniques:
+    - Rare sacred healing is established. Use the existing healing-wing procedures; treatment strength and costs
+      stay unassessed.
+    unassessed_stat_proposal:
+      hp_max: 32
+      base_defense: 13
+      str: 9
+      dex: 11
+      con: 12
+      int: 15
+      wis: 17
+      cha: 13
+    portrait_reference: artwork/character-references/therons-mother.png
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Theron''s mother, Female, Elf.
+    Age presentation: late 40s apparent. Appearance: Elven female; apparent age late 40s, chronological age
+    unresolved. 5 ft 4 in, 175 lb, softly rounded build. Warm golden-brown skin, oval face, green eyes. Long
+    dark auburn hair with a few silver strands, loosely braided. Clothing and posed props: Comfortable forest-green
+    and cream layers, embroidered cuffs, practical shawl, small herb pouch; no unestablished holy insignia.
+    Match the established face, build, colors and costume in artwork/character-references/therons-mother.png
+    if supplied as a reference image. Three-quarter stance, unobstructed face and hands, even natural light,
+    muted neutral backdrop, realistic fabric and material texture. Props are illustrative. No lettering, extra
+    people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

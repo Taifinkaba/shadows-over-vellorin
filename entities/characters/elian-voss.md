@@ -52,4 +52,24 @@ character_sheet:
     additional family relationships.
   source_refs:
   - entities/characters/elian-voss.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 45 at the historical reference
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: long dark hair, tired eyes and a dignified posture
+    wardrobe_and_props: muted old-fashioned robe with woven seam detail
+    character_motivation: Historical portrait of a figure concerned with preserving legitimate testimony.
+    practice_and_professional_skills:
+    - oath interpretation
+    - Witness procedure
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Oath interpretation: practical proficiency for roleplay and assessment.'
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Elian Voss, masculine-presenting,
+    humanoid. Age presentation: 45 at the historical reference. Appearance: long dark hair, tired eyes and a
+    dignified posture. Clothing and posed props: muted old-fashioned robe with woven seam detail. Three-quarter
+    stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic fabric and material
+    texture. Props are illustrative. No lettering, extra people, active spell effects, hidden symbols, or scene-specific
+    location clues.'
 ```

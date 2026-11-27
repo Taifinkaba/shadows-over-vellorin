@@ -119,4 +119,23 @@ character_sheet:
   - entities/characters/talia-fen.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/factions/dragon-slayer-academy.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: '22'
+    presentation_for_art: feminine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: lean young adult with alert eyes and an easy working stance
+    wardrobe_and_props: simple academy coat and road boots
+    character_motivation: Wants competence established through repeated practice.
+    practice_and_professional_skills:
+    - supervised reconnaissance
+    - teamwork
+    magic_and_healing: Nonmagical for this design; use ordinary training, equipment and teamwork.
+    abilities_and_techniques:
+    - 'Supervised reconnaissance: practical proficiency for roleplay and assessment.'
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Talia Fen, feminine-presenting,
+    humanoid. Age presentation: 22. Appearance: lean young adult with alert eyes and an easy working stance.
+    Clothing and posed props: simple academy coat and road boots. Three-quarter stance, unobstructed face and
+    hands, even natural light, muted neutral backdrop, realistic fabric and material texture. Props are illustrative.
+    No lettering, extra people, active spell effects, hidden symbols, or scene-specific location clues.'
 ```

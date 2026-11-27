@@ -144,4 +144,35 @@ character_sheet:
   source_refs:
   - entities/characters/durnek-stonevein.md
   - changes/chronicles/phase2-03-government-approval.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: 132
+    presentation_for_art: masculine-presenting
+    visual_ancestry_or_form: humanoid
+    appearance: Broad hands, weathered features, a carefully kept gray beard and work-worn formal craft clothing.
+    wardrobe_and_props: durable work coat and modest craft tools
+    character_motivation: Win credible safety standards and durable interclan agreements without sacrificing
+      household rights.
+    practice_and_professional_skills:
+    - practical advice
+    - worksite coordination
+    magic_and_healing: Ordinary nonmagical design. No personal spellcasting assigned.
+    abilities_and_techniques:
+    - 'Practical advice: practical proficiency for roleplay and assessment.'
+    unassessed_stat_proposal:
+      hp_max: 24
+      base_defense: 10
+      str: 12
+      dex: 11
+      con: 12
+      int: 12
+      wis: 10
+      cha: 10
+      mp_max: 0
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Durnek Stonevein, masculine-presenting,
+    humanoid. Version shown at apparent age 132. Appearance: Broad hands, weathered features, a carefully kept
+    gray beard and work-worn formal craft clothing. Clothing and posed props: durable work coat and modest craft
+    tools. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic
+    fabric and material texture. Props are illustrative. No lettering, extra people, active spell effects, hidden
+    symbols, or scene-specific location clues.'
 ```

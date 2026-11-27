@@ -70,4 +70,24 @@ character_sheet:
   source_refs:
   - entities/characters/caelrix.md
   - entities/items/sovereign-nexus.md
+  character_design_profile:
+    classification: Prospective character design; use recorded facts wherever they exist
+    apparent_age_for_art: ancient
+    presentation_for_art: nonhuman
+    visual_ancestry_or_form: Time spirit
+    appearance: floating time spirit with a translucent silver-blue silhouette and fine concentric ripples
+    wardrobe_and_props: no clothing or physical weapon; quiet light around its form
+    character_motivation: Wants cooperation to remain voluntary and measured.
+    practice_and_professional_skills:
+    - temporal observation
+    - defensive coordination
+    magic_and_healing: Existing nonhuman functions only. Personal mana accounting unverified.
+    abilities_and_techniques:
+    - Finite defensive stabilization, as demonstrated during the First Hour restoration.
+  image_generator_prompt: 'Full-body medieval high fantasy character portrait of Caelrix, nonhuman, Time spirit.
+    Age presentation: ancient. Appearance: floating time spirit with a translucent silver-blue silhouette and
+    fine concentric ripples. Clothing and posed props: no clothing or physical weapon; quiet light around its
+    form. Three-quarter stance, unobstructed face and hands, even natural light, muted neutral backdrop, realistic
+    fabric and material texture. Props are illustrative. No lettering, extra people, active spell effects, hidden
+    symbols, or scene-specific location clues.'
 ```
