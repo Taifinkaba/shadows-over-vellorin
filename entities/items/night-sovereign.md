@@ -4,9 +4,16 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Previously completed and paid at 515 GP. Closing wearing configuration unverified. No second payment, scale consumption or unconditional defense increase.
+
+## Earlier and standing records
 
 # Night Sovereign
 

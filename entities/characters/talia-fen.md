@@ -4,10 +4,17 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ordinary Guild E Rank Level 3, from played assessment. Established numerical maxima and attributes are unchanged. Dragon Slayer F Rank Level 2. Accounted student balance 224 GP.
+
+## Earlier and standing records
 
 # Talia Fen
 
@@ -72,7 +79,7 @@ character_sheet:
   age: null
   role: Apprentice Archer
   rank: E
-  level: 2
+  level: 3
   hp: 22
   hp_max: 22
   mp: 0
@@ -108,12 +115,17 @@ character_sheet:
     Earlier measurements retain their original provenance.
   age_category: Adult
   guild_status: Guild E, supervised contracts
-  accounted_recent_earnings_cp: 9150
+  accounted_recent_earnings_cp: 22400
   proposed_assessment:
     status: Proposed; requires approval before play
     specialties:
     - Supervised reconnaissance assessment
+  dragon_slayer:
+    rank: F
+    level: 2
+    certification: Voluntary Day 95 initiation and assessed progression
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/talia-fen.md

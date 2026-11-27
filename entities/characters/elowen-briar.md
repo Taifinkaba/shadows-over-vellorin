@@ -4,10 +4,17 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ordinary Guild F Rank Level 2, from played assessment. Established numerical maxima and attributes are unchanged. Accounted student balance 158.5 GP.
+
+## Earlier and standing records
 
 # Elowen Briar
 
@@ -34,7 +41,7 @@ character_sheet:
   age: null
   role: DSI student
   rank: F
-  level: 1
+  level: 2
   hp: null
   hp_max: null
   mp: null
@@ -62,7 +69,7 @@ character_sheet:
   guild_status: Registered after preliminary assessment, supervised low-risk contracts
   specializations:
   - defensive magic theory
-  accounted_recent_earnings_cp: 4600
+  accounted_recent_earnings_cp: 15850
   capability_evidence:
     mana_evidence: Defensive magic theory is recorded. Personal mana and practical casting remain unassessed.
   proposed_assessment:
@@ -71,6 +78,7 @@ character_sheet:
     - Barrier theory
     - Supervised ward practice
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/elowen-briar.md

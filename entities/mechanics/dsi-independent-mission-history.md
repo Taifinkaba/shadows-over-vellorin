@@ -4,9 +4,16 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Corrected paid rewards 830 GP Day 69, 1,620 GP Day 92, and 2,280 GP Day 129, with the 25% prospective tithe. Mira Thorne’s invalid combat income entries were withdrawn by correction. Perrin and Faye remain eligibility-qualified. No invented individual contract breakdowns.
+
+## Earlier and standing records
 
 # DSI independent mission history
 

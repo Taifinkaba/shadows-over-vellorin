@@ -4,9 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day365-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Reply received Day 65. Examined both blades and supplied surviving diagrams Days 77–78. Donors remain unidentified. Services and regulator materials were covered by one 185 GP payment.
+
+## Earlier and standing records
 
 # Gareth Vaelwright
 
@@ -56,6 +63,7 @@ character_sheet:
     planned Day 167 visit, and Nexus or other project attribution are still unverified.
     Current whereabouts are unknown.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year852-day365-end-session.md
   character_design_profile:
     classification: Prospective character design; use recorded facts wherever they exist

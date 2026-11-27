@@ -4,11 +4,18 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day1-financial-audit-reconciliation.md
 - changes/chronicles/year852-day1-end-session.md
 - archive/session-handoffs/year852-day1-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Separate from the Commercial Estate and its research annex. Day 121 Time Chamber trials took place here.
+
+## Earlier and standing records
 
 ## Year 853 Day 52
 

@@ -4,8 +4,15 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ordinary Guild F Rank Level 1, from played assessment. Established numerical maxima and attributes are unchanged. Accounted student balance 60 GP.
+
+## Earlier and standing records
 
 # Cedric Vale
 
@@ -21,8 +28,8 @@ Probationary DSI member without a Guild card. Numerical statistics and training 
 ```yaml
 character_sheet:
   aliases: null
-  rank: null
-  level: null
+  rank: F
+  level: 1
   hp: null
   hp_max: null
   mp: null
@@ -62,7 +69,9 @@ character_sheet:
     specialties:
     - Mounted escort drill
     - Sword guard practice
+  accounted_recent_earnings_cp: 6000
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.
   character_design_profile:

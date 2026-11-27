@@ -4,12 +4,19 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent academy management. Day 129 corrected population 27. Three phased settlements remain separate from Theron’s funds.
+
+## Earlier and standing records
 
 # Master Beren
 
@@ -98,6 +105,7 @@ character_sheet:
   capability_evidence:
     mana_evidence: Academy management is established; personal casting and mana are unverified.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/master-beren.md
   - changes/chronicles/character-reference-design-approval.md
   - entities/mechanics/independent-assignments.md

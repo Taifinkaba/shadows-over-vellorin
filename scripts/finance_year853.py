@@ -23,7 +23,7 @@ ADVANCES = {'Adventurer opening', 'Dragon quarterfinals', 'Adventurer registrati
             'Dragon registration', 'Commercial plot rentals'}
 
 
-def validate_year853(root, state, ledger, *, academy_ledger=None, disciple_level=1):
+def validate_year853(root, state, ledger, *, academy_ledger=None, disciple_level=1, registries=None):
     previous = read_json(root / (PRIOR + '-finance-ledger.json'))
     previous_state = read_json(root / (PRIOR + '.json'))
     validate_expedition(root, previous_state, previous)
@@ -118,10 +118,10 @@ def validate_year853(root, state, ledger, *, academy_ledger=None, disciple_level
             and ledger['endpoint'] == dict(as_of=scene, total_cp=closing, source_ref=YEAR853_SOURCE,
                                              classification='RECONCILED CONTROLLED TREASURY'),
             'Year 853: controlled cash or allocation differs')
-    validate_academy(root, state, transfer, ledger=academy_ledger, disciple_level=disciple_level)
+    validate_academy(root, state, transfer, ledger=academy_ledger, disciple_level=disciple_level, registries=registries)
 
 
-def validate_academy(root, state, transfer, *, ledger=None, disciple_level=1):
+def validate_academy(root, state, transfer, *, ledger=None, disciple_level=1, registries=None):
     previous_file = PRIOR + '-dsi-finance-ledger.json'
     previous = read_json(root / previous_file)
     if ledger is None:
@@ -179,7 +179,7 @@ def validate_academy(root, state, transfer, *, ledger=None, disciple_level=1):
     academy = (root / 'entities/factions/dragon-slayer-academy.md').read_text()
     match = re.search(r'```dsi-roster\n(.*?)\n```', academy, re.S)
     require(match is not None, 'DSI: roster missing')
-    roster = json.loads(match[1], object_pairs_hook=unique_json)
+    roster = registries["roster"] if registries is not None else json.loads(match[1], object_pairs_hook=unique_json)
     known = {row['id'] for row in read_json(root / 'index.json')['entries'] if row['type'] == 'characters'}
     registered = {person for person, row in roster.items() if row['guild_rank'] is not None}
     require(len(roster) == 19 and set(roster) <= known and len(registered) == 10
@@ -189,7 +189,7 @@ def validate_academy(root, state, transfer, *, ledger=None, disciple_level=1):
     progression = (root / 'entities/mechanics/way-of-the-dragon.md').read_text()
     registry = re.search(r'```dragon-slayer-registry\n(.*?)\n```', progression, re.S)
     require(registry is not None, 'DSI: Dragon Slayer registry missing')
-    disciples = json.loads(registry[1], object_pairs_hook=unique_json)
+    disciples = registries["disciples"] if registries is not None else json.loads(registry[1], object_pairs_hook=unique_json)
     require(set(disciples) == INITIATED, 'DSI: four consenting initiates')
     for row in disciples.values():
         level = row['level']

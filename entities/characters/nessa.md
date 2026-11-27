@@ -4,10 +4,17 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ordinary Guild E Rank Level 3, from played assessment. Established numerical maxima and attributes are unchanged. Dragon Slayer F Rank Level 5. Accounted student balance 240 GP.
+
+## Earlier and standing records
 
 # Nessa
 
@@ -85,7 +92,7 @@ character_sheet:
   age: null
   role: Field Support
   rank: E
-  level: 2
+  level: 3
   hp: null
   hp_max: 28
   mp: null
@@ -106,7 +113,7 @@ character_sheet:
     Observation: 3/5
   abilities:
   - Support Magic (recorded skill 2/5; spell names, costs and healing values unassessed)
-  - Controlled Dragon Essence (F Rank, Level 3 certification)
+  - Controlled Dragon Essence (F Rank, Level 5 certification)
   equipment:
   - Healer's kit
   - staff
@@ -124,14 +131,15 @@ character_sheet:
   guild_status: Guild E, supervised contracts
   dragon_slayer:
     rank: F
-    level: 3
+    level: 5
     certification: Controlled Dragon Essence
-  accounted_recent_earnings_cp: 11500
+  accounted_recent_earnings_cp: 24000
   capability_evidence:
     mana_evidence: Known personal maximum 24 MP; current amount unverified.
     ability_boundary: Support Magic is an established skill; individual spell names, costs and healing
       output remain unassessed.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/nessa.md

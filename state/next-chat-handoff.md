@@ -1,6 +1,17 @@
-# Next-chat handoff — Year 853 Day 52
+# Next-chat handoff — Year 853 Day 145
 
-**PAUSED · 8:00 PM | Westbridge Grand Council, private meeting room.** Await the player’s instruction. [Checkpoint](checkpoint.json) · [Chronicle](../changes/chronicles/year853-day52.md) · [Verification queue](open-verifications.md)
+**PAUSED · 8:05 PM | Theron’s Commercial Estate, Grand Council Hall.** Operation Sovereign Legacy completed. The player has not selected the next chapter. [Checkpoint](checkpoint.json) · [Chronicle](../changes/chronicles/year853-day145-reconciliation.md) · [Verification queue](open-verifications.md)
+
+- Theron is S+ Level 7, 108/108 HP, 420/420 personal MP, Nexus 180/180, with two unspent attribute points. Closing wearing and transit details are unverified.
+- Controlled treasury 288,928 GP. Independent academy cash 1,547.5 GP; student accounted balances 2,230.5 GP. A potential 75 GP salary has not been recorded as paid.
+- The LW-04 appendix and voluntary V-9 authentication are established. Dene, Kestrel and Veyrath were apprehended alive and transferred to independent custody. Pending legal outcomes, surviving conspiracies and Fifth Bell remain open.
+- E-R-7 remains installed. The new recognition inscription and removed VII/R evidence are distinct. Return Custodian Seven remains independent.
+
+## Historical Day 52 handoff
+
+### Historical snapshot — Year 853 Day 52
+
+**PAUSED · 8:00 PM | Westbridge Grand Council, private meeting room.** Await the player’s instruction. [Archived Day 52 checkpoint](../archive/checkpoints/year853-day52.json) · [Chronicle](../changes/chronicles/year853-day52.md) · [Verification queue](open-verifications.md)
 
 - Theron is S+ Level 6 with HP 104/104, personal MP 410/410 and Nexus 180/180. Both locks remain. Closing mask configuration and wagon locations and charges remain unverified.
 - Theron controls 275,718 GP. Academy accounted cash is 1,225 GP, separate from Theron and from students’ 768 GP in recent accounted earnings. Independent developments require reports before Theron knows them.
@@ -106,7 +117,7 @@ The following is preserved historical context. The contemporary checkpoint and f
 - **Theron / Blackscale** — male elf, 25, S+ Rank, Level 5. HP 100/100; MP 400/400. STR 13, DEX 20, CON 18, INT 21, WIS 20, CHA 20, zero unspent attributes. DEF 46 base, 49 with Frostguard Bracers and 51 with Night Sovereign additionally worn. Actual wearing and closing presence are unknown. Chronos Eye ~19% and Dragon Slayer remain locked. Retrieve the [skill owner](../entities/mechanics/theron-skills.md) for updated mastery.
 - **Independent mana pools** — Nexus 156/180; Vanguard 120/120; Lodge supply wagon 80/80 last recorded. The original Sovereign Expedition Wagon’s 60/60 is historical.
 - **Controlled cash** — 2,990 gp 4 sp including the 100 gp personal purse. Restricted Stoneward coinage (940 gp equivalent) and historical 450 gp unsold instruments are excluded. The lodge’s 49 gp two-week profit is included. Current unpaid commitments and the historical bridge are unresolved. [Party ledger](../archive/checkpoints/year848-day196-finance-ledger.json)
-- **DSI** — independent academy managed by Beren and co-founded by Theron and the free Vaeltharion. Six active guild registrants among 13 students. Four adults completed introductory mounted training with their personally owned riding horses. Talia and Rowan are limited to supervised low-risk assignments. The 10% post-payment tithe yielded 24 gp and paid the 24 gp academy improvement budget. Outstanding stable and winter needs are unfunded. [Roster](../entities/factions/dragon-slayer-academy.md) · [DSI ledger](dsi-finance-ledger.json)
+- **DSI** — independent academy managed by Beren and co-founded by Theron and the free Vaeltharion. Six active guild registrants among 13 students. Four adults completed introductory mounted training with their personally owned riding horses. Talia and Rowan are limited to supervised low-risk assignments. The 10% post-payment tithe yielded 24 gp and paid the 24 gp academy improvement budget. Outstanding stable and winter needs are unfunded. [Roster](../entities/factions/dragon-slayer-academy.md) · [DSI ledger](../archive/checkpoints/year853-day52-dsi-finance-ledger.json)
 - **Witness and lodge** — original Ashvale testimony recovered, Valeth captured alive and inquiry reopened. Garrick independently continues in Caelthorne. Darian Kestrel remains unresolved. Three original memory vessels already restored. Tomas manages Theron’s lodge, separately from Aric’s estate. The Sovereign Vault is constructed and five minor Night Menagerie masks are certified v1.1.
 - **Companions and open lead** — Lyanna and Nyx remain independent, Bren and Lyra continue lodge duties, and Caelrix remains independent in the Nexus. Raze analyzes without independently casting Theron’s spells. Shade bond 4/5, Aurelion 5/5, Ember is Nyx’s reddish wolf, and Alpha is a free frost wolf. The [Forgotten Watchpost](../entities/locations/forgotten-watchpost.md) chamber remains unentered.
 
@@ -120,7 +131,7 @@ The session ended at Ashvale Lodge after Theron's rest. Start from the [checkpoi
 
 - **Theron** — HP 100/100, MP 400/400, rank S+, level 5. DEF 46 base, 49 normal equipped reference and 51 while Night Sovereign is worn. Nexus 156/180.
 - **Vehicles** — Sovereign Expedition Wagon 60/60, Vanguard 120/120 and Lodge supply wagon 80/80. Retrieve the relevant wagon records before using the refits.
-- **Cash** — 524 gp 9 sp controlled, including 317 gp committed and unpaid. 207 gp 9 sp is uncommitted. Use the [sole ledger](finance-ledger.json) for spending and preserve its account uncertainty and exclusions.
+- **Cash** — 524 gp 9 sp controlled, including 317 gp committed and unpaid. 207 gp 9 sp is uncommitted. Use the [sole ledger](../archive/checkpoints/year853-day52-finance-ledger.json) for spending and preserve its account uncertainty and exclusions.
 - **Companions and salvage** — Garrick and Nyx completed both new Wayfarers bounties, with practical experience recorded. Lyra continued her existing responsibilities. Three salvage leads are open, with no recovery or established title.
 
 See [open verifications](open-verifications.md) for the current provenance and mechanics gaps.

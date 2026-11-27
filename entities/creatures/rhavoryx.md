@@ -4,9 +4,16 @@ type: creatures
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Voluntary home visit at Thunderwake Cliffs completed Day 81; offered research cooperation. Day 125 tournament 77/90.
+
+## Earlier and standing records
 
 ## Year 853 Day 52
 

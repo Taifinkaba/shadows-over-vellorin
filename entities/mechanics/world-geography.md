@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -17,6 +18,12 @@ source_refs:
 - entities/locations/hollow-veil.md
 - changes/chronicles/phase2-02-settlement-approval.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Four newly played locations are indexed. Exact routes and parent geography remain unverified.
+
+## Earlier and standing records
 
 # Geographic hierarchy and location directory
 
@@ -498,6 +505,30 @@ The following single JSON block owns directory membership and containment edges.
     },
     {
       "id": "ancient-dragon-instruction-grounds",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "greywatch-relay-station",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "northwatch-crossing",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "northern-custodial-annex",
+      "kind": "landmark",
+      "classification": "CONFIRMED CANON",
+      "parents": []
+    },
+    {
+      "id": "restricted-index-repository",
       "kind": "landmark",
       "classification": "CONFIRMED CANON",
       "parents": []

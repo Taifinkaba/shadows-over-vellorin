@@ -1,0 +1,1394 @@
+# SHADOWS OVER VELLORIN — YEAR 853 DAY 145 CONTINUITY RECONCILIATION
+
+Repository: https://github.com/Taifinkaba/shadows-over-vellorin
+
+## 1. Authorization and scope
+
+The player has approved the continuity reconciliation covering Year 853 Day 52 through Day 145.
+
+This is an out-of-world maintenance operation.
+
+Do not advance time, resume gameplay, narrate new events, grant rewards, allocate attributes, recharge resources or invent historical bridging transactions.
+
+Create a reconciliation branch, preferably `reconcile/year853-day145-sovereign-legacy`.
+
+Read:
+
+- AGENTS.md
+- README.md
+- governance/precedence.md
+- docs/narration-format.md
+- docs/game-master-operating-manual.md
+- docs/end-session-codex-template.md
+- state/checkpoint.json
+- state/next-chat-handoff.md
+- state/open-verifications.md
+- state/finance-ledger.json
+- state/dsi-finance-ledger.json
+- changes/chronicles/year853-day52.md
+- index.json
+
+Retrieve relevant existing entity owners before editing.
+
+The Day 52 checkpoint remains the repository baseline. The following information records newly played events and explicitly approved continuity corrections. Preserve the old checkpoint as historical evidence.
+
+Do not merge the resulting PR without explicit player approval.
+
+## 2. Adopted endpoint
+
+Year 853 Day 145.
+
+Time: 20:05 / 8:05 PM.
+
+Location: Theron's Commercial Estate, Grand Council Hall.
+
+Status: PAUSED.
+
+Last completed operation: Operation Sovereign Legacy.
+
+Last player action: Approved continuity reconciliation without advancing campaign time.
+
+The next chapter has not been selected.
+
+## 3. Identity corrections
+
+Theron Ashvale and Blackscale are the same person.
+
+Blackscale is Theron's personal alternate identity, not an expedition name, faction, team or separate character.
+
+Replace erroneous Blackscale team labels in newly adopted assignment records with Main Expedition Party or an appropriate descriptive assignment label.
+
+Preserve the distinction between Theron's ordinary identity and his alternate identity.
+
+Do not automatically disclose the connection to NPCs who have not legitimately learned it.
+
+Preserve established team identities, personnel and responsibilities.
+
+Raze is the existing analysis and simulation construct.
+
+Aegis is the existing defensive construct.
+
+Neither independently casts Theron's spells, generates mana or gains unrestricted autonomy.
+
+Caelrix is an independent voluntarily bonded spirit.
+
+Do not create duplicate Raze, Aegis or Caelrix entities.
+
+## 4. Theron character progression
+
+Elf, male.
+
+Reference age: 25.
+
+Height: 5 ft 5 in.
+
+Weight: 400 lb.
+
+Canonically very fat and heavyset.
+
+Battlemage / Advanced Runecrafter.
+
+Eighth Witness.
+
+Guild Rank: S+.
+
+Level 7 advancement was played on Day 141 at the Regional Adventurers Guild.
+
+Assessment results:
+
+- Advanced Runic Control: 19 + 5 = 24, DC 22.
+- Controlled Combat: 18 + 5 = 23, DC 21.
+- Independent Dual-Mind: 17 + 5 = 22, DC 20.
+- Expedition Leadership: 19 + 5 = 24, DC 22.
+
+These were DM-simulated assessment rolls.
+
+Preserve the successful Level 7 advancement.
+
+Narrated level rewards:
+
+- HP maximum increased from 104 to 108.
+- Personal MP maximum increased from 410 to 420.
+- Two unspent attribute points awarded.
+
+The rewards follow the previous Level 5 to Level 6 pattern but were not derived from an independently verified universal level formula. Preserve them as scene-specific adjudicated rewards, not a new global progression system.
+
+Attributes:
+
+- STR 14
+- DEX 20
+- CON 19
+- INT 21
+- WIS 20
+- CHA 20
+
+Unspent attribute points: 2. Do not allocate them.
+
+Last narrated resource endpoint:
+
+- HP 108/108.
+- Personal MP 420/420.
+- Sovereign Nexus 180/180.
+
+Record these readings with their actual narrated provenance. The intermediate resource bridge remains incomplete. Do not fabricate healing, rest or mana recovery events to substantiate the endpoint.
+
+Base DEF 46.
+
+Normal equipped reference DEF 49.
+
+Conditional DEF 51 with Frostguard Bracers and Night Sovereign.
+
+Actual closing wearing configuration unknown.
+
+Draconic Resonance 3/5.
+
+Caelrix bond 5/5.
+
+Chronos Eye approximately 19%, LOCKED.
+
+Dragon Slayer LOCKED by player choice.
+
+Preserve all existing mastered skills and spells.
+
+Spirit Mana Assimilation II restores 24 personal MP per uninterrupted ten-minute interval with usable ambient mana and concentration, capped at the current personal maximum.
+
+It does not recharge independent pools or restore HP.
+
+The ordinary discount remains 40%. Do not double-discount existing prices or invent updated tariffs.
+
+The Day 107 Rune Barrier was narrated at 9 MP. Preserve the recorded cost while flagging its current tariff provenance.
+
+## 5. Operation chronology
+
+### Day 52–55: Ashvale Reckoning / Grand Reckoning
+
+Day 52: Council authorized investigation of Dene, Kestrel, AV-07 and V-9.
+
+Day 53: Recovered Dene's personnel trail, supply destination and purported letter at Greywatch Relay Station. Northwatch Crossing emerged as a contact lead.
+
+Recovered damaged AV-07 continuation duplicate referencing Maerith Voss, Severin Aulcrest and V-9.
+
+Recovered V-9 forwarding reference to Northern Custodial Annex.
+
+Established Darian Kestrel's commercial affiliation and restricted transport agreements.
+
+Day 54: Lyanna responded voluntarily and requested a private family consultation.
+
+Day 55: Teams reunited at Westbridge.
+
+Evidence handles AR-01 through AR-03 and supporting documents.
+
+No additional paid income or itemized spending was recorded.
+
+### Day 56–60: Operation Broken Chains
+
+Day 56: Halric Dene located at Northwatch Crossing and apprehended alive by authorized officers.
+
+Dene admitted participation in Lyanna's capture. Recovered handover receipt referencing AV-07, Restricted Witness Custody and A-07.
+
+Day 57: Northern Custodial Annex register recovered. Outstanding transferred V-9 case recorded as a protected testimony package subsequently moved to the Restricted Index Repository.
+
+Former Kestrel bookkeeper voluntarily supplied original transportation evidence and accepted official protection.
+
+Day 58: Darian Kestrel apprehended alive following authorized judicial review.
+
+Day 59: Lyanna reunited with Theron and Aric and voluntarily supplied recollections concerning A-07, the Seventh Key and Expedition 47-B.
+
+Day 60: Grand Council reunited.
+
+Evidence:
+
+- BC-01: AV-07 handover receipt.
+- BC-02: Northern receiving register.
+- BC-03: Kestrel transportation ledger.
+
+Apprehensions are not convictions.
+
+Do not restart Lyanna's completed rescue or memory restoration.
+
+### Day 61–71: Operation Inherited Truth
+
+Day 62: Located intact protected V-9 testimony package associated with an Expedition 47-B participant and an E-R-7 inscription.
+
+Day 63: Conducted separate supervised interviews with Halric Dene, Darian Kestrel, Edran Valeth and Severin Valcrest.
+
+Dene described opposing crescents on a receiving observer's insignia.
+
+Kestrel identified intermediary financing.
+
+Valeth described an unmet authentication requirement.
+
+Valcrest acknowledged restricted historical access authorization.
+
+Day 64: Theron, Aric and Lyanna returned to ancestral Ashvale Estate. Family recovered a supplementary Expedition 47-B witness record.
+
+House Ashvale's historical custodial association established. Voluntary recognition is required; bloodline alone does not grant authority.
+
+Day 65: Gareth's response received. Third paired resonance trial established 18 seconds of alignment for 12 personal MP.
+
+One narrated ten-minute assimilation interval restored the 12 MP to cap.
+
+Days 66–68: Four Guild contracts completed and settled.
+
+Day 69: DSI dormitory completed. New recruits admitted, student development and Dragon Slayer examinations reported.
+
+Day 70: Estate operating report transferred 980 GP net profit.
+
+Day 71: Grand Council reunited in Westbridge.
+
+Evidence:
+
+- IT-01: Protected V-9 package.
+- IT-02: Ashvale supplementary witness record.
+
+### Day 72–100: Operation Covenant of Remembrance
+
+Day 72: Ilyr Varess and Seren Veylor voluntarily accepted research positions.
+
+Day 74: Preliminary V-9 authentication established historical custodial association and voluntary Witness participation. Independent recognition remained outstanding at that point.
+
+Days 77–78: Gareth examined both blades and supplied surviving commission diagrams. External removable regulator achieved 74 seconds of alignment. No permanent blade alterations.
+
+Day 81: Rhavoryx home visit at Thunderwake Cliffs completed.
+
+Day 84: Sylmerath home visit at Elderbloom Hollow completed.
+
+Day 87: Returned to Theron's Commercial Estate.
+
+Day 90: Two additional supervised healing rooms and research annex completed.
+
+Day 92: Separate visit to DSI Academy in Greyhaven Valley.
+
+Days 94–95: Disciple sanctuary opened following assessment. Talia and Rowan voluntarily initiated by Vaeltharion.
+
+Days 96–99: Five additional Guild contracts completed and paid.
+
+Day 100: Grand Council reunited at Theron's Commercial Estate. New LW-04 archival lead received.
+
+### Day 101–145: Operation Sovereign Legacy
+
+Day 104: Missing LW-04 authorization appendix recovered.
+
+Day 105: Intermediary financing records connected to Cassian Veyrath.
+
+Day 107: Veyrath apprehended alive under official warrant.
+
+Day 109: Supervised questioning and correspondence review supported the primary Ashvale abduction motive.
+
+Day 111: Protected V-9 testimony authenticated through voluntary participation and independent recognition.
+
+Day 118: Five dragon friends attended the estate gathering.
+
+Day 119: Sovereign Thought Acceleration experiments.
+
+Day 121: Time Chamber experiments at the separate Observatory of First Light.
+
+Day 123: Botanical preservation experiments.
+
+Day 124: Twin blade alignment achieved 186 seconds.
+
+Day 125: Friendly private dragon tournament and feast.
+
+Day 129: DSI inspection.
+
+Day 130: Supervised Buried Lantern Hall exploration.
+
+Day 132: Dragon Slayer assessments.
+
+Days 134–140: Five Guild contracts completed and paid.
+
+Day 141: Theron completed legitimate Level 7 assessment.
+
+Day 143: Estate operating report and infrastructure development.
+
+Day 145: Grand Council, treasury settlement and campaign pause.
+
+Preserve exact scene timestamps where established in the conversation. Do not manufacture missing departure dates, travel durations or geographic distances.
+
+## 6. Main quest and evidence reconciliation
+
+### Existing protected victories
+
+Preserve:
+
+- Lyanna and Caelan rescued.
+- Lyanna's stolen memories restored.
+- All three recovered memory vessels belonged to Lyanna.
+- CROWN-07 identified and apprehended.
+- Maelor Thane surrendered.
+- Edrick Sorn confessed and relinquished command.
+- Specific SS-41 warrant and Guild registry revoked.
+- Vaeltharion freed.
+- Seven protective anchors retained.
+- Former Empty Seat Keeper-imprint authority ended.
+- Fifth Bell remains unsounded.
+
+### Newly established custody developments
+
+Halric Dene: Apprehended alive Day 56.
+
+Darian Kestrel: Apprehended alive Day 58.
+
+Cassian Veyrath: Apprehended alive Day 107.
+
+All transferred to independent official custody.
+
+Do not infer specific permanent prison assignments, criminal convictions, punishments or forfeiture of assets.
+
+Maintain separate records for Maelor Thane, Edrick Sorn, Edran Valeth, Severin Aulcrest, Maerith Voss, Severin Valcrest, Corvin Dareth, Varian Morthal, Selvar Renn and Damaris Keld.
+
+### Cassian Veyrath and Crescent Concord
+
+These are newly played entities, not previously verified historical characters or factions.
+
+Cassian Veyrath:
+
+- Noble private research patron.
+- Associated with Crescent Concord.
+- Named in recovered LW-04 authorization appendix.
+- Financing association with AV-07 supported by recovered account records.
+- Apprehended alive.
+- Judicial proceedings pending.
+
+Crescent Concord:
+
+- Private patronage affiliation identified through the newly recovered records.
+- Opposing silver crescents associated with the investigated documents.
+- Broader membership, responsibility and relationship to established factions remain unresolved.
+
+Do not replace or merge the Hollow Crown, Mirror Foundation, Mirror Repository, Crown Black Ledger or other established entities with Crescent Concord.
+
+### SL-01: LW-04 authorization appendix
+
+Recorded:
+
+- Sponsoring authority: Cassian Veyrath.
+- Patron affiliation: Crescent Concord.
+- Intended subject: Lyanna Ashvale.
+- Requested procedure: Living-witness resonance examination.
+- Consent not obtained.
+- Intended purpose: Authentication requirement replication.
+- Related reference: A-07.
+- Opposing silver crescent seal.
+
+The intended examination is established by the recovered document. Successful compulsory examination is not proven.
+
+### SL-02: Patronage account
+
+Restricted transport financing and AV-07 financial association supported by recovered records.
+
+### Primary abduction motive
+
+The newly recovered correspondence and Veyrath's statements support the conclusion that the conspirators targeted Lyanna because of House Ashvale's historical custodial association and hoped to replicate a legitimate Witness signature without voluntary participation.
+
+The primary motive is substantially established within this newly played investigation.
+
+Do not claim that every participant's motive, all conspiracy branches or all historical mysteries have been resolved.
+
+### A-07
+
+Preserve the original case bearing Lyanna's purported signature dated 17 days before the relevant historical investigation.
+
+Recent evidence supports attempted signature replication.
+
+Actual signature authenticity, consent, exact custody and full provenance remain unresolved.
+
+### AV-07
+
+Original detention authorization remains attributed to Keeper Maelor Thane.
+
+Do not replace the established chain of responsibility with Veyrath.
+
+### V-9
+
+V-9 remains a custody authorization designation.
+
+The outstanding transferred testimony package was located and voluntarily authenticated.
+
+This does not reopen Lyanna's recovered memories.
+
+It does not resolve every other V-9 case or establish the identity of the individual V-9 controller.
+
+### E-R-7 — mandatory correction
+
+Preserve the established fractured seventh-seat command fitting bearing partial E-R-7.
+
+It remains installed.
+
+Its temporary isolation effectiveness and permanent safety remain unverified.
+
+The newly recovered recognition inscription bears the same designation. Its relationship to the physical fitting is an unresolved research question.
+
+Do not redefine the historical fitting as the Seventh Key or claim that its command function has been neutralized.
+
+### Return Custodian Seven
+
+Preserve the existing independent bronze-and-stone Custodian of Returned Testimony.
+
+Previously freed voluntarily from foreign command, repaired and mobile.
+
+Its latest exact station remains unknown.
+
+It is not Theron's servant, property or recruited construct.
+
+The removed VII/R fitting is distinct from E-R-7 and remains protected dangerous evidence.
+
+Preserve original third leaf, independent Witness acknowledgment, eastern entry, damaged Guardian channels, First Hour's Accord and historical custody records.
+
+### Seventh Recognition
+
+Preserve the newly played successful authentication of the protected testimony using:
+
+1. Historical custodial association.
+2. Voluntary Witness participation.
+3. Independent custodial recognition.
+
+The testimony supports seven distributed custodial responsibilities associated with Expedition 47-B.
+
+Do not assume these are identical to Vaeltharion's seven protective anchors.
+
+The complete historical meaning of the Seventh Key and its relationship to established Guardian mechanisms require further research.
+
+### Fifth Bell
+
+The Fifth Bell remains unsounded.
+
+FB-5 and the foreign command layer remain unresolved.
+
+The final recovered warning concerning the last custodian is a new clue, not a completed historical interpretation.
+
+## 7. Sword and equipment records
+
+Black Dragon-Scale Runeblade:
+
+- Legendary shortsword.
+- Damage 1d8+3.
+- Gareth Vaelwright originally crafted it for Aric.
+- Guardian principle.
+- Original black-and-silver Frostspire donor remains unidentified.
+
+White matched blade:
+
+- Crafted by Gareth for Lady Isolde Vaeren through Winterglass Private Trust.
+- Reflection principle.
+- Separate dragon donor.
+- Damage unverified.
+- Preserve established custody chain through HC-17 and Mirror Repository.
+- Downstream physical custody remains unresolved.
+
+Complementary inscriptions:
+
+WHEN WINTER GUARDS THE THRESHOLD...
+
+...ITS REFLECTION SHALL REMEMBER THE WAY.
+
+Gareth supplied surviving commission diagrams and respected donor privacy.
+
+Twin Eclipse Sovereigns remains an experimental development project.
+
+New controlled resonance observations:
+
+- Day 65: 18 seconds.
+- Day 78: 74 seconds.
+- Day 124: 186 seconds.
+
+Removable external regulator used.
+
+No permanent fusion, new damage bonus, memory transfer, time alteration or certified active combat ability.
+
+Gareth and regulator payment: 185 GP, paid once.
+
+Retain the original weapon inventory and scale-stock provenance.
+
+Night Sovereign previously completed and paid at 515 GP; no duplicate payment or scale consumption.
+
+Retain Dawnbreaker's Promise, Ashvale Lifeline, Frostguard Bracers, Guardian Links, First Hour's Accord, Oathbearer Token, Third Bell Clapper and existing evidence inventories.
+
+Independent wagons:
+
+- Sovereign Expedition Wagon: 60 MP maximum.
+- Vanguard Wagon: 120 MP maximum.
+- Ashvale supply wagon: 80 MP maximum.
+
+Current charges and precise closing locations remain unknown.
+
+## 8. Research division
+
+Ilyr Varess voluntarily appointed Head of Memory and Witness Research.
+
+Compensation: 45 GP per 30 days.
+
+Seren Veylor voluntarily appointed Head of Archives and Historical Conservation.
+
+Compensation: 30 GP per 30 days.
+
+Both retain professional independence and the ability to reject unethical research.
+
+Research annex established at Theron's Commercial Estate.
+
+Observatory of First Light remains a separate location.
+
+Initial research costs:
+
+- Secure archival facilities: 160 GP.
+- Instruments: 180 GP.
+- Protective wards: 90 GP.
+- Initial salaries: 75 GP.
+- Total: 505 GP paid.
+
+Additional research materials during Sovereign Legacy: 320 GP paid. Individual itemization remains unresolved.
+
+Second recorded salary payment: 75 GP paid, exact posting date unverified.
+
+Potential third salary obligation: 75 GP, based on 30-day advance periods beginning Day 72.
+
+Do not book it as paid without further authorization or evidence.
+
+If advance terms are confirmed, periods begin Days 72, 102, 132 and 162.
+
+### Time Chamber
+
+Retain:
+
+- 2× supervised occupied operation.
+- 5× up to eight internal hours occupied.
+- 10× up to one internal hour occupied.
+- 15× experimental unmanned.
+- 20× repeated unmanned up to four internal hours.
+
+Day 121 new observations:
+
+- 25× unmanned, one internal hour: stable.
+- 25× unmanned, four internal hours: stable.
+- 30× unmanned, 30 internal minutes: regulator instability; aborted.
+
+Preserve as played experimental observations.
+
+Finite power consumption, cooling requirements and long-term certification remain unverified.
+
+Do not increase occupied limits.
+
+Long-term target: 525,600×.
+
+### Vital Continuity
+
+Preserve existing Prototypes I and II.
+
+New botanical preservation experiments demonstrated reduced deterioration.
+
+No established humanoid anti-aging, rejuvenation, immortality or age-free chamber use.
+
+### Sovereign Thought Acceleration
+
+Ten-minute experimental throughput:
+
+- Ordinary cognition: 12 tasks.
+- Parallel cognition: 21 tasks.
+- Assisted parallel analysis: 28 tasks.
+
+Improved throughput demonstrated.
+
+Actual subjective temporal acceleration remains unproven.
+
+### Healing Springs
+
+Played progression from 2/5 to 3/5 and subsequently 4/5 through controlled botanical integration.
+
+Preserve progression as scene-specific research assessments, with final mastery criteria and clinical efficacy still requiring verification.
+
+No new personal healing spell, universal healing rate or resurrection.
+
+### Emberpear nursery
+
+Supervised cultivation continues.
+
+No verified maturity, harvest or commercial revenue.
+
+## 9. Dragon relationships and gathering
+
+Preserve all five established independent friendships:
+
+- Vaeltharion: Academy cofounder, direct instructor and resonance collaborator.
+- Aurelith: Strategic and cognitive research collaborator.
+- Tharosyn: Independent friend and resonance collaborator.
+- Rhavoryx: Bronze male dragon, Thunderwake Cliffs; competitive and enjoys smoked fish.
+- Sylmerath: Green female dragon, Elderbloom Hollow; medicinal plants, gardening and craftsmanship.
+
+Rhavoryx and Sylmerath home visits completed.
+
+Both voluntarily offered research cooperation.
+
+Sylmerath provided two medicinal plant varieties for supervised cultivation. No sale or ownership of an entire dragon garden.
+
+All five voluntarily attended the Grand Dragon Research Council.
+
+Private tournament results on Day 125:
+
+- Aurelith: 81/90.
+- Theron: 80/90.
+- Rhavoryx: 77/90.
+- Tharosyn: 76/90.
+
+Vaeltharion and Sylmerath judged.
+
+Feast and tournament: 180 GP paid.
+
+No admission revenue.
+
+No compulsory dragon service or new scale donation.
+
+Preserve existing dragon and Guardian records outside these five friendships, including Aeloryn, Ilyssara, Aethren and Vharos.
+
+## 10. DSI Academy — corrected population
+
+DSI remains in Greyhaven Valley, separate from Theron's Commercial Estate.
+
+Cofounders: Theron and Vaeltharion.
+
+Independent manager: Master Beren.
+
+Day 52: 19 students.
+
+Day 69: 22 students.
+
+Day 92: 24 students.
+
+Day 129: 27 students.
+
+Eight newly admitted students:
+
+- Alden Brook, 19: Carpenter apprentice and shield combat.
+- Selene Voss, 20: Herbalism and restoration.
+- Kieran Holt, 18: Orphan, tracking and hunting.
+- Iris Stone, 19: Masonry and defensive combat.
+- Fenrick Ashwood, 21: Wilderness survival and archery.
+- Garran Flint, 23: Former caravan guard.
+- Elara Wren, 19: Orphan, restoration mage aspirant.
+- Soren Ashford, 20: Apprentice weaponsmith.
+
+Create unique entity IDs only after checking for collisions.
+
+No invented attributes, ancestry, family or affiliations.
+
+Five new applicants were reported by Day 129. One earlier applicant required additional preparation. Do not assume exact overlapping waitlist totals.
+
+### Mira Thorne correction
+
+Restore the existing minor day student under Maera's guardianship.
+
+Approved reference-design age 12; historical exact age unknown.
+
+No Guild card.
+
+No combat missions.
+
+No assigned combat statistics.
+
+No general level or Dragon Slayer initiation.
+
+Withdraw erroneous Day 69 registration, invented Scout sheet and related combat earnings.
+
+Do not merge Mira Thorne with Mira the lodge helper or infer kinship with Nyx.
+
+Preserve guardian-supervised, age-appropriate training.
+
+### Guild roster
+
+Original six E Rank students now have played ordinary Level 3 assessments:
+
+- Elias Renn.
+- Kaela.
+- Gorren.
+- Nessa.
+- Talia Fen.
+- Rowan Hale.
+
+Original four F Rank students now have played ordinary Level 2 assessments:
+
+- Dalen Reed.
+- Sera Willow.
+- Tobin Marsh.
+- Elowen Briar.
+
+Additional adult students who passed entry assessments:
+
+- Cedric Vale, F Rank Level 1.
+- Lethara Mossveil, F Rank Level 1.
+- Brom Ironroot, F Rank Level 1.
+- Marielle Fenwick, F Rank Level 1.
+- Aren Duskwell, F Rank Level 1.
+
+Perrin Oak and Faye Linden were narrated as newly registered but their ages and eligibility require verification. Preserve their assessment events with appropriate qualification rather than inventing adulthood.
+
+Perrin's existing shield specialization and Faye's animal care/stable specialization must remain.
+
+The corrected roster contains 15 established or newly assessed eligible Guild students, plus two conditional registrations awaiting eligibility verification. Maximum corrected registered total: 17.
+
+No new attribute allocations or automatic equipment bonuses.
+
+### DSI character statistics
+
+Preserve the senior disciples' established numerical sheets.
+
+Talia Fen:
+
+- HP max 22.
+- MP max 0.
+- DEF 12.
+- STR/DEX/CON/INT/WIS/CHA: 10/15/11/11/13/10.
+- Archery 2/5, Tracking 2/5, Navigation 2/5, First Aid 1/5.
+- Existing shortbow, knife, armor, arrows and Guild card.
+- No permanent mount.
+
+Rowan Hale:
+
+- HP max 27.
+- MP max 0.
+- DEF 15.
+- STR/DEX/CON/INT/WIS/CHA: 14/10/14/11/12/12.
+- Shield Defense 2/5, First Aid 2/5, Equipment Care 2/5, Swordsmanship 1/5.
+- Existing combat sword, reinforced shield, armor and Guild card.
+- No permanent mount.
+
+Later ordinary level gains do not establish automatic revised maxima or attributes.
+
+### Dragon Slayer progression correction
+
+Preserve initiation of Talia and Rowan on Day 95.
+
+Correct final Dragon Slayer registry:
+
+- Elias Renn: F Rank, Level 5, Dragon Commander.
+- Kaela: F Rank, Level 5, Dragon Hunter.
+- Gorren: F Rank, Level 5, Dragon Guardian.
+- Nessa: F Rank, Level 5, Dragon Keeper.
+- Talia Fen: F Rank, Level 2, Dragon Vanguard.
+- Rowan Hale: F Rank, Level 2, Dragon Sentinel.
+
+The four erroneous E Rank promotions are withdrawn.
+
+Standing rank ranges:
+
+F 1–5.
+E 6–10.
+D 11–15.
+C 16–20.
+B 21–25.
+A 26–30.
+S 31–35.
+S+ 36–40.
+
+Formal assessment required at each rank transition.
+
+Retain demonstrated proficiencies from Days 69 and 132 without inventing spell costs, mechanical classes, transformations, damage multipliers or automatic mastery.
+
+Senior disciples may assist with supervised foundational instruction.
+
+Vaeltharion remains the independent advanced instructor.
+
+Theron remains uninitiated.
+
+### Mounts
+
+- Elias: Bramble.
+- Kaela: Cinder.
+- Gorren: Flint.
+- Nessa: Willow.
+
+Talia and Rowan received riding lessons but did not purchase permanent horses.
+
+## 11. DSI finances
+
+Tithe: 25% of eligible paid Guild rewards after legitimate Guild deductions.
+
+Preserve historical 10% transactions.
+
+Do not retroactively apply the new rate to older missions.
+
+Use integer copper in structured accounting.
+
+### Original Day 52 baseline
+
+Academy treasury: 1,225 GP.
+
+Allocated: 1,140 GP.
+
+Unallocated: 85 GP.
+
+Accounted student balances: 768 GP.
+
+Separate refundable lease deposit: 15 GP, current disposition unverified.
+
+### Day 69 corrected settlement
+
+Opening academy cash: 1,225 GP.
+
+Corrected student paid rewards: 830 GP.
+
+Corrected tithe: 207.5 GP.
+
+Corrected student purchases: 330 GP.
+
+Dormitory final payment: 120 GP.
+
+Combat grounds materials: 50 GP.
+
+Medical classroom supplies: 35 GP.
+
+Closing academy cash: 1,227.5 GP.
+
+Remaining allocations: 935 GP.
+
+Unallocated cash: 292.5 GP.
+
+Closing student balances: 1,060.5 GP.
+
+### Day 92 corrected settlement
+
+Opening academy cash: 1,227.5 GP.
+
+Corrected student paid rewards: 1,620 GP.
+
+Corrected tithe: 405 GP.
+
+Corrected student purchases: 755 GP.
+
+Combat grounds completion: 100 GP.
+
+Medical classroom completion: 65 GP.
+
+Stables: 80 GP.
+
+Kitchen: 55 GP.
+
+Workshop: 45 GP.
+
+Instructor and stablehand wages: 40 GP.
+
+Closing academy cash: 1,247.5 GP.
+
+Remaining allocations: 590 GP.
+
+Unallocated cash: 657.5 GP.
+
+Closing student balances: 1,520.5 GP.
+
+### Day 129 corrected settlement
+
+Opening academy cash: 1,247.5 GP.
+
+Corrected student paid rewards: 2,280 GP.
+
+Corrected tithe: 570 GP.
+
+Corrected student purchases: 1,000 GP.
+
+Stables completion: 40 GP.
+
+Kitchen completion: 45 GP.
+
+Workshop completion: 30 GP.
+
+Library development: 35 GP.
+
+Agricultural development: 40 GP.
+
+Instructor and stablehand wages: 80 GP.
+
+Closing academy cash: 1,547.5 GP.
+
+Remaining allocations: 400 GP.
+
+Unallocated cash: 1,147.5 GP.
+
+Closing student balances: 2,230.5 GP.
+
+### Individual corrected student balances
+
+Elias: 227 GP.
+
+Kaela: 215.5 GP.
+
+Gorren: 200 GP.
+
+Nessa: 240 GP.
+
+Talia: 224 GP.
+
+Rowan: 224 GP.
+
+Dalen: 163.5 GP.
+
+Sera: 152.5 GP.
+
+Tobin: 163 GP.
+
+Elowen: 158.5 GP.
+
+Perrin: 72.5 GP, eligibility review pending.
+
+Faye: 70 GP, eligibility review pending.
+
+Cedric: 60 GP.
+
+Lethara: 60 GP.
+
+Total: 2,230.5 GP.
+
+Mira's invalid combat mission entries are withdrawn. Do not narrate confiscation, reimbursement or a new in-world transaction.
+
+Perrin and Faye's financial entries remain separately qualified pending their eligibility review; do not silently remove them.
+
+Do not add DSI or student funds to Theron's treasury.
+
+## 12. DSI construction and exploration
+
+Completed:
+
+- Dormitory expansion.
+- Combat grounds.
+- Medical classroom.
+- Stables.
+- Kitchen and dining.
+- Workshop and storage.
+
+Narrated estimated progress:
+
+- Library and strategy classroom: 75%.
+- Agriculture: 70%.
+
+These are approximate progress reports, not exact engineering measurements.
+
+Part-time martial instructor and stablehand hired. Names, individual wages and permanent employment terms not established.
+
+Use existing unnamed personnel records where appropriate.
+
+Brom began supervised weaponsmithing instruction. No academy business revenue yet established.
+
+Buried Lantern Hall:
+
+- External structural assessment completed.
+- Talia and Rowan led supervised exploration.
+- Three inactive protective lantern mechanisms discovered.
+- Historical refuge register discovered.
+- Intact storage chamber and damaged training apparatus observed.
+- Authorized supervised historical training use.
+
+No unrestricted salvage rights, new land ownership or automatic loot.
+
+Hollow Veil disciple sanctuary:
+
+- Sealed passage opened following preservation assessment.
+- Historical training chamber.
+- Four meditation platforms.
+- Instructional reliefs concerning responsible essence acceptance.
+
+Original Ancient Dragon Temple remains unidentified.
+
+Do not merge the two sites.
+
+## 13. Commercial estate
+
+Theron's Commercial Estate remains 140 acres.
+
+Separate from ancestral Ashvale Estate.
+
+Tomas retains independent commercial stewardship.
+
+Bren retains construction and maintenance.
+
+Ironshield retains established security and defense responsibilities.
+
+Hearthguard retains healing and patient-care responsibilities.
+
+Completed expansion:
+
+- Two additional supervised healing rooms: 240 GP.
+- Medical supplies and reserve cartridges: 60 GP.
+- Total: 300 GP paid.
+
+Current reported medical infrastructure:
+
+- Six supervised beds.
+- Twelve calibrated cartridges.
+- Normal qualified staffing capacity: four concurrent patients.
+
+Do not equate bed count with unlimited treatment capacity.
+
+Additional medical storage, research utilities and estate maintenance: 240 GP paid and completed during Sovereign Legacy.
+
+Research annex operational.
+
+Arena operational.
+
+Dragon retreat operational.
+
+Lodge, markets, spa and existing commercial facilities operational.
+
+Preserve six additional arena shield obelisks previously completed and tested within documented limits.
+
+No automatic dragon-class invulnerability certification.
+
+### Commercial operating reports
+
+Day 70:
+
+- Lodge: 420 GP.
+- Markets and rentals: 310 GP.
+- Healing springs and spa: 285 GP.
+- Arena: 460 GP.
+- Information exchange: 95 GP.
+- Gross receipts: 1,570 GP.
+- Expenses: 590 GP.
+- Net transferred profit: 980 GP.
+
+Day 100:
+
+- Lodge: 610 GP.
+- Markets and rentals: 480 GP.
+- Healing springs and spa: 390 GP.
+- Arena: 720 GP.
+- Information exchange: 150 GP.
+- Gross receipts: 2,350 GP.
+- Expenses: 850 GP.
+- Net transferred profit: 1,500 GP.
+
+Day 143:
+
+- Lodge: 900 GP.
+- Markets and rentals: 650 GP.
+- Healing springs and spa: 520 GP.
+- Arena and monthly fair: 940 GP.
+- Information exchange: 190 GP.
+- Gross receipts: 3,200 GP.
+- Expenses: 1,100 GP.
+- Net transferred profit: 2,100 GP.
+
+Total net estate income: 4,580 GP.
+
+Preserve reported transfers once. Exact accounting period boundaries remain open to prevent overlap.
+
+## 14. Guild contracts
+
+Register fourteen newly played contracts with unique noncolliding IDs under the existing Guild contract owner.
+
+Days 66–68:
+
+1. Shattered Wardstones, B Rank, 420 GP.
+2. Hollow Road Beast, A Rank, 680 GP.
+3. Lost Survey Expedition, B Rank, 350 GP.
+4. Forgotten Rune Vault, A Rank, 900 GP.
+
+Gross: 2,350 GP.
+Guild fees: 235 GP.
+Other expenses: 140 GP.
+Net: 1,975 GP.
+
+Days 96–99:
+
+5. Ashen Colossus, S Rank, 1,800 GP.
+6. Frostbound Caravan, A Rank, 650 GP.
+7. Broken Sanctuary, A Rank, 850 GP.
+8. Midnight Revenant, A Rank, 750 GP.
+9. Silverwood Survey, B Rank, 450 GP.
+
+Gross: 4,500 GP.
+Guild fees: 450 GP.
+Other expenses: 190 GP.
+Net: 3,860 GP.
+
+Days 134–140:
+
+10. Ironwood Leviathan, S Rank, 2,000 GP.
+11. Shattered Citadel, S Rank, 1,400 GP.
+12. Drowned Observatory, A Rank, 850 GP.
+13. Wailing Highlands, A Rank, 700 GP.
+14. Merchant's Passage, B Rank, 450 GP.
+
+Gross: 5,400 GP.
+Guild fees: 540 GP.
+Other expenses: 260 GP.
+Net: 4,600 GP.
+
+Total gross: 12,250 GP.
+Total Guild fees: 1,225 GP.
+Total other expedition expenses: 590 GP.
+Total net earnings: 10,435 GP.
+
+All were narrated completed and paid.
+
+No invented issuing branches, exact individual completion dates, combat expenditure logs or additional rewards.
+
+These contracts are separate from the eleven already settled at Day 52.
+
+Theron receives net rewards as principal expedition funder. No automatic party distributions.
+
+Return contracted evidence and historical property to lawful custodians.
+
+## 15. Main treasury ledger
+
+Opening: 275,718 GP.
+
+Post once:
+
++2,350 GP Inherited Truth gross Guild rewards.
+−235 GP Guild fees.
+−84 GP travel and provisions.
+−26 GP correspondence and archives.
+−30 GP maintenance.
++980 GP commercial estate profit.
+
+Day 71 balance: 278,673 GP.
+
+−160 GP research archival facilities.
+−180 GP instruments.
+−90 GP protective wards.
+−75 GP initial research salaries.
+−185 GP Gareth services and regulator materials.
+−240 GP healing rooms.
+−60 GP medical supplies.
++4,500 GP Covenant gross Guild rewards.
+−450 GP Guild fees.
+−95 GP travel and dragon gifts.
+−55 GP maintenance.
+−40 GP administration.
++1,500 GP estate net profit.
+
+Day 100 balance: 283,043 GP.
+
++5,400 GP Sovereign Legacy gross Guild rewards.
+−540 GP Guild fees.
+−260 GP expedition expenses.
++2,100 GP estate net profit.
+−75 GP second recorded salaries.
+−320 GP experimental materials.
+−180 GP private tournament and feast.
+−240 GP estate infrastructure.
+
+Day 145 closing balance: 288,928 GP.
+
+Structured total: 28,892,800 CP.
+
+Potential outstanding salaries: 75 GP, not paid or deducted.
+
+Early investigation expenses remain unassessed unless demonstrably covered by later recorded charges.
+
+Do not invent balancing entries.
+
+Exclude historical provisional coinage, office petty cash, DSI, student funds, Lyanna's funds, judicial evidence, noncash assets and unresolved salvage.
+
+The historical 317 GP and 20 GP issues remain closed by player ruling.
+
+Current purse and treasury subaccount distributions remain unknown.
+
+## 16. Companions and independent assignments
+
+Theron: Player-controlled; no imposed future assignment.
+
+Aric: Family history, sword investigation and voluntary field participation.
+
+Lyanna: Independent Witness and voluntary family collaborator.
+
+Mother: Independent sacred healer and botanical collaborator.
+
+Maeryn: Close combat and field security.
+
+Nyx: Tracking, reconnaissance and animal coordination.
+
+Garrick: Logistics, security, recovery and finance.
+
+Lyra: Historical and magical research.
+
+Ilyr: Memory and Witness research.
+
+Seren: Archives and conservation.
+
+Raze: Analysis and simulation.
+
+Aegis: Defense.
+
+Caelrix: Independent spirit and research collaborator.
+
+Tomas: Estate stewardship.
+
+Bren: Construction and maintenance.
+
+Ironshield: Established defense responsibilities.
+
+Hearthguard: Medical operations.
+
+Master Beren: Independent DSI operations.
+
+Vaeltharion: Independent Dragon Slayer instruction.
+
+Do not infer precise current locations for absent NPCs.
+
+The Grand Council's last scene establishes the expedition, family and participating leadership reunion, but not a complete individually timestamped attendance register.
+
+Marek Dorne and the cooperating Kestrel bookkeeper retain independent official protection.
+
+### Animal companions
+
+Restore all relevant existing records.
+
+Alpha: Unbound, current location unknown.
+
+Shade: Latest established bond 3/5.
+
+Ember: Bond 5/5.
+
+Aurelion: Bond 4/5.
+
+Preserve Frost and Frostmoon records and the player's earlier Ember/Frostmoon identity correction for targeted reconciliation.
+
+Do not duplicate animals, invent whereabouts, merge uncertain identities or create new bonds.
+
+Retain other established animal and horse records.
+
+## 17. Outstanding quest and verification queue
+
+Preserve all existing unresolved items not explicitly superseded.
+
+Important open threads:
+
+- Remaining Crescent Concord patrons and individual legal responsibility.
+- A-07 signature authenticity.
+- V-9 individual controller and other custody cases.
+- Existing E-R-7 installed fitting.
+- Northern Witness Index reconciliation.
+- Return Custodian Seven's location.
+- Removed VII/R fitting and other protected evidence.
+- Damaged Guardian channels.
+- Original third leaf and independent Witness safeguards.
+- Surviving artificial Witness operations.
+- Foreign command layer.
+- FB-5.
+- Fifth Bell, unsounded.
+- Additional historical custodian.
+- Complete Expedition 47-B history.
+- Original dragon-scale donor identities.
+- White blade downstream custody.
+- Forgotten Watchpost concealed arch.
+- Unclaimed Voice.
+- Original Ancient Dragon Temple.
+- Seven Horizons Waymark Register.
+- Vaeriss, Stormwake, White Hunger and Ashen Sovereign leads.
+- Alaric Voss and A. Voss identity question.
+- Stolen covenant index.
+- Earlier freight conspiracy and custody reviews.
+- Animal identity and presence verification.
+- Wagon charge and location verification.
+- Exact equipment configuration.
+- Outstanding travel and resource bridges.
+- Time Chamber power economics and operating certification.
+- Vital Continuity.
+- Actual subjective time acceleration.
+- Healing Springs final mastery.
+- Emberpear maturity and harvest.
+- DSI eligibility, equipment and financial details.
+- Research salary coverage.
+
+Do not generate new masterminds merely to prolong completed investigations.
+
+## 18. Artwork and narration rules
+
+Preserve and enforce docs/narration-format.md.
+
+Use approved repository artwork through the existing manifests and player card references whenever supported.
+
+Do not replace approved character appearances with arbitrary web illustrations.
+
+Previously displayed conceptual imagery is not appearance canon.
+
+Every narrative section and subsection must contain Year, annual Day, exact time and location.
+
+Use Arabic gameplay section numbering.
+
+Attribute each spoken line to its speaker.
+
+Do not invent player dialogue or independent player decisions.
+
+Keep detailed bookkeeping independently collapsible and closed by default.
+
+Maintain person and team assignment controls with assignment and status.
+
+Preserve medieval high fantasy, Story Mode / Favored Protagonist, meaningful advancement, autonomy and fair permanent consequences.
+
+Do not insert raw ChatGPT interface source into repository entity files.
+
+## 19. Implementation requirements
+
+Update only affected existing owners and genuine new entities.
+
+Required state and history files:
+
+- state/checkpoint.json
+- state/next-chat-handoff.md
+- state/open-verifications.md
+- state/finance-ledger.json
+- state/dsi-finance-ledger.json
+- changes/chronicles/year853-day145-reconciliation.md
+- changes/CHANGELOG.md
+- index.json, for genuine new entities only
+
+Preserve prior chronicles and checkpoint provenance.
+
+Update relevant character, faction, quest, item, location, research, assignment, contract and custody owners.
+
+Register Cassian Veyrath, Crescent Concord and eight newly admitted DSI students if no matching canonical records exist.
+
+Review new played locations and register only what was actually established. Do not invent geography or routes.
+
+Use existing Ilyr, Seren, Dene, Kestrel and Gareth IDs.
+
+Do not duplicate existing entities.
+
+Newly played events require accurate source references to the new chronicle and archived player-approved handoff.
+
+Register all fourteen new Guild contracts with unique identifiers.
+
+Update Dragon Slayer registry and ordinary Guild roster separately.
+
+Record corrections as explicit reconciliation decisions, not new in-world transactions.
+
+Keep repository public as directed. Do not publish unrevealed GM-only answers.
+
+## 20. Validation
+
+Run:
+
+`python scripts/validate.py`
+
+`python -m unittest discover -s tests -v`
+
+`python -O scripts/validate.py`
+
+`git diff --check`
+
+Add targeted regression checks for:
+
+- Blackscale resolving to Theron only.
+- Mira Thorne remaining an unregistered minor.
+- No Dragon Slayer E Rank below Level 6.
+- Six initiated disciples with corrected rank and level.
+- Corrected DSI treasury and individual student sums.
+- Main treasury 28,892,800 CP.
+- No duplicated historical transactions.
+- Outstanding 75 GP salary not deducted as paid.
+- E-R-7 fitting distinct from VII/R and new recognition inscription.
+- Return Custodian Seven preserved.
+- Three independent wagon reservoirs.
+- Conditional DEF and locked abilities.
+- Day 145 checkpoint and entity owner consistency.
+- No campaign time advancement during reconciliation.
+- Valid source references and unique index IDs.
+
+Report existing baseline failures separately from new failures.
+
+Inspect unrelated diffs.
+
+Open reconciliation PR with evidence and validation results.
+
+Do not merge without explicit approval.
+
+Final endpoint remains PAUSED at Year 853 Day 145, 20:05, Theron's Commercial Estate Grand Council Hall.

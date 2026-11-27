@@ -4,10 +4,17 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Dene (Day 56), Kestrel (Day 58), and Veyrath (Day 107) apprehended alive and transferred into independent official custody. Exact assignment, judicial outcomes and any forfeiture remain unverified. Preserve older historical custody records.
+
+## Earlier and standing records
 
 ## Current update — Day137, 09:30, ENDED
 

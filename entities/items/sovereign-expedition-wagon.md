@@ -4,12 +4,19 @@ type: items
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year848-day196-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent existing wagon reservoir retains its established maximum. Day 145 current charge and exact closing location unverified.
+
+## Earlier and standing records
 
 # Sovereign Expedition Wagon — Day 196 identity
 

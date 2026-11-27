@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
@@ -16,6 +17,12 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent commercial stewardship. Day 70, 100 and 143 operating reports transferred 980, 1,500 and 2,100 GP net respectively. Boundaries of the reporting periods remain unverified.
+
+## Earlier and standing records
 
 ## Year 853 Day 52
 
@@ -91,6 +98,7 @@ character_sheet:
   - Stewardship
   - Accounting
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/tomas.md
   - entities/mechanics/independent-assignments.md
   - entities/locations/ashvale-lodge.md

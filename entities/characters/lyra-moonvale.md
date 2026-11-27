@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
@@ -16,6 +17,12 @@ source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Historical and magical research. Current personal resource pools remain unverified.
+
+## Earlier and standing records
 
 ## Day137 current assignment
 
@@ -113,6 +120,7 @@ character_sheet:
     ability_boundary: Barrier casting training and conduit operation are recorded. No individual new
       spell or automatic healing is granted.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/lyra-moonvale.md
   - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md
   - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md

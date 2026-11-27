@@ -4,6 +4,7 @@ type: quests
 status: active
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/03-system-3-quests-consequences-faction-clocks.md
@@ -12,6 +13,158 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Preserve:
+
+- Lyanna and Caelan rescued.
+- Lyanna's stolen memories restored.
+- All three recovered memory vessels belonged to Lyanna.
+- CROWN-07 identified and apprehended.
+- Maelor Thane surrendered.
+- Edrick Sorn confessed and relinquished command.
+- Specific SS-41 warrant and Guild registry revoked.
+- Vaeltharion freed.
+- Seven protective anchors retained.
+- Former Empty Seat Keeper-imprint authority ended.
+- Fifth Bell remains unsounded.
+
+### Newly established custody developments
+
+Halric Dene: Apprehended alive Day 56.
+
+Darian Kestrel: Apprehended alive Day 58.
+
+Cassian Veyrath: Apprehended alive Day 107.
+
+All transferred to independent official custody.
+
+Do not infer specific permanent prison assignments, criminal convictions, punishments or forfeiture of assets.
+
+Maintain separate records for Maelor Thane, Edrick Sorn, Edran Valeth, Severin Aulcrest, Maerith Voss, Severin Valcrest, Corvin Dareth, Varian Morthal, Selvar Renn and Damaris Keld.
+
+### Cassian Veyrath and Crescent Concord
+
+These are newly played entities, not previously verified historical characters or factions.
+
+Cassian Veyrath:
+
+- Noble private research patron.
+- Associated with Crescent Concord.
+- Named in recovered LW-04 authorization appendix.
+- Financing association with AV-07 supported by recovered account records.
+- Apprehended alive.
+- Judicial proceedings pending.
+
+Crescent Concord:
+
+- Private patronage affiliation identified through the newly recovered records.
+- Opposing silver crescents associated with the investigated documents.
+- Broader membership, responsibility and relationship to established factions remain unresolved.
+
+Do not replace or merge the Hollow Crown, Mirror Foundation, Mirror Repository, Crown Black Ledger or other established entities with Crescent Concord.
+
+### SL-01: LW-04 authorization appendix
+
+Recorded:
+
+- Sponsoring authority: Cassian Veyrath.
+- Patron affiliation: Crescent Concord.
+- Intended subject: Lyanna Ashvale.
+- Requested procedure: Living-witness resonance examination.
+- Consent not obtained.
+- Intended purpose: Authentication requirement replication.
+- Related reference: A-07.
+- Opposing silver crescent seal.
+
+The intended examination is established by the recovered document. Successful compulsory examination is not proven.
+
+### SL-02: Patronage account
+
+Restricted transport financing and AV-07 financial association supported by recovered records.
+
+### Primary abduction motive
+
+The newly recovered correspondence and Veyrath's statements support the conclusion that the conspirators targeted Lyanna because of House Ashvale's historical custodial association and hoped to replicate a legitimate Witness signature without voluntary participation.
+
+The primary motive is substantially established within this newly played investigation.
+
+Do not claim that every participant's motive, all conspiracy branches or all historical mysteries have been resolved.
+
+### A-07
+
+Preserve the original case bearing Lyanna's purported signature dated 17 days before the relevant historical investigation.
+
+Recent evidence supports attempted signature replication.
+
+Actual signature authenticity, consent, exact custody and full provenance remain unresolved.
+
+### AV-07
+
+Original detention authorization remains attributed to Keeper Maelor Thane.
+
+Do not replace the established chain of responsibility with Veyrath.
+
+### V-9
+
+V-9 remains a custody authorization designation.
+
+The outstanding transferred testimony package was located and voluntarily authenticated.
+
+This does not reopen Lyanna's recovered memories.
+
+It does not resolve every other V-9 case or establish the identity of the individual V-9 controller.
+
+### E-R-7 — mandatory correction
+
+Preserve the established fractured seventh-seat command fitting bearing partial E-R-7.
+
+It remains installed.
+
+Its temporary isolation effectiveness and permanent safety remain unverified.
+
+The newly recovered recognition inscription bears the same designation. Its relationship to the physical fitting is an unresolved research question.
+
+Do not redefine the historical fitting as the Seventh Key or claim that its command function has been neutralized.
+
+### Return Custodian Seven
+
+Preserve the existing independent bronze-and-stone Custodian of Returned Testimony.
+
+Previously freed voluntarily from foreign command, repaired and mobile.
+
+Its latest exact station remains unknown.
+
+It is not Theron's servant, property or recruited construct.
+
+The removed VII/R fitting is distinct from E-R-7 and remains protected dangerous evidence.
+
+Preserve original third leaf, independent Witness acknowledgment, eastern entry, damaged Guardian channels, First Hour's Accord and historical custody records.
+
+### Seventh Recognition
+
+Preserve the newly played successful authentication of the protected testimony using:
+
+1. Historical custodial association.
+2. Voluntary Witness participation.
+3. Independent custodial recognition.
+
+The testimony supports seven distributed custodial responsibilities associated with Expedition 47-B.
+
+Do not assume these are identical to Vaeltharion's seven protective anchors.
+
+The complete historical meaning of the Seventh Key and its relationship to established Guardian mechanisms require further research.
+
+### Fifth Bell
+
+The Fifth Bell remains unsounded.
+
+FB-5 and the foreign command layer remain unresolved.
+
+The final recovered warning concerning the last custodian is a new clue, not a completed historical interpretation.
+
+## Earlier and standing records
 
 # First Oath / Crown conspiracy
 

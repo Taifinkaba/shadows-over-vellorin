@@ -7,6 +7,7 @@ checkpoint_values:
   world.vaeltharion_chains_attached: 0
   world.protective_anchors_retained: 7
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/design-proposals/ancient-dragon-humanoid-forms.md
@@ -21,6 +22,12 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent advanced DSI instructor and cofounder. Voluntarily initiated Talia and Rowan. Attended gathering and judged Day 125 private tournament.
+
+## Earlier and standing records
 
 ## First Grand Dragon Festival
 

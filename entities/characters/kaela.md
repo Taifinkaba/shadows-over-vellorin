@@ -4,11 +4,18 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ordinary Guild E Rank Level 3, from played assessment. Established numerical maxima and attributes are unchanged. Dragon Slayer F Rank Level 5. Accounted student balance 215.5 GP.
+
+## Earlier and standing records
 
 # Kaela
 
@@ -85,7 +92,7 @@ character_sheet:
   age: null
   role: Scout
   rank: E
-  level: 2
+  level: 3
   hp: null
   hp_max: 29
   mp: null
@@ -105,7 +112,7 @@ character_sheet:
     Tracking: 3/5
     Survival: 2/5
   abilities:
-  - Controlled Dragon Essence (F Rank, Level 3 certification)
+  - Controlled Dragon Essence (F Rank, Level 5 certification)
   equipment:
   - Shortbow
   - hunting knife
@@ -124,14 +131,15 @@ character_sheet:
   guild_status: Guild E, supervised contracts
   dragon_slayer:
     rank: F
-    level: 3
+    level: 5
     certification: Controlled Dragon Essence
-  accounted_recent_earnings_cp: 9050
+  accounted_recent_earnings_cp: 21550
   proposed_assessment:
     status: Proposed; requires approval before play
     specialties:
     - Archery and tracking
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/kaela.md

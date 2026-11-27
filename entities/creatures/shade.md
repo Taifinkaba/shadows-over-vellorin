@@ -4,6 +4,7 @@ type: creatures
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md
 - archive/legacy-modules/codex/10-v1-4-reconciliation-of-roster-routes-and-evidence-out-of-world.md
@@ -13,6 +14,12 @@ source_refs:
 - archive/session-handoffs/year847-day472-user-handoff.txt
 - archive/session-handoffs/year848-day124-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Latest established bond 3/5; closing whereabouts unverified.
+
+## Earlier and standing records
 
 ## Year 848, Suncrest 262 update
 

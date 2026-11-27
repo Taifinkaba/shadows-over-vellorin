@@ -4,8 +4,15 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Preservation assessment preceded opening of the sealed disciple sanctuary. Chamber contains four meditation platforms and responsible essence acceptance reliefs. Historical Ancient Dragon Temple identity remains unresolved.
+
+## Earlier and standing records
 
 # Ancient Dragon Instruction Grounds
 

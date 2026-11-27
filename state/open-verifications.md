@@ -1,3 +1,52 @@
+# Current verification queue — Year 853 Day 145
+
+The [Day 145 chronicle](../changes/chronicles/year853-day145-reconciliation.md) supersedes earlier open-state assertions for the LW-04 appendix, Dene and Kestrel’s apprehensions, V-9 package authentication, Gareth’s reply, and played progress. Their remaining evidence and legal questions are below.
+
+Preserve all existing unresolved items not explicitly superseded.
+
+Important open threads:
+
+- Remaining Crescent Concord patrons and individual legal responsibility.
+- A-07 signature authenticity.
+- V-9 individual controller and other custody cases.
+- Existing E-R-7 installed fitting.
+- Northern Witness Index reconciliation.
+- Return Custodian Seven's location.
+- Removed VII/R fitting and other protected evidence.
+- Damaged Guardian channels.
+- Original third leaf and independent Witness safeguards.
+- Surviving artificial Witness operations.
+- Foreign command layer.
+- FB-5.
+- Fifth Bell, unsounded.
+- Additional historical custodian.
+- Complete Expedition 47-B history.
+- Original dragon-scale donor identities.
+- White blade downstream custody.
+- Forgotten Watchpost concealed arch.
+- Unclaimed Voice.
+- Original Ancient Dragon Temple.
+- Seven Horizons Waymark Register.
+- Vaeriss, Stormwake, White Hunger and Ashen Sovereign leads.
+- Alaric Voss and A. Voss identity question.
+- Stolen covenant index.
+- Earlier freight conspiracy and custody reviews.
+- Animal identity and presence verification.
+- Wagon charge and location verification.
+- Exact equipment configuration.
+- Outstanding travel and resource bridges.
+- Time Chamber power economics and operating certification.
+- Vital Continuity.
+- Actual subjective time acceleration.
+- Healing Springs final mastery.
+- Emberpear maturity and harvest.
+- DSI eligibility, equipment and financial details.
+- Research salary coverage.
+
+Do not generate new masterminds merely to prolong completed investigations.
+
+## Earlier verification queues
+
 # Current verification queue — Year 853 Day 52
 
 The Westbridge checkpoint supersedes earlier open-state assertions where the [played chronicle](../changes/chronicles/year853-day52.md) supplies a resolution. The party examined Marek’s restricted sworn statement under supervision and recovered him alive. His protected location remains undisclosed. The separate 128 gp historical discrepancy was closed by player ruling. The 125 gp pre-arc bridge still lacks itemization. Westbridge closing cash reconciles; actual account allocations remain open.

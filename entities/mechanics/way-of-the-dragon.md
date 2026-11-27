@@ -4,9 +4,57 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Preserve initiation of Talia and Rowan on Day 95.
+
+Correct final Dragon Slayer registry:
+
+- Elias Renn: F Rank, Level 5, Dragon Commander.
+- Kaela: F Rank, Level 5, Dragon Hunter.
+- Gorren: F Rank, Level 5, Dragon Guardian.
+- Nessa: F Rank, Level 5, Dragon Keeper.
+- Talia Fen: F Rank, Level 2, Dragon Vanguard.
+- Rowan Hale: F Rank, Level 2, Dragon Sentinel.
+
+The four erroneous E Rank promotions are withdrawn.
+
+Standing rank ranges:
+
+F 1–5.
+E 6–10.
+D 11–15.
+C 16–20.
+B 21–25.
+A 26–30.
+S 31–35.
+S+ 36–40.
+
+Formal assessment required at each rank transition.
+
+Retain demonstrated proficiencies from Days 69 and 132 without inventing spell costs, mechanical classes, transformations, damage multipliers or automatic mastery.
+
+Senior disciples may assist with supervised foundational instruction.
+
+Vaeltharion remains the independent advanced instructor.
+
+Theron remains uninitiated.
+
+### Mounts
+
+- Elias: Bramble.
+- Kaela: Cinder.
+- Gorren: Flint.
+- Nessa: Willow.
+
+Talia and Rowan received riding lessons but did not purchase permanent horses.
+
+## Earlier and standing records
 
 # The Way of the Dragon
 
@@ -253,24 +301,32 @@ Guild rank and general level are recorded in the [academy roster](../factions/dr
 {
   "elias-renn": {
     "rank": "F",
-    "level": 3
+    "level": 5
   },
   "kaela": {
     "rank": "F",
-    "level": 3
+    "level": 5
   },
   "gorren": {
     "rank": "F",
-    "level": 3
+    "level": 5
   },
   "nessa": {
     "rank": "F",
-    "level": 3
+    "level": 5
+  },
+  "talia-fen": {
+    "rank": "F",
+    "level": 2
+  },
+  "rowan-hale": {
+    "rank": "F",
+    "level": 2
   }
 }
 ```
 
-All four later demonstrated independent essence control and progressed through Level 2 to Level 3. Future progression requires documented individual assessment.
+The earlier four progressed through Level 3 before Day 145. The current registry includes Talia and Rowan and records the corrected F-rank assessments.
 
 ### Individual specialization paths
 

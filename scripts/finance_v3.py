@@ -212,8 +212,14 @@ def validate_finance_v3(root,state,l):
 
 
 def validate_checkpoint6(root,s):
-    if __package__:from .validate import require,keys,repository_file,read_json,YEAR853_SOURCE,WESTBRIDGE_SOURCE
-    else:from validate import require,keys,repository_file,read_json,YEAR853_SOURCE,WESTBRIDGE_SOURCE
+    if __package__:from .validate import require,keys,repository_file,read_json,YEAR853_SOURCE,WESTBRIDGE_SOURCE,DAY145_SOURCE
+    else:from validate import require,keys,repository_file,read_json,YEAR853_SOURCE,WESTBRIDGE_SOURCE,DAY145_SOURCE
+    if s['source'] == DAY145_SOURCE:
+        if __package__:
+            from .session_day145 import validate_checkpoint
+        else:
+            from session_day145 import validate_checkpoint
+        return validate_checkpoint(root, s)
     if s['source'] == WESTBRIDGE_SOURCE:
         if __package__:
             from .session_westbridge import validate_checkpoint

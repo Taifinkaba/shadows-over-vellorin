@@ -152,6 +152,9 @@ class JusticeTests(unittest.TestCase):
             fixture=json.loads((ROOT/'tests/fixtures/chunk4-preservation.json').read_text())
             pass  # Whole-file fingerprints are centralized in test_preservation.
             prefix=(ROOT/'entities/mechanics/prisoner-custody.md').read_text().split(CUSTODY_MARKER)[0]
+            prefix = prefix.replace('- changes/chronicles/year853-day145-reconciliation.md\n', '', 1)
+            prefix = re.sub(r'\n## Year 853 Day 145 reconciliation\n.*?\n## Earlier and standing records\n',
+                            '', prefix, count=1, flags=re.S)
             self.assertEqual(hashlib.sha256(prefix.encode()).hexdigest(),fixture['custody_prefix_sha256'])
 
     def test_resources_9(self):

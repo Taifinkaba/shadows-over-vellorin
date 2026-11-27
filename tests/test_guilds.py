@@ -126,7 +126,7 @@ class GuildTests(unittest.TestCase):
             self.assertIn('checkpoint valid',validate(self.root))
             self.assertEqual(len(self.data('guild-network')['organizations']),9)
             self.assertEqual(len(self.data('continental-guild-concord')['divisions']),8)
-            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),21)
+            self.assertEqual(len(self.data('wayfarers-guild')['contracts']),35)
         with self.subTest(case='test_duplicate_guild_id'), isolated_case(self):
             self.reject('guild-network',lambda d:d['organizations'].append(d['organizations'][0]),'duplicate guild ID')
         with self.subTest(case='test_branch_guild_reference'), isolated_case(self):
@@ -148,9 +148,11 @@ class GuildTests(unittest.TestCase):
             pass  # Whole-file fingerprints are centralized in test_preservation.
             for path,digest in f['guild_prefix_sha256'].items():
                 prefix = (ROOT/path).read_text().split(GUILD_MARKER)[0]
-                for source in ('year848-day196-end-session', 'year848-suncrest262-end-session', 'year851-day160-end-session', 'year852-day1-end-session', 'year852-day365-end-session', 'year853-end-session', 'year853-day52'):
+                for source in ('year848-day196-end-session', 'year848-suncrest262-end-session', 'year851-day160-end-session', 'year852-day1-end-session', 'year852-day365-end-session', 'year853-end-session', 'year853-day52', 'year853-day145-reconciliation'):
                     prefix = prefix.replace(f'- changes/chronicles/{source}.md\n', '', 1)
                 prefix = re.sub(r'\n## Year 848, Suncrest 262 update\n.*?\n## Earlier record\n',
+                                '', prefix, count=1, flags=re.S)
+                prefix = re.sub(r'\n## Year 853 Day 145 reconciliation\n.*?\n## Earlier and standing records\n',
                                 '', prefix, count=1, flags=re.S)
                 prefix = re.sub(r'\n## Year 853 Day 52\n\n[^\n]+\n', '', prefix, count=1)
                 self.assertEqual(hashlib.sha256(prefix.encode()).hexdigest(),digest,path)

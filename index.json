@@ -3735,6 +3735,174 @@
         "year853",
         "westbridge"
       ]
+    },
+    {
+      "id": "cassian-veyrath",
+      "type": "characters",
+      "title": "Cassian Veyrath",
+      "path": "entities/characters/cassian-veyrath.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "crescent-concord",
+      "type": "factions",
+      "title": "Crescent Concord",
+      "path": "entities/factions/crescent-concord.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "alden-brook",
+      "type": "characters",
+      "title": "Alden Brook",
+      "path": "entities/characters/alden-brook.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "selene-voss",
+      "type": "characters",
+      "title": "Selene Voss",
+      "path": "entities/characters/selene-voss.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "kieran-holt",
+      "type": "characters",
+      "title": "Kieran Holt",
+      "path": "entities/characters/kieran-holt.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "iris-stone",
+      "type": "characters",
+      "title": "Iris Stone",
+      "path": "entities/characters/iris-stone.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "fenrick-ashwood",
+      "type": "characters",
+      "title": "Fenrick Ashwood",
+      "path": "entities/characters/fenrick-ashwood.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "garran-flint",
+      "type": "characters",
+      "title": "Garran Flint",
+      "path": "entities/characters/garran-flint.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "elara-wren",
+      "type": "characters",
+      "title": "Elara Wren",
+      "path": "entities/characters/elara-wren.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "soren-ashford",
+      "type": "characters",
+      "title": "Soren Ashford",
+      "path": "entities/characters/soren-ashford.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "greywatch-relay-station",
+      "type": "locations",
+      "title": "Greywatch Relay Station",
+      "path": "entities/locations/greywatch-relay-station.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "northwatch-crossing",
+      "type": "locations",
+      "title": "Northwatch Crossing",
+      "path": "entities/locations/northwatch-crossing.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "northern-custodial-annex",
+      "type": "locations",
+      "title": "Northern Custodial Annex",
+      "path": "entities/locations/northern-custodial-annex.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
+    },
+    {
+      "id": "restricted-index-repository",
+      "type": "locations",
+      "title": "Restricted Index Repository",
+      "path": "entities/locations/restricted-index-repository.md",
+      "status": "canon",
+      "visibility": "gm-reference",
+      "tags": [
+        "year853",
+        "sovereign-legacy"
+      ]
     }
   ],
   "archive_index": "archive/legacy-index.json"

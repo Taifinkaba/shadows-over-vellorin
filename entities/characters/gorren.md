@@ -4,10 +4,17 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year848-suncrest262-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Ordinary Guild E Rank Level 3, from played assessment. Established numerical maxima and attributes are unchanged. Dragon Slayer F Rank Level 5. Accounted student balance 200 GP.
+
+## Earlier and standing records
 
 # Gorren
 
@@ -82,7 +89,7 @@ character_sheet:
   age: null
   role: Frontline Defender
   rank: E
-  level: 2
+  level: 3
   hp: null
   hp_max: 40
   mp: 0
@@ -102,7 +109,7 @@ character_sheet:
     Endurance: 3/5
     Mounted Combat: 1/5
   abilities:
-  - Controlled Dragon Essence (F Rank, Level 3 certification; separate from personal MP)
+  - Controlled Dragon Essence (F Rank, Level 5 certification; separate from personal MP)
   equipment:
   - Sword
   - shield
@@ -120,13 +127,14 @@ character_sheet:
   guild_status: Guild E, supervised contracts
   dragon_slayer:
     rank: F
-    level: 3
+    level: 5
     certification: Controlled Dragon Essence
-  accounted_recent_earnings_cp: 7500
+  accounted_recent_earnings_cp: 20000
   capability_evidence:
     mana_evidence: Recorded zero personal MP. Dragon Essence certification does not grant personal
       MP.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - entities/characters/gorren.md

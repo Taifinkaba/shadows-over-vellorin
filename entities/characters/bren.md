@@ -4,12 +4,19 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
 - archive/session-handoffs/year847-day153-user-handoff.txt
 - changes/chronicles/character-reference-design-approval.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Construction and maintenance. Healing rooms and annex operational. Separately reported medical storage, research utilities and estate maintenance completed during Sovereign Legacy.
+
+## Earlier and standing records
 
 ## Year 853 Day 52
 
@@ -98,6 +105,7 @@ character_sheet:
     gaps: Surname, earlier career and exact professional training.
     artwork_ref: artwork/character-references/bren.png
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/bren.md
   - changes/chronicles/character-reference-design-approval.md
   - entities/mechanics/independent-assignments.md

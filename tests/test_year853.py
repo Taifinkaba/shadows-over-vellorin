@@ -14,6 +14,7 @@ class Year853Tests(unittest.TestCase):
     def setUp(self):
         self.state = read_json(ROOT / 'archive/checkpoints/year853-hollow-veil.json')
         self.ledger = read_json(ROOT / 'archive/checkpoints/year853-hollow-veil-finance-ledger.json')
+        self.registries = read_json(ROOT / 'archive/checkpoints/year853-day52-dsi-registries.json')
         self.academy = read_json(ROOT / 'archive/checkpoints/year853-hollow-veil-dsi-finance-ledger.json')
 
     def test_full_validation(self):
@@ -41,10 +42,10 @@ class Year853Tests(unittest.TestCase):
             ledger = deepcopy(self.ledger)
             ledger['transactions'].append(row)
             with self.assertRaisesRegex(ValidationError, message):
-                finance_year853.validate_year853(ROOT, self.state, ledger, academy_ledger=self.academy, disciple_level=3)
+                finance_year853.validate_year853(ROOT, self.state, ledger, academy_ledger=self.academy, disciple_level=3, registries=self.registries)
         self.state['theron']['level'] += 1
         with self.assertRaisesRegex(ValidationError, 'unsupported advancement'):
-            finance_year853.validate_year853(ROOT, self.state, self.ledger, academy_ledger=self.academy, disciple_level=3)
+            finance_year853.validate_year853(ROOT, self.state, self.ledger, academy_ledger=self.academy, disciple_level=3, registries=self.registries)
 
     def test_academy_tithe_shares_and_allocations(self):
         transfer = self.ledger['transactions'][-1]
@@ -62,7 +63,7 @@ class Year853Tests(unittest.TestCase):
                 finance_year853, 'read_json',
                 side_effect=lambda p: ledger if p.name == 'dsi-finance-ledger.json' else read_json(p),
             ), self.assertRaisesRegex(ValidationError, message):
-                finance_year853.validate_academy(ROOT, self.state, transfer, disciple_level=3)
+                finance_year853.validate_academy(ROOT, self.state, transfer, disciple_level=3, registries=self.registries)
 
     def test_standing_boundaries_have_canonical_routes(self):
         for path, required in (

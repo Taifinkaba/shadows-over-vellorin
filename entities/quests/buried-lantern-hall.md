@@ -4,9 +4,23 @@ type: quests
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+- External structural assessment completed.
+- Talia and Rowan led supervised exploration.
+- Three inactive protective lantern mechanisms discovered.
+- Historical refuge register discovered.
+- Intact storage chamber and damaged training apparatus observed.
+- Authorized supervised historical training use.
+
+No unrestricted salvage rights, new land ownership or automatic loot.
+
+## Earlier and standing records
 
 # Buried Lantern Hall
 

@@ -4,6 +4,7 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day365-end-session.md
@@ -17,6 +18,12 @@ source_refs:
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Voluntarily reunited with Theron and Aric and provided recollections. LW-04 names her as intended subject. Evidence supports a plan to replicate voluntary Witness authentication. Successful compulsory examination is unproven. Prior rescue and restoration remain complete.
+
+## Earlier and standing records
 
 ## Year 848, Suncrest 262 update
 
@@ -116,6 +123,7 @@ character_sheet:
   capability_evidence:
     mana_evidence: Known personal maximum 110 MP. Current MP and individual ability costs are unverified.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/lyanna-ashvale.md
   - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md
   - archive/legacy-modules/codex/02-system-2-character-inventory-mechanics-ledger.md

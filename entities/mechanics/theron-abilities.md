@@ -4,6 +4,7 @@ type: mechanics
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
@@ -17,11 +18,17 @@ source_refs:
 - changes/chronicles/year848-day181-cottage-mana-reconciliation.md
 ---
 
+## Year 853 Day 145 reconciliation
+
+Day 145 personal MP 420/420. The existing Spirit Mana Assimilation II rule is 24 per uninterrupted ten minutes with usable ambient mana and concentration, capped at current personal maximum. No cross-pool recharge or healing.
+
+## Earlier and standing records
+
 # Theron abilities
 
 ## Year 853 Day 52
 
-Spirit Mana Assimilation II restores **24 personal MP per uninterrupted ten-minute interval**, capped at the user’s current maximum personal MP (Theron currently 410). Requires usable ambient mana and uninterrupted concentration. Staff and wagon pools and HP are unaffected. The former 400 MP cap stays historical. The two 12 MP resonance trial costs belong to those procedures only.
+Spirit Mana Assimilation II restores **24 personal MP per uninterrupted ten-minute interval**, capped at the user’s current maximum personal MP (Theron had 410 at Day 52). Requires usable ambient mana and uninterrupted concentration. Staff and wagon pools and HP are unaffected. The former 400 MP cap stays historical. The two 12 MP resonance trial costs belong to those procedures only.
 
 ## Earlier records — historical recovery rules
 

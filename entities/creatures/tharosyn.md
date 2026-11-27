@@ -4,11 +4,18 @@ type: creatures
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-end-session.md
 - archive/design-proposals/ancient-dragon-humanoid-forms.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Voluntary independent resonance collaborator. Day 125 private tournament 76/90.
+
+## Earlier and standing records
 
 # Tharosyn
 

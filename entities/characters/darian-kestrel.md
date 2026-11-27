@@ -4,9 +4,16 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year848-suncrest262-end-session.md
 - entities/quests/first-oath-conspiracy.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Apprehended alive on Day 58 following authorized review and transferred to independent official custody. Restricted transportation and intermediary financing evidence recovered. Exact placement and legal disposition unverified.
+
+## Earlier and standing records
 
 # Darian Kestrel
 
@@ -46,8 +53,10 @@ character_sheet:
   personal_cash: null
   relationships: null
   assessment: null
-  recorded_context: Named subject of an unresolved investigation. Role, whereabouts and disposition unverified.
+  recorded_context: Apprehended alive on Day 58; transferred into independent official
+    custody. Placement and disposition unverified.
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/darian-kestrel.md
   - changes/chronicles/year848-suncrest262-end-session.md
   - entities/quests/first-oath-conspiracy.md

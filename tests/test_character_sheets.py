@@ -44,7 +44,7 @@ class CharacterSheetTests(unittest.TestCase):
             for field in ('age', 'ancestry', 'hp', 'mp', 'defense'):
                 with self.subTest(character=ident, field=field):
                     self.assertIsNone(self.sheets[ident][field])
-            rank, level = ('F', 1) if ident in ('dalen-reed','sera-willow','tobin-marsh','elowen-briar') else (None, None)
+            rank, level = ('F', 2) if ident in ('dalen-reed','sera-willow','tobin-marsh','elowen-briar') else (None, None)
             self.assertEqual((self.sheets[ident]['rank'], self.sheets[ident]['level']), (rank, level))
 
     def test_magic_evidence_and_assessment_proposals_preserve_resource_authority(self):

@@ -1,0 +1,418 @@
+{
+  "schema_version": 2,
+  "owner_id": "dragon-slayer-academy",
+  "as_of": {
+    "date": "Year 848 Day 382",
+    "season": "Suncrest",
+    "day_of_season": 262,
+    "time": "18:00",
+    "location": "DSI Academy, Greyhaven Valley",
+    "session_status": "ENDED"
+  },
+  "source_ref": "changes/chronicles/year848-suncrest262-end-session.md",
+  "currency": {
+    "unit": "cp",
+    "cp_per_gp": 100,
+    "cp_per_sp": 10
+  },
+  "tithe_percent": 10,
+  "contracts": [
+    {
+      "name": "Farmstead predator patrol",
+      "gross_paid_cp": 3500,
+      "tithe_cp": 350,
+      "adventurers_retain_cp": 3150
+    },
+    {
+      "name": "Merchant road escort",
+      "gross_paid_cp": 4500,
+      "tithe_cp": 450,
+      "adventurers_retain_cp": 4050
+    },
+    {
+      "name": "Missing supply caravan recovery",
+      "gross_paid_cp": 7000,
+      "tithe_cp": 700,
+      "adventurers_retain_cp": 6300
+    },
+    {
+      "name": "Northern route security",
+      "gross_paid_cp": 9000,
+      "tithe_cp": 900,
+      "adventurers_retain_cp": 8100
+    }
+  ],
+  "totals": {
+    "gross_paid_cp": 24000,
+    "tithe_cp": 2400,
+    "adventurers_retain_cp": 21600
+  },
+  "improvements": [
+    {
+      "purpose": "Dormitory repairs",
+      "amount_cp": 1400
+    },
+    {
+      "purpose": "Practice protection and training equipment",
+      "amount_cp": 1000
+    }
+  ],
+  "improvement_budget_remaining_cp": 0,
+  "treasury_total_cp": null,
+  "historical_report": {
+    "cash_cp": 3400,
+    "refundable_deposit_cp": 1500
+  },
+  "reversed_proposed_theron_grant_cp": 2400,
+  "included_in_party_total": false,
+  "automatic_future_income": false,
+  "previous_ledger_ref": "archive/checkpoints/year853-hollow-veil-dsi-finance-ledger.json",
+  "prospective_tithe_percent": 25,
+  "year853": {
+    "source_ref": "changes/chronicles/year853-end-session.md",
+    "mission_history_id": "dsi-independent-mission-history",
+    "historical_tithe_percent": 10,
+    "contracts": [
+      {
+        "id": "DSI-853-001",
+        "days": [
+          2,
+          3
+        ],
+        "name": "Greyhaven livestock protection",
+        "participants": [
+          "elias-renn",
+          "gorren",
+          "talia-fen"
+        ],
+        "gross_paid_cp": 6000
+      },
+      {
+        "id": "DSI-853-002",
+        "days": [
+          3,
+          5
+        ],
+        "name": "Eastrun merchant escort",
+        "participants": [
+          "kaela",
+          "nessa",
+          "rowan-hale"
+        ],
+        "gross_paid_cp": 11000
+      },
+      {
+        "id": "DSI-853-003",
+        "days": [
+          6,
+          7
+        ],
+        "name": "Missing herbalist rescue",
+        "participants": [
+          "elias-renn",
+          "nessa",
+          "talia-fen"
+        ],
+        "gross_paid_cp": 8500
+      },
+      {
+        "id": "DSI-853-004",
+        "days": [
+          8,
+          9
+        ],
+        "name": "Abandoned granary inspection",
+        "participants": [
+          "gorren",
+          "rowan-hale",
+          "dalen-reed"
+        ],
+        "gross_paid_cp": 4500
+      },
+      {
+        "id": "DSI-853-005",
+        "days": [
+          10,
+          11
+        ],
+        "name": "Greyhaven mill supply escort",
+        "participants": [
+          "kaela",
+          "nessa",
+          "sera-willow"
+        ],
+        "gross_paid_cp": 9000
+      },
+      {
+        "id": "DSI-853-006",
+        "days": [
+          12,
+          14
+        ],
+        "name": "Northern farmstead patrol",
+        "participants": [
+          "elias-renn",
+          "gorren",
+          "tobin-marsh"
+        ],
+        "gross_paid_cp": 12000
+      },
+      {
+        "id": "DSI-853-007",
+        "days": [
+          15,
+          16
+        ],
+        "name": "Flooded crossing assistance",
+        "participants": [
+          "kaela",
+          "talia-fen",
+          "elowen-briar"
+        ],
+        "gross_paid_cp": 7000
+      },
+      {
+        "id": "DSI-853-008",
+        "days": [
+          17,
+          18
+        ],
+        "name": "Lost merchant packhorse recovery",
+        "participants": [
+          "nessa",
+          "rowan-hale",
+          "dalen-reed"
+        ],
+        "gross_paid_cp": 5000
+      },
+      {
+        "id": "DSI-853-009",
+        "days": [
+          26,
+          27
+        ],
+        "name": "Roadside bandit investigation",
+        "participants": [
+          "elias-renn",
+          "kaela",
+          "gorren",
+          "nessa"
+        ],
+        "gross_paid_cp": 22000
+      }
+    ],
+    "student_distributions": {
+      "elias-renn": {
+        "earned_cp": 12900,
+        "purchases_cp": 3200,
+        "remaining_cp": 9700
+      },
+      "kaela": {
+        "earned_cp": 13050,
+        "purchases_cp": 4000,
+        "remaining_cp": 9050
+      },
+      "gorren": {
+        "earned_cp": 11700,
+        "purchases_cp": 4200,
+        "remaining_cp": 7500
+      },
+      "nessa": {
+        "earned_cp": 15000,
+        "purchases_cp": 3500,
+        "remaining_cp": 11500
+      },
+      "talia-fen": {
+        "earned_cp": 6450,
+        "purchases_cp": 2800,
+        "remaining_cp": 3650
+      },
+      "rowan-hale": {
+        "earned_cp": 6150,
+        "purchases_cp": 3500,
+        "remaining_cp": 2650
+      },
+      "dalen-reed": {
+        "earned_cp": 2850,
+        "purchases_cp": 1500,
+        "remaining_cp": 1350
+      },
+      "sera-willow": {
+        "earned_cp": 2700,
+        "purchases_cp": 1200,
+        "remaining_cp": 1500
+      },
+      "tobin-marsh": {
+        "earned_cp": 3600,
+        "purchases_cp": 1800,
+        "remaining_cp": 1800
+      },
+      "elowen-briar": {
+        "earned_cp": 2100,
+        "purchases_cp": 1000,
+        "remaining_cp": 1100
+      }
+    },
+    "operating_expenses_cp": {
+      "Food and grain": 1500,
+      "Horse feed and maintenance": 1000,
+      "Training equipment repairs": 800,
+      "Dormitory bedding": 900,
+      "New student clothing": 1200,
+      "Farm supplies": 600,
+      "Medical supplies": 500
+    },
+    "founder_contribution_cp": 120000,
+    "founder_transfer_id": "year853-founder-contribution-dsi-founder-contribution",
+    "allocations_cp": {
+      "Additional dormitories": 18000,
+      "Kitchen and dining hall": 10000,
+      "Additional stables": 12000,
+      "Combat grounds": 15000,
+      "Medical classroom": 10000,
+      "Library and strategy classroom": 9000,
+      "Workshop and storage": 11000,
+      "Agricultural expansion": 8000,
+      "Instructor recruitment reserve": 12000,
+      "Emergency operating reserve": 15000
+    },
+    "development_disbursements_cp": 0,
+    "newly_accounted_cp": 122000,
+    "unallocated_cp": 2000
+  },
+  "westbridge_reconciliation": {
+    "source_ref": "changes/chronicles/year853-day52.md",
+    "tithe_percent": 25,
+    "contract_window": {
+      "days": [
+        45,
+        48
+      ],
+      "classification": "RECONSTRUCTED"
+    },
+    "contracts": [
+      {
+        "id": "DSI-853-010",
+        "name": "Farmstead protection",
+        "participants": [
+          "talia-fen",
+          "rowan-hale",
+          "tobin-marsh"
+        ],
+        "paid_after_guild_fees_cp": 9000,
+        "tithe_cp": 2250,
+        "student_proceeds_cp": 6750
+      },
+      {
+        "id": "DSI-853-011",
+        "name": "Missing livestock recovery",
+        "participants": [
+          "dalen-reed",
+          "sera-willow",
+          "elowen-briar"
+        ],
+        "paid_after_guild_fees_cp": 6000,
+        "tithe_cp": 1500,
+        "student_proceeds_cp": 4500
+      },
+      {
+        "id": "DSI-853-012",
+        "name": "Merchant escort",
+        "participants": [
+          "talia-fen",
+          "rowan-hale",
+          "dalen-reed"
+        ],
+        "paid_after_guild_fees_cp": 13000,
+        "tithe_cp": 3250,
+        "student_proceeds_cp": 9750
+      },
+      {
+        "id": "DSI-853-013",
+        "name": "Woodland surveying",
+        "participants": [
+          "sera-willow",
+          "tobin-marsh",
+          "elowen-briar"
+        ],
+        "paid_after_guild_fees_cp": 8000,
+        "tithe_cp": 2000,
+        "student_proceeds_cp": 6000
+      }
+    ],
+    "opening_accounted_cp": 122000,
+    "academy_tithe_cp": 9000,
+    "operating_expenses_cp": {
+      "food_and_maintenance": 2500
+    },
+    "development_disbursements_cp": {
+      "Additional dormitories": 6000
+    },
+    "remaining_allocations_cp": {
+      "Additional dormitories": 12000,
+      "Kitchen and dining hall": 10000,
+      "Additional stables": 12000,
+      "Combat grounds": 15000,
+      "Medical classroom": 10000,
+      "Library and strategy classroom": 9000,
+      "Workshop and storage": 11000,
+      "Agricultural expansion": 8000,
+      "Instructor recruitment reserve": 12000,
+      "Emergency operating reserve": 15000
+    },
+    "accounted_cp": 122500,
+    "unallocated_cp": 8500,
+    "student_distributions": {
+      "elias-renn": {
+        "opening_cp": 9700,
+        "new_cp": 0,
+        "remaining_cp": 9700
+      },
+      "kaela": {
+        "opening_cp": 9050,
+        "new_cp": 0,
+        "remaining_cp": 9050
+      },
+      "gorren": {
+        "opening_cp": 7500,
+        "new_cp": 0,
+        "remaining_cp": 7500
+      },
+      "nessa": {
+        "opening_cp": 11500,
+        "new_cp": 0,
+        "remaining_cp": 11500
+      },
+      "talia-fen": {
+        "opening_cp": 3650,
+        "new_cp": 5500,
+        "remaining_cp": 9150
+      },
+      "rowan-hale": {
+        "opening_cp": 2650,
+        "new_cp": 5500,
+        "remaining_cp": 8150
+      },
+      "dalen-reed": {
+        "opening_cp": 1350,
+        "new_cp": 4750,
+        "remaining_cp": 6100
+      },
+      "sera-willow": {
+        "opening_cp": 1500,
+        "new_cp": 3500,
+        "remaining_cp": 5000
+      },
+      "tobin-marsh": {
+        "opening_cp": 1800,
+        "new_cp": 4250,
+        "remaining_cp": 6050
+      },
+      "elowen-briar": {
+        "opening_cp": 1100,
+        "new_cp": 3500,
+        "remaining_cp": 4600
+      }
+    }
+  }
+}

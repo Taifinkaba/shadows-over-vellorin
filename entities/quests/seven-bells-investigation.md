@@ -4,10 +4,17 @@ type: quests
 status: active
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - archive/session-handoffs/year848-day124-user-handoff.txt
 - changes/chronicles/year848-day137-end-session.md
 - changes/chronicles/year848-day156-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Seventh Recognition authenticated the protected record. It describes seven distributed custodial responsibilities linked to Expedition 47-B. Full Seventh Key meaning, Northern Witness Index, damaged Guardian channels, independent Witness safeguards and additional custodian remain open.
+
+## Earlier and standing records
 
 # Seven Bells investigation — Day156 current canon
 

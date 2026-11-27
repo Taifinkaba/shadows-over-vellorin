@@ -4,10 +4,17 @@ type: characters
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-day52.md
 - changes/chronicles/year853-end-session.md
 - archive/session-handoffs/year847-day472-user-handoff.txt
 ---
+
+## Year 853 Day 145 reconciliation
+
+Independent voluntarily bonded spirit, bond 5/5. Participates in research. No generation of personal mana or blanket autonomous casting inferred.
+
+## Earlier and standing records
 
 # Caelrix
 
@@ -68,6 +75,7 @@ character_sheet:
     demonstrated_abilities:
     - Finite defensive magic supporting First Hour stabilization
   source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - entities/characters/caelrix.md
   - entities/items/sovereign-nexus.md
   character_design_profile:

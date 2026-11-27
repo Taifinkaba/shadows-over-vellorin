@@ -4,10 +4,94 @@ type: locations
 status: canon
 visibility: gm-reference
 source_refs:
+- changes/chronicles/year853-day145-reconciliation.md
 - changes/chronicles/year853-end-session.md
 - changes/chronicles/year852-day1-end-session.md
 - changes/chronicles/year851-day160-end-session.md
 ---
+
+## Year 853 Day 145 reconciliation
+
+Theron's Commercial Estate remains 140 acres.
+
+Separate from ancestral Ashvale Estate.
+
+Tomas retains independent commercial stewardship.
+
+Bren retains construction and maintenance.
+
+Ironshield retains established security and defense responsibilities.
+
+Hearthguard retains healing and patient-care responsibilities.
+
+Completed expansion:
+
+- Two additional supervised healing rooms: 240 GP.
+- Medical supplies and reserve cartridges: 60 GP.
+- Total: 300 GP paid.
+
+Current reported medical infrastructure:
+
+- Six supervised beds.
+- Twelve calibrated cartridges.
+- Normal qualified staffing capacity: four concurrent patients.
+
+Do not equate bed count with unlimited treatment capacity.
+
+Additional medical storage, research utilities and estate maintenance: 240 GP paid and completed during Sovereign Legacy.
+
+Research annex operational.
+
+Arena operational.
+
+Dragon retreat operational.
+
+Lodge, markets, spa and existing commercial facilities operational.
+
+Preserve six additional arena shield obelisks previously completed and tested within documented limits.
+
+No automatic dragon-class invulnerability certification.
+
+### Commercial operating reports
+
+Day 70:
+
+- Lodge: 420 GP.
+- Markets and rentals: 310 GP.
+- Healing springs and spa: 285 GP.
+- Arena: 460 GP.
+- Information exchange: 95 GP.
+- Gross receipts: 1,570 GP.
+- Expenses: 590 GP.
+- Net transferred profit: 980 GP.
+
+Day 100:
+
+- Lodge: 610 GP.
+- Markets and rentals: 480 GP.
+- Healing springs and spa: 390 GP.
+- Arena: 720 GP.
+- Information exchange: 150 GP.
+- Gross receipts: 2,350 GP.
+- Expenses: 850 GP.
+- Net transferred profit: 1,500 GP.
+
+Day 143:
+
+- Lodge: 900 GP.
+- Markets and rentals: 650 GP.
+- Healing springs and spa: 520 GP.
+- Arena and monthly fair: 940 GP.
+- Information exchange: 190 GP.
+- Gross receipts: 3,200 GP.
+- Expenses: 1,100 GP.
+- Net transferred profit: 2,100 GP.
+
+Total net estate income: 4,580 GP.
+
+Preserve reported transfers once. Exact accounting period boundaries remain open to prevent overlap.
+
+## Earlier and standing records
 
 # Theron’s Commercial Estate
 

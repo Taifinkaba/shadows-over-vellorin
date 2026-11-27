@@ -4,6 +4,7 @@ type: quests
 status: active
 visibility: gm-secret
 source_refs:
+  - changes/chronicles/year853-day145-reconciliation.md
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md
   - changes/chronicles/year852-day365-end-session.md
@@ -13,6 +14,63 @@ source_refs:
   - "archive/legacy-modules/world/08-8-the-two-swords-origin-dossier.md"
   - "archive/legacy-modules/codex/09-v1-3-reconciliation-and-dm-operating-rules-approved-day-46-pause-.md"
 ---
+
+## Year 853 Day 145 reconciliation
+
+Black Dragon-Scale Runeblade:
+
+- Legendary shortsword.
+- Damage 1d8+3.
+- Gareth Vaelwright originally crafted it for Aric.
+- Guardian principle.
+- Original black-and-silver Frostspire donor remains unidentified.
+
+White matched blade:
+
+- Crafted by Gareth for Lady Isolde Vaeren through Winterglass Private Trust.
+- Reflection principle.
+- Separate dragon donor.
+- Damage unverified.
+- Preserve established custody chain through HC-17 and Mirror Repository.
+- Downstream physical custody remains unresolved.
+
+Complementary inscriptions:
+
+WHEN WINTER GUARDS THE THRESHOLD...
+
+...ITS REFLECTION SHALL REMEMBER THE WAY.
+
+Gareth supplied surviving commission diagrams and respected donor privacy.
+
+Twin Eclipse Sovereigns remains an experimental development project.
+
+New controlled resonance observations:
+
+- Day 65: 18 seconds.
+- Day 78: 74 seconds.
+- Day 124: 186 seconds.
+
+Removable external regulator used.
+
+No permanent fusion, new damage bonus, memory transfer, time alteration or certified active combat ability.
+
+Gareth and regulator payment: 185 GP, paid once.
+
+Retain the original weapon inventory and scale-stock provenance.
+
+Night Sovereign previously completed and paid at 515 GP; no duplicate payment or scale consumption.
+
+Retain Dawnbreaker's Promise, Ashvale Lifeline, Frostguard Bracers, Guardian Links, First Hour's Accord, Oathbearer Token, Third Bell Clapper and existing evidence inventories.
+
+Independent wagons:
+
+- Sovereign Expedition Wagon: 60 MP maximum.
+- Vanguard Wagon: 120 MP maximum.
+- Ashvale supply wagon: 80 MP maximum.
+
+Current charges and precise closing locations remain unknown.
+
+## Earlier and standing records
 
 # Twin swords origin
 
