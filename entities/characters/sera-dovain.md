@@ -41,7 +41,7 @@ character_sheet:
   ancestry: null
   sex: null
   age: null
-  role: null
+  role: Documented detainee at last verified observation
   rank: null
   level: null
   hp: null

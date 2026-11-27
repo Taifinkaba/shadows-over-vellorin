@@ -198,7 +198,12 @@ character_sheet:
   abilities:
   - Chronos Eye approximately 19%, locked
   - Dragon Slayer locked
-  equipment: null
+  equipment:
+  - Black Dragon-Scale Runeblade
+  - White matched blade held pending custody review
+  - Sovereign Nexus
+  - Frostguard Bracers
+  - Night Sovereign, last observed worn; closing configuration unverified
   mount: null
   personal_cash: null
   relationships:

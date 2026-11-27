@@ -133,6 +133,13 @@ character_sheet:
     goals: Support reviewable findings, humane custody and correction of wrongful judgments.
     relationships_design: Existing proposal identity only; no kinship, prior meeting with Theron or relationship
       to present judges is established.
+  approved_design_summary:
+    age: 54
+    role_design: Approved legal character design; Chief Justice office remains a proposal
+    background_design: Legal-household and document-study background suits careful public reasoning;
+      the existing Chief Justice proposal is the same person, not an installed superior to current
+      magistrates.
+    approval_source_ref: changes/chronicles/phase2-03-government-approval.md
   source_refs:
   - entities/characters/aveline-hartwell.md
   - changes/chronicles/phase2-03-government-approval.md

@@ -37,7 +37,9 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Manuscript conservation
+  - Artifact transport documentation
   abilities: null
   equipment: null
   mount: null

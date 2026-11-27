@@ -36,7 +36,9 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Archery
+  - Tracking
   abilities: null
   equipment: null
   mount: null
@@ -49,6 +51,16 @@ character_sheet:
   sex: Female
   age: 18
   role: Archer and tracker in training
+  capability_evidence:
+    mana_evidence: Recorded nonmagical; no personal spellcasting profile proposed.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    hp_max_range:
+    - 18
+    - 26
+    specialties:
+    - Field archery
+    - Tracking exercise
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.

@@ -134,6 +134,12 @@ character_sheet:
     goals: Seek trusted advice, lawful succession and stable public services within finite means.
     relationships_design: Council and municipal/noble interests provide public institutional relationships;
       no private alliance or prior meeting is established.
+  approved_design_summary:
+    age: 47
+    role_design: Valedorn’s hereditary sovereign design
+    background_design: Royal-house upbringing emphasizes public ceremony, petition reading and disputed
+      succession records; no actual coronation, named relatives or historical decree is supplied.
+    approval_source_ref: changes/chronicles/phase2-03-government-approval.md
   source_refs:
   - entities/characters/elowen-marcrest.md
   - changes/chronicles/phase2-03-government-approval.md

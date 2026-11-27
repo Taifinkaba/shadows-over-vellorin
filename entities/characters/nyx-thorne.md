@@ -110,6 +110,13 @@ character_sheet:
     - 120
   artwork_ref: artwork/player-cards/nyx-thorne.png
   historical_personal_cash: 94 gp 8 sp
+  capability_evidence:
+    mana_evidence: Familiar care and scouting are recorded. Neither establishes personal casting.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Route reconnaissance
+    - Animal handling
   source_refs:
   - entities/characters/nyx-thorne.md
   - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md

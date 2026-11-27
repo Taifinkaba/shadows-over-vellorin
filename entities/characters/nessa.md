@@ -104,7 +104,9 @@ character_sheet:
     Herbalism: 3/5
     Support Magic: 2/5
     Observation: 3/5
-  abilities: null
+  abilities:
+  - Support Magic (recorded skill 2/5; spell names, costs and healing values unassessed)
+  - Controlled Dragon Essence (F Rank, Level 3 certification)
   equipment:
   - Healer's kit
   - staff
@@ -125,6 +127,10 @@ character_sheet:
     level: 3
     certification: Controlled Dragon Essence
   accounted_recent_earnings_cp: 11500
+  capability_evidence:
+    mana_evidence: Known personal maximum 24 MP; current amount unverified.
+    ability_boundary: Support Magic is an established skill; individual spell names, costs and healing
+      output remain unassessed.
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

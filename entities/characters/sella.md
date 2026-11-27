@@ -57,7 +57,8 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Clerical work
   abilities: null
   equipment: null
   mount: null

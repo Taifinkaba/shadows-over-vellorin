@@ -109,6 +109,10 @@ character_sheet:
   age_category: Adult
   guild_status: Guild E, supervised contracts
   accounted_recent_earnings_cp: 9150
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Supervised reconnaissance assessment
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

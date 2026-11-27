@@ -109,6 +109,11 @@ character_sheet:
     - 60
   artwork_ref: artwork/player-cards/garrick-vale.png
   historical_personal_cash: 95 gp 8 sp
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Protective escort
+    - Field logistics
   source_refs:
   - entities/characters/garrick-vale.md
   - archive/legacy-modules/people/02-i-character-registry-party-family-wolves.md

@@ -128,7 +128,8 @@ character_sheet:
     Team Leadership: 3/5
     Swordsmanship: 2/5
     Field Medicine: 2/5
-  abilities: null
+  abilities:
+  - Controlled Dragon Essence (F Rank, Level 3 certification)
   equipment:
   - Shortsword
   - light armor
@@ -160,6 +161,10 @@ character_sheet:
     level: 3
     certification: Controlled Dragon Essence
   accounted_recent_earnings_cp: 9700
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Navigation and team leadership
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

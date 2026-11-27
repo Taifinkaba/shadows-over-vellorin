@@ -63,6 +63,13 @@ character_sheet:
   specializations:
   - defensive magic theory
   accounted_recent_earnings_cp: 4600
+  capability_evidence:
+    mana_evidence: Defensive magic theory is recorded. Personal mana and practical casting remain unassessed.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Barrier theory
+    - Supervised ward practice
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

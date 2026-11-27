@@ -63,6 +63,10 @@ character_sheet:
   specializations:
   - woodworking and equipment care
   accounted_recent_earnings_cp: 6100
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Supervised mission assessment
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

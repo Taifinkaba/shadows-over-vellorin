@@ -73,7 +73,10 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Construction and maintenance
+  - Arena engineering
+  - Shield obelisk inspection
   abilities: null
   equipment: null
   mount: null

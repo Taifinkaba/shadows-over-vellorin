@@ -112,6 +112,10 @@ character_sheet:
   age_category: Adult
   guild_status: Guild E, supervised contracts
   accounted_recent_earnings_cp: 8150
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Supervised guard and escort assessment
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

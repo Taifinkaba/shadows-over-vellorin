@@ -54,7 +54,9 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Controlled swordsmanship instruction
+  - Field security and combat support
   abilities: null
   equipment: null
   mount: null
@@ -64,6 +66,20 @@ character_sheet:
   recorded_context: Trained Theron in controlled swordsmanship, accompanied him to
     the Gardens of Ilyssara and won the Year 851 Day 365 tournament. She received
     the 100 gp champion prize.
+  capability_evidence:
+    mana_evidence: Swordsmanship and tournament results establish martial skill. Personal mana remains
+      unassessed.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    hp_max_range:
+    - 60
+    - 86
+    base_defense_range:
+    - 25
+    - 33
+    specialties:
+    - Precision dueling
+    - Protective interception
   source_refs:
   - changes/chronicles/year852-day1-end-session.md
 ```

@@ -75,7 +75,10 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Estate stewardship
+  - Accounting and staffing
+  - Market and fair operations
   abilities: null
   equipment: null
   mount: null

@@ -35,7 +35,8 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Herbalism and healing studies; magical aptitude recorded
   abilities: null
   equipment: null
   mount: null
@@ -48,6 +49,20 @@ character_sheet:
   sex: Female
   age: 21
   role: Aspiring healer and herbalist
+  capability_evidence:
+    mana_evidence: Magical aptitude recorded. A measured pool and independent spellcasting have yet
+      to be demonstrated.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    hp_max_range:
+    - 18
+    - 26
+    mp_max_range_if_confirmed:
+    - 8
+    - 14
+    specialties:
+    - Herbal preparation
+    - Supervised healing practice
   source_refs:
   - changes/chronicles/year853-end-session.md
   recorded_context: Year 853. Further assessments pending.

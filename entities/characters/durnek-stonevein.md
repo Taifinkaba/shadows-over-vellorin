@@ -135,6 +135,12 @@ character_sheet:
       rights.
     relationships_design: May engage assembly delegates, mine-right holders and paid workers; no current
       speaker appointment or relation to existing smiths is invented.
+  approved_design_summary:
+    age: 132
+    role_design: Ironhollow craft-and-clan political figure design
+    background_design: A long craft-household background emphasizes material provenance, practical
+      maintenance and assembly debate; species, specific mine, lineage and former offices remain unspecified.
+    approval_source_ref: changes/chronicles/phase2-03-government-approval.md
   source_refs:
   - entities/characters/durnek-stonevein.md
   - changes/chronicles/phase2-03-government-approval.md

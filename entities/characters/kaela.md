@@ -104,7 +104,8 @@ character_sheet:
     Stealth: 3/5
     Tracking: 3/5
     Survival: 2/5
-  abilities: null
+  abilities:
+  - Controlled Dragon Essence (F Rank, Level 3 certification)
   equipment:
   - Shortbow
   - hunting knife
@@ -126,6 +127,10 @@ character_sheet:
     level: 3
     certification: Controlled Dragon Essence
   accounted_recent_earnings_cp: 9050
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    specialties:
+    - Archery and tracking
   source_refs:
   - changes/chronicles/year853-day52.md
   - changes/chronicles/year853-end-session.md

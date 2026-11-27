@@ -24,7 +24,7 @@ character_sheet:
   ancestry: null
   sex: null
   age: null
-  role: null
+  role: Documented V-9 case subject, released after independent review
   rank: null
   level: null
   hp: null

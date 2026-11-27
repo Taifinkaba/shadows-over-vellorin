@@ -46,3 +46,20 @@ class CharacterSheetTests(unittest.TestCase):
                     self.assertIsNone(self.sheets[ident][field])
             rank, level = ('F', 1) if ident in ('dalen-reed','sera-willow','tobin-marsh','elowen-briar') else (None, None)
             self.assertEqual((self.sheets[ident]['rank'], self.sheets[ident]['level']), (rank, level))
+
+    def test_magic_evidence_and_assessment_proposals_preserve_resource_authority(self):
+        lyra = self.sheets['lyra-moonvale']
+        self.assertIsNone(lyra['mp'])
+        self.assertEqual(lyra['mp_max'], 190)
+        self.assertIn('Coordinated Barrier Casting', lyra['abilities'][0])
+
+        for ident in ('aren-duskwell', 'lethara-mossveil'):
+            with self.subTest(character=ident):
+                sheet = self.sheets[ident]
+                self.assertIsNone(sheet['mp'])
+                self.assertIsNone(sheet['mp_max'])
+                self.assertTrue(sheet['proposed_assessment']['status'].startswith('Proposed'))
+
+        gorren = self.sheets['gorren']
+        self.assertEqual((gorren['mp'], gorren['mp_max']), (0, 0))
+        self.assertIn('Controlled Dragon Essence', gorren['abilities'][0])

@@ -83,7 +83,9 @@ character_sheet:
   wis: null
   cha: null
   unspent_attributes: null
-  skills: null
+  skills:
+  - Swordsmanship
+  - Sword provenance and Ashvale investigation
   abilities: null
   equipment: null
   mount: null
@@ -98,6 +100,19 @@ character_sheet:
   specializations:
   - Swordsmanship
   - First Oath, Mirror Foundation and dragon research
+  capability_evidence:
+    mana_evidence: A-rank swordsmanship is established. Personal mana remains unassessed.
+  proposed_assessment:
+    status: Proposed; requires approval before play
+    hp_max_range:
+    - 55
+    - 75
+    base_defense_range:
+    - 23
+    - 30
+    specialties:
+    - Measured counterattacks
+    - Guard and spacing instruction
   source_refs:
   - entities/characters/aric-ashvale.md
   - archive/legacy-modules/world/07-7-the-ashvale-family.md
