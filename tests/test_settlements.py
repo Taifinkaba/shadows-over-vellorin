@@ -181,6 +181,9 @@ class SettlementTests(unittest.TestCase):
                 prefix = prefix.replace('- changes/chronicles/year853-end-session.md\n', '', 1)
                 prefix = re.sub(r'\n## Year 848, Suncrest 262 update\n.*?\n## Earlier record\n',
                                 '', prefix, count=1, flags=re.S)
+                prefix = prefix.replace('- changes/chronicles/year853-day145-reconciliation.md\n', '', 1)
+                prefix = re.sub(r'\n## Year 853 Day 145 reconciliation\n.*?\n## Earlier and standing records\n',
+                                '', prefix, count=1, flags=re.S)
                 self.assertEqual(hashlib.sha256(prefix.encode()).hexdigest(),digest,path)
         with self.subTest(case='test_archived_prices_stay_proposed'), isolated_case(self):
             self.reject('service-price-references',lambda d:d['reference_bands'][0].update(classification='CONFIRMED CANON'),'design price not approved')
