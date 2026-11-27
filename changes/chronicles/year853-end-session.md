@@ -1,6 +1,6 @@
 # Year 853 session chronicle
 
-Player-approved played events through the evening gathering at Hollow Veil. The closing day is unknown. See the [source handoff](../../archive/session-handoffs/year853-user-handoff.txt), [checkpoint](../../state/checkpoint.json), [controlled ledger](../../state/finance-ledger.json) and [DSI ledger](../../state/dsi-finance-ledger.json).
+Player-approved played events through the evening gathering at Hollow Veil. The closing day is unknown. See the [source handoff](../../archive/session-handoffs/year853-user-handoff.txt), [checkpoint](../../archive/checkpoints/year853-hollow-veil.json), [controlled ledger](../../archive/checkpoints/year853-hollow-veil-finance-ledger.json) and [DSI ledger](../../archive/checkpoints/year853-hollow-veil-dsi-finance-ledger.json).
 
 ## 2. Closing checkpoint
 

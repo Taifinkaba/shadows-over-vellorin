@@ -19,7 +19,7 @@ The player’s expedition ruling assigns the net Guild receipts of Theron’s fu
 | Arena Phase VI | −500 gp |
 | **Year 852 Day 365 closing working funds** | **5,146 gp** |
 
-The Day 264 opening and the assignment of all four net receipts to the working reconciliation are player supplied. The digits in contract IDs do not establish payment dates. The earlier 7,145 gp figure was provisional ordinary controlled cash, and a like-for-like itemized bridge to the later working-funds window is unavailable. Ordinary receipts and costs outside the supplied window remain unitemized. The player closed the earlier 20 gp provisions discrepancy and the 317 gp expansion issue. The current window posts neither historical amount. The 9 gp 5 sp provisions expense is the supplied current-window expense. [Earlier financial audit](year852-day1-financial-audit-reconciliation.md) · [Current ledger](../../state/finance-ledger.json)
+The Day 264 opening and the assignment of all four net receipts to the working reconciliation are player supplied. The digits in contract IDs do not establish payment dates. The earlier 7,145 gp figure was provisional ordinary controlled cash, and a like-for-like itemized bridge to the later working-funds window is unavailable. Ordinary receipts and costs outside the supplied window remain unitemized. The player closed the earlier 20 gp provisions discrepancy and the 317 gp expansion issue. The current window posts neither historical amount. The 9 gp 5 sp provisions expense is the supplied current-window expense. [Earlier financial audit](year852-day1-financial-audit-reconciliation.md) · [Archived ledger](../../archive/checkpoints/year852-day365-finance-ledger.json)
 
 ## Completed Guild missions
 

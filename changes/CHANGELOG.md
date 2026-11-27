@@ -1,3 +1,7 @@
+# Historical checkpoint and ledger links
+
+Routed historical handoffs, verification entries, and selected chronicles to their matching archived checkpoints and ledgers. Marked earlier resume notes as historical.
+
 # Year 853 Day 52 — canon-reference cleanup
 
 Aligned the live checkpoint with the paused Westbridge scene, clarified superseded quest and equipment wording, pointed historical handoff links to archived snapshots, and corrected the dashboard privacy status.

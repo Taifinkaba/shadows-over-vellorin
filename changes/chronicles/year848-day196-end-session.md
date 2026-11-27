@@ -1,6 +1,6 @@
 # End session — Year 848, Suncrest 76, Day 196
 
-The approved time skip ran from Day 182 to Day 196, covering fourteen elapsed days. The Day 181 checkpoint supplies the opening balances. The session ended at Ashvale Lodge after Theron's rest. Exact time, room, worn equipment and companion positions are unknown. The [checkpoint](../../state/checkpoint.json) holds final character resources and location.
+The approved time skip ran from Day 182 to Day 196, covering fourteen elapsed days. The Day 181 checkpoint supplies the opening balances. The session ended at Ashvale Lodge after Theron's rest. Exact time, room, worn equipment and companion positions are unknown. The [checkpoint](../../archive/checkpoints/year848-day196.json) holds final character resources and location.
 
 ## Wagon refits
 
@@ -29,4 +29,4 @@ Opening controlled cash was 745 gp 9 sp. The following identifiers are repositor
 - `y848-d196-field-expenses` — Field supplies and expenses paid 8 gp.
 - `y848-d196-companion-compensation` — Combined Garrick and Nyx compensation paid 20 gp.
 
-Gross bounty revenue was 80 gp. The 44 gp treasury handover settled the net after 36 gp in deductions and generated zero additional revenue. Controlled closing cash was 524 gp 9 sp, including 317 gp reserved for the unpaid estate expansion. Uncommitted cash was 207 gp 9 sp. Historic payments and excluded holdings retain their existing treatment in the [sole finance ledger](../../state/finance-ledger.json).
+Gross bounty revenue was 80 gp. The 44 gp treasury handover settled the net after 36 gp in deductions and generated zero additional revenue. Controlled closing cash was 524 gp 9 sp, including 317 gp reserved for the unpaid estate expansion. Uncommitted cash was 207 gp 9 sp. Historic payments and excluded holdings retain their existing treatment in the [sole finance ledger](../../archive/checkpoints/year848-day196-finance-ledger.json).
